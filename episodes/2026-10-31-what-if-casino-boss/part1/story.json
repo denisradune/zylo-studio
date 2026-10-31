@@ -1,0 +1,579 @@
+{
+ "mood": "tech",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "owner": "MR. VANCE",
+  "dealer": "ROSA",
+  "gambler": "LUCKY LOU"
+ },
+ "title": "What If a Gambler Suddenly Owned the Casino? (Part 1)",
+ "seed": 4101,
+ "partLabel": "PART 1/3",
+ "end": {
+  "text": "PART 2",
+  "sub": "Follow \u2014 it drops tomorrow"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if a *gambler* suddenly owned the casino?",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.2,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.4
+     },
+     {
+      "id": "hero",
+      "x": 0.55,
+      "pose": "think",
+      "expr": "smug",
+      "scale": 1.5
+     },
+     {
+      "id": "dealer",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.3
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding",
+      "at": 0.2
+     },
+     {
+      "type": "ding",
+      "at": 0.6,
+      "volume": 0.5
+     }
+    ],
+    "camera": {
+     "push": 0.08
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay has lost *everything* in this casino. Twice.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 5000,
+     "to": 0,
+     "prefix": "$",
+     "label": "JAY'S SAVINGS"
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the old owner hands him *the keys*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.4
+     },
+     {
+      "id": "hero",
+      "x": 0.72,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.4,
+      "facing": -1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop",
+      "at": 0.5
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "It's yours, kid. Every table. Every *machine*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Wait. Why would you give it *away*?",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "So *you* can find out how it works.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 2.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day one. The new boss has *one plan*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#FFD400"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.7,
+      "enter": "pop"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Everybody *wins* tonight!",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.45
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He sets every machine to *pay out*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.3,
+      "pose": "think",
+      "expr": "smug",
+      "scale": 1.3
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     },
+     {
+      "type": "tick",
+      "at": 0.6
+     }
+    ],
+    "camera": {
+     "zoom": 1.2,
+     "y": 0.5,
+     "x": 0.5
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jackpot. Jackpot. *Jackpot.*",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.25,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.5
+     },
+     {
+      "id": "kid",
+      "x": 0.75,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.2,
+      "depth": 0.2
+     }
+    ],
+    "fx": [
+     {
+      "type": "moneyRain"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.5
+     },
+     {
+      "type": "ding",
+      "at": 1.0
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. We just lost *four million dollars*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.7,
+      "enter": "pop"
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 4,
+     "prefix": "-$",
+     "suffix": "M",
+     "label": "TONIGHT"
+    },
+    "fx": [
+     {
+      "type": "alarm"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "alarm",
+      "volume": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Relax. People *love* me now!",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "By midnight, the vault is *empty*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.4
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "VAULT EMPTY",
+     "color": "#E0312B"
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     },
+     {
+      "type": "hit",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Payroll is tomorrow. We have *eleven dollars*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "VAULT",
+       "value": 0.02,
+       "color": "#FF3B3B"
+      }
+     ],
+     "tag": "$11"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Can we borrow money from the *casino*?",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. *You* are the casino.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.32,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.4
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "smug",
+      "scale": 1.0
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the phone rings. The old owner is *laughing*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Phone",
+     "title": "Mr. Vance is calling...",
+     "color": "#2DBE7E"
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ring"
+     }
+    ],
+    "camera": {
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part two drops tomorrow.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 75
+}
