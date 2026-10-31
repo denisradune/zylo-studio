@@ -15,7 +15,32 @@ python3 scripts/youtube_upload.py --check     # must print "expected": true, els
 .venv/bin/python scripts/publish_series.py status
 ```
 
-## 1. Pick today's topic yourself (research first, nobody approves it)
+## 1. Read the audience (every day, before choosing anything)
+```bash
+.venv/bin/python scripts/channel_stats.py     # -> stats/<date>.md + stats/latest.md (commit them)
+```
+Read the report and the previous days' reports (`stats/*.md`). It compares every public video age-fairly
+(views/day over the first week vs the median of its group), flags **HIT** (≥ 2× median) and **FLOP** (≤ 0.4×),
+ranks series and themes, shows how many part-1 viewers come back for later parts, and lists **promised seasons
+still owed**. Write 3–5 lines of conclusions at the top of today's `research.md`: what the audience clearly likes
+(topic, hook style, characters, title wording), what to stop doing.
+
+## 1a. Decide what today's series is — in this order
+1. **A promise is due → keep it.** If a series promised a next season (finale "SEASON 2?", last line "Follow for
+   season two" …) and its last part has aired, today's series is that sequel. Several owed → the best performer
+   first; never leave a promise unkept more than 5 days after its finale.
+2. **A HIT → more of it.** If a recent video/series is a HIT and nothing followed up on it in the last 3 days, make
+   its sequel (if the story allows) or a new premise in the same theme/angle that made it work.
+3. **Otherwise → today's best trend** (below), steered by the theme ranking (more of the top themes, fewer flops).
+Keep a mix: at most 3 days in a row on one theme, so the channel keeps testing new ideas.
+
+**Sequels**: `series.json` gets `"sequelOf": "<slug of season 1>"`, `"season": 2`, same cast/world/names; part 1
+opens with a one-line recap ("Last season: …") and pays off the cliffhanger. Titles "… Season 2 · Part 1 #shorts".
+**Promises are obligations**: only end a series with a next-season tease (finale "SEASON 2?" / "follow for season
+two") when its theme is at or above the median in the stats or it is itself a sequel of a HIT; otherwise end with
+a closed twist and "Follow for a new What if every day."
+
+## 1b. Pick a trending topic yourself (when 1a says trend)
 1. **What is hot right now.** Run several WebSearch queries in one go (use `extended` mode for at least one):
    today's viral/trending topics and memes, what's trending on YouTube Shorts / TikTok this week, upcoming holidays
    and events in the next 1–4 days (the series runs 4 days), big tech/AI/science/pop-culture news, new movie/game
@@ -28,8 +53,9 @@ python3 scripts/youtube_upload.py --check     # must print "expected": true, els
    Fiction only: never real people, brands, logos or events presented as real; riff on the *idea* of the trend
    (e.g. "what if a new phone update…", not a named company). Skip tragedies, politics, and anything that would
    exploit a real disaster.
-4. Write the reasoning to `episodes/<slug>/research.md` (candidates, links, stats you used, why this one won).
-## 1b. Write the series
+4. Write the reasoning to `episodes/<slug>/research.md` (audience conclusions, candidates, links, stats you used,
+   why this one won — or which promise/hit it follows up).
+## 1c. Write the series
 - Titles/tags/hashtags use the words people are searching for this trend (from your research).
 - `episodes/<YYYY-MM-DD>-what-if-<slug>/series.json`: **4 parts** (45–60 s each, own arc, cliffhanger, parts 2+ open
   with "Part two. <recap>"), one running joke, a rule of the world, a cost, a twist; `finale` card on the last part.
@@ -62,6 +88,6 @@ Make a contact sheet per part (12 frames) and Read it; Read `full/out/thumb.png`
 slot already passed, writes `uploads.json` + `log.md`, and stops cleanly at the quota — tomorrow's run continues.
 
 ## 4. Save
-Commit (`episodes/<slug>`, `uploads.json`s, `log.md`, any template changes) and push to
-`claude/magical-newton-hmla9z`. Finish with a short Russian summary: premise, links + publish times, anything left
+Commit (`stats/`, `episodes/<slug>`, `uploads.json`s, `log.md`, any template changes) and push to
+`claude/magical-newton-hmla9z`. Finish with a short Russian summary: what the stats showed (hits/flops), why today's topic, premise, links + publish times, anything left
 for tomorrow.

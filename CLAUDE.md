@@ -12,6 +12,8 @@ Audience: English-speaking 16–35, loves "wait, really?" moments. Talk to the o
   by start date so parallel series never collide); the full story goes out as a regular 16:9 video (with chapters and
   a cartoon thumbnail) the day after the last part at 21:00. `scripts/publish_series.py` does the scheduling/uploads.
 - YouTube API default quota ≈ 6 uploads/day → 4 parts + 1 full per day. More parts need a quota increase.
+- Every day starts with `scripts/channel_stats.py` (stats/latest.md): HITs get follow-ups, promised seasons are
+  always delivered (sequel within 5 days of the finale), otherwise the best current trend. Details: /zylo-daily.
 - Fact-based Shorts (`/zylo-short`) stay available on request.
 
 ## Non-negotiables
