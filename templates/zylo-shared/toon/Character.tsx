@@ -41,6 +41,8 @@ export type Look = {
   glasses?: boolean;
   zombie?: boolean;
   hat?: string;
+  /** Suit: white shirt V, lapels and a tie in this colour. */
+  tie?: string;
 };
 
 export const LOOKS: Record<string, Look> = {
@@ -52,6 +54,12 @@ export const LOOKS: Record<string, Look> = {
   scientist: { skin: '#E8B08A', hair: '#EDEDED', hairStyle: 'messy', top: '#F2F2F2', pants: '#3B3F52', shoes: '#141414', glasses: true },
   zombie: { skin: '#9CC27A', hair: '#2B2B2B', hairStyle: 'messy', top: '#7A6E66', pants: '#3D3A44', shoes: '#2B2B2B', zombie: true },
   zombie2: { skin: '#A8C98A', hair: '#5A3A22', hairStyle: 'long', top: '#5E7FA8', pants: '#3D3A44', shoes: '#2B2B2B', zombie: true },
+  // Jay as the casino boss: black suit, gold tie.
+  heroSuit: { skin: '#F5C49C', hair: '#3B2416', hairStyle: 'messy', top: '#1C1C24', pants: '#1C1C24', shoes: '#141414', tie: '#FFD400' },
+  // The old casino owner and the casino staff.
+  owner: { skin: '#F0BE96', hair: '#D9D9D9', hairStyle: 'short', top: '#6B1E2A', pants: '#22242E', shoes: '#141414', glasses: true, beard: true, tie: '#141414' },
+  dealer: { skin: '#C98B5E', hair: '#141414', hairStyle: 'bun', top: '#FFFFFF', pants: '#1C1C24', shoes: '#141414', tie: '#C8102E' },
+  gambler: { skin: '#E8B08A', hair: '#6B4A2E', hairStyle: 'beanie', top: '#7A5CFF', pants: '#2E2E38', shoes: '#F4F4F4' },
   soldier: { skin: '#D9A27A', hair: '#2B2B2B', hairStyle: 'short', top: '#5D6B3A', pants: '#4A5530', shoes: '#2B2B2B', hat: '#4A5530' },
 };
 
@@ -277,6 +285,13 @@ export const Human: React.FC<{
         strokeLinejoin="round"
       />
       <path d="M 104 410 Q 150 424 196 410" fill="none" stroke={shade(look.top, 0.72)} strokeWidth={5} strokeLinecap="round" />
+      {look.tie && (
+        <g>
+          <path d="M 122 250 L 150 330 L 178 250 Z" fill="#FFFFFF" stroke={INK} strokeWidth={5} strokeLinejoin="round" />
+          <path d="M 143 262 L 157 262 L 154 276 L 162 336 L 150 350 L 138 336 L 146 276 Z" fill={look.tie} stroke={INK} strokeWidth={4} strokeLinejoin="round" />
+          <path d="M 112 256 L 150 346 M 188 256 L 150 346" fill="none" stroke={shade(look.top, 0.6)} strokeWidth={6} strokeLinecap="round" />
+        </g>
+      )}
       {look.zombie && <path d="M 120 440 L 132 420 L 146 444 L 160 418 L 172 446" fill="none" stroke={INK} strokeWidth={5} strokeLinejoin="round" />}
       {look.logo && (
         <g transform="translate(150 340)">

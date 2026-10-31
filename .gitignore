@@ -8,3 +8,4 @@ episodes/**/image-jobs.json
 voice-samples/*.wav
 *.raw.mp4
 __pycache__/
+episodes/**/wide-public/

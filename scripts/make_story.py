@@ -76,7 +76,7 @@ def stage_props(d: Path, ep: dict) -> None:
             # Long line: punch in on the same shot halfway, so the picture changes every ~2 s.
             sh = line['shot']
             cam = sh.get('camera', {})
-            speaker_x = next((c['x'] for c in sh.get('cast', []) if c['id'] == line['speaker']), cam.get('x', 0.5))
+            speaker_x = next((c['x'] for c in sh.get('cast', []) if line['speaker'] in (c['id'], c.get('voice'))), cam.get('x', 0.5))
             punch = {**sh, 'camera': {**cam, 'zoom': round(cam.get('zoom', 1) * 1.3, 2), 'x': speaker_x, 'y': 0.55, 'push': 0.04},
                      'transition': 'cut', 'fx': [e for e in sh.get('fx', []) if e['type'] not in ('meteor', 'impact', 'throwObj')],
                      'sfx': [], 'cast': [{**c, 'enter': 'none'} for c in sh.get('cast', [])]}

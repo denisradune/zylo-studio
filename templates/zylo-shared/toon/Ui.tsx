@@ -255,13 +255,14 @@ export const UiLayer: React.FC<{ ui: UiSpec; f: number; fps: number; dur: number
       );
     case 'counter': {
       const p = interpolate(f, [2, Math.max(8, dur - 8)], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
-      const v = Math.round(ui.from + (ui.to - ui.from) * p);
+      const dec = Number.isInteger(ui.from) && Number.isInteger(ui.to) ? 0 : 1;
+      const v = Number((ui.from + (ui.to - ui.from) * p).toFixed(dec));
       return wrap(
         280,
         <div style={{ textAlign: 'center', ...pop }}>
           <div style={{ fontFamily: brand.head, fontWeight: 900, fontSize: 150, color: '#FFD400', WebkitTextStroke: `6px ${INK}`, textShadow: `8px 8px 0 ${INK}` }}>
             {ui.prefix ?? ''}
-            {v.toLocaleString('en-US')}
+            {v.toLocaleString('en-US', { minimumFractionDigits: dec, maximumFractionDigits: dec })}
             {ui.suffix ?? ''}
           </div>
           {ui.label && <div style={{ fontFamily: brand.body, fontWeight: 900, fontSize: 48, color: '#FFFFFF', textShadow: `4px 4px 0 ${INK}` }}>{ui.label}</div>}

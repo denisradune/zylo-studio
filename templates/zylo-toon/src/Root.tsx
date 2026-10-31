@@ -2,6 +2,7 @@ import React from 'react';
 import { CalculateMetadataFunction, Composition } from 'remotion';
 import { CastSheet } from './CastSheet';
 import { ZyloToon } from './ZyloToon';
+import { ThumbProps, ToonThumb, ToonWide, WideProps } from './Wide';
 import type { StoryProps } from '../../zylo-shared/toon/types';
 
 const FPS = 30;
@@ -31,6 +32,25 @@ export const RemotionRoot: React.FC = () => (
       durationInFrames={FPS * 60}
       defaultProps={sample}
       calculateMetadata={calculateMetadata}
+    />
+    <Composition
+      id="ToonWide"
+      component={ToonWide}
+      width={1920}
+      height={1080}
+      fps={FPS}
+      durationInFrames={FPS * 10}
+      defaultProps={{ video: 'full.mp4', durationSeconds: 10, title: 'What if?', chapters: [{ start: 0, label: 'PART 1', title: 'Start' }] } as WideProps}
+      calculateMetadata={({ props }) => ({ durationInFrames: Math.ceil(props.durationSeconds * FPS) })}
+    />
+    <Composition
+      id="ToonThumb"
+      component={ToonThumb}
+      width={1280}
+      height={720}
+      fps={FPS}
+      durationInFrames={1}
+      defaultProps={{ text: 'WHAT IF *THIS*', set: { type: 'casino' }, cast: [{ id: 'heroSuit', x: 0.75, pose: 'cheer', expr: 'grin', scale: 1.6 }] } as ThumbProps}
     />
     <Composition id="CastSheet" component={CastSheet} width={1800} height={1600} fps={30} durationInFrames={90} />
   </>

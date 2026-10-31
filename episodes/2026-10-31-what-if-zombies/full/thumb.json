@@ -1,0 +1,5 @@
+{"text": "ZOMBIES FROM ONE *UPDATE*", "badge": "FULL STORY", "cropY": 880,
+ "set": {"type": "street", "time": "dusk"},
+ "cast": [{"id": "zombie2", "x": 0.62, "pose": "zombie", "expr": "angry", "scale": 0.95, "y": 1530},
+          {"id": "zombie", "x": 0.93, "pose": "zombie", "expr": "angry", "scale": 1.15, "y": 1620, "facing": -1},
+          {"id": "hero", "x": 0.76, "pose": "phone", "expr": "shocked", "scale": 1.3, "y": 1760}]}

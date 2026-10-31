@@ -12,12 +12,12 @@ export const H = 1920;
 export const FLOOR_Y = 1480;
 
 export type TimeOfDay = 'day' | 'dusk' | 'night';
-export type SetName = 'room' | 'street' | 'sky' | 'space' | 'news' | 'store' | 'wasteland' | 'lab' | 'burst';
+export type SetName = 'room' | 'street' | 'sky' | 'space' | 'news' | 'store' | 'wasteland' | 'lab' | 'burst' | 'casino';
 
 export type SetSpec = {
   type: SetName;
   time?: TimeOfDay;
-  /** 0 = intact, 1 = damaged, 2 = ruined (street, room, store). */
+  /** 0 = intact, 1 = damaged, 2 = ruined (street, room, store). Casino: 1 = lights dying, 2 = dark and broke. */
   damage?: number;
   /** burst/news: main colour; news: headline text on the banner. */
   color?: string;
@@ -343,6 +343,103 @@ const Burst: React.FC<{ color?: string; t: number }> = ({ color = '#FFD400', t }
   </g>
 );
 
+/** Casino floor: velvet wall, chandelier, a row of blinking slot machines, patterned carpet. */
+const Casino: React.FC<{ t: number; damage: number }> = ({ t, damage }) => {
+  const lit = damage === 0 ? 1 : damage === 1 ? 0.55 : 0.12;
+  const symbols = ['7', '\u2665', '$', '\u2605', 'BAR'];
+  const machineColors = ['#C8102E', '#7A5CFF', '#1F8A70', '#E36414'];
+  return (
+    <g>
+      <defs>
+        <linearGradient id="casino-wall" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor={damage < 2 ? '#2A0A14' : '#0E0A0C'} />
+          <stop offset="1" stopColor={damage < 2 ? '#5C1428' : '#1C1216'} />
+        </linearGradient>
+        <pattern id="casino-carpet" width="90" height="90" patternUnits="userSpaceOnUse">
+          <rect width="90" height="90" fill={damage < 2 ? '#3D0E1E' : '#1A1014'} />
+          <circle cx="45" cy="45" r="20" fill="none" stroke="#B8860B" strokeWidth="5" opacity={0.6 * lit + 0.2} />
+          <path d="M 0 0 L 18 0 L 0 18 Z M 90 90 L 72 90 L 90 72 Z" fill="#B8860B" opacity={0.5 * lit + 0.2} />
+        </pattern>
+      </defs>
+      <rect width={W} height={H} fill="url(#casino-wall)" />
+      {/* wall panels with gold trim */}
+      {[0, 1, 2, 3].map((i) => (
+        <rect key={i} x={30 + i * 262} y={240} width={236} height={560} rx={14} fill="none" stroke="#B8860B" strokeWidth={6} opacity={0.35 + 0.45 * lit} />
+      ))}
+      {/* chandelier */}
+      <g transform="translate(540 0)" opacity={0.3 + 0.7 * lit}>
+        <line x1={0} y1={0} x2={0} y2={150} stroke={INK} strokeWidth={8} />
+        <path d="M -230 170 Q 0 330 230 170" fill="none" stroke="#D4A017" strokeWidth={14} />
+        <path d="M -150 190 Q 0 290 150 190" fill="none" stroke="#D4A017" strokeWidth={10} />
+        {Array.from({ length: 9 }).map((_, i) => {
+          const x = -220 + i * 55;
+          const y = 170 + Math.sin((i / 8) * Math.PI) * 110;
+          const flicker = damage === 1 && rnd(i + Math.floor(t / 4)) < 0.35 ? 0.2 : 1;
+          return (
+            <g key={i}>
+              <path d={`M ${x} ${y} l -12 40 l 12 22 l 12 -22 Z`} fill="#FFF4C2" stroke={INK} strokeWidth={4} opacity={flicker} />
+              {damage < 2 && <circle cx={x} cy={y + 30} r={40} fill="#FFE27A" opacity={0.18 * flicker * lit} />}
+            </g>
+          );
+        })}
+      </g>
+      {/* neon sign */}
+      <g transform="translate(540 560)" opacity={damage === 2 ? 0.25 : 1}>
+        <rect x={-300} y={-86} width={600} height={150} rx={26} fill="#16161C" stroke="#FFD400" strokeWidth={10} />
+        <text x={0} y={36} textAnchor="middle" fontFamily="ZyloDisplay, Impact, sans-serif" fontSize={112} fill={damage === 1 && Math.floor(t / 6) % 3 === 0 ? '#5A4A00' : '#FFD400'} letterSpacing={6}>
+          CASINO
+        </text>
+      </g>
+      {/* slot machines */}
+      {[0, 1, 2, 3].map((i) => {
+        const x = 40 + i * 258;
+        const c = machineColors[i];
+        return (
+          <g key={i} transform={`translate(${x} 900)`}>
+            <path d="M 10 0 Q 10 -50 120 -50 Q 230 -50 230 0 Z" fill={c} stroke={INK} strokeWidth={7} opacity={0.4 + 0.6 * lit} />
+            <rect x={10} y={0} width={220} height={560} rx={18} fill={c} stroke={INK} strokeWidth={7} opacity={0.45 + 0.55 * lit} />
+            <rect x={34} y={60} width={172} height={110} rx={10} fill={damage === 2 ? '#222' : '#FFFFFF'} stroke={INK} strokeWidth={6} />
+            {damage < 2 &&
+              [0, 1, 2].map((k) => {
+                const spin = damage === 0 ? Math.floor(t / (3 + k)) + i * 3 + k : i + k;
+                const sym = symbols[spin % symbols.length];
+                return (
+                  <text key={k} x={63 + k * 57} y={136} textAnchor="middle" fontFamily="ZyloDisplay, Impact, sans-serif" fontSize={sym === 'BAR' ? 26 : 54} fill={sym === '7' ? '#C8102E' : INK}>
+                    {sym}
+                  </text>
+                );
+              })}
+            {Array.from({ length: 6 }).map((_, k) => (
+              <circle
+                key={k}
+                cx={44 + k * 30}
+                cy={30}
+                r={8}
+                fill="#FFD400"
+                stroke={INK}
+                strokeWidth={3}
+                opacity={damage === 2 ? 0.15 : (Math.floor(t / 5) + k + i) % 2 === 0 ? lit : 0.25}
+              />
+            ))}
+            <rect x={60} y={230} width={120} height={20} rx={6} fill={INK} />
+            <rect x={44} y={330} width={152} height={70} rx={10} fill={shade(c)} stroke={INK} strokeWidth={5} />
+            <line x1={232} y1={120} x2={262} y2={60} stroke={INK} strokeWidth={9} strokeLinecap="round" />
+            <circle cx={262} cy={56} r={16} fill="#C8102E" stroke={INK} strokeWidth={5} />
+          </g>
+        );
+      })}
+      <rect y={FLOOR_Y - 20} width={W} height={H - FLOOR_Y + 20} fill="url(#casino-carpet)" stroke={INK} strokeWidth={8} />
+      {damage === 2 && <rect width={W} height={H} fill="#000" opacity={0.35} />}
+    </g>
+  );
+};
+
+const shade = (hex: string) => {
+  const n = parseInt(hex.slice(1), 16);
+  const c = (v: number) => Math.round(v * 0.7);
+  return `rgb(${c((n >> 16) & 255)},${c((n >> 8) & 255)},${c(n & 255)})`;
+};
+
 export const SetPiece: React.FC<{ spec: SetSpec; t: number }> = ({ spec, t }) => {
   const time = spec.time ?? 'day';
   const damage = spec.damage ?? 0;
@@ -365,6 +462,8 @@ export const SetPiece: React.FC<{ spec: SetSpec; t: number }> = ({ spec, t }) =>
       return <Lab t={t} />;
     case 'burst':
       return <Burst color={spec.color} t={t} />;
+    case 'casino':
+      return <Casino t={t} damage={damage} />;
   }
 };
 

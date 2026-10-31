@@ -8,5 +8,8 @@
   "scientist": {"voice": "bm_fable", "lang": "en-gb", "speed": 1.0},
   "kid": {"voice": "af_nicole", "lang": "en-us", "speed": 1.1},
   "soldier": {"voice": "am_fenrir", "lang": "en-us", "speed": 1.0},
+  "owner": {"voice": "bm_lewis", "lang": "en-gb", "speed": 0.92},
+  "dealer": {"voice": "af_sarah", "lang": "en-us", "speed": 1.0},
+  "gambler": {"voice": "am_eric", "lang": "en-us", "speed": 1.08},
   "zombie": {"voice": "am_onyx", "lang": "en-us", "speed": 0.8}
 }
