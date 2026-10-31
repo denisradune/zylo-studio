@@ -1,0 +1,1665 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 48.753,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 121,
+   "endMs": 451,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 451,
+   "endMs": 1060,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "A",
+   "startMs": 1401,
+   "endMs": 1521,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "stranger",
+   "startMs": 1521,
+   "endMs": 2171,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "just",
+   "startMs": 2171,
+   "endMs": 2401,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "bet",
+   "startMs": 2401,
+   "endMs": 2671,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "his",
+   "startMs": 2671,
+   "endMs": 2801,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "house.",
+   "startMs": 2801,
+   "endMs": 3343,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Sir,",
+   "startMs": 3643,
+   "endMs": 3843,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "please.",
+   "startMs": 3843,
+   "endMs": 4304,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Don't",
+   "startMs": 4605,
+   "endMs": 4775,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "do",
+   "startMs": 4775,
+   "endMs": 4895,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "this.",
+   "startMs": 4895,
+   "endMs": 5309,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "You're",
+   "startMs": 5633,
+   "endMs": 5863,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 5863,
+   "endMs": 5993,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "boss.",
+   "startMs": 5993,
+   "endMs": 6423,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 6724,
+   "endMs": 6894,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "want",
+   "startMs": 6894,
+   "endMs": 7114,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "me",
+   "startMs": 7114,
+   "endMs": 7234,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 7234,
+   "endMs": 7344,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "lose.",
+   "startMs": 7344,
+   "endMs": 7897,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Technically...",
+   "startMs": 8179,
+   "endMs": 8947,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "he's",
+   "startMs": 9627,
+   "endMs": 9897,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "right.",
+   "startMs": 9897,
+   "endMs": 10459,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 10783,
+   "endMs": 10963,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "wheel",
+   "startMs": 10963,
+   "endMs": 11363,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "spins.",
+   "startMs": 11363,
+   "endMs": 12020,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 12425,
+   "endMs": 12545,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "whole",
+   "startMs": 12545,
+   "endMs": 12855,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "floor",
+   "startMs": 12855,
+   "endMs": 13295,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "goes",
+   "startMs": 13295,
+   "endMs": 13545,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "quiet.",
+   "startMs": 13545,
+   "endMs": 14089,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Seventeen.",
+   "startMs": 14368,
+   "endMs": 15221,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Black.",
+   "startMs": 15523,
+   "endMs": 16099,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "He",
+   "startMs": 16444,
+   "endMs": 16594,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "bet",
+   "startMs": 16594,
+   "endMs": 16784,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 16784,
+   "endMs": 17094,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "red.",
+   "startMs": 17094,
+   "endMs": 17575,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "He",
+   "startMs": 17937,
+   "endMs": 18127,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "loses.",
+   "startMs": 18127,
+   "endMs": 18791,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 19133,
+   "endMs": 19553,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "looks",
+   "startMs": 19553,
+   "endMs": 19793,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 19793,
+   "endMs": 19933,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 19933,
+   "endMs": 20053,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "money.",
+   "startMs": 20053,
+   "endMs": 20520,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 20861,
+   "endMs": 21161,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 21161,
+   "endMs": 21301,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 21301,
+   "endMs": 21391,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "man.",
+   "startMs": 21391,
+   "endMs": 21971,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Bit.",
+   "startMs": 22271,
+   "endMs": 22697,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Give",
+   "startMs": 22980,
+   "endMs": 23040,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "him",
+   "startMs": 22990,
+   "endMs": 23140,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "his",
+   "startMs": 23140,
+   "endMs": 23370,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "house",
+   "startMs": 23370,
+   "endMs": 23660,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "back.",
+   "startMs": 23660,
+   "endMs": 24047,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "That",
+   "startMs": 24413,
+   "endMs": 24623,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "breaks",
+   "startMs": 24623,
+   "endMs": 24983,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 24983,
+   "endMs": 25123,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "entire",
+   "startMs": 25123,
+   "endMs": 25573,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "business",
+   "startMs": 25573,
+   "endMs": 25933,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "model.",
+   "startMs": 25933,
+   "endMs": 26376,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 26636,
+   "endMs": 26916,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "break",
+   "startMs": 26916,
+   "endMs": 27166,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 27166,
+   "endMs": 27468,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Do",
+   "startMs": 27791,
+   "endMs": 27951,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "it.",
+   "startMs": 27951,
+   "endMs": 28281,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Why",
+   "startMs": 28541,
+   "endMs": 28851,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "would",
+   "startMs": 28851,
+   "endMs": 28931,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 28931,
+   "endMs": 29021,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "casino",
+   "startMs": 29021,
+   "endMs": 29551,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "do",
+   "startMs": 29551,
+   "endMs": 29721,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "that?",
+   "startMs": 29721,
+   "endMs": 30077,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Because",
+   "startMs": 30359,
+   "endMs": 30579,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 30579,
+   "endMs": 30779,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "used",
+   "startMs": 30779,
+   "endMs": 30949,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 30949,
+   "endMs": 31009,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "be",
+   "startMs": 31009,
+   "endMs": 31209,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "you.",
+   "startMs": 31209,
+   "endMs": 31489,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "That",
+   "startMs": 31877,
+   "endMs": 32027,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "night,",
+   "startMs": 32027,
+   "endMs": 32297,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 32297,
+   "endMs": 32677,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "hangs",
+   "startMs": 32677,
+   "endMs": 33037,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 33037,
+   "endMs": 33337,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "sign",
+   "startMs": 33337,
+   "endMs": 33727,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "by",
+   "startMs": 33727,
+   "endMs": 33887,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 33887,
+   "endMs": 33977,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "door.",
+   "startMs": 33977,
+   "endMs": 34331,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Business",
+   "startMs": 34652,
+   "endMs": 35082,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "drops",
+   "startMs": 35082,
+   "endMs": 35472,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "forty",
+   "startMs": 35472,
+   "endMs": 35842,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "percent.",
+   "startMs": 35842,
+   "endMs": 36337,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Jay.",
+   "startMs": 36704,
+   "endMs": 37216,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Mr.",
+   "startMs": 37539,
+   "endMs": 38157,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Vance",
+   "startMs": 38480,
+   "endMs": 38860,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "wants",
+   "startMs": 38860,
+   "endMs": 39080,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "his",
+   "startMs": 39080,
+   "endMs": 39230,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "keys",
+   "startMs": 39230,
+   "endMs": 39540,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "back.",
+   "startMs": 39540,
+   "endMs": 39973,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Turns",
+   "startMs": 40297,
+   "endMs": 40767,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "out...",
+   "startMs": 40767,
+   "endMs": 41172,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "he",
+   "startMs": 41599,
+   "endMs": 41709,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "never",
+   "startMs": 41709,
+   "endMs": 42109,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "really",
+   "startMs": 42109,
+   "endMs": 42479,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "sold",
+   "startMs": 42479,
+   "endMs": 42899,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 42899,
+   "endMs": 43071,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Lesson",
+   "startMs": 43371,
+   "endMs": 43861,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "two,",
+   "startMs": 43861,
+   "endMs": 44371,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "kid.",
+   "startMs": 44371,
+   "endMs": 44736,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Always",
+   "startMs": 45040,
+   "endMs": 45530,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "read",
+   "startMs": 45530,
+   "endMs": 46000,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 46000,
+   "endMs": 46150,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "contract.",
+   "startMs": 46150,
+   "endMs": 46853,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 47159,
+   "endMs": 47549,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 47549,
+   "endMs": 47729,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "season",
+   "startMs": 47729,
+   "endMs": 48199,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 48199,
+   "endMs": 48716,
+   "line": 18,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 3.401
+  },
+  {
+   "speaker": "hero",
+   "start": 3.621,
+   "end": 5.392
+  },
+  {
+   "speaker": "gambler",
+   "start": 5.612,
+   "end": 7.937
+  },
+  {
+   "speaker": "bit",
+   "start": 8.157,
+   "end": 10.52
+  },
+  {
+   "speaker": "narrator",
+   "start": 10.74,
+   "end": 14.127
+  },
+  {
+   "speaker": "dealer",
+   "start": 14.347,
+   "end": 16.16
+  },
+  {
+   "speaker": "narrator",
+   "start": 16.38,
+   "end": 18.871
+  },
+  {
+   "speaker": "narrator",
+   "start": 19.091,
+   "end": 22.029
+  },
+  {
+   "speaker": "hero",
+   "start": 22.249,
+   "end": 24.172
+  },
+  {
+   "speaker": "bit",
+   "start": 24.392,
+   "end": 26.416
+  },
+  {
+   "speaker": "hero",
+   "start": 26.636,
+   "end": 28.321
+  },
+  {
+   "speaker": "gambler",
+   "start": 28.541,
+   "end": 30.139
+  },
+  {
+   "speaker": "hero",
+   "start": 30.359,
+   "end": 31.593
+  },
+  {
+   "speaker": "narrator",
+   "start": 31.813,
+   "end": 34.411
+  },
+  {
+   "speaker": "narrator",
+   "start": 34.631,
+   "end": 36.463
+  },
+  {
+   "speaker": "bit",
+   "start": 36.683,
+   "end": 40.035
+  },
+  {
+   "speaker": "narrator",
+   "start": 40.255,
+   "end": 43.129
+  },
+  {
+   "speaker": "owner",
+   "start": 43.349,
+   "end": 46.896
+  },
+  {
+   "speaker": "narrator",
+   "start": 47.116,
+   "end": 48.753
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "owner": "MR. VANCE",
+  "dealer": "ROSA",
+  "gambler": "LUCKY LOU"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "gambler",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "grin",
+     "scale": 1.3
+    },
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.72,
+     "pose": "idle",
+     "expr": "scared",
+     "scale": 1.3,
+     "facing": -1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 1.78
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "gambler",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "grin",
+     "scale": 1.3,
+     "enter": "none"
+    },
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.72,
+     "pose": "idle",
+     "expr": "scared",
+     "scale": 1.3,
+     "facing": -1,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 1.78,
+   "end": 3.561
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "scared",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 3.561,
+   "end": 5.552
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "gambler",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "gambler",
+   "start": 5.552,
+   "end": 8.097
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 8.097,
+   "end": 10.68
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "gambler",
+     "x": 0.18,
+     "pose": "think",
+     "expr": "scared",
+     "depth": 0.3
+    },
+    {
+     "id": "dealer",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.5
+    },
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.82,
+     "pose": "idle",
+     "expr": "scared",
+     "depth": 0.3,
+     "facing": -1
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick"
+    },
+    {
+     "type": "tick",
+     "at": 0.5
+    },
+    {
+     "type": "tick",
+     "at": 1.0
+    },
+    {
+     "type": "heartbeat",
+     "at": 1.2
+    }
+   ],
+   "camera": {
+    "push": 0.15
+   },
+   "speaker": "narrator",
+   "start": 10.68,
+   "end": 12.483
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "gambler",
+     "x": 0.18,
+     "pose": "think",
+     "expr": "scared",
+     "depth": 0.3,
+     "enter": "none"
+    },
+    {
+     "id": "dealer",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.5,
+     "enter": "none"
+    },
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.82,
+     "pose": "idle",
+     "expr": "scared",
+     "depth": 0.3,
+     "facing": -1,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "push": 0.04,
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55
+   },
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 12.483,
+   "end": 14.287
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "dealer",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "neutral",
+     "scale": 1.9
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "17",
+    "sub": "BLACK",
+    "color": "#16161C"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "transition": "flash",
+   "speaker": "dealer",
+   "start": 14.287,
+   "end": 16.32
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "gambler",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "stamp",
+    "text": "LOST",
+    "color": "#E0312B"
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    },
+    {
+     "type": "powerdown",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 16.32,
+   "end": 19.031
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "camera": {
+    "zoom": 1.15,
+    "y": 0.55,
+    "push": 0.1
+   },
+   "speaker": "narrator",
+   "start": 19.031,
+   "end": 20.61
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "sad",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "camera": {
+    "zoom": 1.49,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "transition": "cut",
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 20.61,
+   "end": 22.189
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.35,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.8,
+     "expr": "shocked",
+     "scale": 0.9
+    }
+   ],
+   "speaker": "hero",
+   "start": 22.189,
+   "end": 24.332
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "glitch",
+     "scale": 1.7
+    }
+   ],
+   "fx": [
+    {
+     "type": "glitch"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "glitch"
+    }
+   ],
+   "speaker": "bit",
+   "start": 24.332,
+   "end": 26.576
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "throw",
+     "expr": "angry",
+     "scale": 1.8
+    }
+   ],
+   "fx": [
+    {
+     "type": "throwObj",
+     "from": [
+      620,
+      760
+     ],
+     "to": [
+      1200,
+      300
+     ],
+     "at": 0.3,
+     "dur": 0.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": 0.25
+    }
+   ],
+   "camera": {
+    "zoom": 1.05
+   },
+   "speaker": "hero",
+   "start": 26.576,
+   "end": 28.481
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "gambler",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "shocked",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "gambler",
+   "start": 28.481,
+   "end": 30.299
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "gambler",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.3
+    },
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.7,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.3,
+     "facing": -1
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 1100,
+     "r": 520
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "hero",
+   "start": 30.299,
+   "end": 31.753
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "smug",
+     "scale": 1.4
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "THE HOUSE ALWAYS WINS",
+    "sub": "Know when to go home",
+    "color": "#16161C"
+   },
+   "sfx": [
+    {
+     "type": "knock"
+    }
+   ],
+   "transition": "whip",
+   "speaker": "narrator",
+   "start": 31.753,
+   "end": 34.571
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 100,
+    "to": 60,
+    "suffix": "%",
+    "label": "PROFIT"
+   },
+   "sfx": [
+    {
+     "type": "powerdown"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 34.571,
+   "end": 36.623
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "shocked",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "notify",
+    "app": "Mail",
+    "title": "Mr. Vance",
+    "body": "Re: the contract"
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "bit",
+   "start": 36.623,
+   "end": 40.195
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "owner",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "smug",
+     "scale": 2.1,
+     "enter": "pop"
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit"
+    },
+    {
+     "type": "riser",
+     "at": 0.5
+    }
+   ],
+   "camera": {
+    "zoom": 1.15,
+    "y": 0.5,
+    "push": 0.12
+   },
+   "transition": "flash",
+   "speaker": "narrator",
+   "start": 40.195,
+   "end": 41.742
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "owner",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "smug",
+     "scale": 2.1,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.49,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 41.742,
+   "end": 43.289
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "owner",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "growl",
+     "at": 1.0,
+     "volume": 0.3
+    }
+   ],
+   "speaker": "owner",
+   "start": 43.289,
+   "end": 45.172
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "owner",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "owner",
+   "start": 45.172,
+   "end": 47.056
+  }
+ ],
+ "endStart": 47.056,
+ "endText": "SEASON 2?",
+ "endSub": "Follow to see what Jay does next",
+ "partLabel": "PART 3/3"
+}

@@ -245,14 +245,19 @@ export const UiLayer: React.FC<{ ui: UiSpec; f: number; fps: number; dur: number
         </Paper>,
       );
     }
-    case 'card':
+    case 'card': {
+      // Readable on any card colour: light text on dark cards.
+      const hex = (ui.color ?? '#FFF6DF').replace('#', '');
+      const lum = (0.299 * parseInt(hex.slice(0, 2), 16) + 0.587 * parseInt(hex.slice(2, 4), 16) + 0.114 * parseInt(hex.slice(4, 6), 16)) / 255;
+      const dark = lum < 0.5;
       return wrap(
         330,
         <Paper tilt={-3} style={{ padding: '30px 54px', textAlign: 'center', background: ui.color ?? '#FFF6DF', ...pop, transform: `rotate(-3deg) scale(${0.6 + 0.4 * s})` }}>
-          <div style={{ fontFamily: brand.head, fontWeight: 900, fontSize: ui.text.length > 10 ? 84 : 120, color: INK, lineHeight: 1.05 }}>{ui.text}</div>
-          {ui.sub && <div style={{ marginTop: 10, fontFamily: brand.body, fontWeight: 900, fontSize: 40, color: '#E0312B' }}>{ui.sub}</div>}
+          <div style={{ fontFamily: brand.head, fontWeight: 900, fontSize: ui.text.length > 14 ? 72 : ui.text.length > 10 ? 84 : 120, color: dark ? '#FFFFFF' : INK, lineHeight: 1.05 }}>{ui.text}</div>
+          {ui.sub && <div style={{ marginTop: 10, fontFamily: brand.body, fontWeight: 900, fontSize: 40, color: dark ? '#FFD400' : '#E0312B' }}>{ui.sub}</div>}
         </Paper>,
       );
+    }
     case 'counter': {
       const p = interpolate(f, [2, Math.max(8, dur - 8)], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
       const dec = Number.isInteger(ui.from) && Number.isInteger(ui.to) ? 0 : 1;

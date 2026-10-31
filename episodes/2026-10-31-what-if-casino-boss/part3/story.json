@@ -1,0 +1,598 @@
+{
+ "mood": "tech",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "owner": "MR. VANCE",
+  "dealer": "ROSA",
+  "gambler": "LUCKY LOU"
+ },
+ "title": "What If a Gambler Suddenly Owned the Casino? (Part 3)",
+ "seed": 4103,
+ "partLabel": "PART 3/3",
+ "end": {
+  "text": "SEASON 2?",
+  "sub": "Follow to see what Jay does next"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part three. A stranger just bet *his house*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 1.3
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.72,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Sir, please. Don't do *this*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "gambler",
+   "say": "You're the boss. You *want* me to lose.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Technically... *he's right*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The wheel spins. The whole floor *goes quiet*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.18,
+      "pose": "think",
+      "expr": "scared",
+      "depth": 0.3
+     },
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.5
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.82,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.3,
+      "facing": -1
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     },
+     {
+      "type": "tick",
+      "at": 1.0
+     },
+     {
+      "type": "heartbeat",
+      "at": 1.2
+     }
+    ],
+    "camera": {
+     "push": 0.15
+    }
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Seventeen. *Black*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "17",
+     "sub": "BLACK",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He bet on red. He *loses*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "LOST",
+     "color": "#E0312B"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     },
+     {
+      "type": "powerdown",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay looks at the money. Then at *the man*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55,
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. Give him his house *back*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.35,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "That breaks the *entire* business model.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "glitch"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Then break it. *Do it.*",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "throw",
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "throwObj",
+      "from": [
+       620,
+       760
+      ],
+      "to": [
+       1200,
+       300
+      ],
+      "at": 0.3,
+      "dur": 0.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh",
+      "at": 0.25
+     }
+    ],
+    "camera": {
+     "zoom": 1.05
+    }
+   }
+  },
+  {
+   "speaker": "gambler",
+   "say": "Why would a *casino* do that?",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Because I used to be *you*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.3
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.7,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 520
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "That night, Jay hangs one sign by the door.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.4
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "THE HOUSE ALWAYS WINS",
+     "sub": "Know when to go home",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Business drops *forty percent*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 100,
+     "to": 60,
+     "suffix": "%",
+     "label": "PROFIT"
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. Mr. Vance wants his keys *back*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Mail",
+     "title": "Mr. Vance",
+     "body": "Re: the contract"
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Turns out... he *never* really sold it.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 2.1,
+      "enter": "pop"
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     },
+     {
+      "type": "riser",
+      "at": 0.5
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Lesson two, kid. Always read the *contract*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "growl",
+      "at": 1.0,
+      "volume": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for season two.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 75
+}
