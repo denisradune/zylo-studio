@@ -66,7 +66,7 @@ def main():
                 'title': f"{s['title']} (Part {i})",
                 'seed': s.get('seed', 1) + i,
                 'partLabel': f'PART {i}/{n}',
-                'end': s.get('finale') if last else {'text': f'PART {i + 1}', 'sub': 'Follow — it drops tomorrow'},
+                'end': s.get('finale') if last else {'text': f'PART {i + 1}', 'sub': 'Follow — it drops tomorrow' if s.get('every', 2) == 1 else f"Follow — it drops in {s.get('every', 2)} days"},
                 'lines': p['lines'],
                 'minSeconds': 35,
                 'maxSeconds': 90,

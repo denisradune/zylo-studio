@@ -1,0 +1,1829 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 58.835,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "What",
+   "startMs": 143,
+   "endMs": 393,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 393,
+   "endMs": 453,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "an",
+   "startMs": 443,
+   "endMs": 613,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 613,
+   "endMs": 1123,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "replaced",
+   "startMs": 1123,
+   "endMs": 1573,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Santa",
+   "startMs": 1573,
+   "endMs": 1983,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Claus?",
+   "startMs": 1983,
+   "endMs": 2532,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "December",
+   "startMs": 2853,
+   "endMs": 3493,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "first.",
+   "startMs": 3493,
+   "endMs": 3984,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Santa",
+   "startMs": 4432,
+   "endMs": 4942,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 4942,
+   "endMs": 5152,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "exhausted.",
+   "startMs": 5152,
+   "endMs": 6011,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Three",
+   "startMs": 6313,
+   "endMs": 6773,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "hundred",
+   "startMs": 6773,
+   "endMs": 7163,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "years",
+   "startMs": 7163,
+   "endMs": 7683,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 7683,
+   "endMs": 7843,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "chimneys.",
+   "startMs": 7843,
+   "endMs": 8553,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "My",
+   "startMs": 8836,
+   "endMs": 9146,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "back",
+   "startMs": 9146,
+   "endMs": 9426,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 9426,
+   "endMs": 9646,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "done.",
+   "startMs": 9646,
+   "endMs": 9988,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "So",
+   "startMs": 10312,
+   "endMs": 10462,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 10462,
+   "endMs": 10562,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "North",
+   "startMs": 10562,
+   "endMs": 10832,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Pole",
+   "startMs": 10832,
+   "endMs": 11152,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "posts",
+   "startMs": 11152,
+   "endMs": 11542,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 11542,
+   "endMs": 11672,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "job",
+   "startMs": 11672,
+   "endMs": 12012,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "ad.",
+   "startMs": 12012,
+   "endMs": 12488,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Must",
+   "startMs": 12791,
+   "endMs": 13061,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "love",
+   "startMs": 13061,
+   "endMs": 13461,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "cookies.",
+   "startMs": 13461,
+   "endMs": 14156,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Must",
+   "startMs": 14500,
+   "endMs": 14890,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "fly.",
+   "startMs": 14890,
+   "endMs": 15439,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Must",
+   "startMs": 15759,
+   "endMs": 16029,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "never",
+   "startMs": 16029,
+   "endMs": 16479,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "sleep.",
+   "startMs": 16479,
+   "endMs": 17103,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Far",
+   "startMs": 17448,
+   "endMs": 17798,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "away,",
+   "startMs": 17798,
+   "endMs": 18108,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Jay's",
+   "startMs": 18108,
+   "endMs": 18478,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 18478,
+   "endMs": 19088,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "reads",
+   "startMs": 19088,
+   "endMs": 19398,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 19398,
+   "endMs": 19518,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "ad.",
+   "startMs": 19518,
+   "endMs": 19901,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "One",
+   "startMs": 20201,
+   "endMs": 20451,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "night",
+   "startMs": 20451,
+   "endMs": 20721,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 20721,
+   "endMs": 20801,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "work",
+   "startMs": 20801,
+   "endMs": 21071,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 21071,
+   "endMs": 21181,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "year?",
+   "startMs": 21181,
+   "endMs": 21545,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "That",
+   "startMs": 21911,
+   "endMs": 22151,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 22151,
+   "endMs": 22331,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "efficient.",
+   "startMs": 22331,
+   "endMs": 23084,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Bit,",
+   "startMs": 23365,
+   "endMs": 23515,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "you're",
+   "startMs": 23515,
+   "endMs": 23655,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 23655,
+   "endMs": 23715,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "laptop",
+   "startMs": 23685,
+   "endMs": 24095,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "app.",
+   "startMs": 24095,
+   "endMs": 24496,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 24797,
+   "endMs": 24917,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "can't",
+   "startMs": 24917,
+   "endMs": 25107,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "be",
+   "startMs": 25107,
+   "endMs": 25257,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Santa.",
+   "startMs": 25257,
+   "endMs": 25779,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Already",
+   "startMs": 26103,
+   "endMs": 26543,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "applied.",
+   "startMs": 26543,
+   "endMs": 27169,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Already",
+   "startMs": 27471,
+   "endMs": 27921,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "interviewed.",
+   "startMs": 27921,
+   "endMs": 28601,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "When?!",
+   "startMs": 28883,
+   "endMs": 29395,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 29677,
+   "endMs": 29817,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "been",
+   "startMs": 29817,
+   "endMs": 30017,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "four",
+   "startMs": 30017,
+   "endMs": 30247,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "seconds.",
+   "startMs": 30247,
+   "endMs": 30744,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "I",
+   "startMs": 31089,
+   "endMs": 31299,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "am",
+   "startMs": 31299,
+   "endMs": 31439,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "very",
+   "startMs": 31439,
+   "endMs": 31719,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "good",
+   "startMs": 31719,
+   "endMs": 31869,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 31869,
+   "endMs": 31979,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "interviews.",
+   "startMs": 31979,
+   "endMs": 32668,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Ding.",
+   "startMs": 32973,
+   "endMs": 33528,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "One",
+   "startMs": 33893,
+   "endMs": 34113,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 34113,
+   "endMs": 34433,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "email",
+   "startMs": 34433,
+   "endMs": 34823,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "from",
+   "startMs": 34823,
+   "endMs": 35003,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 35003,
+   "endMs": 35083,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "North",
+   "startMs": 35083,
+   "endMs": 35363,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Pole.",
+   "startMs": 35363,
+   "endMs": 35835,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "No",
+   "startMs": 36092,
+   "endMs": 36312,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "way.",
+   "startMs": 36312,
+   "endMs": 36689,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "They",
+   "startMs": 37012,
+   "endMs": 37132,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "actually",
+   "startMs": 37132,
+   "endMs": 37492,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "hired",
+   "startMs": 37492,
+   "endMs": 37802,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "you?",
+   "startMs": 37802,
+   "endMs": 38164,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Santa",
+   "startMs": 38488,
+   "endMs": 38878,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "said",
+   "startMs": 38878,
+   "endMs": 39108,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 39108,
+   "endMs": 39288,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 39288,
+   "endMs": 39428,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 39428,
+   "endMs": 39518,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "kind",
+   "startMs": 39518,
+   "endMs": 39918,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "face.",
+   "startMs": 39918,
+   "endMs": 40365,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "You",
+   "startMs": 40625,
+   "endMs": 40755,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 40755,
+   "endMs": 40895,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 40895,
+   "endMs": 40955,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "star",
+   "startMs": 40955,
+   "endMs": 41155,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "on",
+   "startMs": 41155,
+   "endMs": 41315,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 41315,
+   "endMs": 41395,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "face.",
+   "startMs": 41395,
+   "endMs": 41841,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "That",
+   "startMs": 42187,
+   "endMs": 42347,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "night,",
+   "startMs": 42347,
+   "endMs": 42637,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 42637,
+   "endMs": 42777,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "sleigh",
+   "startMs": 42777,
+   "endMs": 43147,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "lands",
+   "startMs": 43147,
+   "endMs": 43547,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 43547,
+   "endMs": 43747,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Jay's",
+   "startMs": 43747,
+   "endMs": 44127,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "roof.",
+   "startMs": 44127,
+   "endMs": 44427,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Hi!",
+   "startMs": 44855,
+   "endMs": 45388,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "I'm",
+   "startMs": 45751,
+   "endMs": 46031,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Pip.",
+   "startMs": 46031,
+   "endMs": 46497,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Where's",
+   "startMs": 46817,
+   "endMs": 47157,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 47157,
+   "endMs": 47277,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 47277,
+   "endMs": 47447,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "boss?",
+   "startMs": 47447,
+   "endMs": 47948,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Present.",
+   "startMs": 48272,
+   "endMs": 48912,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 49253,
+   "endMs": 49453,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 49453,
+   "endMs": 49673,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 49673,
+   "endMs": 49813,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 49813,
+   "endMs": 49923,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "plan.",
+   "startMs": 49923,
+   "endMs": 50405,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "Bit's",
+   "startMs": 50708,
+   "endMs": 51008,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "first",
+   "startMs": 51008,
+   "endMs": 51258,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "order",
+   "startMs": 51258,
+   "endMs": 51568,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "as",
+   "startMs": 51568,
+   "endMs": 51728,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Santa",
+   "startMs": 51728,
+   "endMs": 52328,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 52328,
+   "endMs": 52498,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 52498,
+   "endMs": 52788,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "word.",
+   "startMs": 52788,
+   "endMs": 53161,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Optimize.",
+   "startMs": 53483,
+   "endMs": 54272,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "In",
+   "startMs": 54593,
+   "endMs": 54713,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 54713,
+   "endMs": 54803,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "workshop,",
+   "startMs": 54803,
+   "endMs": 55423,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 55423,
+   "endMs": 55713,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "elf",
+   "startMs": 55713,
+   "endMs": 56003,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "shivers.",
+   "startMs": 56003,
+   "endMs": 56577,
+   "line": 20,
+   "emph": true
+  },
+  {
+   "text": "Part",
+   "startMs": 56899,
+   "endMs": 57179,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 57179,
+   "endMs": 57509,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "drops",
+   "startMs": 57509,
+   "endMs": 57889,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 57889,
+   "endMs": 58089,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 58089,
+   "endMs": 58319,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 58319,
+   "endMs": 58776,
+   "line": 21,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 2.591
+  },
+  {
+   "speaker": "narrator",
+   "start": 2.811,
+   "end": 6.051
+  },
+  {
+   "speaker": "santa",
+   "start": 6.271,
+   "end": 10.049
+  },
+  {
+   "speaker": "narrator",
+   "start": 10.269,
+   "end": 12.528
+  },
+  {
+   "speaker": "narrator",
+   "start": 12.748,
+   "end": 17.164
+  },
+  {
+   "speaker": "narrator",
+   "start": 17.384,
+   "end": 19.96
+  },
+  {
+   "speaker": "bit",
+   "start": 20.18,
+   "end": 23.145
+  },
+  {
+   "speaker": "hero",
+   "start": 23.365,
+   "end": 25.861
+  },
+  {
+   "speaker": "bit",
+   "start": 26.081,
+   "end": 28.663
+  },
+  {
+   "speaker": "hero",
+   "start": 28.883,
+   "end": 30.848
+  },
+  {
+   "speaker": "bit",
+   "start": 31.068,
+   "end": 32.711
+  },
+  {
+   "speaker": "narrator",
+   "start": 32.931,
+   "end": 35.872
+  },
+  {
+   "speaker": "hero",
+   "start": 36.092,
+   "end": 38.247
+  },
+  {
+   "speaker": "bit",
+   "start": 38.467,
+   "end": 40.405
+  },
+  {
+   "speaker": "hero",
+   "start": 40.625,
+   "end": 41.924
+  },
+  {
+   "speaker": "narrator",
+   "start": 42.144,
+   "end": 44.592
+  },
+  {
+   "speaker": "elf",
+   "start": 44.812,
+   "end": 47.988
+  },
+  {
+   "speaker": "bit",
+   "start": 48.208,
+   "end": 50.445
+  },
+  {
+   "speaker": "narrator",
+   "start": 50.665,
+   "end": 53.22
+  },
+  {
+   "speaker": "bit",
+   "start": 53.44,
+   "end": 54.331
+  },
+  {
+   "speaker": "narrator",
+   "start": 54.551,
+   "end": 56.636
+  },
+  {
+   "speaker": "narrator",
+   "start": 56.856,
+   "end": 58.835
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "santa": "SANTA",
+  "elf": "PIP",
+  "friend": "MIA",
+  "kid": "LEO",
+  "boss": "DAD"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "elf",
+     "x": 0.2,
+     "pose": "panic",
+     "expr": "shocked",
+     "depth": 0.4
+    },
+    {
+     "id": "santa",
+     "x": 0.55,
+     "pose": "shrug",
+     "expr": "shocked",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.85,
+     "expr": "smug",
+     "icon": "\u2605",
+     "depth": 0.2
+    }
+   ],
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "pop",
+     "at": 0.7
+    }
+   ],
+   "camera": {
+    "push": 0.08
+   },
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.751
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "santa",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "sleepy",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "DEC 1"
+   },
+   "fx": [
+    {
+     "type": "snow"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 2.751,
+   "end": 6.211
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "santa",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "santa",
+   "start": 6.211,
+   "end": 8.21
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "santa",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "santa",
+   "start": 8.21,
+   "end": 10.209
+  },
+  {
+   "set": {
+    "type": "burst",
+    "color": "#C8102E"
+   },
+   "cast": [],
+   "ui": {
+    "type": "card",
+    "text": "WANTED: NEW SANTA",
+    "sub": "One night a year",
+    "color": "#FFF6DF"
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "transition": "flash",
+   "speaker": "narrator",
+   "start": 10.209,
+   "end": 12.688
+  },
+  {
+   "set": {
+    "type": "burst",
+    "color": "#C8102E"
+   },
+   "cast": [],
+   "ui": {
+    "type": "list",
+    "title": "REQUIREMENTS",
+    "items": [
+     "Loves cookies",
+     "Can fly",
+     "Never sleeps"
+    ]
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    },
+    {
+     "type": "tick",
+     "at": 0.5
+    },
+    {
+     "type": "tick",
+     "at": 1.0
+    }
+   ],
+   "speaker": "narrator",
+   "start": 12.688,
+   "end": 17.324
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "sit",
+     "expr": "sleepy",
+     "scale": 1.2
+    },
+    {
+     "id": "bit",
+     "x": 0.75,
+     "expr": "think",
+     "scale": 1.1
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow",
+     "x": 810,
+     "y": 1000,
+     "r": 380
+    }
+   ],
+   "transition": "whip",
+   "speaker": "narrator",
+   "start": 17.324,
+   "end": 20.12
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 20.12,
+   "end": 21.712
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "bit",
+   "start": 21.712,
+   "end": 23.305
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "smug",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 23.305,
+   "end": 26.021
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.7
+    }
+   ],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 26.021,
+   "end": 28.823
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 28.823,
+   "end": 31.008
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.2
+    },
+    {
+     "id": "bit",
+     "x": 0.75,
+     "expr": "smug",
+     "scale": 1.1
+    }
+   ],
+   "speaker": "bit",
+   "start": 31.008,
+   "end": 32.871
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "shocked",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "notify",
+    "app": "Mail",
+    "title": "North Pole HR",
+    "body": "Congratulations! You're hired.",
+    "color": "#C8102E"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 32.871,
+   "end": 36.032
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "shocked",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 36.032,
+   "end": 38.407
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "icon": "\u2605",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 38.407,
+   "end": 40.565
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "neutral",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 40.565,
+   "end": 42.084
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "shocked",
+     "scale": 1.3
+    }
+   ],
+   "fx": [
+    {
+     "type": "snow"
+    },
+    {
+     "type": "impact",
+     "at": 0.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    },
+    {
+     "type": "boom",
+     "at": 0.6
+    }
+   ],
+   "transition": "flash",
+   "speaker": "narrator",
+   "start": 42.084,
+   "end": 44.752
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "elf",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "grin",
+     "scale": 1.6,
+     "enter": "pop"
+    }
+   ],
+   "fx": [
+    {
+     "type": "snow"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "elf",
+   "start": 44.752,
+   "end": 46.45
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "elf",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "grin",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "snow"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "speaker": "elf",
+   "start": 46.45,
+   "end": 48.148
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "elf",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.2
+    },
+    {
+     "id": "bit",
+     "x": 0.72,
+     "expr": "smug",
+     "scale": 1.1
+    }
+   ],
+   "fx": [
+    {
+     "type": "snow"
+    }
+   ],
+   "speaker": "bit",
+   "start": 48.148,
+   "end": 50.605
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "camera": {
+    "push": 0.12
+   },
+   "speaker": "narrator",
+   "start": 50.605,
+   "end": 53.38
+  },
+  {
+   "set": {
+    "type": "burst",
+    "color": "#16161C"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "glitch",
+     "scale": 2.1
+    }
+   ],
+   "fx": [
+    {
+     "type": "glitch"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "glitch"
+    },
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "transition": "flash",
+   "speaker": "bit",
+   "start": 53.38,
+   "end": 54.491
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "elf",
+     "x": 0.25,
+     "pose": "panic",
+     "expr": "scared"
+    },
+    {
+     "id": "elf",
+     "x": 0.55,
+     "pose": "idle",
+     "expr": "scared",
+     "depth": 0.4
+    },
+    {
+     "id": "elf",
+     "x": 0.8,
+     "pose": "panic",
+     "expr": "shocked",
+     "depth": 0.2
+    }
+   ],
+   "fx": [
+    {
+     "type": "snow"
+    },
+    {
+     "type": "vignette"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 54.491,
+   "end": 56.796
+  }
+ ],
+ "endStart": 56.796,
+ "endText": "PART 2",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 1/8"
+}

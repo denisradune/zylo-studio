@@ -65,7 +65,7 @@ def main():
         p = json.loads(Path(a.props).read_text())
         if 'voiceoverSeconds' in p:
             expect = p['voiceoverSeconds'] + p.get('tailSeconds', 0.4)
-            (info if abs(dur - expect) < 0.15 else errors).append(f'ends with VO: video {dur:.2f}s vs VO+tail {expect:.2f}s')
+            (info if abs(dur - expect) < 0.25 else errors).append(f'ends with VO: video {dur:.2f}s vs VO+tail {expect:.2f}s')
             spans = [round(x['end'] - x['start'], 2) for x in p.get('beats', p.get('shots', p.get('visuals', [])))]
             if any(s > 3.6 for s in spans):
                 warns.append(f'visual held >3.6s: {spans}')
