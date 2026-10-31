@@ -95,6 +95,47 @@ export const ToonWide: React.FC<WideProps> = ({ video, title, chapters }) => {
   );
 };
 
+/**
+ * The 16:9 frame around the vertical cut as one transparent still per chapter (title left, chapter list right,
+ * yellow rails). make_wide.py lays it over a blurred copy + the cut with ffmpeg, which is far faster than
+ * decoding the video twice per frame in the browser.
+ */
+export const WidePanel: React.FC<{ title: string; chapters: WideChapter[]; current: number }> = ({ title, chapters, current }) => {
+  const words = title.replace(/^What if\s*/i, '');
+  const c = chapters[current] ?? chapters[0];
+  return (
+    <AbsoluteFill style={{ backgroundColor: 'transparent' }}>
+      <div style={{ position: 'absolute', left: 0, top: 0, width: (1920 - VW) / 2 - 8, height: 1080, background: 'linear-gradient(90deg, rgba(11,11,15,0.85), rgba(11,11,15,0.35))' }} />
+      <div style={{ position: 'absolute', right: 0, top: 0, width: (1920 - VW) / 2 - 8, height: 1080, background: 'linear-gradient(270deg, rgba(11,11,15,0.85), rgba(11,11,15,0.35))' }} />
+      <div style={{ position: 'absolute', left: 70, top: 70, display: 'flex', alignItems: 'center', gap: 18 }}>
+        <LogoMark size={64} />
+        <div style={{ fontFamily: brand.head, fontWeight: 900, fontSize: 44, color: brand.text }}>zylo</div>
+      </div>
+      <div style={{ position: 'absolute', left: 70, top: 290, width: 520 }}>
+        <div style={{ fontFamily: brand.display, fontSize: 64, color: brand.accent, letterSpacing: 2 }}>WHAT IF...</div>
+        <div style={{ fontFamily: brand.display, fontSize: words.length > 34 ? 72 : 86, lineHeight: 1.02, color: brand.text, textTransform: 'uppercase', marginTop: 8 }}>{words}</div>
+        <div style={{ marginTop: 34, width: 90, height: 10, background: brand.accent, borderRadius: 5 }} />
+        <div style={{ marginTop: 26, fontFamily: brand.body, fontWeight: 700, fontSize: 28, color: brand.textDim }}>An original animated story</div>
+      </div>
+      <div style={{ position: 'absolute', left: (1920 - VW) / 2 - 8, top: 0, width: 8, height: 1080, background: brand.accent }} />
+      <div style={{ position: 'absolute', left: (1920 + VW) / 2, top: 0, width: 8, height: 1080, background: brand.accent }} />
+      <div style={{ position: 'absolute', left: 1330, top: 290, width: 520 }}>
+        <div style={{ display: 'inline-block', background: brand.accent, color: brand.bg, fontFamily: brand.display, fontSize: 56, padding: '6px 22px 0', borderRadius: 10, transform: 'rotate(-2deg)' }}>{c.label}</div>
+        <div style={{ fontFamily: brand.display, fontSize: 64, color: brand.text, textTransform: 'uppercase', marginTop: 14, lineHeight: 1.05 }}>{c.title}</div>
+        <div style={{ marginTop: 44, display: 'flex', flexDirection: 'column', gap: 16 }}>
+          {chapters.map((x, i) => (
+            <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 16, opacity: i === current ? 1 : 0.5 }}>
+              <div style={{ width: 16, height: 16, borderRadius: 8, background: i === current ? brand.accent : 'transparent', border: `3px solid ${brand.accent}` }} />
+              <div style={{ fontFamily: brand.body, fontWeight: 900, fontSize: 30, color: brand.text }}>{x.label} · {x.title}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, height: 10, background: brand.accent }} />
+    </AbsoluteFill>
+  );
+};
+
 export type ThumbActor = { id: string; pose?: string; expr?: string; x: number; y?: number; scale?: number; facing?: number; icon?: string };
 export type ThumbProps = {
   /** Thumbnail text; *word* gets the yellow block. */

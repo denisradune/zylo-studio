@@ -15,7 +15,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import shutil
 import subprocess
 from pathlib import Path
 
@@ -56,14 +55,32 @@ def main():
     dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(out / 'short.mp4')],
                                capture_output=True, text=True, check=True).stdout)
 
-    pub = full / 'wide-public'
-    pub.mkdir(exist_ok=True)
-    shutil.copy(out / 'short.mp4', pub / 'full.mp4')
-    wprops = {'video': 'full.mp4', 'durationSeconds': round(dur, 3), 'title': series['title'], 'chapters': chapters}
-    (full / 'wide-props.json').write_text(json.dumps(wprops, indent=1))
-    run(['npx', 'remotion', 'render', 'zylo-toon/src/index.ts', 'ToonWide', str(out / 'wide.mp4'), f'--props={full / "wide-props.json"}',
-         f'--public-dir={pub}', '--codec=h264', '--crf=18', '--audio-bitrate=192k', '--log=error'], cwd=TPL)
-    shutil.rmtree(pub)
+    # One transparent panel still per chapter, then a single ffmpeg pass:
+    # blurred low-res copy as background + the cut centred + the panel of the current chapter.
+    panels = []
+    for i in range(len(chapters)):
+        pj = full / f'wide-panel-{i}.json'
+        pj.write_text(json.dumps({'title': series['title'], 'chapters': chapters, 'current': i}))
+        png = out / f'wide-panel-{i}.png'
+        run(['npx', 'remotion', 'still', 'zylo-toon/src/index.ts', 'WidePanel', str(png), f'--props={pj}', '--image-format=png', '--log=error'], cwd=TPL)
+        pj.unlink()
+        panels.append(png)
+    ends = [c['start'] for c in chapters[1:]] + [dur + 1]
+    fc = ['[0:v]split=2[a][b]',
+          '[a]scale=270:480,crop=270:152:0:164,boxblur=8:2,scale=1920:1080,eq=brightness=-0.22:saturation=1.3[bg]',
+          '[b]scale=608:1080[fg]',
+          '[bg][fg]overlay=656:0[v0]']
+    for i, (c, e) in enumerate(zip(chapters, ends)):
+        fc.append(f"[v{i}][{i + 1}:v]overlay=0:0:enable='between(t,{c['start']},{e})'[v{i + 1}]")
+    cmd = ['ffmpeg', '-loglevel', 'error', '-y', '-i', str(out / 'short.mp4')]
+    for png in panels:
+        cmd += ['-loop', '1', '-i', str(png)]
+    cmd += ['-filter_complex', ';'.join(fc), '-map', f'[v{len(chapters)}]', '-map', '0:a', '-t', f'{dur:.3f}',
+            '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-r', '30',
+            '-c:a', 'copy', '-movflags', '+faststart', str(out / 'wide.mp4')]
+    run(cmd)
+    for png in panels:
+        png.unlink()
 
     lines = [f"{stamp(c['start'])} {c['label'].title()} · {c['title']}" for c in chapters]
     (full / 'chapters.txt').write_text('\n'.join(lines) + '\n')

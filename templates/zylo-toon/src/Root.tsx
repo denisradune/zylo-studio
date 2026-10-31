@@ -2,7 +2,7 @@ import React from 'react';
 import { CalculateMetadataFunction, Composition } from 'remotion';
 import { CastSheet } from './CastSheet';
 import { ZyloToon } from './ZyloToon';
-import { ThumbProps, ToonThumb, ToonWide, WideProps } from './Wide';
+import { ThumbProps, ToonThumb, ToonWide, WidePanel, WideProps } from './Wide';
 import type { StoryProps } from '../../zylo-shared/toon/types';
 
 const FPS = 30;
@@ -42,6 +42,15 @@ export const RemotionRoot: React.FC = () => (
       durationInFrames={FPS * 10}
       defaultProps={{ video: 'full.mp4', durationSeconds: 10, title: 'What if?', chapters: [{ start: 0, label: 'PART 1', title: 'Start' }] } as WideProps}
       calculateMetadata={({ props }) => ({ durationInFrames: Math.ceil(props.durationSeconds * FPS) })}
+    />
+    <Composition
+      id="WidePanel"
+      component={WidePanel}
+      width={1920}
+      height={1080}
+      fps={FPS}
+      durationInFrames={1}
+      defaultProps={{ title: 'What if?', chapters: [{ start: 0, label: 'PART 1', title: 'Start' }], current: 0 }}
     />
     <Composition
       id="ToonThumb"
