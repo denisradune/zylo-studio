@@ -1,0 +1,10 @@
+{
+  "engine": "kokoro-82M v1.0 (Apache-2.0), ONNX",
+  "blend": {
+    "am_onyx": 0.65,
+    "am_michael": 0.35
+  },
+  "lang": "en-us",
+  "speed": 1.0,
+  "style_file": "brand/zylo-voice.npy"
+}

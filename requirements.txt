@@ -1,0 +1,8 @@
+kokoro-onnx==0.6.1
+soundfile
+numpy
+scipy
+librosa
+google-api-python-client
+google-auth
+google-auth-oauthlib

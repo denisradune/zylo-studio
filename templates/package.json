@@ -1,0 +1,21 @@
+{
+  "name": "zylo-templates",
+  "private": true,
+  "description": "zylo channel Remotion templates: zylo-short (9:16), zylo-long (16:9) and thumbnail (1280x720)",
+  "scripts": {
+    "studio:short": "remotion studio zylo-short/src/index.ts",
+    "studio:long": "remotion studio zylo-long/src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/google-fonts": "4.0.529",
+    "@remotion/media-utils": "4.0.529",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
