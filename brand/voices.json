@@ -1,0 +1,12 @@
+{
+  "_doc": "Speaker -> Kokoro voice. 'narrator' is the brand voice (brand/voice.json). fx 'robot' adds Bit's metallic tint.",
+  "narrator": {"style_file": "brand/zylo-voice.npy", "lang": "en-us", "speed": 1.0},
+  "hero": {"voice": "am_puck", "lang": "en-us", "speed": 1.05},
+  "bit": {"voice": "bf_emma", "lang": "en-gb", "speed": 1.05, "fx": "robot"},
+  "friend": {"voice": "af_bella", "lang": "en-us", "speed": 1.0},
+  "boss": {"voice": "bm_george", "lang": "en-gb", "speed": 0.95},
+  "scientist": {"voice": "bm_fable", "lang": "en-gb", "speed": 1.0},
+  "kid": {"voice": "af_nicole", "lang": "en-us", "speed": 1.1},
+  "soldier": {"voice": "am_fenrir", "lang": "en-us", "speed": 1.0},
+  "zombie": {"voice": "am_onyx", "lang": "en-us", "speed": 0.8}
+}

@@ -10,5 +10,5 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["zylo-shared", "zylo-short/src", "zylo-long/src"]
+  "include": ["zylo-shared", "zylo-short/src", "zylo-long/src", "zylo-toon/src"]
 }

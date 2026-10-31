@@ -41,6 +41,8 @@ def main():
     ap.add_argument('--props')
     ap.add_argument('--long', action='store_true')
     ap.add_argument('--frames', default=None, help='comma-separated seconds to extract')
+    ap.add_argument('--min', type=float, default=35)
+    ap.add_argument('--max', type=float, default=50)
     a = ap.parse_args()
     v = Path(a.video)
     errors, warns, info = [], [], []
@@ -57,14 +59,14 @@ def main():
     if a.long:
         (info if 480 <= dur <= 720 else warns).append(f'duration {dur:.2f}s (target 8-12 min)')
     else:
-        (info if 35 <= dur <= 50 else errors).append(f'duration {dur:.2f}s (target 35-50s)')
+        (info if a.min <= dur <= a.max else errors).append(f'duration {dur:.2f}s (target {a.min:g}-{a.max:g}s)')
 
     if a.props:
         p = json.loads(Path(a.props).read_text())
         if 'voiceoverSeconds' in p:
             expect = p['voiceoverSeconds'] + p.get('tailSeconds', 0.4)
             (info if abs(dur - expect) < 0.15 else errors).append(f'ends with VO: video {dur:.2f}s vs VO+tail {expect:.2f}s')
-            spans = [round(x['end'] - x['start'], 2) for x in p.get('beats', p.get('visuals', []))]
+            spans = [round(x['end'] - x['start'], 2) for x in p.get('beats', p.get('shots', p.get('visuals', [])))]
             if any(s > 3.6 for s in spans):
                 warns.append(f'visual held >3.6s: {spans}')
 

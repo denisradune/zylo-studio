@@ -38,6 +38,27 @@ def load_voice():
     return k, style, cfg
 
 
+def speaker_voice(k, speaker: str):
+    """(style, cfg) for a story speaker, from brand/voices.json."""
+    table = json.loads((ROOT / 'brand/voices.json').read_text())
+    cfg = table.get(speaker) or table['narrator']
+    style = np.load(ROOT / cfg['style_file']) if 'style_file' in cfg else k.get_voice_style(cfg['voice'])
+    return style, cfg
+
+
+def robot(y: np.ndarray) -> np.ndarray:
+    """Bit's voice tint: light phaser + very short slap echo, same length as the input."""
+    import tempfile
+    with tempfile.TemporaryDirectory() as d:
+        a, b = Path(d) / 'a.wav', Path(d) / 'b.wav'
+        sf.write(a, y, SR)
+        subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', str(a), '-af',
+                        'aphaser=in_gain=0.8:out_gain=0.9:delay=2.5:decay=0.45:speed=0.9,aecho=0.85:0.5:9:0.25',
+                        '-ar', str(SR), str(b)], check=True)
+        out, _ = sf.read(b, dtype='float32')
+    return out[: len(y)] if len(out) >= len(y) else np.pad(out, (0, len(y) - len(out)))
+
+
 def say(k, style, cfg, text: str, speed: float) -> np.ndarray:
     audio, sr = k.create(text, voice=style, speed=speed, lang=cfg['lang'])
     assert sr == SR
@@ -98,7 +119,8 @@ def align(k, style, cfg, sent_audio: np.ndarray, words: list[str], speed: float)
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('--text-file', required=True)
+    ap.add_argument('--text-file')
+    ap.add_argument('--lines-json', help='story mode: [{"speaker": "hero", "text": "..."}]; *word* marks caption emphasis')
     ap.add_argument('--out-dir', required=True)
     ap.add_argument('--speed', type=float, default=None, help='override brand speed (1.0 = natural)')
     args = ap.parse_args()
@@ -107,6 +129,8 @@ def main():
     speed = args.speed or cfg.get('speed', 1.0)
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
+    if args.lines_json:
+        return story(k, json.loads(Path(args.lines_json).read_text()), out)
 
     lead = np.zeros(int(0.12 * SR), dtype=np.float32)
     track, words, t = [lead], [], len(lead) / SR
@@ -137,6 +161,47 @@ def main():
     (out / 'words.json').write_text(json.dumps({'seconds': round(seconds, 3), 'words': words}, indent=1))
     wpm = len(words) / seconds * 60
     print(json.dumps({'seconds': round(seconds, 2), 'words': len(words), 'wpm': round(wpm)}))
+
+
+def story(k, lines: list[dict], out: Path) -> None:
+    """Multi-voice VO: each line in its speaker's voice, words tagged with line index and emphasis."""
+    lead = np.zeros(int(0.10 * SR), dtype=np.float32)
+    track, words, spans, t = [lead], [], [], len(lead) / SR
+    for li, line in enumerate(lines):
+        style, cfg = speaker_voice(k, line['speaker'])
+        line_start = t
+        sents = sentences(line['text'])
+        for si, s in enumerate(sents):
+            toks = s.split(' ')
+            clean = ' '.join(x.replace('*', '') for x in toks)
+            audio = say(k, style, cfg, clean, cfg.get('speed', 1.0))
+            _, (a0, a1) = librosa.effects.trim(audio, top_db=40)
+            pad = int(0.04 * SR)
+            audio = audio[max(0, a0 - pad): a1 + pad]
+            plain = [x.replace('*', '') for x in toks]
+            for tok, (a, b) in zip(toks, align(k, style, cfg, audio, plain, cfg.get('speed', 1.0))):
+                words.append({'text': tok.replace('*', ''), 'startMs': round((t + a) * 1000), 'endMs': round((t + b) * 1000),
+                              'line': li, 'emph': tok.startswith('*') or tok.rstrip('.,!?…').endswith('*')})
+            if cfg.get('fx') == 'robot':
+                audio = robot(audio)
+            track.append(audio)
+            t += len(audio) / SR
+            if si < len(sents) - 1:
+                gap = np.zeros(int(PAUSE.get(s[-1], 0.25) * 0.8 * SR), dtype=np.float32)
+                track.append(gap)
+                t += len(gap) / SR
+        spans.append({'speaker': line['speaker'], 'start': round(line_start, 3), 'end': round(t, 3)})
+        gap = np.zeros(int(float(line.get('pauseAfter', 0.22)) * SR), dtype=np.float32)
+        track.append(gap)
+        t += len(gap) / SR
+    y = np.concatenate(track[:-1])
+    y = y / max(1e-6, np.abs(y).max()) * 0.89
+    sf.write(out / 'voiceover.wav', y, SR)
+    subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', str(out / 'voiceover.wav'), '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11',
+                    '-ar', '44100', '-b:a', '192k', str(out / 'voiceover.mp3')], check=True)
+    seconds = len(y) / SR
+    (out / 'words.json').write_text(json.dumps({'seconds': round(seconds, 3), 'words': words, 'lines': spans}, indent=1))
+    print(json.dumps({'seconds': round(seconds, 2), 'words': len(words), 'lines': len(spans), 'wpm': round(len(words) / seconds * 60)}))
 
 
 if __name__ == '__main__':
