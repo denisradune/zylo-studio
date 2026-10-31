@@ -16,6 +16,7 @@ series.json:
   ],
   "finale": {"text": "SEASON 2?", "sub": "Follow for what's in the cloud"}
 }
+A line with "shortOnly": true (the "Part two. <recap>" openers) is left out of the full cut.
 Each part becomes episodes/<slug>/part<N>/ (story.json -> out/short.mp4, badge "PART N/total").
 The full cut (episodes/<slug>/full/) drops every part's closing line except the last and puts a chapter
 card where each later part begins.
@@ -68,7 +69,7 @@ def main():
                 'end': s.get('finale') if last else {'text': f'PART {i + 1}', 'sub': 'Follow — it drops tomorrow'},
                 'lines': p['lines'],
                 'minSeconds': 35,
-                'maxSeconds': 75,
+                'maxSeconds': 90,
             }
             build(root / f'part{i}', story, a.start)
 
@@ -76,6 +77,8 @@ def main():
         lines, chapters = [], []
         for i, p in enumerate(parts, 1):
             body = p['lines'] if i == n else p['lines'][:-1]
+            # "Part two. Last time…" recaps only make sense in the Shorts; the full story plays straight through.
+            body = [l for l in body if not l.get('shortOnly')]
             if i > 1:
                 chapters.append({'line': len(lines), 'label': f'PART {i}', 'title': p['title']})
             lines += body

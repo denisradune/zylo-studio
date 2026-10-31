@@ -1,5 +1,5 @@
 ---
-description: Fully automatic day — invent a new "What if...?" series, render it, schedule every part + the full story, upload, log, push
+description: Fully automatic day — read the stats, every 2nd day invent a new ~7-minute "What if...?" series (8 parts), render, schedule, upload what is due, log, push
 ---
 
 # /zylo-daily
@@ -14,6 +14,18 @@ bash scripts/setup.sh
 python3 scripts/youtube_upload.py --check     # must print "expected": true, else stop and report
 .venv/bin/python scripts/publish_series.py status
 ```
+
+## 0b. Format and rhythm (the owner's choice)
+- Every story is **~7 minutes, told in detail**: 8 parts of ~55–70 s (130–160 spoken words, 20–24 lines each).
+  Parts go out **every 2 days**; the full story (16:9, chapters) the day after the last part.
+- A **new series starts every 2 days**: if a series already started yesterday (see `publish_series.py status` /
+  metadata `publishAt` of part 1s), today is an **upload day** — skip step 1a–2 for a new series and instead
+  (a) run the stats, (b) upload what is due, (c) if time allows, write the next backlog story (below).
+  9 uploads per series every 2 days ≈ 4.5 uploads/day, inside YouTube's default quota (~6/day).
+- **Backlog** (`episodes/<date>-what-if-<slug>/` with `"startOn"` in series.json, already scheduled): holiday
+  specials prepared ahead (e.g. `2026-12-10-what-if-ai-santa`, Christmas). They publish on their own dates via
+  `upload`; leave them alone except to fix problems. When a holiday is 3–6 weeks away and nothing is prepared,
+  an upload day is a good day to write one (same rules, `"startOn"`, then `publish_series.py schedule … --start <startOn>`).
 
 ## 1. Read the audience (every day, before choosing anything)
 ```bash
@@ -43,7 +55,7 @@ a closed twist and "Follow for a new What if every day."
 ## 1b. Pick a trending topic yourself (when 1a says trend)
 1. **What is hot right now.** Run several WebSearch queries in one go (use `extended` mode for at least one):
    today's viral/trending topics and memes, what's trending on YouTube Shorts / TikTok this week, upcoming holidays
-   and events in the next 1–4 days (the series runs 4 days), big tech/AI/science/pop-culture news, new movie/game
+   and events in the next 2–3 weeks (a series runs ~16 days), big tech/AI/science/pop-culture news, new movie/game
    releases people are talking about. Note 5–8 candidate hooks with why each is hot (link + date).
 2. **What works on our channel.** `python3 scripts/youtube_upload.py --stats --days 14` — which themes, hooks and
    titles got the most views; lean toward what wins, drop what flops.
@@ -57,15 +69,18 @@ a closed twist and "Follow for a new What if every day."
    why this one won — or which promise/hit it follows up).
 ## 1c. Write the series
 - Titles/tags/hashtags use the words people are searching for this trend (from your research).
-- `episodes/<YYYY-MM-DD>-what-if-<slug>/series.json`: **4 parts** (45–60 s each, own arc, cliffhanger, parts 2+ open
-  with "Part two. <recap>"), one running joke, a rule of the world, a cost, a twist; `finale` card on the last part.
-  4 parts + 1 full = 5 uploads/day, which fits YouTube's default quota (~6 uploads/day). If the quota is ever
-  raised, more parts per series are fine.
+- `episodes/<YYYY-MM-DD>-what-if-<slug>/series.json`: **8 parts** (~55–70 s, 130–160 words, 20–24 lines ≤ 9 words
+  each). Tell it **in detail**, not as a summary: set the scene, show why characters act (motive, fear, wish), let
+  dialogue carry the story, give every part a real development + its own cliffhanger. Across the 8 parts: setup and
+  the rule of the world (1–2), escalation and a running joke (2–4), a big loss/turn (4–5), the emotional reason under
+  it all (6), climax with a cost (7), payoff and a final twist (8). Parts 2+ open with a recap line marked
+  `"shortOnly": true` ("Part two. <recap>") — it is cut from the full story so the 7-minute version plays straight.
+  Reference: `episodes/2026-12-10-what-if-ai-santa/` (series built by its `build_series.py`).
 - Vary sets, cast, poses, UI and sfx from the last series. A new location may need a new set in
   `templates/zylo-shared/toon/Backgrounds.tsx` (see `casino`) or new looks in `Character.tsx` (see `heroSuit`).
 - Any real-world fact in the story must be verified by WebSearch first and saved with quotes in `sources.md`;
   cut anything disputed.
-- `metadata.json`: `part1..part4` (title ≤ 60 chars incl. " #shorts", starts "What If", 2-line description + CTA +
+- `metadata.json`: `part1..part8` (title ≤ 60 chars incl. " #shorts", starts "What If", 2-line description + CTA +
   4–5 hashtags, `short: true`) and `full` (title "... (Full Story)", no #shorts, description containing the literal
   `{chapters}` line, which is filled in at upload). `categoryId "1"`, `madeForKids false`, `syntheticMedia false`.
 - `full/thumb.json`: ToonThumb props — ≤ 5 words with one `*accent*` word, a set, 2–3 big expressive characters on
@@ -84,8 +99,10 @@ Make a contact sheet per part (12 frames) and Read it; Read `full/out/thumb.png`
 .venv/bin/python scripts/publish_series.py schedule episodes/<slug> --start <today YYYY-MM-DD>
 .venv/bin/python scripts/publish_series.py upload
 ```
-`upload` handles every series still pending (oldest first, re-rendering missing files), publishes immediately when a
-slot already passed, writes `uploads.json` + `log.md`, and stops cleanly at the quota — tomorrow's run continues.
+`schedule` puts a part every 2 days at a free slot; `upload` (every day, also on upload days) takes everything due in
+the next 3 days across all series, oldest first, re-renders whatever is missing (renders don't survive between
+sessions), publishes immediately when a slot already passed, writes `uploads.json` + `log.md`, and stops cleanly at
+the quota — tomorrow's run continues.
 
 ## 4. Save
 Commit (`stats/`, `episodes/<slug>`, `uploads.json`s, `log.md`, any template changes) and push to

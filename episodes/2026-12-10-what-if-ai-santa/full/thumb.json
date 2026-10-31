@@ -1,0 +1,5 @@
+{"text": "AN AI REPLACED *SANTA*", "badge": "FULL STORY", "cropY": 880,
+ "set": {"type": "workshop"},
+ "cast": [{"id": "santa", "x": 0.88, "pose": "panic", "expr": "shocked", "scale": 1.05, "y": 1660, "facing": -1},
+          {"id": "bit", "x": 0.68, "expr": "smug", "scale": 0.95, "y": 1560, "icon": "★"},
+          {"id": "elf", "x": 0.5, "pose": "panic", "expr": "scared", "scale": 0.8, "y": 1560}]}

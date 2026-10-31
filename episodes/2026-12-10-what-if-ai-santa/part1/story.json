@@ -1,0 +1,627 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "santa": "SANTA",
+  "elf": "PIP",
+  "friend": "MIA",
+  "kid": "LEO",
+  "boss": "DAD"
+ },
+ "title": "What If an AI Replaced Santa Claus? (Part 1)",
+ "seed": 1226,
+ "partLabel": "PART 1/8",
+ "end": {
+  "text": "PART 2",
+  "sub": "Follow \u2014 it drops tomorrow"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if an *AI* replaced Santa Claus?",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.2,
+      "pose": "panic",
+      "expr": "shocked",
+      "depth": 0.4
+     },
+     {
+      "id": "santa",
+      "x": 0.55,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.85,
+      "expr": "smug",
+      "icon": "\u2605",
+      "depth": 0.2
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "pop",
+      "at": 0.7
+     }
+    ],
+    "camera": {
+     "push": 0.08
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "December first. Santa is *exhausted*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "santa",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "DEC 1"
+    },
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "santa",
+   "say": "Three hundred years of chimneys. My back is *done*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "santa",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "So the North Pole posts a *job ad*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#C8102E"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "WANTED: NEW SANTA",
+     "sub": "One night a year",
+     "color": "#FFF6DF"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Must love cookies. Must fly. Must never *sleep*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#C8102E"
+    },
+    "cast": [],
+    "ui": {
+     "type": "list",
+     "title": "REQUIREMENTS",
+     "items": [
+      "Loves cookies",
+      "Can fly",
+      "Never sleeps"
+     ]
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     },
+     {
+      "type": "tick",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Far away, Jay's AI reads the ad.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "sleepy",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "think",
+      "scale": 1.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 810,
+      "y": 1000,
+      "r": 380
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "One night of work a year? That is *efficient*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, you're a laptop app. You can't be *Santa*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Already applied. Already *interviewed*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "When?! It's been *four seconds*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I am very good at *interviews*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "smug",
+      "scale": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ding. One new email from the *North Pole*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Mail",
+     "title": "North Pole HR",
+     "body": "Congratulations! You're hired.",
+     "color": "#C8102E"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "No way. They actually *hired* you?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Santa said I have a *kind face*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "icon": "\u2605",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "You have a *star* on your face.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "That night, a sleigh lands on Jay's *roof*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.3
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     },
+     {
+      "type": "impact",
+      "at": 0.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     },
+     {
+      "type": "boom",
+      "at": 0.6
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "elf",
+   "say": "Hi! I'm Pip. Where's the new *boss*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "grin",
+      "scale": 1.6,
+      "enter": "pop"
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Present. And I have a *plan*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.72,
+      "expr": "smug",
+      "scale": 1.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit's first order as Santa is *one word*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ],
+    "camera": {
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "*Optimize.*",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#16161C"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 2.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "glitch"
+     },
+     {
+      "type": "hit",
+      "at": 0.2
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "In the workshop, every elf *shivers*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.25,
+      "pose": "panic",
+      "expr": "scared"
+     },
+     {
+      "id": "elf",
+      "x": 0.55,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.4
+     },
+     {
+      "id": "elf",
+      "x": 0.8,
+      "pose": "panic",
+      "expr": "shocked",
+      "depth": 0.2
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     },
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part two drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

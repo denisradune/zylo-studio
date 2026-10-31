@@ -7,9 +7,10 @@ Schedule and upload "What if...?" series without anyone touching them.
   scripts/publish_series.py upload episodes/<slug> --max 3
   scripts/publish_series.py status
 
-Schedule (Asia/Jerusalem): part i goes out on start + (i-1) days at the series' slot; the full story
-(16:9, regular video) the day after the last part at FULL_AT. With 4-part series started every day the
-slots never collide: the slot rotates with the date through SLOTS.
+Schedule (Asia/Jerusalem): part i goes out on start + (i-1)*EVERY days at the series' slot; the full story
+(16:9, regular video, ~7 min) the day after the last part at FULL_AT. The slot is the first of SLOTS (rotating
+with the start date) whose times are free in every other scheduled series, so parallel series never collide;
+a full story that would land on the same evening as another one moves a day later.
 
 State lives in git so a fresh session can continue: episodes/<slug>/uploads.json {key: {id, url, publishAt}}.
 `upload` renders whatever is missing (make_series / make_wide), fills {chapters} in the full description,
@@ -33,12 +34,25 @@ import youtube_upload as yu  # noqa: E402
 TZ = ZoneInfo('Asia/Jerusalem')
 SLOTS = ['13:00', '15:00', '17:00', '19:00']
 FULL_AT = '21:00'
+EVERY = 2  # days between parts
+HORIZON = 3  # only upload what goes out within this many days (keeps quota for what is due)
 PY = str(ROOT / '.venv/bin/python')
 
 
 def slot_for(day: dt.date) -> str:
-    # 2026-11-01 -> 13:00, then 15:00, 17:00, 19:00, 13:00 ...
-    return SLOTS[(day - dt.date(2026, 11, 1)).days % len(SLOTS)]
+    # rotates every EVERY days: 2026-11-01 -> 13:00, 2026-11-03 -> 15:00, ...
+    return SLOTS[((day - dt.date(2026, 11, 1)).days // EVERY) % len(SLOTS)]
+
+
+def taken(skip: Path) -> set[str]:
+    out = set()
+    for m in (ROOT / 'episodes').glob('*/metadata.json'):
+        if m.parent == skip:
+            continue
+        for v in json.loads(m.read_text()).values():
+            if isinstance(v, dict) and v.get('publishAt'):
+                out.add(v['publishAt'])
+    return out
 
 
 def at(day: dt.date, hhmm: str) -> str:
@@ -54,14 +68,22 @@ def part_keys(meta: dict) -> list[str]:
     return sorted((k for k in meta if k.startswith('part')), key=lambda k: int(k[4:]))
 
 
-def schedule(d: Path, start: dt.date, slot: str | None) -> None:
+def schedule(d: Path, start: dt.date, slot: str | None, every: int = EVERY) -> None:
     meta = json.loads((d / 'metadata.json').read_text())
-    slot = slot or slot_for(start)
     keys = part_keys(meta)
-    for i, k in enumerate(keys):
-        meta[k]['publishAt'] = at(start + dt.timedelta(days=i), slot)
+    busy = taken(d)
+    days = [start + dt.timedelta(days=i * every) for i in range(len(keys))]
+    if not slot:
+        first = SLOTS.index(slot_for(start))
+        order = SLOTS[first:] + SLOTS[:first]
+        slot = next((s for s in order if not any(at(x, s) in busy for x in days)), order[0])
+    for k, x in zip(keys, days):
+        meta[k]['publishAt'] = at(x, slot)
     if 'full' in meta:
-        meta['full']['publishAt'] = at(start + dt.timedelta(days=len(keys)), FULL_AT)
+        fday = days[-1] + dt.timedelta(days=1)
+        while at(fday, FULL_AT) in busy:
+            fday += dt.timedelta(days=1)
+        meta['full']['publishAt'] = at(fday, FULL_AT)
     (d / 'metadata.json').write_text(json.dumps(meta, indent=1, ensure_ascii=False) + '\n')
     for k in keys + (['full'] if 'full' in meta else []):
         print(k, meta[k]['publishAt'])
@@ -99,15 +121,16 @@ def log_row(d: Path, meta: dict, key: str, res: dict) -> None:
         f.write(f"| {n} | {when} | {m['title']} | {label} | {src} | {res['url']} |\n")
 
 
-def upload(dirs: list[Path], max_n: int | None) -> int:
+def upload(dirs: list[Path], max_n: int | None, horizon: float = HORIZON) -> int:
     items = []
     now = dt.datetime.now(dt.timezone.utc)
     for d in dirs:
         meta = load(d / 'metadata.json', {})
         done = load(d / 'uploads.json', {})
         for k in part_keys(meta) + (['full'] if 'full' in meta else []):
-            if k not in done and meta[k].get('publishAt'):
-                items.append((meta[k]['publishAt'], d, k))
+            at_ = meta[k].get('publishAt')
+            if k not in done and at_ and dt.datetime.fromisoformat(at_.replace('Z', '+00:00')) <= now + dt.timedelta(days=horizon):
+                items.append((at_, d, k))
     items.sort()
     count = 0
     for publish_at, d, k in items:
@@ -151,17 +174,19 @@ def main():
     s.add_argument('series_dir')
     s.add_argument('--start', required=True)
     s.add_argument('--slot')
+    s.add_argument('--every', type=int, default=EVERY, help='days between parts')
     u = sub.add_parser('upload')
     u.add_argument('series_dir', nargs='*')
     u.add_argument('--max', type=int)
+    u.add_argument('--horizon', type=float, default=HORIZON, help='days ahead to upload')
     sub.add_parser('status')
     a = ap.parse_args()
     yu.load_env()
     if a.cmd == 'schedule':
-        schedule(Path(a.series_dir).resolve(), dt.date.fromisoformat(a.start), a.slot)
+        schedule(Path(a.series_dir).resolve(), dt.date.fromisoformat(a.start), a.slot, a.every)
     elif a.cmd == 'upload':
         dirs = [Path(x).resolve() for x in a.series_dir] or series_dirs()
-        print(f'{upload(dirs, a.max)} uploaded')
+        print(f'{upload(dirs, a.max, a.horizon)} uploaded')
     else:
         for d in series_dirs():
             meta = load(d / 'metadata.json', {})

@@ -7,13 +7,16 @@ motion-design Shorts (`/zylo-short`, `templates/zylo-short`) stay available. Vid
 Audience: English-speaking 16–35, loves "wait, really?" moments. Talk to the owner in Russian.
 
 ## Cadence (fully automatic since 2026-11-01 — the owner does not touch it)
-- A scheduled task runs `/zylo-daily` every day ~10:23 Israel time: one new "What if...?" series per day, 4 parts.
-- Part i of a series goes out on day i at the series' slot (13:00 / 15:00 / 17:00 / 19:00 Asia/Jerusalem, rotating
-  by start date so parallel series never collide); the full story goes out as a regular 16:9 video (with chapters and
-  a cartoon thumbnail) the day after the last part at 21:00. `scripts/publish_series.py` does the scheduling/uploads.
-- YouTube API default quota ≈ 6 uploads/day → 4 parts + 1 full per day. More parts need a quota increase.
+- A scheduled task runs `/zylo-daily` every day ~10:23 Israel time.
+- Format (owner's choice, from 2026-11-01): every story is **~7 minutes, told in detail** — 8 parts of ~1 min,
+  one part **every 2 days**, then the full story as a regular 16:9 video (chapters + cartoon thumbnail) the day after
+  the last part at 21:00. A new series starts every 2 days; the days in between are upload days.
+- Slots 13:00 / 15:00 / 17:00 / 19:00 Asia/Jerusalem, chosen so parallel series never collide
+  (`scripts/publish_series.py schedule`); uploads go out up to 3 days ahead (`publish_series.py upload`).
+- YouTube API default quota ≈ 6 uploads/day; 9 uploads per series every 2 days fits.
 - Every day starts with `scripts/channel_stats.py` (stats/latest.md): HITs get follow-ups, promised seasons are
   always delivered (sequel within 5 days of the finale), otherwise the best current trend. Details: /zylo-daily.
+- Holiday specials are prepared ahead with `"startOn"` (backlog), e.g. AI Santa from 2026-12-10.
 - Fact-based Shorts (`/zylo-short`) stay available on request.
 
 ## Non-negotiables

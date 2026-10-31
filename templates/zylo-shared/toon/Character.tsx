@@ -41,6 +41,8 @@ export type Look = {
   glasses?: boolean;
   zombie?: boolean;
   hat?: string;
+  /** Hat shape: cap (default), santa (cone + fur + pompom), elf (tall pointed cone). */
+  hatStyle?: 'cap' | 'santa' | 'elf';
   /** Suit: white shirt V, lapels and a tie in this colour. */
   tie?: string;
 };
@@ -60,6 +62,8 @@ export const LOOKS: Record<string, Look> = {
   owner: { skin: '#F0BE96', hair: '#D9D9D9', hairStyle: 'short', top: '#6B1E2A', pants: '#22242E', shoes: '#141414', glasses: true, beard: true, tie: '#141414' },
   dealer: { skin: '#C98B5E', hair: '#141414', hairStyle: 'bun', top: '#FFFFFF', pants: '#1C1C24', shoes: '#141414', tie: '#C8102E' },
   gambler: { skin: '#E8B08A', hair: '#6B4A2E', hairStyle: 'beanie', top: '#7A5CFF', pants: '#2E2E38', shoes: '#F4F4F4' },
+  santa: { skin: '#F2C1A0', hair: '#F4F4F4', hairStyle: 'short', top: '#C8102E', pants: '#C8102E', shoes: '#141414', beard: true, hat: '#C8102E', hatStyle: 'santa' },
+  elf: { skin: '#F5C49C', hair: '#D9822B', hairStyle: 'short', top: '#1F8A70', pants: '#C8102E', shoes: '#4A2C18', hat: '#1F8A70', hatStyle: 'elf' },
   soldier: { skin: '#D9A27A', hair: '#2B2B2B', hairStyle: 'short', top: '#5D6B3A', pants: '#4A5530', shoes: '#2B2B2B', hat: '#4A5530' },
 };
 
@@ -309,7 +313,21 @@ export const Human: React.FC<{
         <ellipse cx={150} cy={150} rx={94} ry={100} fill={skinFace} stroke={INK} strokeWidth={STROKE} />
         {look.zombie && <path d="M 196 96 L 210 112 M 204 96 L 202 116" stroke="#6E8F52" strokeWidth={5} strokeLinecap="round" />}
         <Hair look={look} layer="front" />
-        {look.hat && <path d="M 50 118 Q 54 40 150 38 Q 246 40 250 118 L 270 124 L 30 124 Z" fill={look.hat} stroke={INK} strokeWidth={STROKE} strokeLinejoin="round" />}
+        {look.hat && (look.hatStyle ?? 'cap') === 'cap' && <path d="M 50 118 Q 54 40 150 38 Q 246 40 250 118 L 270 124 L 30 124 Z" fill={look.hat} stroke={INK} strokeWidth={STROKE} strokeLinejoin="round" />}
+        {look.hat && look.hatStyle === 'santa' && (
+          <g>
+            <path d="M 62 104 Q 120 -20 236 -6 Q 290 2 300 70 Q 250 30 236 104 Z" fill={look.hat} stroke={INK} strokeWidth={STROKE} strokeLinejoin="round" />
+            <circle cx={300} cy={78} r={24} fill="#FFFFFF" stroke={INK} strokeWidth={5} />
+            <rect x={48} y={92} width={204} height={40} rx={20} fill="#FFFFFF" stroke={INK} strokeWidth={STROKE} />
+          </g>
+        )}
+        {look.hat && look.hatStyle === 'elf' && (
+          <g>
+            <path d="M 66 110 Q 120 20 200 -60 Q 196 30 236 110 Z" fill={look.hat} stroke={INK} strokeWidth={STROKE} strokeLinejoin="round" />
+            <circle cx={200} cy={-62} r={14} fill="#FFD400" stroke={INK} strokeWidth={4} />
+            <rect x={56} y={98} width={188} height={26} rx={13} fill="#C8102E" stroke={INK} strokeWidth={5} />
+          </g>
+        )}
         <g transform={`translate(0 ${face.browY})`} stroke={INK} strokeWidth={8} strokeLinecap="round">
           <line x1={98} y1={122} x2={130} y2={122} transform={`rotate(${face.browL} 114 122)`} />
           <line x1={170} y1={122} x2={202} y2={122} transform={`rotate(${face.browR} 186 122)`} />

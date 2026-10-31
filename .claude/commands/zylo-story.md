@@ -17,8 +17,8 @@ style (`templates/zylo-toon`). Follow CLAUDE.md. Ask only when blocked by accoun
   people, places or companies.
 
 ## 2. Format: one story, several parts
-Write ONE long story (2.5–4 min) as a series: `episodes/<YYYY-MM-DD>-what-if-<slug>/series.json`
-(`parts[]`, each with `title` and `lines`, plus `finale`). Each part is a 45–60 s Short with its own arc:
+Write ONE long story (~7 min, 8 parts, told in detail — see /zylo-daily 1c; older series were 2.5–4 min) as a series: `episodes/<YYYY-MM-DD>-what-if-<slug>/series.json`
+(`parts[]`, each with `title` and `lines`, plus `finale`). Each part is a ~55–70 s Short with its own arc:
 - part 1 opens with the "What if...?" hook; parts 2+ open with "Part two. <one-line recap>";
 - every part ends on a cliffhanger line, then its closing line (`"end": true`);
 - the story needs real turns: a rule of the world, a cost, a betrayal or sacrifice, a twist, one running joke.
@@ -29,7 +29,7 @@ Every shot should carry sound: add `sfx` (whoosh boom hit alarm siren buzz ring 
 crash heartbeat engine tick powerdown powerup knock) on hits, reveals, phones, transitions.
 
 ## 2b. Line and shot rules
-- 85–130 spoken words, 35–60 s. Line 1 = the "What if...?" hook (≤ 9 words). Escalate every 2–3 lines,
+- 130–160 spoken words, 55–70 s per part. Line 1 = the "What if...?" hook (≤ 9 words). Escalate every 2–3 lines,
   one comic beat in the middle, a twist near the end, cliffhanger, last line `{"speaker":"narrator",
   "say":"Follow for part two.","end":true}` (vary the wording).
 - Mix narrator lines with dialogue (`hero` = Jay, `bit` = Bit, plus `friend`, `boss`, `scientist`, `kid`,

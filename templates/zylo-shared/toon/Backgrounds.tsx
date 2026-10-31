@@ -12,12 +12,12 @@ export const H = 1920;
 export const FLOOR_Y = 1480;
 
 export type TimeOfDay = 'day' | 'dusk' | 'night';
-export type SetName = 'room' | 'street' | 'sky' | 'space' | 'news' | 'store' | 'wasteland' | 'lab' | 'burst' | 'casino';
+export type SetName = 'room' | 'street' | 'sky' | 'space' | 'news' | 'store' | 'wasteland' | 'lab' | 'burst' | 'casino' | 'workshop';
 
 export type SetSpec = {
   type: SetName;
   time?: TimeOfDay;
-  /** 0 = intact, 1 = damaged, 2 = ruined (street, room, store). Casino: 1 = lights dying, 2 = dark and broke. */
+  /** 0 = intact, 1 = damaged, 2 = ruined (street, room, store). Casino: 1 = lights dying, 2 = dark and broke. Workshop: 1 = automated (cold, robot arms), 2 = locked and dark. */
   damage?: number;
   /** burst/news: main colour; news: headline text on the banner. */
   color?: string;
@@ -440,6 +440,75 @@ const shade = (hex: string) => {
   return `rgb(${c((n >> 16) & 255)},${c((n >> 8) & 255)},${c(n & 255)})`;
 };
 
+/** Santa's workshop: plank walls, gift shelves, garland lights, a snowy window. damage 1 = automated, 2 = locked/dark. */
+const Workshop: React.FC<{ t: number; damage: number }> = ({ t, damage }) => {
+  const warm = damage === 0;
+  const lit = damage === 2 ? 0.15 : 1;
+  const gifts = ['#C8102E', '#1F8A70', '#FFD400', '#2F6BFF', '#B05CFF', '#FF6B4A'];
+  return (
+    <g>
+      <rect width={W} height={H} fill={warm ? '#7A4A2A' : damage === 1 ? '#5E6B7A' : '#1E1A1C'} />
+      {Array.from({ length: 12 }).map((_, i) => (
+        <line key={i} x1={i * 90 + 45} y1={0} x2={i * 90 + 45} y2={FLOOR_Y} stroke={INK} strokeOpacity={0.25} strokeWidth={4} />
+      ))}
+      {/* window with falling snow */}
+      <g transform="translate(640 230)">
+        <rect width={340} height={380} rx={12} fill={damage === 2 ? '#0B1026' : '#1F2D5C'} stroke={INK} strokeWidth={10} />
+        {Array.from({ length: 26 }).map((_, i) => (
+          <circle key={i} cx={10 + rnd(i) * 320} cy={((rnd(i + 40) * 380 + t * (1.5 + rnd(i) * 1.5)) % 370) + 5} r={3 + rnd(i + 3) * 4} fill="#FFFFFF" opacity={0.9} />
+        ))}
+        <line x1={170} y1={0} x2={170} y2={380} stroke={INK} strokeWidth={10} />
+        <line x1={0} y1={190} x2={340} y2={190} stroke={INK} strokeWidth={10} />
+        <path d="M 0 360 Q 170 330 340 360 L 340 380 L 0 380 Z" fill="#FFFFFF" />
+      </g>
+      {/* garland */}
+      <path d="M -20 120 Q 270 230 540 120 Q 810 230 1100 120" fill="none" stroke="#1F5E3A" strokeWidth={16} />
+      {Array.from({ length: 15 }).map((_, i) => {
+        const x = -10 + i * 78;
+        const y = 120 + Math.sin(((x % 540) / 540) * Math.PI) * 95;
+        const on = damage === 2 ? 0.12 : (Math.floor(t / 7) + i) % 3 === 0 ? 0.4 : 1;
+        return <circle key={i} cx={x} cy={y + 12} r={13} fill={gifts[i % gifts.length]} stroke={INK} strokeWidth={4} opacity={on} />;
+      })}
+      {/* gift shelves */}
+      {[0, 1, 2].map((r) => (
+        <g key={r} transform={`translate(40 ${330 + r * 260})`}>
+          <rect y={170} width={540} height={22} fill="#4A2C18" stroke={INK} strokeWidth={6} />
+          {Array.from({ length: 5 }).map((_, k) => {
+            const h = 90 + rnd(r * 9 + k) * 70;
+            const c = gifts[(r * 2 + k) % gifts.length];
+            return (
+              <g key={k} transform={`translate(${12 + k * 104} ${170 - h})`} opacity={damage === 2 ? 0.35 : 1}>
+                <rect width={88} height={h} rx={6} fill={c} stroke={INK} strokeWidth={5} />
+                <rect x={38} width={12} height={h} fill={damage === 1 ? '#C9CED8' : '#FFFFFF'} />
+                <path d="M 44 0 q -26 -26 -30 -6 q 6 14 30 6 q 24 8 30 -6 q -4 -20 -30 6" fill="#FFFFFF" stroke={INK} strokeWidth={3} />
+              </g>
+            );
+          })}
+        </g>
+      ))}
+      {/* automated: robot arms + conveyor */}
+      {damage === 1 &&
+        [0, 1].map((i) => {
+          const a = Math.sin(t / 8 + i * 2) * 25;
+          return (
+            <g key={i} transform={`translate(${720 + i * 200} 1180)`}>
+              <rect x={-30} y={180} width={60} height={120} fill="#8B93A5" stroke={INK} strokeWidth={6} />
+              <g transform={`rotate(${a} 0 180)`}>
+                <rect x={-14} y={20} width={28} height={170} rx={10} fill="#C9CED8" stroke={INK} strokeWidth={6} />
+                <path d="M -30 20 L 0 -10 L 30 20" fill="none" stroke={INK} strokeWidth={8} />
+              </g>
+              <circle cx={0} cy={180} r={18} fill="#E0312B" stroke={INK} strokeWidth={5} />
+            </g>
+          );
+        })}
+      {/* fireplace glow */}
+      {warm && <circle cx={860} cy={1420} r={240} fill="#FF9A3C" opacity={0.18} />}
+      <rect y={FLOOR_Y - 20} width={W} height={H - FLOOR_Y + 20} fill={warm ? '#5A3420' : damage === 1 ? '#8B93A5' : '#151215'} stroke={INK} strokeWidth={8} />
+      {damage === 2 && <rect width={W} height={H} fill="#000" opacity={0.35} />}
+    </g>
+  );
+};
+
 export const SetPiece: React.FC<{ spec: SetSpec; t: number }> = ({ spec, t }) => {
   const time = spec.time ?? 'day';
   const damage = spec.damage ?? 0;
@@ -464,6 +533,8 @@ export const SetPiece: React.FC<{ spec: SetSpec; t: number }> = ({ spec, t }) =>
       return <Burst color={spec.color} t={t} />;
     case 'casino':
       return <Casino t={t} damage={damage} />;
+    case 'workshop':
+      return <Workshop t={t} damage={damage} />;
   }
 };
 
