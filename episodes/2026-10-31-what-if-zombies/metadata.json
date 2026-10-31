@@ -15,7 +15,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-10-31T15:00:00Z"
  },
  "part2": {
   "title": "What If Your AI Was a Zombie Magnet? 🧟 Part 2 #shorts",
@@ -33,7 +34,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-01T15:00:00Z"
  },
  "part3": {
   "title": "What If Your AI Sacrificed Itself? 🧟 Part 3 #shorts",
@@ -51,11 +53,12 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-02T15:00:00Z"
  },
  "full": {
   "title": "What If a Zombie Apocalypse Started With One Notification? (Full Story)",
-  "description": "What if a zombie apocalypse started with one phone update, and the only one who knew how to survive was your AI?\nAn original animated \"What if...?\" story by zylo: all three parts in one.\n\nFollow for a new \"What if...?\" every day.\n\n#whatif #zombies #animation #story",
+  "description": "What if a zombie apocalypse started with one phone update, and the only one who knew how to survive was your AI?\nAn original animated \"What if...?\" story by zylo: all three parts in one.\n\n{chapters}\nFollow for a new \"What if...?\" every day.\n\n#whatif #zombies #animation #story",
   "tags": [
    "what if",
    "zombie apocalypse",
@@ -67,6 +70,7 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-03T18:00:00Z"
  }
 }

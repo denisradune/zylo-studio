@@ -6,12 +6,13 @@ Format (since 2026-10-31): original animated **"What if...?"** stories in the co
 motion-design Shorts (`/zylo-short`, `templates/zylo-short`) stay available. Video language: English.
 Audience: English-speaking 16–35, loves "wait, really?" moments. Talk to the owner in Russian.
 
-## Cadence
-- 1 Short every day, published ~17:00 Israel time (Asia/Jerusalem).
-- 1 long video (8–12 min, 16:9) every Sunday: expand the week's best Short (`scripts/youtube_upload.py --stats`).
-- Rotate rubrics, never the same one two days running (check `log.md`):
-  1. weird science & the human body · 2. psychology & how the brain tricks us ·
-  3. money, business, tech/AI · 4. history & mysteries of space.
+## Cadence (fully automatic since 2026-11-01 — the owner does not touch it)
+- A scheduled task runs `/zylo-daily` every day ~10:23 Israel time: one new "What if...?" series per day, 4 parts.
+- Part i of a series goes out on day i at the series' slot (13:00 / 15:00 / 17:00 / 19:00 Asia/Jerusalem, rotating
+  by start date so parallel series never collide); the full story goes out as a regular 16:9 video (with chapters and
+  a cartoon thumbnail) the day after the last part at 21:00. `scripts/publish_series.py` does the scheduling/uploads.
+- YouTube API default quota ≈ 6 uploads/day → 4 parts + 1 full per day. More parts need a quota increase.
+- Fact-based Shorts (`/zylo-short`) stay available on request.
 
 ## Non-negotiables
 - Every episode is unique: own script, own angle, own visual plan (mix image / stat / compare / bars / text
