@@ -34,11 +34,46 @@ export type Visual =
   /** Kinetic statement card (words pop in one by one); `accent` words go yellow. */
   | (BaseVisual & { type: 'text'; text: string; accent?: string[]; bgSrc?: string });
 
+/** The single hero object a beat puts centre-screen. Image paths are relative to the public dir. */
+export type Hero =
+  /** Full-bleed photo with Ken Burns, darkened so the headline reads. */
+  | { type: 'image'; src: string; motion?: KenBurns }
+  /** Floating browser-style card: image on top, title band below; `url` shows the source domain. */
+  | { type: 'card'; src: string; url?: string; title: string; badge?: string }
+  /** Text-only source card: the paper or page a fact comes from. */
+  | { type: 'source'; url: string; title: string; meta?: string }
+  /** Glossy tile with a big number or symbol and a light sweep. */
+  | { type: 'tile'; value: string; label?: string }
+  /** Giant number that counts up, with a label underneath. */
+  | { type: 'counter'; value: string; label: string; sub?: string }
+  /** Three phone-like cards fanned in 3D; the middle one lists `labels`, lighting them in turn. */
+  | { type: 'phones'; srcs: string[]; labels?: string[] }
+  /** Horizontal film strip of frames sliding past. */
+  | { type: 'filmstrip'; srcs: string[] }
+  /** Items tick on one by one. */
+  | { type: 'checklist'; items: string[] }
+  /** Line chart that draws itself; values are relative. */
+  | { type: 'chart'; points: number[]; label: string; highlight?: string }
+  | { type: 'compare'; left: { value: string; label: string }; right: { value: string; label: string } };
+
+export type Beat = {
+  start: number;
+  end: number;
+  /** Progress-bar segment this beat belongs to (0-based). */
+  section: number;
+  theme?: 'dark' | 'light';
+  /** Headline above the hero; wrap accent words in *asterisks*. Consecutive beats with the same headline keep it on screen. */
+  headline?: string;
+  /** 'hook' = huge three-tone title for the opening beat. */
+  headlineStyle?: 'hook' | 'normal';
+  hero: Hero;
+  /** Row of small chips under the hero, one highlighted (lists, steps). */
+  chips?: { items: string[]; active: number };
+  /** Voice waveform with a playhead under the hero. */
+  wave?: boolean;
+};
+
 export type ShortProps = {
-  /** On-screen hook, top third, first ~1.5s. Keep it under ~8 words. */
-  hook: string;
-  /** Hook words to paint yellow. */
-  hookAccent?: string[];
   voiceover: string;
   /** Exact VO length in seconds; the video ends with it (+ tailSeconds). */
   voiceoverSeconds: number;
@@ -46,10 +81,11 @@ export type ShortProps = {
   words: Word[];
   music?: string;
   musicVolume?: number;
-  visuals: Visual[];
+  sections: number;
+  beats: Beat[];
   /** Second the CTA card takes over (normally the start of the CTA sentence). */
   ctaStart: number;
-}
+};
 
 export type Chapter = {
   title: string;

@@ -36,7 +36,7 @@ def via_pollinations(prompt: str, out: Path, w: int, h: int, seed: int) -> None:
     q = urllib.parse.quote(f'{prompt}. {STYLE}')
     url = f'https://image.pollinations.ai/prompt/{q}?width={w}&height={h}&model=flux&nologo=true&seed={seed}'
     last = None
-    for attempt in range(4):
+    for attempt in range(6):
         try:
             with urllib.request.urlopen(url, timeout=180) as r:
                 data = r.read()
@@ -46,7 +46,8 @@ def via_pollinations(prompt: str, out: Path, w: int, h: int, seed: int) -> None:
             return
         except Exception as e:  # noqa: BLE001 - retry any transport failure
             last = e
-            time.sleep(4 * (attempt + 1))
+            # Free tier: one image per 45 s per IP (HTTP 402 FREE_LIMIT).
+            time.sleep(47 if getattr(e, 'code', None) == 402 else 4 * (attempt + 1))
     raise RuntimeError(f'pollinations failed for {out.name}: {last}')
 
 
@@ -74,9 +75,17 @@ def main():
     ap.add_argument('--jobs', required=True)
     ap.add_argument('--parallel', type=int, default=3)
     jobs = json.loads(Path(ap.parse_args().jobs).read_text())
-    with ThreadPoolExecutor(ap.parse_args().parallel) as ex:
-        for msg in ex.map(generate, jobs):
-            print(msg, flush=True)
+    toolkit = os.environ.get('MODAL_FLUX2_ENDPOINT_URL') or os.environ.get('RUNPOD_FLUX2_ENDPOINT_ID')
+    if toolkit:
+        with ThreadPoolExecutor(ap.parse_args().parallel) as ex:
+            for msg in ex.map(generate, jobs):
+                print(msg, flush=True)
+        return
+    for i, job in enumerate(jobs):
+        msg = generate(job)
+        print(msg, flush=True)
+        if msg.startswith('ok') and i + 1 < len(jobs):
+            time.sleep(46)  # stay under the free-tier rate limit
 
 
 if __name__ == '__main__':

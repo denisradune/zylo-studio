@@ -57,14 +57,21 @@ def stage_music(d: Path, ep: dict) -> None:
          '--seed', str(ep.get('seed', 1)), '--out', str(d / 'public/audio/music.mp3')])
 
 
+def image_jobs(d: Path, ep: dict) -> list[tuple[int, str, str]]:
+    """(line index, hero key, prompt) -> one image file per prompt, named by line and slot."""
+    out = []
+    for i, line in enumerate(ep['lines']):
+        hero = line.get('hero', {})
+        if hero.get('prompt'):
+            out.append((i, f'images/{i + 1:02d}.jpg', hero['prompt']))
+        for k, pr in enumerate(hero.get('prompts', [])):
+            out.append((i, f'images/{i + 1:02d}-{k + 1}.jpg', pr))
+    return out
+
+
 def stage_images(d: Path, ep: dict) -> None:
-    jobs = []
-    for i, line in enumerate(ep['lines'], 1):
-        v = line['visual']
-        prompt = v.get('prompt') or v.get('bgPrompt')
-        if prompt:
-            jobs.append({'prompt': prompt, 'out': str(d / f'public/images/{i:02d}.jpg'), 'w': 1080, 'h': 1920,
-                         'seed': ep.get('seed', 1) + i})
+    jobs = [{'prompt': pr, 'out': str(d / 'public' / rel), 'w': 1080, 'h': 1920, 'seed': ep.get('seed', 1) + n}
+            for n, (_, rel, pr) in enumerate(image_jobs(d, ep))]
     (d / 'image-jobs.json').write_text(json.dumps(jobs, indent=1))
     run([PY, str(ROOT / 'scripts/images.py'), '--jobs', str(d / 'image-jobs.json')])
 
@@ -81,36 +88,44 @@ def stage_props(d: Path, ep: dict) -> None:
         sys.exit(f'word count mismatch: lines have {idx}, voiceover has {len(words)}')
     starts = [0.0] + [max(0.0, words[i]['startMs'] / 1000 - LEAD) for i in first[1:]]
     cta_i = len(ep['lines']) - 1
-    assert ep['lines'][cta_i]['visual']['type'] == 'cta', 'last line must be the CTA'
+    assert ep['lines'][cta_i].get('cta'), 'last line must be the CTA ({"say": ..., "cta": true})'
     cta_start = starts[cta_i]
 
-    visuals = []
+    files = {}
+    for i, rel, _ in image_jobs(d, ep):
+        files.setdefault(i, []).append(rel)
+
+    beats = []
     for i, line in enumerate(ep['lines'][:-1]):
-        spec = {k: val for k, val in line['visual'].items() if k not in ('prompt', 'bgPrompt')}
-        img = f'images/{i + 1:02d}.jpg'
-        if spec['type'] == 'image':
-            spec['src'] = img
-        elif line['visual'].get('bgPrompt'):
-            spec['bgSrc'] = img
-        spec['start'] = round(starts[i], 3)
-        spec['end'] = round(starts[i + 1] + 0.2 if i + 1 < cta_i else cta_start + 0.2, 3)
-        visuals.append(spec)
+        hero = {k: val for k, val in line['hero'].items() if k not in ('prompt', 'prompts')}
+        imgs = files.get(i, [])
+        if hero['type'] in ('image', 'card') and 'src' not in hero:
+            hero['src'] = imgs[0]
+        elif hero['type'] in ('phones', 'filmstrip') and 'srcs' not in hero:
+            hero['srcs'] = imgs
+        beat = {k: line[k] for k in ('theme', 'headline', 'headlineStyle', 'chips', 'wave') if k in line}
+        beat.update({
+            'section': line.get('section', 0),
+            'hero': hero,
+            'start': round(starts[i], 3),
+            'end': round(starts[i + 1] if i + 1 < cta_i else cta_start, 3),
+        })
+        beats.append(beat)
 
     props = {
-        'hook': ep['hook'],
-        'hookAccent': ep.get('hookAccent', []),
         'voiceover': 'audio/voiceover.mp3',
         'voiceoverSeconds': v['seconds'],
         'tailSeconds': 0.4,
         'words': words,
         'music': 'audio/music.mp3',
         'musicVolume': 0.15,
-        'visuals': visuals,
+        'sections': max(b['section'] for b in beats) + 1,
+        'beats': beats,
         'ctaStart': round(cta_start, 3),
     }
     (d / 'props.json').write_text(json.dumps(props, indent=1))
-    spans = [round(x['end'] - x['start'], 1) for x in visuals]
-    print(f'props: {len(visuals)} visuals, spans {spans}, CTA at {cta_start:.2f}s, VO {v["seconds"]:.2f}s')
+    spans = [round(b['end'] - b['start'], 1) for b in beats]
+    print(f'props: {len(beats)} beats, spans {spans}, CTA at {cta_start:.2f}s, VO {v["seconds"]:.2f}s')
 
 
 def stage_render(d: Path, ep: dict) -> None:

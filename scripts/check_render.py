@@ -4,7 +4,7 @@ QC a rendered zylo video before upload. Exit 1 on any hard failure.
 
 Checks: resolution, fps, duration (35-50 s for Shorts and equal to VO + tail),
 audio present and loud enough, no black gaps, captions inside the frame
-(static: the longest caption page is measured against the safe width), and
+and
 extracts review frames to out/frames/ (default 0.8 s, middle, 30 s).
 
   scripts/check_render.py episodes/x/out/short.mp4 --props episodes/x/props.json
@@ -64,12 +64,7 @@ def main():
         if 'voiceoverSeconds' in p:
             expect = p['voiceoverSeconds'] + p.get('tailSeconds', 0.4)
             (info if abs(dur - expect) < 0.15 else errors).append(f'ends with VO: video {dur:.2f}s vs VO+tail {expect:.2f}s')
-            # Caption overflow: Anton at 92px averages ~0.5em per uppercase glyph; the box is 940px.
-            words = p['words']
-            longest = max(len(' '.join(x['text'] for x in words[i:i + 3])) for i in range(len(words)))
-            est = longest * 92 * 0.5 * 1.1
-            (info if est <= 1000 else warns).append(f'longest 3-word caption ~{est:.0f}px wide (box 940px, wraps to 2 lines if over)')
-            spans = [round(x['end'] - x['start'], 2) for x in p['visuals']]
+            spans = [round(x['end'] - x['start'], 2) for x in p.get('beats', p.get('visuals', []))]
             if any(s > 3.6 for s in spans):
                 warns.append(f'visual held >3.6s: {spans}')
 

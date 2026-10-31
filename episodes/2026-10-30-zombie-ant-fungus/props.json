@@ -1,0 +1,779 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 43.568,
+ "tailSeconds": 0.4,
+ "words": [
+  {
+   "text": "A",
+   "startMs": 163,
+   "endMs": 273
+  },
+  {
+   "text": "fungus",
+   "startMs": 273,
+   "endMs": 703
+  },
+  {
+   "text": "can",
+   "startMs": 703,
+   "endMs": 903
+  },
+  {
+   "text": "turn",
+   "startMs": 903,
+   "endMs": 1123
+  },
+  {
+   "text": "an",
+   "startMs": 1123,
+   "endMs": 1243
+  },
+  {
+   "text": "ant",
+   "startMs": 1243,
+   "endMs": 1553
+  },
+  {
+   "text": "into",
+   "startMs": 1553,
+   "endMs": 1833
+  },
+  {
+   "text": "a",
+   "startMs": 1833,
+   "endMs": 2023
+  },
+  {
+   "text": "zombie.",
+   "startMs": 2023,
+   "endMs": 2552
+  },
+  {
+   "text": "And",
+   "startMs": 2932,
+   "endMs": 3082
+  },
+  {
+   "text": "it",
+   "startMs": 3082,
+   "endMs": 3152
+  },
+  {
+   "text": "does",
+   "startMs": 3152,
+   "endMs": 3362
+  },
+  {
+   "text": "it",
+   "startMs": 3362,
+   "endMs": 3502
+  },
+  {
+   "text": "without",
+   "startMs": 3502,
+   "endMs": 3902
+  },
+  {
+   "text": "ever",
+   "startMs": 3902,
+   "endMs": 4202
+  },
+  {
+   "text": "entering",
+   "startMs": 4202,
+   "endMs": 4632
+  },
+  {
+   "text": "its",
+   "startMs": 4632,
+   "endMs": 4882
+  },
+  {
+   "text": "brain.",
+   "startMs": 4882,
+   "endMs": 5385
+  },
+  {
+   "text": "An",
+   "startMs": 5787,
+   "endMs": 5917
+  },
+  {
+   "text": "infected",
+   "startMs": 5917,
+   "endMs": 6457
+  },
+  {
+   "text": "carpenter",
+   "startMs": 6457,
+   "endMs": 6947
+  },
+  {
+   "text": "ant",
+   "startMs": 6947,
+   "endMs": 7337
+  },
+  {
+   "text": "stops",
+   "startMs": 7337,
+   "endMs": 7717
+  },
+  {
+   "text": "walking",
+   "startMs": 7717,
+   "endMs": 8147
+  },
+  {
+   "text": "with",
+   "startMs": 8147,
+   "endMs": 8277
+  },
+  {
+   "text": "its",
+   "startMs": 8277,
+   "endMs": 8497
+  },
+  {
+   "text": "colony.",
+   "startMs": 8497,
+   "endMs": 9072
+  },
+  {
+   "text": "It",
+   "startMs": 9473,
+   "endMs": 9623
+  },
+  {
+   "text": "wanders",
+   "startMs": 9623,
+   "endMs": 10003
+  },
+  {
+   "text": "off",
+   "startMs": 10003,
+   "endMs": 10263
+  },
+  {
+   "text": "alone,",
+   "startMs": 10263,
+   "endMs": 10803
+  },
+  {
+   "text": "up",
+   "startMs": 10803,
+   "endMs": 11003
+  },
+  {
+   "text": "a",
+   "startMs": 11003,
+   "endMs": 11113
+  },
+  {
+   "text": "small",
+   "startMs": 11113,
+   "endMs": 11463
+  },
+  {
+   "text": "plant.",
+   "startMs": 11463,
+   "endMs": 11884
+  },
+  {
+   "text": "Then,",
+   "startMs": 12371,
+   "endMs": 12661
+  },
+  {
+   "text": "around",
+   "startMs": 12661,
+   "endMs": 12911
+  },
+  {
+   "text": "solar",
+   "startMs": 12911,
+   "endMs": 13301
+  },
+  {
+   "text": "noon,",
+   "startMs": 13301,
+   "endMs": 13741
+  },
+  {
+   "text": "it",
+   "startMs": 13741,
+   "endMs": 13891
+  },
+  {
+   "text": "bites",
+   "startMs": 13891,
+   "endMs": 14261
+  },
+  {
+   "text": "down",
+   "startMs": 14261,
+   "endMs": 14541
+  },
+  {
+   "text": "hard.",
+   "startMs": 14541,
+   "endMs": 15037
+  },
+  {
+   "text": "On",
+   "startMs": 15439,
+   "endMs": 15559
+  },
+  {
+   "text": "a",
+   "startMs": 15559,
+   "endMs": 15689
+  },
+  {
+   "text": "leaf",
+   "startMs": 15689,
+   "endMs": 15939
+  },
+  {
+   "text": "vein,",
+   "startMs": 15939,
+   "endMs": 16379
+  },
+  {
+   "text": "about",
+   "startMs": 16379,
+   "endMs": 16719
+  },
+  {
+   "text": "twenty",
+   "startMs": 16719,
+   "endMs": 17059
+  },
+  {
+   "text": "five",
+   "startMs": 17059,
+   "endMs": 17359
+  },
+  {
+   "text": "centimeters",
+   "startMs": 17359,
+   "endMs": 17869
+  },
+  {
+   "text": "up.",
+   "startMs": 17869,
+   "endMs": 18255
+  },
+  {
+   "text": "Its",
+   "startMs": 18656,
+   "endMs": 18856
+  },
+  {
+   "text": "jaw",
+   "startMs": 18856,
+   "endMs": 19176
+  },
+  {
+   "text": "muscles",
+   "startMs": 19176,
+   "endMs": 19606
+  },
+  {
+   "text": "waste",
+   "startMs": 19606,
+   "endMs": 19896
+  },
+  {
+   "text": "away,",
+   "startMs": 19896,
+   "endMs": 20416
+  },
+  {
+   "text": "locking",
+   "startMs": 20416,
+   "endMs": 20886
+  },
+  {
+   "text": "it",
+   "startMs": 20886,
+   "endMs": 21046
+  },
+  {
+   "text": "there.",
+   "startMs": 21046,
+   "endMs": 21365
+  },
+  {
+   "text": "In",
+   "startMs": 21767,
+   "endMs": 21927
+  },
+  {
+   "text": "2017,",
+   "startMs": 21927,
+   "endMs": 23307
+  },
+  {
+   "text": "scientists",
+   "startMs": 23307,
+   "endMs": 23897
+  },
+  {
+   "text": "scanned",
+   "startMs": 23897,
+   "endMs": 24377
+  },
+  {
+   "text": "infected",
+   "startMs": 24377,
+   "endMs": 24917
+  },
+  {
+   "text": "ants.",
+   "startMs": 24917,
+   "endMs": 25372
+  },
+  {
+   "text": "The",
+   "startMs": 25773,
+   "endMs": 25913
+  },
+  {
+   "text": "fungus",
+   "startMs": 25913,
+   "endMs": 26323
+  },
+  {
+   "text": "had",
+   "startMs": 26323,
+   "endMs": 26553
+  },
+  {
+   "text": "wrapped",
+   "startMs": 26553,
+   "endMs": 26873
+  },
+  {
+   "text": "networks",
+   "startMs": 26873,
+   "endMs": 27393
+  },
+  {
+   "text": "around",
+   "startMs": 27393,
+   "endMs": 27763
+  },
+  {
+   "text": "its",
+   "startMs": 27763,
+   "endMs": 27963
+  },
+  {
+   "text": "muscles.",
+   "startMs": 27963,
+   "endMs": 28525
+  },
+  {
+   "text": "But",
+   "startMs": 28927,
+   "endMs": 29037
+  },
+  {
+   "text": "not",
+   "startMs": 29037,
+   "endMs": 29277
+  },
+  {
+   "text": "a",
+   "startMs": 29277,
+   "endMs": 29397
+  },
+  {
+   "text": "single",
+   "startMs": 29397,
+   "endMs": 29797
+  },
+  {
+   "text": "fungal",
+   "startMs": 29797,
+   "endMs": 30217
+  },
+  {
+   "text": "cell",
+   "startMs": 30217,
+   "endMs": 30717
+  },
+  {
+   "text": "was",
+   "startMs": 30717,
+   "endMs": 30897
+  },
+  {
+   "text": "inside",
+   "startMs": 30897,
+   "endMs": 31447
+  },
+  {
+   "text": "the",
+   "startMs": 31447,
+   "endMs": 31527
+  },
+  {
+   "text": "brain.",
+   "startMs": 31527,
+   "endMs": 32020
+  },
+  {
+   "text": "Then",
+   "startMs": 32445,
+   "endMs": 32585
+  },
+  {
+   "text": "a",
+   "startMs": 32585,
+   "endMs": 32775
+  },
+  {
+   "text": "stalk",
+   "startMs": 32775,
+   "endMs": 33045
+  },
+  {
+   "text": "grows",
+   "startMs": 33045,
+   "endMs": 33395
+  },
+  {
+   "text": "out",
+   "startMs": 33395,
+   "endMs": 33615
+  },
+  {
+   "text": "of",
+   "startMs": 33615,
+   "endMs": 33675
+  },
+  {
+   "text": "the",
+   "startMs": 33635,
+   "endMs": 33835
+  },
+  {
+   "text": "ant's",
+   "startMs": 33835,
+   "endMs": 34065
+  },
+  {
+   "text": "head,",
+   "startMs": 34065,
+   "endMs": 34685
+  },
+  {
+   "text": "ready",
+   "startMs": 34685,
+   "endMs": 34965
+  },
+  {
+   "text": "to",
+   "startMs": 34965,
+   "endMs": 35065
+  },
+  {
+   "text": "release",
+   "startMs": 35065,
+   "endMs": 35485
+  },
+  {
+   "text": "spores",
+   "startMs": 35485,
+   "endMs": 35935
+  },
+  {
+   "text": "on",
+   "startMs": 35935,
+   "endMs": 36145
+  },
+  {
+   "text": "new",
+   "startMs": 36145,
+   "endMs": 36315
+  },
+  {
+   "text": "victims.",
+   "startMs": 36315,
+   "endMs": 36904
+  },
+  {
+   "text": "Nature",
+   "startMs": 37305,
+   "endMs": 37845
+  },
+  {
+   "text": "wrote",
+   "startMs": 37845,
+   "endMs": 38105
+  },
+  {
+   "text": "the",
+   "startMs": 38105,
+   "endMs": 38265
+  },
+  {
+   "text": "zombie",
+   "startMs": 38265,
+   "endMs": 38635
+  },
+  {
+   "text": "story",
+   "startMs": 38635,
+   "endMs": 39115
+  },
+  {
+   "text": "first.",
+   "startMs": 39115,
+   "endMs": 39567
+  },
+  {
+   "text": "Follow",
+   "startMs": 40053,
+   "endMs": 40363
+  },
+  {
+   "text": "for",
+   "startMs": 40363,
+   "endMs": 40523
+  },
+  {
+   "text": "one",
+   "startMs": 40523,
+   "endMs": 40783
+  },
+  {
+   "text": "fact",
+   "startMs": 40783,
+   "endMs": 41073
+  },
+  {
+   "text": "a",
+   "startMs": 41073,
+   "endMs": 41263
+  },
+  {
+   "text": "day",
+   "startMs": 41263,
+   "endMs": 41553
+  },
+  {
+   "text": "that",
+   "startMs": 41553,
+   "endMs": 41723
+  },
+  {
+   "text": "changes",
+   "startMs": 41723,
+   "endMs": 42283
+  },
+  {
+   "text": "how",
+   "startMs": 42283,
+   "endMs": 42593
+  },
+  {
+   "text": "you",
+   "startMs": 42593,
+   "endMs": 42743
+  },
+  {
+   "text": "see",
+   "startMs": 42743,
+   "endMs": 42913
+  },
+  {
+   "text": "the",
+   "startMs": 42913,
+   "endMs": 43013
+  },
+  {
+   "text": "world.",
+   "startMs": 43013,
+   "endMs": 43488
+  }
+ ],
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "sections": 4,
+ "beats": [
+  {
+   "theme": "dark",
+   "headline": "This fungus *hijacks* ants",
+   "headlineStyle": "hook",
+   "section": 0,
+   "hero": {
+    "type": "image",
+    "motion": "in",
+    "src": "images/01.jpg"
+   },
+   "start": 0.0,
+   "end": 2.852
+  },
+  {
+   "theme": "dark",
+   "headline": "Without touching its *brain*",
+   "section": 0,
+   "hero": {
+    "type": "card",
+    "url": "pnas.org",
+    "title": "Not in the brain",
+    "badge": "PNAS \u00b7 2017",
+    "src": "images/02.jpg"
+   },
+   "start": 2.852,
+   "end": 5.707
+  },
+  {
+   "theme": "light",
+   "headline": "Step 1: it *leaves*",
+   "section": 1,
+   "hero": {
+    "type": "card",
+    "url": "bmcecol.biomedcentral.com",
+    "title": "Carpenter ant",
+    "badge": "Thai rainforest",
+    "src": "images/03.jpg"
+   },
+   "start": 5.707,
+   "end": 9.393
+  },
+  {
+   "theme": "light",
+   "headline": "Step 2: it *climbs*",
+   "section": 1,
+   "hero": {
+    "type": "card",
+    "title": "Alone, up a sapling",
+    "badge": "under 50 cm",
+    "src": "images/04.jpg"
+   },
+   "start": 9.393,
+   "end": 12.291
+  },
+  {
+   "theme": "dark",
+   "headline": "Step 3: it *bites*",
+   "section": 1,
+   "hero": {
+    "type": "tile",
+    "value": "12:00",
+    "label": "solar noon"
+   },
+   "start": 12.291,
+   "end": 15.359
+  },
+  {
+   "theme": "dark",
+   "headline": "Always the *same height*",
+   "section": 1,
+   "hero": {
+    "type": "counter",
+    "value": "25 cm",
+    "label": "above the forest floor",
+    "sub": "Hughes et al. \u00b7 BMC Ecology 2011"
+   },
+   "start": 15.359,
+   "end": 18.576
+  },
+  {
+   "theme": "dark",
+   "headline": "A *death grip*",
+   "section": 1,
+   "hero": {
+    "type": "image",
+    "motion": "in",
+    "src": "images/07.jpg"
+   },
+   "start": 18.576,
+   "end": 21.687
+  },
+  {
+   "theme": "light",
+   "headline": "Then scientists *looked inside*",
+   "section": 2,
+   "hero": {
+    "type": "source",
+    "url": "pnas.org",
+    "title": "3D visualization reveals fungal parasite networks in manipulated ants",
+    "meta": "Fredericksen et al. \u00b7 PNAS \u00b7 2017"
+   },
+   "start": 21.687,
+   "end": 25.693
+  },
+  {
+   "theme": "light",
+   "headline": "It wraps the *muscles*",
+   "section": 2,
+   "hero": {
+    "type": "card",
+    "title": "Fungal networks",
+    "badge": "around muscle fibres",
+    "src": "images/09.jpg"
+   },
+   "start": 25.693,
+   "end": 28.847
+  },
+  {
+   "theme": "dark",
+   "headline": "And the *brain*?",
+   "section": 2,
+   "hero": {
+    "type": "tile",
+    "value": "0",
+    "label": "fungal cells inside the brain"
+   },
+   "start": 28.847,
+   "end": 32.365
+  },
+  {
+   "theme": "dark",
+   "headline": "The *final* stage",
+   "section": 3,
+   "hero": {
+    "type": "image",
+    "motion": "up",
+    "src": "images/11.jpg"
+   },
+   "start": 32.365,
+   "end": 34.605
+  },
+  {
+   "theme": "dark",
+   "headline": "Spores for *new victims*",
+   "section": 3,
+   "hero": {
+    "type": "phones",
+    "srcs": [
+     "images/11.jpg",
+     "images/12.jpg",
+     "images/01.jpg"
+    ]
+   },
+   "start": 34.605,
+   "end": 37.225
+  },
+  {
+   "theme": "dark",
+   "headline": "Nature wrote it *first*",
+   "section": 3,
+   "hero": {
+    "type": "checklist",
+    "items": [
+     "Infects the body",
+     "Steers the muscles",
+     "Spreads its spores"
+    ]
+   },
+   "start": 37.225,
+   "end": 39.973
+  }
+ ],
+ "ctaStart": 39.973
+}

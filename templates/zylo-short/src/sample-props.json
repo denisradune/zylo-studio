@@ -1,1 +1,1 @@
-{"hook":"Sample hook","voiceover":"audio/voiceover.mp3","voiceoverSeconds":10,"words":[],"visuals":[],"ctaStart":8}
+{"voiceover":"audio/voiceover.mp3","voiceoverSeconds":10,"words":[],"sections":1,"beats":[{"start":0,"end":10,"section":0,"hero":{"type":"tile","value":"1"}}],"ctaStart":8}

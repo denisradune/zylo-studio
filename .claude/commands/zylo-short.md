@@ -24,10 +24,18 @@ by accounts, keys or payment. Arguments (optional): `$ARGUMENTS` — a topic or 
 
 ## 3. Script → episode.json
 - 95–120 words incl. CTA; hook 0–3 s, promise 3–15 s, one idea with facts 15–40 s, CTA last.
-- Lines of 6–9 words, one visual each, chosen for that line's meaning. Mix types
-  (`image` with motion in/out/left/right/up/down, `stat`, `compare`, `bars`, `text`) differently from
-  the last few episodes. Image prompts: concrete subject, no people's faces as realistic portraits,
-  no fake real-world events. Pick `mood` (mystery|wonder|tension|tech|space|warm) and a new `seed`.
+- Lines of 5–8 words; each line is one **beat** (a cut every 2–3 s). Per line set:
+  `section` (0..3, one progress segment per story block), `theme` (`dark`/`light`, alternate blocks),
+  `headline` (2–5 words, accent words in *asterisks*; repeat it on consecutive lines to hold it),
+  first line `headlineStyle: "hook"`, and one `hero`:
+  `image` (full-bleed, `prompt`, `motion`), `card` (`prompt`, `title`, `badge`, `url` of the source domain),
+  `source` (`url`, paper `title`, `meta`), `tile` (`value` ≤ 5 chars, `label`), `counter` (`value`, `label`, `sub`),
+  `phones` (`prompts`×3 or `srcs`, optional `labels`), `filmstrip` (`prompts`), `checklist` (`items`),
+  `chart` (`points`, `label`, `highlight`), `compare` (`left`/`right`). Optional `chips`, `wave`.
+  Last line: `{"say": "Follow for one fact a day that changes how you see the world.", "cta": true}`.
+  Vary hero types and order between episodes; show a `source` or `url` card for the key fact.
+  Image prompts: concrete subject, no realistic people, no fake real-world events.
+- Pick `mood` (mystery|wonder|tension|tech|space|warm) and a new `seed`.
 - Also write `title` in episode.json.
 
 ## 4. Build

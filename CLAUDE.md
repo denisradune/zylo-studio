@@ -38,7 +38,7 @@ The digitalsamba/claude-code-video-toolkit is cloned next to this repo by `scrip
 ## Short script rules (95–120 words, 35–50 s)
 - 0–3 s hook: paradox or question. 3–15 s promise. 15–40 s one idea with concrete facts/numbers.
 - Last line exactly: "Follow for one fact a day that changes how you see the world."
-- Write `episode.json` lines of 6–9 words; each line = one visual (gives a cut every 2–3 s), chosen for
+- Write `episode.json` beats (see .claude/commands/zylo-short.md for the schema); each line = one beat (a cut every 2–3 s), its hero chosen for
   that line's meaning. On-screen hook ≤ 6 words.
 - Numbers in `say` are written the way they should be spoken when ambiguous ("twenty five centimeters").
 
