@@ -2,9 +2,9 @@
 .venv/
 .models/
 node_modules/
-episodes/*/public/
-episodes/*/out/
-episodes/*/image-jobs.json
+episodes/**/public/
+episodes/**/out/
+episodes/**/image-jobs.json
 voice-samples/*.wav
 *.raw.mp4
 __pycache__/

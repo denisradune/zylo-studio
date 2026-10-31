@@ -17,7 +17,11 @@ export type FxSpec =
   | { type: 'glitch' }
   | { type: 'ufo'; x?: number; beam?: boolean }
   | { type: 'speedLines' }
-  | { type: 'vignette'; color?: string };
+  | { type: 'vignette'; color?: string }
+  /** An object (phone) flying in an arc from `from` to `to`, starting `at` seconds in, lasting `dur`. */
+  | { type: 'throwObj'; from: [number, number]; to: [number, number]; at?: number; dur?: number }
+  /** Bright screen glow at (x, y): what the zombies chase. */
+  | { type: 'glow'; x: number; y: number; r?: number };
 
 /** Camera shake offset for a shot that contains an impact (or `shake: true`). */
 export const shakeAt = (t: number, fps: number, startSec: number, strength = 1) => {
@@ -163,6 +167,31 @@ export const FxLayer: React.FC<{ fx: FxSpec[]; f: number; fps: number }> = ({ fx
                   <line key={k} x1={540 + Math.cos(a) * r0} y1={900 + Math.sin(a) * r0} x2={540 + Math.cos(a) * 1500} y2={900 + Math.sin(a) * 1500} stroke="#FFFFFF" strokeWidth={6 + (k % 3) * 4} />
                 );
               })}
+            </g>
+          );
+        case 'throwObj': {
+          const st = (e.at ?? 0) * fps;
+          const p = interpolate(f, [st, st + (e.dur ?? 0.8) * fps], [0, 1], clamp);
+          if (f < st || p >= 1) return null;
+          const x = e.from[0] + (e.to[0] - e.from[0]) * p;
+          const y = e.from[1] + (e.to[1] - e.from[1]) * p - Math.sin(Math.PI * p) * 420;
+          return (
+            <g key={i} transform={`translate(${x} ${y}) rotate(${p * 900})`}>
+              <rect x={-26} y={-44} width={52} height={88} rx={10} fill="#1D1F2B" stroke={INK} strokeWidth={6} />
+              <rect x={-18} y={-34} width={36} height={62} rx={4} fill="#7FD3FF" />
+            </g>
+          );
+        }
+        case 'glow':
+          return (
+            <g key={i}>
+              <defs>
+                <radialGradient id={`glow${i}`}>
+                  <stop offset="0" stopColor="rgba(255,240,170,0.9)" />
+                  <stop offset="1" stopColor="rgba(255,212,0,0)" />
+                </radialGradient>
+              </defs>
+              <circle cx={e.x} cy={e.y} r={(e.r ?? 260) * (1 + Math.sin(f / 4) * 0.05)} fill={`url(#glow${i})`} />
             </g>
           );
         case 'vignette':

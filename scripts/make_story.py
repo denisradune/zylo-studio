@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -71,6 +72,15 @@ def stage_props(d: Path, ep: dict) -> None:
     for i, line in enumerate(lines[:-1]):
         a, b = starts[i], starts[i + 1]
         parts = line.get('shots') or [line['shot']]
+        if len(parts) == 1 and b - a > 3.0 and not line['shot'].get('ui') and not any('moveTo' in c for c in line['shot'].get('cast', [])):
+            # Long line: punch in on the same shot halfway, so the picture changes every ~2 s.
+            sh = line['shot']
+            cam = sh.get('camera', {})
+            speaker_x = next((c['x'] for c in sh.get('cast', []) if c['id'] == line['speaker']), cam.get('x', 0.5))
+            punch = {**sh, 'camera': {**cam, 'zoom': round(cam.get('zoom', 1) * 1.3, 2), 'x': speaker_x, 'y': 0.55, 'push': 0.04},
+                     'transition': 'cut', 'fx': [e for e in sh.get('fx', []) if e['type'] not in ('meteor', 'impact', 'throwObj')],
+                     'sfx': [], 'cast': [{**c, 'enter': 'none'} for c in sh.get('cast', [])]}
+            parts = [sh, punch]
         step = (b - a) / len(parts)
         for k, sh in enumerate(parts):
             shots.append({**sh, 'speaker': line['speaker'], 'start': round(a + k * step, 3), 'end': round(a + (k + 1) * step, 3)})
@@ -88,12 +98,22 @@ def stage_props(d: Path, ep: dict) -> None:
         'endText': ep.get('end', {}).get('text', 'PART 2?'),
         'endSub': ep.get('end', {}).get('sub', 'Follow so you don’t miss it'),
     }
+    if ep.get('partLabel'):
+        props['partLabel'] = ep['partLabel']
+    if ep.get('chapters'):
+        # chapters: [{"line": index of the part's first line, "label": "PART 2", "title": "..."}]
+        props['chapters'] = [{'start': round(starts[c['line']], 3), 'label': c['label'], 'title': c['title']} for c in ep['chapters']]
     (d / 'props.json').write_text(json.dumps(props, indent=1))
     print(f'props: {len(shots)} shots, spans {[round(s["end"] - s["start"], 1) for s in shots]}, end card at {end_start:.2f}s, VO {v["seconds"]:.2f}s')
 
 
 def stage_render(d: Path, ep: dict) -> None:
     (d / 'out').mkdir(exist_ok=True)
+    sfx = d / 'public/sfx'
+    if not sfx.exists():
+        if not (ROOT / 'brand/sfx').exists():
+            run([PY, str(ROOT / 'scripts/sfx.py')])
+        shutil.copytree(ROOT / 'brand/sfx', sfx)
     raw = d / 'out/short.raw.mp4'
     run(['npx', 'remotion', 'render', 'zylo-toon/src/index.ts', 'ZyloToon', str(raw), f'--props={d / "props.json"}',
          f'--public-dir={d / "public"}', '--codec=h264', '--crf=18', '--audio-bitrate=192k', '--log=error'], cwd=TEMPLATES)
@@ -104,7 +124,7 @@ def stage_render(d: Path, ep: dict) -> None:
 
 def stage_qc(d: Path, ep: dict) -> None:
     run([PY, str(ROOT / 'scripts/check_render.py'), str(d / 'out/short.mp4'), '--props', str(d / 'props.json'),
-         '--min', '35', '--max', '75'])
+         '--min', str(ep.get('minSeconds', 35)), '--max', str(ep.get('maxSeconds', 75))])
 
 
 def main():

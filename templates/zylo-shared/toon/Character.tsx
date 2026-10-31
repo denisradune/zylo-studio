@@ -24,7 +24,8 @@ export type Pose =
   | 'run'
   | 'walk'
   | 'facepalm'
-  | 'sit';
+  | 'sit'
+  | 'throw';
 export type Expr = 'neutral' | 'happy' | 'shocked' | 'scared' | 'angry' | 'sad' | 'smug' | 'sleepy' | 'grin';
 
 export type Look = {
@@ -90,6 +91,12 @@ const armPose = (pose: Pose, t: number): ArmPair => {
       return { L: [10, -6], R: [-25, -152] };
     case 'sit':
       return { L: [18, -70], R: [18, -70] };
+    case 'throw': {
+      // wind up behind the head, then whip forward over ~10 frames, looping slowly
+      const k = (t % 40) / 40;
+      const a = k < 0.6 ? 160 : 160 - (k - 0.6) / 0.4 * 140;
+      return { L: [20, -30], R: [a, -20] };
+    }
     default:
       return { L: [9 + Math.sin(t / 25) * 2, -6], R: [9 - Math.sin(t / 25) * 2, -6] };
   }
@@ -232,7 +239,7 @@ export const Human: React.FC<{
   const face = FACES[expr];
   const arms = armPose(pose, t);
   // Blink every ~3.3 s, staggered per character so a crowd doesn't blink in unison.
-  const cyc = (t + seed * 37) % 100;
+  const cyc = (((t + seed * 37) % 100) + 100) % 100;
   const blink = cyc < 2 ? cyc / 2 : cyc < 4 ? (4 - cyc) / 2 : 0;
   const bob = pose === 'run' ? Math.abs(Math.sin(t / 3.2)) * -14 : pose === 'walk' ? Math.abs(Math.sin(t / 3.2)) * -6 : Math.sin(t / 18) * 2.5;
   const headTilt = pose === 'zombie' ? 9 + Math.sin(t / 9) * 3 : pose === 'think' ? -6 : pose === 'facepalm' ? 8 : 0;
@@ -310,7 +317,7 @@ export const Human: React.FC<{
   );
 };
 
-export type BitExpr = 'neutral' | 'happy' | 'shocked' | 'angry' | 'sad' | 'think' | 'glitch' | 'smug';
+export type BitExpr = 'neutral' | 'happy' | 'shocked' | 'angry' | 'sad' | 'think' | 'glitch' | 'smug' | 'dim' | 'off';
 
 /**
  * Bit, the zylo AI: a floating white monitor with a dark screen face, yellow eyes and an
@@ -318,7 +325,7 @@ export type BitExpr = 'neutral' | 'happy' | 'shocked' | 'angry' | 'sad' | 'think
  */
 export const Bit: React.FC<{ expr: BitExpr; talk: number; t: number; icon?: string; seed?: number }> = ({ expr, talk, t, icon, seed = 0 }) => {
   const hover = Math.sin(t / 14) * 10;
-  const cyc = (t + seed * 29) % 110;
+  const cyc = (((t + seed * 29) % 110) + 110) % 110;
   const blink = cyc < 3 ? 1 : 0;
   const eyeColor = '#FFD400';
   const glitch = expr === 'glitch' ? Math.sin(t * 2.3) * 6 : 0;
@@ -346,7 +353,7 @@ export const Bit: React.FC<{ expr: BitExpr; talk: number; t: number; icon?: stri
       <ellipse cx={150} cy={590 - hover} rx={70 - hover} ry={12} fill="rgba(0,0,0,0.18)" />
       {/* antenna */}
       <line x1={150} y1={92} x2={150} y2={52} stroke={INK} strokeWidth={STROKE} />
-      <circle cx={150} cy={44} r={15 + (talk > 0.2 ? 3 : 0)} fill={eyeColor} stroke={INK} strokeWidth={6} />
+      <circle cx={150} cy={44} r={15 + (talk > 0.2 ? 3 : 0)} fill={expr === 'off' ? '#55565F' : eyeColor} stroke={INK} strokeWidth={6} />
       {/* shell */}
       <rect x={40} y={92} width={220} height={190} rx={56} fill="#F3F3F7" stroke={INK} strokeWidth={STROKE} />
       <rect x={62} y={114} width={176} height={146} rx={38} fill="#14161F" stroke={INK} strokeWidth={5} />
@@ -354,17 +361,43 @@ export const Bit: React.FC<{ expr: BitExpr; talk: number; t: number; icon?: stri
         <text x={150} y={214} textAnchor="middle" fontFamily="ZyloHead" fontWeight={900} fontSize={92} fill={eyeColor}>
           {icon}
         </text>
-      ) : (
-        <>
+      ) : expr === 'off' ? null : (
+        <g opacity={expr === 'dim' ? 0.22 : 1}>
           {[118, 182].map((x, i) => eye(x, i))}
           <rect x={150 - 14 - talk * 16} y={224 - talk * 6} width={28 + talk * 32} height={8 + talk * 14} rx={6} fill={eyeColor} opacity={0.9} />
-        </>
+        </g>
       )}
       {/* little floating hands */}
       <circle cx={24} cy={230 + Math.sin(t / 10) * 8} r={20} fill="#F3F3F7" stroke={INK} strokeWidth={6} />
       <circle cx={276} cy={230 - Math.sin(t / 10) * 8} r={20} fill="#F3F3F7" stroke={INK} strokeWidth={6} />
       {/* body stub */}
       <path d="M 110 282 Q 150 330 190 282" fill="#E2E2EA" stroke={INK} strokeWidth={6} />
+    </g>
+  );
+};
+
+/** Side-view car prop (faces right; mirror with facing -1). Wheels spin while `moving`. */
+export const Car: React.FC<{ color?: string; t: number; moving: boolean }> = ({ color = '#D9443A', t, moving }) => {
+  const spin = moving ? t * 25 : 0;
+  const bounce = moving ? Math.abs(Math.sin(t / 2)) * -4 : 0;
+  const wheel = (cx: number) => (
+    <g transform={`translate(${cx} 560) rotate(${spin})`}>
+      <circle r={44} fill="#22232B" stroke={INK} strokeWidth={8} />
+      <circle r={18} fill="#B9BCC8" stroke={INK} strokeWidth={5} />
+      <line x1={-18} y1={0} x2={18} y2={0} stroke={INK} strokeWidth={5} />
+    </g>
+  );
+  return (
+    <g>
+      <g transform={`translate(0 ${bounce})`}>
+        <path d="M -150 540 L -150 450 Q -140 420 -100 415 L -40 330 Q -20 310 20 310 L 230 310 Q 270 310 290 340 L 350 415 Q 440 425 450 470 L 450 540 Z" fill={color} stroke={INK} strokeWidth={9} strokeLinejoin="round" />
+        <path d="M -20 405 L 25 340 L 135 340 L 135 405 Z" fill="#9FD7FF" stroke={INK} strokeWidth={7} />
+        <path d="M 160 405 L 160 340 L 245 340 Q 262 340 275 358 L 310 405 Z" fill="#9FD7FF" stroke={INK} strokeWidth={7} />
+        <rect x={420} y={455} width={30} height={22} rx={6} fill="#FFE68A" stroke={INK} strokeWidth={5} />
+        <rect x={-150} y={460} width={22} height={24} rx={5} fill="#FF4B4B" stroke={INK} strokeWidth={5} />
+      </g>
+      {wheel(-40)}
+      {wheel(340)}
     </g>
   );
 };

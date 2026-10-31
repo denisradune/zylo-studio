@@ -1,0 +1,616 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "soldier": "SOLDIER"
+ },
+ "title": "What If a Zombie Apocalypse Started With One Notification? (Part 1)",
+ "seed": 3101,
+ "partLabel": "PART 1/3",
+ "end": {
+  "text": "PART 2",
+  "sub": "Follow \u2014 it drops tomorrow"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if a zombie apocalypse started with *one notification*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.2,
+      "pose": "phone",
+      "expr": "neutral",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.75,
+      "pose": "phone",
+      "expr": "happy",
+      "depth": 0.35
+     },
+     {
+      "id": "kid",
+      "x": 0.45,
+      "pose": "phone",
+      "expr": "grin",
+      "scale": 1.45
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "System",
+     "title": "Update 7.0 is ready",
+     "body": "Tap to install"
+    },
+    "sfx": [
+     {
+      "type": "buzz",
+      "at": 0.2
+     }
+    ],
+    "camera": {
+     "push": 0.08
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Seven in the morning. Every phone buzzes *at once*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "GLOBAL PHONE UPDATE"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "happy",
+      "scale": 1.25
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz",
+      "at": 0.1
+     },
+     {
+      "type": "buzz",
+      "at": 0.9,
+      "volume": 0.4
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Everyone taps *install*. Everyone except Jay.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.45,
+      "pose": "idle",
+      "expr": "sleepy",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.82,
+      "expr": "neutral",
+      "scale": 0.9,
+      "depth": 0.3
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. Wake up. The neighbors are walking *weird*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.7,
+      "enter": "pop"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "It's Monday. *Everyone* walks weird.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sleepy",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Outside, people stare at their screens and *stop blinking*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "zombie",
+      "x": 0.25,
+      "pose": "phone",
+      "expr": "neutral",
+      "depth": 0.3
+     },
+     {
+      "id": "zombie2",
+      "x": 0.7,
+      "pose": "phone",
+      "expr": "neutral",
+      "depth": 0.1
+     },
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "neutral",
+      "depth": 0.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ],
+    "camera": {
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Their eyes go white. Their skin turns *green*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "zombie",
+      "x": 0.5,
+      "pose": "zombie",
+      "expr": "angry",
+      "scale": 2.3
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.45
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl",
+      "at": 0.2
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Jay's phone starts *ringing*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Phone",
+     "title": "Mom is calling...",
+     "color": "#2DBE7E"
+    },
+    "sfx": [
+     {
+      "type": "ring"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every head on the street turns *toward his window*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "zombie",
+      "x": 0.15,
+      "pose": "zombie",
+      "depth": 0.7,
+      "facing": -1
+     },
+     {
+      "id": "zombie2",
+      "x": 0.35,
+      "pose": "zombie",
+      "depth": 0.5
+     },
+     {
+      "id": "zombie",
+      "x": 0.6,
+      "pose": "zombie",
+      "depth": 0.3,
+      "facing": -1
+     },
+     {
+      "id": "zombie2",
+      "x": 0.85,
+      "pose": "zombie",
+      "depth": 0.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     },
+     {
+      "type": "growl",
+      "at": 0.8,
+      "volume": 0.4
+     }
+    ],
+    "camera": {
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! Why are they *looking at me*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.38,
+      "pose": "panic",
+      "expr": "scared"
+     },
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "shocked",
+      "scale": 1.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "alarm"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "alarm",
+      "volume": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Your phone is the *brightest thing* in the city.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "icon": "!",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number one: *screens attract them*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#E0312B"
+    },
+    "cast": [],
+    "ui": {
+     "type": "list",
+     "title": "SURVIVAL RULES",
+     "items": [
+      "Screens attract them"
+     ]
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Throw it. *Now!*",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.2,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay hurls the phone out the window.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.35,
+      "pose": "throw",
+      "expr": "angry",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "throwObj",
+      "from": [
+       620,
+       760
+      ],
+      "to": [
+       1300,
+       500
+      ],
+      "at": 0.3,
+      "dur": 0.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh",
+      "at": 0.25
+     },
+     {
+      "type": "crash",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Two hundred zombies *chase it* down the street.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "zombie",
+      "x": -0.1,
+      "moveTo": 1.2,
+      "pose": "run",
+      "depth": 0.6
+     },
+     {
+      "id": "zombie2",
+      "x": -0.3,
+      "moveTo": 1.1,
+      "pose": "run",
+      "depth": 0.4
+     },
+     {
+      "id": "zombie",
+      "x": -0.5,
+      "moveTo": 1.0,
+      "pose": "run",
+      "depth": 0.2
+     },
+     {
+      "id": "zombie2",
+      "x": -0.7,
+      "moveTo": 0.9,
+      "pose": "run",
+      "depth": 0.05
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     },
+     {
+      "type": "growl",
+      "at": 0.6
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Okay. Okay. We're *safe*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "camera": {
+     "zoom": 1.05
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay... *I'm* a screen.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 980,
+      "r": 520
+     },
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "push": 0.15
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     },
+     {
+      "type": "knock",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part two is coming.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 75
+}

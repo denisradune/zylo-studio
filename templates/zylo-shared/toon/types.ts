@@ -22,6 +22,10 @@ export type CastMember = {
   moveTo?: number;
   /** Which speaker name in the script this actor voices (defaults to id). */
   voice?: string;
+  /** Raise the actor by this many canvas px (e.g. Bit riding on a car roof). */
+  lift?: number;
+  /** Car only: body colour. */
+  color?: string;
 };
 
 export type Shot = {
@@ -34,6 +38,8 @@ export type Shot = {
   ui?: UiSpec;
   camera?: { zoom?: number; x?: number; y?: number; push?: number; shake?: number };
   transition?: 'cut' | 'flash' | 'whip';
+  /** Sound effects from brand/sfx, `at` seconds into the shot. */
+  sfx?: { type: string; at?: number; volume?: number }[];
 };
 
 export type StoryWord = { text: string; startMs: number; endMs: number; line: number; emph?: boolean };
@@ -54,4 +60,8 @@ export type StoryProps = {
   endStart: number;
   endText?: string;
   endSub?: string;
+  /** Series badge shown top-left in a Shorts part, e.g. "PART 2/3". */
+  partLabel?: string;
+  /** Full-length version: a chapter card at the start of each part after the first. */
+  chapters?: { start: number; label: string; title: string }[];
 };

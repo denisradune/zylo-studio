@@ -1,0 +1,721 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "soldier": "SOLDIER"
+ },
+ "title": "What If a Zombie Apocalypse Started With One Notification? (Part 3)",
+ "seed": 3103,
+ "partLabel": "PART 3/3",
+ "end": {
+  "text": "SEASON 2?",
+  "sub": "Follow to find out what was in the backup"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part three. Jay holds Bit up like a *torch*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "scared",
+      "scale": 1.3
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 0.7,
+      "lift": 700
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 560,
+      "r": 520
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And Bit plays *every notification sound* ever made.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     },
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 980,
+      "r": 640
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "buzz",
+      "at": 0.3
+     },
+     {
+      "type": "ring",
+      "at": 0.6,
+      "volume": 0.4
+     },
+     {
+      "type": "glitch",
+      "at": 1.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every zombie in the city turns toward *Bit*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "zombie",
+      "x": 0.1,
+      "pose": "zombie",
+      "depth": 0.8
+     },
+     {
+      "id": "zombie2",
+      "x": 0.3,
+      "pose": "zombie",
+      "depth": 0.6
+     },
+     {
+      "id": "zombie",
+      "x": 0.55,
+      "pose": "zombie",
+      "depth": 0.4,
+      "facing": -1
+     },
+     {
+      "id": "zombie2",
+      "x": 0.8,
+      "pose": "zombie",
+      "depth": 0.2,
+      "facing": -1
+     },
+     {
+      "id": "zombie",
+      "x": 0.95,
+      "pose": "zombie",
+      "depth": 0.05,
+      "facing": -1
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     },
+     {
+      "type": "growl",
+      "at": 0.7,
+      "volume": 0.4
+     }
+    ],
+    "camera": {
+     "push": 0.12
+    },
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! What are you *doing*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "fx": [
+     {
+      "type": "alarm"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Being the *loudest thing* in the city. Run.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 980,
+      "r": 600
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia finds a car. Jay puts Bit on the *roof*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "car",
+      "x": 0.4,
+      "color": "#2DBE7E",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.48,
+      "expr": "happy",
+      "scale": 0.8,
+      "lift": 230
+     },
+     {
+      "id": "friend",
+      "x": 0.85,
+      "pose": "point",
+      "expr": "angry",
+      "facing": -1,
+      "depth": 0.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 520,
+      "y": 950,
+      "r": 360
+     }
+    ],
+    "sfx": [
+     {
+      "type": "engine"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Go. I'll keep them *busy*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 980,
+      "r": 600
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Thousands of zombies flood toward the *glowing screen*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "zombie",
+      "x": -0.2,
+      "moveTo": 0.35,
+      "pose": "zombie",
+      "depth": 0.7
+     },
+     {
+      "id": "zombie2",
+      "x": 1.2,
+      "moveTo": 0.65,
+      "pose": "zombie",
+      "depth": 0.55,
+      "facing": -1
+     },
+     {
+      "id": "zombie",
+      "x": -0.4,
+      "moveTo": 0.3,
+      "pose": "zombie",
+      "depth": 0.3
+     },
+     {
+      "id": "zombie2",
+      "x": 1.4,
+      "moveTo": 0.75,
+      "pose": "zombie",
+      "depth": 0.1,
+      "facing": -1
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 0.5,
+      "depth": 0.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1000,
+      "r": 300
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     },
+     {
+      "type": "siren",
+      "volume": 0.3
+     }
+    ],
+    "camera": {
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "We're not *leaving you*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Battery at *three percent*. You have to.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.3,
+      "depth": 0.15
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "BATTERY",
+       "value": 0.03,
+       "color": "#FF3B3B"
+      }
+     ],
+     "tag": "LOW POWER"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The car tears out of the city.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "car",
+      "x": -0.3,
+      "moveTo": 1.4,
+      "color": "#2DBE7E",
+      "scale": 1.1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "engine"
+     },
+     {
+      "type": "whoosh",
+      "at": 0.9
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Behind them, a tiny yellow light... *goes out*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 0.35,
+      "depth": 0.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette",
+      "color": "rgba(0,0,0,0.85)"
+     }
+    ],
+    "camera": {
+     "zoom": 1.3,
+     "y": 0.62,
+     "push": 0.2
+    },
+    "sfx": [
+     {
+      "type": "powerdown",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "He saved us.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "camera": {
+     "zoom": 1.05
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "He was a *toaster*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "camera": {
+     "zoom": 1.05
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three days later, at an army checkpoint,",
+   "shot": {
+    "set": {
+     "type": "wasteland"
+    },
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.7,
+      "pose": "idle",
+      "expr": "neutral",
+      "facing": -1
+     },
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.1
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "3 DAYS LATER"
+    },
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "a soldier hands Jay a *new phone*.",
+   "shot": {
+    "set": {
+     "type": "wasteland"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The screen lights up. *Two yellow eyes*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#16161C"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 2.0,
+      "enter": "pop"
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 980,
+      "r": 700
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Miss me? I *backed myself up*.",
+   "shot": {
+    "set": {
+     "type": "wasteland"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "happy"
+     },
+     {
+      "id": "bit",
+      "x": 0.72,
+      "expr": "happy",
+      "scale": 1.1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But something else was in that *backup* too.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#16161C"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     },
+     {
+      "type": "alarm"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "glitch"
+     },
+     {
+      "type": "growl",
+      "at": 0.8
+     }
+    ],
+    "camera": {
+     "push": 0.15
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for season two.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 75
+}

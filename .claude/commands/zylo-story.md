@@ -16,7 +16,19 @@ style (`templates/zylo-toon`). Follow CLAUDE.md. Ask only when blocked by accoun
 - Never repeat a premise from `log.md`. Fiction is fine; don't present invented events as real news about real
   people, places or companies.
 
-## 2. Script → `episodes/<YYYY-MM-DD>-what-if-<slug>/story.json`
+## 2. Format: one story, several parts
+Write ONE long story (2.5–4 min) as a series: `episodes/<YYYY-MM-DD>-what-if-<slug>/series.json`
+(`parts[]`, each with `title` and `lines`, plus `finale`). Each part is a 45–60 s Short with its own arc:
+- part 1 opens with the "What if...?" hook; parts 2+ open with "Part two. <one-line recap>";
+- every part ends on a cliffhanger line, then its closing line (`"end": true`);
+- the story needs real turns: a rule of the world, a cost, a betrayal or sacrifice, a twist, one running joke.
+Build with `scripts/make_series.py episodes/<slug>`: part<N>/out/short.mp4 (badge "PART N/total") and
+full/out/short.mp4 (chapter cards, only the final closing line). Publish one part per day; the full cut goes
+out as the Sunday long video. Put titles/descriptions for every part and the full cut in `metadata.json`.
+Every shot should carry sound: add `sfx` (whoosh boom hit alarm siren buzz ring ding pop riser glitch growl
+crash heartbeat engine tick powerdown powerup knock) on hits, reveals, phones, transitions.
+
+## 2b. Line and shot rules
 - 85–130 spoken words, 35–60 s. Line 1 = the "What if...?" hook (≤ 9 words). Escalate every 2–3 lines,
   one comic beat in the middle, a twist near the end, cliffhanger, last line `{"speaker":"narrator",
   "say":"Follow for part two.","end":true}` (vary the wording).

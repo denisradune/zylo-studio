@@ -3,7 +3,7 @@ import { AbsoluteFill, Audio, Easing, Sequence, interpolate, spring, staticFile,
 import { brand } from '../../zylo-shared/brand';
 import { LogoMark } from '../../zylo-shared/Chrome';
 import { FLOOR_Y, H, SetPiece, W } from '../../zylo-shared/toon/Backgrounds';
-import { Bit, BitExpr, Expr, Human, INK, LOOKS, Pose } from '../../zylo-shared/toon/Character';
+import { Bit, BitExpr, Car, Expr, Human, INK, LOOKS, Pose } from '../../zylo-shared/toon/Character';
 import { FxLayer, shakeAt } from '../../zylo-shared/toon/Fx';
 import type { CastMember, Shot, StoryProps, StoryWord } from '../../zylo-shared/toon/types';
 import { UiLayer } from '../../zylo-shared/toon/Ui';
@@ -30,7 +30,7 @@ const Actor: React.FC<{ m: CastMember; f: number; dur: number; t: number; frame:
 }) => {
   const depth = m.depth ?? 0;
   const scale = (m.scale ?? 1.35) * (1 - depth * 0.55);
-  const lift = depth * 260;
+  const lift = depth * 260 + (m.lift ?? 0);
   let x = m.x;
   let pose: Pose = (m.pose as Pose) ?? 'idle';
   if (m.moveTo !== undefined) {
@@ -50,10 +50,12 @@ const Actor: React.FC<{ m: CastMember; f: number; dur: number; t: number; frame:
   const cx = x * W + enterDx;
   const footY = FLOOR_Y - lift;
   const body =
-    m.id === 'bit' ? (
+    m.id === 'car' ? (
+      <Car color={m.color} t={frame} moving={m.moveTo !== undefined} />
+    ) : m.id === 'bit' ? (
       <Bit expr={(m.expr as BitExpr) ?? 'neutral'} talk={talk} t={frame} icon={m.icon} seed={3} />
     ) : (
-      <Human look={LOOKS[m.id] ?? LOOKS.hero} pose={pose} expr={(m.expr as Expr) ?? 'neutral'} talk={talk} t={frame} gaze={m.gaze ?? 0} seed={Math.round(m.x * 97)} />
+      <Human look={LOOKS[m.id] ?? LOOKS.hero} pose={pose} expr={(m.expr as Expr) ?? 'neutral'} talk={talk} t={frame} gaze={m.gaze ?? 0} seed={Math.abs(Math.round(m.x * 97))} />
     );
   return (
     <g transform={`translate(${cx} ${footY}) scale(${scale * pop * facing} ${scale * pop}) translate(-150 -600)`} opacity={1 - depth * 0.15}>
@@ -226,6 +228,63 @@ const EndCard: React.FC<{ text: string; sub: string }> = ({ text, sub }) => {
   );
 };
 
+/** Series badge: which part of the story this Short is. */
+const PartBadge: React.FC<{ label: string; hideFrom: number }> = ({ label, hideFrom }) => {
+  const f = useCurrentFrame();
+  if (f >= hideFrom) return null;
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        top: 70,
+        left: 56,
+        display: 'flex',
+        alignItems: 'center',
+        gap: 14,
+        padding: '10px 22px 10px 12px',
+        borderRadius: 18,
+        background: '#FFD400',
+        border: `5px solid ${INK}`,
+        boxShadow: `6px 6px 0 ${INK}`,
+        fontFamily: brand.head,
+        fontWeight: 900,
+        fontSize: 38,
+        color: INK,
+      }}
+    >
+      <LogoMark size={52} />
+      {label}
+    </div>
+  );
+};
+
+/** Full-length version: a punchy card announcing each new part. */
+const ChapterCard: React.FC<{ label: string; title: string }> = ({ label, title }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const s = spring({ frame: f, fps, config: { damping: 12 } });
+  const out = interpolate(f, [38, 48], [1, 0], clamp);
+  return (
+    <AbsoluteFill style={{ alignItems: 'center', justifyContent: 'center', opacity: out, background: 'rgba(14,14,20,0.55)' }}>
+      <div
+        style={{
+          transform: `rotate(-3deg) scale(${0.5 + 0.5 * s})`,
+          padding: '26px 60px',
+          background: '#FFD400',
+          border: `8px solid ${INK}`,
+          boxShadow: `12px 12px 0 ${INK}`,
+          borderRadius: 22,
+          textAlign: 'center',
+          marginTop: -300,
+        }}
+      >
+        <div style={{ fontFamily: brand.head, fontWeight: 900, fontSize: 120, color: INK, lineHeight: 1 }}>{label}</div>
+        <div style={{ fontFamily: brand.body, fontWeight: 900, fontSize: 48, color: INK, marginTop: 10 }}>{title}</div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 export const ZyloToon: React.FC<StoryProps> = (props) => {
   const { fps, durationInFrames } = useVideoConfig();
   const endFrame = Math.round(props.endStart * fps);
@@ -238,12 +297,23 @@ export const ZyloToon: React.FC<StoryProps> = (props) => {
         return (
           <Sequence key={i} from={from} durationInFrames={dur}>
             <ShotView shot={s} dur={dur} words={props.words} lines={props.lines} />
+            {(s.sfx ?? []).map((e, k) => (
+              <Sequence key={k} from={Math.round((e.at ?? 0) * fps)} layout="none">
+                <Audio src={staticFile(`sfx/${e.type}.wav`)} volume={e.volume ?? 0.55} />
+              </Sequence>
+            ))}
           </Sequence>
         );
       })}
       <Sequence from={endFrame}>
         <EndCard text={props.endText ?? 'PART 2?'} sub={props.endSub ?? 'Follow so you don’t miss it'} />
       </Sequence>
+      {props.chapters?.map((c, i) => (
+        <Sequence key={`c${i}`} from={Math.round(c.start * fps)} durationInFrames={Math.round(1.6 * fps)}>
+          <ChapterCard label={c.label} title={c.title} />
+        </Sequence>
+      ))}
+      {props.partLabel && <PartBadge label={props.partLabel} hideFrom={endFrame} />}
       <StoryCaptions words={props.words} lines={props.lines} names={props.names ?? {}} hideFrom={props.endStart + 99} />
       <Audio src={staticFile(props.voiceover)} />
       {props.music && (
