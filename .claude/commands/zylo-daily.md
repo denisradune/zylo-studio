@@ -4,7 +4,7 @@ description: Fully automatic day — read the stats, every 2nd day invent a new 
 
 # /zylo-daily
 
-Runs unattended once a day (scheduled task). Nobody reviews the result before it goes out, so do the QC yourself
+Runs unattended once a day (scheduled task) in the standing session "zylo producer (daily)". Only ONE session runs this per day — never start it in a second session in parallel (on 2026-11-01 that uploaded 3 duplicates). `publish_series.py upload` also skips titles already on the channel. Nobody reviews the result before it goes out, so do the QC yourself
 and never skip it. Follow CLAUDE.md and `/zylo-story` (story, line and shot rules). Report to the owner in Russian.
 
 ## 0. Workspace

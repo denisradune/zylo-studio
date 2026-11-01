@@ -14,7 +14,8 @@ a full story that would land on the same evening as another one moves a day late
 
 State lives in git so a fresh session can continue: episodes/<slug>/uploads.json {key: {id, url, publishAt}}.
 `upload` renders whatever is missing (make_series / make_wide), fills {chapters} in the full description,
-publishes immediately when a scheduled time has already passed, appends a log.md row, and stops cleanly
+skips (and records) anything whose title is already on the channel, publishes immediately when a scheduled
+time has already passed, appends a log.md row, and stops cleanly
 when the YouTube daily quota (10,000 units ~ 6 uploads) runs out — the next run picks up the rest.
 """
 from __future__ import annotations
@@ -132,6 +133,7 @@ def upload(dirs: list[Path], max_n: int | None, horizon: float = HORIZON) -> int
             if k not in done and at_ and dt.datetime.fromisoformat(at_.replace('Z', '+00:00')) <= now + dt.timedelta(days=horizon):
                 items.append((at_, d, k))
     items.sort()
+    existing = channel_titles() if items else {}
     count = 0
     for publish_at, d, k in items:
         if max_n is not None and count >= max_n:
@@ -144,6 +146,14 @@ def upload(dirs: list[Path], max_n: int | None, horizon: float = HORIZON) -> int
             ch = d / 'full/chapters.txt'
             ensure_rendered(d, k)
             m['description'] = m['description'].replace('{chapters}', ch.read_text() if ch.exists() else '')
+        if m['title'] in existing:
+            vid = existing[m['title']]
+            print(f'{d.name}/{k}: already on the channel as {vid} — recording it, not uploading again', flush=True)
+            done = load(d / 'uploads.json', {})
+            url = f'https://youtube.com/shorts/{vid}' if m.get('short') else f'https://youtu.be/{vid}'
+            done[k] = {'id': vid, 'url': url, 'publishAt': m.get('publishAt'), 'note': 'found existing'}
+            (d / 'uploads.json').write_text(json.dumps(done, indent=1) + '\n')
+            continue
         ensure_rendered(d, k)
         video, thumb = video_for(d, k)
         print(f'uploading {d.name}/{k} -> {m.get("publishAt") or "now"}', flush=True)
@@ -161,6 +171,25 @@ def upload(dirs: list[Path], max_n: int | None, horizon: float = HORIZON) -> int
         print(json.dumps(res), flush=True)
         count += 1
     return count
+
+
+def channel_titles() -> dict[str, str]:
+    """title -> video id for everything on the channel (incl. private/scheduled): guards against double uploads
+    when two sessions run the same day."""
+    yt = yu.service()
+    up = yu.my_channel(yt)['contentDetails']['relatedPlaylists']['uploads']
+    ids, tok = [], None
+    while True:
+        r = yt.playlistItems().list(part='contentDetails', playlistId=up, maxResults=50, pageToken=tok).execute()
+        ids += [it['contentDetails']['videoId'] for it in r.get('items', [])]
+        tok = r.get('nextPageToken')
+        if not tok or len(ids) >= 200:
+            break
+    out = {}
+    for i in range(0, len(ids), 50):
+        for v in yt.videos().list(part='snippet', id=','.join(ids[i:i + 50])).execute().get('items', []):
+            out.setdefault(v['snippet']['title'], v['id'])
+    return out
 
 
 def series_dirs() -> list[Path]:
