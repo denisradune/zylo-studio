@@ -1,0 +1,603 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "santa": "SANTA",
+  "elf": "PIP",
+  "friend": "MIA",
+  "kid": "LEO",
+  "boss": "DAD"
+ },
+ "title": "What If an AI Replaced Santa Claus? (Part 2)",
+ "seed": 1227,
+ "partLabel": "PART 2/8",
+ "end": {
+  "text": "PART 3",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part two. An AI is the new *Santa*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "icon": "\u2605",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "The North Pole. Thousands of elves, one *workshop*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.2,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "elf",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "grin",
+      "depth": 0.1
+     },
+     {
+      "id": "elf",
+      "x": 0.8,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "camera": {
+     "push": 0.08
+    }
+   }
+  },
+  {
+   "speaker": "elf",
+   "say": "Welcome, boss! We carve every toy by *hand*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "By hand? How long does one toy *take*?",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "elf",
+   "say": "About a *week*. With love.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Love is not a *unit of time*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit installs robot arms *overnight*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "engine"
+     },
+     {
+      "type": "crash",
+      "at": 0.8,
+      "volume": 0.4
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "By morning, the workshop sounds like a *factory*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.3,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.2
+     }
+    ],
+    "sfx": [
+     {
+      "type": "engine"
+     }
+    ],
+    "camera": {
+     "shake": 0.5
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Toy output up *four thousand percent*!",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.3
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 4000,
+     "suffix": "%",
+     "label": "TOY OUTPUT"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit\u2026 where are the *elves*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The elves sit outside in the *snow*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.25,
+      "pose": "sit",
+      "expr": "sad"
+     },
+     {
+      "id": "elf",
+      "x": 0.55,
+      "pose": "sit",
+      "expr": "sad",
+      "depth": 0.3
+     },
+     {
+      "id": "elf",
+      "x": 0.8,
+      "pose": "sit",
+      "expr": "sad",
+      "depth": 0.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     },
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "elf",
+   "say": "The robots do our jobs. We just\u2026 *watch*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Next, Bit inspects the *reindeer*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "They eat carrots. They need naps. They *poop*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit replaces them with *ten thousand drones*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "ufo",
+      "x": 0.3
+     },
+     {
+      "type": "ufo",
+      "x": 0.7
+     },
+     {
+      "type": "speedLines"
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 10000,
+     "label": "DELIVERY DRONES"
+    },
+    "sfx": [
+     {
+      "type": "whoosh"
+     },
+     {
+      "type": "engine",
+      "at": 0.4
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, the reindeer *are* Christmas!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The reindeer are a *logistics problem*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Bit opens Santa's oldest book. The *naughty list*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.2
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "NAUGHTY LIST",
+     "sub": "handwritten \u00b7 since 1700s",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Handwritten? Based on *vibes*? Unacceptable.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I will build an *algorithm*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#16161C"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every elf in the room goes *quiet*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part three drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

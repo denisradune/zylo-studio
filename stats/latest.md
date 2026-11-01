@@ -29,7 +29,7 @@
 
 | title | views | likes | comments | age d | views/day | vs | eng % |
 |---|---|---|---|---|---|---|---|
-| What If Zombies Came From a Phone Update? 🧟 Part 1 #shorts | 3 | 0 | 0 | 0.92 | 3.0 | 3.0 | 0.0 |
+| What If Zombies Came From a Phone Update? 🧟 Part 1 #shorts | 3 | 0 | 0 | 0.91 | 3.0 | 3.0 | 0.0 |
 | What If a Gambler Owned the Casino? 🎰 Part 1 #shorts | 3 | 0 | 0 | 0.83 | 3.0 | 3.0 | 0.0 |
 | Why Getting Scared Is Good For Your Brain 🎃 #shorts | 2 | 0 | 0 | 1.93 | 1.0 | 1.0 | 0.0 |
 | 5 Creepy Facts Science Can't Unsee 💀 #shorts | 1 | 0 | 0 | 2.11 | 0.5 | 0.5 | 0.0 |
