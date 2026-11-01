@@ -18,12 +18,13 @@ python3 scripts/youtube_upload.py --check     # must print "expected": true, els
 ## 0b. Format and rhythm (the owner's choice)
 - Every story is **~7 minutes, told in detail**: 8 parts of ~55–70 s (130–160 spoken words, 20–24 lines each).
   Parts go out **every 2 days**; the full story (16:9, chapters) the day after the last part.
-- A **new series starts every 2 days**: if a series already started yesterday (see `publish_series.py status` /
-  metadata `publishAt` of part 1s), today is an **upload day** — skip step 1a–2 for a new series and instead
+- A **new series starts every 2 days**: if any series' part 1 goes out today or went out yesterday (see
+  `publish_series.py status` / metadata `publishAt` of part 1s — this includes backlog/owner-scheduled series), today
+  is an **upload day** — skip step 1a–2 for a new series and instead
   (a) run the stats, (b) upload what is due, (c) if time allows, write the next backlog story (below).
   9 uploads per series every 2 days ≈ 4.5 uploads/day, inside YouTube's default quota (~6/day).
 - **Backlog** (`episodes/<date>-what-if-<slug>/` with `"startOn"` in series.json, already scheduled): holiday
-  specials prepared ahead (e.g. `2026-12-10-what-if-ai-santa`, Christmas). They publish on their own dates via
+  specials prepared ahead (e.g. `2026-11-01-what-if-ai-santa`, Christmas). They publish on their own dates via
   `upload`; leave them alone except to fix problems. When a holiday is 3–6 weeks away and nothing is prepared,
   an upload day is a good day to write one (same rules, `"startOn"`, then `publish_series.py schedule … --start <startOn>`).
 
@@ -75,7 +76,7 @@ a closed twist and "Follow for a new What if every day."
   the rule of the world (1–2), escalation and a running joke (2–4), a big loss/turn (4–5), the emotional reason under
   it all (6), climax with a cost (7), payoff and a final twist (8). Parts 2+ open with a recap line marked
   `"shortOnly": true` ("Part two. <recap>") — it is cut from the full story so the 7-minute version plays straight.
-  Reference: `episodes/2026-12-10-what-if-ai-santa/` (series built by its `build_series.py`).
+  Reference: `episodes/2026-11-01-what-if-ai-santa/` (series built by its `build_series.py`).
 - Vary sets, cast, poses, UI and sfx from the last series. A new location may need a new set in
   `templates/zylo-shared/toon/Backgrounds.tsx` (see `casino`) or new looks in `Character.tsx` (see `heroSuit`).
 - Any real-world fact in the story must be verified by WebSearch first and saved with quotes in `sources.md`;

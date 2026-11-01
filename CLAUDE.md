@@ -16,7 +16,7 @@ Audience: English-speaking 16–35, loves "wait, really?" moments. Talk to the o
 - YouTube API default quota ≈ 6 uploads/day; 9 uploads per series every 2 days fits.
 - Every day starts with `scripts/channel_stats.py` (stats/latest.md): HITs get follow-ups, promised seasons are
   always delivered (sequel within 5 days of the finale), otherwise the best current trend. Details: /zylo-daily.
-- Holiday specials are prepared ahead with `"startOn"` (backlog), e.g. AI Santa from 2026-12-10.
+- Holiday specials are prepared ahead with `"startOn"` (backlog), e.g. AI Santa (moved up by the owner: Nov 1–16).
 - Fact-based Shorts (`/zylo-short`) stay available on request.
 
 ## Non-negotiables

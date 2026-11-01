@@ -9,3 +9,6 @@
   (it read every letter and can't grant the impossible ones) → Christmas Eve: "they want to be seen" → Bit burns out
   answering letters → a letter to Bit wakes it up; co-Santa; "happiness up 4,000%".
 - Closed ending (no season-2 promise).
+
+**2026-11-01 — owner moved it up:** start today, part 1 at 18:00 Israel time, then every 2 days at 18:00
+(Nov 1, 3, 5 … 15), full story Nov 16 at 21:00.

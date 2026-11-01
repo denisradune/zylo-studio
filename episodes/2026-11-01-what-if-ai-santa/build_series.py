@@ -1,4 +1,4 @@
-"""Writes episodes/2026-12-10-what-if-ai-santa/series.json (8 parts) — the AI-Santa Christmas special."""
+"""Writes episodes/2026-11-01-what-if-ai-santa/series.json (8 parts) — the AI-Santa Christmas special."""
 import json, sys
 OUT = sys.argv[1]
 
@@ -213,7 +213,7 @@ series = {
  "rubric": "what-if: holiday (Christmas, AI/Bit)",
  "mood": "wonder",
  "seed": 1225,
- "startOn": "2026-12-10",
+ "startOn": "2026-11-01",
  "every": 2,
  "names": {"hero": "JAY", "bit": "BIT", "santa": "SANTA", "elf": "PIP", "friend": "MIA", "kid": "LEO", "boss": "DAD"},
  "finale": {"text": "MERRY CHRISTMAS", "sub": "Follow for a new What if every day"},

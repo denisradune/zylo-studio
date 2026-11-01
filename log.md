@@ -8,3 +8,4 @@
 | 4 | 2026-10-31 | What If a Gambler Owned the Casino? 🎰 Part 1 #shorts | what-if: money (casino, part 1/3) | sources.md | https://youtube.com/shorts/n9OuOBh2rtg |
 | 5 | 2026-11-01 | What If You Learned the Casino's Secret? 🎰 Part 2 #shorts | what-if: money (part2) | sources.md | https://youtube.com/shorts/SDWsRjCfBkU |
 | 6 | 2026-11-02 | What If You Gave a Gambler His House Back? 🎰 Part 3 #shorts | what-if: money (part3) | sources.md | https://youtube.com/shorts/KOYwz6BM6Cs |
+| 7 | 2026-11-01 | What If an AI Replaced Santa Claus? 🎅 Part 1 #shorts | what-if: holiday (Christmas, AI/Bit) (part1) | sources.md | https://youtube.com/shorts/zAZaYlC_-AA |
