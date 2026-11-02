@@ -12,6 +12,8 @@ import { SatisfyingPanel } from '../../zylo-shared/toon/Satisfying';
 /** Split-screen: the top half shows this window of the 1080x1920 scene (heads to floor). */
 const SPLIT_Y = 510;
 const HALF = 960;
+/** UI overlays (counters, cards, notifications) are scaled into the top half. */
+const UI_SPLIT = 0.68;
 
 const clamp = { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' } as const;
 
@@ -87,6 +89,18 @@ const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: S
     return { x: acc.x + o.x, y: acc.y + o.y };
   }, { x: 0, y: 0 });
   const ordered = [...shot.cast].sort((a, b) => (b.depth ?? 0) - (a.depth ?? 0));
+  // Split-screen: slide the 960-px window so the tallest character's head (after camera zoom) stays in view.
+  let winY = SPLIT_Y;
+  if (split && shot.cast.length) {
+    const zEnd = zoom0 * (1 + (cam.push ?? 0.05));
+    const heads = shot.cast.map((m) => {
+      const depth = m.depth ?? 0;
+      const sc = (m.scale ?? 1.35) * (1 - depth * 0.55);
+      const top = FLOOR_Y - depth * 260 - (m.lift ?? 0) - (m.id === 'bit' ? 430 : 600) * sc;
+      return fy * H + (top - fy * H) * Math.max(zoom0, zEnd);
+    });
+    winY = Math.max(0, Math.min(SPLIT_Y, Math.min(...heads) - 70));
+  }
 
   const tr = shot.transition ?? 'cut';
   const flash = tr === 'flash' ? interpolate(f, [0, 6], [1, 0], clamp) : 0;
@@ -95,7 +109,7 @@ const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: S
   return (
     <AbsoluteFill style={{ backgroundColor: '#000' }}>
       <AbsoluteFill style={{ transform: `translateX(${whip * -160}px)`, filter: whip > 0.05 ? `blur(${whip * 18}px)` : undefined }}>
-        <svg viewBox={split ? `0 ${SPLIT_Y} ${W} ${HALF}` : `0 0 ${W} ${H}`} width="100%" height="100%">
+        <svg viewBox={split ? `0 ${winY} ${W} ${HALF}` : `0 0 ${W} ${H}`} width="100%" height="100%">
           <g transform={`translate(${sh.x} ${sh.y}) translate(${fx * W} ${fy * H}) scale(${zoom}) translate(${-fx * W} ${-fy * H})`}>
             <SetPiece spec={shot.set} t={frame} />
             {ordered.map((m, i) => (
@@ -107,7 +121,7 @@ const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: S
       </AbsoluteFill>
       {shot.ui &&
         (split ? (
-          <div style={{ position: 'absolute', left: (W - W * 0.5) / 2, top: 40, width: W, height: H, transform: 'scale(0.5)', transformOrigin: 'top left' }}>
+          <div style={{ position: 'absolute', left: (W - W * UI_SPLIT) / 2, top: 20, width: W, height: H, transform: `scale(${UI_SPLIT})`, transformOrigin: 'top left' }}>
             <UiLayer ui={shot.ui} f={f} fps={fps} dur={dur} />
           </div>
         ) : (
