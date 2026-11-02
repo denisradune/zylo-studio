@@ -28,14 +28,8 @@ python3 scripts/youtube_upload.py --check     # must print "expected": true, els
   `upload`; leave them alone except to fix problems. When a holiday is 3–6 weeks away and nothing is prepared,
   an upload day is a good day to write one (same rules, `"startOn"`, then `publish_series.py schedule … --start <startOn>`).
 
-- **Split-screen Shorts** (owner's choice, 2026-11-02): every part is rendered with the story in the top half and
-  an original code-drawn satisfying loop in the bottom half (`templates/zylo-shared/toon/Satisfying.tsx`: press /
-  sand / marbles, rotating per part — make_series does it automatically). **Preferred:** real satisfying stock
-  footage from Pexels/Pixabay (licence allows monetised YouTube use) via `scripts/broll.py`, used automatically by
-  make_story when `PEXELS_API_KEY` or `PIXABAY_API_KEY` is set; commit `brand/broll_used.txt` and each part's
-  `broll.json` (clip sources). Never use other creators' footage
-  (press videos, Minecraft parkour, Subway Surfers…) — that is reused content and gets the channel demonetised. When
-  looking at frames, check the top half too: heads, captions and UI must sit inside it. The 16:9 full story is not split.
+- Shorts are **full-screen** (owner's choice 2026-11-02 — no split-screen / bottom footage). Don't turn on
+  `"split"` unless the owner asks again.
 
 ## 1. Read the audience (every day, before choosing anything)
 ```bash

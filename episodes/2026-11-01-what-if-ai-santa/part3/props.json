@@ -1703,9 +1703,5 @@
  "endStart": 57.027,
  "endText": "PART 4",
  "endSub": "Follow \u2014 it drops in 2 days",
- "partLabel": "PART 3/8",
- "split": {
-  "kind": "sand",
-  "seed": 1228
- }
+ "partLabel": "PART 3/8"
 }

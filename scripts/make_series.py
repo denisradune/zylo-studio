@@ -69,9 +69,9 @@ def main():
                 'partLabel': f'PART {i}/{n}',
                 'end': s.get('finale') if last else {'text': f'PART {i + 1}', 'sub': 'Follow — it drops tomorrow' if s.get('every', 2) == 1 else f"Follow — it drops in {s.get('every', 2)} days"},
                 'lines': p['lines'],
-                # Shorts parts are split-screen: story on top, an original satisfying loop below (owner's choice,
-                # 2026-11-02). The loop kind rotates part to part; "split": false in series.json turns it off.
-                **({} if s.get('split') is False else {'split': {'kind': SAT_KINDS[(s.get('seed', 1) + i) % len(SAT_KINDS)], 'seed': s.get('seed', 1) + i}}),
+                # Split-screen (story on top, satisfying loop below) is OFF by default — the owner decided on
+                # 2026-11-02 to keep full-screen Shorts. "split": true in series.json turns it on for a series.
+                **({'split': {'kind': SAT_KINDS[(s.get('seed', 1) + i) % len(SAT_KINDS)], 'seed': s.get('seed', 1) + i}} if s.get('split') is True else {}),
                 'minSeconds': 35,
                 'maxSeconds': 90,
             }

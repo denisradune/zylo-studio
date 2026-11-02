@@ -573,10 +573,6 @@
    "end": true
   }
  ],
- "split": {
-  "kind": "sand",
-  "seed": 1228
- },
  "minSeconds": 35,
  "maxSeconds": 90
 }
