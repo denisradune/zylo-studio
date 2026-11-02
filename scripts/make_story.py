@@ -100,6 +100,8 @@ def stage_props(d: Path, ep: dict) -> None:
     }
     if ep.get('partLabel'):
         props['partLabel'] = ep['partLabel']
+    if ep.get('split'):
+        props['split'] = ep['split']
     if ep.get('chapters'):
         # chapters: [{"line": index of the part's first line, "label": "PART 2", "title": "..."}]
         props['chapters'] = [{'start': round(starts[c['line']], 3), 'label': c['label'], 'title': c['title']} for c in ep['chapters']]

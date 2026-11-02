@@ -7,6 +7,11 @@ import { Bit, BitExpr, Car, Expr, Human, INK, LOOKS, Pose } from '../../zylo-sha
 import { FxLayer, shakeAt } from '../../zylo-shared/toon/Fx';
 import type { CastMember, Shot, StoryProps, StoryWord } from '../../zylo-shared/toon/types';
 import { UiLayer } from '../../zylo-shared/toon/Ui';
+import { SatisfyingPanel } from '../../zylo-shared/toon/Satisfying';
+
+/** Split-screen: the top half shows this window of the 1080x1920 scene (heads to floor). */
+const SPLIT_Y = 510;
+const HALF = 960;
 
 const clamp = { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' } as const;
 
@@ -64,7 +69,7 @@ const Actor: React.FC<{ m: CastMember; f: number; dur: number; t: number; frame:
   );
 };
 
-const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: StoryProps['lines'] }> = ({ shot, dur, words, lines }) => {
+const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: StoryProps['lines']; split?: boolean }> = ({ shot, dur, words, lines, split }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = shot.start + f / fps;
@@ -90,7 +95,7 @@ const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: S
   return (
     <AbsoluteFill style={{ backgroundColor: '#000' }}>
       <AbsoluteFill style={{ transform: `translateX(${whip * -160}px)`, filter: whip > 0.05 ? `blur(${whip * 18}px)` : undefined }}>
-        <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%">
+        <svg viewBox={split ? `0 ${SPLIT_Y} ${W} ${HALF}` : `0 0 ${W} ${H}`} width="100%" height="100%">
           <g transform={`translate(${sh.x} ${sh.y}) translate(${fx * W} ${fy * H}) scale(${zoom}) translate(${-fx * W} ${-fy * H})`}>
             <SetPiece spec={shot.set} t={frame} />
             {ordered.map((m, i) => (
@@ -100,7 +105,14 @@ const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: S
           </g>
         </svg>
       </AbsoluteFill>
-      {shot.ui && <UiLayer ui={shot.ui} f={f} fps={fps} dur={dur} />}
+      {shot.ui &&
+        (split ? (
+          <div style={{ position: 'absolute', left: (W - W * 0.5) / 2, top: 40, width: W, height: H, transform: 'scale(0.5)', transformOrigin: 'top left' }}>
+            <UiLayer ui={shot.ui} f={f} fps={fps} dur={dur} />
+          </div>
+        ) : (
+          <UiLayer ui={shot.ui} f={f} fps={fps} dur={dur} />
+        ))}
       {flash > 0 && <AbsoluteFill style={{ backgroundColor: '#FFFFFF', opacity: flash }} />}
     </AbsoluteFill>
   );
@@ -129,7 +141,7 @@ const pages = (words: StoryWord[]): Page[] => {
   return out;
 };
 
-const StoryCaptions: React.FC<{ words: StoryWord[]; lines: StoryProps['lines']; names: Record<string, string>; hideFrom: number }> = ({ words, lines, names, hideFrom }) => {
+const StoryCaptions: React.FC<{ words: StoryWord[]; lines: StoryProps['lines']; names: Record<string, string>; hideFrom: number; split?: boolean }> = ({ words, lines, names, hideFrom, split }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const ps = useMemo(() => pages(words), [words]);
@@ -140,7 +152,7 @@ const StoryCaptions: React.FC<{ words: StoryWord[]; lines: StoryProps['lines']; 
   const speaker = lines[p.words[0].line]?.speaker;
   const name = speaker && speaker !== 'narrator' ? names[speaker] ?? speaker.toUpperCase() : null;
   return (
-    <div style={{ position: 'absolute', left: 60, right: 60, top: H * 0.66, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <div style={{ position: 'absolute', left: 60, right: 60, top: split ? 600 : H * 0.66, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       {name && (
         <div
           style={{
@@ -169,7 +181,7 @@ const StoryCaptions: React.FC<{ words: StoryWord[]; lines: StoryProps['lines']; 
               style={{
                 fontFamily: brand.head,
                 fontWeight: 900,
-                fontSize: 78,
+                fontSize: split ? 66 : 78,
                 lineHeight: 1.12,
                 textTransform: 'uppercase',
                 color: w.emph ? '#FFD400' : '#FFFFFF',
@@ -287,24 +299,37 @@ const ChapterCard: React.FC<{ label: string; title: string }> = ({ label, title 
 
 export const ZyloToon: React.FC<StoryProps> = (props) => {
   const { fps, durationInFrames } = useVideoConfig();
+  const frame = useCurrentFrame();
   const endFrame = Math.round(props.endStart * fps);
   const vol = props.musicVolume ?? 0.15;
+  const split = !!props.split;
+  const shotsLayer = props.shots.map((s, i) => {
+    const from = Math.round(s.start * fps);
+    const dur = Math.max(1, Math.round(s.end * fps) - from);
+    return (
+      <Sequence key={i} from={from} durationInFrames={dur}>
+        <ShotView shot={s} dur={dur} words={props.words} lines={props.lines} split={split} />
+        {(s.sfx ?? []).map((e, k) => (
+          <Sequence key={k} from={Math.round((e.at ?? 0) * fps)} layout="none">
+            <Audio src={staticFile(`sfx/${e.type}.wav`)} volume={e.volume ?? 0.55} />
+          </Sequence>
+        ))}
+      </Sequence>
+    );
+  });
   return (
     <AbsoluteFill style={{ backgroundColor: '#000' }}>
-      {props.shots.map((s, i) => {
-        const from = Math.round(s.start * fps);
-        const dur = Math.max(1, Math.round(s.end * fps) - from);
-        return (
-          <Sequence key={i} from={from} durationInFrames={dur}>
-            <ShotView shot={s} dur={dur} words={props.words} lines={props.lines} />
-            {(s.sfx ?? []).map((e, k) => (
-              <Sequence key={k} from={Math.round((e.at ?? 0) * fps)} layout="none">
-                <Audio src={staticFile(`sfx/${e.type}.wav`)} volume={e.volume ?? 0.55} />
-              </Sequence>
-            ))}
-          </Sequence>
-        );
-      })}
+      {split ? (
+        <>
+          <div style={{ position: 'absolute', left: 0, top: 0, width: W, height: HALF, overflow: 'hidden' }}>{shotsLayer}</div>
+          <div style={{ position: 'absolute', left: 0, top: HALF, width: W, height: HALF, overflow: 'hidden' }}>
+            <SatisfyingPanel kind={props.split!.kind} f={frame} fps={fps} seed={props.split!.seed ?? 0} />
+          </div>
+          <div style={{ position: 'absolute', left: 0, top: HALF - 4, width: W, height: 8, background: INK }} />
+        </>
+      ) : (
+        shotsLayer
+      )}
       <Sequence from={endFrame}>
         <EndCard text={props.endText ?? 'PART 2?'} sub={props.endSub ?? 'Follow so you don’t miss it'} />
       </Sequence>
@@ -314,7 +339,7 @@ export const ZyloToon: React.FC<StoryProps> = (props) => {
         </Sequence>
       ))}
       {props.partLabel && <PartBadge label={props.partLabel} hideFrom={endFrame} />}
-      <StoryCaptions words={props.words} lines={props.lines} names={props.names ?? {}} hideFrom={props.endStart + 99} />
+      <StoryCaptions words={props.words} lines={props.lines} names={props.names ?? {}} hideFrom={props.endStart + 99} split={split} />
       <Audio src={staticFile(props.voiceover)} />
       {props.music && (
         <Audio

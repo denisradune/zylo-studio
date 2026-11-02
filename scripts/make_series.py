@@ -30,6 +30,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PY = str(ROOT / '.venv/bin/python')
+SAT_KINDS = ['press', 'sand', 'marbles']
 
 
 def build(d: Path, story: dict, start: str | None) -> None:
@@ -68,6 +69,9 @@ def main():
                 'partLabel': f'PART {i}/{n}',
                 'end': s.get('finale') if last else {'text': f'PART {i + 1}', 'sub': 'Follow — it drops tomorrow' if s.get('every', 2) == 1 else f"Follow — it drops in {s.get('every', 2)} days"},
                 'lines': p['lines'],
+                # Shorts parts are split-screen: story on top, an original satisfying loop below (owner's choice,
+                # 2026-11-02). The loop kind rotates part to part; "split": false in series.json turns it off.
+                **({} if s.get('split') is False else {'split': {'kind': SAT_KINDS[(s.get('seed', 1) + i) % len(SAT_KINDS)], 'seed': s.get('seed', 1) + i}}),
                 'minSeconds': 35,
                 'maxSeconds': 90,
             }
