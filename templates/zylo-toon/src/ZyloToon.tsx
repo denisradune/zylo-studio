@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { AbsoluteFill, Audio, Easing, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
+import { AbsoluteFill, Audio, Easing, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { brand } from '../../zylo-shared/brand';
 import { LogoMark } from '../../zylo-shared/Chrome';
 import { FLOOR_Y, H, SetPiece, W } from '../../zylo-shared/toon/Backgrounds';
@@ -337,7 +337,11 @@ export const ZyloToon: React.FC<StoryProps> = (props) => {
         <>
           <div style={{ position: 'absolute', left: 0, top: 0, width: W, height: HALF, overflow: 'hidden' }}>{shotsLayer}</div>
           <div style={{ position: 'absolute', left: 0, top: HALF, width: W, height: HALF, overflow: 'hidden' }}>
-            <SatisfyingPanel kind={props.split!.kind} f={frame} fps={fps} seed={props.split!.seed ?? 0} />
+            {props.split!.kind === 'video' && props.split!.src ? (
+              <OffthreadVideo src={staticFile(props.split!.src)} muted style={{ width: W, height: HALF, objectFit: 'cover' }} />
+            ) : (
+              <SatisfyingPanel kind={props.split!.kind as 'press' | 'sand' | 'marbles'} f={frame} fps={fps} seed={props.split!.seed ?? 0} />
+            )}
           </div>
           <div style={{ position: 'absolute', left: 0, top: HALF - 4, width: W, height: 8, background: INK }} />
         </>

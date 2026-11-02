@@ -30,7 +30,10 @@ python3 scripts/youtube_upload.py --check     # must print "expected": true, els
 
 - **Split-screen Shorts** (owner's choice, 2026-11-02): every part is rendered with the story in the top half and
   an original code-drawn satisfying loop in the bottom half (`templates/zylo-shared/toon/Satisfying.tsx`: press /
-  sand / marbles, rotating per part — make_series does it automatically). Never use other creators' footage
+  sand / marbles, rotating per part — make_series does it automatically). **Preferred:** real satisfying stock
+  footage from Pexels/Pixabay (licence allows monetised YouTube use) via `scripts/broll.py`, used automatically by
+  make_story when `PEXELS_API_KEY` or `PIXABAY_API_KEY` is set; commit `brand/broll_used.txt` and each part's
+  `broll.json` (clip sources). Never use other creators' footage
   (press videos, Minecraft parkour, Subway Surfers…) — that is reused content and gets the channel demonetised. When
   looking at frames, check the top half too: heads, captions and UI must sit inside it. The 16:9 full story is not split.
 

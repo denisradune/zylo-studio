@@ -63,7 +63,7 @@ export type StoryProps = {
   /** Series badge shown top-left in a Shorts part, e.g. "PART 2/3". */
   partLabel?: string;
   /** Split-screen Short: story on top (1080x960), an original satisfying loop below. */
-  split?: { kind: 'press' | 'sand' | 'marbles'; seed?: number };
+  split?: { kind: 'press' | 'sand' | 'marbles' | 'video'; seed?: number; src?: string };
   /** Full-length version: a chapter card at the start of each part after the first. */
   chapters?: { start: number; label: string; title: string }[];
 };

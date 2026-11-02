@@ -116,6 +116,21 @@ def stage_render(d: Path, ep: dict) -> None:
         if not (ROOT / 'brand/sfx').exists():
             run([PY, str(ROOT / 'scripts/sfx.py')])
         shutil.copytree(ROOT / 'brand/sfx', sfx)
+    props = json.loads((d / 'props.json').read_text())
+    if props.get('split') and props['split'].get('kind') != 'video':
+        # Real stock footage (Pexels/Pixabay) for the bottom half when a key is set; otherwise keep the drawn loop.
+        broll = d / 'public/broll.mp4'
+        need = props['voiceoverSeconds'] + props.get('tailSeconds', 0.8) + 0.5
+        ok = broll.exists()
+        if not ok:
+            r = subprocess.run([PY, str(ROOT / 'scripts/broll.py'), '--out', str(broll), '--seconds', f'{need:.2f}',
+                                '--seed', str(props['split'].get('seed', 1))])
+            ok = r.returncode == 0
+        if ok:
+            props['split'] = {**props['split'], 'kind': 'video', 'src': 'broll.mp4'}
+            (d / 'props.json').write_text(json.dumps(props, indent=1))
+            if Path(str(broll) + '.json').exists():
+                shutil.copy(str(broll) + '.json', d / 'broll.json')  # clip sources, kept in git
     raw = d / 'out/short.raw.mp4'
     run(['npx', 'remotion', 'render', 'zylo-toon/src/index.ts', 'ZyloToon', str(raw), f'--props={d / "props.json"}',
          f'--public-dir={d / "public"}', '--codec=h264', '--crf=18', '--audio-bitrate=192k', '--log=error'], cwd=TEMPLATES)

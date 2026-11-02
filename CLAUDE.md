@@ -11,8 +11,9 @@ Audience: English-speaking 16–35, loves "wait, really?" moments. Talk to the o
 - Format (owner's choice, from 2026-11-01): every story is **~7 minutes, told in detail** — 8 parts of ~1 min,
   one part **every 2 days**, then the full story as a regular 16:9 video (chapters + cartoon thumbnail) the day after
   the last part at 21:00. A new series starts every 2 days; the days in between are upload days.
-- Shorts parts are split-screen: story on top, an original code-drawn satisfying loop below (press / sand /
-  marbles, `Satisfying.tsx`). Never other creators' footage.
+- Shorts parts are split-screen: story on top, real satisfying stock footage below (Pexels/Pixabay via
+  `scripts/broll.py`, needs PEXELS_API_KEY); without a key, a code-drawn loop (`Satisfying.tsx`). Never other
+  creators' footage.
 - Slots 13:00 / 15:00 / 17:00 / 19:00 Asia/Jerusalem, chosen so parallel series never collide
   (`scripts/publish_series.py schedule`); uploads go out up to 3 days ahead (`publish_series.py upload`).
 - YouTube API default quota ≈ 6 uploads/day; 9 uploads per series every 2 days fits.
