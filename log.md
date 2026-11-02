@@ -9,6 +9,6 @@
 | 5 | 2026-11-01 | What If You Learned the Casino's Secret? 🎰 Part 2 #shorts | what-if: money (part2) | sources.md | https://youtube.com/shorts/SDWsRjCfBkU |
 | 6 | 2026-11-02 | What If You Gave a Gambler His House Back? 🎰 Part 3 #shorts | what-if: money (part3) | sources.md | https://youtube.com/shorts/KOYwz6BM6Cs |
 | 7 | 2026-11-01 | What If an AI Replaced Santa Claus? 🎅 Part 1 #shorts | what-if: holiday (Christmas, AI/Bit) (part1) | sources.md | https://youtube.com/shorts/zAZaYlC_-AA |
-| 8 | 2026-11-03 | What If an AI Automated Santa's Workshop? 🎅 Part 2 #shorts | what-if: holiday (Christmas, AI/Bit) (part2) | sources.md | https://youtube.com/shorts/BwfCNSn00v4 |
+| 8 | 2026-11-03 | What If an AI Automated Santa's Workshop? 🎅 Part 2 #shorts | what-if: holiday (Christmas, AI/Bit) (part2) | sources.md | https://youtube.com/shorts/3cHqJAtMmFc |
 | 9 | 2026-11-03 | What If a Zombie Apocalypse Started With One Notification? (Full Story) | what-if: disaster (full) | original fiction | https://youtu.be/gaeKBf0CToU |
 | 10 | 2026-11-03 | What If a Gambler Suddenly Owned the Casino? (Full Story) | what-if: money (full) | sources.md | https://youtu.be/XAc6VAQRgwQ |
