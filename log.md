@@ -12,3 +12,5 @@
 | 8 | 2026-11-03 | What If an AI Automated Santa's Workshop? 🎅 Part 2 #shorts | what-if: holiday (Christmas, AI/Bit) (part2) | sources.md | https://youtube.com/shorts/3cHqJAtMmFc |
 | 9 | 2026-11-03 | What If a Zombie Apocalypse Started With One Notification? (Full Story) | what-if: disaster (full) | original fiction | https://youtu.be/gaeKBf0CToU |
 | 10 | 2026-11-03 | What If a Gambler Suddenly Owned the Casino? (Full Story) | what-if: money (full) | sources.md | https://youtu.be/XAc6VAQRgwQ |
+| 11 | 2026-11-03 | What If You Played for the Casino? Season 2 · Part 1 #shorts | what-if: money (part1) | sources.md | https://youtube.com/shorts/4ZWGkClzXPk |
+| 12 | 2026-11-05 | What If Doubling Always Won? 🎰 Season 2 · Part 2 #shorts | what-if: money (part2) | sources.md | https://youtube.com/shorts/V0igOoj4sy4 |
