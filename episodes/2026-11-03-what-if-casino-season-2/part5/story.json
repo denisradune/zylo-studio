@@ -1,0 +1,598 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "owner": "MR. VANCE",
+  "dealer": "ROSA",
+  "gambler": "LUCKY LOU",
+  "kid": "FAN",
+  "friend": "FAN"
+ },
+ "title": "What If You Played for the Casino? Season 2 (Part 5)",
+ "seed": 4205,
+ "partLabel": "PART 5/8",
+ "end": {
+  "text": "PART 6",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part five. Vance bet everything on a *tilted wheel*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "hero",
+   "say": "Stop the wheel! House rules. *Inspection*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "You can't stop a *spin*!",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Your own contract says *he can*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "CLAUSE 4",
+     "sub": "The house may inspect any table",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay lifts the wheel. Under it, a tiny *coin*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1200,
+      "r": 300
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Stamped with a single letter. *V*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#16161C"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "V",
+     "sub": "under the wheel",
+     "color": "#FFD400"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Rosa. You were my friend. *Why*?",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Vance owns my debt. Forty *thousand*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Tilt the wheel, or lose my *apartment*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     },
+     {
+      "type": "vignette"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay knows that feeling. He has *been* there.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. New wheel. *Perfectly* level.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.35,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.4
+     },
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "engine",
+      "volume": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Same bet. Fair wheel. The ball *spins*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.4
+     },
+     {
+      "type": "tick",
+      "at": 0.8
+     },
+     {
+      "type": "tick",
+      "at": 1.2
+     }
+    ],
+    "camera": {
+     "push": 0.15
+    }
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Four. *Black*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "4",
+     "sub": "BLACK",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every chip Vance won tonight is *gone*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "LOST",
+     "color": "#E0312B"
+    },
+    "sfx": [
+     {
+      "type": "crash"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Fine. Fine! Night two goes to *the house*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "And Rosa? You're *fired*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "She doesn't work for you. She works for *me*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.28,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.3
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.72,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.4,
+      "facing": -1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Jay... nobody ever stood up for me. *Thank you*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 520
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Tomorrow, no wheels. No cards. Just *one coin*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 2.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "One flip. Heads or tails. Winner takes *everything*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#FFD400"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "HEADS OR TAILS",
+     "sub": "winner takes everything",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part six drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

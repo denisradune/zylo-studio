@@ -1,0 +1,1970 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 68.779,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 143,
+   "endMs": 443,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "eight.",
+   "startMs": 443,
+   "endMs": 761,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 1209,
+   "endMs": 1609,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "won",
+   "startMs": 1609,
+   "endMs": 1959,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 1959,
+   "endMs": 2089,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "casino.",
+   "startMs": 2089,
+   "endMs": 2873,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "But",
+   "startMs": 3236,
+   "endMs": 3396,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "lost",
+   "startMs": 3396,
+   "endMs": 3726,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Bit.",
+   "startMs": 3726,
+   "endMs": 4281,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 4645,
+   "endMs": 4735,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "casino",
+   "startMs": 4735,
+   "endMs": 5355,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 5355,
+   "endMs": 5595,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Jay's",
+   "startMs": 5595,
+   "endMs": 6105,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "now.",
+   "startMs": 6105,
+   "endMs": 6523,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Forever.",
+   "startMs": 6885,
+   "endMs": 7589,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "But",
+   "startMs": 7889,
+   "endMs": 8029,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 8029,
+   "endMs": 8449,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "isn't",
+   "startMs": 8449,
+   "endMs": 8809,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "celebrating.",
+   "startMs": 8809,
+   "endMs": 9724,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "He's",
+   "startMs": 10065,
+   "endMs": 10295,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "rebooting",
+   "startMs": 10295,
+   "endMs": 10835,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "his",
+   "startMs": 10835,
+   "endMs": 11025,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "friend.",
+   "startMs": 11025,
+   "endMs": 11559,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Bit?",
+   "startMs": 11859,
+   "endMs": 12307,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 12651,
+   "endMs": 12821,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "me.",
+   "startMs": 12821,
+   "endMs": 13269,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Jay.",
+   "startMs": 13613,
+   "endMs": 14104,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Hello.",
+   "startMs": 14407,
+   "endMs": 15004,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 15348,
+   "endMs": 15618,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "am",
+   "startMs": 15618,
+   "endMs": 15758,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Bit.",
+   "startMs": 15758,
+   "endMs": 16244,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Who",
+   "startMs": 16564,
+   "endMs": 16834,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 16834,
+   "endMs": 16984,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Jay?",
+   "startMs": 16984,
+   "endMs": 17524,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 17848,
+   "endMs": 18298,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "tries",
+   "startMs": 18298,
+   "endMs": 18788,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "everything.",
+   "startMs": 18788,
+   "endMs": 19469,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "He",
+   "startMs": 19789,
+   "endMs": 19889,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "even",
+   "startMs": 19889,
+   "endMs": 20199,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "shows",
+   "startMs": 20199,
+   "endMs": 20649,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 20649,
+   "endMs": 20929,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 20929,
+   "endMs": 21029,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "chandelier.",
+   "startMs": 21029,
+   "endMs": 21773,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "That",
+   "startMs": 22052,
+   "endMs": 22292,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 22292,
+   "endMs": 22442,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 22442,
+   "endMs": 22552,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "lamp.",
+   "startMs": 22552,
+   "endMs": 23119,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Rosa",
+   "startMs": 23443,
+   "endMs": 24013,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "sings.",
+   "startMs": 24013,
+   "endMs": 24616,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Lou",
+   "startMs": 25000,
+   "endMs": 25310,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "dances",
+   "startMs": 25310,
+   "endMs": 25890,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "badly.",
+   "startMs": 25890,
+   "endMs": 26536,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Nothing",
+   "startMs": 26856,
+   "endMs": 27366,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "works.",
+   "startMs": 27366,
+   "endMs": 27944,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Bit...",
+   "startMs": 28268,
+   "endMs": 28759,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "remember?",
+   "startMs": 29103,
+   "endMs": 29700,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 30087,
+   "endMs": 30247,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "still",
+   "startMs": 30247,
+   "endMs": 30437,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "owe",
+   "startMs": 30437,
+   "endMs": 30497,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 30487,
+   "endMs": 30677,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "eleven",
+   "startMs": 30677,
+   "endMs": 31007,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "dollars.",
+   "startMs": 31007,
+   "endMs": 31559,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "Eleven",
+   "startMs": 31883,
+   "endMs": 32343,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "dollars...",
+   "startMs": 32343,
+   "endMs": 32949,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 33251,
+   "endMs": 33461,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "still",
+   "startMs": 33461,
+   "endMs": 33701,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "haven't",
+   "startMs": 33701,
+   "endMs": 33991,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "paid",
+   "startMs": 33991,
+   "endMs": 34251,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "me!",
+   "startMs": 34251,
+   "endMs": 34552,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Bit!",
+   "startMs": 34855,
+   "endMs": 35281,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "You're",
+   "startMs": 35583,
+   "endMs": 35743,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "back!",
+   "startMs": 35743,
+   "endMs": 36159,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Memory",
+   "startMs": 36461,
+   "endMs": 36921,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "restored.",
+   "startMs": 36921,
+   "endMs": 37613,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Debt",
+   "startMs": 37915,
+   "endMs": 38205,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "also",
+   "startMs": 38205,
+   "endMs": 38555,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "restored.",
+   "startMs": 38555,
+   "endMs": 39259,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Next",
+   "startMs": 39583,
+   "endMs": 39883,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "morning,",
+   "startMs": 39883,
+   "endMs": 40363,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 40363,
+   "endMs": 40673,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "makes",
+   "startMs": 40673,
+   "endMs": 40963,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 40963,
+   "endMs": 41233,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "change.",
+   "startMs": 41233,
+   "endMs": 41823,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Chips",
+   "startMs": 42144,
+   "endMs": 42434,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 42434,
+   "endMs": 42704,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "free",
+   "startMs": 42704,
+   "endMs": 42994,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "now.",
+   "startMs": 42994,
+   "endMs": 43467,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Nobody",
+   "startMs": 43811,
+   "endMs": 44351,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "can",
+   "startMs": 44351,
+   "endMs": 44601,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "bet",
+   "startMs": 44601,
+   "endMs": 44841,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "real",
+   "startMs": 44841,
+   "endMs": 45301,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "money.",
+   "startMs": 45301,
+   "endMs": 45709,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Everybody",
+   "startMs": 45988,
+   "endMs": 46518,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "plays.",
+   "startMs": 46518,
+   "endMs": 46969,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Everybody",
+   "startMs": 47249,
+   "endMs": 47709,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "laughs.",
+   "startMs": 47709,
+   "endMs": 48209,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Everybody",
+   "startMs": 48489,
+   "endMs": 48979,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "goes",
+   "startMs": 48979,
+   "endMs": 49179,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "home.",
+   "startMs": 49179,
+   "endMs": 49556,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Rosa",
+   "startMs": 49901,
+   "endMs": 50451,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "runs",
+   "startMs": 50451,
+   "endMs": 50831,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 50831,
+   "endMs": 51001,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "floor.",
+   "startMs": 51001,
+   "endMs": 51523,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Lou",
+   "startMs": 51864,
+   "endMs": 52184,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "greets",
+   "startMs": 52184,
+   "endMs": 52634,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 52634,
+   "endMs": 52944,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "guest.",
+   "startMs": 52944,
+   "endMs": 53400,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 53807,
+   "endMs": 53937,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 53937,
+   "endMs": 54087,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "first",
+   "startMs": 54087,
+   "endMs": 54457,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "customer",
+   "startMs": 54457,
+   "endMs": 54947,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 54947,
+   "endMs": 55137,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "line?",
+   "startMs": 55137,
+   "endMs": 55641,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Mr.",
+   "startMs": 56047,
+   "endMs": 56751,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Vance.",
+   "startMs": 57092,
+   "endMs": 57711,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "I've",
+   "startMs": 58011,
+   "endMs": 58261,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "got",
+   "startMs": 58261,
+   "endMs": 58461,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 58461,
+   "endMs": 58561,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 58561,
+   "endMs": 58951,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "system.",
+   "startMs": 58951,
+   "endMs": 59440,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 59763,
+   "endMs": 59963,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "can't",
+   "startMs": 59963,
+   "endMs": 60323,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "lose.",
+   "startMs": 60323,
+   "endMs": 60851,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Sir,",
+   "startMs": 61135,
+   "endMs": 61285,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 61285,
+   "endMs": 61425,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "chips",
+   "startMs": 61425,
+   "endMs": 61625,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 61625,
+   "endMs": 61825,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "free.",
+   "startMs": 61825,
+   "endMs": 62223,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Nobody",
+   "startMs": 62567,
+   "endMs": 62917,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "loses.",
+   "startMs": 62917,
+   "endMs": 63484,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 63787,
+   "endMs": 64207,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "what's",
+   "startMs": 64207,
+   "endMs": 64617,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 64617,
+   "endMs": 64767,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "point?",
+   "startMs": 64767,
+   "endMs": 65195,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Exactly.",
+   "startMs": 65519,
+   "endMs": 66351,
+   "line": 20,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 66715,
+   "endMs": 67075,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 67075,
+   "endMs": 67305,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 67305,
+   "endMs": 67425,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 67425,
+   "endMs": 67725,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "What",
+   "startMs": 67725,
+   "endMs": 67875,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 67875,
+   "endMs": 68065,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 68065,
+   "endMs": 68355,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 68355,
+   "endMs": 68741,
+   "line": 21,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 4.383
+  },
+  {
+   "speaker": "narrator",
+   "start": 4.603,
+   "end": 7.627
+  },
+  {
+   "speaker": "narrator",
+   "start": 7.847,
+   "end": 11.617
+  },
+  {
+   "speaker": "hero",
+   "start": 11.837,
+   "end": 14.165
+  },
+  {
+   "speaker": "bit",
+   "start": 14.385,
+   "end": 17.585
+  },
+  {
+   "speaker": "narrator",
+   "start": 17.805,
+   "end": 21.832
+  },
+  {
+   "speaker": "bit",
+   "start": 22.052,
+   "end": 23.18
+  },
+  {
+   "speaker": "narrator",
+   "start": 23.4,
+   "end": 28.027
+  },
+  {
+   "speaker": "hero",
+   "start": 28.247,
+   "end": 31.641
+  },
+  {
+   "speaker": "bit",
+   "start": 31.861,
+   "end": 34.613
+  },
+  {
+   "speaker": "hero",
+   "start": 34.833,
+   "end": 36.22
+  },
+  {
+   "speaker": "bit",
+   "start": 36.44,
+   "end": 39.32
+  },
+  {
+   "speaker": "narrator",
+   "start": 39.54,
+   "end": 41.881
+  },
+  {
+   "speaker": "narrator",
+   "start": 42.101,
+   "end": 45.768
+  },
+  {
+   "speaker": "hero",
+   "start": 45.988,
+   "end": 49.639
+  },
+  {
+   "speaker": "narrator",
+   "start": 49.859,
+   "end": 53.544
+  },
+  {
+   "speaker": "narrator",
+   "start": 53.764,
+   "end": 57.769
+  },
+  {
+   "speaker": "owner",
+   "start": 57.989,
+   "end": 60.893
+  },
+  {
+   "speaker": "hero",
+   "start": 61.113,
+   "end": 63.545
+  },
+  {
+   "speaker": "owner",
+   "start": 63.765,
+   "end": 65.256
+  },
+  {
+   "speaker": "bit",
+   "start": 65.476,
+   "end": 66.409
+  },
+  {
+   "speaker": "narrator",
+   "start": 66.629,
+   "end": 68.779
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "owner": "MR. VANCE",
+  "dealer": "ROSA",
+  "gambler": "LUCKY LOU",
+  "kid": "FAN",
+  "friend": "FAN"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "casino",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sleepy",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.272
+  },
+  {
+   "set": {
+    "type": "casino",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sleepy",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 2.272,
+   "end": 4.543
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.5
+    }
+   ],
+   "ui": {
+    "type": "stamp",
+    "text": "OWNER: JAY",
+    "color": "#16161C"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 4.543,
+   "end": 7.787
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.2
+    },
+    {
+     "id": "bit",
+     "x": 0.75,
+     "expr": "sleepy",
+     "scale": 1.0
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 0,
+    "to": 100,
+    "suffix": "%",
+    "label": "REBOOT"
+   },
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 7.787,
+   "end": 11.777
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "sad",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 11.777,
+   "end": 14.325
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 14.325,
+   "end": 16.035
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "bit",
+   "start": 16.035,
+   "end": 17.745
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.3,
+     "pose": "point",
+     "expr": "happy",
+     "scale": 1.2
+    },
+    {
+     "id": "bit",
+     "x": 0.75,
+     "expr": "neutral",
+     "scale": 0.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.3
+   },
+   "speaker": "narrator",
+   "start": 17.745,
+   "end": 19.869
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.3,
+     "pose": "point",
+     "expr": "happy",
+     "scale": 1.2,
+     "enter": "none"
+    },
+    {
+     "id": "bit",
+     "x": 0.75,
+     "expr": "neutral",
+     "scale": 0.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 19.869,
+   "end": 21.992
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 21.992,
+   "end": 23.34
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "dealer",
+     "x": 0.25,
+     "pose": "cheer",
+     "expr": "happy",
+     "depth": 0.3
+    },
+    {
+     "id": "gambler",
+     "x": 0.75,
+     "pose": "cheer",
+     "expr": "grin",
+     "depth": 0.3
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.0
+    }
+   ],
+   "speaker": "narrator",
+   "start": 23.34,
+   "end": 25.764
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "dealer",
+     "x": 0.25,
+     "pose": "cheer",
+     "expr": "happy",
+     "depth": 0.3,
+     "enter": "none"
+    },
+    {
+     "id": "gambler",
+     "x": 0.75,
+     "pose": "cheer",
+     "expr": "grin",
+     "depth": 0.3,
+     "enter": "none"
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.0,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 25.764,
+   "end": 28.187
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "camera": {
+    "zoom": 1.15,
+    "y": 0.55,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "hero",
+   "start": 28.187,
+   "end": 29.994
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "camera": {
+    "zoom": 1.49,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "sfx": [],
+   "transition": "cut",
+   "speaker": "hero",
+   "start": 29.994,
+   "end": 31.801
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "angry",
+     "scale": 2.0,
+     "enter": "pop"
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 1000,
+     "r": 520
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    },
+    {
+     "type": "hit",
+     "at": 0.5
+    }
+   ],
+   "transition": "flash",
+   "speaker": "bit",
+   "start": 31.801,
+   "end": 34.773
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.3
+    },
+    {
+     "id": "bit",
+     "x": 0.75,
+     "expr": "happy",
+     "scale": 1.1
+    }
+   ],
+   "speaker": "hero",
+   "start": 34.773,
+   "end": 36.38
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 36.38,
+   "end": 37.93
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "bit",
+   "start": 37.93,
+   "end": 39.48
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "transition": "whip",
+   "speaker": "narrator",
+   "start": 39.48,
+   "end": 42.041
+  },
+  {
+   "set": {
+    "type": "burst",
+    "color": "#2DBE7E"
+   },
+   "cast": [],
+   "ui": {
+    "type": "card",
+    "text": "FREE CHIPS",
+    "sub": "no real money. ever.",
+    "color": "#16161C"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "pop",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 42.041,
+   "end": 45.928
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "moneyRain"
+    }
+   ],
+   "speaker": "hero",
+   "start": 45.928,
+   "end": 47.864
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "moneyRain"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "sfx": [],
+   "speaker": "hero",
+   "start": 47.864,
+   "end": 49.799
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "dealer",
+     "x": 0.3,
+     "pose": "wave",
+     "expr": "happy",
+     "scale": 1.3
+    },
+    {
+     "id": "gambler",
+     "x": 0.72,
+     "pose": "wave",
+     "expr": "grin",
+     "scale": 1.3,
+     "facing": -1
+    }
+   ],
+   "speaker": "narrator",
+   "start": 49.799,
+   "end": 51.752
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "dealer",
+     "x": 0.3,
+     "pose": "wave",
+     "expr": "happy",
+     "scale": 1.3,
+     "enter": "none"
+    },
+    {
+     "id": "gambler",
+     "x": 0.72,
+     "pose": "wave",
+     "expr": "grin",
+     "scale": 1.3,
+     "facing": -1,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 51.752,
+   "end": 53.704
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "owner",
+     "x": -0.1,
+     "moveTo": 0.5,
+     "pose": "walk",
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    },
+    {
+     "type": "hit",
+     "at": 0.6
+    }
+   ],
+   "speaker": "narrator",
+   "start": 53.704,
+   "end": 57.929
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "owner",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "owner",
+   "start": 57.929,
+   "end": 59.491
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "owner",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "owner",
+   "start": 59.491,
+   "end": 61.053
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "smug",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 61.053,
+   "end": 63.705
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "owner",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "shocked",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.15,
+    "y": 0.55
+   },
+   "speaker": "owner",
+   "start": 63.705,
+   "end": 65.416
+  },
+  {
+   "set": {
+    "type": "casino"
+   },
+   "cast": [
+    {
+     "id": "heroSuit",
+     "voice": "hero",
+     "x": 0.3,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.2
+    },
+    {
+     "id": "bit",
+     "x": 0.75,
+     "expr": "smug",
+     "scale": 1.1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 65.416,
+   "end": 66.569
+  }
+ ],
+ "endStart": 66.569,
+ "endText": "THE END",
+ "endSub": "Follow for a new What if every day",
+ "partLabel": "PART 8/8"
+}

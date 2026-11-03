@@ -18,7 +18,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-03T13:00:00Z"
  },
  "part2": {
   "title": "What If Doubling Always Won? 🎰 Season 2 · Part 2 #shorts",
@@ -39,7 +40,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-05T13:00:00Z"
  },
  "part3": {
   "title": "What If the Table Had a Limit? 🎰 Season 2 · Part 3 #shorts",
@@ -60,7 +62,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-07T13:00:00Z"
  },
  "part4": {
   "title": "What If the Wheel Was Tilted? 🎰 Season 2 · Part 4 #shorts",
@@ -81,7 +84,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-09T13:00:00Z"
  },
  "part5": {
   "title": "What If the Dealer Was Bribed? 🎰 Season 2 · Part 5 #shorts",
@@ -102,7 +106,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-11T13:00:00Z"
  },
  "part6": {
   "title": "What If Black Hit 26 Times? 🎰 Season 2 · Part 6 #shorts",
@@ -123,7 +128,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-13T13:00:00Z"
  },
  "part7": {
   "title": "What If You Refused the Final Bet? Season 2 · Part 7 #shorts",
@@ -144,7 +150,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-15T13:00:00Z"
  },
  "part8": {
   "title": "What If the Casino Was Free? 🎰 Season 2 · Part 8 #shorts",
@@ -165,7 +172,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-17T13:00:00Z"
  },
  "full": {
   "title": "What If You Played for the Casino? Season 2 (Full Story)",
@@ -184,6 +192,7 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-18T19:00:00Z"
  }
 }

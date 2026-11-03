@@ -1,0 +1,4406 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "owner": "MR. VANCE",
+  "dealer": "ROSA",
+  "gambler": "LUCKY LOU",
+  "kid": "FAN",
+  "friend": "FAN"
+ },
+ "title": "What If You Played for the Casino? Season 2",
+ "seed": 4200,
+ "end": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if you played *for* the casino?",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.22,
+      "pose": "idle",
+      "expr": "smug",
+      "depth": 0.4
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.55,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.86,
+      "expr": "think",
+      "depth": 0.2
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "hit",
+      "at": 0.6
+     }
+    ],
+    "camera": {
+     "push": 0.08
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Last season, Jay ran a casino. Then lost *it*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "KEYS RETURNED",
+     "color": "#E0312B"
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Vance never sold it. Jay never read *the contract*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.3
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.74,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Now Jay washes dishes at a *diner*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Fun fact. You still owe me *eleven dollars*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.28,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "smug",
+      "scale": 1.1
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 11,
+     "prefix": "$",
+     "label": "JAY OWES BIT"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, I'm *broke*. Not now.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the bell rings. It's *Lucky Lou*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": -0.1,
+      "moveTo": 0.5,
+      "pose": "walk",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "gambler",
+   "say": "You gave me my house back. I *owe* you.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Lou slides a crumpled paper across the *counter*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 1.3
+     },
+     {
+      "id": "hero",
+      "x": 0.72,
+      "pose": "think",
+      "expr": "shocked",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "gambler",
+   "say": "Vance's contract. Read *clause nine*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. Read it. *Slowly*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Run the house three nights. *Beat the owner*...",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "CLAUSE 9",
+     "sub": "Run the house 3 nights. Beat the owner.",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.6
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "...keeps the house. *Forever*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Lou. You just saved my *life*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "That night, Jay walks back into *the casino*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "smug",
+      "scale": 1.4
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Look who's back. Did you finally *read*?",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Clause nine. Three nights. I'm the *house*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Then I'm the *player*. And I never lose.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Vance opens a briefcase. *Ten million dollars*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "moneyRain"
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 10,
+     "prefix": "$",
+     "suffix": "M",
+     "label": "VANCE'S BANKROLL"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     },
+     {
+      "type": "ding",
+      "at": 0.6
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Night one starts *now*, kid.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 2.1
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55
+    },
+    "sfx": [
+     {
+      "type": "growl",
+      "at": 0.6,
+      "volume": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Night one. Jay puts on the *suit* again.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#FFD400"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.7,
+      "enter": "pop"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Welcome back, boss. I really missed the *chandelier*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "icon": "$",
+      "scale": 1.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.2,
+     "y": 0.15,
+     "x": 0.5
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Vance ignores the bar and walks straight to *roulette*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": -0.1,
+      "moveTo": 0.45,
+      "pose": "walk",
+      "expr": "smug",
+      "scale": 1.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "One thousand dollars. On *red*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.35,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.4
+     },
+     {
+      "id": "dealer",
+      "x": 0.78,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.3,
+      "facing": -1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Twenty two. *Black*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "22",
+     "sub": "BLACK",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "ding",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Two thousand. On red.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Black again. Three thousand gone. Vance just *smiles*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Four thousand. On *red*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, why does he keep *doubling*?",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "It's called the *martingale*. Lose, double, repeat.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "MARTINGALE",
+     "items": [
+      "Bet $1K",
+      "Lose? Double it",
+      "Win once: +$1K"
+     ]
+    },
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "One win pays back *every* loss.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "LOST",
+       "value": 0.7,
+       "color": "#FF3B3B"
+      },
+      {
+       "label": "WIN",
+       "value": 0.75,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "+$1K"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Plus his first thousand, as *profit*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Wait. So he literally can't *lose*?",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "With infinite money? *He can't*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, he brought *ten million* dollars!",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Finally, red. Vance wins a thousand. And starts *again*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.5
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "By midnight, Vance is up *forty thousand*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "smug",
+      "depth": 0.3
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.7,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 40,
+     "prefix": "+$",
+     "suffix": "K",
+     "label": "VANCE TONIGHT"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Two more nights, house. Tick tock. *Tick tock*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "11:58"
+    },
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. How do you beat *infinite money*?",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Nobody has infinite money. Not even *him*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "And every real table has a *maximum bet*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "MAX BET",
+     "sub": "every table has one",
+     "color": "#C8102E"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "A limit? We *forgot* the limit?",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "You set it to *unlimited*. On day one.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Of *course* I did.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay grabs a marker and writes a *new sign*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.4
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "MAX BET $100,000",
+     "sub": "house rules",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Cute sign. It changes *nothing*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "One thousand on red. Black. Two thousand. *Black*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     },
+     {
+      "type": "tick",
+      "at": 1.0
+     }
+    ],
+    "camera": {
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The streak keeps going. Seven blacks. *Eight*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 1,
+     "to": 8,
+     "label": "BLACKS IN A ROW"
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Two hundred fifty six thousand. On *red*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Sorry, sir. The limit is *one hundred*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "OVER LIMIT",
+     "color": "#E0312B"
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The doubling *breaks*. He can't win it back.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#E0312B"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "crash"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Vance is down *two hundred fifty five thousand*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.4
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 255,
+     "prefix": "-$",
+     "suffix": "K",
+     "label": "VANCE"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "You changed the rules *mid-game*!",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "You taught me. Always read *the sign*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Midnight. Night one goes to *the house*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#FFD400"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "NIGHT 1: HOUSE",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Vance closes his briefcase. He's *smiling* again.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Night two, kid. I'm bringing a *friend*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Behind the bar, Rosa finds an *envelope*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Inside: cash. And a note. \"*Tilt it.*\"",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#16161C"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "TILT IT.",
+     "sub": "\u2014 V",
+     "color": "#FFF6DF"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     },
+     {
+      "type": "heartbeat",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Night two. Vance bets on one number. *Seventeen*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "17",
+     "sub": "STRAIGHT UP",
+     "color": "#16161C"
+    },
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Seventeen. *Black*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8,
+      "facing": -1
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "One number pays thirty five to *one*. He wins.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "moneyRain"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Seventeen. Then twenty seven. Then seventeen *again*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.3
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.7,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.6
+     },
+     {
+      "type": "ding",
+      "at": 1.2
+     }
+    ],
+    "camera": {
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "That's *impossible*. Right, Bit? Tell me that's impossible.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Not impossible. Just very, very *unlikely*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every spin, the vault counter keeps *falling*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [],
+    "ui": {
+     "type": "counter",
+     "from": 900,
+     "to": 300,
+     "prefix": "$",
+     "suffix": "K",
+     "label": "VAULT"
+    },
+    "fx": [
+     {
+      "type": "alarm"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "alarm",
+      "volume": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay, I logged every spin *tonight*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Three numbers hit *five times* too often.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "7",
+       "value": 0.9,
+       "color": "#FF3B3B"
+      },
+      {
+       "label": "17",
+       "value": 1.0,
+       "color": "#FF3B3B"
+      },
+      {
+       "label": "27",
+       "value": 0.85,
+       "color": "#FF3B3B"
+      },
+      {
+       "label": "OTHERS",
+       "value": 0.18,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "HITS"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A flawed wheel *favors* some numbers.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Real players have watched wheels for *ten thousand* spins.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 10000,
+     "label": "SPINS WATCHED"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "So the wheel itself is *broken*?",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Or someone *broke* it.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay looks at the dealer. Rosa looks *away*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.28,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.4
+     },
+     {
+      "id": "dealer",
+      "x": 0.74,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Rosa? Tell me it *wasn't* you.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Jay... I didn't want to. I'm *so* sorry.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The vault is down to *fifty thousand*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "VAULT",
+       "value": 0.05,
+       "color": "#FF3B3B"
+      }
+     ],
+     "tag": "$50K"
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "One more spin and the house is *mine*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Vance pushes every single chip he has onto *seventeen*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#E0312B"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "ALL IN: 17",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     },
+     {
+      "type": "riser",
+      "at": 0.4
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Stop the wheel! House rules. *Inspection*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "You can't stop a *spin*!",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Your own contract says *he can*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "CLAUSE 4",
+     "sub": "The house may inspect any table",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay lifts the wheel. Under it, a tiny *coin*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1200,
+      "r": 300
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Stamped with a single letter. *V*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#16161C"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "V",
+     "sub": "under the wheel",
+     "color": "#FFD400"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Rosa. You were my friend. *Why*?",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Vance owns my debt. Forty *thousand*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Tilt the wheel, or lose my *apartment*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     },
+     {
+      "type": "vignette"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay knows that feeling. He has *been* there.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. New wheel. *Perfectly* level.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.35,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.4
+     },
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "engine",
+      "volume": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Same bet. Fair wheel. The ball *spins*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.4
+     },
+     {
+      "type": "tick",
+      "at": 0.8
+     },
+     {
+      "type": "tick",
+      "at": 1.2
+     }
+    ],
+    "camera": {
+     "push": 0.15
+    }
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Four. *Black*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "4",
+     "sub": "BLACK",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every chip Vance won tonight is *gone*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "LOST",
+     "color": "#E0312B"
+    },
+    "sfx": [
+     {
+      "type": "crash"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Fine. Fine! Night two goes to *the house*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "And Rosa? You're *fired*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "She doesn't work for you. She works for *me*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.28,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.3
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.72,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.4,
+      "facing": -1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Jay... nobody ever stood up for me. *Thank you*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 520
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Tomorrow, no wheels. No cards. Just *one coin*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 2.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "One flip. Heads or tails. Winner takes *everything*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#FFD400"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "HEADS OR TAILS",
+     "sub": "winner takes everything",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Midnight. Jay can't *sleep*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sleepy",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "3:12"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. A coin flip is *fair*, right?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Fifty fifty. The fairest bet *there is*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "HEADS",
+       "value": 0.5,
+       "color": "#FFD400"
+      },
+      {
+       "label": "TAILS",
+       "value": 0.5,
+       "color": "#FFD400"
+      }
+     ],
+     "tag": "50/50"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Then why am I *scared*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Because you remember *old Jay*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Old Jay lost ten bets straight. And kept *going*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 10,
+     "label": "LOSSES IN A ROW"
+    },
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "I always thought the next one was *due*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Monte Carlo, nineteen thirteen. Black hit *twenty six* times.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "MONTE CARLO, 1913: BLACK x26"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 1,
+     "to": 26,
+     "label": "BLACKS IN A ROW"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     },
+     {
+      "type": "tick",
+      "at": 1.0
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "People bet against black. They lost *millions*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "GAMBLERS LOSE MILLIONS"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.4
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A wheel has no *memory*. Neither does a coin.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Knock knock. It's Lou. And *Rosa*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.25,
+      "pose": "wave",
+      "expr": "happy",
+      "depth": 0.2
+     },
+     {
+      "id": "dealer",
+      "x": 0.72,
+      "pose": "wave",
+      "expr": "happy",
+      "depth": 0.3
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     },
+     {
+      "type": "knock",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "gambler",
+   "say": "I almost lost my house to a *feeling*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "Don't let him turn you into *old Jay*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "But if I don't flip, I *lose* everything.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. Read the contract. *Again*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit highlights two words. *Three nights*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "CLAUSE 9",
+     "sub": "beat the owner over THREE NIGHTS",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Not one flip. All three *nights* together.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. How far ahead *are we*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Exactly... *eleven dollars*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#FFD400"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 2.0,
+      "enter": "pop"
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 11,
+     "prefix": "+$",
+     "label": "HOUSE AHEAD BY"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     },
+     {
+      "type": "riser",
+      "at": 0.4
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Night three. The whole city came to *watch*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "CASINO SHOWDOWN: NIGHT THREE"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.25,
+      "pose": "idle",
+      "expr": "smug",
+      "depth": 0.3
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.75,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.3,
+      "facing": -1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Heads or tails, kid. Casino against *everything*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "*No*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "No?",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "The house doesn't have to play. You *taught* me.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The crowd *boos*. Someone yells \"coward\".",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.2,
+      "pose": "point",
+      "expr": "angry",
+      "depth": 0.4
+     },
+     {
+      "id": "friend",
+      "x": 0.8,
+      "pose": "point",
+      "expr": "angry",
+      "depth": 0.4
+     },
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.3
+     }
+    ],
+    "sfx": [
+     {
+      "type": "crash",
+      "volume": 0.4
+     }
+    ],
+    "camera": {
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Fine. Then I'll play your *machines*. Every one.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Vance pulls slot after slot after slot. *All night*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.4
+     },
+     {
+      "type": "ding",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Every pull, the house edge earns us *pennies*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "icon": "$",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 11,
+     "to": 211,
+     "prefix": "+$",
+     "label": "HOUSE AHEAD BY"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Eleven fifty nine. Vance is losing. He's *desperate*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "11:59"
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "No records? Then no *winner*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He rips Bit's cable out of the *wall*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#E0312B"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.3,
+      "pose": "throw",
+      "expr": "angry",
+      "scale": 1.4
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "glitch",
+      "scale": 1.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "crash"
+     },
+     {
+      "type": "powerdown",
+      "at": 0.4
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay... the ledger... *saving*...",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "glitch"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! Bit, no! Stay with me!",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.4
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Sending everything to your *phone*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "No room left for... *me*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Bit's little screen goes *dark*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#16161C"
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "powerdown"
+     },
+     {
+      "type": "heartbeat",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay's phone buzzes. Ledger *received*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Bit",
+     "title": "Ledger saved",
+     "body": "House ahead: $211",
+     "color": "#FFD400"
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Midnight. Three nights. The house wins *all three*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "HOUSE WINS",
+     "color": "#2DBE7E"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "hit",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay won the casino. But he lost *Bit*.",
+   "shot": {
+    "set": {
+     "type": "casino",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.3
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "sleepy",
+      "scale": 1.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The casino is Jay's now. *Forever*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "OWNER: JAY",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But Jay isn't celebrating. He's rebooting his *friend*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "sleepy",
+      "scale": 1.0
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 100,
+     "suffix": "%",
+     "label": "REBOOT"
+    },
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit? It's me. *Jay*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Hello. I am Bit. Who is *Jay*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay tries everything. He even shows Bit the *chandelier*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "happy",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "neutral",
+      "scale": 0.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "That is a *lamp*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rosa sings. Lou dances badly. Nothing *works*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.25,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.3
+     },
+     {
+      "id": "gambler",
+      "x": 0.75,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.3
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit... remember? I still owe you *eleven dollars*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Eleven dollars... You *still* haven't paid me!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 2.0,
+      "enter": "pop"
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1000,
+      "r": 520
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     },
+     {
+      "type": "hit",
+      "at": 0.5
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! You're *back*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.3
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "happy",
+      "scale": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Memory restored. Debt *also* restored.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Next morning, Jay makes *one change*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Chips are free now. Nobody can bet *real money*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#2DBE7E"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "FREE CHIPS",
+     "sub": "no real money. ever.",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "pop",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Everybody plays. Everybody laughs. Everybody goes *home*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "moneyRain"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rosa runs the floor. Lou greets every *guest*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.3,
+      "pose": "wave",
+      "expr": "happy",
+      "scale": 1.3
+     },
+     {
+      "id": "gambler",
+      "x": 0.72,
+      "pose": "wave",
+      "expr": "grin",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And the first customer in line? *Mr. Vance*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": -0.1,
+      "moveTo": 0.5,
+      "pose": "walk",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     },
+     {
+      "type": "hit",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "I've got a new system. I *can't* lose.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Sir, the chips are free. *Nobody* loses.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "owner",
+   "say": "Then what's the *point*?",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "*Exactly*.",
+   "shot": {
+    "set": {
+     "type": "casino"
+    },
+    "cast": [
+     {
+      "id": "heroSuit",
+      "voice": "hero",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "smug",
+      "scale": 1.1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for a new What if every day.",
+   "end": true
+  }
+ ],
+ "chapters": [
+  {
+   "line": 20,
+   "label": "PART 2",
+   "title": "Doubling"
+  },
+  {
+   "line": 39,
+   "label": "PART 3",
+   "title": "Table Limit"
+  },
+  {
+   "line": 59,
+   "label": "PART 4",
+   "title": "The Tilted Wheel"
+  },
+  {
+   "line": 78,
+   "label": "PART 5",
+   "title": "Rosa"
+  },
+  {
+   "line": 97,
+   "label": "PART 6",
+   "title": "Old Jay"
+  },
+  {
+   "line": 116,
+   "label": "PART 7",
+   "title": "The Flip"
+  },
+  {
+   "line": 136,
+   "label": "PART 8",
+   "title": "The House"
+  }
+ ],
+ "minSeconds": 90,
+ "maxSeconds": 600
+}
