@@ -1,0 +1,560 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "soldier": "SGT. ROOK",
+  "scientist": "DR. ADA",
+  "boss": "MR. GRAY",
+  "kid": "KID"
+ },
+ "title": "What If a Zombie Apocalypse Started With One Notification? Season 2 (Part 5)",
+ "seed": 5105,
+ "partLabel": "PART 5/8",
+ "end": {
+  "text": "PART 6",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part five. Mr. Gray stole *Bit*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Back at camp, Jay doesn't say *a word*.",
+   "shot": {
+    "set": {
+     "type": "wasteland",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     },
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Hey. We'll get your toaster *back*.",
+   "shot": {
+    "set": {
+     "type": "wasteland",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "He's not a toaster. He's my *best friend*.",
+   "shot": {
+    "set": {
+     "type": "wasteland",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "soldier",
+   "say": "Then we go back. No phones. No radios. *Nothing*.",
+   "shot": {
+    "set": {
+     "type": "wasteland",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "OFFLINE KIT",
+     "items": [
+      "Paper map",
+      "Flashlight",
+      "Crowbar"
+     ]
+    },
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "And then what? Ask Gray *nicely*?",
+   "shot": {
+    "set": {
+     "type": "wasteland",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Doctor Ada drops a book on the *table*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "The zombie fungus has an enemy. Another *fungus*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "HYPERPARASITE",
+     "sub": "a parasite that eats the parasite",
+     "color": "#2DBE7E"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "It attacks the zombie fungus. Fewer spores *spread*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "SPORES",
+       "value": 0.9,
+       "color": "#FF3B3B"
+      },
+      {
+       "label": "WITH ENEMY",
+       "value": 0.25,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "LESS"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "So we need a virus... that eats the *virus*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "A patch. Sent from the same tower. At *noon*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "I wrote it weeks ago. On *this*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "USB STICK",
+     "sub": "no screen. no glow.",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Then why didn't you *use* it?",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Someone has to plug it in. *On the roof*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "zombie",
+      "x": 0.12,
+      "pose": "zombie",
+      "expr": "angry",
+      "depth": 0.7,
+      "facing": 1
+     },
+     {
+      "id": "zombie2",
+      "x": 0.37333333333333335,
+      "pose": "zombie",
+      "expr": "angry",
+      "depth": 0.5499999999999999,
+      "facing": -1
+     },
+     {
+      "id": "zombie",
+      "x": 0.6266666666666667,
+      "pose": "zombie",
+      "expr": "angry",
+      "depth": 0.39999999999999997,
+      "facing": 1
+     },
+     {
+      "id": "zombie2",
+      "x": 0.88,
+      "pose": "zombie",
+      "expr": "angry",
+      "depth": 0.25,
+      "facing": -1
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "That night, Jay stares at the tower. *Alone*.",
+   "shot": {
+    "set": {
+     "type": "wasteland",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 400,
+      "r": 140
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The tower light *blinks*. Short. Short. *Long*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 400,
+      "r": 300
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.3
+     },
+     {
+      "type": "tick",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "soldier",
+   "say": "That's *Morse code*. Someone's talking.",
+   "shot": {
+    "set": {
+     "type": "wasteland",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rook writes it down, letter by *letter*.",
+   "shot": {
+    "set": {
+     "type": "wasteland",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "J. A. Y. Still *here*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#FFD400"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.8,
+      "enter": "pop"
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "JAY. STILL HERE.",
+     "sub": "\u2014 B",
+     "color": "#FFF6DF"
+    },
+    "sfx": [
+     {
+      "type": "powerup"
+     },
+     {
+      "type": "hit",
+      "at": 0.6
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part six drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

@@ -1,0 +1,655 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "soldier": "SGT. ROOK",
+  "scientist": "DR. ADA",
+  "boss": "MR. GRAY",
+  "kid": "KID"
+ },
+ "title": "What If a Zombie Apocalypse Started With One Notification? Season 2 (Part 6)",
+ "seed": 5106,
+ "partLabel": "PART 6/8",
+ "end": {
+  "text": "PART 7",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part six. Bit is alive. Inside *Gray Tower*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Saturday night. The plan is *simple*.",
+   "shot": {
+    "set": {
+     "type": "wasteland",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.25,
+      "pose": "idle",
+      "expr": "angry",
+      "depth": 0.2
+     },
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "angry",
+      "depth": 0.2
+     },
+     {
+      "id": "soldier",
+      "x": 0.75,
+      "pose": "idle",
+      "expr": "angry",
+      "depth": 0.2
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "THE PLAN",
+     "items": [
+      "Mia: be bright",
+      "Rook: drive",
+      "Jay: climb"
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Simple? I have to climb *ninety floors*.",
+   "shot": {
+    "set": {
+     "type": "wasteland",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 90,
+     "label": "FLOORS"
+    },
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "And I have to be the city's *brightest thing*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia raids the store. Every flashlight. Every *glow stick*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "happy",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 300
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "pop",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "At one in the morning, she lights *everything*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1000,
+      "r": 520
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Hey! Over here! *Brightest girl in town*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "growl",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The zombies let go of the tower. *And follow*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "zombie",
+      "x": -0.1,
+      "pose": "run",
+      "expr": "angry",
+      "depth": 0.7,
+      "facing": 1,
+      "moveTo": 1.15
+     },
+     {
+      "id": "zombie2",
+      "x": -0.30000000000000004,
+      "pose": "run",
+      "expr": "angry",
+      "depth": 0.5499999999999999,
+      "facing": -1,
+      "moveTo": 1.0499999999999998
+     },
+     {
+      "id": "zombie",
+      "x": -0.5,
+      "pose": "run",
+      "expr": "angry",
+      "depth": 0.39999999999999997,
+      "facing": 1,
+      "moveTo": 0.95
+     },
+     {
+      "id": "zombie2",
+      "x": -0.7000000000000001,
+      "pose": "run",
+      "expr": "angry",
+      "depth": 0.25,
+      "facing": -1,
+      "moveTo": 0.8499999999999999
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     },
+     {
+      "type": "growl",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rook drives her through the streets like a *parade*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "car",
+      "x": -0.2,
+      "moveTo": 1.1,
+      "color": "#3F5B3A",
+      "scale": 1.2
+     },
+     {
+      "id": "zombie",
+      "x": -0.1,
+      "pose": "run",
+      "expr": "angry",
+      "depth": 0.7,
+      "facing": 1,
+      "moveTo": 0.8499999999999999
+     },
+     {
+      "id": "zombie2",
+      "x": -0.30000000000000004,
+      "pose": "run",
+      "expr": "angry",
+      "depth": 0.5499999999999999,
+      "facing": -1,
+      "moveTo": 0.7499999999999998
+     }
+    ],
+    "sfx": [
+     {
+      "type": "engine"
+     },
+     {
+      "type": "siren",
+      "at": 0.4,
+      "volume": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay slips into the empty tower and starts *climbing*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Floor ten. Floor forty. His legs are *on fire*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 10,
+     "to": 40,
+     "label": "FLOOR"
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Note to self. Next apocalypse, *learn to fly*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sleepy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Floor sixty. Something is standing on the *stairs*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "zombie2",
+      "x": 0.5,
+      "pose": "zombie",
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "One zombie that didn't follow the lights. Still *gripping*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "zombie2",
+      "x": 0.5,
+      "pose": "zombie",
+      "expr": "neutral",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay holds his breath and squeezes *past it*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "zombie2",
+      "x": 0.3,
+      "pose": "zombie",
+      "expr": "neutral",
+      "scale": 1.3
+     },
+     {
+      "id": "hero",
+      "x": 0.7,
+      "pose": "walk",
+      "expr": "scared",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     },
+     {
+      "type": "heartbeat",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Floor ninety. A door. A *glowing* room.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 89,
+     "to": 90,
+     "label": "FLOOR"
+    },
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 900,
+      "r": 400
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Inside, Bit is plugged into the antenna. *Cables everywhere*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "glitch"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay? You climbed ninety floors? You hate *stairs*!",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "And he's right on time. It's almost *noon*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "11:58"
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part seven drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

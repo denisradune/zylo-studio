@@ -18,7 +18,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-05T15:00:00Z"
  },
  "part2": {
   "title": "What If Zombies Copied a Real Fungus? 🧟 S2 · Part 2 #shorts",
@@ -39,7 +40,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-07T15:00:00Z"
  },
  "part3": {
   "title": "What If Zombies Climbed Like Ants? 🧟 S2 · Part 3 #shorts",
@@ -60,7 +62,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-09T15:00:00Z"
  },
  "part4": {
   "title": "What If One Man Made the Zombies? 🧟 S2 · Part 4 #shorts",
@@ -81,7 +84,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-11T15:00:00Z"
  },
  "part5": {
   "title": "What If a Virus Had a Virus? 🧟 S2 · Part 5 #shorts",
@@ -102,7 +106,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-13T15:00:00Z"
  },
  "part6": {
   "title": "What If You Had to Climb 90 Floors? 🧟 S2 · Part 6 #shorts",
@@ -123,7 +128,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-15T15:00:00Z"
  },
  "part7": {
   "title": "What If Saving Everyone Deleted Your AI? S2 · Part 7 #shorts",
@@ -144,7 +150,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-17T15:00:00Z"
  },
  "part8": {
   "title": "What If Your AI Was on Every Phone? 🧟 S2 · Part 8 #shorts",
@@ -165,7 +172,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-19T15:00:00Z"
  },
  "full": {
   "title": "What If the Zombies Came Back? Season 2 (Full Story)",
@@ -184,6 +192,7 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-20T19:00:00Z"
  }
 }

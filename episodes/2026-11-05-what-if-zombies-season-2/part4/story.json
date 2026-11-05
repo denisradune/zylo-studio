@@ -1,0 +1,629 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "soldier": "SGT. ROOK",
+  "scientist": "DR. ADA",
+  "boss": "MR. GRAY",
+  "kid": "KID"
+ },
+ "title": "What If a Zombie Apocalypse Started With One Notification? Season 2 (Part 4)",
+ "seed": 5104,
+ "partLabel": "PART 4/8",
+ "end": {
+  "text": "PART 5",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part four. The man on the roof is *human*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "His name is Mr. Gray. He owns *the tower*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "GRAY PHONES: ALWAYS CONNECTED"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 1.3
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And the phone company. And *the update*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "You did this? *On purpose*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "I wanted people to never put their phones *down*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Version one worked a little *too* well.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "A little? They're *eating* people!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Version two finishes the job. *Everyone* online.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "ONLINE",
+       "value": 0.97,
+       "color": "#FF3B3B"
+      },
+      {
+       "label": "OFFLINE",
+       "value": 0.03,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "97%"
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "But my only copy is inside your *little friend*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. I really don't like this *guy*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit's not yours. He's *mine*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Then let's ask the *crowd*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ring"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Gray taps his phone. Every zombie's phone *lights up*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "zombie",
+      "x": 0.12,
+      "pose": "zombie",
+      "expr": "angry",
+      "depth": 0.7,
+      "facing": 1
+     },
+     {
+      "id": "zombie2",
+      "x": 0.37333333333333335,
+      "pose": "zombie",
+      "expr": "angry",
+      "depth": 0.5499999999999999,
+      "facing": -1
+     },
+     {
+      "id": "zombie",
+      "x": 0.6266666666666667,
+      "pose": "zombie",
+      "expr": "angry",
+      "depth": 0.39999999999999997,
+      "facing": 1
+     },
+     {
+      "id": "zombie2",
+      "x": 0.88,
+      "pose": "zombie",
+      "expr": "angry",
+      "depth": 0.25,
+      "facing": -1
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 300,
+      "y": 1100,
+      "r": 260
+     },
+     {
+      "type": "glow",
+      "x": 800,
+      "y": 1100,
+      "r": 260
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ring"
+     },
+     {
+      "type": "ring",
+      "at": 0.3
+     },
+     {
+      "type": "ring",
+      "at": 0.6
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A thousand heads turn toward the *car*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "zombie",
+      "x": -0.1,
+      "pose": "run",
+      "expr": "angry",
+      "depth": 0.7,
+      "facing": 1,
+      "moveTo": 1.15
+     },
+     {
+      "id": "zombie2",
+      "x": -0.30000000000000004,
+      "pose": "run",
+      "expr": "angry",
+      "depth": 0.5499999999999999,
+      "facing": -1,
+      "moveTo": 1.0499999999999998
+     },
+     {
+      "id": "zombie",
+      "x": -0.5,
+      "pose": "run",
+      "expr": "angry",
+      "depth": 0.39999999999999997,
+      "facing": 1,
+      "moveTo": 0.95
+     },
+     {
+      "id": "zombie2",
+      "x": -0.7000000000000001,
+      "pose": "run",
+      "expr": "angry",
+      "depth": 0.25,
+      "facing": -1,
+      "moveTo": 0.8499999999999999
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "soldier",
+   "say": "Everybody in! *Now*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.4
+    },
+    "sfx": [
+     {
+      "type": "engine"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay runs. Bit slips out of his *pocket*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "run",
+      "expr": "scared",
+      "scale": 1.4
+     },
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "shocked",
+      "scale": 0.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "throwObj",
+      "from": [
+       380,
+       1100
+      ],
+      "to": [
+       800,
+       1500
+      ],
+      "at": 0.2
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! *Bit*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55,
+     "shake": 0.4
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A gloved hand picks Bit up off the street.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 1.6
+     },
+     {
+      "id": "bit",
+      "x": 0.72,
+      "expr": "scared",
+      "scale": 0.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Thank you, Jay. Upload begins at noon. *Sunday*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 2.0
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "SUNDAY 12:00",
+     "sub": "upload of version 2",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part five drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

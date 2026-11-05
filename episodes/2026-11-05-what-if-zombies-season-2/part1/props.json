@@ -1,0 +1,2025 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 60.653,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "What",
+   "startMs": 143,
+   "endMs": 393,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 393,
+   "endMs": 463,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 463,
+   "endMs": 633,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "AI's",
+   "startMs": 633,
+   "endMs": 1173,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "backup",
+   "startMs": 1173,
+   "endMs": 1693,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "held",
+   "startMs": 1693,
+   "endMs": 1963,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 1963,
+   "endMs": 2073,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "virus?",
+   "startMs": 2073,
+   "endMs": 2660,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Last",
+   "startMs": 2960,
+   "endMs": 3310,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "season,",
+   "startMs": 3310,
+   "endMs": 3810,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 3810,
+   "endMs": 4100,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "phone",
+   "startMs": 4100,
+   "endMs": 4390,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "update",
+   "startMs": 4390,
+   "endMs": 4830,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "made",
+   "startMs": 4830,
+   "endMs": 5060,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 5060,
+   "endMs": 5140,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "world",
+   "startMs": 5140,
+   "endMs": 5470,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "zombies.",
+   "startMs": 5470,
+   "endMs": 6096,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Bit",
+   "startMs": 6439,
+   "endMs": 6679,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "died",
+   "startMs": 6679,
+   "endMs": 7099,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "saving",
+   "startMs": 7099,
+   "endMs": 7569,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Jay.",
+   "startMs": 7569,
+   "endMs": 8060,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 8380,
+   "endMs": 8640,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "returned",
+   "startMs": 8640,
+   "endMs": 9190,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "from",
+   "startMs": 9190,
+   "endMs": 9300,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 9300,
+   "endMs": 9430,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "backup.",
+   "startMs": 9430,
+   "endMs": 10023,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Now",
+   "startMs": 10344,
+   "endMs": 10634,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 10634,
+   "endMs": 10924,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "and",
+   "startMs": 10924,
+   "endMs": 11064,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Mia",
+   "startMs": 11064,
+   "endMs": 11374,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "live",
+   "startMs": 11374,
+   "endMs": 11694,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 11694,
+   "endMs": 11834,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "an",
+   "startMs": 11834,
+   "endMs": 11944,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "army",
+   "startMs": 11944,
+   "endMs": 12244,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "camp.",
+   "startMs": 12244,
+   "endMs": 12605,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Camp",
+   "startMs": 13033,
+   "endMs": 13333,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "rule.",
+   "startMs": 13333,
+   "endMs": 13780,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "No",
+   "startMs": 14081,
+   "endMs": 14361,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "screens.",
+   "startMs": 14361,
+   "endMs": 14892,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "No",
+   "startMs": 15215,
+   "endMs": 15525,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "exceptions.",
+   "startMs": 15525,
+   "endMs": 16217,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "So",
+   "startMs": 16523,
+   "endMs": 16693,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 16693,
+   "endMs": 17003,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "hides",
+   "startMs": 17003,
+   "endMs": 17293,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 17293,
+   "endMs": 17553,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 17553,
+   "endMs": 17713,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "his",
+   "startMs": 17713,
+   "endMs": 17853,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "sock",
+   "startMs": 17853,
+   "endMs": 18173,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "drawer.",
+   "startMs": 18173,
+   "endMs": 18656,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "This",
+   "startMs": 18959,
+   "endMs": 19149,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 19149,
+   "endMs": 19349,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 19349,
+   "endMs": 19469,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "worst",
+   "startMs": 19469,
+   "endMs": 19799,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "hotel",
+   "startMs": 19799,
+   "endMs": 20259,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "I've",
+   "startMs": 20259,
+   "endMs": 20369,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "ever",
+   "startMs": 20369,
+   "endMs": 20639,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "stayed",
+   "startMs": 20639,
+   "endMs": 20949,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "in.",
+   "startMs": 20949,
+   "endMs": 21220,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Shh.",
+   "startMs": 21461,
+   "endMs": 22293,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Bit,",
+   "startMs": 22595,
+   "endMs": 22745,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "did",
+   "startMs": 22745,
+   "endMs": 22975,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 22975,
+   "endMs": 23055,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "backup",
+   "startMs": 23055,
+   "endMs": 23315,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "come",
+   "startMs": 23315,
+   "endMs": 23465,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "back",
+   "startMs": 23465,
+   "endMs": 23625,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "okay?",
+   "startMs": 23625,
+   "endMs": 24131,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Mostly.",
+   "startMs": 24519,
+   "endMs": 25265,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "But",
+   "startMs": 25911,
+   "endMs": 26021,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 26021,
+   "endMs": 26221,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "found",
+   "startMs": 26221,
+   "endMs": 26441,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 26441,
+   "endMs": 26521,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "file",
+   "startMs": 26521,
+   "endMs": 26871,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "that",
+   "startMs": 26871,
+   "endMs": 26971,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "isn't",
+   "startMs": 26971,
+   "endMs": 27201,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "mine.",
+   "startMs": 27201,
+   "endMs": 27681,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "It's",
+   "startMs": 27963,
+   "endMs": 28173,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "called",
+   "startMs": 28173,
+   "endMs": 28513,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "update",
+   "startMs": 28513,
+   "endMs": 28913,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "version",
+   "startMs": 28913,
+   "endMs": 29303,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 29303,
+   "endMs": 29733,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 30036,
+   "endMs": 30126,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "zombie",
+   "startMs": 30126,
+   "endMs": 30506,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "update?",
+   "startMs": 30506,
+   "endMs": 30911,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Inside",
+   "startMs": 31297,
+   "endMs": 31697,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "you?",
+   "startMs": 31697,
+   "endMs": 32065,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "It",
+   "startMs": 32389,
+   "endMs": 32529,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "has",
+   "startMs": 32529,
+   "endMs": 32739,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 32739,
+   "endMs": 32829,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "timer.",
+   "startMs": 32829,
+   "endMs": 33392,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Seven",
+   "startMs": 33736,
+   "endMs": 34136,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 34136,
+   "endMs": 34717,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 35040,
+   "endMs": 35300,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 35300,
+   "endMs": 35430,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "sends.",
+   "startMs": 35430,
+   "endMs": 36043,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Sends",
+   "startMs": 36345,
+   "endMs": 36665,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "where?",
+   "startMs": 36665,
+   "endMs": 37049,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Everyone",
+   "startMs": 37457,
+   "endMs": 37837,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "already",
+   "startMs": 37837,
+   "endMs": 38177,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "has",
+   "startMs": 38177,
+   "endMs": 38327,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "the",
+   "startMs": 38327,
+   "endMs": 38507,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "update.",
+   "startMs": 38507,
+   "endMs": 38951,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Not",
+   "startMs": 39296,
+   "endMs": 39606,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "everyone.",
+   "startMs": 39606,
+   "endMs": 40299,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 40643,
+   "endMs": 40783,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "army's",
+   "startMs": 40783,
+   "endMs": 41133,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "radios.",
+   "startMs": 41133,
+   "endMs": 41901,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "This",
+   "startMs": 42203,
+   "endMs": 42463,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "camp.",
+   "startMs": 42463,
+   "endMs": 42928,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 43511,
+   "endMs": 43721,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 43721,
+   "endMs": 43801,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "howling",
+   "startMs": 43801,
+   "endMs": 44251,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "outside",
+   "startMs": 44251,
+   "endMs": 44751,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 44751,
+   "endMs": 44881,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "fence",
+   "startMs": 44881,
+   "endMs": 45171,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "stops.",
+   "startMs": 45171,
+   "endMs": 45772,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Every",
+   "startMs": 46093,
+   "endMs": 46523,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "zombie",
+   "startMs": 46523,
+   "endMs": 46973,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "turns.",
+   "startMs": 46973,
+   "endMs": 47608,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 47949,
+   "endMs": 48129,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "starts",
+   "startMs": 48129,
+   "endMs": 48439,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "walking",
+   "startMs": 48439,
+   "endMs": 48839,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 48839,
+   "endMs": 48989,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "same",
+   "startMs": 48989,
+   "endMs": 49259,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "way.",
+   "startMs": 49259,
+   "endMs": 49656,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Jay.",
+   "startMs": 49935,
+   "endMs": 50425,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "They",
+   "startMs": 50705,
+   "endMs": 50835,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "never",
+   "startMs": 50835,
+   "endMs": 51095,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "walk",
+   "startMs": 51095,
+   "endMs": 51315,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "together.",
+   "startMs": 51315,
+   "endMs": 51793,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Thousands",
+   "startMs": 52096,
+   "endMs": 52736,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 52736,
+   "endMs": 52936,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "them.",
+   "startMs": 52936,
+   "endMs": 53333,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Marching",
+   "startMs": 53675,
+   "endMs": 54225,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "toward",
+   "startMs": 54225,
+   "endMs": 54525,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 54525,
+   "endMs": 54635,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "city.",
+   "startMs": 54635,
+   "endMs": 55104,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "They're",
+   "startMs": 55383,
+   "endMs": 55613,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "not",
+   "startMs": 55613,
+   "endMs": 55883,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "wandering",
+   "startMs": 55883,
+   "endMs": 56353,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "anymore.",
+   "startMs": 56353,
+   "endMs": 56940,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "They're",
+   "startMs": 57241,
+   "endMs": 57481,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "going",
+   "startMs": 57481,
+   "endMs": 57771,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "somewhere.",
+   "startMs": 57771,
+   "endMs": 58393,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Part",
+   "startMs": 58717,
+   "endMs": 58997,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 58997,
+   "endMs": 59327,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "drops",
+   "startMs": 59327,
+   "endMs": 59707,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 59707,
+   "endMs": 59907,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 59907,
+   "endMs": 60137,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 60137,
+   "endMs": 60595,
+   "line": 19,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 2.697
+  },
+  {
+   "speaker": "narrator",
+   "start": 2.917,
+   "end": 6.176
+  },
+  {
+   "speaker": "narrator",
+   "start": 6.396,
+   "end": 10.081
+  },
+  {
+   "speaker": "narrator",
+   "start": 10.301,
+   "end": 12.813
+  },
+  {
+   "speaker": "soldier",
+   "start": 13.033,
+   "end": 16.26
+  },
+  {
+   "speaker": "narrator",
+   "start": 16.48,
+   "end": 18.717
+  },
+  {
+   "speaker": "bit",
+   "start": 18.937,
+   "end": 21.241
+  },
+  {
+   "speaker": "hero",
+   "start": 21.461,
+   "end": 24.277
+  },
+  {
+   "speaker": "bit",
+   "start": 24.497,
+   "end": 27.743
+  },
+  {
+   "speaker": "bit",
+   "start": 27.963,
+   "end": 29.795
+  },
+  {
+   "speaker": "hero",
+   "start": 30.015,
+   "end": 32.169
+  },
+  {
+   "speaker": "bit",
+   "start": 32.389,
+   "end": 36.104
+  },
+  {
+   "speaker": "hero",
+   "start": 36.324,
+   "end": 39.055
+  },
+  {
+   "speaker": "bit",
+   "start": 39.275,
+   "end": 43.248
+  },
+  {
+   "speaker": "narrator",
+   "start": 43.468,
+   "end": 45.831
+  },
+  {
+   "speaker": "narrator",
+   "start": 46.051,
+   "end": 49.715
+  },
+  {
+   "speaker": "friend",
+   "start": 49.935,
+   "end": 51.833
+  },
+  {
+   "speaker": "narrator",
+   "start": 52.053,
+   "end": 55.141
+  },
+  {
+   "speaker": "bit",
+   "start": 55.361,
+   "end": 58.455
+  },
+  {
+   "speaker": "narrator",
+   "start": 58.675,
+   "end": 60.653
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "soldier": "SGT. ROOK",
+  "scientist": "DR. ADA",
+  "boss": "MR. GRAY",
+  "kid": "KID"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "street",
+    "time": "night",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "phone",
+     "expr": "scared",
+     "scale": 1.3
+    },
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "glitch",
+     "scale": 1.0
+    },
+    {
+     "id": "zombie",
+     "x": 0.12,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.7,
+     "facing": 1
+    },
+    {
+     "id": "zombie2",
+     "x": 0.88,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.5499999999999999,
+     "facing": -1
+    }
+   ],
+   "fx": [
+    {
+     "type": "glitch"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "glitch"
+    },
+    {
+     "type": "hit",
+     "at": 0.6
+    }
+   ],
+   "camera": {
+    "push": 0.08
+   },
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.857
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "ONE UPDATE. ONE BILLION ZOMBIES."
+   },
+   "cast": [
+    {
+     "id": "zombie",
+     "x": 0.5,
+     "pose": "zombie",
+     "expr": "angry",
+     "scale": 1.3
+    }
+   ],
+   "sfx": [
+    {
+     "type": "siren",
+     "volume": 0.4
+    }
+   ],
+   "transition": "whip",
+   "speaker": "narrator",
+   "start": 2.857,
+   "end": 4.596
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "ONE UPDATE. ONE BILLION ZOMBIES."
+   },
+   "cast": [
+    {
+     "id": "zombie",
+     "x": 0.5,
+     "pose": "zombie",
+     "expr": "angry",
+     "scale": 1.3,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "transition": "cut",
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "fx": [],
+   "speaker": "narrator",
+   "start": 4.596,
+   "end": 6.336
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "phone",
+     "expr": "happy",
+     "scale": 1.3
+    },
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "happy",
+     "scale": 1.0
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 6.336,
+   "end": 8.288
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "phone",
+     "expr": "happy",
+     "scale": 1.3,
+     "enter": "none"
+    },
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "happy",
+     "scale": 1.0,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 8.288,
+   "end": 10.241
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.28,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.2
+    },
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.2
+    },
+    {
+     "id": "soldier",
+     "x": 0.78,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.2,
+     "facing": -1
+    }
+   ],
+   "speaker": "narrator",
+   "start": 10.241,
+   "end": 12.973
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "soldier",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.9
+    }
+   ],
+   "ui": {
+    "type": "stamp",
+    "text": "NO SCREENS",
+    "color": "#E0312B"
+   },
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "soldier",
+   "start": 12.973,
+   "end": 16.42
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.35,
+     "pose": "think",
+     "expr": "smug",
+     "scale": 1.4
+    },
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "dim",
+     "scale": 0.8
+    }
+   ],
+   "speaker": "narrator",
+   "start": 16.42,
+   "end": 18.877
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "angry",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 18.877,
+   "end": 21.401
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "neutral",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 21.401,
+   "end": 22.919
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "neutral",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "hero",
+   "start": 22.919,
+   "end": 24.437
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick"
+    },
+    {
+     "type": "tick",
+     "at": 0.5
+    }
+   ],
+   "transition": "whip",
+   "speaker": "bit",
+   "start": 24.437,
+   "end": 26.17
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "transition": "cut",
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "fx": [],
+   "speaker": "bit",
+   "start": 26.17,
+   "end": 27.903
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "shocked",
+     "scale": 0.9
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "UPDATE_v2",
+    "sub": "hidden in Bit's backup",
+    "color": "#16161C"
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "bit",
+   "start": 27.903,
+   "end": 29.955
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6,
+    "shake": 0.3
+   },
+   "speaker": "hero",
+   "start": 29.955,
+   "end": 32.329
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "07:00",
+    "to": "06:59"
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 32.329,
+   "end": 36.264
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "scared",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 36.264,
+   "end": 39.215
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "angry",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "bit",
+   "start": 39.215,
+   "end": 41.311
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "angry",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "speaker": "bit",
+   "start": 41.311,
+   "end": 43.408
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "zombie",
+     "x": 0.12,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.7,
+     "facing": 1
+    },
+    {
+     "id": "zombie2",
+     "x": 0.37333333333333335,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.5499999999999999,
+     "facing": -1
+    },
+    {
+     "id": "zombie",
+     "x": 0.6266666666666667,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.39999999999999997,
+     "facing": 1
+    },
+    {
+     "id": "zombie2",
+     "x": 0.88,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.25,
+     "facing": -1
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "growl",
+     "volume": 0.4
+    }
+   ],
+   "camera": {
+    "push": 0.1
+   },
+   "speaker": "narrator",
+   "start": 43.408,
+   "end": 45.991
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "zombie",
+     "x": 0.12,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.7,
+     "facing": 1
+    },
+    {
+     "id": "zombie2",
+     "x": 0.37333333333333335,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.5499999999999999,
+     "facing": -1
+    },
+    {
+     "id": "zombie",
+     "x": 0.6266666666666667,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.39999999999999997,
+     "facing": 1
+    },
+    {
+     "id": "zombie2",
+     "x": 0.88,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.25,
+     "facing": -1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "transition": "whip",
+   "speaker": "narrator",
+   "start": 45.991,
+   "end": 47.933
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "zombie",
+     "x": 0.12,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.7,
+     "facing": 1,
+     "enter": "none"
+    },
+    {
+     "id": "zombie2",
+     "x": 0.37333333333333335,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.5499999999999999,
+     "facing": -1,
+     "enter": "none"
+    },
+    {
+     "id": "zombie",
+     "x": 0.6266666666666667,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.39999999999999997,
+     "facing": 1,
+     "enter": "none"
+    },
+    {
+     "id": "zombie2",
+     "x": 0.88,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.25,
+     "facing": -1,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "transition": "cut",
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "fx": [],
+   "speaker": "narrator",
+   "start": 47.933,
+   "end": 49.875
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "scared",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "friend",
+   "start": 49.875,
+   "end": 51.993
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "zombie",
+     "x": -0.1,
+     "pose": "run",
+     "expr": "angry",
+     "depth": 0.7,
+     "facing": 1,
+     "moveTo": 1.15
+    },
+    {
+     "id": "zombie2",
+     "x": -0.30000000000000004,
+     "pose": "run",
+     "expr": "angry",
+     "depth": 0.5499999999999999,
+     "facing": -1,
+     "moveTo": 1.0499999999999998
+    },
+    {
+     "id": "zombie",
+     "x": -0.5,
+     "pose": "run",
+     "expr": "angry",
+     "depth": 0.39999999999999997,
+     "facing": 1,
+     "moveTo": 0.95
+    },
+    {
+     "id": "zombie2",
+     "x": -0.7000000000000001,
+     "pose": "run",
+     "expr": "angry",
+     "depth": 0.25,
+     "facing": -1,
+     "moveTo": 0.8499999999999999
+    }
+   ],
+   "sfx": [
+    {
+     "type": "growl"
+    },
+    {
+     "type": "growl",
+     "at": 0.7,
+     "volume": 0.5
+    }
+   ],
+   "speaker": "narrator",
+   "start": 51.993,
+   "end": 55.301
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "shocked",
+     "scale": 2.0
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "camera": {
+    "zoom": 1.15,
+    "y": 0.5,
+    "push": 0.12
+   },
+   "sfx": [
+    {
+     "type": "riser"
+    }
+   ],
+   "speaker": "bit",
+   "start": 55.301,
+   "end": 56.958
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "shocked",
+     "scale": 2.0,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "camera": {
+    "zoom": 1.49,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "sfx": [],
+   "transition": "cut",
+   "speaker": "bit",
+   "start": 56.958,
+   "end": 58.615
+  }
+ ],
+ "endStart": 58.615,
+ "endText": "PART 2",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 1/8"
+}

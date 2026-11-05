@@ -1,0 +1,1999 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 68.969,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 143,
+   "endMs": 473,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 473,
+   "endMs": 953,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 1316,
+   "endMs": 1436,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "zombies",
+   "startMs": 1436,
+   "endMs": 2016,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 2016,
+   "endMs": 2196,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "marching.",
+   "startMs": 2196,
+   "endMs": 2895,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Together.",
+   "startMs": 3236,
+   "endMs": 3876,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 4197,
+   "endMs": 4577,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "sneaks",
+   "startMs": 4577,
+   "endMs": 4957,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 4957,
+   "endMs": 5267,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "into",
+   "startMs": 5267,
+   "endMs": 5447,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 5447,
+   "endMs": 5567,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "science",
+   "startMs": 5567,
+   "endMs": 5967,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "tent.",
+   "startMs": 5967,
+   "endMs": 6309,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Doctor",
+   "startMs": 6695,
+   "endMs": 7095,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Ada",
+   "startMs": 7095,
+   "endMs": 7405,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "hasn't",
+   "startMs": 7405,
+   "endMs": 7725,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "slept",
+   "startMs": 7725,
+   "endMs": 8085,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 8085,
+   "endMs": 8335,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "three",
+   "startMs": 8335,
+   "endMs": 8625,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "weeks.",
+   "startMs": 8625,
+   "endMs": 9084,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "A",
+   "startMs": 9363,
+   "endMs": 9593,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "screen?",
+   "startMs": 9593,
+   "endMs": 10515,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "In",
+   "startMs": 10880,
+   "endMs": 11110,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 11110,
+   "endMs": 11420,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "tent?",
+   "startMs": 11420,
+   "endMs": 12160,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Are",
+   "startMs": 12507,
+   "endMs": 12757,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 12757,
+   "endMs": 12937,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "insane?",
+   "startMs": 12937,
+   "endMs": 14043,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Highly",
+   "startMs": 14305,
+   "endMs": 14715,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "advanced",
+   "startMs": 14715,
+   "endMs": 15205,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "assistant.",
+   "startMs": 15205,
+   "endMs": 15927,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 16249,
+   "endMs": 16459,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "come",
+   "startMs": 16459,
+   "endMs": 16679,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 16679,
+   "endMs": 16799,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "peace.",
+   "startMs": 16799,
+   "endMs": 17337,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Why",
+   "startMs": 17616,
+   "endMs": 17676,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 17656,
+   "endMs": 17846,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "they",
+   "startMs": 17846,
+   "endMs": 18056,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "marching?",
+   "startMs": 18056,
+   "endMs": 18555,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "They",
+   "startMs": 19005,
+   "endMs": 19065,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "used",
+   "startMs": 19065,
+   "endMs": 19285,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 19285,
+   "endMs": 19385,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "just",
+   "startMs": 19385,
+   "endMs": 19555,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "wander.",
+   "startMs": 19555,
+   "endMs": 20136,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Because",
+   "startMs": 20460,
+   "endMs": 20730,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "nature",
+   "startMs": 20730,
+   "endMs": 21330,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "already",
+   "startMs": 21330,
+   "endMs": 21770,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "invented",
+   "startMs": 21770,
+   "endMs": 22310,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "zombies.",
+   "startMs": 22310,
+   "endMs": 23532,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "In",
+   "startMs": 23837,
+   "endMs": 24017,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 24017,
+   "endMs": 24097,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "rainforest,",
+   "startMs": 24097,
+   "endMs": 24857,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 24857,
+   "endMs": 25047,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "fungus",
+   "startMs": 25047,
+   "endMs": 25367,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "infects",
+   "startMs": 25367,
+   "endMs": 25917,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "ants.",
+   "startMs": 25917,
+   "endMs": 27016,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 27340,
+   "endMs": 27530,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "ant",
+   "startMs": 27530,
+   "endMs": 27770,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "leaves",
+   "startMs": 27770,
+   "endMs": 28100,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "its",
+   "startMs": 28100,
+   "endMs": 28330,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "nest.",
+   "startMs": 28330,
+   "endMs": 29303,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 29607,
+   "endMs": 29977,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 29977,
+   "endMs": 30037,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "climbs.",
+   "startMs": 29997,
+   "endMs": 31185,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "It",
+   "startMs": 31488,
+   "endMs": 31638,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "bites",
+   "startMs": 31638,
+   "endMs": 31908,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 31908,
+   "endMs": 32018,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "leaf",
+   "startMs": 32018,
+   "endMs": 32248,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "vein",
+   "startMs": 32248,
+   "endMs": 32648,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "and",
+   "startMs": 32648,
+   "endMs": 32758,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "never",
+   "startMs": 32758,
+   "endMs": 33048,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "lets",
+   "startMs": 33048,
+   "endMs": 33348,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "go.",
+   "startMs": 33348,
+   "endMs": 34368,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Usually",
+   "startMs": 34671,
+   "endMs": 35131,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "about",
+   "startMs": 35131,
+   "endMs": 35431,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "twenty",
+   "startMs": 35431,
+   "endMs": 35721,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "six",
+   "startMs": 35721,
+   "endMs": 35951,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "centimeters",
+   "startMs": 35951,
+   "endMs": 36641,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "above",
+   "startMs": 36641,
+   "endMs": 36911,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "the",
+   "startMs": 36911,
+   "endMs": 37011,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "ground.",
+   "startMs": 37011,
+   "endMs": 37529,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "One",
+   "startMs": 37813,
+   "endMs": 38193,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "study",
+   "startMs": 38193,
+   "endMs": 38513,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "found",
+   "startMs": 38513,
+   "endMs": 38743,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "they",
+   "startMs": 38743,
+   "endMs": 38903,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "bite",
+   "startMs": 38903,
+   "endMs": 39173,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 39173,
+   "endMs": 39253,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "noon.",
+   "startMs": 39253,
+   "endMs": 40331,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 40612,
+   "endMs": 40772,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "then?",
+   "startMs": 40772,
+   "endMs": 41167,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Please",
+   "startMs": 41575,
+   "endMs": 41835,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "say",
+   "startMs": 41835,
+   "endMs": 42005,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "and",
+   "startMs": 42005,
+   "endMs": 42185,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "then",
+   "startMs": 42185,
+   "endMs": 42285,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "nothing.",
+   "startMs": 42285,
+   "endMs": 42769,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 43093,
+   "endMs": 43303,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 43303,
+   "endMs": 43523,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "stalk",
+   "startMs": 43523,
+   "endMs": 43823,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "grows",
+   "startMs": 43823,
+   "endMs": 44133,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "from",
+   "startMs": 44133,
+   "endMs": 44313,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "its",
+   "startMs": 44313,
+   "endMs": 44543,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "head.",
+   "startMs": 44543,
+   "endMs": 45461,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Spores.",
+   "startMs": 45765,
+   "endMs": 46747,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "That's",
+   "startMs": 47009,
+   "endMs": 47189,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 47189,
+   "endMs": 47279,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "most",
+   "startMs": 47279,
+   "endMs": 47469,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "disgusting",
+   "startMs": 47469,
+   "endMs": 48059,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "thing",
+   "startMs": 48059,
+   "endMs": 48299,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "I've",
+   "startMs": 48299,
+   "endMs": 48409,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "ever",
+   "startMs": 48409,
+   "endMs": 48679,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "heard.",
+   "startMs": 48679,
+   "endMs": 49015,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Someone",
+   "startMs": 49381,
+   "endMs": 49931,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "copied",
+   "startMs": 49931,
+   "endMs": 50281,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 50281,
+   "endMs": 50789,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 51133,
+   "endMs": 51423,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "update",
+   "startMs": 51423,
+   "endMs": 51703,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "makes",
+   "startMs": 51703,
+   "endMs": 52043,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "people",
+   "startMs": 52043,
+   "endMs": 52403,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "climb.",
+   "startMs": 52403,
+   "endMs": 53523,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Climb",
+   "startMs": 53783,
+   "endMs": 54133,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "what?",
+   "startMs": 54133,
+   "endMs": 54487,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "There",
+   "startMs": 54831,
+   "endMs": 54921,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 54921,
+   "endMs": 55051,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "no",
+   "startMs": 55051,
+   "endMs": 55241,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "trees",
+   "startMs": 55241,
+   "endMs": 55591,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "downtown.",
+   "startMs": 55591,
+   "endMs": 56281,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 56565,
+   "endMs": 56855,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "pulls",
+   "startMs": 56855,
+   "endMs": 57125,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "up",
+   "startMs": 57125,
+   "endMs": 57305,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 57305,
+   "endMs": 57405,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "map.",
+   "startMs": 57405,
+   "endMs": 57888,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 58275,
+   "endMs": 58395,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "city's",
+   "startMs": 58395,
+   "endMs": 58815,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "tallest",
+   "startMs": 58815,
+   "endMs": 59315,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "building.",
+   "startMs": 59315,
+   "endMs": 59960,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "Gray",
+   "startMs": 60260,
+   "endMs": 60580,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Tower.",
+   "startMs": 60580,
+   "endMs": 61135,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 61457,
+   "endMs": 61557,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "biggest",
+   "startMs": 61557,
+   "endMs": 61927,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "phone",
+   "startMs": 61927,
+   "endMs": 62267,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "antenna",
+   "startMs": 62267,
+   "endMs": 62707,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 62707,
+   "endMs": 62837,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "the",
+   "startMs": 62837,
+   "endMs": 62907,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "country.",
+   "startMs": 62907,
+   "endMs": 63441,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "When",
+   "startMs": 63747,
+   "endMs": 63807,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "they",
+   "startMs": 63777,
+   "endMs": 64037,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "reach",
+   "startMs": 64037,
+   "endMs": 64327,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 64327,
+   "endMs": 64427,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "top,",
+   "startMs": 64427,
+   "endMs": 64797,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 64797,
+   "endMs": 64917,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "tower",
+   "startMs": 64917,
+   "endMs": 65247,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "broadcasts.",
+   "startMs": 65247,
+   "endMs": 66648,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Part",
+   "startMs": 66969,
+   "endMs": 67259,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "three",
+   "startMs": 67259,
+   "endMs": 67619,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "drops",
+   "startMs": 67619,
+   "endMs": 67989,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 67989,
+   "endMs": 68219,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 68219,
+   "endMs": 68439,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 68439,
+   "endMs": 68911,
+   "line": 20,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 3.935
+  },
+  {
+   "speaker": "narrator",
+   "start": 4.155,
+   "end": 6.432
+  },
+  {
+   "speaker": "narrator",
+   "start": 6.652,
+   "end": 9.121
+  },
+  {
+   "speaker": "scientist",
+   "start": 9.341,
+   "end": 14.064
+  },
+  {
+   "speaker": "bit",
+   "start": 14.284,
+   "end": 17.396
+  },
+  {
+   "speaker": "hero",
+   "start": 17.616,
+   "end": 20.219
+  },
+  {
+   "speaker": "scientist",
+   "start": 20.439,
+   "end": 23.575
+  },
+  {
+   "speaker": "scientist",
+   "start": 23.795,
+   "end": 27.077
+  },
+  {
+   "speaker": "scientist",
+   "start": 27.297,
+   "end": 31.225
+  },
+  {
+   "speaker": "scientist",
+   "start": 31.445,
+   "end": 34.429
+  },
+  {
+   "speaker": "bit",
+   "start": 34.649,
+   "end": 37.551
+  },
+  {
+   "speaker": "scientist",
+   "start": 37.771,
+   "end": 40.392
+  },
+  {
+   "speaker": "hero",
+   "start": 40.612,
+   "end": 42.852
+  },
+  {
+   "speaker": "scientist",
+   "start": 43.072,
+   "end": 46.789
+  },
+  {
+   "speaker": "hero",
+   "start": 47.009,
+   "end": 49.14
+  },
+  {
+   "speaker": "scientist",
+   "start": 49.36,
+   "end": 53.563
+  },
+  {
+   "speaker": "friend",
+   "start": 53.783,
+   "end": 56.303
+  },
+  {
+   "speaker": "narrator",
+   "start": 56.523,
+   "end": 60.019
+  },
+  {
+   "speaker": "bit",
+   "start": 60.239,
+   "end": 63.484
+  },
+  {
+   "speaker": "scientist",
+   "start": 63.704,
+   "end": 66.707
+  },
+  {
+   "speaker": "narrator",
+   "start": 66.927,
+   "end": 68.969
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "soldier": "SGT. ROOK",
+  "scientist": "DR. ADA",
+  "boss": "MR. GRAY",
+  "kid": "KID"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "street",
+    "time": "night",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "zombie",
+     "x": 0.12,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.7,
+     "facing": 1
+    },
+    {
+     "id": "zombie2",
+     "x": 0.5,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.5499999999999999,
+     "facing": -1
+    },
+    {
+     "id": "zombie",
+     "x": 0.88,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.39999999999999997,
+     "facing": 1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.048
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "zombie",
+     "x": 0.12,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.7,
+     "facing": 1,
+     "enter": "none"
+    },
+    {
+     "id": "zombie2",
+     "x": 0.5,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.5499999999999999,
+     "facing": -1,
+     "enter": "none"
+    },
+    {
+     "id": "zombie",
+     "x": 0.88,
+     "pose": "zombie",
+     "expr": "angry",
+     "depth": 0.39999999999999997,
+     "facing": 1,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 2.048,
+   "end": 4.095
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "walk",
+     "expr": "scared",
+     "scale": 1.3
+    },
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "dim",
+     "scale": 0.8
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 4.095,
+   "end": 6.592
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "sleepy",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 0,
+    "to": 21,
+    "label": "DAYS AWAKE"
+   },
+   "speaker": "narrator",
+   "start": 6.592,
+   "end": 9.281
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "scientist",
+   "start": 9.281,
+   "end": 11.752
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "scientist",
+   "start": 11.752,
+   "end": 14.224
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 14.224,
+   "end": 15.89
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "bit",
+   "start": 15.89,
+   "end": 17.556
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "scared",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 17.556,
+   "end": 20.379
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "smug",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "scientist",
+   "start": 20.379,
+   "end": 22.057
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "smug",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "scientist",
+   "start": 22.057,
+   "end": 23.735
+  },
+  {
+   "set": {
+    "type": "wasteland",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.78,
+     "pose": "point",
+     "expr": "neutral",
+     "scale": 0.9
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "ZOMBIE ANT FUNGUS",
+    "sub": "Ophiocordyceps \u2014 it's real",
+    "color": "#2DBE7E"
+   },
+   "transition": "flash",
+   "speaker": "scientist",
+   "start": 23.735,
+   "end": 27.237
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "list",
+    "title": "ZOMBIE ANT",
+    "items": [
+     "Leaves the nest",
+     "Climbs a plant",
+     "Bites a leaf"
+    ]
+   },
+   "speaker": "scientist",
+   "start": 27.237,
+   "end": 31.385
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "scared",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "scientist",
+   "start": 31.385,
+   "end": 32.987
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "scared",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "scientist",
+   "start": 32.987,
+   "end": 34.589
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "think",
+     "scale": 0.9
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 0,
+    "to": 26,
+    "suffix": " cm",
+    "label": "DEATH GRIP HEIGHT"
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 34.589,
+   "end": 37.711
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "neutral",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "12:00"
+   },
+   "speaker": "scientist",
+   "start": 37.711,
+   "end": 40.552
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "scared",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 40.552,
+   "end": 43.012
+  },
+  {
+   "set": {
+    "type": "burst",
+    "color": "#2DBE7E"
+   },
+   "cast": [],
+   "ui": {
+    "type": "stamp",
+    "text": "SPORES",
+    "color": "#16161C"
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "transition": "flash",
+   "speaker": "scientist",
+   "start": 43.012,
+   "end": 46.949
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 46.949,
+   "end": 49.3
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.9
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "scientist",
+   "start": 49.3,
+   "end": 51.511
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "speaker": "scientist",
+   "start": 51.511,
+   "end": 53.723
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "shocked",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "friend",
+   "start": 53.723,
+   "end": 56.463
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.82,
+     "expr": "think",
+     "scale": 0.8
+    }
+   ],
+   "ui": {
+    "type": "map",
+    "label": "GRAY TOWER",
+    "radius": 0.3
+   },
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 56.463,
+   "end": 60.179
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "shocked",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 60.179,
+   "end": 61.911
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "shocked",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "bit",
+   "start": 61.911,
+   "end": 63.644
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "GRAY TOWER: STILL ONLINE"
+   },
+   "cast": [
+    {
+     "id": "zombie",
+     "x": 0.5,
+     "pose": "zombie",
+     "expr": "angry",
+     "scale": 1.2
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 600,
+     "r": 400
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser"
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "transition": "whip",
+   "speaker": "scientist",
+   "start": 63.644,
+   "end": 65.255
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "GRAY TOWER: STILL ONLINE"
+   },
+   "cast": [
+    {
+     "id": "zombie",
+     "x": 0.5,
+     "pose": "zombie",
+     "expr": "angry",
+     "scale": 1.2,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 600,
+     "r": 400
+    }
+   ],
+   "sfx": [],
+   "transition": "cut",
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "speaker": "scientist",
+   "start": 65.255,
+   "end": 66.867
+  }
+ ],
+ "endStart": 66.867,
+ "endText": "PART 3",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 2/8"
+}
