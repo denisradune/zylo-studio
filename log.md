@@ -15,3 +15,5 @@
 | 11 | 2026-11-03 | What If You Played for the Casino? Season 2 · Part 1 #shorts | what-if: money (part1) | sources.md | https://youtube.com/shorts/4ZWGkClzXPk |
 | 12 | 2026-11-05 | What If Doubling Always Won? 🎰 Season 2 · Part 2 #shorts | what-if: money (part2) | sources.md | https://youtube.com/shorts/V0igOoj4sy4 |
 | 13 | 2026-11-05 | What If an Algorithm Made the Naughty List? 🎅 Part 3 #shorts | what-if: holiday (Christmas, AI/Bit) (part3) | sources.md | https://youtube.com/shorts/eGhQ717Y0yA |
+| 14 | 2026-11-05 | What If Your AI's Backup Held the Virus? S2 · Part 1 #shorts | what-if: disaster (part1) | sources.md | https://youtube.com/shorts/wYnnxrT-IN8 |
+| 15 | 2026-11-07 | What If the Table Had a Limit? 🎰 Season 2 · Part 3 #shorts | what-if: money (part3) | sources.md | https://youtube.com/shorts/5YpI7VKUs_A |
