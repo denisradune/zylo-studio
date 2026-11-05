@@ -1,0 +1,43 @@
+{
+ "text": "THEY'RE *CLIMBING*.",
+ "badge": "FULL STORY",
+ "cropY": 880,
+ "set": {
+  "type": "sky",
+  "time": "dusk"
+ },
+ "cast": [
+  {
+   "id": "zombie",
+   "x": 0.6,
+   "pose": "zombie",
+   "expr": "angry",
+   "scale": 0.95,
+   "y": 1530
+  },
+  {
+   "id": "zombie2",
+   "x": 0.93,
+   "pose": "zombie",
+   "expr": "angry",
+   "scale": 1.15,
+   "y": 1620,
+   "facing": -1
+  },
+  {
+   "id": "hero",
+   "x": 0.76,
+   "pose": "panic",
+   "expr": "shocked",
+   "scale": 1.3,
+   "y": 1760
+  },
+  {
+   "id": "bit",
+   "x": 0.58,
+   "expr": "shocked",
+   "scale": 0.55,
+   "y": 1215
+  }
+ ]
+}
