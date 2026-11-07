@@ -1,0 +1,621 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "kid": "THEO",
+  "gambler": "FLIP",
+  "soldier": "DAD",
+  "boss": "SHOPPER",
+  "scientist": "SHOPPER"
+ },
+ "title": "What If Prices Dropped Every Minute You Waited? (Part 1)",
+ "seed": 5301,
+ "partLabel": "PART 1/8",
+ "end": {
+  "text": "PART 2",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if prices dropped *every minute* you waited?",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.3
+     },
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "happy",
+      "icon": "$",
+      "scale": 1.0
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 100,
+     "to": 1,
+     "prefix": "$",
+     "label": "EVERY MINUTE"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.4
+     },
+     {
+      "type": "hit",
+      "at": 0.8
+     }
+    ],
+    "camera": {
+     "push": 0.08
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay just inherited his grandma's toy shop. *Penny's*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "PENNY'S TOYS",
+     "sub": "since 1961",
+     "color": "#FFD400"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "It's tiny. It's dusty. And it's *empty*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Rent is due Monday. *Nine thousand* dollars.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.4
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "RENT",
+       "value": 1.0,
+       "color": "#FF3B3B"
+      },
+      {
+       "label": "CASH",
+       "value": 0.03,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "$9,000"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, I have *two hundred* dollars.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Then we need Black Friday. And a *crazy idea*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.7
+     }
+    ],
+    "transition": "whip",
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Boston, nineteen oh nine. A store with *falling prices*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "BOSTON 1909: THE BARGAIN BASEMENT"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Unsold after twelve days? Twenty five percent *off*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "AUTOMATIC MARKDOWN",
+     "items": [
+      "12 days: -25%",
+      "6 more: -50%",
+      "6 more: -75%"
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Still unsold? It went to *charity*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "TO CHARITY",
+     "color": "#2DBE7E"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Days are too slow. What about... *minutes*?",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "So they invent *the Drop*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#FFD400"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.8,
+      "enter": "pop"
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "THE DROP",
+     "sub": "every price falls every minute",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.8
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia, his best friend, prints *five hundred* flyers.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 500,
+     "label": "FLYERS"
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Black Friday. Six a.m. Prices fall *till midnight*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Friday morning, the line wraps around the *block*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     },
+     {
+      "id": "boss",
+      "x": 0.38,
+      "pose": "phone",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "soldier",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Six o'clock. The doors open. The clock *starts*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     },
+     {
+      "id": "boss",
+      "x": 0.38,
+      "pose": "phone",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "soldier",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "05:59",
+     "to": "06:00"
+    },
+    "sfx": [
+     {
+      "type": "ring"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every price tag in the store starts *falling*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "icon": "$",
+      "scale": 1.4
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 40,
+     "to": 39,
+     "prefix": "$",
+     "label": "ROBOT TOY"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Okay, everyone. Go! *Buy things*!",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But nobody moves. Not *one* person.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     },
+     {
+      "id": "boss",
+      "x": 0.38,
+      "pose": "phone",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "soldier",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ],
+    "camera": {
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay... they're not shopping. They're *waiting*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part two drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
