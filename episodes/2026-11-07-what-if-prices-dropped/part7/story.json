@@ -1,0 +1,582 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "kid": "THEO",
+  "gambler": "FLIP",
+  "soldier": "DAD",
+  "boss": "SHOPPER",
+  "scientist": "SHOPPER"
+ },
+ "title": "What If Prices Dropped Every Minute You Waited? (Part 7)",
+ "seed": 5307,
+ "partLabel": "PART 7/8",
+ "end": {
+  "text": "PART 8",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part seven. The Drop runs again. *One of each*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Saturday, six a.m. The crowd is *back*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     },
+     {
+      "id": "boss",
+      "x": 0.38,
+      "pose": "phone",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "soldier",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "06:00"
+    },
+    "sfx": [
+     {
+      "type": "ring"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "New rule. Every toy is the *only one*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The prices start falling. And *this time*...",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     },
+     {
+      "id": "boss",
+      "x": 0.38,
+      "pose": "phone",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "soldier",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 40,
+     "to": 36,
+     "prefix": "$",
+     "label": "EVERY TOY"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "a man grabs a train set at *thirty dollars*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "soldier",
+   "say": "I'm not risking it. My son *loves* trains.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Falling clock rule. Whoever wants it most *buys first*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Puzzles. Dolls. Kites. One by one, *everything* sells.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     },
+     {
+      "id": "boss",
+      "x": 0.38,
+      "pose": "phone",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "soldier",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "moneyRain"
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 4,
+     "to": 8200,
+     "prefix": "$",
+     "label": "SALES"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.4
+     },
+     {
+      "type": "ding",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia guards her sweater. Twenty dollars. *Still not yet*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the door opens. It's *Theo*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Behind him, Flip. With the robot. *A hundred twenty*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.28,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.3
+     },
+     {
+      "id": "gambler",
+      "x": 0.72,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.4,
+      "facing": -1
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "gambler",
+   "say": "Kid followed me for blocks. Market price. *Take it*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Flip. What did you pay for that? *One cent*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "I'll buy it back. Forty dollars. *Original price*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "$40",
+     "sub": "a fair price",
+     "color": "#FFD400"
+    }
+   }
+  },
+  {
+   "speaker": "gambler",
+   "say": "Forty times four thousand. Deal, *sucker*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay gives Theo the robot. Theo pays *eleven dollars*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.3
+     },
+     {
+      "id": "kid",
+      "x": 0.72,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 520
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Closing time. Jay counts the *register*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "RENT",
+       "value": 1.0,
+       "color": "#FF3B3B"
+      },
+      {
+       "label": "CASH",
+       "value": 0.996,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "$8,960"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Eight thousand nine hundred sixty. We're short *forty dollars*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     },
+     {
+      "type": "hit",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The final part drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

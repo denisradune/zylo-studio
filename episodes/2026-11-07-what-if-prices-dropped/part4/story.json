@@ -1,0 +1,539 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "kid": "THEO",
+  "gambler": "FLIP",
+  "soldier": "DAD",
+  "boss": "SHOPPER",
+  "scientist": "SHOPPER"
+ },
+ "title": "What If Prices Dropped Every Minute You Waited? (Part 4)",
+ "seed": 5304,
+ "partLabel": "PART 4/8",
+ "end": {
+  "text": "PART 5",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part four. Flip's bot waits for *one cent*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Two p.m. The robot hits *twelve dollars*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 13,
+     "to": 12,
+     "prefix": "$",
+     "label": "ROBOT TOY"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Twelve! I have twelve! I'm *buying* it!",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Theo runs to the counter. His coins *spill*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "crash",
+      "volume": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He counts. Ten. Eleven. One coin is *missing*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 1,
+     "to": 11,
+     "prefix": "$",
+     "label": "THEO COUNTS"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, can't we just give him *one dollar*?",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The Drop is automatic. Three. Two. *One*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "14:59",
+     "to": "15:00"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.4
+     },
+     {
+      "type": "tick",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three p.m. Every price hits *one cent*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#E0312B"
+    },
+    "cast": [],
+    "ui": {
+     "type": "stamp",
+     "text": "$0.01",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "In one second, Flip's bot buys *everything*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 400,
+     "label": "SOLD TO FLIP"
+    },
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     },
+     {
+      "type": "glitch",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The robot. The puzzles. Even Mia's *ugly sweater*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "SOLD",
+     "color": "#E0312B"
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "It was going to be *ten bucks*!",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The crowd shuffles out. The shop is *silent*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Total sales today. Four dollars. And *zero cents*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "RENT",
+       "value": 1.0,
+       "color": "#FF3B3B"
+      },
+      {
+       "label": "SALES",
+       "value": 0.01,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "$4"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Theo stands at the counter. *Eleven dollars* in hand.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55,
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "It's okay. Robots are for *babies* anyway.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Theo, wait. I'm *so* sorry.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The door chimes. Flip walks out *whistling*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "gambler",
+   "say": "Thanks for the sale. Want them back? *Triple price*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "gambler",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part five drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

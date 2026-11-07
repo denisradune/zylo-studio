@@ -17,7 +17,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-07T17:00:00Z"
  },
  "part2": {
   "title": "What If Nobody Wanted to Buy First? 🛒 Part 2 #shorts",
@@ -37,7 +38,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-09T17:00:00Z"
  },
  "part3": {
   "title": "What If a Bot Waited for One Cent? 🛒 Part 3 #shorts",
@@ -57,7 +59,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-11T17:00:00Z"
  },
  "part4": {
   "title": "What If a Bot Bought Everything for $4? 🛒 Part 4 #shorts",
@@ -77,7 +80,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-13T17:00:00Z"
  },
  "part5": {
   "title": "What If the Fine Print Saved You? 🛒 Part 5 #shorts",
@@ -97,7 +101,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-15T17:00:00Z"
  },
  "part6": {
   "title": "What If 400 Orders Had One Name? 🛒 Part 6 #shorts",
@@ -117,7 +122,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-17T17:00:00Z"
  },
  "part7": {
   "title": "What If Every Toy Was the Only One? 🛒 Part 7 #shorts",
@@ -137,7 +143,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-19T17:00:00Z"
  },
  "part8": {
   "title": "What If the Price Was One Cent? 🛒 Part 8 #shorts",
@@ -157,7 +164,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-21T17:00:00Z"
  },
  "full": {
   "title": "What If Prices Dropped Every Minute You Waited? (Full Story)",
@@ -175,6 +183,7 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-22T19:00:00Z"
  }
 }
