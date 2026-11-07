@@ -19,3 +19,8 @@
 | 15 | 2026-11-07 | What If the Table Had a Limit? 🎰 Season 2 · Part 3 #shorts | what-if: money (part3) | sources.md | https://youtube.com/shorts/5YpI7VKUs_A |
 | 16 | 2026-11-07 | What If Zombies Copied a Real Fungus? 🧟 S2 · Part 2 #shorts | what-if: disaster (part2) | sources.md | https://youtube.com/shorts/AsRz7QeiTT4 |
 | 17 | 2026-11-07 | What If an AI Cancelled Christmas? 🎅 Part 4 #shorts | what-if: holiday (Christmas, AI/Bit) (part4) | sources.md | https://youtube.com/shorts/a9rwb3BaiLo |
+| 18 | 2026-11-07 | What If Prices Dropped Every Minute? 🛒 Part 1 #shorts | what-if: money (part1) | sources.md | https://youtube.com/shorts/oPJOr9Prc-I |
+| 19 | 2026-11-09 | What If the Wheel Was Tilted? 🎰 Season 2 · Part 4 #shorts | what-if: money (part4) | sources.md | https://youtube.com/shorts/XUF4fBXksJM |
+| 20 | 2026-11-09 | What If Zombies Climbed Like Ants? 🧟 S2 · Part 3 #shorts | what-if: disaster (part3) | sources.md | https://youtube.com/shorts/tQ5QbOh3Z5I |
+| 21 | 2026-11-09 | What If You Had to Find the Real Santa? 🎅 Part 5 #shorts | what-if: holiday (Christmas, AI/Bit) (part5) | sources.md | https://youtube.com/shorts/HRB541l4U_I |
+| 22 | 2026-11-09 | What If Nobody Wanted to Buy First? 🛒 Part 2 #shorts | what-if: money (part2) | sources.md | https://youtube.com/shorts/csqtcuU9QjE |
