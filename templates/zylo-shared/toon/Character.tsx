@@ -64,6 +64,13 @@ export const LOOKS: Record<string, Look> = {
   gambler: { skin: '#E8B08A', hair: '#6B4A2E', hairStyle: 'beanie', top: '#7A5CFF', pants: '#2E2E38', shoes: '#F4F4F4' },
   santa: { skin: '#F2C1A0', hair: '#F4F4F4', hairStyle: 'short', top: '#C8102E', pants: '#C8102E', shoes: '#141414', beard: true, hat: '#C8102E', hatStyle: 'santa' },
   elf: { skin: '#F5C49C', hair: '#D9822B', hairStyle: 'short', top: '#1F8A70', pants: '#C8102E', shoes: '#4A2C18', hat: '#1F8A70', hatStyle: 'elf' },
+  // "Eat sunlight" series: Jay and Mia turned green, green neighbors, Rosa the diner chef.
+  heroLeaf: { skin: '#9BD66B', hair: '#3B2416', hairStyle: 'messy', top: '#2F6BFF', pants: '#262A3D', shoes: '#F4F4F4', logo: true },
+  friendLeaf: { skin: '#86C45A', hair: '#141414', hairStyle: 'bun', top: '#FF6B4A', pants: '#2E2E38', shoes: '#141414' },
+  leafA: { skin: '#A6DA78', hair: '#7A4A22', hairStyle: 'long', top: '#E2A23B', pants: '#3A4A8C', shoes: '#F4F4F4' },
+  leafB: { skin: '#8FCF63', hair: '#2B2B2B', hairStyle: 'short', top: '#5E7FA8', pants: '#22242E', shoes: '#141414', glasses: true },
+  heroGray: { skin: '#B4BDA8', hair: '#3B2416', hairStyle: 'messy', top: '#2F6BFF', pants: '#262A3D', shoes: '#F4F4F4', logo: true },
+  chef: { skin: '#B97A52', hair: '#2B2B2B', hairStyle: 'bun', top: '#FFFFFF', pants: '#2E2E38', shoes: '#141414', tie: '#E0312B' },
   soldier: { skin: '#D9A27A', hair: '#2B2B2B', hairStyle: 'short', top: '#5D6B3A', pants: '#4A5530', shoes: '#2B2B2B', hat: '#4A5530' },
 };
 
