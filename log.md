@@ -24,3 +24,9 @@
 | 20 | 2026-11-09 | What If Zombies Climbed Like Ants? 🧟 S2 · Part 3 #shorts | what-if: disaster (part3) | sources.md | https://youtube.com/shorts/tQ5QbOh3Z5I |
 | 21 | 2026-11-09 | What If You Had to Find the Real Santa? 🎅 Part 5 #shorts | what-if: holiday (Christmas, AI/Bit) (part5) | sources.md | https://youtube.com/shorts/HRB541l4U_I |
 | 22 | 2026-11-09 | What If Nobody Wanted to Buy First? 🛒 Part 2 #shorts | what-if: money (part2) | sources.md | https://youtube.com/shorts/csqtcuU9QjE |
+| 23 | 2026-11-09 | What If You Could Eat Sunlight? 🌞 Part 1 #shorts | what-if: sci-fi (real nature) (part1) | sources.md | https://youtube.com/shorts/2kuvDyke_KI |
+| 24 | 2026-11-11 | What If Lunch Was Free Forever? 🌞 Part 2 #shorts | what-if: sci-fi (real nature) (part2) | sources.md | https://youtube.com/shorts/zk_vX0GNot4 |
+| 25 | 2026-11-11 | What If the Dealer Was Bribed? 🎰 Season 2 · Part 5 #shorts | what-if: money (part5) | sources.md | https://youtube.com/shorts/OBxurGMp-Jo |
+| 26 | 2026-11-11 | What If One Man Made the Zombies? 🧟 S2 · Part 4 #shorts | what-if: disaster (part4) | sources.md | https://youtube.com/shorts/t3b4cnkFmp4 |
+| 27 | 2026-11-11 | What If an AI Read Every Christmas Letter? 🎅 Part 6 #shorts | what-if: holiday (Christmas, AI/Bit) (part6) | sources.md | https://youtube.com/shorts/CdmBLsSGHl8 |
+| 28 | 2026-11-11 | What If a Bot Waited for One Cent? 🛒 Part 3 #shorts | what-if: money (part3) | sources.md | https://youtube.com/shorts/UR-W7MDc-vQ |

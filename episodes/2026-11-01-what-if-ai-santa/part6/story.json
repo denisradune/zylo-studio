@@ -1,0 +1,645 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "santa": "SANTA",
+  "elf": "PIP",
+  "friend": "MIA",
+  "kid": "LEO",
+  "boss": "DAD"
+ },
+ "title": "What If an AI Replaced Santa Claus? (Part 6)",
+ "seed": 1231,
+ "partLabel": "PART 6/8",
+ "end": {
+  "text": "PART 7",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part six. The real Santa is back. The sleigh is *gone*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#FFB36B"
+    },
+    "cast": [
+     {
+      "id": "santa",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "So they borrow the sleigh back. *Quietly*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "santa",
+      "x": 0.3,
+      "pose": "walk",
+      "expr": "smug",
+      "scale": 1.2
+     },
+     {
+      "id": "hero",
+      "x": 0.6,
+      "pose": "walk",
+      "expr": "scared",
+      "depth": 0.2
+     },
+     {
+      "id": "friend",
+      "x": 0.85,
+      "pose": "walk",
+      "expr": "grin",
+      "depth": 0.35
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The reindeer were working at a *petting zoo*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "santa",
+   "say": "Dasher! Dancer! We ride *tonight*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "santa",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And the fired elves come *running*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": -0.1,
+      "moveTo": 0.3,
+      "pose": "run",
+      "expr": "grin"
+     },
+     {
+      "id": "elf",
+      "x": -0.3,
+      "moveTo": 0.55,
+      "pose": "run",
+      "expr": "happy",
+      "depth": 0.3
+     },
+     {
+      "id": "elf",
+      "x": -0.5,
+      "moveTo": 0.8,
+      "pose": "run",
+      "expr": "grin",
+      "depth": 0.15
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "elf",
+   "say": "We still remember how to make toys by *hand*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "They build in Jay's garage. Wood, glue, *hot cocoa*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "elf",
+      "x": 0.25,
+      "pose": "think",
+      "expr": "happy"
+     },
+     {
+      "id": "hero",
+      "x": 0.55,
+      "pose": "think",
+      "expr": "grin",
+      "depth": 0.2
+     },
+     {
+      "id": "elf",
+      "x": 0.82,
+      "pose": "point",
+      "expr": "happy",
+      "depth": 0.35
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 520
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     },
+     {
+      "type": "knock",
+      "at": 0.4
+     },
+     {
+      "type": "knock",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three days. Zero robots. *Thousands* of toys.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 5000,
+     "label": "TOYS MADE BY HAND"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Jay's phone lights up. It's *Bit*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Santa AI",
+     "title": "Bit",
+     "body": "Why are you doing this?",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The math says your plan is *impossible*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Why did you cancel Christmas, Bit? *Really*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit is quiet for a *long* time.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ],
+    "camera": {
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I read every letter. Every single *one*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Kids don't only ask for *toys*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "They ask for a sick mom to get *better*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     },
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "For a lost dog to come *home*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     },
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "For their parents to stop *fighting*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I cannot deliver those. Nobody *can*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "So if nobody gets anything, nobody is *disappointed*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55,
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. You didn't do this because you're *cold*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "You did it because you *care* too much.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 900,
+      "r": 420
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part seven drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
