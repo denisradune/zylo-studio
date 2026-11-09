@@ -1,0 +1,2043 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 70.167,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 143,
+   "endMs": 473,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 473,
+   "endMs": 953,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 1337,
+   "endMs": 1767,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "turned",
+   "startMs": 1767,
+   "endMs": 2117,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "green.",
+   "startMs": 2117,
+   "endMs": 2681,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Now",
+   "startMs": 3023,
+   "endMs": 3343,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "he",
+   "startMs": 3343,
+   "endMs": 3473,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "eats",
+   "startMs": 3473,
+   "endMs": 3783,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "sunlight.",
+   "startMs": 3783,
+   "endMs": 4345,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 4667,
+   "endMs": 4927,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "washes",
+   "startMs": 4927,
+   "endMs": 5377,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "dishes",
+   "startMs": 5377,
+   "endMs": 5867,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 5867,
+   "endMs": 6047,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Rosa's",
+   "startMs": 6047,
+   "endMs": 6547,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Diner.",
+   "startMs": 6547,
+   "endMs": 7035,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Minimum",
+   "startMs": 7355,
+   "endMs": 7865,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "wage.",
+   "startMs": 7865,
+   "endMs": 8549,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Jay!",
+   "startMs": 8892,
+   "endMs": 9447,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "You're",
+   "startMs": 9788,
+   "endMs": 10068,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "green!",
+   "startMs": 10068,
+   "endMs": 10641,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Are",
+   "startMs": 11004,
+   "endMs": 11204,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 11204,
+   "endMs": 11434,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "sick?",
+   "startMs": 11434,
+   "endMs": 11879,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Never",
+   "startMs": 12349,
+   "endMs": 12779,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "better,",
+   "startMs": 12779,
+   "endMs": 13129,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Rosa.",
+   "startMs": 13129,
+   "endMs": 13800,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 14163,
+   "endMs": 14423,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "skipped",
+   "startMs": 14423,
+   "endMs": 14733,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "lunch.",
+   "startMs": 14733,
+   "endMs": 15315,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 15677,
+   "endMs": 15997,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "dinner.",
+   "startMs": 15997,
+   "endMs": 16424,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Every",
+   "startMs": 16724,
+   "endMs": 17044,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "break,",
+   "startMs": 17044,
+   "endMs": 17394,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 17394,
+   "endMs": 17794,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "stands",
+   "startMs": 17794,
+   "endMs": 18194,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "by",
+   "startMs": 18194,
+   "endMs": 18374,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 18374,
+   "endMs": 18454,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "window.",
+   "startMs": 18454,
+   "endMs": 18921,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Facing",
+   "startMs": 19263,
+   "endMs": 19753,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "sunlight.",
+   "startMs": 19753,
+   "endMs": 20393,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "When",
+   "startMs": 20693,
+   "endMs": 20793,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 20793,
+   "endMs": 20913,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "sun",
+   "startMs": 20913,
+   "endMs": 21203,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "moves,",
+   "startMs": 21203,
+   "endMs": 21593,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 21593,
+   "endMs": 21923,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "moves.",
+   "startMs": 21923,
+   "endMs": 22443,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Like",
+   "startMs": 22784,
+   "endMs": 22994,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 22994,
+   "endMs": 23124,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "sunflower.",
+   "startMs": 23124,
+   "endMs": 24043,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Mia,",
+   "startMs": 24364,
+   "endMs": 24714,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "his",
+   "startMs": 24714,
+   "endMs": 24894,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "best",
+   "startMs": 24894,
+   "endMs": 25244,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "friend,",
+   "startMs": 25244,
+   "endMs": 25664,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 25664,
+   "endMs": 25814,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "not",
+   "startMs": 25814,
+   "endMs": 26114,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "impressed.",
+   "startMs": 26114,
+   "endMs": 26668,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Jay,",
+   "startMs": 27011,
+   "endMs": 27441,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "you're",
+   "startMs": 27441,
+   "endMs": 27711,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "turning",
+   "startMs": 27711,
+   "endMs": 28021,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "with",
+   "startMs": 28021,
+   "endMs": 28131,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 28131,
+   "endMs": 28251,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "sun.",
+   "startMs": 28251,
+   "endMs": 28632,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 28933,
+   "endMs": 29163,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "creepy.",
+   "startMs": 29163,
+   "endMs": 29680,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "It's",
+   "startMs": 29983,
+   "endMs": 30203,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "free",
+   "startMs": 30203,
+   "endMs": 30503,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "food,",
+   "startMs": 30503,
+   "endMs": 30903,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Mia.",
+   "startMs": 30903,
+   "endMs": 31412,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 31775,
+   "endMs": 31945,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "saved",
+   "startMs": 31945,
+   "endMs": 32295,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "fifteen",
+   "startMs": 32295,
+   "endMs": 32845,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "dollars!",
+   "startMs": 32845,
+   "endMs": 33481,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "In",
+   "startMs": 33803,
+   "endMs": 33973,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 33973,
+   "endMs": 34233,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "week,",
+   "startMs": 34233,
+   "endMs": 34443,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "he",
+   "startMs": 34443,
+   "endMs": 34623,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "saves",
+   "startMs": 34623,
+   "endMs": 34893,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 34893,
+   "endMs": 35043,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "hundred",
+   "startMs": 35043,
+   "endMs": 35413,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "and",
+   "startMs": 35413,
+   "endMs": 35623,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "five.",
+   "startMs": 35623,
+   "endMs": 36043,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Okay,",
+   "startMs": 36321,
+   "endMs": 36721,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "fine.",
+   "startMs": 36721,
+   "endMs": 37217,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 37479,
+   "endMs": 37669,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "want",
+   "startMs": 37669,
+   "endMs": 37849,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 37849,
+   "endMs": 38161,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Give",
+   "startMs": 38484,
+   "endMs": 38654,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "me",
+   "startMs": 38654,
+   "endMs": 38774,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 38774,
+   "endMs": 38854,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "smoothie.",
+   "startMs": 38854,
+   "endMs": 39444,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Mia",
+   "startMs": 39747,
+   "endMs": 40137,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "drinks",
+   "startMs": 40137,
+   "endMs": 40547,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 40547,
+   "endMs": 40749,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Mia",
+   "startMs": 41176,
+   "endMs": 41526,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "turns",
+   "startMs": 41526,
+   "endMs": 41996,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "green.",
+   "startMs": 41996,
+   "endMs": 42627,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Oh",
+   "startMs": 42948,
+   "endMs": 43288,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "no.",
+   "startMs": 43288,
+   "endMs": 43695,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Oh...",
+   "startMs": 44057,
+   "endMs": 44569,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "oh,",
+   "startMs": 44975,
+   "endMs": 45295,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "it's",
+   "startMs": 45295,
+   "endMs": 45515,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "nice.",
+   "startMs": 45515,
+   "endMs": 46041,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "She",
+   "startMs": 46427,
+   "endMs": 46597,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "posts",
+   "startMs": 46597,
+   "endMs": 46947,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 46947,
+   "endMs": 47347,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "selfie.",
+   "startMs": 47347,
+   "endMs": 47941,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Lunch",
+   "startMs": 48283,
+   "endMs": 48663,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 48663,
+   "endMs": 48953,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "free",
+   "startMs": 48953,
+   "endMs": 49233,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "now.",
+   "startMs": 49233,
+   "endMs": 49669,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "By",
+   "startMs": 49991,
+   "endMs": 50201,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "midnight,",
+   "startMs": 50201,
+   "endMs": 50631,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 50631,
+   "endMs": 50781,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "has",
+   "startMs": 50781,
+   "endMs": 50931,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 50931,
+   "endMs": 51141,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "million",
+   "startMs": 51141,
+   "endMs": 51581,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "views.",
+   "startMs": 51581,
+   "endMs": 52145,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Jay.",
+   "startMs": 52445,
+   "endMs": 52957,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 53259,
+   "endMs": 53449,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 53449,
+   "endMs": 53609,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "eighty",
+   "startMs": 53609,
+   "endMs": 54029,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "thousand",
+   "startMs": 54029,
+   "endMs": 54429,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "orders.",
+   "startMs": 54429,
+   "endMs": 55008,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "So",
+   "startMs": 55313,
+   "endMs": 55503,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "we",
+   "startMs": 55503,
+   "endMs": 55753,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "sell",
+   "startMs": 55753,
+   "endMs": 56003,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "it?",
+   "startMs": 56003,
+   "endMs": 56359,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Bit,",
+   "startMs": 56913,
+   "endMs": 57233,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "we'd",
+   "startMs": 57233,
+   "endMs": 57433,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "be",
+   "startMs": 57433,
+   "endMs": 57603,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "rich!",
+   "startMs": 57603,
+   "endMs": 58108,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 58472,
+   "endMs": 58612,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "who",
+   "startMs": 58612,
+   "endMs": 58792,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "eats",
+   "startMs": 58792,
+   "endMs": 58942,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 58942,
+   "endMs": 59062,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 59062,
+   "endMs": 59262,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "diner",
+   "startMs": 59262,
+   "endMs": 59692,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "when",
+   "startMs": 59692,
+   "endMs": 59862,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "nobody",
+   "startMs": 59862,
+   "endMs": 60472,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "eats?",
+   "startMs": 60472,
+   "endMs": 60989,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 61332,
+   "endMs": 61762,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "doesn't",
+   "startMs": 61762,
+   "endMs": 62112,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "hear",
+   "startMs": 62112,
+   "endMs": 62392,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "her.",
+   "startMs": 62392,
+   "endMs": 62719,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "He's",
+   "startMs": 63060,
+   "endMs": 63330,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "busy",
+   "startMs": 63330,
+   "endMs": 63780,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "facing",
+   "startMs": 63780,
+   "endMs": 64120,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 64120,
+   "endMs": 64310,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "sun.",
+   "startMs": 64310,
+   "endMs": 64809,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Okay.",
+   "startMs": 65131,
+   "endMs": 65835,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "Printing",
+   "startMs": 66155,
+   "endMs": 66575,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 66575,
+   "endMs": 66835,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "million",
+   "startMs": 66835,
+   "endMs": 67205,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "smoothies.",
+   "startMs": 67205,
+   "endMs": 67861,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Part",
+   "startMs": 68167,
+   "endMs": 68457,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "three",
+   "startMs": 68457,
+   "endMs": 68817,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "drops",
+   "startMs": 68817,
+   "endMs": 69187,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 69187,
+   "endMs": 69417,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 69417,
+   "endMs": 69637,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 69637,
+   "endMs": 70108,
+   "line": 20,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 4.383
+  },
+  {
+   "speaker": "narrator",
+   "start": 4.603,
+   "end": 8.608
+  },
+  {
+   "speaker": "chef",
+   "start": 8.828,
+   "end": 12.087
+  },
+  {
+   "speaker": "heroLeaf",
+   "start": 12.307,
+   "end": 16.461
+  },
+  {
+   "speaker": "narrator",
+   "start": 16.681,
+   "end": 20.431
+  },
+  {
+   "speaker": "narrator",
+   "start": 20.651,
+   "end": 24.101
+  },
+  {
+   "speaker": "narrator",
+   "start": 24.321,
+   "end": 26.791
+  },
+  {
+   "speaker": "friend",
+   "start": 27.011,
+   "end": 29.72
+  },
+  {
+   "speaker": "heroLeaf",
+   "start": 29.94,
+   "end": 33.54
+  },
+  {
+   "speaker": "narrator",
+   "start": 33.76,
+   "end": 36.101
+  },
+  {
+   "speaker": "friend",
+   "start": 36.321,
+   "end": 39.484
+  },
+  {
+   "speaker": "narrator",
+   "start": 39.704,
+   "end": 42.685
+  },
+  {
+   "speaker": "friendLeaf",
+   "start": 42.905,
+   "end": 46.143
+  },
+  {
+   "speaker": "narrator",
+   "start": 46.363,
+   "end": 49.728
+  },
+  {
+   "speaker": "narrator",
+   "start": 49.948,
+   "end": 52.204
+  },
+  {
+   "speaker": "bit",
+   "start": 52.424,
+   "end": 55.029
+  },
+  {
+   "speaker": "heroLeaf",
+   "start": 55.249,
+   "end": 58.209
+  },
+  {
+   "speaker": "chef",
+   "start": 58.429,
+   "end": 61.048
+  },
+  {
+   "speaker": "narrator",
+   "start": 61.268,
+   "end": 64.868
+  },
+  {
+   "speaker": "bit",
+   "start": 65.088,
+   "end": 67.904
+  },
+  {
+   "speaker": "narrator",
+   "start": 68.124,
+   "end": 70.167
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "heroLeaf": "JAY",
+  "heroGray": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "friendLeaf": "MIA",
+  "chef": "ROSA",
+  "scientist": "DR. KAI",
+  "dealer": "SELLER",
+  "leafA": "NEIGHBOR",
+  "leafB": "NEIGHBOR",
+  "kid": "NEIGHBOR",
+  "boss": "NEIGHBOR"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.272
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 2.272,
+   "end": 4.543
+  },
+  {
+   "set": {
+    "type": "store"
+   },
+   "cast": [
+    {
+     "id": "chef",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.3
+    },
+    {
+     "id": "heroLeaf",
+     "x": 0.72,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.3
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "ROSA'S DINER",
+    "sub": "since 1995",
+    "color": "#E0312B"
+   },
+   "speaker": "narrator",
+   "start": 4.543,
+   "end": 8.768
+  },
+  {
+   "set": {
+    "type": "store"
+   },
+   "cast": [
+    {
+     "id": "chef",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6,
+    "shake": 0.3
+   },
+   "speaker": "chef",
+   "start": 8.768,
+   "end": 10.508
+  },
+  {
+   "set": {
+    "type": "store"
+   },
+   "cast": [
+    {
+     "id": "chef",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "shake": 0.3,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "chef",
+   "start": 10.508,
+   "end": 12.247
+  },
+  {
+   "set": {
+    "type": "store"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "heroLeaf",
+   "start": 12.247,
+   "end": 14.434
+  },
+  {
+   "set": {
+    "type": "store"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "grin",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "heroLeaf",
+   "start": 14.434,
+   "end": 16.621
+  },
+  {
+   "set": {
+    "type": "store"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sleepy",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 16.621,
+   "end": 18.606
+  },
+  {
+   "set": {
+    "type": "store"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sleepy",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 18.606,
+   "end": 20.591
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "walk",
+     "expr": "happy",
+     "scale": 1.5,
+     "moveTo": 0.7
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 20.591,
+   "end": 24.261
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "angry",
+     "scale": 1.6
+    }
+   ],
+   "speaker": "narrator",
+   "start": 24.261,
+   "end": 26.951
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "friend",
+   "start": 26.951,
+   "end": 29.88
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 0,
+    "to": 15,
+    "prefix": "$",
+    "label": "SAVED TODAY"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "heroLeaf",
+   "start": 29.88,
+   "end": 33.7
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "happy",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 15,
+    "to": 105,
+    "prefix": "$",
+    "label": "SAVED THIS WEEK"
+   },
+   "speaker": "narrator",
+   "start": 33.7,
+   "end": 36.261
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "smug",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "friend",
+   "start": 36.261,
+   "end": 37.953
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "smug",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "friend",
+   "start": 37.953,
+   "end": 39.644
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "friendLeaf",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "shocked",
+     "scale": 1.7
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "transition": "flash",
+   "speaker": "narrator",
+   "start": 39.644,
+   "end": 41.245
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "friendLeaf",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "shocked",
+     "scale": 1.7,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow"
+    }
+   ],
+   "sfx": [],
+   "transition": "cut",
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "speaker": "narrator",
+   "start": 41.245,
+   "end": 42.845
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "friendLeaf",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "friendLeaf",
+   "start": 42.845,
+   "end": 44.574
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "friendLeaf",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "friendLeaf",
+   "start": 44.574,
+   "end": 46.303
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "friendLeaf",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "grin",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "notify",
+    "app": "Mia",
+    "title": "lunch is free now \ud83c\udf1e",
+    "body": "ask me how"
+   },
+   "speaker": "narrator",
+   "start": 46.303,
+   "end": 49.888
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "friendLeaf",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "shocked",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 0,
+    "to": 1000000,
+    "label": "VIEWS"
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    },
+    {
+     "type": "pop",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 49.888,
+   "end": 52.364
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "shocked",
+     "scale": 0.9
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 0,
+    "to": 80000,
+    "label": "SMOOTHIE ORDERS"
+   },
+   "sfx": [
+    {
+     "type": "alarm",
+     "volume": 0.3
+    }
+   ],
+   "speaker": "bit",
+   "start": 52.364,
+   "end": 55.189
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "heroLeaf",
+   "start": 55.189,
+   "end": 56.779
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "heroLeaf",
+   "start": 56.779,
+   "end": 58.369
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "chef",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.8
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "chef",
+   "start": 58.369,
+   "end": 61.208
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sleepy",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 61.208,
+   "end": 63.118
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "heroLeaf",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sleepy",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 63.118,
+   "end": 65.028
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.15,
+    "y": 0.5,
+    "push": 0.12
+   },
+   "sfx": [
+    {
+     "type": "riser"
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "speaker": "bit",
+   "start": 65.028,
+   "end": 66.546
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 2.0,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.49,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "bit",
+   "start": 66.546,
+   "end": 68.064
+  }
+ ],
+ "endStart": 68.064,
+ "endText": "PART 3",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 2/8"
+}

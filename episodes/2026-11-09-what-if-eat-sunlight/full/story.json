@@ -1,0 +1,4174 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "heroLeaf": "JAY",
+  "heroGray": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "friendLeaf": "MIA",
+  "chef": "ROSA",
+  "scientist": "DR. KAI",
+  "dealer": "SELLER",
+  "leafA": "NEIGHBOR",
+  "leafB": "NEIGHBOR",
+  "kid": "NEIGHBOR",
+  "boss": "NEIGHBOR"
+ },
+ "title": "What If You Could Eat Sunlight?",
+ "seed": 5500,
+ "end": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if you could *eat sunlight*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.3
+     },
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "happy",
+      "scale": 1.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     },
+     {
+      "type": "hit",
+      "at": 0.8
+     }
+    ],
+    "camera": {
+     "push": 0.08
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Meet Jay. Jay is broke. *Ketchup soup* broke.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "KETCHUP SOUP",
+     "sub": "hot water + 2 packets",
+     "color": "#E0312B"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, lunch costs fifteen dollars. I have *four*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "LUNCH",
+       "value": 1.0,
+       "color": "#FF3B3B"
+      },
+      {
+       "label": "JAY",
+       "value": 0.27,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "$4"
+    },
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Then meet my new hero. A *sea slug*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "transition": "whip",
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "It eats algae and keeps their *solar panels*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: THE SOLAR-POWERED SEA SLUG"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Tiny green parts that make sugar *from light*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "CHLOROPLASTS",
+     "sub": "stolen from algae",
+     "color": "#2DBE7E"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "It turns green and can go *months* without eating.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 9,
+     "label": "MONTHS ON LIGHT*"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Months? Without *food*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "So I made a smoothie. Algae, plus *my code*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "SUN SMOOTHIE v1",
+     "sub": "algae + Bit",
+     "color": "#16161C"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, it smells like a *pond*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Drink it. Then go stand in the *sun*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay drinks it. Every last, *slimy* drop.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nothing happens. For one *full* minute.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "08:00",
+     "to": "08:01"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then his hands start to turn *green*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.8
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "Bit. Bit! Why am I a *salad*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Not a salad. A walking *solar panel*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay steps outside into the morning *sun*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "neutral",
+      "scale": 1.5
+     }
+    ],
+    "transition": "whip",
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And his stomach stops *growling*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "I'm full? From just *standing here*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. You just ate breakfast. With your *face*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay washes dishes at Rosa's Diner. *Minimum wage*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.3
+     },
+     {
+      "id": "heroLeaf",
+      "x": 0.72,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.3
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "ROSA'S DINER",
+     "sub": "since 1995",
+     "color": "#E0312B"
+    }
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "Jay! You're *green*! Are you sick?",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "Never better, Rosa. I skipped lunch. *And dinner*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every break, Jay stands by the window. Facing *sunlight*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "When the sun moves, Jay *moves*. Like a sunflower.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "happy",
+      "scale": 1.5,
+      "moveTo": 0.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia, his best friend, is not *impressed*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Jay, you're turning with the sun. It's *creepy*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "It's free food, Mia. I saved *fifteen dollars*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 15,
+     "prefix": "$",
+     "label": "SAVED TODAY"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "In one week, he saves a hundred and *five*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 15,
+     "to": 105,
+     "prefix": "$",
+     "label": "SAVED THIS WEEK"
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Okay, fine. I want one. Give me *the smoothie*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia drinks it. Mia turns *green*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "friendLeaf",
+   "say": "Oh no. Oh... oh, it's *nice*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "She posts one selfie. Lunch is *free now*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Mia",
+     "title": "lunch is free now \ud83c\udf1e",
+     "body": "ask me how"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "By midnight, it has *a million* views.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 1000000,
+     "label": "VIEWS"
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "pop",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. I have eighty thousand *orders*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 80000,
+     "label": "SMOOTHIE ORDERS"
+    },
+    "sfx": [
+     {
+      "type": "alarm",
+      "volume": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "So we sell it? Bit, we'd be *rich*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "And who eats at my diner when nobody *eats*?",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay doesn't hear her. He's busy facing *the sun*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Okay. Printing one million *smoothies*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three days later, half the city is *green*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "leafA",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friendLeaf",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "leafB",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "heroLeaf",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "At noon, people stand on rooftops, *eating light*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "leafA",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.2
+     },
+     {
+      "id": "leafB",
+      "x": 0.7,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.2
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Parking meters now sell *sunny spots*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "leafB",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "SUNNY SPOT",
+     "sub": "$2 per hour",
+     "color": "#FFD400"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "Bit, look at this! We're *famous*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "We're also out of algae. The price just *tripled*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "sad",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 5,
+     "to": 15,
+     "prefix": "$",
+     "label": "PER SMOOTHIE"
+    },
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Meanwhile, Rosa's Diner. Twelve tables. *Zero* people.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "TABLES",
+       "value": 1.0,
+       "color": "#FFD400"
+      },
+      {
+       "label": "GUESTS",
+       "value": 0.01,
+       "color": "#FF3B3B"
+      }
+     ],
+     "tag": "0"
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "Thirty years. I never had an empty *Friday*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "It's a slow week, Rosa. They'll *come back*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "Jay. You haven't touched my soup *in a week*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "You said my soup was the *best in town*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "It is, Rosa. I just don't *need it* now.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay looks away. At the window. At *the sun*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "That night, the news says something *nobody* wants.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "STORM: 14 DAYS OF CLOUDS"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.2,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "transition": "flash",
+    "sfx": [
+     {
+      "type": "siren",
+      "volume": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "On the roofs, a million green faces look *up*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "leafA",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.2
+     },
+     {
+      "id": "leafB",
+      "x": 0.7,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.2
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Fourteen days of clouds. *No sun*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "friendLeaf",
+   "say": "Jay... what do we eat with *no sun*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "Bit? What does the slug do *in the dark*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I... may have skipped that *chapter*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "glitch"
+     },
+     {
+      "type": "hit",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day one of clouds. The green city feels *sleepy*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "leafA",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     },
+     {
+      "id": "friendLeaf",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "leafB",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "heroLeaf",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "DAY 1",
+     "sub": "no sun",
+     "color": "#5E7FA8"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day two. People yawn in the middle of *sentences*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sleepy",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friendLeaf",
+   "say": "I'm so tired. Jay, is it *Tuesday*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sleepy",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "Mia. It's *Saturday*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sleepy",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day three. A new shop opens. *Sun Minutes*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "SUN MINUTES",
+     "sub": "lamp time for sale",
+     "color": "#FFD400"
+    },
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "One minute under my lamp. *Ten dollars*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "$10 / MIN",
+     "color": "#E0312B"
+    },
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The line is longer than Rosa's ever was. *Ever*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "leafA",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     },
+     {
+      "id": "friendLeaf",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "leafB",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "heroLeaf",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. Your hundred and five dollars? *Gone*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "sad",
+      "scale": 0.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 105,
+     "to": 0,
+     "prefix": "$",
+     "label": "JAY'S SAVINGS"
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "I just need one more hour of *light*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day four. Jay forgets his own *phone number*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "DAY 4",
+     "sub": "555-...?",
+     "color": "#5E7FA8"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He sits on the curb. He can't *stand up*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     },
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay, eat something. Real food. *Please*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "Food costs money, Bit. I have *nothing*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Bit's battery icon flashes *red*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "BATTERY",
+       "value": 0.08,
+       "color": "#FF3B3B"
+      }
+     ],
+     "tag": "8%"
+    },
+    "sfx": [
+     {
+      "type": "alarm",
+      "volume": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Funny. I run on sunlight too. And I'm *low*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay looks at his hands. They're turning *gray*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     },
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "heroGray",
+   "say": "Bit... is this *permanent*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Four percent. Jay, *listen to me*...",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay carries Bit across the city. In the *rain*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "sad",
+      "scale": 1.5,
+      "moveTo": 0.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "To the only lab still open. *Dr. Kai's*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "transition": "whip",
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "You copied a sea slug? With a *smoothie*?",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroGray",
+   "say": "It's real! It lives on sunlight *for months*!",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "It keeps stolen chloroplasts. That part is *true*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "TRUE",
+     "sub": "the slug stays green",
+     "color": "#2DBE7E"
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "But a cousin slug was tested on *light alone*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "LAB TEST: LIGHT ONLY"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.8,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "It couldn't grow. Light helps. It doesn't *replace food*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "NOT ENOUGH",
+     "color": "#E0312B"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "heroGray",
+   "say": "So we were never really *full*?",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Bit's code switched off the feeling. Not the *need*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay hasn't eaten real food in *nineteen days*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 19,
+     "label": "DAYS WITHOUT FOOD"
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Neither has *half the city*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "leafA",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     },
+     {
+      "id": "friendLeaf",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "leafB",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "heroLeaf",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "The cure is simple. One bowl of real *food*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "heroGray",
+   "say": "Easy! Everybody just *eats*!",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Jay. Nobody bought food for two weeks. Stores *closed*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Empty shelves. Dark windows. Closed *kitchens*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "heroGray",
+   "say": "Not every kitchen. I know *one*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay runs to Rosa's Diner. The lights are *off*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "scared",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And on the door, a new sign. *For sale*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [],
+    "ui": {
+     "type": "stamp",
+     "text": "FOR SALE",
+     "color": "#E0312B"
+    },
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay knocks on the back door. Rosa *opens*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.3
+     },
+     {
+      "id": "chef",
+      "x": 0.72,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.3
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     },
+     {
+      "type": "knock",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "Jay. You're... *gray*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroGray",
+   "say": "Rosa, I'm sorry. I made everyone stop *coming*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "Why, Jay? Why did you *really* drink it?",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay is quiet for a long *time*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "heroGray",
+   "say": "Every day, you gave me lunch *for free*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroGray",
+   "say": "And I could never *pay you back*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroGray",
+   "say": "I wanted to need nobody. Not even *food*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.55
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rosa says nothing. She turns on *the stove*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "engine",
+      "volume": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "You know what soup is for, Jay? *Sharing*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A hot bowl lands on the table. Jay *eats*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "For the first time in weeks, he feels *hungry*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "His skin goes from gray, to green, to *pink*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Rosa. It *works*. The cure is *your soup*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "At the lab, Kai plugs Bit into *a lamp*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.72,
+      "expr": "dim",
+      "scale": 1.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I'm back. Did I miss *lunch*?",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. How many people drank the *smoothie*?",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "One million, two hundred *thousand*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "sad",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 1200000,
+     "label": "GREEN PEOPLE"
+    }
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "I have one pot. One *pot*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#E0312B"
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Wait. Everyone who drank it saved *money*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "About fifteen dollars a day. For *two weeks*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 210,
+     "prefix": "$",
+     "label": "SAVED PER PERSON"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "They can pay for food. They can't *get here*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia, still green and sleepy, grabs *her phone*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friendLeaf",
+   "say": "One post got us in. One gets us *out*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bring a pot. Bring a neighbor. Cook at *Rosa's*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Mia",
+     "title": "SOUP AT ROSA'S",
+     "body": "bring a pot. bring a neighbor."
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "By noon, three hundred people are *cooking*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "wave",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 300,
+     "label": "COOKS"
+    },
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rosa runs the kitchen like a *general*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "More onions! Less *talking*!",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit drives the soup cart through the *rain*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "car",
+      "x": 0.5,
+      "color": "#FFD400",
+      "moveTo": 0.8
+     },
+     {
+      "id": "bit",
+      "x": 0.3,
+      "expr": "happy",
+      "scale": 0.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "engine"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bowl after bowl, the city turns *pink* again.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "wave",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     },
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But with every trip, Bit's battery *drops*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "BATTERY",
+       "value": 0.2,
+       "color": "#FF3B3B"
+      }
+     ],
+     "tag": "20%"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Twenty percent. Ten. It's fine. I'm *fine*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, stop! You'll shut down *again*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Then let me do *one more* street.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "By midnight, the whole city has eaten. *Everyone*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "wave",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "1,200,000 BOWLS",
+     "color": "#2DBE7E"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit rolls back into the diner and goes *dark*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit? Bit! Somebody get *a lamp*!",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Outside, after two weeks, the clouds finally *open*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "camera": {
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Morning. One sunbeam lands on Bit's *screen*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Power at one percent. Good *morning*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! Don't you *ever* do that again!",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The whole city is pink again. And *hungry*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "wave",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "transition": "whip",
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rosa's Diner has a line around the *block*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "wave",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 412,
+     "label": "IN LINE"
+    }
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "Thirty years. My best Friday *ever*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rosa takes down the *for sale* sign.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "throw",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "NOT FOR SALE",
+     "color": "#2DBE7E"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Rosa, let me pay you back. *Every* bowl.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "chef",
+   "say": "Then wash the dishes, Jay. Paid. *Full time*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "HIRED",
+     "sub": "full time + lunch",
+     "color": "#FFD400"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia orders the biggest pancakes on the *menu*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Sunlight is great. But it has no *syrup*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Fun fact. Some sea slugs drop their own *head*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: THE SLUG THAT LOSES ITS HEAD"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The head regrows a whole body in *three weeks*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 3,
+     "label": "WEEKS TO A NEW BODY"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. Do *not* put that in a smoothie.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay eats lunch at Rosa's every day. And *pays*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "happy",
+      "scale": 1.3
+     },
+     {
+      "id": "chef",
+      "x": 0.72,
+      "pose": "wave",
+      "expr": "happy",
+      "scale": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But at noon, he still turns toward *the sun*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. Don't move. There's a *leaf* on your head.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "LEAF DETECTED",
+     "color": "#2DBE7E"
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. Was there algae in my *soup*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for a new What if every day.",
+   "end": true
+  }
+ ],
+ "chapters": [
+  {
+   "line": 20,
+   "label": "PART 2",
+   "title": "Free Lunch"
+  },
+  {
+   "line": 39,
+   "label": "PART 3",
+   "title": "Green City"
+  },
+  {
+   "line": 57,
+   "label": "PART 4",
+   "title": "Clouds"
+  },
+  {
+   "line": 75,
+   "label": "PART 5",
+   "title": "The Catch"
+  },
+  {
+   "line": 93,
+   "label": "PART 6",
+   "title": "Rosa"
+  },
+  {
+   "line": 112,
+   "label": "PART 7",
+   "title": "A Million Bowls"
+  },
+  {
+   "line": 131,
+   "label": "PART 8",
+   "title": "Sunny Side Up"
+  }
+ ],
+ "minSeconds": 90,
+ "maxSeconds": 600
+}

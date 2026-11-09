@@ -1,0 +1,664 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "heroLeaf": "JAY",
+  "heroGray": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "friendLeaf": "MIA",
+  "chef": "ROSA",
+  "scientist": "DR. KAI",
+  "dealer": "SELLER",
+  "leafA": "NEIGHBOR",
+  "leafB": "NEIGHBOR",
+  "kid": "NEIGHBOR",
+  "boss": "NEIGHBOR"
+ },
+ "title": "What If You Could Eat Sunlight? (Part 4)",
+ "seed": 5504,
+ "partLabel": "PART 4/8",
+ "end": {
+  "text": "PART 5",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part four. The city runs on sun. It's *gone*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "leafA",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     },
+     {
+      "id": "friendLeaf",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "leafB",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "heroLeaf",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day one of clouds. The green city feels *sleepy*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "leafA",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     },
+     {
+      "id": "friendLeaf",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "leafB",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "heroLeaf",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "DAY 1",
+     "sub": "no sun",
+     "color": "#5E7FA8"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day two. People yawn in the middle of *sentences*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sleepy",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friendLeaf",
+   "say": "I'm so tired. Jay, is it *Tuesday*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "friendLeaf",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sleepy",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "Mia. It's *Saturday*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sleepy",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day three. A new shop opens. *Sun Minutes*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "SUN MINUTES",
+     "sub": "lamp time for sale",
+     "color": "#FFD400"
+    },
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "dealer",
+   "say": "One minute under my lamp. *Ten dollars*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "$10 / MIN",
+     "color": "#E0312B"
+    },
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The line is longer than Rosa's ever was. *Ever*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "leafA",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     },
+     {
+      "id": "friendLeaf",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "leafB",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "sleepy",
+      "depth": 0.6
+     },
+     {
+      "id": "heroLeaf",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sleepy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. Your hundred and five dollars? *Gone*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "sad",
+      "scale": 0.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 105,
+     "to": 0,
+     "prefix": "$",
+     "label": "JAY'S SAVINGS"
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "I just need one more hour of *light*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day four. Jay forgets his own *phone number*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "DAY 4",
+     "sub": "555-...?",
+     "color": "#5E7FA8"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He sits on the curb. He can't *stand up*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     },
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay, eat something. Real food. *Please*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "heroLeaf",
+   "say": "Food costs money, Bit. I have *nothing*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroLeaf",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Bit's battery icon flashes *red*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "BATTERY",
+       "value": 0.08,
+       "color": "#FF3B3B"
+      }
+     ],
+     "tag": "8%"
+    },
+    "sfx": [
+     {
+      "type": "alarm",
+      "volume": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Funny. I run on sunlight too. And I'm *low*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay looks at his hands. They're turning *gray*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     },
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "heroGray",
+   "say": "Bit... is this *permanent*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "heroGray",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Four percent. Jay, *listen to me*...",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "rain"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part five drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

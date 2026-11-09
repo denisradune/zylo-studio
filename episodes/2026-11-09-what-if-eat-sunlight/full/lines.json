@@ -1,0 +1,602 @@
+[
+ {
+  "speaker": "narrator",
+  "text": "What if you could *eat sunlight*?"
+ },
+ {
+  "speaker": "narrator",
+  "text": "Meet Jay. Jay is broke. *Ketchup soup* broke."
+ },
+ {
+  "speaker": "hero",
+  "text": "Bit, lunch costs fifteen dollars. I have *four*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Then meet my new hero. A *sea slug*."
+ },
+ {
+  "speaker": "bit",
+  "text": "It eats algae and keeps their *solar panels*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Tiny green parts that make sugar *from light*."
+ },
+ {
+  "speaker": "bit",
+  "text": "It turns green and can go *months* without eating."
+ },
+ {
+  "speaker": "hero",
+  "text": "Months? Without *food*?"
+ },
+ {
+  "speaker": "bit",
+  "text": "So I made a smoothie. Algae, plus *my code*."
+ },
+ {
+  "speaker": "hero",
+  "text": "Bit, it smells like a *pond*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Drink it. Then go stand in the *sun*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay drinks it. Every last, *slimy* drop."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Nothing happens. For one *full* minute."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Then his hands start to turn *green*."
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "Bit. Bit! Why am I a *salad*?"
+ },
+ {
+  "speaker": "bit",
+  "text": "Not a salad. A walking *solar panel*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay steps outside into the morning *sun*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "And his stomach stops *growling*."
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "I'm full? From just *standing here*?"
+ },
+ {
+  "speaker": "bit",
+  "text": "Jay. You just ate breakfast. With your *face*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay washes dishes at Rosa's Diner. *Minimum wage*."
+ },
+ {
+  "speaker": "chef",
+  "text": "Jay! You're *green*! Are you sick?"
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "Never better, Rosa. I skipped lunch. *And dinner*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Every break, Jay stands by the window. Facing *sunlight*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "When the sun moves, Jay *moves*. Like a sunflower."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Mia, his best friend, is not *impressed*."
+ },
+ {
+  "speaker": "friend",
+  "text": "Jay, you're turning with the sun. It's *creepy*."
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "It's free food, Mia. I saved *fifteen dollars*!"
+ },
+ {
+  "speaker": "narrator",
+  "text": "In one week, he saves a hundred and *five*."
+ },
+ {
+  "speaker": "friend",
+  "text": "Okay, fine. I want one. Give me *the smoothie*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Mia drinks it. Mia turns *green*."
+ },
+ {
+  "speaker": "friendLeaf",
+  "text": "Oh no. Oh... oh, it's *nice*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "She posts one selfie. Lunch is *free now*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "By midnight, it has *a million* views."
+ },
+ {
+  "speaker": "bit",
+  "text": "Jay. I have eighty thousand *orders*."
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "So we sell it? Bit, we'd be *rich*!"
+ },
+ {
+  "speaker": "chef",
+  "text": "And who eats at my diner when nobody *eats*?"
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay doesn't hear her. He's busy facing *the sun*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Okay. Printing one million *smoothies*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Three days later, half the city is *green*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "At noon, people stand on rooftops, *eating light*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Parking meters now sell *sunny spots*."
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "Bit, look at this! We're *famous*!"
+ },
+ {
+  "speaker": "bit",
+  "text": "We're also out of algae. The price just *tripled*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Meanwhile, Rosa's Diner. Twelve tables. *Zero* people."
+ },
+ {
+  "speaker": "chef",
+  "text": "Thirty years. I never had an empty *Friday*."
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "It's a slow week, Rosa. They'll *come back*."
+ },
+ {
+  "speaker": "chef",
+  "text": "Jay. You haven't touched my soup *in a week*."
+ },
+ {
+  "speaker": "chef",
+  "text": "You said my soup was the *best in town*."
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "It is, Rosa. I just don't *need it* now."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay looks away. At the window. At *the sun*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "That night, the news says something *nobody* wants."
+ },
+ {
+  "speaker": "narrator",
+  "text": "On the roofs, a million green faces look *up*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Fourteen days of clouds. *No sun*."
+ },
+ {
+  "speaker": "friendLeaf",
+  "text": "Jay... what do we eat with *no sun*?"
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "Bit? What does the slug do *in the dark*?"
+ },
+ {
+  "speaker": "bit",
+  "text": "I... may have skipped that *chapter*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Day one of clouds. The green city feels *sleepy*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Day two. People yawn in the middle of *sentences*."
+ },
+ {
+  "speaker": "friendLeaf",
+  "text": "I'm so tired. Jay, is it *Tuesday*?"
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "Mia. It's *Saturday*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Day three. A new shop opens. *Sun Minutes*."
+ },
+ {
+  "speaker": "dealer",
+  "text": "One minute under my lamp. *Ten dollars*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "The line is longer than Rosa's ever was. *Ever*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Jay. Your hundred and five dollars? *Gone*."
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "I just need one more hour of *light*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Day four. Jay forgets his own *phone number*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "He sits on the curb. He can't *stand up*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Jay, eat something. Real food. *Please*."
+ },
+ {
+  "speaker": "heroLeaf",
+  "text": "Food costs money, Bit. I have *nothing*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Then Bit's battery icon flashes *red*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Funny. I run on sunlight too. And I'm *low*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay looks at his hands. They're turning *gray*."
+ },
+ {
+  "speaker": "heroGray",
+  "text": "Bit... is this *permanent*?"
+ },
+ {
+  "speaker": "bit",
+  "text": "Four percent. Jay, *listen to me*..."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay carries Bit across the city. In the *rain*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "To the only lab still open. *Dr. Kai's*."
+ },
+ {
+  "speaker": "scientist",
+  "text": "You copied a sea slug? With a *smoothie*?"
+ },
+ {
+  "speaker": "heroGray",
+  "text": "It's real! It lives on sunlight *for months*!"
+ },
+ {
+  "speaker": "scientist",
+  "text": "It keeps stolen chloroplasts. That part is *true*."
+ },
+ {
+  "speaker": "scientist",
+  "text": "But a cousin slug was tested on *light alone*."
+ },
+ {
+  "speaker": "scientist",
+  "text": "It couldn't grow. Light helps. It doesn't *replace food*."
+ },
+ {
+  "speaker": "heroGray",
+  "text": "So we were never really *full*?"
+ },
+ {
+  "speaker": "scientist",
+  "text": "Bit's code switched off the feeling. Not the *need*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay hasn't eaten real food in *nineteen days*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Neither has *half the city*."
+ },
+ {
+  "speaker": "scientist",
+  "text": "The cure is simple. One bowl of real *food*."
+ },
+ {
+  "speaker": "heroGray",
+  "text": "Easy! Everybody just *eats*!"
+ },
+ {
+  "speaker": "scientist",
+  "text": "Jay. Nobody bought food for two weeks. Stores *closed*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Empty shelves. Dark windows. Closed *kitchens*."
+ },
+ {
+  "speaker": "heroGray",
+  "text": "Not every kitchen. I know *one*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay runs to Rosa's Diner. The lights are *off*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "And on the door, a new sign. *For sale*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay knocks on the back door. Rosa *opens*."
+ },
+ {
+  "speaker": "chef",
+  "text": "Jay. You're... *gray*."
+ },
+ {
+  "speaker": "heroGray",
+  "text": "Rosa, I'm sorry. I made everyone stop *coming*."
+ },
+ {
+  "speaker": "chef",
+  "text": "Why, Jay? Why did you *really* drink it?"
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay is quiet for a long *time*."
+ },
+ {
+  "speaker": "heroGray",
+  "text": "Every day, you gave me lunch *for free*."
+ },
+ {
+  "speaker": "heroGray",
+  "text": "And I could never *pay you back*."
+ },
+ {
+  "speaker": "heroGray",
+  "text": "I wanted to need nobody. Not even *food*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Rosa says nothing. She turns on *the stove*."
+ },
+ {
+  "speaker": "chef",
+  "text": "You know what soup is for, Jay? *Sharing*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "A hot bowl lands on the table. Jay *eats*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "For the first time in weeks, he feels *hungry*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "His skin goes from gray, to green, to *pink*."
+ },
+ {
+  "speaker": "hero",
+  "text": "Rosa. It *works*. The cure is *your soup*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "At the lab, Kai plugs Bit into *a lamp*."
+ },
+ {
+  "speaker": "bit",
+  "text": "I'm back. Did I miss *lunch*?"
+ },
+ {
+  "speaker": "hero",
+  "text": "Bit. How many people drank the *smoothie*?"
+ },
+ {
+  "speaker": "bit",
+  "text": "One million, two hundred *thousand*."
+ },
+ {
+  "speaker": "chef",
+  "text": "I have one pot. One *pot*."
+ },
+ {
+  "speaker": "hero",
+  "text": "Wait. Everyone who drank it saved *money*."
+ },
+ {
+  "speaker": "bit",
+  "text": "About fifteen dollars a day. For *two weeks*."
+ },
+ {
+  "speaker": "hero",
+  "text": "They can pay for food. They can't *get here*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Mia, still green and sleepy, grabs *her phone*."
+ },
+ {
+  "speaker": "friendLeaf",
+  "text": "One post got us in. One gets us *out*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Bring a pot. Bring a neighbor. Cook at *Rosa's*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "By noon, three hundred people are *cooking*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Rosa runs the kitchen like a *general*."
+ },
+ {
+  "speaker": "chef",
+  "text": "More onions! Less *talking*!"
+ },
+ {
+  "speaker": "narrator",
+  "text": "Bit drives the soup cart through the *rain*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Bowl after bowl, the city turns *pink* again."
+ },
+ {
+  "speaker": "narrator",
+  "text": "But with every trip, Bit's battery *drops*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Twenty percent. Ten. It's fine. I'm *fine*."
+ },
+ {
+  "speaker": "hero",
+  "text": "Bit, stop! You'll shut down *again*!"
+ },
+ {
+  "speaker": "bit",
+  "text": "Then let me do *one more* street."
+ },
+ {
+  "speaker": "narrator",
+  "text": "By midnight, the whole city has eaten. *Everyone*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Bit rolls back into the diner and goes *dark*."
+ },
+ {
+  "speaker": "hero",
+  "text": "Bit? Bit! Somebody get *a lamp*!"
+ },
+ {
+  "speaker": "narrator",
+  "text": "Outside, after two weeks, the clouds finally *open*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Morning. One sunbeam lands on Bit's *screen*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Power at one percent. Good *morning*."
+ },
+ {
+  "speaker": "hero",
+  "text": "Bit! Don't you *ever* do that again!"
+ },
+ {
+  "speaker": "narrator",
+  "text": "The whole city is pink again. And *hungry*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Rosa's Diner has a line around the *block*."
+ },
+ {
+  "speaker": "chef",
+  "text": "Thirty years. My best Friday *ever*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Rosa takes down the *for sale* sign."
+ },
+ {
+  "speaker": "hero",
+  "text": "Rosa, let me pay you back. *Every* bowl."
+ },
+ {
+  "speaker": "chef",
+  "text": "Then wash the dishes, Jay. Paid. *Full time*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Mia orders the biggest pancakes on the *menu*."
+ },
+ {
+  "speaker": "friend",
+  "text": "Sunlight is great. But it has no *syrup*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Fun fact. Some sea slugs drop their own *head*."
+ },
+ {
+  "speaker": "bit",
+  "text": "The head regrows a whole body in *three weeks*."
+ },
+ {
+  "speaker": "hero",
+  "text": "Bit. Do *not* put that in a smoothie."
+ },
+ {
+  "speaker": "narrator",
+  "text": "Jay eats lunch at Rosa's every day. And *pays*."
+ },
+ {
+  "speaker": "narrator",
+  "text": "But at noon, he still turns toward *the sun*."
+ },
+ {
+  "speaker": "bit",
+  "text": "Jay. Don't move. There's a *leaf* on your head."
+ },
+ {
+  "speaker": "hero",
+  "text": "Bit. Was there algae in my *soup*?"
+ },
+ {
+  "speaker": "narrator",
+  "text": "Follow for a new What if every day."
+ }
+]
