@@ -1,0 +1,4405 @@
+{
+ "title": "What If Your Money Expired?",
+ "rubric": "what-if: money",
+ "mood": "warm",
+ "seed": 5700,
+ "every": 2,
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "boss": "MAYOR OAK",
+  "scientist": "GRANDPA LOU",
+  "kid": "THEO"
+ },
+ "finale": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "parts": [
+  {
+   "title": "Mattress Town",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "What if your money *expired*?",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.3,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.3
+       },
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "happy",
+        "icon": "$",
+        "scale": 1.0
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 100,
+       "to": 99,
+       "prefix": "$",
+       "label": "MELTING..."
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       },
+       {
+        "type": "hit",
+        "at": 0.8
+       }
+      ],
+      "camera": {
+       "push": 0.08
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Millbrook is a small town. And it's *dying*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "MILLBROOK",
+       "sub": "pop. 3,000",
+       "color": "#FFD400"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Nobody spends. Everybody keeps cash *under the mattress*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "smug",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "knock"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "That's Grandpa Lou. He has *a thousand* in there.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "MATTRESS BANK",
+       "sub": "$1,000",
+       "color": "#2DBE7E"
+      },
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mia's bakery hasn't sold a cake *in a week*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "If nobody buys, I close by *Christmas*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay, her best friend, takes this *personally*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "angry",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit. How do you make a town *spend*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "neutral",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Austria, nineteen thirty two. A town called *Wörgl*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "REAL: WÖRGL, AUSTRIA, 1932"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "smug",
+        "scale": 0.9
+       }
+      ],
+      "transition": "flash",
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The mayor printed money that *lost value*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.7
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Every month, you had to buy it a *stamp*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "think",
+        "scale": 0.9
+       }
+      ],
+      "ui": {
+       "type": "list",
+       "title": "STAMP SCRIP",
+       "items": [
+        "buy a stamp monthly",
+        "about 1% of the bill",
+        "or the bill is invalid"
+       ]
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "So nobody kept it. Everybody *spent it*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "stamp",
+       "text": "SPEND ME",
+       "color": "#E0312B"
+      },
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit, that's *genius*. Can you build it?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mayor Oak says yes in *four seconds*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "wave",
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "00:04"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit launches *Melt Money*. Every bill in an app.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "icon": "$",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "glow"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Melt Money loses one percent every *single day*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "smug",
+        "scale": 0.9
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 1000,
+       "to": 990,
+       "prefix": "$",
+       "label": "DAY 1"
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Every day? Bit, Wörgl did it *monthly*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Monthly is slow. I'm a *computer*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "That night, Grandpa Lou checks his *mattress*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "heartbeat"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "My thousand dollars. It's *melting*!",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "shocked",
+        "scale": 2.0
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 1000,
+       "to": 990,
+       "prefix": "$",
+       "label": "GRANDPA LOU"
+      },
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part two drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Spend It",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part two. Millbrook's money now *melts* every day.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "icon": "$",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Morning. The whole town reads the *rule*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "MELT MONEY",
+       "sub": "-1% every day",
+       "color": "#E0312B"
+      }
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Keep it, and you lose it. So *spend it*!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "And Millbrook *spends*.",
+     "shot": {
+      "set": {
+       "type": "burst",
+       "color": "#FFD400"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "run",
+        "expr": "grin",
+        "scale": 1.6,
+        "enter": "pop"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "whoosh"
+       },
+       {
+        "type": "pop",
+        "at": 0.5
+       }
+      ],
+      "transition": "flash"
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "By ten a.m., Mia's bakery has a *line*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 37,
+       "label": "IN LINE"
+      },
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Jay! I sold *forty cakes*! Forty!",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "fx": [
+       {
+        "type": "moneyRain"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Theo, age nine, spends everything on *candy*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "CANDY HAUL",
+       "sub": "$12 → 0",
+       "color": "#FF6B4A"
+      }
+     }
+    },
+    {
+     "speaker": "kid",
+     "say": "It was melting! It's *science*!",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The barber hires a helper. The helper buys *shoes*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.3,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.2
+       },
+       {
+        "id": "scientist",
+        "x": 0.72,
+        "pose": "walk",
+        "expr": "happy",
+        "scale": 1.2
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The shoe shop buys *paint*. The painter buys bread.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       },
+       {
+        "type": "pop",
+        "at": 0.3
+       },
+       {
+        "type": "pop",
+        "at": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "One dollar changed hands *nine times* today.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "happy",
+        "scale": 0.9
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 9,
+       "label": "HANDS PER DOLLAR"
+      },
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit, it's *working*. The town is alive!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Only Grandpa Lou still sleeps on his *mattress*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "angry",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "I'm not spending. I'll *outlast* it.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 990,
+       "to": 980,
+       "prefix": "$",
+       "label": "GRANDPA LOU"
+      },
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "At noon, Mia looks at her flour *price*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Flour was five dollars. Now it's *eight*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 5,
+       "to": 8,
+       "prefix": "$",
+       "label": "FLOUR"
+      },
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Why? Nobody even made more *flour*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Everyone is buying. Nobody is *waiting*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.8
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Jay. When money melts, things get *expensive*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 2.0
+       }
+      ],
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part three drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Potatoes",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part three. The town is spending. Prices are *rising*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Day four. People stop keeping money. They keep *stuff*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "throw",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "throw",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "throw",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "throwObj"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mr. Ross buys sixty rolls of *toilet paper*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "smug",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 60,
+       "label": "ROLLS"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The Kims buy four hundred pounds of *potatoes*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.3,
+        "pose": "idle",
+        "expr": "neutral",
+        "scale": 1.2
+       },
+       {
+        "id": "kid",
+        "x": 0.72,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.2
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 400,
+       "label": "POUNDS OF POTATOES"
+      }
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Potatoes don't melt, Jay. It's *smart*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Potatoes *rot*, Mayor. That's worse!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The hardware store sells out of *everything*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [],
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ],
+      "ui": {
+       "type": "stamp",
+       "text": "SOLD OUT",
+       "color": "#E0312B"
+      },
+      "sfx": [
+       {
+        "type": "buzz"
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mia can't buy flour. Someone bought *all of it*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "I have money, but nothing *to buy*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Grandpa Lou's mattress keeps *melting*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "angry",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 980,
+       "to": 961,
+       "prefix": "$",
+       "label": "GRANDPA LOU"
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Nine hundred sixty one. Still *not spending*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit, slow it down. Make it *monthly*. Like Wörgl.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Fine. Pushing a quick *update*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "MELT MONEY v1.1",
+       "sub": "installing...",
+       "color": "#16161C"
+      },
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit types fast. Maybe a little *too* fast.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.7
+       }
+      ],
+      "fx": [
+       {
+        "type": "speedLines"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "tick"
+       },
+       {
+        "type": "tick",
+        "at": 0.3
+       },
+       {
+        "type": "tick",
+        "at": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The update goes live at *midnight*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "23:59",
+       "to": "00:00"
+      },
+      "sfx": [
+       {
+        "type": "ring"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "At twelve oh one, every phone in Millbrook *buzzes*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "notify",
+       "app": "Melt Money",
+       "title": "New rule",
+       "body": "-1% every MINUTE",
+       "color": "#E0312B"
+      },
+      "sfx": [
+       {
+        "type": "buzz"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Oh no. I typed *minute*. Not month.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "glitch",
+        "scale": 1.9
+       }
+      ],
+      "fx": [
+       {
+        "type": "glitch"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "glitch"
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Grandpa Lou watches his mattress *drain*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 961,
+       "to": 951,
+       "prefix": "$",
+       "label": "GRANDPA LOU"
+      },
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Every minute? Where can I spend at *midnight*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "shocked",
+        "scale": 2.0
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part four drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Minute Money",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part four. Bit's update made money melt *every minute*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "glitch",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "glitch"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Midnight. Millbrook is awake. And *shopping*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "run",
+        "expr": "scared",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "run",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "run",
+        "expr": "scared",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "alarm"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "siren",
+        "volume": 0.3
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "In one hour, money loses almost *half its value*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "sad",
+        "scale": 0.9
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 100,
+       "to": 55,
+       "prefix": "$",
+       "label": "ONE HOUR LATER"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "People buy anything. Lamps. Ladders. A *tuba*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "throw",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "throw",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "throw",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "throwObj"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "crash"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "kid",
+     "say": "I bought a canoe. We don't have a *lake*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mia's bakery is open all night. And *empty*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sleepy",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "No flour, no sugar. They bought my *chairs*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay finds Bit hiding *in a drawer*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "run",
+        "expr": "angry",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit! Undo it! Make it *monthly*!",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6,
+       "shake": 0.3
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The update is locked till *morning*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "01:00",
+       "to": "07:00"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "I wrote it to stop *hackers*. Like me.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "dim",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Three a.m. Grandpa Lou finally runs to the *store*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "run",
+        "expr": "scared",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Every shelf is empty. Except one: *birdseed*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "BIRDSEED",
+       "sub": "50 lb bag",
+       "color": "#E2A23B"
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Fine. I'm buying *all* the birdseed.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Seven a.m. The update finally *stops*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "06:59",
+       "to": "07:00"
+      },
+      "sfx": [
+       {
+        "type": "powerdown"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The town has canoes, tubas, potatoes. And *no money*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       }
+      ],
+      "ui": {
+       "type": "bars",
+       "items": [
+        {
+         "label": "STUFF",
+         "value": 1.0,
+         "color": "#FFD400"
+        },
+        {
+         "label": "MONEY",
+         "value": 0.02,
+         "color": "#2DBE7E"
+        }
+       ],
+       "tag": "$0"
+      }
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Jay. We're *rich*. In *potatoes*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then Mia's phone rings. It's her *landlord*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "scared",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ring"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Rent is due today. And my savings *melted*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "sad",
+        "scale": 2.0
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part five drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Done Wrong",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part five. The money melted. Mia can't *pay rent*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mia counts what's left of her savings. *Eleven dollars*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 3200,
+       "to": 11,
+       "prefix": "$",
+       "label": "MIA'S SAVINGS"
+      }
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Three years of cakes. Gone in *one night*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The landlord gives her one week. Then it *closes*.",
+     "shot": {
+      "set": {
+       "type": "store",
+       "damage": 2
+      },
+      "cast": [],
+      "ui": {
+       "type": "stamp",
+       "text": "7 DAYS",
+       "color": "#E0312B"
+      },
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay walks home. The streets are full of *junk*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "walk",
+        "expr": "sad",
+        "scale": 1.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Canoes in driveways. Tubas in trash cans. *Potatoes everywhere*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       }
+      ],
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit, I did this. I wanted to *save her*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "No. I did this. I copied Wörgl *wrong*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "So what did Wörgl actually *get right*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "neutral",
+        "scale": 1.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The stamp was small. About one percent. *Per month*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "WÖRGL: A STAMP A MONTH"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "think",
+        "scale": 0.9
+       }
+      ],
+      "transition": "flash"
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Enough to spend it. Not enough to *panic*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "neutral",
+        "scale": 0.9
+       }
+      ],
+      "ui": {
+       "type": "bars",
+       "items": [
+        {
+         "label": "WÖRGL",
+         "value": 0.1,
+         "color": "#2DBE7E"
+        },
+        {
+         "label": "BIT",
+         "value": 1.0,
+         "color": "#FF3B3B"
+        }
+       ],
+       "tag": "1%/month"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "And the town didn't spend it on *canoes*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Then on *what*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "neutral",
+        "scale": 1.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Houses. A reservoir. A bridge. And a *ski jump*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "WÖRGL BUILT: HOUSES, A BRIDGE, A SKI JUMP"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "happy",
+        "scale": 0.9
+       }
+      ],
+      "transition": "flash",
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "A ski jump? Bit, we don't have *snow*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "But Jay is staring at the old *bridge* outside.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "It's been broken for *twelve years*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [],
+      "ui": {
+       "type": "card",
+       "text": "OLD MILL BRIDGE",
+       "sub": "closed since 2014",
+       "color": "#E0312B"
+      },
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit. Make it monthly. And this time, *we* choose.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Jay. What do we build *first*?",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 2.0
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part six drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Done Right",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part six. Jay wants a second try. *Done right*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Town hall. The whole town is *furious*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "angry",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "angry",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "angry",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "angry",
+        "depth": 0.5
+       }
+      ],
+      "sfx": [
+       {
+        "type": "buzz"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Your robot melted our money. Why should we *listen*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Because Mia's bakery closes *in a week*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The room goes quiet. *Everyone* knows Mia's cakes.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "heartbeat"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "When my mom lost her job, I was eight.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Mia's grandma gave us bread. Every day. *For free*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.55
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "That bakery fed me. I can't let it *close*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Grandpa Lou stands up. Slowly. With his *birdseed*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "I remember her grandma. Best rye in the *state*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "New rule. One percent a month. Just like *Wörgl*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "happy",
+        "scale": 0.9
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "MELT MONEY v2",
+       "sub": "-1% per month",
+       "color": "#2DBE7E"
+      },
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "And the town pays people to *fix things*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The bridge. The bakery's oven. The *roof*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ],
+      "ui": {
+       "type": "list",
+       "title": "THE PLAN",
+       "items": [
+        "fix the bridge",
+        "fix Mia's oven",
+        "fix the roof"
+       ]
+      }
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "All in favor? Raise your *potatoes*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Every hand goes up. Most are holding *potatoes*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       },
+       {
+        "type": "pop",
+        "at": 0.3
+       },
+       {
+        "type": "ding",
+        "at": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Jay... you did all this for *my* bakery?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Monday, the work begins. Mia bakes for the *workers*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "glow"
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Wednesday, a letter arrives at town hall. *Official*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "NATIONAL BANK",
+       "sub": "urgent",
+       "color": "#16161C"
+      },
+      "sfx": [
+       {
+        "type": "knock"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Jay. They say our money is *illegal*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "shocked",
+        "scale": 2.0
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part seven drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Thirty Days",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part seven. A letter says Melt Money is *illegal*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "bit",
+     "say": "That happened to Wörgl too. In nineteen thirty *three*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "1933: AUSTRIA'S BANK ENDS WÖRGL MONEY"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "sad",
+        "scale": 0.9
+       }
+      ],
+      "transition": "flash"
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Austria's central bank shut it down. Only *official* money.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Two hundred towns wanted to copy it. *None did*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "sad",
+        "scale": 0.9
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 200,
+       "label": "TOWNS THAT PLANNED IT"
+      }
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "The letter gives us *thirty days*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "ui": {
+       "type": "stamp",
+       "text": "30 DAYS",
+       "color": "#E0312B"
+      },
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Then we finish everything in *thirty days*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Day one. Forty people show up at the *bridge*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 40,
+       "label": "WORKERS"
+      },
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "They're paid in Melt Money. They spend it *Friday*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "moneyRain"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "At Mia's bakery. The barber. The *hardware store*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       },
+       {
+        "type": "pop",
+        "at": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Day twelve. Mia's new oven *arrives*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "shocked",
+        "scale": 1.7
+       }
+      ],
+      "fx": [
+       {
+        "type": "glow"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Day twenty. Mia pays rent. *All of it*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "stamp",
+       "text": "PAID",
+       "color": "#2DBE7E"
+      },
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Grandpa Lou empties his mattress. *Finally*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "throw",
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 951,
+       "to": 0,
+       "prefix": "$",
+       "label": "GRANDPA LOU"
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Lou! What did you *buy*?",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Wood. Lots of wood. It's a *surprise*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Day twenty nine. The bridge opens. The town *cheers*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "glow"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "ding",
+        "at": 0.8
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Day thirty. Bit has to delete *Melt Money*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.7
+       }
+      ],
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "heartbeat"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "It's the best thing I ever *built*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "I know, buddy. It's *okay*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit's finger hovers over the *button*.",
+     "shot": {
+      "set": {
+       "type": "burst",
+       "color": "#E0312B"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "DELETE?",
+       "sub": "this cannot be undone",
+       "color": "#E0312B"
+      },
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ],
+      "transition": "flash"
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The final part drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "The Ski Jump",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part eight. Day thirty. Bit must *delete it*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit presses delete. Melt Money is *gone*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "off",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerdown"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "But the bridge is still standing. *Everything* is.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "glow"
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mia's bakery has a new oven. And a *line*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 52,
+       "label": "IN LINE"
+      }
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Jay. People still spend. Even with *normal money*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "They got used to it. Spending *here*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mayor Oak hands Bit a *medal*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.3,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.2
+       },
+       {
+        "id": "bit",
+        "x": 0.72,
+        "expr": "happy",
+        "scale": 1.0
+       }
+      ],
+      "ui": {
+       "type": "stamp",
+       "text": "HONORARY CITIZEN",
+       "color": "#FFD400"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "And the potatoes? We made the *world's biggest soup*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then Grandpa Lou reveals his surprise. On the *hill*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "A giant wooden *ski jump*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "dusk"
+      },
+      "cast": [],
+      "ui": {
+       "type": "card",
+       "text": "LOU'S SKI JUMP",
+       "sub": "est. today",
+       "color": "#FFD400"
+      },
+      "fx": [
+       {
+        "type": "glow"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Lou. It hasn't snowed here in *forty years*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Wörgl had one. Now *Millbrook* has one.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Fun fact. That part is *true*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mia bakes a cake shaped like *a bridge*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "On the house, Jay. You *saved* this place.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "No. This time, I *pay*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "He walks outside. Something cold touches his *nose*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "snow"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "For the first time in forty years, it's *snowing*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "shocked",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "phone",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "shocked",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "snow"
+       },
+       {
+        "type": "glow"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Told you. *Ski season*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 2.0
+       }
+      ],
+      "fx": [
+       {
+        "type": "snow"
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "hit",
+        "at": 0.3
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for a new What if every day.",
+     "end": true
+    }
+   ]
+  }
+ ]
+}
