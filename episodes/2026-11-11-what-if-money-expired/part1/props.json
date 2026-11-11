@@ -1,0 +1,1839 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 61.729,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "What",
+   "startMs": 164,
+   "endMs": 424,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 424,
+   "endMs": 494,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 494,
+   "endMs": 714,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "money",
+   "startMs": 714,
+   "endMs": 1054,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "expired?",
+   "startMs": 1054,
+   "endMs": 1849,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Millbrook",
+   "startMs": 2149,
+   "endMs": 2629,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 2629,
+   "endMs": 2809,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 2809,
+   "endMs": 2989,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "small",
+   "startMs": 2989,
+   "endMs": 3379,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "town.",
+   "startMs": 3379,
+   "endMs": 3963,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 4307,
+   "endMs": 4487,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "it's",
+   "startMs": 4487,
+   "endMs": 4727,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "dying.",
+   "startMs": 4727,
+   "endMs": 5373,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Nobody",
+   "startMs": 5695,
+   "endMs": 6355,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "spends.",
+   "startMs": 6355,
+   "endMs": 6996,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Everybody",
+   "startMs": 7359,
+   "endMs": 7919,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "keeps",
+   "startMs": 7919,
+   "endMs": 8219,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "cash",
+   "startMs": 8219,
+   "endMs": 8629,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "under",
+   "startMs": 8629,
+   "endMs": 8859,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "the",
+   "startMs": 8859,
+   "endMs": 8929,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "mattress.",
+   "startMs": 8929,
+   "endMs": 9535,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "That's",
+   "startMs": 9856,
+   "endMs": 10126,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Grandpa",
+   "startMs": 10126,
+   "endMs": 10776,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Lou.",
+   "startMs": 10776,
+   "endMs": 11285,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "He",
+   "startMs": 11627,
+   "endMs": 11747,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "has",
+   "startMs": 11747,
+   "endMs": 11857,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 11857,
+   "endMs": 12127,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "thousand",
+   "startMs": 12127,
+   "endMs": 12687,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "in",
+   "startMs": 12687,
+   "endMs": 12927,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "there.",
+   "startMs": 12927,
+   "endMs": 13269,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Mia's",
+   "startMs": 13591,
+   "endMs": 13941,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "bakery",
+   "startMs": 13941,
+   "endMs": 14481,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "hasn't",
+   "startMs": 14481,
+   "endMs": 14781,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "sold",
+   "startMs": 14781,
+   "endMs": 15061,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 15061,
+   "endMs": 15181,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "cake",
+   "startMs": 15181,
+   "endMs": 15571,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 15571,
+   "endMs": 15781,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "a",
+   "startMs": 15781,
+   "endMs": 15851,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "week.",
+   "startMs": 15851,
+   "endMs": 16236,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "If",
+   "startMs": 16515,
+   "endMs": 16645,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "nobody",
+   "startMs": 16645,
+   "endMs": 17095,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "buys,",
+   "startMs": 17095,
+   "endMs": 17795,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 17795,
+   "endMs": 17975,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "close",
+   "startMs": 17975,
+   "endMs": 18315,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "by",
+   "startMs": 18315,
+   "endMs": 18485,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Christmas.",
+   "startMs": 18485,
+   "endMs": 19075,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Jay,",
+   "startMs": 19337,
+   "endMs": 19697,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "her",
+   "startMs": 19697,
+   "endMs": 19827,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "best",
+   "startMs": 19827,
+   "endMs": 20167,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "friend,",
+   "startMs": 20167,
+   "endMs": 20557,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "takes",
+   "startMs": 20557,
+   "endMs": 20907,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "this",
+   "startMs": 20907,
+   "endMs": 21107,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "personally.",
+   "startMs": 21107,
+   "endMs": 21812,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Bit.",
+   "startMs": 22093,
+   "endMs": 22520,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "How",
+   "startMs": 22803,
+   "endMs": 22933,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "do",
+   "startMs": 22933,
+   "endMs": 22993,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 22993,
+   "endMs": 23133,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "make",
+   "startMs": 23133,
+   "endMs": 23273,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 23273,
+   "endMs": 23403,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "town",
+   "startMs": 23403,
+   "endMs": 23693,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "spend?",
+   "startMs": 23693,
+   "endMs": 24168,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Austria,",
+   "startMs": 24535,
+   "endMs": 25055,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "nineteen",
+   "startMs": 25055,
+   "endMs": 25505,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "thirty",
+   "startMs": 25505,
+   "endMs": 25805,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 25805,
+   "endMs": 26177,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "A",
+   "startMs": 26479,
+   "endMs": 26609,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "town",
+   "startMs": 26609,
+   "endMs": 26999,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "called",
+   "startMs": 26999,
+   "endMs": 27319,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "W\u00f6rgl.",
+   "startMs": 27319,
+   "endMs": 27865,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 28147,
+   "endMs": 28247,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "mayor",
+   "startMs": 28247,
+   "endMs": 28567,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "printed",
+   "startMs": 28567,
+   "endMs": 28847,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "money",
+   "startMs": 28847,
+   "endMs": 29237,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "that",
+   "startMs": 29237,
+   "endMs": 29337,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "lost",
+   "startMs": 29337,
+   "endMs": 29697,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "value.",
+   "startMs": 29697,
+   "endMs": 30173,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Every",
+   "startMs": 30455,
+   "endMs": 30745,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "month,",
+   "startMs": 30745,
+   "endMs": 31055,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 31055,
+   "endMs": 31205,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "had",
+   "startMs": 31205,
+   "endMs": 31345,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 31345,
+   "endMs": 31495,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "buy",
+   "startMs": 31495,
+   "endMs": 31765,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 31765,
+   "endMs": 31865,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 31865,
+   "endMs": 31955,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "stamp.",
+   "startMs": 31955,
+   "endMs": 32439,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "So",
+   "startMs": 32723,
+   "endMs": 32973,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "nobody",
+   "startMs": 32973,
+   "endMs": 33453,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "kept",
+   "startMs": 33453,
+   "endMs": 33723,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 33723,
+   "endMs": 34088,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Everybody",
+   "startMs": 34411,
+   "endMs": 34961,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "spent",
+   "startMs": 34961,
+   "endMs": 35321,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "it.",
+   "startMs": 35321,
+   "endMs": 35691,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Bit,",
+   "startMs": 35972,
+   "endMs": 36122,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "that's",
+   "startMs": 36122,
+   "endMs": 36352,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "genius.",
+   "startMs": 36352,
+   "endMs": 36911,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Can",
+   "startMs": 37233,
+   "endMs": 37373,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 37373,
+   "endMs": 37463,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "build",
+   "startMs": 37463,
+   "endMs": 37853,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "it?",
+   "startMs": 37853,
+   "endMs": 38001,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Mayor",
+   "startMs": 38325,
+   "endMs": 38685,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Oak",
+   "startMs": 38685,
+   "endMs": 38995,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "says",
+   "startMs": 38995,
+   "endMs": 39245,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "yes",
+   "startMs": 39245,
+   "endMs": 39535,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 39535,
+   "endMs": 39845,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "four",
+   "startMs": 39845,
+   "endMs": 40135,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "seconds.",
+   "startMs": 40135,
+   "endMs": 40608,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Bit",
+   "startMs": 40951,
+   "endMs": 41191,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "launches",
+   "startMs": 41191,
+   "endMs": 41761,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Melt",
+   "startMs": 41761,
+   "endMs": 42111,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Money.",
+   "startMs": 42111,
+   "endMs": 42551,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Every",
+   "startMs": 42892,
+   "endMs": 43252,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "bill",
+   "startMs": 43252,
+   "endMs": 43632,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 43632,
+   "endMs": 43722,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "an",
+   "startMs": 43722,
+   "endMs": 43802,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "app.",
+   "startMs": 43802,
+   "endMs": 44343,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Melt",
+   "startMs": 44643,
+   "endMs": 44933,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Money",
+   "startMs": 44933,
+   "endMs": 45153,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "loses",
+   "startMs": 45153,
+   "endMs": 45573,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 45573,
+   "endMs": 45813,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "percent",
+   "startMs": 45813,
+   "endMs": 46253,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 46253,
+   "endMs": 46523,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "single",
+   "startMs": 46523,
+   "endMs": 46893,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "day.",
+   "startMs": 46893,
+   "endMs": 47245,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Every",
+   "startMs": 47529,
+   "endMs": 47819,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "day?",
+   "startMs": 47819,
+   "endMs": 48169,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Bit,",
+   "startMs": 48577,
+   "endMs": 48747,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "W\u00f6rgl",
+   "startMs": 48747,
+   "endMs": 49117,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "did",
+   "startMs": 49117,
+   "endMs": 49297,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 49297,
+   "endMs": 49387,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "monthly.",
+   "startMs": 49387,
+   "endMs": 49879,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Monthly",
+   "startMs": 50245,
+   "endMs": 50745,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 50745,
+   "endMs": 50945,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "slow.",
+   "startMs": 50945,
+   "endMs": 51440,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "I'm",
+   "startMs": 51763,
+   "endMs": 52013,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 52013,
+   "endMs": 52173,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "computer.",
+   "startMs": 52173,
+   "endMs": 52957,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "That",
+   "startMs": 53279,
+   "endMs": 53509,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "night,",
+   "startMs": 53509,
+   "endMs": 53859,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Grandpa",
+   "startMs": 53859,
+   "endMs": 54359,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Lou",
+   "startMs": 54359,
+   "endMs": 54669,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "checks",
+   "startMs": 54669,
+   "endMs": 54899,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "his",
+   "startMs": 54899,
+   "endMs": 55119,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "mattress.",
+   "startMs": 55119,
+   "endMs": 55753,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "My",
+   "startMs": 56075,
+   "endMs": 56415,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "thousand",
+   "startMs": 56415,
+   "endMs": 56915,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "dollars.",
+   "startMs": 56915,
+   "endMs": 58037,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 58339,
+   "endMs": 58609,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "melting!",
+   "startMs": 58609,
+   "endMs": 59491,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Part",
+   "startMs": 59793,
+   "endMs": 60073,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 60073,
+   "endMs": 60403,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "drops",
+   "startMs": 60403,
+   "endMs": 60783,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 60783,
+   "endMs": 60983,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 60983,
+   "endMs": 61213,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 61213,
+   "endMs": 61671,
+   "line": 20,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 1.908
+  },
+  {
+   "speaker": "narrator",
+   "start": 2.128,
+   "end": 5.432
+  },
+  {
+   "speaker": "narrator",
+   "start": 5.652,
+   "end": 9.593
+  },
+  {
+   "speaker": "narrator",
+   "start": 9.813,
+   "end": 13.328
+  },
+  {
+   "speaker": "narrator",
+   "start": 13.548,
+   "end": 16.295
+  },
+  {
+   "speaker": "friend",
+   "start": 16.515,
+   "end": 19.096
+  },
+  {
+   "speaker": "narrator",
+   "start": 19.316,
+   "end": 21.852
+  },
+  {
+   "speaker": "hero",
+   "start": 22.072,
+   "end": 24.293
+  },
+  {
+   "speaker": "bit",
+   "start": 24.513,
+   "end": 27.927
+  },
+  {
+   "speaker": "bit",
+   "start": 28.147,
+   "end": 30.235
+  },
+  {
+   "speaker": "bit",
+   "start": 30.455,
+   "end": 32.481
+  },
+  {
+   "speaker": "bit",
+   "start": 32.701,
+   "end": 35.752
+  },
+  {
+   "speaker": "hero",
+   "start": 35.972,
+   "end": 38.063
+  },
+  {
+   "speaker": "narrator",
+   "start": 38.283,
+   "end": 40.688
+  },
+  {
+   "speaker": "narrator",
+   "start": 40.908,
+   "end": 44.401
+  },
+  {
+   "speaker": "bit",
+   "start": 44.621,
+   "end": 47.288
+  },
+  {
+   "speaker": "hero",
+   "start": 47.508,
+   "end": 50.004
+  },
+  {
+   "speaker": "bit",
+   "start": 50.224,
+   "end": 53.016
+  },
+  {
+   "speaker": "narrator",
+   "start": 53.236,
+   "end": 55.812
+  },
+  {
+   "speaker": "scientist",
+   "start": 56.032,
+   "end": 59.531
+  },
+  {
+   "speaker": "narrator",
+   "start": 59.751,
+   "end": 61.729
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "boss": "MAYOR OAK",
+  "scientist": "GRANDPA LOU",
+  "kid": "THEO"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.3
+    },
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "happy",
+     "icon": "$",
+     "scale": 1.0
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 100,
+    "to": 99,
+    "prefix": "$",
+    "label": "MELTING..."
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    },
+    {
+     "type": "hit",
+     "at": 0.8
+    }
+   ],
+   "camera": {
+    "push": 0.08
+   },
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.068
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "kid",
+     "x": 0.15,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.5
+    },
+    {
+     "id": "friend",
+     "x": 0.38,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.6
+    },
+    {
+     "id": "boss",
+     "x": 0.62,
+     "pose": "phone",
+     "expr": "sad",
+     "depth": 0.6
+    },
+    {
+     "id": "scientist",
+     "x": 0.85,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.5
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "MILLBROOK",
+    "sub": "pop. 3,000",
+    "color": "#FFD400"
+   },
+   "speaker": "narrator",
+   "start": 2.068,
+   "end": 5.592
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "knock"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 5.592,
+   "end": 7.673
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "smug",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 7.673,
+   "end": 9.753
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "MATTRESS BANK",
+    "sub": "$1,000",
+    "color": "#2DBE7E"
+   },
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "narrator",
+   "start": 9.753,
+   "end": 13.488
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 13.488,
+   "end": 16.455
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "friend",
+   "start": 16.455,
+   "end": 19.256
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "angry",
+     "scale": 1.6
+    }
+   ],
+   "speaker": "narrator",
+   "start": 19.256,
+   "end": 22.012
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "neutral",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 22.012,
+   "end": 24.453
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "REAL: W\u00d6RGL, AUSTRIA, 1932"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.8,
+     "expr": "smug",
+     "scale": 0.9
+    }
+   ],
+   "transition": "flash",
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "bit",
+   "start": 24.453,
+   "end": 26.27
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "REAL: W\u00d6RGL, AUSTRIA, 1932"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.8,
+     "expr": "smug",
+     "scale": 0.9,
+     "enter": "none"
+    }
+   ],
+   "transition": "cut",
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.8,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "fx": [],
+   "speaker": "bit",
+   "start": 26.27,
+   "end": 28.087
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.7
+    }
+   ],
+   "transition": "whip",
+   "speaker": "bit",
+   "start": 28.087,
+   "end": 30.395
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "think",
+     "scale": 0.9
+    }
+   ],
+   "ui": {
+    "type": "list",
+    "title": "STAMP SCRIP",
+    "items": [
+     "buy a stamp monthly",
+     "about 1% of the bill",
+     "or the bill is invalid"
+    ]
+   },
+   "speaker": "bit",
+   "start": 30.395,
+   "end": 32.641
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "stamp",
+    "text": "SPEND ME",
+    "color": "#E0312B"
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "bit",
+   "start": 32.641,
+   "end": 35.912
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 35.912,
+   "end": 38.223
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "boss",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "happy",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "00:04"
+   },
+   "speaker": "narrator",
+   "start": 38.223,
+   "end": 40.848
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "icon": "$",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 40.848,
+   "end": 42.704
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "icon": "$",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "glow"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 42.704,
+   "end": 44.561
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "smug",
+     "scale": 0.9
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 1000,
+    "to": 990,
+    "prefix": "$",
+    "label": "DAY 1"
+   },
+   "speaker": "bit",
+   "start": 44.561,
+   "end": 47.448
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "scared",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 47.448,
+   "end": 50.164
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 50.164,
+   "end": 51.67
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "bit",
+   "start": 51.67,
+   "end": 53.176
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 53.176,
+   "end": 55.972
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 2.0
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 1000,
+    "to": 990,
+    "prefix": "$",
+    "label": "GRANDPA LOU"
+   },
+   "camera": {
+    "zoom": 1.15,
+    "y": 0.5,
+    "push": 0.12
+   },
+   "sfx": [
+    {
+     "type": "riser"
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "speaker": "scientist",
+   "start": 55.972,
+   "end": 59.691
+  }
+ ],
+ "endStart": 59.691,
+ "endText": "PART 2",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 1/8"
+}

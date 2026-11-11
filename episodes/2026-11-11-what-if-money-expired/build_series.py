@@ -75,7 +75,7 @@ p2 = [
 ]
 p3 = [
  recap("Part three. The town is spending. Prices are *rising*.", BK, town("shocked"), sfx=[{"type": "hit"}]),
- L(N, "Day four. People stop keeping money. They keep *stuff*.", SD, town("grin", "throw"), fx=[{"type": "throwObj"}], sfx=[{"type": "whoosh"}]),
+ L(N, "Day four. People stop keeping money. They keep *stuff*.", SD, town("grin", "throw"), fx=[{"type": "throwObj", "from": [300, 900], "to": [800, 500], "at": 0.3, "dur": 0.6}], sfx=[{"type": "whoosh"}]),
  L(N, "Mr. Ross buys sixty rolls of *toilet paper*.", SD, [c("boss", .5, pose="cheer", expr="smug", scale=1.6)], ui={"type": "counter", "from": 0, "to": 60, "label": "ROLLS"}),
  L(N, "The Kims buy four hundred pounds of *potatoes*.", SD, [c("friend", .3, pose="idle", expr="neutral", scale=1.2), c("kid", .72, pose="cheer", expr="grin", scale=1.2)], ui={"type": "counter", "from": 0, "to": 400, "label": "POUNDS OF POTATOES"}),
  L("boss", "Potatoes don't melt, Jay. It's *smart*.", SD, [c("boss", .5, pose="point", expr="smug", scale=1.9)], camera=CU),
@@ -99,7 +99,7 @@ p4 = [
  recap("Part four. Bit's update made money melt *every minute*.", RN, [c("bit", .5, expr="glitch", scale=1.6)], fx=[{"type": "glitch"}], sfx=[{"type": "hit"}]),
  L(N, "Midnight. Millbrook is awake. And *shopping*.", SN, town("scared", "run"), fx=[{"type": "alarm"}], sfx=[{"type": "siren", "volume": .3}], transition="whip"),
  L(N, "In one hour, money loses almost *half its value*.", SN, [c("bit", .78, expr="sad", scale=.9)], ui=melt(100, 55, "ONE HOUR LATER")),
- L(N, "People buy anything. Lamps. Ladders. A *tuba*.", SN, town("grin", "throw"), fx=[{"type": "throwObj"}], sfx=[{"type": "crash"}]),
+ L(N, "People buy anything. Lamps. Ladders. A *tuba*.", SN, town("grin", "throw"), fx=[{"type": "throwObj", "from": [300, 900], "to": [800, 500], "at": 0.3, "dur": 0.6}], sfx=[{"type": "crash"}]),
  L("kid", "I bought a canoe. We don't have a *lake*.", SN, [c("kid", .5, pose="shrug", expr="happy", scale=1.9)], camera=CU),
  L(N, "Mia's bakery is open all night. And *empty*.", BK2, [c("friend", .5, pose="idle", expr="sleepy", scale=1.6)], fx=[{"type": "vignette"}]),
  L("friend", "No flour, no sugar. They bought my *chairs*.", BK2, [c("friend", .5, pose="facepalm", expr="sad", scale=1.9)], camera=CU),
