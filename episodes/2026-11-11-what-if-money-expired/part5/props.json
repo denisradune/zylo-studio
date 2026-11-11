@@ -1,0 +1,1891 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 63.677,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 143,
+   "endMs": 463,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "five.",
+   "startMs": 463,
+   "endMs": 1017,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 1401,
+   "endMs": 1511,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "money",
+   "startMs": 1511,
+   "endMs": 1941,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "melted.",
+   "startMs": 1941,
+   "endMs": 2617,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Mia",
+   "startMs": 2959,
+   "endMs": 3339,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "can't",
+   "startMs": 3339,
+   "endMs": 3599,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "pay",
+   "startMs": 3599,
+   "endMs": 3889,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "rent.",
+   "startMs": 3889,
+   "endMs": 4388,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Mia",
+   "startMs": 4709,
+   "endMs": 4979,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "counts",
+   "startMs": 4979,
+   "endMs": 5429,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "what's",
+   "startMs": 5429,
+   "endMs": 5669,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "left",
+   "startMs": 5669,
+   "endMs": 5959,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 5959,
+   "endMs": 6059,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "her",
+   "startMs": 6059,
+   "endMs": 6219,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "savings.",
+   "startMs": 6219,
+   "endMs": 6821,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Eleven",
+   "startMs": 7184,
+   "endMs": 7674,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "dollars.",
+   "startMs": 7674,
+   "endMs": 8379,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Three",
+   "startMs": 8657,
+   "endMs": 8907,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "years",
+   "startMs": 8907,
+   "endMs": 9127,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 9127,
+   "endMs": 9187,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "cakes.",
+   "startMs": 9187,
+   "endMs": 9681,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Gone",
+   "startMs": 9961,
+   "endMs": 10221,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 10221,
+   "endMs": 10331,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 10331,
+   "endMs": 10481,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "night.",
+   "startMs": 10481,
+   "endMs": 10900,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 11224,
+   "endMs": 11334,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "landlord",
+   "startMs": 11334,
+   "endMs": 11924,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "gives",
+   "startMs": 11924,
+   "endMs": 12144,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "her",
+   "startMs": 12144,
+   "endMs": 12364,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 12364,
+   "endMs": 12704,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "week.",
+   "startMs": 12704,
+   "endMs": 13101,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 13464,
+   "endMs": 13774,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 13774,
+   "endMs": 13924,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "closes.",
+   "startMs": 13924,
+   "endMs": 14701,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 15023,
+   "endMs": 15403,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "walks",
+   "startMs": 15403,
+   "endMs": 15763,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "home.",
+   "startMs": 15763,
+   "endMs": 16281,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 16623,
+   "endMs": 16753,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "streets",
+   "startMs": 16753,
+   "endMs": 17113,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 17113,
+   "endMs": 17403,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "full",
+   "startMs": 17403,
+   "endMs": 17633,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 17633,
+   "endMs": 17803,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "junk.",
+   "startMs": 17803,
+   "endMs": 18372,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Canoes",
+   "startMs": 18715,
+   "endMs": 19205,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 19205,
+   "endMs": 19425,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "driveways.",
+   "startMs": 19425,
+   "endMs": 20272,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Tubas",
+   "startMs": 20613,
+   "endMs": 20963,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 20963,
+   "endMs": 21173,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "trash",
+   "startMs": 21173,
+   "endMs": 21593,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "cans.",
+   "startMs": 21593,
+   "endMs": 22192,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Potatoes",
+   "startMs": 22576,
+   "endMs": 23226,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "everywhere.",
+   "startMs": 23226,
+   "endMs": 23941,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Bit,",
+   "startMs": 24220,
+   "endMs": 24430,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 24430,
+   "endMs": 24590,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "did",
+   "startMs": 24590,
+   "endMs": 24800,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "this.",
+   "startMs": 24800,
+   "endMs": 25159,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 25481,
+   "endMs": 25561,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "wanted",
+   "startMs": 25561,
+   "endMs": 25781,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 25781,
+   "endMs": 25881,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "save",
+   "startMs": 25881,
+   "endMs": 26141,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "her.",
+   "startMs": 26141,
+   "endMs": 26505,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "No.",
+   "startMs": 26808,
+   "endMs": 27341,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 27859,
+   "endMs": 28109,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "did",
+   "startMs": 28109,
+   "endMs": 28289,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "this.",
+   "startMs": 28289,
+   "endMs": 28797,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 29120,
+   "endMs": 29330,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "copied",
+   "startMs": 29330,
+   "endMs": 29700,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "W\u00f6rgl",
+   "startMs": 29700,
+   "endMs": 30120,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "wrong.",
+   "startMs": 30120,
+   "endMs": 30571,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "So",
+   "startMs": 30849,
+   "endMs": 31029,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "what",
+   "startMs": 31029,
+   "endMs": 31179,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "did",
+   "startMs": 31179,
+   "endMs": 31329,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "W\u00f6rgl",
+   "startMs": 31329,
+   "endMs": 31679,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "actually",
+   "startMs": 31679,
+   "endMs": 32089,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "get",
+   "startMs": 32089,
+   "endMs": 32259,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "right?",
+   "startMs": 32259,
+   "endMs": 32641,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 32987,
+   "endMs": 33107,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "stamp",
+   "startMs": 33107,
+   "endMs": 33497,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "was",
+   "startMs": 33497,
+   "endMs": 33597,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "small.",
+   "startMs": 33597,
+   "endMs": 34160,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "About",
+   "startMs": 34461,
+   "endMs": 34821,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 34821,
+   "endMs": 35101,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "percent.",
+   "startMs": 35101,
+   "endMs": 35741,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Per",
+   "startMs": 36064,
+   "endMs": 36284,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "month.",
+   "startMs": 36284,
+   "endMs": 36789,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Enough",
+   "startMs": 37068,
+   "endMs": 37408,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 37408,
+   "endMs": 37508,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "spend",
+   "startMs": 37508,
+   "endMs": 37858,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 37858,
+   "endMs": 38199,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Not",
+   "startMs": 38500,
+   "endMs": 38790,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "enough",
+   "startMs": 38790,
+   "endMs": 39090,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 39090,
+   "endMs": 39210,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "panic.",
+   "startMs": 39210,
+   "endMs": 39780,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 40061,
+   "endMs": 40171,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 40171,
+   "endMs": 40261,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "town",
+   "startMs": 40261,
+   "endMs": 40621,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "didn't",
+   "startMs": 40621,
+   "endMs": 40891,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "spend",
+   "startMs": 40891,
+   "endMs": 41161,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 41161,
+   "endMs": 41271,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 41271,
+   "endMs": 41481,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "canoes.",
+   "startMs": 41481,
+   "endMs": 42067,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 42308,
+   "endMs": 42448,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 42448,
+   "endMs": 42598,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "what?",
+   "startMs": 42598,
+   "endMs": 43012,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Houses.",
+   "startMs": 43315,
+   "endMs": 44040,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "A",
+   "startMs": 44363,
+   "endMs": 44513,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "reservoir.",
+   "startMs": 44513,
+   "endMs": 45301,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "A",
+   "startMs": 45645,
+   "endMs": 45805,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "bridge.",
+   "startMs": 45805,
+   "endMs": 46328,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 46669,
+   "endMs": 46819,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 46819,
+   "endMs": 46969,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "ski",
+   "startMs": 46969,
+   "endMs": 47249,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "jump.",
+   "startMs": 47249,
+   "endMs": 47800,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "A",
+   "startMs": 48103,
+   "endMs": 48193,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "ski",
+   "startMs": 48193,
+   "endMs": 48463,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "jump?",
+   "startMs": 48463,
+   "endMs": 48913,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Bit,",
+   "startMs": 49279,
+   "endMs": 49419,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "we",
+   "startMs": 49419,
+   "endMs": 49549,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 49549,
+   "endMs": 49719,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 49719,
+   "endMs": 49849,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "snow.",
+   "startMs": 49849,
+   "endMs": 50388,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "But",
+   "startMs": 50712,
+   "endMs": 50832,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 50832,
+   "endMs": 51172,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 51172,
+   "endMs": 51382,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "staring",
+   "startMs": 51382,
+   "endMs": 51762,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 51762,
+   "endMs": 51892,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 51892,
+   "endMs": 52012,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "old",
+   "startMs": 52012,
+   "endMs": 52312,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "bridge",
+   "startMs": 52312,
+   "endMs": 52662,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "outside.",
+   "startMs": 52662,
+   "endMs": 53293,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 53636,
+   "endMs": 53846,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "been",
+   "startMs": 53846,
+   "endMs": 54076,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "broken",
+   "startMs": 54076,
+   "endMs": 54566,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 54566,
+   "endMs": 54736,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "twelve",
+   "startMs": 54736,
+   "endMs": 55096,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "years.",
+   "startMs": 55096,
+   "endMs": 55684,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Bit.",
+   "startMs": 55963,
+   "endMs": 56389,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Make",
+   "startMs": 56672,
+   "endMs": 56802,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 56802,
+   "endMs": 56982,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "monthly.",
+   "startMs": 56982,
+   "endMs": 57504,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 57848,
+   "endMs": 57928,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "this",
+   "startMs": 57928,
+   "endMs": 58118,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "time,",
+   "startMs": 58118,
+   "endMs": 58368,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "we",
+   "startMs": 58368,
+   "endMs": 58538,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "choose.",
+   "startMs": 58538,
+   "endMs": 58957,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Jay.",
+   "startMs": 59303,
+   "endMs": 59815,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "What",
+   "startMs": 60116,
+   "endMs": 60316,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "do",
+   "startMs": 60316,
+   "endMs": 60406,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "we",
+   "startMs": 60406,
+   "endMs": 60526,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "build",
+   "startMs": 60526,
+   "endMs": 60796,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "first?",
+   "startMs": 60796,
+   "endMs": 61375,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Part",
+   "startMs": 61699,
+   "endMs": 61949,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "six",
+   "startMs": 61949,
+   "endMs": 62299,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "drops",
+   "startMs": 62299,
+   "endMs": 62739,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 62739,
+   "endMs": 62949,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 62949,
+   "endMs": 63169,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 63169,
+   "endMs": 63576,
+   "line": 19,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 4.447
+  },
+  {
+   "speaker": "narrator",
+   "start": 4.667,
+   "end": 8.437
+  },
+  {
+   "speaker": "friend",
+   "start": 8.657,
+   "end": 10.94
+  },
+  {
+   "speaker": "narrator",
+   "start": 11.16,
+   "end": 14.76
+  },
+  {
+   "speaker": "narrator",
+   "start": 14.98,
+   "end": 18.452
+  },
+  {
+   "speaker": "narrator",
+   "start": 18.672,
+   "end": 24.0
+  },
+  {
+   "speaker": "hero",
+   "start": 24.22,
+   "end": 26.567
+  },
+  {
+   "speaker": "bit",
+   "start": 26.787,
+   "end": 30.629
+  },
+  {
+   "speaker": "hero",
+   "start": 30.849,
+   "end": 32.745
+  },
+  {
+   "speaker": "bit",
+   "start": 32.965,
+   "end": 36.848
+  },
+  {
+   "speaker": "bit",
+   "start": 37.068,
+   "end": 39.82
+  },
+  {
+   "speaker": "bit",
+   "start": 40.04,
+   "end": 42.088
+  },
+  {
+   "speaker": "hero",
+   "start": 42.308,
+   "end": 43.073
+  },
+  {
+   "speaker": "bit",
+   "start": 43.293,
+   "end": 47.861
+  },
+  {
+   "speaker": "hero",
+   "start": 48.081,
+   "end": 50.449
+  },
+  {
+   "speaker": "narrator",
+   "start": 50.669,
+   "end": 53.373
+  },
+  {
+   "speaker": "narrator",
+   "start": 53.593,
+   "end": 55.721
+  },
+  {
+   "speaker": "hero",
+   "start": 55.941,
+   "end": 59.061
+  },
+  {
+   "speaker": "bit",
+   "start": 59.281,
+   "end": 61.436
+  },
+  {
+   "speaker": "narrator",
+   "start": 61.656,
+   "end": 63.677
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "boss": "MAYOR OAK",
+  "scientist": "GRANDPA LOU",
+  "kid": "THEO"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.304
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 2.304,
+   "end": 4.607
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 3200,
+    "to": 11,
+    "prefix": "$",
+    "label": "MIA'S SAVINGS"
+   },
+   "speaker": "narrator",
+   "start": 4.607,
+   "end": 8.597
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "friend",
+   "start": 8.597,
+   "end": 11.1
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [],
+   "ui": {
+    "type": "stamp",
+    "text": "7 DAYS",
+    "color": "#E0312B"
+   },
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 11.1,
+   "end": 14.92
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "walk",
+     "expr": "sad",
+     "scale": 1.5
+    }
+   ],
+   "speaker": "narrator",
+   "start": 14.92,
+   "end": 16.766
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "walk",
+     "expr": "sad",
+     "scale": 1.5,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 16.766,
+   "end": 18.612
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "kid",
+     "x": 0.15,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.5
+    },
+    {
+     "id": "friend",
+     "x": 0.38,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.6
+    },
+    {
+     "id": "boss",
+     "x": 0.62,
+     "pose": "phone",
+     "expr": "sad",
+     "depth": 0.6
+    },
+    {
+     "id": "scientist",
+     "x": 0.85,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.5
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 18.612,
+   "end": 21.386
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "kid",
+     "x": 0.15,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.5,
+     "enter": "none"
+    },
+    {
+     "id": "friend",
+     "x": 0.38,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.6,
+     "enter": "none"
+    },
+    {
+     "id": "boss",
+     "x": 0.62,
+     "pose": "phone",
+     "expr": "sad",
+     "depth": 0.6,
+     "enter": "none"
+    },
+    {
+     "id": "scientist",
+     "x": 0.85,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.5,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 21.386,
+   "end": 24.16
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 24.16,
+   "end": 26.727
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 26.727,
+   "end": 28.758
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "bit",
+   "start": 28.758,
+   "end": 30.789
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "neutral",
+     "scale": 1.9
+    }
+   ],
+   "speaker": "hero",
+   "start": 30.789,
+   "end": 32.905
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "W\u00d6RGL: A STAMP A MONTH"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.8,
+     "expr": "think",
+     "scale": 0.9
+    }
+   ],
+   "transition": "flash",
+   "speaker": "bit",
+   "start": 32.905,
+   "end": 34.956
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "W\u00d6RGL: A STAMP A MONTH"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.8,
+     "expr": "think",
+     "scale": 0.9,
+     "enter": "none"
+    }
+   ],
+   "transition": "cut",
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.8,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "fx": [],
+   "sfx": [],
+   "speaker": "bit",
+   "start": 34.956,
+   "end": 37.008
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "neutral",
+     "scale": 0.9
+    }
+   ],
+   "ui": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "W\u00d6RGL",
+      "value": 0.1,
+      "color": "#2DBE7E"
+     },
+     {
+      "label": "BIT",
+      "value": 1.0,
+      "color": "#FF3B3B"
+     }
+    ],
+    "tag": "1%/month"
+   },
+   "speaker": "bit",
+   "start": 37.008,
+   "end": 39.98
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 39.98,
+   "end": 42.248
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "neutral",
+     "scale": 1.9
+    }
+   ],
+   "speaker": "hero",
+   "start": 42.248,
+   "end": 43.233
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "W\u00d6RGL BUILT: HOUSES, A BRIDGE, A SKI JUMP"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.8,
+     "expr": "happy",
+     "scale": 0.9
+    }
+   ],
+   "transition": "flash",
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 43.233,
+   "end": 45.627
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "W\u00d6RGL BUILT: HOUSES, A BRIDGE, A SKI JUMP"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.8,
+     "expr": "happy",
+     "scale": 0.9,
+     "enter": "none"
+    }
+   ],
+   "transition": "cut",
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.8,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "fx": [],
+   "speaker": "bit",
+   "start": 45.627,
+   "end": 48.021
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 48.021,
+   "end": 50.609
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "speaker": "narrator",
+   "start": 50.609,
+   "end": 53.533
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [],
+   "ui": {
+    "type": "card",
+    "text": "OLD MILL BRIDGE",
+    "sub": "closed since 2014",
+    "color": "#E0312B"
+   },
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 53.533,
+   "end": 55.881
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 55.881,
+   "end": 57.551
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "hero",
+   "start": 57.551,
+   "end": 59.221
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.15,
+    "y": 0.5,
+    "push": 0.12
+   },
+   "sfx": [
+    {
+     "type": "riser"
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "speaker": "bit",
+   "start": 59.221,
+   "end": 61.596
+  }
+ ],
+ "endStart": 61.596,
+ "endText": "PART 6",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 5/8"
+}

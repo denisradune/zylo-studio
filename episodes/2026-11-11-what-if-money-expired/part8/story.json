@@ -1,0 +1,563 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "boss": "MAYOR OAK",
+  "scientist": "GRANDPA LOU",
+  "kid": "THEO"
+ },
+ "title": "What If Your Money Expired? (Part 8)",
+ "seed": 5708,
+ "partLabel": "PART 8/8",
+ "end": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part eight. Day thirty. Bit must *delete it*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit presses delete. Melt Money is *gone*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But the bridge is still standing. *Everything* is.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia's bakery has a new oven. And a *line*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 52,
+     "label": "IN LINE"
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Jay. People still spend. Even with *normal money*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "They got used to it. Spending *here*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mayor Oak hands Bit a *medal*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.72,
+      "expr": "happy",
+      "scale": 1.0
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "HONORARY CITIZEN",
+     "color": "#FFD400"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "And the potatoes? We made the *world's biggest soup*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Grandpa Lou reveals his surprise. On the *hill*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A giant wooden *ski jump*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "LOU'S SKI JUMP",
+     "sub": "est. today",
+     "color": "#FFD400"
+    },
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Lou. It hasn't snowed here in *forty years*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "W\u00f6rgl had one. Now *Millbrook* has one.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Fun fact. That part is *true*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia bakes a cake shaped like *a bridge*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "On the house, Jay. You *saved* this place.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "No. This time, I *pay*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He walks outside. Something cold touches his *nose*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "For the first time in forty years, it's *snowing*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "shocked",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "cheer",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "shocked",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     },
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Told you. *Ski season*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "hit",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for a new What if every day.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

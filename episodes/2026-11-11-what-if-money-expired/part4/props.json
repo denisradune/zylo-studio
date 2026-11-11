@@ -1,0 +1,2030 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 68.04,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 143,
+   "endMs": 453,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "four.",
+   "startMs": 453,
+   "endMs": 975,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Bit's",
+   "startMs": 1316,
+   "endMs": 1636,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "update",
+   "startMs": 1636,
+   "endMs": 2016,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "made",
+   "startMs": 2016,
+   "endMs": 2256,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "money",
+   "startMs": 2256,
+   "endMs": 2596,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "melt",
+   "startMs": 2596,
+   "endMs": 3126,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 3126,
+   "endMs": 3426,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "minute.",
+   "startMs": 3426,
+   "endMs": 3769,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Midnight.",
+   "startMs": 4069,
+   "endMs": 4752,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Millbrook",
+   "startMs": 5093,
+   "endMs": 5583,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 5583,
+   "endMs": 5953,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "awake.",
+   "startMs": 5953,
+   "endMs": 6416,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 6803,
+   "endMs": 7023,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "shopping.",
+   "startMs": 7023,
+   "endMs": 7720,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "In",
+   "startMs": 8063,
+   "endMs": 8233,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 8233,
+   "endMs": 8393,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "hour,",
+   "startMs": 8393,
+   "endMs": 8823,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "money",
+   "startMs": 8823,
+   "endMs": 9153,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "loses",
+   "startMs": 9153,
+   "endMs": 9643,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "almost",
+   "startMs": 9643,
+   "endMs": 10093,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "half",
+   "startMs": 10093,
+   "endMs": 10353,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "its",
+   "startMs": 10353,
+   "endMs": 10563,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "value.",
+   "startMs": 10563,
+   "endMs": 11049,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "People",
+   "startMs": 11349,
+   "endMs": 11699,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "buy",
+   "startMs": 11699,
+   "endMs": 12069,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "anything.",
+   "startMs": 12069,
+   "endMs": 12736,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Lamps.",
+   "startMs": 13077,
+   "endMs": 13717,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Ladders.",
+   "startMs": 14080,
+   "endMs": 14848,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "A",
+   "startMs": 15189,
+   "endMs": 15419,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "tuba.",
+   "startMs": 15419,
+   "endMs": 16021,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "I",
+   "startMs": 16364,
+   "endMs": 16544,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "bought",
+   "startMs": 16544,
+   "endMs": 16804,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 16804,
+   "endMs": 16894,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "canoe.",
+   "startMs": 16894,
+   "endMs": 17409,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "We",
+   "startMs": 17751,
+   "endMs": 17911,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 17911,
+   "endMs": 18221,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 18221,
+   "endMs": 18381,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 18381,
+   "endMs": 18491,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "lake.",
+   "startMs": 18491,
+   "endMs": 18860,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Mia's",
+   "startMs": 19181,
+   "endMs": 19561,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "bakery",
+   "startMs": 19561,
+   "endMs": 20021,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 20021,
+   "endMs": 20281,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "open",
+   "startMs": 20281,
+   "endMs": 20621,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "all",
+   "startMs": 20621,
+   "endMs": 20901,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "night.",
+   "startMs": 20901,
+   "endMs": 21251,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 21699,
+   "endMs": 21959,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "empty.",
+   "startMs": 21959,
+   "endMs": 22552,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "No",
+   "startMs": 22809,
+   "endMs": 23119,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "flour,",
+   "startMs": 23119,
+   "endMs": 23529,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "no",
+   "startMs": 23529,
+   "endMs": 23769,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "sugar.",
+   "startMs": 23769,
+   "endMs": 24217,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "They",
+   "startMs": 24519,
+   "endMs": 24639,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "bought",
+   "startMs": 24639,
+   "endMs": 24819,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 24819,
+   "endMs": 25009,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "chairs.",
+   "startMs": 25009,
+   "endMs": 25564,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 25888,
+   "endMs": 26218,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "finds",
+   "startMs": 26218,
+   "endMs": 26588,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 26588,
+   "endMs": 26868,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "hiding",
+   "startMs": 26868,
+   "endMs": 27358,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 27358,
+   "endMs": 27418,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "a",
+   "startMs": 27408,
+   "endMs": 27548,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "drawer.",
+   "startMs": 27548,
+   "endMs": 28043,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Bit!",
+   "startMs": 28343,
+   "endMs": 28769,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Undo",
+   "startMs": 29071,
+   "endMs": 29381,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "it!",
+   "startMs": 29381,
+   "endMs": 29668,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Make",
+   "startMs": 29969,
+   "endMs": 30099,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 30099,
+   "endMs": 30279,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "monthly!",
+   "startMs": 30279,
+   "endMs": 30780,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 31104,
+   "endMs": 31264,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "update",
+   "startMs": 31264,
+   "endMs": 31654,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 31654,
+   "endMs": 31784,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "locked",
+   "startMs": 31784,
+   "endMs": 32154,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "till",
+   "startMs": 32154,
+   "endMs": 32344,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "morning.",
+   "startMs": 32344,
+   "endMs": 32811,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "I",
+   "startMs": 33113,
+   "endMs": 33313,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "wrote",
+   "startMs": 33313,
+   "endMs": 33613,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 33613,
+   "endMs": 33753,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 33753,
+   "endMs": 33873,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "stop",
+   "startMs": 33873,
+   "endMs": 34173,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "hackers.",
+   "startMs": 34173,
+   "endMs": 34756,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Like",
+   "startMs": 35079,
+   "endMs": 35419,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "me.",
+   "startMs": 35419,
+   "endMs": 35847,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Three",
+   "startMs": 36192,
+   "endMs": 36522,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "a.m.",
+   "startMs": 36522,
+   "endMs": 37344,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Grandpa",
+   "startMs": 37664,
+   "endMs": 38124,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Lou",
+   "startMs": 38124,
+   "endMs": 38544,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "finally",
+   "startMs": 38544,
+   "endMs": 39084,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "runs",
+   "startMs": 39084,
+   "endMs": 39484,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 39484,
+   "endMs": 39604,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 39604,
+   "endMs": 39684,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "store.",
+   "startMs": 39684,
+   "endMs": 40181,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Every",
+   "startMs": 40503,
+   "endMs": 40873,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "shelf",
+   "startMs": 40873,
+   "endMs": 41253,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 41253,
+   "endMs": 41483,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "empty.",
+   "startMs": 41483,
+   "endMs": 42060,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Except",
+   "startMs": 42401,
+   "endMs": 42791,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "one:",
+   "startMs": 42791,
+   "endMs": 43171,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "birdseed.",
+   "startMs": 43171,
+   "endMs": 44023,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Fine.",
+   "startMs": 44283,
+   "endMs": 45136,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "I'm",
+   "startMs": 45440,
+   "endMs": 45710,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "buying",
+   "startMs": 45710,
+   "endMs": 46090,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "all",
+   "startMs": 46090,
+   "endMs": 46390,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "the",
+   "startMs": 46390,
+   "endMs": 46450,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "birdseed.",
+   "startMs": 46400,
+   "endMs": 47659,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Seven",
+   "startMs": 47961,
+   "endMs": 48351,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "a.m.",
+   "startMs": 48351,
+   "endMs": 49220,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 49564,
+   "endMs": 49734,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "update",
+   "startMs": 49734,
+   "endMs": 50124,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "finally",
+   "startMs": 50124,
+   "endMs": 50664,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "stops.",
+   "startMs": 50664,
+   "endMs": 51356,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 51680,
+   "endMs": 51790,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "town",
+   "startMs": 51790,
+   "endMs": 52060,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "has",
+   "startMs": 52060,
+   "endMs": 52290,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "canoes,",
+   "startMs": 52290,
+   "endMs": 52800,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "tubas,",
+   "startMs": 52800,
+   "endMs": 53300,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "potatoes.",
+   "startMs": 53300,
+   "endMs": 54091,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 54432,
+   "endMs": 54662,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "no",
+   "startMs": 54662,
+   "endMs": 54912,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "money.",
+   "startMs": 54912,
+   "endMs": 55328,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Jay.",
+   "startMs": 55607,
+   "endMs": 56375,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "We're",
+   "startMs": 56657,
+   "endMs": 57007,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "rich.",
+   "startMs": 57007,
+   "endMs": 57596,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "In",
+   "startMs": 57919,
+   "endMs": 58159,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "potatoes.",
+   "startMs": 58159,
+   "endMs": 59220,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 59544,
+   "endMs": 59814,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Mia's",
+   "startMs": 59814,
+   "endMs": 60214,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "phone",
+   "startMs": 60214,
+   "endMs": 60604,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "rings.",
+   "startMs": 60604,
+   "endMs": 61101,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 61443,
+   "endMs": 61613,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "her",
+   "startMs": 61613,
+   "endMs": 61863,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "landlord.",
+   "startMs": 61863,
+   "endMs": 62659,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "Rent",
+   "startMs": 62937,
+   "endMs": 63287,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 63287,
+   "endMs": 63447,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "due",
+   "startMs": 63447,
+   "endMs": 63587,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "today.",
+   "startMs": 63587,
+   "endMs": 64025,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 64305,
+   "endMs": 64405,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 64405,
+   "endMs": 64605,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "savings",
+   "startMs": 64605,
+   "endMs": 65105,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "melted.",
+   "startMs": 65105,
+   "endMs": 65692,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Part",
+   "startMs": 65976,
+   "endMs": 66236,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "five",
+   "startMs": 66236,
+   "endMs": 66696,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "drops",
+   "startMs": 66696,
+   "endMs": 67076,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 67076,
+   "endMs": 67296,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 67296,
+   "endMs": 67526,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 67526,
+   "endMs": 68003,
+   "line": 19,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 3.807
+  },
+  {
+   "speaker": "narrator",
+   "start": 4.027,
+   "end": 7.8
+  },
+  {
+   "speaker": "narrator",
+   "start": 8.02,
+   "end": 11.087
+  },
+  {
+   "speaker": "narrator",
+   "start": 11.307,
+   "end": 16.08
+  },
+  {
+   "speaker": "kid",
+   "start": 16.3,
+   "end": 18.919
+  },
+  {
+   "speaker": "narrator",
+   "start": 19.139,
+   "end": 22.589
+  },
+  {
+   "speaker": "friend",
+   "start": 22.809,
+   "end": 25.604
+  },
+  {
+   "speaker": "narrator",
+   "start": 25.824,
+   "end": 28.101
+  },
+  {
+   "speaker": "hero",
+   "start": 28.321,
+   "end": 30.863
+  },
+  {
+   "speaker": "bit",
+   "start": 31.083,
+   "end": 32.872
+  },
+  {
+   "speaker": "bit",
+   "start": 33.092,
+   "end": 35.908
+  },
+  {
+   "speaker": "narrator",
+   "start": 36.128,
+   "end": 40.24
+  },
+  {
+   "speaker": "narrator",
+   "start": 40.46,
+   "end": 44.063
+  },
+  {
+   "speaker": "scientist",
+   "start": 44.283,
+   "end": 47.72
+  },
+  {
+   "speaker": "narrator",
+   "start": 47.94,
+   "end": 51.417
+  },
+  {
+   "speaker": "narrator",
+   "start": 51.637,
+   "end": 55.387
+  },
+  {
+   "speaker": "boss",
+   "start": 55.607,
+   "end": 59.281
+  },
+  {
+   "speaker": "narrator",
+   "start": 59.501,
+   "end": 62.717
+  },
+  {
+   "speaker": "friend",
+   "start": 62.937,
+   "end": 65.713
+  },
+  {
+   "speaker": "narrator",
+   "start": 65.933,
+   "end": 68.04
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "boss": "MAYOR OAK",
+  "scientist": "GRANDPA LOU",
+  "kid": "THEO"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "glitch",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "glitch"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 1.984
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "glitch",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "glitch"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 1.984,
+   "end": 3.967
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "kid",
+     "x": 0.15,
+     "pose": "run",
+     "expr": "scared",
+     "depth": 0.5
+    },
+    {
+     "id": "friend",
+     "x": 0.38,
+     "pose": "run",
+     "expr": "scared",
+     "depth": 0.6
+    },
+    {
+     "id": "boss",
+     "x": 0.62,
+     "pose": "phone",
+     "expr": "scared",
+     "depth": 0.6
+    },
+    {
+     "id": "scientist",
+     "x": 0.85,
+     "pose": "run",
+     "expr": "scared",
+     "depth": 0.5
+    }
+   ],
+   "fx": [
+    {
+     "type": "alarm"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "siren",
+     "volume": 0.3
+    }
+   ],
+   "transition": "whip",
+   "speaker": "narrator",
+   "start": 3.967,
+   "end": 5.963
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "kid",
+     "x": 0.15,
+     "pose": "run",
+     "expr": "scared",
+     "depth": 0.5,
+     "enter": "none"
+    },
+    {
+     "id": "friend",
+     "x": 0.38,
+     "pose": "run",
+     "expr": "scared",
+     "depth": 0.6,
+     "enter": "none"
+    },
+    {
+     "id": "boss",
+     "x": 0.62,
+     "pose": "phone",
+     "expr": "scared",
+     "depth": 0.6,
+     "enter": "none"
+    },
+    {
+     "id": "scientist",
+     "x": 0.85,
+     "pose": "run",
+     "expr": "scared",
+     "depth": 0.5,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "alarm"
+    }
+   ],
+   "sfx": [],
+   "transition": "cut",
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "speaker": "narrator",
+   "start": 5.963,
+   "end": 7.96
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.78,
+     "expr": "sad",
+     "scale": 0.9
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 100,
+    "to": 55,
+    "prefix": "$",
+    "label": "ONE HOUR LATER"
+   },
+   "speaker": "narrator",
+   "start": 7.96,
+   "end": 11.247
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "kid",
+     "x": 0.15,
+     "pose": "throw",
+     "expr": "grin",
+     "depth": 0.5
+    },
+    {
+     "id": "friend",
+     "x": 0.38,
+     "pose": "throw",
+     "expr": "grin",
+     "depth": 0.6
+    },
+    {
+     "id": "boss",
+     "x": 0.62,
+     "pose": "phone",
+     "expr": "grin",
+     "depth": 0.6
+    },
+    {
+     "id": "scientist",
+     "x": 0.85,
+     "pose": "throw",
+     "expr": "grin",
+     "depth": 0.5
+    }
+   ],
+   "fx": [
+    {
+     "type": "throwObj",
+     "from": [
+      300,
+      900
+     ],
+     "to": [
+      800,
+      500
+     ],
+     "at": 0.3,
+     "dur": 0.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "crash"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 11.247,
+   "end": 13.744
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "kid",
+     "x": 0.15,
+     "pose": "throw",
+     "expr": "grin",
+     "depth": 0.5,
+     "enter": "none"
+    },
+    {
+     "id": "friend",
+     "x": 0.38,
+     "pose": "throw",
+     "expr": "grin",
+     "depth": 0.6,
+     "enter": "none"
+    },
+    {
+     "id": "boss",
+     "x": 0.62,
+     "pose": "phone",
+     "expr": "grin",
+     "depth": 0.6,
+     "enter": "none"
+    },
+    {
+     "id": "scientist",
+     "x": 0.85,
+     "pose": "throw",
+     "expr": "grin",
+     "depth": 0.5,
+     "enter": "none"
+    }
+   ],
+   "fx": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 13.744,
+   "end": 16.24
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "kid",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "happy",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "kid",
+   "start": 16.24,
+   "end": 19.079
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sleepy",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 19.079,
+   "end": 20.914
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sleepy",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 20.914,
+   "end": 22.749
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "friend",
+   "start": 22.749,
+   "end": 24.257
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "friend",
+   "start": 24.257,
+   "end": 25.764
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "run",
+     "expr": "angry",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 25.764,
+   "end": 28.261
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6,
+    "shake": 0.3
+   },
+   "speaker": "hero",
+   "start": 28.261,
+   "end": 31.023
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "01:00",
+    "to": "07:00"
+   },
+   "speaker": "bit",
+   "start": 31.023,
+   "end": 33.032
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "dim",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 33.032,
+   "end": 34.55
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "dim",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "bit",
+   "start": 34.55,
+   "end": 36.068
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "run",
+     "expr": "scared",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 36.068,
+   "end": 38.234
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "run",
+     "expr": "scared",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 38.234,
+   "end": 40.4
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "shocked",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "BIRDSEED",
+    "sub": "50 lb bag",
+    "color": "#E2A23B"
+   },
+   "speaker": "narrator",
+   "start": 40.4,
+   "end": 44.223
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "scientist",
+   "start": 44.223,
+   "end": 46.051
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "scientist",
+   "start": 46.051,
+   "end": 47.88
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "06:59",
+    "to": "07:00"
+   },
+   "sfx": [
+    {
+     "type": "powerdown"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 47.88,
+   "end": 51.577
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "kid",
+     "x": 0.15,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.5
+    },
+    {
+     "id": "friend",
+     "x": 0.38,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.6
+    },
+    {
+     "id": "boss",
+     "x": 0.62,
+     "pose": "phone",
+     "expr": "sad",
+     "depth": 0.6
+    },
+    {
+     "id": "scientist",
+     "x": 0.85,
+     "pose": "idle",
+     "expr": "sad",
+     "depth": 0.5
+    }
+   ],
+   "ui": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "STUFF",
+      "value": 1.0,
+      "color": "#FFD400"
+     },
+     {
+      "label": "MONEY",
+      "value": 0.02,
+      "color": "#2DBE7E"
+     }
+    ],
+    "tag": "$0"
+   },
+   "speaker": "narrator",
+   "start": 51.577,
+   "end": 55.547
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "boss",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "boss",
+   "start": 55.547,
+   "end": 57.494
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "boss",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "sad",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "boss",
+   "start": 57.494,
+   "end": 59.441
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "scared",
+     "scale": 1.7
+    }
+   ],
+   "sfx": [
+    {
+     "type": "ring"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 59.441,
+   "end": 61.159
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "scared",
+     "scale": 1.7,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 61.159,
+   "end": 62.877
+  },
+  {
+   "set": {
+    "type": "store",
+    "damage": 2
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "sad",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.15,
+    "y": 0.5,
+    "push": 0.12
+   },
+   "sfx": [
+    {
+     "type": "riser"
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "speaker": "friend",
+   "start": 62.877,
+   "end": 65.873
+  }
+ ],
+ "endStart": 65.873,
+ "endText": "PART 5",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 4/8"
+}

@@ -1,0 +1,490 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "boss": "MAYOR OAK",
+  "scientist": "GRANDPA LOU",
+  "kid": "THEO"
+ },
+ "title": "What If Your Money Expired? (Part 5)",
+ "seed": 5705,
+ "partLabel": "PART 5/8",
+ "end": {
+  "text": "PART 6",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part five. The money melted. Mia can't *pay rent*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia counts what's left of her savings. *Eleven dollars*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 3200,
+     "to": 11,
+     "prefix": "$",
+     "label": "MIA'S SAVINGS"
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Three years of cakes. Gone in *one night*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The landlord gives her one week. Then it *closes*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [],
+    "ui": {
+     "type": "stamp",
+     "text": "7 DAYS",
+     "color": "#E0312B"
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay walks home. The streets are full of *junk*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "sad",
+      "scale": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Canoes in driveways. Tubas in trash cans. *Potatoes everywhere*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, I did this. I wanted to *save her*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "No. I did this. I copied W\u00f6rgl *wrong*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "So what did W\u00f6rgl actually *get right*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The stamp was small. About one percent. *Per month*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "W\u00d6RGL: A STAMP A MONTH"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Enough to spend it. Not enough to *panic*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "neutral",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "W\u00d6RGL",
+       "value": 0.1,
+       "color": "#2DBE7E"
+      },
+      {
+       "label": "BIT",
+       "value": 1.0,
+       "color": "#FF3B3B"
+      }
+     ],
+     "tag": "1%/month"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "And the town didn't spend it on *canoes*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Then on *what*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Houses. A reservoir. A bridge. And a *ski jump*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "W\u00d6RGL BUILT: HOUSES, A BRIDGE, A SKI JUMP"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "transition": "flash",
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "A ski jump? Bit, we don't have *snow*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But Jay is staring at the old *bridge* outside.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "It's been broken for *twelve years*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "OLD MILL BRIDGE",
+     "sub": "closed since 2014",
+     "color": "#E0312B"
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. Make it monthly. And this time, *we* choose.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. What do we build *first*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part six drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

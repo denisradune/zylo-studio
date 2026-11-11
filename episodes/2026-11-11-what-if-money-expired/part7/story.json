@@ -1,0 +1,577 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "boss": "MAYOR OAK",
+  "scientist": "GRANDPA LOU",
+  "kid": "THEO"
+ },
+ "title": "What If Your Money Expired? (Part 7)",
+ "seed": 5707,
+ "partLabel": "PART 7/8",
+ "end": {
+  "text": "PART 8",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part seven. A letter says Melt Money is *illegal*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "bit",
+   "say": "That happened to W\u00f6rgl too. In nineteen thirty *three*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "1933: AUSTRIA'S BANK ENDS W\u00d6RGL MONEY"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "sad",
+      "scale": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Austria's central bank shut it down. Only *official* money.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Two hundred towns wanted to copy it. *None did*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "sad",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 200,
+     "label": "TOWNS THAT PLANNED IT"
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "The letter gives us *thirty days*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "30 DAYS",
+     "color": "#E0312B"
+    },
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Then we finish everything in *thirty days*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day one. Forty people show up at the *bridge*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 40,
+     "label": "WORKERS"
+    },
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "They're paid in Melt Money. They spend it *Friday*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "moneyRain"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "At Mia's bakery. The barber. The *hardware store*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "pop",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day twelve. Mia's new oven *arrives*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day twenty. Mia pays rent. *All of it*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "PAID",
+     "color": "#2DBE7E"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Grandpa Lou empties his mattress. *Finally*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "throw",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 951,
+     "to": 0,
+     "prefix": "$",
+     "label": "GRANDPA LOU"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Lou! What did you *buy*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Wood. Lots of wood. It's a *surprise*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day twenty nine. The bridge opens. The town *cheers*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "ding",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Day thirty. Bit has to delete *Melt Money*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "It's the best thing I ever *built*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "I know, buddy. It's *okay*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit's finger hovers over the *button*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#E0312B"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "DELETE?",
+     "sub": "this cannot be undone",
+     "color": "#E0312B"
+    },
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The final part drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

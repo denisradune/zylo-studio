@@ -1,0 +1,592 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "boss": "MAYOR OAK",
+  "scientist": "GRANDPA LOU",
+  "kid": "THEO"
+ },
+ "title": "What If Your Money Expired? (Part 4)",
+ "seed": 5704,
+ "partLabel": "PART 4/8",
+ "end": {
+  "text": "PART 5",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part four. Bit's update made money melt *every minute*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Midnight. Millbrook is awake. And *shopping*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "run",
+      "expr": "scared",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "run",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "run",
+      "expr": "scared",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "alarm"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "siren",
+      "volume": 0.3
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "In one hour, money loses almost *half its value*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "sad",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 100,
+     "to": 55,
+     "prefix": "$",
+     "label": "ONE HOUR LATER"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "People buy anything. Lamps. Ladders. A *tuba*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "throw",
+      "expr": "grin",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "throw",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "throw",
+      "expr": "grin",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "throwObj",
+      "from": [
+       300,
+       900
+      ],
+      "to": [
+       800,
+       500
+      ],
+      "at": 0.3,
+      "dur": 0.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "crash"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "I bought a canoe. We don't have a *lake*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia's bakery is open all night. And *empty*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "No flour, no sugar. They bought my *chairs*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay finds Bit hiding *in a drawer*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! Undo it! Make it *monthly*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The update is locked till *morning*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "01:00",
+     "to": "07:00"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I wrote it to stop *hackers*. Like me.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three a.m. Grandpa Lou finally runs to the *store*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every shelf is empty. Except one: *birdseed*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "BIRDSEED",
+     "sub": "50 lb bag",
+     "color": "#E2A23B"
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Fine. I'm buying *all* the birdseed.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Seven a.m. The update finally *stops*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "06:59",
+     "to": "07:00"
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The town has canoes, tubas, potatoes. And *no money*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "STUFF",
+       "value": 1.0,
+       "color": "#FFD400"
+      },
+      {
+       "label": "MONEY",
+       "value": 0.02,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "$0"
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Jay. We're *rich*. In *potatoes*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Mia's phone rings. It's her *landlord*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ring"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Rent is due today. And my savings *melted*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "sad",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part five drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
