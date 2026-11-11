@@ -30,3 +30,10 @@
 | 26 | 2026-11-11 | What If One Man Made the Zombies? 🧟 S2 · Part 4 #shorts | what-if: disaster (part4) | sources.md | https://youtube.com/shorts/t3b4cnkFmp4 |
 | 27 | 2026-11-11 | What If an AI Read Every Christmas Letter? 🎅 Part 6 #shorts | what-if: holiday (Christmas, AI/Bit) (part6) | sources.md | https://youtube.com/shorts/CdmBLsSGHl8 |
 | 28 | 2026-11-11 | What If a Bot Waited for One Cent? 🛒 Part 3 #shorts | what-if: money (part3) | sources.md | https://youtube.com/shorts/UR-W7MDc-vQ |
+| 29 | 2026-11-11 | What If Your Money Expired? 💸 Part 1 #shorts | what-if: money (part1) | sources.md | https://youtube.com/shorts/1muvZhUDiA0 |
+| 30 | 2026-11-13 | What If Half the City Ate Sunlight? 🌞 Part 3 #shorts | what-if: sci-fi (real nature) (part3) | sources.md | https://youtube.com/shorts/IDkL3J9p94M |
+| 31 | 2026-11-13 | What If Black Hit 26 Times? 🎰 Season 2 · Part 6 #shorts | what-if: money (part6) | sources.md | https://youtube.com/shorts/DtMVp-UVFDQ |
+| 32 | 2026-11-13 | What If a Virus Had a Virus? 🧟 S2 · Part 5 #shorts | what-if: disaster (part5) | sources.md | https://youtube.com/shorts/96jWpmFOhD0 |
+| 33 | 2026-11-13 | What If Santa Raced an AI on Christmas Eve? 🎅 Part 7 #shorts | what-if: holiday (Christmas, AI/Bit) (part7) | sources.md | https://youtube.com/shorts/XZV0XOjS_os |
+| 34 | 2026-11-13 | What If a Bot Bought Everything for $4? 🛒 Part 4 #shorts | what-if: money (part4) | sources.md | https://youtube.com/shorts/Wjj80Rd4tqI |
+| 35 | 2026-11-13 | What If Everyone Had to Spend Today? 💸 Part 2 #shorts | what-if: money (part2) | sources.md | https://youtube.com/shorts/CjVXbs_wFcs |
