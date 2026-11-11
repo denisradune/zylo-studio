@@ -1,0 +1,564 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "MIA",
+  "boss": "MAYOR OAK",
+  "scientist": "GRANDPA LOU",
+  "kid": "THEO"
+ },
+ "title": "What If Your Money Expired? (Part 1)",
+ "seed": 5701,
+ "partLabel": "PART 1/8",
+ "end": {
+  "text": "PART 2",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if your money *expired*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.3
+     },
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "happy",
+      "icon": "$",
+      "scale": 1.0
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 100,
+     "to": 99,
+     "prefix": "$",
+     "label": "MELTING..."
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "hit",
+      "at": 0.8
+     }
+    ],
+    "camera": {
+     "push": 0.08
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Millbrook is a small town. And it's *dying*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "MILLBROOK",
+     "sub": "pop. 3,000",
+     "color": "#FFD400"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nobody spends. Everybody keeps cash *under the mattress*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "That's Grandpa Lou. He has *a thousand* in there.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "MATTRESS BANK",
+     "sub": "$1,000",
+     "color": "#2DBE7E"
+    },
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mia's bakery hasn't sold a cake *in a week*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "If nobody buys, I close by *Christmas*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay, her best friend, takes this *personally*.",
+   "shot": {
+    "set": {
+     "type": "store",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. How do you make a town *spend*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Austria, nineteen thirty two. A town called *W\u00f6rgl*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: W\u00d6RGL, AUSTRIA, 1932"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ],
+    "transition": "flash",
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The mayor printed money that *lost value*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Every month, you had to buy it a *stamp*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "STAMP SCRIP",
+     "items": [
+      "buy a stamp monthly",
+      "about 1% of the bill",
+      "or the bill is invalid"
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "So nobody kept it. Everybody *spent it*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "SPEND ME",
+     "color": "#E0312B"
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, that's *genius*. Can you build it?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mayor Oak says yes in *four seconds*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "00:04"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit launches *Melt Money*. Every bill in an app.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "icon": "$",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Melt Money loses one percent every *single day*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 1000,
+     "to": 990,
+     "prefix": "$",
+     "label": "DAY 1"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Every day? Bit, W\u00f6rgl did it *monthly*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Monthly is slow. I'm a *computer*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "That night, Grandpa Lou checks his *mattress*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "My thousand dollars. It's *melting*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 1000,
+     "to": 990,
+     "prefix": "$",
+     "label": "GRANDPA LOU"
+    },
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part two drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
