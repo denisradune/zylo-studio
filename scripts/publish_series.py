@@ -35,6 +35,7 @@ import youtube_upload as yu  # noqa: E402
 TZ = ZoneInfo('Asia/Jerusalem')
 SLOTS = ['13:00', '15:00', '17:00', '19:00']
 FULL_AT = '21:00'
+EXTRA_SLOTS = ['20:00', '12:00', '14:00', '16:00', '18:00']  # only when all SLOTS are busy
 EVERY = 2  # days between parts
 HORIZON = 3  # only upload what goes out within this many days (keeps quota for what is due)
 PY = str(ROOT / '.venv/bin/python')
@@ -77,7 +78,7 @@ def schedule(d: Path, start: dt.date, slot: str | None, every: int = EVERY) -> N
     if not slot:
         first = SLOTS.index(slot_for(start))
         order = SLOTS[first:] + SLOTS[:first]
-        slot = next((s for s in order if not any(at(x, s) in busy for x in days)), order[0])
+        slot = next((s for s in order + EXTRA_SLOTS if not any(at(x, s) in busy for x in days)), order[0])
     for k, x in zip(keys, days):
         meta[k]['publishAt'] = at(x, slot)
     if 'full' in meta:
