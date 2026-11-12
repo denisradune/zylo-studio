@@ -40,6 +40,7 @@ Audience: English-speaking 16–35, loves "wait, really?" moments. Talk to the o
 | Orchestration | `scripts/make_short.py episodes/<slug>` |
 | QC | `scripts/check_render.py` → then LOOK at the extracted frames yourself |
 | Upload | `scripts/youtube_upload.py` (OAuth, tokens in `.env`) |
+| TikTok | `scripts/tiktok_upload.py post-due` — each vertical video the day after its YouTube release (TT_* creds) |
 
 The digitalsamba/claude-code-video-toolkit is cloned next to this repo by `scripts/setup.sh`; its skills
 (`.claude/skills/remotion`, `ffmpeg`, …) are the reference for Remotion/FFmpeg patterns, and its cloud tools

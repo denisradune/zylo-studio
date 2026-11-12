@@ -108,7 +108,16 @@ the next 3 days across all series, oldest first, re-renders whatever is missing 
 sessions), publishes immediately when a slot already passed, writes `uploads.json` + `log.md`, and stops cleanly at
 the quota — tomorrow's run continues.
 
+### TikTok (every day, after the YouTube upload)
+```bash
+.venv/bin/python scripts/tiktok_upload.py post-due
+```
+Posts each vertical video (parts + vertical full cut) to TikTok the calendar day AFTER it went out on YouTube,
+re-rendering if needed, max 6 per run, state in `episodes/<slug>/tiktok.json`. If it says "not connected" or that
+public posting is not allowed yet (app not audited by TikTok), skip it and mention that in the summary — never block
+the YouTube work on TikTok. If it prints that the refresh token rotated, tell the owner to update TT_REFRESH_TOKEN.
+
 ## 4. Save
-Commit (`stats/`, `episodes/<slug>`, `uploads.json`s, `log.md`, any template changes) and push to
+Commit (`stats/`, `episodes/<slug>`, `uploads.json`s, `tiktok.json`s, `log.md`, any template changes) and push to
 `claude/magical-newton-hmla9z`. Finish with a short Russian summary: what the stats showed (hits/flops), why today's topic, premise, links + publish times, anything left
 for tomorrow.
