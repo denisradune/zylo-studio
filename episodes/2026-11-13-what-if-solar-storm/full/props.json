@@ -8289,7 +8289,7 @@
   {
    "set": {
     "type": "news",
-    "headline": "REAL: THE CARRINGTON EVENT, 1859"
+    "headline": "REAL: CARRINGTON, 1859"
    },
    "cast": [
     {
@@ -8307,7 +8307,7 @@
   {
    "set": {
     "type": "news",
-    "headline": "REAL: THE CARRINGTON EVENT, 1859"
+    "headline": "REAL: CARRINGTON, 1859"
    },
    "cast": [
     {
@@ -9978,7 +9978,7 @@
   {
    "set": {
     "type": "news",
-    "headline": "1859: MINERS WAKE FOR BREAKFAST"
+    "headline": "1859: NIGHT BREAKFAST"
    },
    "cast": [],
    "transition": "whip",
@@ -9989,7 +9989,7 @@
   {
    "set": {
     "type": "news",
-    "headline": "1859: MINERS WAKE FOR BREAKFAST"
+    "headline": "1859: NIGHT BREAKFAST"
    },
    "cast": [],
    "transition": "cut",
@@ -10968,7 +10968,7 @@
   {
    "set": {
     "type": "news",
-    "headline": "REAL: 1859 TELEGRAPHS RAN ON THE STORM"
+    "headline": "REAL: 1859 STORM POWER"
    },
    "cast": [
     {
@@ -10986,7 +10986,7 @@
   {
    "set": {
     "type": "news",
-    "headline": "REAL: 1859 TELEGRAPHS RAN ON THE STORM"
+    "headline": "REAL: 1859 STORM POWER"
    },
    "cast": [
     {
@@ -13612,7 +13612,7 @@
   {
    "set": {
     "type": "news",
-    "headline": "REAL: JULY 2012 STORM MISSED EARTH"
+    "headline": "REAL: 2012 NEAR MISS"
    },
    "cast": [
     {
@@ -13630,7 +13630,7 @@
   {
    "set": {
     "type": "news",
-    "headline": "REAL: JULY 2012 STORM MISSED EARTH"
+    "headline": "REAL: 2012 NEAR MISS"
    },
    "cast": [
     {
