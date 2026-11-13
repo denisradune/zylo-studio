@@ -222,7 +222,7 @@ parts = [("Seventeen Hours", p1), ("Going Dark", p2), ("Green Sky", p3), ("No Si
 
 series = {
  "title": "What If a Solar Storm Hit Today?",
- "rubric": "what-if: disaster (real history)", "mood": "tense", "seed": 5900, "every": 2,
+ "rubric": "what-if: disaster (real history)", "mood": "tension", "seed": 5900, "every": 2,
  "names": {"hero": "JAY", "bit": "BIT", "friend": "NIA", "boss": "MAYOR DOYLE", "scientist": "GRANDPA EZRA", "kid": "MILO"},
  "finale": {"text": "THE END", "sub": "Follow for a new What if every day"},
  "parts": [{"title": t, "lines": ls} for t, ls in parts],
