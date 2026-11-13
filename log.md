@@ -37,3 +37,6 @@
 | 33 | 2026-11-13 | What If Santa Raced an AI on Christmas Eve? 🎅 Part 7 #shorts | what-if: holiday (Christmas, AI/Bit) (part7) | sources.md | https://youtube.com/shorts/XZV0XOjS_os |
 | 34 | 2026-11-13 | What If a Bot Bought Everything for $4? 🛒 Part 4 #shorts | what-if: money (part4) | sources.md | https://youtube.com/shorts/Wjj80Rd4tqI |
 | 35 | 2026-11-13 | What If Everyone Had to Spend Today? 💸 Part 2 #shorts | what-if: money (part2) | sources.md | https://youtube.com/shorts/CjVXbs_wFcs |
+| 36 | 2026-11-13 | What If a Solar Storm Hit Today? ☀️ Part 1 #shorts | what-if: disaster (real history) (part1) | sources.md | https://youtube.com/shorts/klIF8rNkkDc |
+| 37 | 2026-11-15 | What If Your AI Had to Shut Down? ☀️ Part 2 #shorts | what-if: disaster (real history) (part2) | sources.md | https://youtube.com/shorts/uejj1vU6RmM |
+| 38 | 2026-11-15 | What If the Sun Didn't Come Back? 🌞 Part 4 #shorts | what-if: sci-fi (real nature) (part4) | sources.md | https://youtube.com/shorts/X7lymXHmAKM |
