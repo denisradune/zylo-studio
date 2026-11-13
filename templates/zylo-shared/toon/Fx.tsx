@@ -18,6 +18,8 @@ export type FxSpec =
   | { type: 'ufo'; x?: number; beam?: boolean }
   | { type: 'speedLines' }
   | { type: 'vignette'; color?: string }
+  /** Northern lights: waving curtains across the top of the sky. `colors` top-to-bottom tints, `y` = lower edge. */
+  | { type: 'aurora'; colors?: string[]; y?: number; strength?: number }
   /** An object (phone) flying in an arc from `from` to `to`, starting `at` seconds in, lasting `dur`. */
   | { type: 'throwObj'; from: [number, number]; to: [number, number]; at?: number; dur?: number }
   /** Bright screen glow at (x, y): what the zombies chase. */
@@ -145,6 +147,36 @@ export const FxLayer: React.FC<{ fx: FxSpec[]; f: number; fps: number }> = ({ fx
           return <Precip key={i} f={f} kind="rain" />;
         case 'snow':
           return <Precip key={i} f={f} kind="snow" />;
+        case 'aurora': {
+          const cols = e.colors ?? ['#3DFFB0', '#2FD3FF', '#C04BFF'];
+          const base = e.y ?? 760;
+          return (
+            <g key={i} style={{ mixBlendMode: 'screen' }} opacity={e.strength ?? 0.8}>
+              <defs>
+                {cols.map((c, k) => (
+                  <linearGradient key={k} id={`aur${i}_${k}`} x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stopColor={c} stopOpacity={0} />
+                    <stop offset="0.75" stopColor={c} stopOpacity={0.75} />
+                    <stop offset="1" stopColor={c} stopOpacity={0} />
+                  </linearGradient>
+                ))}
+              </defs>
+              {cols.map((_, k) => {
+                const pts: string[] = [];
+                const yb = base - k * 140;
+                for (let x = -40; x <= W + 40; x += 40) {
+                  const w = Math.sin(x / 170 + f / 22 + k * 1.7) * 60 + Math.sin(x / 63 - f / 15 + k) * 22;
+                  pts.push(`${x},${yb + w}`);
+                }
+                const top = pts.map((pt) => {
+                  const [x, y] = pt.split(',').map(Number);
+                  return `${x},${y - 420 - Math.sin(x / 90 + f / 30 + k) * 50}`;
+                }).reverse();
+                return <polygon key={k} points={[...pts, ...top].join(' ')} fill={`url(#aur${i}_${k})`} />;
+              })}
+            </g>
+          );
+        }
         case 'alarm':
           return <rect key={i} width={W} height={H} fill="#FF2D2D" opacity={0.18 + 0.14 * Math.sin(f / 4)} />;
         case 'glitch':

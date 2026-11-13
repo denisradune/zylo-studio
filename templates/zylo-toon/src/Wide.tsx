@@ -4,6 +4,7 @@ import { brand } from '../../zylo-shared/brand';
 import { LogoMark } from '../../zylo-shared/Chrome';
 import { FLOOR_Y, SetPiece, SetSpec, W } from '../../zylo-shared/toon/Backgrounds';
 import { Bit, BitExpr, Expr, Human, INK, LOOKS, Pose } from '../../zylo-shared/toon/Character';
+import { FxLayer, FxSpec } from '../../zylo-shared/toon/Fx';
 
 export type WideChapter = { start: number; label: string; title: string };
 export type WideProps = {
@@ -145,10 +146,12 @@ export type ThumbProps = {
   cropY?: number;
   cast: ThumbActor[];
   badge?: string;
+  /** Optional background effects (e.g. aurora), drawn over the set, under the cast. */
+  fx?: FxSpec[];
 };
 
 /** 1280x720 cartoon thumbnail: a cropped set, big characters on the right, big text on the left. */
-export const ToonThumb: React.FC<ThumbProps> = ({ text, set, cropY, cast, badge }) => {
+export const ToonThumb: React.FC<ThumbProps> = ({ text, set, cropY, cast, badge, fx }) => {
   const h = (W * 9) / 16;
   const y0 = cropY ?? FLOOR_Y - h + 140;
   const parts = text.split(/\s+/);
@@ -156,6 +159,7 @@ export const ToonThumb: React.FC<ThumbProps> = ({ text, set, cropY, cast, badge 
     <AbsoluteFill style={{ backgroundColor: brand.bg }}>
       <svg viewBox={`0 ${y0} ${W} ${h}`} width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
         <SetPiece spec={set} t={0} />
+        {fx && fx.length ? <FxLayer fx={fx} f={40} fps={30} /> : null}
         <rect x={0} y={y0} width={W} height={h} fill="url(#thumb-shade)" />
         <defs>
           <linearGradient id="thumb-shade" x1="0" y1="0" x2="1" y2="0">
