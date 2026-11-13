@@ -1,0 +1,717 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If a Solar Storm Hit Today? (Part 3)",
+ "seed": 5903,
+ "partLabel": "PART 3/8",
+ "end": {
+  "text": "PART 4",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part three. Bit is off. The storm is *close*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Four a.m. Jay steps *outside*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "At first, *nothing*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.3
+     }
+    ],
+    "camera": {
+     "zoom": 1.0,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the sky turns *green*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.3
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "transition": "flash",
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then *red*. Then purple. Moving like *curtains*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "*Wooow*. Nia! NIA! Come *look*!",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Somewhere, a dog howls at the *sky*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every streetlight in town *flickers*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     },
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the whole town goes *dark*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette",
+      "color": "rgba(0,0,0,0.85)"
+     },
+     {
+      "type": "aurora"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Phones: no signal. No GPS. No *internet*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Phone",
+     "title": "No service",
+     "body": "Searching...",
+     "color": "#E0312B"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But it isn't dark. The sky is *glowing*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia unfolds a newspaper. She can *read* it.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit said that happened in *eighteen fifty nine*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Down the street, a light comes on at *Ezra's*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra is cooking *breakfast*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sleepy",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 900,
+      "r": 300
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "It's bright. So it's *morning*. Eggs?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "In 1859, gold miners did the *same thing*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "1859: MINERS WAKE FOR BREAKFAST"
+    },
+    "cast": [],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "What? Nobody wants *eggs*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Everyone laughs. For a *minute*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay looks at Bit's dark screen. He *misses* him.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Nia *stops* laughing.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Where's *Milo*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part four drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

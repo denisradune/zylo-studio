@@ -1,0 +1,1873 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 68.481,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 143,
+   "endMs": 463,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "five.",
+   "startMs": 463,
+   "endMs": 1017,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 1401,
+   "endMs": 1501,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "dead",
+   "startMs": 1501,
+   "endMs": 1821,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "telegraph",
+   "startMs": 1821,
+   "endMs": 2401,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "wire",
+   "startMs": 2401,
+   "endMs": 2721,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 2721,
+   "endMs": 3041,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "alive.",
+   "startMs": 3041,
+   "endMs": 3513,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 3856,
+   "endMs": 4026,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "old",
+   "startMs": 4026,
+   "endMs": 4366,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "station.",
+   "startMs": 4366,
+   "endMs": 5136,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Ezra",
+   "startMs": 5480,
+   "endMs": 5880,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "kicks",
+   "startMs": 5880,
+   "endMs": 6230,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 6230,
+   "endMs": 6340,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "door",
+   "startMs": 6340,
+   "endMs": 6650,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "open.",
+   "startMs": 6650,
+   "endMs": 7165,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "On",
+   "startMs": 7444,
+   "endMs": 7654,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 7654,
+   "endMs": 7774,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "desk,",
+   "startMs": 7774,
+   "endMs": 8124,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 8124,
+   "endMs": 8274,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "brass",
+   "startMs": 8274,
+   "endMs": 8614,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "telegraph",
+   "startMs": 8614,
+   "endMs": 9164,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "key.",
+   "startMs": 9164,
+   "endMs": 9535,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "In",
+   "startMs": 9837,
+   "endMs": 10067,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "1859,",
+   "startMs": 10067,
+   "endMs": 12267,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "operators",
+   "startMs": 12267,
+   "endMs": 12947,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "unplugged",
+   "startMs": 12947,
+   "endMs": 13457,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "their",
+   "startMs": 13457,
+   "endMs": 13627,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "batteries.",
+   "startMs": 13627,
+   "endMs": 14851,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 15132,
+   "endMs": 15352,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "kept",
+   "startMs": 15352,
+   "endMs": 15592,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "sending.",
+   "startMs": 15592,
+   "endMs": 16817,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "On",
+   "startMs": 17140,
+   "endMs": 17590,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 17590,
+   "endMs": 17650,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "storm's",
+   "startMs": 17610,
+   "endMs": 17980,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "power",
+   "startMs": 17980,
+   "endMs": 18430,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "alone.",
+   "startMs": 18430,
+   "endMs": 19444,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Wait.",
+   "startMs": 19707,
+   "endMs": 20176,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "That's",
+   "startMs": 20477,
+   "endMs": 20707,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "real?",
+   "startMs": 20707,
+   "endMs": 21181,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Real.",
+   "startMs": 21505,
+   "endMs": 22295,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Some",
+   "startMs": 22596,
+   "endMs": 22876,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "got",
+   "startMs": 22876,
+   "endMs": 23176,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "shocks",
+   "startMs": 23176,
+   "endMs": 23546,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "too.",
+   "startMs": 23546,
+   "endMs": 24473,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Gloves.",
+   "startMs": 24775,
+   "endMs": 25649,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 25942,
+   "endMs": 26062,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "line",
+   "startMs": 26062,
+   "endMs": 26432,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "runs",
+   "startMs": 26432,
+   "endMs": 26792,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 26792,
+   "endMs": 26962,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 26962,
+   "endMs": 27032,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "hut",
+   "startMs": 27032,
+   "endMs": 27322,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 27322,
+   "endMs": 27522,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Mill",
+   "startMs": 27522,
+   "endMs": 27812,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Hill.",
+   "startMs": 27812,
+   "endMs": 28182,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "If",
+   "startMs": 28460,
+   "endMs": 28610,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Milo's",
+   "startMs": 28610,
+   "endMs": 29040,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "up",
+   "startMs": 29040,
+   "endMs": 29210,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "there,",
+   "startMs": 29210,
+   "endMs": 29550,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "would",
+   "startMs": 29550,
+   "endMs": 29820,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "he",
+   "startMs": 29820,
+   "endMs": 29950,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "hear",
+   "startMs": 29950,
+   "endMs": 30130,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "it?",
+   "startMs": 30130,
+   "endMs": 30359,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 30643,
+   "endMs": 30883,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "hut",
+   "startMs": 30883,
+   "endMs": 31103,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "has",
+   "startMs": 31103,
+   "endMs": 31343,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 31343,
+   "endMs": 31503,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "sounder.",
+   "startMs": 31503,
+   "endMs": 32520,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "It",
+   "startMs": 32824,
+   "endMs": 33034,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "clicks.",
+   "startMs": 33034,
+   "endMs": 33827,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Loud.",
+   "startMs": 34150,
+   "endMs": 34960,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Ezra's",
+   "startMs": 35266,
+   "endMs": 35706,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "hands",
+   "startMs": 35706,
+   "endMs": 36186,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "shake.",
+   "startMs": 36186,
+   "endMs": 36652,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "He's",
+   "startMs": 37079,
+   "endMs": 37339,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "eighty-one.",
+   "startMs": 37339,
+   "endMs": 38167,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Jay.",
+   "startMs": 38446,
+   "endMs": 39299,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 39582,
+   "endMs": 39872,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "tap.",
+   "startMs": 39872,
+   "endMs": 40542,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "I'll",
+   "startMs": 40846,
+   "endMs": 41226,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "spell.",
+   "startMs": 41226,
+   "endMs": 41976,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 42322,
+   "endMs": 42712,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "puts",
+   "startMs": 42712,
+   "endMs": 42872,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "his",
+   "startMs": 42872,
+   "endMs": 43102,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "finger",
+   "startMs": 43102,
+   "endMs": 43442,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 43442,
+   "endMs": 43702,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 43702,
+   "endMs": 43802,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "key.",
+   "startMs": 43802,
+   "endMs": 44220,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Click.",
+   "startMs": 44540,
+   "endMs": 45116,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "A",
+   "startMs": 45402,
+   "endMs": 45552,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "spark",
+   "startMs": 45552,
+   "endMs": 46012,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "jumps.",
+   "startMs": 46012,
+   "endMs": 46596,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 46983,
+   "endMs": 47383,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "doesn't",
+   "startMs": 47383,
+   "endMs": 47683,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "let",
+   "startMs": 47683,
+   "endMs": 47863,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "go.",
+   "startMs": 47863,
+   "endMs": 48391,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Dot",
+   "startMs": 48712,
+   "endMs": 49072,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "dot",
+   "startMs": 49072,
+   "endMs": 49442,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "dot.",
+   "startMs": 49442,
+   "endMs": 49950,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Dash",
+   "startMs": 50270,
+   "endMs": 50680,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "dash",
+   "startMs": 50680,
+   "endMs": 51070,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "dash.",
+   "startMs": 51070,
+   "endMs": 51635,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Dot",
+   "startMs": 52000,
+   "endMs": 52360,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "dot",
+   "startMs": 52360,
+   "endMs": 52730,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "dot.",
+   "startMs": 52730,
+   "endMs": 53238,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Again.",
+   "startMs": 53580,
+   "endMs": 54220,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 54562,
+   "endMs": 54772,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "again.",
+   "startMs": 54772,
+   "endMs": 55330,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Good.",
+   "startMs": 55651,
+   "endMs": 56376,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Slow.",
+   "startMs": 56649,
+   "endMs": 57460,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Like",
+   "startMs": 57742,
+   "endMs": 57982,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 57982,
+   "endMs": 58152,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "heartbeat.",
+   "startMs": 58152,
+   "endMs": 59150,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Five",
+   "startMs": 59517,
+   "endMs": 59917,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "minutes.",
+   "startMs": 59917,
+   "endMs": 60456,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Nothing.",
+   "startMs": 60968,
+   "endMs": 61608,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "He's",
+   "startMs": 61908,
+   "endMs": 62118,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "not",
+   "startMs": 62118,
+   "endMs": 62348,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "there.",
+   "startMs": 62348,
+   "endMs": 62676,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "He's",
+   "startMs": 62977,
+   "endMs": 63187,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "not",
+   "startMs": 63187,
+   "endMs": 63417,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "there.",
+   "startMs": 63417,
+   "endMs": 63745,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 64048,
+   "endMs": 64258,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 64258,
+   "endMs": 64368,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "sounder",
+   "startMs": 64368,
+   "endMs": 64728,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 64728,
+   "endMs": 64888,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 64888,
+   "endMs": 64998,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "desk",
+   "startMs": 64998,
+   "endMs": 65388,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "goes",
+   "startMs": 65388,
+   "endMs": 65698,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "click.",
+   "startMs": 65698,
+   "endMs": 66074,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Part",
+   "startMs": 66502,
+   "endMs": 66752,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "six",
+   "startMs": 66752,
+   "endMs": 67102,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "drops",
+   "startMs": 67102,
+   "endMs": 67542,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 67542,
+   "endMs": 67752,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 67752,
+   "endMs": 67972,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 67972,
+   "endMs": 68380,
+   "line": 20,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 3.593
+  },
+  {
+   "speaker": "narrator",
+   "start": 3.813,
+   "end": 7.224
+  },
+  {
+   "speaker": "narrator",
+   "start": 7.444,
+   "end": 9.596
+  },
+  {
+   "speaker": "scientist",
+   "start": 9.816,
+   "end": 14.891
+  },
+  {
+   "speaker": "scientist",
+   "start": 15.111,
+   "end": 19.487
+  },
+  {
+   "speaker": "hero",
+   "start": 19.707,
+   "end": 21.264
+  },
+  {
+   "speaker": "scientist",
+   "start": 21.484,
+   "end": 25.679
+  },
+  {
+   "speaker": "narrator",
+   "start": 25.899,
+   "end": 28.24
+  },
+  {
+   "speaker": "friend",
+   "start": 28.46,
+   "end": 30.38
+  },
+  {
+   "speaker": "scientist",
+   "start": 30.6,
+   "end": 35.003
+  },
+  {
+   "speaker": "narrator",
+   "start": 35.223,
+   "end": 38.226
+  },
+  {
+   "speaker": "scientist",
+   "start": 38.446,
+   "end": 42.038
+  },
+  {
+   "speaker": "narrator",
+   "start": 42.258,
+   "end": 45.16
+  },
+  {
+   "speaker": "narrator",
+   "start": 45.38,
+   "end": 48.45
+  },
+  {
+   "speaker": "narrator",
+   "start": 48.67,
+   "end": 53.296
+  },
+  {
+   "speaker": "narrator",
+   "start": 53.516,
+   "end": 55.388
+  },
+  {
+   "speaker": "scientist",
+   "start": 55.608,
+   "end": 59.212
+  },
+  {
+   "speaker": "narrator",
+   "start": 59.432,
+   "end": 61.666
+  },
+  {
+   "speaker": "friend",
+   "start": 61.886,
+   "end": 63.785
+  },
+  {
+   "speaker": "narrator",
+   "start": 64.005,
+   "end": 66.24
+  },
+  {
+   "speaker": "narrator",
+   "start": 66.46,
+   "end": 68.481
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "aurora"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 1.877
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "aurora"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 1.877,
+   "end": 3.753
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "angry",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "knock"
+    }
+   ],
+   "transition": "whip",
+   "speaker": "narrator",
+   "start": 3.753,
+   "end": 5.569
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "angry",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "transition": "cut",
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "fx": [],
+   "speaker": "narrator",
+   "start": 5.569,
+   "end": 7.384
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [],
+   "ui": {
+    "type": "card",
+    "text": "TELEGRAPH KEY",
+    "sub": "last used 1962",
+    "color": "#C9A227"
+   },
+   "fx": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 1100,
+     "r": 260
+    }
+   ],
+   "speaker": "narrator",
+   "start": 7.384,
+   "end": 9.756
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "REAL: 1859 TELEGRAPHS RAN ON THE STORM"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.8,
+     "pose": "point",
+     "expr": "smug",
+     "scale": 0.9
+    }
+   ],
+   "speaker": "scientist",
+   "start": 9.756,
+   "end": 12.404
+  },
+  {
+   "set": {
+    "type": "news",
+    "headline": "REAL: 1859 TELEGRAPHS RAN ON THE STORM"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.8,
+     "pose": "point",
+     "expr": "smug",
+     "scale": 0.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.8,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "scientist",
+   "start": 12.404,
+   "end": 15.051
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "scientist",
+   "start": 15.051,
+   "end": 17.349
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "scientist",
+   "start": 17.349,
+   "end": 19.647
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "shocked",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 19.647,
+   "end": 21.424
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "smug",
+     "scale": 1.8
+    }
+   ],
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "scientist",
+   "start": 21.424,
+   "end": 23.632
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "smug",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "scientist",
+   "start": 23.632,
+   "end": 25.839
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [],
+   "ui": {
+    "type": "map",
+    "label": "HILL HUT"
+   },
+   "speaker": "narrator",
+   "start": 25.839,
+   "end": 28.4
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "scared",
+     "scale": 1.8
+    }
+   ],
+   "speaker": "friend",
+   "start": 28.4,
+   "end": 30.54
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.7
+    }
+   ],
+   "speaker": "scientist",
+   "start": 30.54,
+   "end": 32.852
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.7,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "scientist",
+   "start": 32.852,
+   "end": 35.163
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.6
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "narrator",
+   "start": 35.163,
+   "end": 36.774
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 36.774,
+   "end": 38.386
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "neutral",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "scientist",
+   "start": 38.386,
+   "end": 40.292
+  },
+  {
+   "set": {
+    "type": "workshop"
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "neutral",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "scientist",
+   "start": 40.292,
+   "end": 42.198
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "scared",
+     "scale": 1.7
+    }
+   ],
+   "fx": [
+    {
+     "type": "glitch"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 42.198,
+   "end": 43.759
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "scared",
+     "scale": 1.7,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "glitch"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 43.759,
+   "end": 45.32
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "angry",
+     "scale": 1.9
+    }
+   ],
+   "fx": [
+    {
+     "type": "impact",
+     "x": 540,
+     "y": 1050,
+     "at": 0.2
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 45.32,
+   "end": 46.965
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "angry",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "fx": [],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 46.965,
+   "end": 48.61
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "angry",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "\u00b7 \u00b7 \u00b7   \u2014 \u2014 \u2014   \u00b7 \u00b7 \u00b7",
+    "sub": "S O S",
+    "color": "#FFD400"
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    },
+    {
+     "type": "tick",
+     "at": 0.25
+    },
+    {
+     "type": "tick",
+     "at": 0.5
+    }
+   ],
+   "speaker": "narrator",
+   "start": 48.61,
+   "end": 53.456
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "sit",
+     "expr": "scared",
+     "scale": 1.2
+    },
+    {
+     "id": "friend",
+     "x": 0.72,
+     "pose": "idle",
+     "expr": "scared",
+     "scale": 1.2
+    }
+   ],
+   "fx": [
+    {
+     "type": "aurora"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 53.456,
+   "end": 55.548
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "neutral",
+     "scale": 1.8
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "scientist",
+   "start": 55.548,
+   "end": 57.46
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "scientist",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "neutral",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "scientist",
+   "start": 57.46,
+   "end": 59.372
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "05:00",
+    "color": "#FF6B4A"
+   },
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 59.372,
+   "end": 61.826
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.6
+   },
+   "speaker": "friend",
+   "start": 61.826,
+   "end": 63.945
+  },
+  {
+   "set": {
+    "type": "workshop",
+    "damage": 1
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "shocked",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.15,
+    "y": 0.5,
+    "push": 0.12
+   },
+   "sfx": [
+    {
+     "type": "tick",
+     "at": 0.5
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "speaker": "narrator",
+   "start": 63.945,
+   "end": 66.4
+  }
+ ],
+ "endStart": 66.4,
+ "endText": "PART 6",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 5/8"
+}

@@ -1,0 +1,529 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If a Solar Storm Hit Today? (Part 5)",
+ "seed": 5905,
+ "partLabel": "PART 5/8",
+ "end": {
+  "text": "PART 6",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part five. The dead telegraph wire is *alive*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "The old station. Ezra kicks the door *open*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "On the desk, a brass telegraph *key*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "TELEGRAPH KEY",
+     "sub": "last used 1962",
+     "color": "#C9A227"
+    },
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 260
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "In 1859, operators *unplugged* their batteries.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: 1859 TELEGRAPHS RAN ON THE STORM"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.8,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "And kept sending. On the storm's power *alone*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Wait. That's *real*?",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Real. Some got *shocks* too. Gloves.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The line runs to a hut on *Mill Hill*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [],
+    "ui": {
+     "type": "map",
+     "label": "HILL HUT"
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "If Milo's up there, would he *hear* it?",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "The hut has a sounder. It *clicks*. Loud.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra's hands shake. He's eighty-one.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Jay. You *tap*. I'll spell.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay puts his finger on the key. *Click*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "scared",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A spark *jumps*. Jay doesn't let go.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "impact",
+      "x": 540,
+      "y": 1050,
+      "at": 0.2
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Dot dot dot. Dash dash dash. *Dot dot dot*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "\u00b7 \u00b7 \u00b7   \u2014 \u2014 \u2014   \u00b7 \u00b7 \u00b7",
+     "sub": "S O S",
+     "color": "#FFD400"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.25
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Again. And *again*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "scared",
+      "scale": 1.2
+     },
+     {
+      "id": "friend",
+      "x": 0.72,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.2
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Good. Slow. Like a *heartbeat*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Five minutes. *Nothing*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "05:00",
+     "color": "#FF6B4A"
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "He's not there. He's *not* there.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the sounder on the desk goes *click*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "tick",
+      "at": 0.5
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part six drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

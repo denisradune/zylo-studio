@@ -1,0 +1,4365 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If a Solar Storm Hit Today?",
+ "seed": 5900,
+ "end": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if a *solar storm* hit tonight?",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "scared",
+      "scale": 1.3
+     },
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "shocked",
+      "scale": 1.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.8
+     }
+    ],
+    "camera": {
+     "push": 0.08
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Friday, four p.m. Jay is fixing his *bike*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit is watching the Sun. Bit *always* watches.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Bit goes *quiet*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. The Sun just *exploded*. A little.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 640,
+      "r": 420
+     }
+    ],
+    "transition": "flash",
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A flare. And a cloud of *magnetic plasma*.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 640,
+      "r": 420
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "CME",
+     "sub": "billions of tons",
+     "color": "#FF6B4A"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "It's coming *here*.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 640,
+      "r": 420
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Okay. Is that *bad*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "It happened once before. *Eighteen fifty nine*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: THE CARRINGTON EVENT, 1859"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A man named Carrington *saw* the flare.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "R. CARRINGTON",
+     "sub": "1 Sept 1859",
+     "color": "#FFD400"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Seventeen and a half hours *later*, it hit.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 17.6,
+     "suffix": " h",
+     "label": "SUN TO EARTH"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The sky glowed red and green. Even over *Mexico*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Telegraph wires threw *sparks*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "1859: TELEGRAPHS SPARK"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "That was wires. We have *phones* now.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. Today *everything* is wires.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Power grids. Satellites. GPS. Your phone. *Me*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "AT RISK",
+     "items": [
+      "power grid",
+      "satellites + GPS",
+      "Bit"
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit puts a timer in the *corner*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "neutral",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "17:00",
+     "color": "#FF6B4A"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Then we warn everyone. You'll *help*, right?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit doesn't answer *right away*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. I'm *made* of electricity too.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Before it hits, I have to turn myself *off*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Off? For how *long*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Until it's over. A day. *Maybe two*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "16:20",
+     "color": "#FF6B4A"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay has never spent *one hour* without Bit.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Seven p.m. Town hall. Mayor Doyle *laughs*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "14:00",
+     "color": "#FF6B4A"
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "A storm from the *Sun*? It's sunny!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Only Grandpa Ezra stands *up*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "I was a railway *telegraph* man. Forty years.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "The boy's robot is *right*. Unplug everything.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit makes a list. Jay reads it *out loud*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "BEFORE THE STORM",
+     "items": [
+      "water + flashlights",
+      "paper maps",
+      "unplug everything"
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia fills her bakery with *candles*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 300
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Her brother Milo is *thrilled*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Northern lights? *Here*? I'm staying up!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra teaches Milo one thing. *Morse code*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "happy",
+      "scale": 1.2
+     },
+     {
+      "id": "kid",
+      "x": 0.72,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 1.2
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "\u00b7 \u00b7 \u00b7   \u2014 \u2014 \u2014   \u00b7 \u00b7 \u00b7",
+     "sub": "S O S",
+     "color": "#FFD400"
+    }
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Beep beep beep. *Boop boop boop*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.3
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three a.m. One hour *left*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "dim",
+      "scale": 1.0
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "01:00",
+     "color": "#FF6B4A"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. You'll be fine. You were fine *before* me.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "I don't *remember* before you.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Goodnight, Jay. Look up for *me*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sleepy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And for the first time ever, Bit goes *dark*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette",
+      "color": "rgba(0,0,0,0.85)"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Four a.m. Jay steps *outside*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "At first, *nothing*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.3
+     }
+    ],
+    "camera": {
+     "zoom": 1.0,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the sky turns *green*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.3
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "transition": "flash",
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then *red*. Then purple. Moving like *curtains*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "*Wooow*. Nia! NIA! Come *look*!",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Somewhere, a dog howls at the *sky*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "sfx": [
+     {
+      "type": "growl"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every streetlight in town *flickers*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     },
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the whole town goes *dark*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette",
+      "color": "rgba(0,0,0,0.85)"
+     },
+     {
+      "type": "aurora"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Phones: no signal. No GPS. No *internet*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Phone",
+     "title": "No service",
+     "body": "Searching...",
+     "color": "#E0312B"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But it isn't dark. The sky is *glowing*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia unfolds a newspaper. She can *read* it.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit said that happened in *eighteen fifty nine*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Down the street, a light comes on at *Ezra's*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "sleepy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra is cooking *breakfast*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sleepy",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 900,
+      "r": 300
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "It's bright. So it's *morning*. Eggs?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "In 1859, gold miners did the *same thing*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "1859: MINERS WAKE FOR BREAKFAST"
+    },
+    "cast": [],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "What? Nobody wants *eggs*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Everyone laughs. For a *minute*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay looks at Bit's dark screen. He *misses* him.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Nia *stops* laughing.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Where's *Milo*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia calls Milo. Nothing. The phones are *dead*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "Phone",
+     "title": "Call failed",
+     "body": "No network",
+     "color": "#E0312B"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay grabs his phone. *Bit, find Milo*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit is *off*. Jay forgot.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "I don't know how to find *anyone* without Bit.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Then we find him the *old way*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra unfolds a paper map. Jay's never *used* one.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.2
+     },
+     {
+      "id": "hero",
+      "x": 0.72,
+      "pose": "think",
+      "expr": "scared",
+      "scale": 1.2
+     }
+    ],
+    "ui": {
+     "type": "map",
+     "label": "MILL HILL"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Which way is *up*?",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "North. Where the lights are *brightest*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Milo said he wanted the *best view*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Mill Hill. The highest point in *town*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mill Hill is two miles away. In the *dark*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.25,
+      "pose": "walk",
+      "expr": "scared",
+      "scale": 1.0
+     },
+     {
+      "id": "friend",
+      "x": 0.55,
+      "pose": "walk",
+      "expr": "scared",
+      "scale": 1.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "No streetlights. No car *radio*. No Bit.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "scared",
+      "scale": 1.3
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The old railway runs along the *road*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "MILL HILL LINE",
+     "sub": "closed 1962",
+     "color": "#FFD400"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Above it, the old telegraph wire is *humming*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     },
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra puts a hand near it. *Snap*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "impact",
+      "x": 540,
+      "y": 700,
+      "at": 0.4
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Ha! It's *alive*. Just like the stories.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Ezra, careful! That wire has no *power*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "It does tonight. The *sky* is the battery.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The old station. Ezra kicks the door *open*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "On the desk, a brass telegraph *key*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "TELEGRAPH KEY",
+     "sub": "last used 1962",
+     "color": "#C9A227"
+    },
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 260
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "In 1859, operators *unplugged* their batteries.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: 1859 TELEGRAPHS RAN ON THE STORM"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.8,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "And kept sending. On the storm's power *alone*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Wait. That's *real*?",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Real. Some got *shocks* too. Gloves.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The line runs to a hut on *Mill Hill*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [],
+    "ui": {
+     "type": "map",
+     "label": "HILL HUT"
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "If Milo's up there, would he *hear* it?",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "The hut has a sounder. It *clicks*. Loud.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra's hands shake. He's eighty-one.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Jay. You *tap*. I'll spell.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay puts his finger on the key. *Click*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "scared",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A spark *jumps*. Jay doesn't let go.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "impact",
+      "x": 540,
+      "y": 1050,
+      "at": 0.2
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Dot dot dot. Dash dash dash. *Dot dot dot*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "\u00b7 \u00b7 \u00b7   \u2014 \u2014 \u2014   \u00b7 \u00b7 \u00b7",
+     "sub": "S O S",
+     "color": "#FFD400"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.25
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Again. And *again*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "scared",
+      "scale": 1.2
+     },
+     {
+      "id": "friend",
+      "x": 0.72,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.2
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Good. Slow. Like a *heartbeat*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Five minutes. *Nothing*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "05:00",
+     "color": "#FF6B4A"
+    },
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "He's not there. He's *not* there.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the sounder on the desk goes *click*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "tick",
+      "at": 0.5
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Click. Click. *Click*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.3
+     },
+     {
+      "type": "tick",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "That's not random. That's *Morse*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra writes each letter on the *wall*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [],
+    "ui": {
+     "type": "list",
+     "title": "MESSAGE",
+     "items": [
+      "M - I - L - O",
+      "O - K",
+      "C - O - L - D"
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Milo. It's *Milo*! He remembered!",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "One lesson. One. That boy is a *natural*.",
+   "shot": {
+    "set": {
+     "type": "workshop",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia is already running for the *door*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "angry",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay follows her. Up Mill Hill. Under the *lights*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "run",
+      "expr": "scared",
+      "scale": 1.1
+     },
+     {
+      "id": "friend",
+      "x": 0.65,
+      "pose": "run",
+      "expr": "angry",
+      "scale": 1.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "You're quiet. You're *never* quiet.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "When I'm scared, Bit tells me what to *do*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Tonight there's no Bit. Just *me*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Jay. *You* tapped that key. Not Bit.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "At the top, a small shape in a *blanket*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.3
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Nia! I tapped back! Did you *hear* me?",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia hugs him so hard he *squeaks*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.4,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.3
+     },
+     {
+      "id": "kid",
+      "x": 0.62,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "For a minute, all three just look *up*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.25,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.0
+     },
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.0
+     },
+     {
+      "id": "kid",
+      "x": 0.72,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 0.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "camera": {
+     "zoom": 1.0,
+     "y": 0.55
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit said look up for him. I'm *looking*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Milo says something that makes Jay *freeze*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "I charged my tablet. On *Bit's* dock.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "The dock is plugged *into the wall*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "If power comes back, the surge hits *Bit*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Down the hill, the town lights *blink*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     },
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "They're turning the power *back on*!",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay runs. Two miles. *Downhill*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "angry",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     },
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "His legs burn. His lungs burn. He *keeps going*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "angry",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mayor Doyle is at the town *switch*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "MAIN SWITCH",
+     "sub": "OFF \u2192 ON",
+     "color": "#2DBE7E"
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Storm's over! Lights in three, two...",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "00:03",
+     "color": "#FF6B4A"
+    },
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The sky flares red *again*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     },
+     {
+      "type": "alarm"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A second wave. Storms like this come in *pieces*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "off",
+      "scale": 0.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora",
+      "colors": [
+       "#FF3B6B",
+       "#3DFFB0",
+       "#C04BFF"
+      ],
+      "strength": 0.95
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay bursts through his door. The dock is *humming*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He grabs the cable. *Pulls*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "throw",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "impact",
+      "x": 540,
+      "y": 900,
+      "at": 0.3
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit",
+      "at": 0.3
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6,
+     "shake": 0.3
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A spark. A bang. Then the street goes *dark*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette",
+      "color": "rgba(0,0,0,0.85)"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The town transformer is *fried*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "FRIED",
+     "color": "#E0312B"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "No power for *three days*. That's the cost.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 3,
+     "label": "DAYS WITHOUT POWER"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But the cable is in Jay's *hand*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Morning. The sky is *blue* again.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 800,
+      "y": 300,
+      "r": 300
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay presses Bit's power button. *Nothing*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay presses it again. And *again*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "You said one day. Maybe *two*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra knocks. He holds up a *battery*. It's dead.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every battery in town is *dead*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Milo walks in. With a *solar panel*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "SOLAR CHARGER",
+     "sub": "Milo's science fair",
+     "color": "#FFD400"
+    }
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "It runs on the Sun. Is that *funny*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The Sun broke Bit. Can the Sun *fix* him?",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 500,
+      "r": 400
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "One hour. Two. Then a *beep*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "dim",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "BATTERY",
+       "value": 0.12,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "CHARGING"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay? Did you *look up*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! I looked up. I used a *map*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "And I sent Morse code. On a *storm*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Without me? I'm *proud*. And a bit jealous.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Fun fact. In 2012, one *missed* us.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: JULY 2012 STORM MISSED EARTH"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "By about *nine days*.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 640,
+      "r": 420
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 9,
+     "label": "DAYS"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. Teach me *everything*. Just in case.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Lesson one. *Unplug the dock*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "That night, the whole town *looks up*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "No storm. Just stars. And one robot *beeping*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.2,
+      "lift": 300
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Bit's doing Morse! It says... *T-H-A-N-K-S*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.3
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "aurora"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "ding",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for a new What if every day.",
+   "end": true
+  }
+ ],
+ "chapters": [
+  {
+   "line": 21,
+   "label": "PART 2",
+   "title": "Going Dark"
+  },
+  {
+   "line": 40,
+   "label": "PART 3",
+   "title": "Green Sky"
+  },
+  {
+   "line": 61,
+   "label": "PART 4",
+   "title": "No Signal"
+  },
+  {
+   "line": 79,
+   "label": "PART 5",
+   "title": "The Telegraph"
+  },
+  {
+   "line": 98,
+   "label": "PART 6",
+   "title": "Mill Hill"
+  },
+  {
+   "line": 116,
+   "label": "PART 7",
+   "title": "Second Wave"
+  },
+  {
+   "line": 134,
+   "label": "PART 8",
+   "title": "Sunlight"
+  }
+ ],
+ "minSeconds": 90,
+ "maxSeconds": 600
+}
