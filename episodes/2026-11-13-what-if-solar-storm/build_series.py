@@ -267,7 +267,7 @@ mp.write_text(json.dumps(meta, indent=1, ensure_ascii=False) + "\n")
 (D / "full").mkdir(exist_ok=True)
 (D / "full/thumb.json").write_text(json.dumps({
  "text": "THE SUN *ATTACKED*", "badge": "FULL STORY", "cropY": 880, "set": {"type": "sky", "time": "night"},
- "fx": [{"type": "aurora", "colors": ["#FF3B6B", "#3DFFB0", "#C04BFF"], "strength": 0.95}],
+ "fx": [{"type": "aurora", "colors": ["#FF3B6B", "#3DFFB0", "#C04BFF"], "strength": 0.95, "y": 1300}],
  "cast": [{"id": "kid", "x": 0.93, "pose": "cheer", "expr": "grin", "scale": 1.0, "y": 1640, "facing": -1},
           {"id": "hero", "x": 0.72, "pose": "panic", "expr": "shocked", "scale": 1.3, "y": 1760},
           {"id": "bit", "x": 0.56, "expr": "glitch", "scale": 0.55, "y": 1215}]}, indent=1) + "\n")
