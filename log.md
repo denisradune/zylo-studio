@@ -40,3 +40,8 @@
 | 36 | 2026-11-13 | What If a Solar Storm Hit Today? ☀️ Part 1 #shorts | what-if: disaster (real history) (part1) | sources.md | https://youtube.com/shorts/klIF8rNkkDc |
 | 37 | 2026-11-15 | What If Your AI Had to Shut Down? ☀️ Part 2 #shorts | what-if: disaster (real history) (part2) | sources.md | https://youtube.com/shorts/uejj1vU6RmM |
 | 38 | 2026-11-15 | What If the Sun Didn't Come Back? 🌞 Part 4 #shorts | what-if: sci-fi (real nature) (part4) | sources.md | https://youtube.com/shorts/X7lymXHmAKM |
+| 39 | 2026-11-15 | What If You Refused the Final Bet? Season 2 · Part 7 #shorts | what-if: money (part7) | sources.md | https://youtube.com/shorts/JyMfgH_kf34 |
+| 40 | 2026-11-15 | What If You Had to Climb 90 Floors? 🧟 S2 · Part 6 #shorts | what-if: disaster (part6) | sources.md | https://youtube.com/shorts/hW1guxyYgfw |
+| 41 | 2026-11-15 | What If an AI Got a Letter From a Kid? 🎅 Part 8 #shorts | what-if: holiday (Christmas, AI/Bit) (part8) | sources.md | https://youtube.com/shorts/XVcZAWduEDo |
+| 42 | 2026-11-15 | What If the Fine Print Saved You? 🛒 Part 5 #shorts | what-if: money (part5) | sources.md | https://youtube.com/shorts/J_S1UwwaPUU |
+| 43 | 2026-11-15 | What If Nobody Kept Money? 💸 Part 3 #shorts | what-if: money (part3) | sources.md | https://youtube.com/shorts/RndGWZk8v68 |

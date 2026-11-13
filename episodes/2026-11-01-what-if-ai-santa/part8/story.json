@@ -1,0 +1,662 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "santa": "SANTA",
+  "elf": "PIP",
+  "friend": "MIA",
+  "kid": "LEO",
+  "boss": "DAD"
+ },
+ "title": "What If an AI Replaced Santa Claus? (Part 8)",
+ "seed": 1233,
+ "partLabel": "PART 8/8",
+ "end": {
+  "text": "MERRY CHRISTMAS",
+  "sub": "Follow for a new What if every day"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part eight. Bit saved Christmas, and went *dark*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#16161C"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Christmas morning. The world *wakes up*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.25,
+      "pose": "cheer",
+      "expr": "happy"
+     },
+     {
+      "id": "friend",
+      "x": 0.55,
+      "pose": "wave",
+      "expr": "grin",
+      "depth": 0.3
+     },
+     {
+      "id": "boss",
+      "x": 0.82,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.2
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Toys under trees. Kids *screaming* with joy.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     },
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 560
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "pop",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And next to every toy, a little *note*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.2
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "I SEE YOU.",
+     "sub": "\u2014 Bit",
+     "color": "#FFF6DF"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Mom! The note says it *read my letter*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "In Leo's house, the front door *opens*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     },
+     {
+      "type": "knock",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "His dad drove through the snow *all night*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "happy",
+      "scale": 1.6,
+      "enter": "right"
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nobody delivered that. It just\u2026 *happened*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.35,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.3
+     },
+     {
+      "id": "boss",
+      "x": 0.7,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 560
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "At Jay's house, Bit's screen is still *cold*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.75,
+      "expr": "off",
+      "scale": 1.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Come on, Bit. You did it. Wake *up*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nothing. Then\u2026 a knock on the *window*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     },
+     {
+      "type": "knock",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "An envelope. Addressed to *Bit*.",
+   "shot": {
+    "set": {
+     "type": "burst",
+     "color": "#C8102E"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "TO: BIT",
+     "sub": "From: Leo, age 7",
+     "color": "#FFF6DF"
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Dear Bit. Thank you for *seeing* me.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1000,
+      "r": 480
+     },
+     {
+      "type": "snow"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The screen flickers. Then *glows*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 2.0,
+      "enter": "pop"
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 980,
+      "r": 640
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. I got a *letter*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "icon": "\u2605",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Yeah, buddy. You *did*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.32,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.3
+     },
+     {
+      "id": "bit",
+      "x": 0.76,
+      "expr": "happy",
+      "scale": 1.1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Santa offers Bit a real job. *Co-Santa*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "santa",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.4
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "shocked",
+      "icon": "\u2605",
+      "scale": 1.1
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "santa",
+   "say": "Same deal as me. One night a *year*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "santa",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Counter-offer. I keep answering letters. *All year*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "icon": "\u2605",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Efficiency is down. Happiness is up *four thousand percent*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.3
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 4000,
+     "suffix": "%",
+     "label": "HAPPINESS"
+    },
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Merry Christmas, Bit.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "wave",
+      "expr": "happy",
+      "scale": 1.3
+     },
+     {
+      "id": "santa",
+      "x": 0.55,
+      "pose": "wave",
+      "expr": "grin",
+      "depth": 0.3
+     },
+     {
+      "id": "elf",
+      "x": 0.8,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.2
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     },
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1000,
+      "r": 600
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Merry Christmas. Follow for a new What if every day.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
