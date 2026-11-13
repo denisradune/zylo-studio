@@ -1,0 +1,531 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If a Solar Storm Hit Today? (Part 2)",
+ "seed": 5902,
+ "partLabel": "PART 2/8",
+ "end": {
+  "text": "PART 3",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part two. A solar storm hits in *seventeen hours*.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 640,
+      "r": 420
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "hero",
+   "say": "Off? For how *long*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Until it's over. A day. *Maybe two*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "16:20",
+     "color": "#FF6B4A"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay has never spent *one hour* without Bit.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Seven p.m. Town hall. Mayor Doyle *laughs*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "14:00",
+     "color": "#FF6B4A"
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "A storm from the *Sun*? It's sunny!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Only Grandpa Ezra stands *up*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "I was a railway *telegraph* man. Forty years.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "The boy's robot is *right*. Unplug everything.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit makes a list. Jay reads it *out loud*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "BEFORE THE STORM",
+     "items": [
+      "water + flashlights",
+      "paper maps",
+      "unplug everything"
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia fills her bakery with *candles*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "glow",
+      "x": 540,
+      "y": 1100,
+      "r": 300
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Her brother Milo is *thrilled*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Northern lights? *Here*? I'm staying up!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra teaches Milo one thing. *Morse code*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "happy",
+      "scale": 1.2
+     },
+     {
+      "id": "kid",
+      "x": 0.72,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 1.2
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "\u00b7 \u00b7 \u00b7   \u2014 \u2014 \u2014   \u00b7 \u00b7 \u00b7",
+     "sub": "S O S",
+     "color": "#FFD400"
+    }
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Beep beep beep. *Boop boop boop*.",
+   "shot": {
+    "set": {
+     "type": "workshop"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.3
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three a.m. One hour *left*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.2
+     },
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "dim",
+      "scale": 1.0
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "01:00",
+     "color": "#FF6B4A"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. You'll be fine. You were fine *before* me.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "I don't *remember* before you.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Goodnight, Jay. Look up for *me*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sleepy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And for the first time ever, Bit goes *dark*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette",
+      "color": "rgba(0,0,0,0.85)"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part three drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
