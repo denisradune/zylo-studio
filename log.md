@@ -45,3 +45,4 @@
 | 41 | 2026-11-15 | What If an AI Got a Letter From a Kid? 🎅 Part 8 #shorts | what-if: holiday (Christmas, AI/Bit) (part8) | sources.md | https://youtube.com/shorts/XVcZAWduEDo |
 | 42 | 2026-11-15 | What If the Fine Print Saved You? 🛒 Part 5 #shorts | what-if: money (part5) | sources.md | https://youtube.com/shorts/J_S1UwwaPUU |
 | 43 | 2026-11-15 | What If Nobody Kept Money? 💸 Part 3 #shorts | what-if: money (part3) | sources.md | https://youtube.com/shorts/RndGWZk8v68 |
+| 44 | 2026-11-16 | What If an AI Replaced Santa Claus? (Full Christmas Story) | what-if: holiday (Christmas, AI/Bit) (full) | sources.md | https://youtu.be/XIJtc9GyW98 |
