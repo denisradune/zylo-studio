@@ -46,3 +46,11 @@
 | 42 | 2026-11-15 | What If the Fine Print Saved You? 🛒 Part 5 #shorts | what-if: money (part5) | sources.md | https://youtube.com/shorts/J_S1UwwaPUU |
 | 43 | 2026-11-15 | What If Nobody Kept Money? 💸 Part 3 #shorts | what-if: money (part3) | sources.md | https://youtube.com/shorts/RndGWZk8v68 |
 | 44 | 2026-11-16 | What If an AI Replaced Santa Claus? (Full Christmas Story) | what-if: holiday (Christmas, AI/Bit) (full) | sources.md | https://youtu.be/XIJtc9GyW98 |
+| 45 | 2026-11-15 | What If the Loudest Sound Ever Hit Today? 🌋 Part 1 #shorts | what-if: disaster (real history) (part1) | sources.md | https://youtube.com/shorts/y9lct835dFQ |
+| 46 | 2026-11-17 | What If the Sky Turned Green Tonight? ☀️ Part 3 #shorts | what-if: disaster (real history) (part3) | sources.md | https://youtube.com/shorts/4hbrnh0XKcU |
+| 47 | 2026-11-17 | What If the Sea Slug Had a Catch? 🌞 Part 5 #shorts | what-if: sci-fi (real nature) (part5) | sources.md | https://youtube.com/shorts/6hDHiT8Anqs |
+| 48 | 2026-11-17 | What If a Sound Circled the Earth? 🌋 Part 2 #shorts | what-if: disaster (real history) (part2) | sources.md | https://youtube.com/shorts/R7r2F6NHQUA |
+| 49 | 2026-11-17 | What If the Casino Was Free? 🎰 Season 2 · Part 8 #shorts | what-if: money (part8) | sources.md | https://youtube.com/shorts/M28C2yfhl4Q |
+| 50 | 2026-11-17 | What If Saving Everyone Deleted Your AI? S2 · Part 7 #shorts | what-if: disaster (part7) | sources.md | https://youtube.com/shorts/jAprFgeWKLQ |
+| 51 | 2026-11-17 | What If 400 Orders Had One Name? 🛒 Part 6 #shorts | what-if: money (part6) | sources.md | https://youtube.com/shorts/vQS9ZUie9ak |
+| 52 | 2026-11-17 | What If Money Melted Every Minute? 💸 Part 4 #shorts | what-if: money (part4) | sources.md | https://youtube.com/shorts/E07vzRt9vew |
