@@ -1,0 +1,4487 @@
+{
+ "title": "What If the Loudest Sound in History Happened Today?",
+ "rubric": "what-if: disaster (real history)",
+ "mood": "tension",
+ "seed": 6100,
+ "every": 2,
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "finale": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "parts": [
+  {
+   "title": "The Boom",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "What if the *loudest sound* in history happened today?",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "impact",
+        "x": 540,
+        "y": 700,
+        "at": 0.3
+       }
+      ],
+      "sfx": [
+       {
+        "type": "boom"
+       },
+       {
+        "type": "crash",
+        "at": 0.2
+       }
+      ],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Saturday, seven a.m. Every window in town *rattles*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      },
+      "sfx": [
+       {
+        "type": "boom",
+        "at": 0.1
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay falls out of *bed*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "scared",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Outside, the whole street is staring at the *sky*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "No smoke. No fire. Just a *boom*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "scared",
+        "scale": 1.3
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Fireworks! Who did this? Was it *you*, Jay?",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "I was *asleep*!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "It wasn't fireworks. It was a *volcano*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.8
+       }
+      ],
+      "transition": "whip",
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "We don't *have* a volcano.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "An island. Three thousand miles *away*.",
+     "shot": {
+      "set": {
+       "type": "space"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "think",
+        "scale": 0.9
+       }
+      ],
+      "ui": {
+       "type": "map",
+       "label": "3,000 MILES"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The sound took almost four hours to *get here*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 3.9,
+       "suffix": " h",
+       "label": "SOUND TRAVEL TIME"
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Nothing is *that* loud.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "One thing was. *Krakatoa*. Eighteen eighty three.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "REAL: KRAKATOA, 1883"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "smug",
+        "scale": 0.9
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The loudest sound ever *recorded*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "LOUDEST SOUND EVER"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "shocked",
+        "scale": 0.9
+       }
+      ],
+      "sfx": [
+       {
+        "type": "boom"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "People heard it three thousand miles away.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "4,800 KM",
+       "sub": "heard on Rodrigues island",
+       "color": "#FFD400"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "They thought it was a ship firing *cannons*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "boom",
+        "volume": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Sailors forty miles away lost their *eardrums*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "1883: EARDRUMS BURST"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "sad",
+        "scale": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Grandpa Ezra steps out, holding a brass *barometer*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "The needle *jumped*. Air doesn't do that.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "That's the air wave. It's going around the *planet*.",
+     "shot": {
+      "set": {
+       "type": "space"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "And it's coming back. From the *other side*.",
+     "shot": {
+      "set": {
+       "type": "space"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 2.0
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part two drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Seven Laps",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part two. A volcanic boom is circling the *Earth*.",
+     "shot": {
+      "set": {
+       "type": "space"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "boom"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "hero",
+     "say": "Coming back? A sound can't come *back*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "This one can. It's a pressure wave. A *ripple*.",
+     "shot": {
+      "set": {
+       "type": "space"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "In 1883, it circled Earth over *three times*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "REAL: 3+ LAPS"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "smug",
+        "scale": 0.9
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Barometers caught it seven times. Over *five days*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 7,
+       "label": "TIMES RECORDED"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Ezra sets the barometer on his *porch*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Then we *wait*. And we count.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Milo grabs a pencil and makes a *chart*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "list",
+       "title": "BOOM LAPS",
+       "items": [
+        "lap 1: 7:00 a.m."
+       ]
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mayor Doyle calls a press *conference*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "MAYOR: STAY CALM"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.8,
+        "pose": "wave",
+        "expr": "smug",
+        "scale": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "It was a loud noise. It is *over*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Nia isn't listening. She's staring at her *phone*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "sad",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "My mom flies home *tomorrow*. Over that ocean.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit? Is that *safe*?",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The airlines are watching the ash. For *now*, yes.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Midnight. Ezra's needle twitches. *Again*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "shocked",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "00:00",
+       "color": "#FF6B4A"
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "kid",
+     "say": "Lap two! The boom went all the way *around*!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The whole street cheers. For a *sound*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "But Bit is watching something *else*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Jay. The harbor gauge just *moved*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "In 1883, the sea felt it. Even in *England*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "1883: WAVES REACH UK"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "sad",
+        "scale": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "A wave is crossing the ocean. Landing at *noon*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 2.0
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part three drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Noon",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part three. A wave hits the harbor at *noon*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "hero",
+     "say": "A *tsunami*? Here?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "A small one. After that far, maybe *one meter*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "think",
+        "scale": 0.9
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 1,
+       "suffix": " m",
+       "label": "EXPECTED WAVE"
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "One meter. That's my *waist*. That's nothing.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "A meter of moving sea can tip a *truck*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "angry",
+        "scale": 1.8
+       }
+      ],
+      "sfx": [
+       {
+        "type": "crash"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Eight a.m. Jay runs to the *mayor*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "run",
+        "expr": "angry",
+        "scale": 1.4
+       }
+      ],
+      "fx": [
+       {
+        "type": "speedLines"
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "04:00",
+       "color": "#FF6B4A"
+      },
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Close the fish market? On a *Saturday*?",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "A wave from a volcano we can't even *see*?",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Ezra taps his barometer. *Lap three*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "You couldn't see it either. But you *heard* it.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The mayor doesn't *answer*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Eleven a.m. The harbor is *packed*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "01:00",
+       "color": "#FF6B4A"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Fish stalls. Tourists. Boats coming in with the *catch*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.3,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.1
+       },
+       {
+        "id": "boss",
+        "x": 0.72,
+        "pose": "wave",
+        "expr": "grin",
+        "scale": 1.1
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "And at the very end of the pier, *Milo*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "grin",
+        "scale": 1.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Fishing rod. Headphones. *Very* loud headphones.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Milo! MILO! He can't *hear* me.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay starts down the *pier*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "walk",
+        "expr": "scared",
+        "scale": 1.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Eleven forty. Then the water does something *strange*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "shocked",
+        "scale": 1.5
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "00:20",
+       "color": "#FF6B4A"
+      },
+      "sfx": [
+       {
+        "type": "heartbeat"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "It starts to *leave*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ],
+      "transition": "flash"
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The whole harbor drains. Boats sit on *sand*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "shocked",
+        "scale": 1.4
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "And the crowd walks *out* to grab the fish.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "walk",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "walk",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "walk",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part four drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "The Bell",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part four. The sea pulled back. People walked *in*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "hero",
+     "say": "No! Get out of there! That's the *wave*!",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit taught him. When the sea leaves, it *returns*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "angry",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Nobody listens. Mayor Doyle holds up a *fish*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Free lunch, everybody!",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay sees the old harbor *bell*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "HARBOR BELL",
+       "sub": "storm warning · since 1902",
+       "color": "#C9A227"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "He grabs the rope. And *pulls*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "throw",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      },
+      "sfx": [
+       {
+        "type": "ring"
+       },
+       {
+        "type": "ring",
+        "at": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Clang! Clang! *Clang*!",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ring"
+       },
+       {
+        "type": "ring",
+        "at": 0.3
+       },
+       {
+        "type": "ring",
+        "at": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "That bell means *run*! Up the hill! Now!",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The old folks know that bell. They *run*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "run",
+        "expr": "scared",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "run",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "run",
+        "expr": "scared",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "speedLines"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then everyone runs. Fish and *all*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "run",
+        "expr": "scared",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "run",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "run",
+        "expr": "scared",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "speedLines"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "But Milo still has his *headphones* on.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay sprints to the end of the *pier*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "run",
+        "expr": "angry",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "speedLines"
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "On the horizon, a gray line. *Growing*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "growl"
+       }
+      ],
+      "camera": {
+       "zoom": 1.2,
+       "y": 0.55,
+       "push": 0.1
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay yanks off the headphones. Milo *yelps*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.35,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.2
+       },
+       {
+        "id": "kid",
+        "x": 0.7,
+        "pose": "panic",
+        "expr": "shocked",
+        "scale": 1.1
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Don't ask. *Run*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 1
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "run",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "They hit the hill steps as the water *arrives*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 2
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.3,
+        "pose": "run",
+        "expr": "scared",
+        "scale": 1.1
+       },
+       {
+        "id": "kid",
+        "x": 0.6,
+        "pose": "run",
+        "expr": "scared",
+        "scale": 1.0
+       }
+      ],
+      "sfx": [
+       {
+        "type": "crash"
+       },
+       {
+        "type": "whoosh",
+        "at": 0.2
+       }
+      ],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Not a wall. A *fast, rising tide*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 2
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "It floods the pier. It flips the fish *stalls*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day",
+       "damage": 2
+      },
+      "cast": [],
+      "fx": [
+       {
+        "type": "impact",
+        "x": 540,
+        "y": 1300,
+        "at": 0.3
+       }
+      ],
+      "sfx": [
+       {
+        "type": "crash"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "From the hill, the whole town *watches*. Safe.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "I'll... buy that bell a new *rope*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Jay. That was the small part. Look *up*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part five drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Red Sky",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part five. The town is safe. The sky *isn't*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Seven p.m. The sunset turns *blood red*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "red"
+      },
+      "cast": [],
+      "transition": "flash",
+      "sfx": [
+       {
+        "type": "riser"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Not orange. Not pink. *Red*. Like it's burning.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "shocked",
+        "depth": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Somebody calls the fire *department*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "scared",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ring"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Three fire trucks race up the hill. Sirens *screaming*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "shocked",
+        "scale": 1.4
+       }
+      ],
+      "fx": [
+       {
+        "type": "alarm"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "siren"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "There's no fire. There's *ash*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "think",
+        "scale": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Volcanic ash, high in the sky. Bending the *sunlight*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Krakatoa threw ash about fifty miles *up*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "REAL: ASH 80 KM HIGH"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "shocked",
+        "scale": 0.9
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Sunsets went red all over the world. For *months*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "New York called out fire engines. *Real* story.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "1883: FIRE ENGINES SENT"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "smug",
+        "scale": 0.9
+       }
+      ],
+      "sfx": [
+       {
+        "type": "siren",
+        "volume": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "So the mayor did it *twice*. Once in history.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "I heard that.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Everyone laughs. Except *Nia*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "sad",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "heartbeat"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Mom's flight left early. To beat the *ash*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Flight two-twelve. Over the ocean. *Right now*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [],
+      "ui": {
+       "type": "card",
+       "text": "FLIGHT 212",
+       "sub": "over the ocean · 36,000 ft",
+       "color": "#FFD400"
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit. Can you see her *plane*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Tracking. Thirty six thousand feet. *Steady*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "bars",
+       "items": [
+        {
+         "label": "SIGNAL",
+         "value": 0.9,
+         "color": "#2DBE7E"
+        }
+       ],
+       "tag": "FLIGHT 212"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Nia breathes out. Milo falls asleep on her *shoulder*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.4,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.3
+       },
+       {
+        "id": "kid",
+        "x": 0.62,
+        "pose": "sit",
+        "expr": "sleepy",
+        "scale": 1.1
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Eleven p.m. Bit's screen flickers *orange*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "glitch",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "glitch"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "alarm"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The ash cloud moved. It's *in her path*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Flight two-twelve is *descending*. Fast.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 2.0
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 36000,
+       "to": 31000,
+       "label": "FLIGHT 212 · FEET"
+      },
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part six drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Small Problem",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part six. Nia's mom's plane flew into *volcanic ash*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "scared",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "friend",
+     "say": "Why is it going *down*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Ash melts inside jet engines. Engines can *stop*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 31000,
+       "to": 26000,
+       "label": "FLIGHT 212 · FEET"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Nobody says anything. The room is *silent*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "heartbeat"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Nia. Listen. This happened *before*. In 1982.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "REAL: FLIGHT 9, 1982"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "neutral",
+        "scale": 0.9
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "A jumbo jet flew into volcanic ash at *night*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.78,
+        "expr": "think",
+        "scale": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "All *four* engines stopped.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "ENGINES 0 / 4",
+       "sub": "British Airways Flight 9",
+       "color": "#E0312B"
+      },
+      "sfx": [
+       {
+        "type": "powerdown"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The captain said: we have a small *problem*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.7
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "A *small* problem?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The plane glided. Down, out of the *ash*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 37000,
+       "to": 12000,
+       "label": "FLIGHT 9 · FEET"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "In clean air, the engines started *again*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Everyone on board *lived*. Two hundred sixty three.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "1982: ALL 263 SURVIVE"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "happy",
+        "scale": 0.9
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Nia holds onto that like a *rope*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "So they *glide*. And it works.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "neutral",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Twenty thousand feet. Still *dropping*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 26000,
+       "to": 20000,
+       "label": "FLIGHT 212 · FEET"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Ezra comes in with an old radio *scanner*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "walk",
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "knock"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Air traffic channels. Let's *listen*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "neutral",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "glitch"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "buzz"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Static. Then a calm *voice*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "scared",
+        "scale": 1.8
+       }
+      ],
+      "sfx": [
+       {
+        "type": "buzz"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Two-twelve, engines out, *gliding*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "glitch"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Nia grabs Jay's hand. He *doesn't* let go.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.4,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.3
+       },
+       {
+        "id": "friend",
+        "x": 0.62,
+        "pose": "sit",
+        "expr": "scared",
+        "scale": 1.3
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Fifteen thousand. Then the signal *stops*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "off",
+        "scale": 2.0
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 20000,
+       "to": 15000,
+       "label": "FLIGHT 212 · FEET"
+      },
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part seven drops in two days.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Engine One",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part seven. The plane is gliding. Signal *gone*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "glitch",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "friend",
+     "say": "Bit? *Bit*! Where is she?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Low planes drop off my map. That's *normal*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The scanner hisses. Nothing. *Nothing*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "buzz"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Milo wakes up. He looks at all their *faces*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sleepy",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "kid",
+     "say": "Is it Mom? Is Mom *okay*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Nia can't answer. So Jay *does*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "neutral",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Her plane is gliding. Planes are *good* at gliding.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "neutral",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "In 1982, a plane did this. Everyone *lived*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Her pilots know about ash. They *train* for it.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "neutral",
+        "scale": 1.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay is not sure he believes *himself*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      },
+      "sfx": [
+       {
+        "type": "heartbeat"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Three minutes. Four. *Five*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "05:00",
+       "color": "#FF6B4A"
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       },
+       {
+        "type": "tick",
+        "at": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then the scanner *crackles*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "shocked",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "glitch"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "buzz"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Two-twelve. Engine one *relit*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.8
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "ENGINES 1 / 4",
+       "sub": "flight 212",
+       "color": "#FFD400"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Engine two *relit*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "ENGINES 2 / 4",
+       "sub": "flight 212",
+       "color": "#FFD400"
+      },
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Three. *Four*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 2.0
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "ENGINES 4 / 4",
+       "sub": "flight 212",
+       "color": "#2DBE7E"
+      },
+      "sfx": [
+       {
+        "type": "powerup"
+       },
+       {
+        "type": "ding",
+        "at": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay squeezes Nia's hand. She squeezes *back*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.4,
+        "pose": "sit",
+        "expr": "happy",
+        "scale": 1.3
+       },
+       {
+        "id": "friend",
+        "x": 0.62,
+        "pose": "sit",
+        "expr": "shocked",
+        "scale": 1.3
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The room *explodes*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       },
+       {
+        "type": "pop",
+        "at": 0.3
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Ha! Small problem! *Small problem*!",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Signal back. Twelve thousand feet. *Climbing*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 12000,
+       "to": 14000,
+       "label": "FLIGHT 212 · FEET"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Ninety minutes later, Nia's phone *rings*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "shocked",
+        "scale": 1.8
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ring"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "A crackly line. A *voice*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "scared",
+        "scale": 2.0
+       }
+      ],
+      "fx": [
+       {
+        "type": "glitch"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Mom? Mom, where *are* you?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "scared",
+        "scale": 2.0
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Part eight drops in two days. The final part.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "The Scream",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part eight. Engines back. Then Nia's phone *rang*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "scared",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ring"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mom landed at a small airport. Far from *ash*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "day"
+      },
+      "cast": [],
+      "ui": {
+       "type": "card",
+       "text": "LANDED",
+       "sub": "flight 212 · all safe",
+       "color": "#2DBE7E"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "She says... *we had a small problem*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Nia laughs and cries at the same *time*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.4,
+        "pose": "cheer",
+        "expr": "happy",
+        "scale": 1.3
+       },
+       {
+        "id": "kid",
+        "x": 0.64,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.1
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Two days later, Mom's home. Milo hugs her *hard*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.7
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The boom passes over town one last *time*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "kid",
+     "say": "Lap seven. Same as 1883! My chart was *right*!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 6,
+       "to": 7,
+       "label": "BOOM LAPS"
+      },
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mayor Doyle unveils a new rope for the *bell*.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "wave",
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "JAY'S BELL",
+       "sub": "ring it. then run.",
+       "color": "#C9A227"
+      }
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "And a *siren*. Just in case.",
+     "shot": {
+      "set": {
+       "type": "harbor",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "smug",
+        "scale": 1.9
+       }
+      ],
+      "sfx": [
+       {
+        "type": "siren",
+        "volume": 0.4
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "For weeks, every sunset stays *red*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "red"
+      },
+      "cast": []
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Milo paints a face *screaming* at a red sky.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Fun fact. Some think *The Scream* shows that sky.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "REAL: THE SCREAM, 1893"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "smug",
+        "scale": 0.9
+       }
+      ],
+      "transition": "whip"
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Munch painted it ten years after *Krakatoa*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "1883 → 1893",
+       "sub": "red skies over Norway",
+       "color": "#FF6B4A"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Next summer, the north was point four degrees *cooler*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 0.4,
+       "suffix": " °C",
+       "label": "COOLER SUMMER"
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "One volcano. And the whole planet *felt* it.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "One sound. And the whole town *listened*. Eventually.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.8
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "That night, they all sit on the hill. *Quiet*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Jay. Thanks for *ringing* the bell.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Thanks for not *letting go*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Can we stop having *small problems* now?",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "red"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.6,
+        "lift": 250
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "ding",
+        "at": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for a new What if every day.",
+     "end": true
+    }
+   ]
+  }
+ ]
+}

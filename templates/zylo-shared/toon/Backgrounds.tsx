@@ -11,8 +11,8 @@ export const W = 1080;
 export const H = 1920;
 export const FLOOR_Y = 1480;
 
-export type TimeOfDay = 'day' | 'dusk' | 'night';
-export type SetName = 'room' | 'street' | 'sky' | 'space' | 'news' | 'store' | 'wasteland' | 'lab' | 'burst' | 'casino' | 'workshop';
+export type TimeOfDay = 'day' | 'dusk' | 'night' | 'red';
+export type SetName = 'room' | 'street' | 'sky' | 'space' | 'news' | 'store' | 'wasteland' | 'lab' | 'burst' | 'casino' | 'workshop' | 'harbor';
 
 export type SetSpec = {
   type: SetName;
@@ -28,6 +28,8 @@ const SKY: Record<TimeOfDay, [string, string]> = {
   day: ['#7EC8FF', '#D7F0FF'],
   dusk: ['#3B2E6E', '#FF9A5C'],
   night: ['#0B1026', '#1F2D5C'],
+  /** Volcanic sunset: the blood-red sky after a big eruption. */
+  red: ['#4A0A1A', '#FF4A2A'],
 };
 
 // Deterministic pseudo-random so the same set always draws the same windows and stars.
@@ -52,7 +54,7 @@ const Sky: React.FC<{ time: TimeOfDay; t: number; id: string }> = ({ time, t, id
     {time === 'night' ? (
       <circle cx={820} cy={300} r={70} fill="#F4F1DE" stroke={INK} strokeWidth={6} />
     ) : (
-      <circle cx={820} cy={time === 'dusk' ? 820 : 300} r={90} fill={time === 'dusk' ? '#FFC36B' : '#FFE27A'} />
+      <circle cx={820} cy={time === 'dusk' || time === 'red' ? 820 : 300} r={90} fill={time === 'red' ? '#FFB13B' : time === 'dusk' ? '#FFC36B' : '#FFE27A'} />
     )}
     {time !== 'night' &&
       [0, 1, 2].map((i) => {
@@ -509,6 +511,57 @@ const Workshop: React.FC<{ t: number; damage: number }> = ({ t, damage }) => {
   );
 };
 
+/** Harbour: sea to the horizon, a wooden pier, a moored boat. damage 1 = the sea has drained away (wet sand, stranded fish), 2 = surge water over the pier. */
+const Harbor: React.FC<{ time: TimeOfDay; t: number; damage: number }> = ({ time, t, damage }) => {
+  const seaTop = damage === 1 ? 1330 : 1060;
+  const sea = time === 'night' ? '#16305A' : time === 'red' ? '#7A2A3A' : time === 'dusk' ? '#3E4F8A' : '#2F8FD8';
+  const deep = time === 'night' ? '#0E1E3C' : time === 'red' ? '#4A1428' : '#1C5FA8';
+  return (
+    <g>
+      <Sky time={time} t={t} id="harbor" />
+      <Skyline y={1060} color={time === 'night' ? '#252B52' : time === 'red' ? '#5A1E2E' : '#9DB2D6'} lit={time !== 'day'} seed={53} scale={0.32} />
+      {damage === 1 && <rect y={1060} width={W} height={H - 1060} fill="#C9A86A" stroke={INK} strokeWidth={6} />}
+      <rect y={seaTop} width={W} height={H - seaTop} fill={sea} />
+      <rect y={seaTop + 160} width={W} height={H - seaTop} fill={deep} opacity={0.6} />
+      {Array.from({ length: 9 }).map((_, i) => {
+        const y = seaTop + 40 + (i % 3) * 90;
+        const x = ((i * 170 + t * (1.2 + (i % 3) * 0.4)) % (W + 200)) - 100;
+        return <path key={i} d={`M ${x} ${y} q 30 -18 60 0 q 30 18 60 0`} stroke="#FFFFFF" strokeWidth={6} fill="none" opacity={0.55} />;
+      })}
+      {damage === 1 &&
+        [0, 1, 2, 3].map((i) => (
+          <g key={i} transform={`translate(${160 + i * 230} ${1200 + (i % 2) * 70}) rotate(${Math.sin(t / 3 + i) * 12})`}>
+            <ellipse rx={34} ry={14} fill="#B8C7D6" stroke={INK} strokeWidth={4} />
+            <path d="M 30 0 L 52 -14 L 52 14 Z" fill="#B8C7D6" stroke={INK} strokeWidth={4} />
+          </g>
+        ))}
+      {/* boat */}
+      <g transform={`translate(820 ${(damage === 1 ? 1290 : 1110) + Math.sin(t / 9) * 8}) rotate(${damage === 1 ? 8 : Math.sin(t / 12) * 3})`}>
+        <path d="M -150 0 L 150 0 L 110 70 L -110 70 Z" fill="#E0312B" stroke={INK} strokeWidth={8} />
+        <rect x={-60} y={-90} width={110} height={90} rx={8} fill="#FFFFFF" stroke={INK} strokeWidth={7} />
+        <rect x={-40} y={-70} width={30} height={30} fill="#7EC8FF" stroke={INK} strokeWidth={4} />
+        <line x1={70} y1={0} x2={70} y2={-180} stroke={INK} strokeWidth={8} />
+      </g>
+      {/* pier */}
+      <rect y={FLOOR_Y - 30} width={W} height={H - FLOOR_Y + 30} fill="#8A5A34" stroke={INK} strokeWidth={8} />
+      {Array.from({ length: 10 }).map((_, i) => (
+        <line key={i} x1={i * 120} y1={FLOOR_Y - 30} x2={i * 120} y2={H} stroke="#5E3A1F" strokeWidth={5} />
+      ))}
+      {[90, 540, 990].map((x) => (
+        <rect key={x} x={x - 22} y={FLOOR_Y - 120} width={44} height={100} rx={8} fill="#6B4426" stroke={INK} strokeWidth={6} />
+      ))}
+      {damage === 2 && (
+        <g>
+          <path d={`M 0 ${FLOOR_Y - 60 + Math.sin(t / 4) * 14} Q 270 ${FLOOR_Y - 120} 540 ${FLOOR_Y - 60} T 1080 ${FLOOR_Y - 70} L 1080 ${H} L 0 ${H} Z`} fill={sea} opacity={0.82} stroke={INK} strokeWidth={6} />
+          {[0, 1, 2, 3, 4].map((i) => (
+            <circle key={i} cx={100 + i * 220} cy={FLOOR_Y - 80 + Math.sin(t / 3 + i) * 10} r={18} fill="#FFFFFF" opacity={0.7} />
+          ))}
+        </g>
+      )}
+    </g>
+  );
+};
+
 export const SetPiece: React.FC<{ spec: SetSpec; t: number }> = ({ spec, t }) => {
   const time = spec.time ?? 'day';
   const damage = spec.damage ?? 0;
@@ -535,6 +588,8 @@ export const SetPiece: React.FC<{ spec: SetSpec; t: number }> = ({ spec, t }) =>
       return <Casino t={t} damage={damage} />;
     case 'workshop':
       return <Workshop t={t} damage={damage} />;
+    case 'harbor':
+      return <Harbor time={time} t={t} damage={damage} />;
   }
 };
 
