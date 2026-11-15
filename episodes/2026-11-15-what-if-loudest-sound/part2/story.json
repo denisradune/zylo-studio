@@ -1,0 +1,517 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If the Loudest Sound in History Happened Today? (Part 2)",
+ "seed": 6102,
+ "partLabel": "PART 2/8",
+ "end": {
+  "text": "PART 3",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part two. A volcanic boom is circling the *Earth*.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "hero",
+   "say": "Coming back? A sound can't come *back*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "This one can. It's a pressure wave. A *ripple*.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "In 1883, it circled Earth over *three times*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: 3+ LAPS"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Barometers caught it seven times. Over *five days*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 7,
+     "label": "TIMES RECORDED"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra sets the barometer on his *porch*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Then we *wait*. And we count.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Milo grabs a pencil and makes a *chart*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "BOOM LAPS",
+     "items": [
+      "lap 1: 7:00 a.m."
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mayor Doyle calls a press *conference*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "MAYOR: STAY CALM"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.8,
+      "pose": "wave",
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "It was a loud noise. It is *over*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia isn't listening. She's staring at her *phone*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "My mom flies home *tomorrow*. Over that ocean.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit? Is that *safe*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The airlines are watching the ash. For *now*, yes.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Midnight. Ezra's needle twitches. *Again*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "00:00",
+     "color": "#FF6B4A"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Lap two! The boom went all the way *around*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The whole street cheers. For a *sound*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But Bit is watching something *else*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. The harbor gauge just *moved*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "In 1883, the sea felt it. Even in *England*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "1883: WAVES REACH UK"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "sad",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A wave is crossing the ocean. Landing at *noon*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part three drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

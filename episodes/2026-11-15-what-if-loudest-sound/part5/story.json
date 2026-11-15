@@ -1,0 +1,534 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If the Loudest Sound in History Happened Today? (Part 5)",
+ "seed": 6105,
+ "partLabel": "PART 5/8",
+ "end": {
+  "text": "PART 6",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part five. The town is safe. The sky *isn't*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Seven p.m. The sunset turns *blood red*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "red"
+    },
+    "cast": [],
+    "transition": "flash",
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Not orange. Not pink. *Red*. Like it's burning.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Somebody calls the fire *department*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ring"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three fire trucks race up the hill. Sirens *screaming*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "alarm"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "siren"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "There's no fire. There's *ash*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Volcanic ash, high in the sky. Bending the *sunlight*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Krakatoa threw ash about fifty miles *up*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: ASH 80 KM HIGH"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Sunsets went red all over the world. For *months*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "New York called out fire engines. *Real* story.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "1883: FIRE ENGINES SENT"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "siren",
+      "volume": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "So the mayor did it *twice*. Once in history.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "I heard that.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Everyone laughs. Except *Nia*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Mom's flight left early. To beat the *ash*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Flight two-twelve. Over the ocean. *Right now*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "FLIGHT 212",
+     "sub": "over the ocean \u00b7 36,000 ft",
+     "color": "#FFD400"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. Can you see her *plane*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Tracking. Thirty six thousand feet. *Steady*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "items": [
+      {
+       "label": "SIGNAL",
+       "value": 0.9,
+       "color": "#2DBE7E"
+      }
+     ],
+     "tag": "FLIGHT 212"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia breathes out. Milo falls asleep on her *shoulder*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.3
+     },
+     {
+      "id": "kid",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "sleepy",
+      "scale": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Eleven p.m. Bit's screen flickers *orange*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "alarm"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The ash cloud moved. It's *in her path*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Flight two-twelve is *descending*. Fast.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.3
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 36000,
+     "to": 31000,
+     "label": "FLIGHT 212 \u00b7 FEET"
+    },
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part six drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

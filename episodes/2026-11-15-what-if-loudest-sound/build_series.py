@@ -153,7 +153,7 @@ p5 = [
  L(N, "Nia breathes out. Milo falls asleep on her *shoulder*.", RN, [c("friend", .4, pose="sit", expr="sad", scale=1.3), c("kid", .62, pose="sit", expr="sleepy", scale=1.1)]),
  L(N, "Eleven p.m. Bit's screen flickers *orange*.", RN, [c("bit", .5, expr="glitch", scale=1.8)], fx=[{"type": "glitch"}], sfx=[{"type": "alarm"}]),
  L("bit", "The ash cloud moved. It's *in her path*.", RN, [c("bit", .5, expr="shocked", scale=1.9)], camera=CU),
- L("bit", "Flight two-twelve is *descending*. Fast.", RN, [c("bit", .5, expr="shocked", scale=2.0)], ui=alt(36000, 31000), camera=PUSH, sfx=CLIFF),
+ L("bit", "Flight two-twelve is *descending*. Fast.", RN, [c("bit", .5, expr="shocked", scale=1.3)], ui=alt(36000, 31000), camera=PUSH, sfx=CLIFF),
  end("Part six drops in two days."),
 ]
 p6 = [
@@ -213,7 +213,7 @@ p8 = [
  L(N, "Nia laughs and cries at the same *time*.", RN, [c("friend", .4, pose="cheer", expr="happy", scale=1.3), c("kid", .64, pose="cheer", expr="grin", scale=1.1)]),
  L(N, "Two days later, Mom's home. Milo hugs her *hard*.", SD, [c("kid", .5, pose="cheer", expr="grin", scale=1.7)], camera=CU),
  L(N, "The boom passes over town one last *time*.", SD, [c("scientist", .5, pose="point", expr="grin", scale=1.6)], sfx=[{"type": "tick"}]),
- L("kid", "Lap seven. Same as 1883! My chart was *right*!", SD, [c("kid", .5, pose="cheer", expr="grin", scale=1.9)], ui={"type": "counter", "from": 6, "to": 7, "label": "BOOM LAPS"}, camera=CU),
+ L("kid", "Lap seven. Same as 1883! My chart was *right*!", SD, [c("kid", .5, pose="cheer", expr="grin", scale=1.35)], ui={"type": "counter", "from": 6, "to": 7, "label": "BOOM LAPS"}, camera=CU),
  L(N, "Mayor Doyle unveils a new rope for the *bell*.", HB, [c("boss", .5, pose="wave", expr="happy", scale=1.6)], ui={"type": "card", "text": "JAY'S BELL", "sub": "ring it. then run.", "color": "#C9A227"}),
  L("boss", "And a *siren*. Just in case.", HB, [c("boss", .5, pose="point", expr="smug", scale=1.9)], sfx=[{"type": "siren", "volume": 0.4}], camera=CU),
  L(N, "For weeks, every sunset stays *red*.", SKYR, []),

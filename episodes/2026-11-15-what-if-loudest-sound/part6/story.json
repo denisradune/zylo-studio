@@ -1,0 +1,568 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If the Loudest Sound in History Happened Today? (Part 6)",
+ "seed": 6106,
+ "partLabel": "PART 6/8",
+ "end": {
+  "text": "PART 7",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part six. Nia's mom's plane flew into *volcanic ash*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "friend",
+   "say": "Why is it going *down*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Ash melts inside jet engines. Engines can *stop*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 31000,
+     "to": 26000,
+     "label": "FLIGHT 212 \u00b7 FEET"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nobody says anything. The room is *silent*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Nia. Listen. This happened *before*. In 1982.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: FLIGHT 9, 1982"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "neutral",
+      "scale": 0.9
+     }
+    ],
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A jumbo jet flew into volcanic ash at *night*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "All *four* engines stopped.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "ENGINES 0 / 4",
+     "sub": "British Airways Flight 9",
+     "color": "#E0312B"
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The captain said: we have a small *problem*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "A *small* problem?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The plane glided. Down, out of the *ash*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 37000,
+     "to": 12000,
+     "label": "FLIGHT 9 \u00b7 FEET"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "In clean air, the engines started *again*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Everyone on board *lived*. Two hundred sixty three.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "1982: ALL 263 SURVIVE"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia holds onto that like a *rope*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "So they *glide*. And it works.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Twenty thousand feet. Still *dropping*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 26000,
+     "to": 20000,
+     "label": "FLIGHT 212 \u00b7 FEET"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra comes in with an old radio *scanner*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Air traffic channels. Let's *listen*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Static. Then a calm *voice*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Two-twelve, engines out, *gliding*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia grabs Jay's hand. He *doesn't* let go.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.3
+     },
+     {
+      "id": "friend",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "scared",
+      "scale": 1.3
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Fifteen thousand. Then the signal *stops*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 2.0
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 20000,
+     "to": 15000,
+     "label": "FLIGHT 212 \u00b7 FEET"
+    },
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part seven drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

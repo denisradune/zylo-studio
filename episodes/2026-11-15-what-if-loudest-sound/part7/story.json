@@ -1,0 +1,650 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If the Loudest Sound in History Happened Today? (Part 7)",
+ "seed": 6107,
+ "partLabel": "PART 7/8",
+ "end": {
+  "text": "PART 8",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part seven. The plane is gliding. Signal *gone*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "friend",
+   "say": "Bit? *Bit*! Where is she?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Low planes drop off my map. That's *normal*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The scanner hisses. Nothing. *Nothing*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Milo wakes up. He looks at all their *faces*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sleepy",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Is it Mom? Is Mom *okay*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia can't answer. So Jay *does*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Her plane is gliding. Planes are *good* at gliding.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "In 1982, a plane did this. Everyone *lived*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Her pilots know about ash. They *train* for it.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay is not sure he believes *himself*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three minutes. Four. *Five*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "05:00",
+     "color": "#FF6B4A"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     },
+     {
+      "type": "tick",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the scanner *crackles*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Two-twelve. Engine one *relit*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "ENGINES 1 / 4",
+     "sub": "flight 212",
+     "color": "#FFD400"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Engine two *relit*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "ENGINES 2 / 4",
+     "sub": "flight 212",
+     "color": "#FFD400"
+    },
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three. *Four*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "ENGINES 4 / 4",
+     "sub": "flight 212",
+     "color": "#2DBE7E"
+    },
+    "sfx": [
+     {
+      "type": "powerup"
+     },
+     {
+      "type": "ding",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay squeezes Nia's hand. She squeezes *back*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "happy",
+      "scale": 1.3
+     },
+     {
+      "id": "friend",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "shocked",
+      "scale": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The room *explodes*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "pop",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Ha! Small problem! *Small problem*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Signal back. Twelve thousand feet. *Climbing*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 12000,
+     "to": 14000,
+     "label": "FLIGHT 212 \u00b7 FEET"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ninety minutes later, Nia's phone *rings*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ring"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A crackly line. A *voice*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 2.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Mom? Mom, where *are* you?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part eight drops in two days. The final part.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

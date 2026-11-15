@@ -1,0 +1,565 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If the Loudest Sound in History Happened Today? (Part 3)",
+ "seed": 6103,
+ "partLabel": "PART 3/8",
+ "end": {
+  "text": "PART 4",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part three. A wave hits the harbor at *noon*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "hero",
+   "say": "A *tsunami*? Here?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A small one. After that far, maybe *one meter*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.78,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 1,
+     "suffix": " m",
+     "label": "EXPECTED WAVE"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "One meter. That's my *waist*. That's nothing.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A meter of moving sea can tip a *truck*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "crash"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Eight a.m. Jay runs to the *mayor*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "angry",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "04:00",
+     "color": "#FF6B4A"
+    },
+    "transition": "whip"
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Close the fish market? On a *Saturday*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "smug",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "A wave from a volcano we can't even *see*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra taps his barometer. *Lap three*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "You couldn't see it either. But you *heard* it.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The mayor doesn't *answer*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Eleven a.m. The harbor is *packed*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "01:00",
+     "color": "#FF6B4A"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Fish stalls. Tourists. Boats coming in with the *catch*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.1
+     },
+     {
+      "id": "boss",
+      "x": 0.72,
+      "pose": "wave",
+      "expr": "grin",
+      "scale": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And at the very end of the pier, *Milo*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "grin",
+      "scale": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Fishing rod. Headphones. *Very* loud headphones.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Milo! MILO! He can't *hear* me.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay starts down the *pier*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "scared",
+      "scale": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Eleven forty. Then the water does something *strange*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "00:20",
+     "color": "#FF6B4A"
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "It starts to *leave*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ],
+    "transition": "flash"
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The whole harbor drains. Boats sit on *sand*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And the crowd walks *out* to grab the fish.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "walk",
+      "expr": "grin",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "walk",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "walk",
+      "expr": "grin",
+      "depth": 0.5
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part four drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

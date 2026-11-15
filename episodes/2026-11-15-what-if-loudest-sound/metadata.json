@@ -17,7 +17,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-15T12:00:00Z"
  },
  "part2": {
   "title": "What If a Sound Circled the Earth? 🌋 Part 2 #shorts",
@@ -37,7 +38,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-17T12:00:00Z"
  },
  "part3": {
   "title": "What If the Sea Just Left? 🌋 Part 3 #shorts",
@@ -57,7 +59,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-19T12:00:00Z"
  },
  "part4": {
   "title": "What If Nobody Heard the Warning? 🌋 Part 4 #shorts",
@@ -77,7 +80,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-21T12:00:00Z"
  },
  "part5": {
   "title": "What If the Sky Turned Blood Red? 🌋 Part 5 #shorts",
@@ -97,7 +101,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-23T12:00:00Z"
  },
  "part6": {
   "title": "What If All Four Engines Stopped? 🌋 Part 6 #shorts",
@@ -117,7 +122,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-25T12:00:00Z"
  },
  "part7": {
   "title": "What If the Engines Came Back? 🌋 Part 7 #shorts",
@@ -137,7 +143,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-27T12:00:00Z"
  },
  "part8": {
   "title": "What If a Volcano Painted the Sky? 🌋 Part 8 #shorts",
@@ -157,7 +164,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-29T12:00:00Z"
  },
  "full": {
   "title": "What If the Loudest Sound Ever Happened Today? (Full Story)",
@@ -175,6 +183,7 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-30T19:00:00Z"
  }
 }

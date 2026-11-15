@@ -1,0 +1,704 @@
+{
+ "mood": "tension",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If the Loudest Sound in History Happened Today? (Part 4)",
+ "seed": 6104,
+ "partLabel": "PART 4/8",
+ "end": {
+  "text": "PART 5",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part four. The sea pulled back. People walked *in*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "hero",
+   "say": "No! Get out of there! That's the *wave*!",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit taught him. When the sea leaves, it *returns*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nobody listens. Mayor Doyle holds up a *fish*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Free lunch, everybody!",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay sees the old harbor *bell*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "HARBOR BELL",
+     "sub": "storm warning \u00b7 since 1902",
+     "color": "#C9A227"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He grabs the rope. And *pulls*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "throw",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "sfx": [
+     {
+      "type": "ring"
+     },
+     {
+      "type": "ring",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Clang! Clang! *Clang*!",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ring"
+     },
+     {
+      "type": "ring",
+      "at": 0.3
+     },
+     {
+      "type": "ring",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "That bell means *run*! Up the hill! Now!",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The old folks know that bell. They *run*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "run",
+      "expr": "scared",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "run",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "run",
+      "expr": "scared",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then everyone runs. Fish and *all*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "run",
+      "expr": "scared",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "run",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "run",
+      "expr": "scared",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But Milo still has his *headphones* on.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay sprints to the end of the *pier*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "On the horizon, a gray line. *Growing*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "growl"
+     }
+    ],
+    "camera": {
+     "zoom": 1.2,
+     "y": 0.55,
+     "push": 0.1
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay yanks off the headphones. Milo *yelps*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.35,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.2
+     },
+     {
+      "id": "kid",
+      "x": 0.7,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Don't ask. *Run*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 1
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "They hit the hill steps as the water *arrives*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 2
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "run",
+      "expr": "scared",
+      "scale": 1.1
+     },
+     {
+      "id": "kid",
+      "x": 0.6,
+      "pose": "run",
+      "expr": "scared",
+      "scale": 1.0
+     }
+    ],
+    "sfx": [
+     {
+      "type": "crash"
+     },
+     {
+      "type": "whoosh",
+      "at": 0.2
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Not a wall. A *fast, rising tide*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 2
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "It floods the pier. It flips the fish *stalls*.",
+   "shot": {
+    "set": {
+     "type": "harbor",
+     "time": "day",
+     "damage": 2
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "impact",
+      "x": 540,
+      "y": 1300,
+      "at": 0.3
+     }
+    ],
+    "sfx": [
+     {
+      "type": "crash"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "From the hill, the whole town *watches*. Safe.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "shocked",
+      "depth": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "I'll... buy that bell a new *rope*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. That was the small part. Look *up*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "red"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Part five drops in two days.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
