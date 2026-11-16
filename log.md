@@ -54,3 +54,4 @@
 | 50 | 2026-11-17 | What If Saving Everyone Deleted Your AI? S2 · Part 7 #shorts | what-if: disaster (part7) | sources.md | https://youtube.com/shorts/jAprFgeWKLQ |
 | 51 | 2026-11-17 | What If 400 Orders Had One Name? 🛒 Part 6 #shorts | what-if: money (part6) | sources.md | https://youtube.com/shorts/vQS9ZUie9ak |
 | 52 | 2026-11-17 | What If Money Melted Every Minute? 💸 Part 4 #shorts | what-if: money (part4) | sources.md | https://youtube.com/shorts/E07vzRt9vew |
+| 53 | 2026-11-18 | What If You Played for the Casino? Season 2 (Full Story) | what-if: money (full) | sources.md | https://youtu.be/WT0AkC2Nx4s |
