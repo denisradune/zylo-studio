@@ -121,7 +121,7 @@
       "x": 0.5,
       "pose": "phone",
       "expr": "shocked",
-      "scale": 2.0
+      "scale": 1.35
      }
     ],
     "ui": {
@@ -764,10 +764,10 @@
     "cast": [
      {
       "id": "boss",
-      "x": 0.32,
+      "x": 0.3,
       "pose": "cheer",
       "expr": "grin",
-      "scale": 1.4,
+      "scale": 1.15,
       "facing": 1
      },
      {
@@ -775,7 +775,7 @@
       "x": 0.72,
       "pose": "shrug",
       "expr": "shocked",
-      "scale": 1.4,
+      "scale": 1.15,
       "facing": -1
      }
     ],

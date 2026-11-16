@@ -31,7 +31,7 @@ lines = [
  L(N, "What if your boss meme hit the *work chat*?", phone([MEME], seen="Delivered"), [], camera=PUSH, sfx=[{"type": "pop"}, {"type": "riser", "at": .4}]),
  L(N, "Eleven forty-seven p.m. You meant the *friends* chat.", RN, [c("hero", .5, pose="phone", expr="happy", scale=1.7)], ui={"type": "clock", "text": "23:47"}),
  L(N, "Then you read the name. *All staff*.", phone([MEME], seen="Delivered"), [], camera={"zoom": 1.35, "y": .1, "x": .5}, sfx=[{"type": "hit"}]),
- L(N, "Forty-eight people. Including *the boss*.", RN, [c("hero", .5, pose="phone", expr="shocked", scale=2.0)], ui={"type": "counter", "from": 1, "to": 48, "label": "PEOPLE IN THE CHAT"}, camera=SHAKE, sfx=[{"type": "heartbeat"}]),
+ L(N, "Forty-eight people. Including *the boss*.", RN, [c("hero", .5, pose="phone", expr="shocked", scale=1.35)], ui={"type": "counter", "from": 1, "to": 48, "label": "PEOPLE IN THE CHAT"}, camera=SHAKE, sfx=[{"type": "heartbeat"}]),
  L("hero", "Bit! Unsend it! *Now*!", RN, [c("hero", .3, pose="panic", expr="scared", scale=1.5), c("bit", .74, expr="shocked", scale=.9)], camera=SHAKE),
  L("bit", "The unsend window closed four seconds *ago*.", RN, [c("bit", .5, expr="sad", scale=1.6)], ui={"type": "stamp", "text": "TOO LATE"}, sfx=[{"type": "buzz"}]),
  L(N, "Rule number one. Do not *panic*.", RN, [c("hero", .5, pose="idle", expr="neutral", scale=1.6)], ui=rule(1, "DON'T PANIC")),
@@ -51,7 +51,7 @@ lines = [
  L(N, "You type. You delete. You *type*.", phone([BITPIC, R1, R2], draft="it's about my other bo"), [], sfx=[{"type": "tick"}]),
  L("bit", "Done! I answered for you. Honestly.", phone([R1, R2, R3]), [], sfx=[{"type": "pop"}]),
  L(N, "Monday. Nine a.m. Your boss's *office*.", {"type": "phone", "time": "night", "screen": {"kind": "lock", "clock": "23:52", "sub": "Sunday", "notes": [{"app": "WORK CHAT", "text": "Boss: My office. Monday. 9 a.m."}]}}, [], camera=SHAKE, sfx=[{"type": "boom"}]),
- L(N, "He wants the meme. On a *T-shirt*.", RD, [c("boss", .32, pose="cheer", expr="grin", scale=1.4, facing=1), c("hero", .72, pose="shrug", expr="shocked", scale=1.4, facing=-1)], ui={"type": "card", "text": "NEW TEAM SHIRT", "sub": "\"QUICK 5 MIN CALL\"", "color": "#2F7BFF"}, sfx=[{"type": "ding"}]),
+ L(N, "He wants the meme. On a *T-shirt*.", RD, [c("boss", .3, pose="cheer", expr="grin", scale=1.15, facing=1), c("hero", .72, pose="shrug", expr="shocked", scale=1.15, facing=-1)], ui={"type": "card", "text": "NEW TEAM SHIRT", "sub": "\"QUICK 5 MIN CALL\"", "color": "#2F7BFF"}, sfx=[{"type": "ding"}]),
  {"speaker": N, "say": "Follow for a new What if every day.", "end": True},
 ]
 

@@ -92,8 +92,8 @@ const Img: React.FC<{ kind: string; w: number; h: number }> = ({ kind, w, h }) =
       <rect width={w} height={h} rx={18} fill="#FFFFFF" stroke="#D0D4E0" strokeWidth={4} />
       <rect x={14} y={14} width={w - 28} height={h / 2 - 20} rx={10} fill="#E8F3FF" />
       <rect x={14} y={h / 2 + 6} width={w - 28} height={h / 2 - 20} rx={10} fill="#FFE3E3" />
-      <text x={w / 2} y={h / 4 + 6} textAnchor="middle" fontFamily="ZyloHead" fontSize={38} fill={INK}>"QUICK 5 MIN CALL"</text>
-      <text x={w / 2} y={(3 * h) / 4 - 2} textAnchor="middle" fontFamily="ZyloHead" fontSize={38} fill="#C0262D">THE CALL: 2 HOURS</text>
+      <text x={w / 2} y={h / 4 + 6} textAnchor="middle" fontFamily="ZyloHead" fontSize={34} fill={INK}>"QUICK 5 MIN CALL"</text>
+      <text x={w / 2} y={(3 * h) / 4 - 2} textAnchor="middle" fontFamily="ZyloHead" fontSize={34} fill="#C0262D">THE CALL: 2 HOURS</text>
       <g transform={`translate(${w - 70} ${(3 * h) / 4 + 30})`}>
         <circle r={22} fill="#FFFFFF" stroke={INK} strokeWidth={5} />
         <line x1={0} y1={0} x2={0} y2={-14} stroke={INK} strokeWidth={4} />
@@ -216,7 +216,7 @@ const Lock: React.FC<{ s: PhoneScreen; time: string; f: number }> = ({ s, time, 
         </linearGradient>
       </defs>
       <rect x={X0} y={Y0} width={SW} height={1700} fill="url(#lock-bg)" />
-      <text x={540} y={470} textAnchor="middle" fontFamily="ZyloHead" fontSize={230} fill="#FFFFFF">
+      <text x={540} y={470} textAnchor="middle" fontFamily="ZyloHead" fontSize={190} fill="#FFFFFF">
         {s.clock ?? '02:13'}
       </text>
       <text x={540} y={545} textAnchor="middle" fontFamily="ZyloBody" fontWeight={800} fontSize={40} fill="#FFFFFF" opacity={0.8}>

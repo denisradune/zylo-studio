@@ -1,0 +1,2015 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 64.972,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "What",
+   "startMs": 143,
+   "endMs": 373,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 373,
+   "endMs": 443,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 443,
+   "endMs": 573,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "boss",
+   "startMs": 573,
+   "endMs": 903,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "meme",
+   "startMs": 903,
+   "endMs": 1273,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "hit",
+   "startMs": 1273,
+   "endMs": 1413,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 1413,
+   "endMs": 1493,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "work",
+   "startMs": 1493,
+   "endMs": 1743,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "chat?",
+   "startMs": 1743,
+   "endMs": 2105,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Eleven",
+   "startMs": 2427,
+   "endMs": 2897,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "forty-seven",
+   "startMs": 2897,
+   "endMs": 3607,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "p.m.",
+   "startMs": 3607,
+   "endMs": 4475,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 4816,
+   "endMs": 4976,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "meant",
+   "startMs": 4976,
+   "endMs": 5246,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 5246,
+   "endMs": 5396,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "friends",
+   "startMs": 5396,
+   "endMs": 5826,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "chat.",
+   "startMs": 5826,
+   "endMs": 6309,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 6716,
+   "endMs": 6986,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 6986,
+   "endMs": 7156,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "read",
+   "startMs": 7156,
+   "endMs": 7496,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 7496,
+   "endMs": 7656,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "name.",
+   "startMs": 7656,
+   "endMs": 8081,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "All",
+   "startMs": 8444,
+   "endMs": 8834,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "staff.",
+   "startMs": 8834,
+   "endMs": 9233,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Forty-eight",
+   "startMs": 9661,
+   "endMs": 10361,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "people.",
+   "startMs": 10361,
+   "endMs": 10941,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Including",
+   "startMs": 11283,
+   "endMs": 11893,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 11893,
+   "endMs": 12023,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "boss.",
+   "startMs": 12023,
+   "endMs": 12605,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Bit!",
+   "startMs": 12905,
+   "endMs": 13332,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Unsend",
+   "startMs": 13633,
+   "endMs": 14063,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "it!",
+   "startMs": 14063,
+   "endMs": 14359,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Now!",
+   "startMs": 14660,
+   "endMs": 15172,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 15456,
+   "endMs": 15626,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "unsend",
+   "startMs": 15626,
+   "endMs": 16126,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "window",
+   "startMs": 16126,
+   "endMs": 16496,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "closed",
+   "startMs": 16496,
+   "endMs": 16916,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "four",
+   "startMs": 16916,
+   "endMs": 17176,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "seconds",
+   "startMs": 17176,
+   "endMs": 17506,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "ago.",
+   "startMs": 17506,
+   "endMs": 17867,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 18151,
+   "endMs": 18541,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 18541,
+   "endMs": 18941,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 18941,
+   "endMs": 19388,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Do",
+   "startMs": 19751,
+   "endMs": 19941,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "not",
+   "startMs": 19941,
+   "endMs": 20271,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "panic.",
+   "startMs": 20271,
+   "endMs": 20839,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "You",
+   "startMs": 21181,
+   "endMs": 21461,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "panic.",
+   "startMs": 21461,
+   "endMs": 22077,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Seen",
+   "startMs": 22463,
+   "endMs": 22813,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "by",
+   "startMs": 22813,
+   "endMs": 23083,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 23083,
+   "endMs": 23636,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Seen",
+   "startMs": 23957,
+   "endMs": 24387,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "by",
+   "startMs": 24387,
+   "endMs": 24627,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "nine.",
+   "startMs": 24627,
+   "endMs": 25152,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 25452,
+   "endMs": 25722,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 25722,
+   "endMs": 25832,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "boss",
+   "startMs": 25832,
+   "endMs": 26162,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "starts",
+   "startMs": 26162,
+   "endMs": 26512,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "typing.",
+   "startMs": 26512,
+   "endMs": 27137,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Why",
+   "startMs": 27419,
+   "endMs": 27589,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 27589,
+   "endMs": 27669,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "he",
+   "startMs": 27669,
+   "endMs": 27849,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "typing",
+   "startMs": 27849,
+   "endMs": 28169,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "so",
+   "startMs": 28169,
+   "endMs": 28319,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "long?",
+   "startMs": 28319,
+   "endMs": 28677,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 29044,
+   "endMs": 29474,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 29474,
+   "endMs": 29864,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 29864,
+   "endMs": 30409,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Change",
+   "startMs": 30751,
+   "endMs": 31201,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 31201,
+   "endMs": 31351,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "subject.",
+   "startMs": 31351,
+   "endMs": 32137,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Fast.",
+   "startMs": 32543,
+   "endMs": 33161,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Bit,",
+   "startMs": 33419,
+   "endMs": 33649,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "send",
+   "startMs": 33649,
+   "endMs": 33849,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "something",
+   "startMs": 33849,
+   "endMs": 34219,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "cute!",
+   "startMs": 34219,
+   "endMs": 34592,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Sending",
+   "startMs": 34916,
+   "endMs": 35316,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 35316,
+   "endMs": 35386,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "cutest",
+   "startMs": 35386,
+   "endMs": 35816,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "puppy",
+   "startMs": 35816,
+   "endMs": 36116,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 36116,
+   "endMs": 36206,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Earth.",
+   "startMs": 36206,
+   "endMs": 36708,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 37011,
+   "endMs": 37131,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "then,",
+   "startMs": 37131,
+   "endMs": 37351,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "just",
+   "startMs": 37351,
+   "endMs": 37571,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 37571,
+   "endMs": 37741,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "case,",
+   "startMs": 37741,
+   "endMs": 38181,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "his",
+   "startMs": 38181,
+   "endMs": 38421,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "own",
+   "startMs": 38421,
+   "endMs": 38741,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "selfie.",
+   "startMs": 38741,
+   "endMs": 39315,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 39615,
+   "endMs": 40045,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 40045,
+   "endMs": 40415,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 40415,
+   "endMs": 40980,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Never",
+   "startMs": 41321,
+   "endMs": 41681,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "let",
+   "startMs": 41681,
+   "endMs": 41871,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 41871,
+   "endMs": 42081,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 42081,
+   "endMs": 42651,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "help.",
+   "startMs": 42651,
+   "endMs": 43092,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 43413,
+   "endMs": 43573,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "boss",
+   "startMs": 43573,
+   "endMs": 43963,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "replies.",
+   "startMs": 43963,
+   "endMs": 44715,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "He",
+   "startMs": 45015,
+   "endMs": 45085,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "likes",
+   "startMs": 45085,
+   "endMs": 45415,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 45415,
+   "endMs": 45505,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "dog.",
+   "startMs": 45505,
+   "endMs": 45953,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "We're",
+   "startMs": 46255,
+   "endMs": 46425,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "saved!",
+   "startMs": 46425,
+   "endMs": 46937,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "One",
+   "startMs": 47283,
+   "endMs": 47553,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "more",
+   "startMs": 47553,
+   "endMs": 47803,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "message.",
+   "startMs": 47803,
+   "endMs": 48520,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 48841,
+   "endMs": 49131,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "type.",
+   "startMs": 49131,
+   "endMs": 49631,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 49972,
+   "endMs": 50252,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "delete.",
+   "startMs": 50252,
+   "endMs": 50868,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 51209,
+   "endMs": 51499,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "type.",
+   "startMs": 51499,
+   "endMs": 51999,
+   "line": 20,
+   "emph": true
+  },
+  {
+   "text": "Done!",
+   "startMs": 52320,
+   "endMs": 52832,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 53152,
+   "endMs": 53362,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "answered",
+   "startMs": 53362,
+   "endMs": 53762,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 53762,
+   "endMs": 53882,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "you.",
+   "startMs": 53882,
+   "endMs": 54261,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "Honestly.",
+   "startMs": 54627,
+   "endMs": 55331,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "Monday.",
+   "startMs": 55652,
+   "endMs": 56292,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "Nine",
+   "startMs": 56633,
+   "endMs": 57003,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "a.m.",
+   "startMs": 57003,
+   "endMs": 57828,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "Your",
+   "startMs": 58169,
+   "endMs": 58409,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "boss's",
+   "startMs": 58409,
+   "endMs": 58869,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "office.",
+   "startMs": 58869,
+   "endMs": 59535,
+   "line": 22,
+   "emph": true
+  },
+  {
+   "text": "He",
+   "startMs": 59877,
+   "endMs": 59997,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "wants",
+   "startMs": 59997,
+   "endMs": 60357,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 60357,
+   "endMs": 60517,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "meme.",
+   "startMs": 60517,
+   "endMs": 61051,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "On",
+   "startMs": 61392,
+   "endMs": 61532,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 61532,
+   "endMs": 61692,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "T-shirt.",
+   "startMs": 61692,
+   "endMs": 62544,
+   "line": 23,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 62908,
+   "endMs": 63268,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 63268,
+   "endMs": 63498,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 63498,
+   "endMs": 63618,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 63618,
+   "endMs": 63918,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "What",
+   "startMs": 63918,
+   "endMs": 64068,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 64068,
+   "endMs": 64258,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 64258,
+   "endMs": 64548,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 64548,
+   "endMs": 64935,
+   "line": 24,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 2.164
+  },
+  {
+   "speaker": "narrator",
+   "start": 2.384,
+   "end": 6.453
+  },
+  {
+   "speaker": "narrator",
+   "start": 6.673,
+   "end": 9.377
+  },
+  {
+   "speaker": "narrator",
+   "start": 9.597,
+   "end": 12.664
+  },
+  {
+   "speaker": "hero",
+   "start": 12.884,
+   "end": 15.236
+  },
+  {
+   "speaker": "bit",
+   "start": 15.456,
+   "end": 17.888
+  },
+  {
+   "speaker": "narrator",
+   "start": 18.108,
+   "end": 20.919
+  },
+  {
+   "speaker": "narrator",
+   "start": 21.139,
+   "end": 22.2
+  },
+  {
+   "speaker": "narrator",
+   "start": 22.42,
+   "end": 23.695
+  },
+  {
+   "speaker": "narrator",
+   "start": 23.915,
+   "end": 25.211
+  },
+  {
+   "speaker": "narrator",
+   "start": 25.431,
+   "end": 27.199
+  },
+  {
+   "speaker": "hero",
+   "start": 27.419,
+   "end": 28.781
+  },
+  {
+   "speaker": "narrator",
+   "start": 29.001,
+   "end": 33.199
+  },
+  {
+   "speaker": "hero",
+   "start": 33.419,
+   "end": 34.696
+  },
+  {
+   "speaker": "bit",
+   "start": 34.916,
+   "end": 36.748
+  },
+  {
+   "speaker": "narrator",
+   "start": 36.968,
+   "end": 39.352
+  },
+  {
+   "speaker": "narrator",
+   "start": 39.572,
+   "end": 43.151
+  },
+  {
+   "speaker": "narrator",
+   "start": 43.371,
+   "end": 44.795
+  },
+  {
+   "speaker": "hero",
+   "start": 45.015,
+   "end": 47.02
+  },
+  {
+   "speaker": "narrator",
+   "start": 47.24,
+   "end": 48.579
+  },
+  {
+   "speaker": "narrator",
+   "start": 48.799,
+   "end": 52.057
+  },
+  {
+   "speaker": "bit",
+   "start": 52.277,
+   "end": 55.389
+  },
+  {
+   "speaker": "narrator",
+   "start": 55.609,
+   "end": 59.593
+  },
+  {
+   "speaker": "narrator",
+   "start": 59.813,
+   "end": 62.603
+  },
+  {
+   "speaker": "narrator",
+   "start": 62.823,
+   "end": 64.972
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "boss": "MR. BRANT"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "meme",
+       "text": "the boss every monday"
+      }
+     ],
+     "seen": "Delivered"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    },
+    {
+     "type": "riser",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.324
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "happy",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "23:47"
+   },
+   "speaker": "narrator",
+   "start": 2.324,
+   "end": 6.613
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "meme",
+       "text": "the boss every monday"
+      }
+     ],
+     "seen": "Delivered"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.35,
+    "y": 0.1,
+    "x": 0.5
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 6.613,
+   "end": 9.537
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "shocked",
+     "scale": 1.35
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 1,
+    "to": 48,
+    "label": "PEOPLE IN THE CHAT"
+   },
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 9.537,
+   "end": 12.824
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "panic",
+     "expr": "scared",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "shocked",
+     "scale": 0.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "speaker": "hero",
+   "start": 12.824,
+   "end": 15.396
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "stamp",
+    "text": "TOO LATE"
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "bit",
+   "start": 15.396,
+   "end": 18.048
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #1",
+    "sub": "DON'T PANIC",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 18.048,
+   "end": 21.079
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "scared",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "alarm"
+    }
+   ],
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 21.079,
+   "end": 22.36
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "meme",
+       "text": "the boss every monday"
+      }
+     ],
+     "seen": "Seen by 2"
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 22.36,
+   "end": 23.855
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "meme",
+       "text": "the boss every monday"
+      }
+     ],
+     "seen": "Seen by 9"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.06,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 23.855,
+   "end": 25.371
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "meme",
+       "text": "the boss every monday"
+      }
+     ],
+     "typing": "Mr. Brant is typing"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 25.371,
+   "end": 27.359
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "scared",
+     "scale": 2.1
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 27.359,
+   "end": 28.941
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #2",
+    "sub": "CHANGE THE SUBJECT",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 28.941,
+   "end": 33.359
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "point",
+     "expr": "scared",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "happy",
+     "scale": 0.9
+    }
+   ],
+   "speaker": "hero",
+   "start": 33.359,
+   "end": 34.856
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "meme",
+       "text": "the boss every monday"
+      },
+      {
+       "from": "me",
+       "img": "dog",
+       "text": "anyway look at this puppy"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 34.856,
+   "end": 36.908
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "meme",
+       "text": "the boss every monday"
+      },
+      {
+       "from": "me",
+       "img": "dog",
+       "text": "anyway look at this puppy"
+      },
+      {
+       "from": "me",
+       "img": "bit"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 36.908,
+   "end": 39.512
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #3",
+    "sub": "NO AI HELP",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 39.512,
+   "end": 43.311
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "meme",
+       "text": "the boss every monday"
+      },
+      {
+       "from": "me",
+       "img": "dog",
+       "text": "anyway look at this puppy"
+      },
+      {
+       "from": "me",
+       "img": "bit"
+      },
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Haha. Cute dog."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 43.311,
+   "end": 44.955
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.8
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "hero",
+   "start": 44.955,
+   "end": 47.18
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "dog",
+       "text": "anyway look at this puppy"
+      },
+      {
+       "from": "me",
+       "img": "bit"
+      },
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Haha. Cute dog."
+      },
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Wait. Is the meme about me?"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "hit",
+     "at": 0.5
+    }
+   ],
+   "speaker": "narrator",
+   "start": 47.18,
+   "end": 48.739
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "bit"
+      },
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Haha. Cute dog."
+      },
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Wait. Is the meme about me?"
+      }
+     ],
+     "draft": "it's about my other bo"
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 48.739,
+   "end": 50.478
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "me",
+       "img": "bit"
+      },
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Haha. Cute dog."
+      },
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Wait. Is the meme about me?"
+      }
+     ],
+     "draft": "it's about my other bo"
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 50.478,
+   "end": 52.217
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Haha. Cute dog."
+      },
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Wait. Is the meme about me?"
+      },
+      {
+       "from": "me",
+       "text": "yes :)"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 52.217,
+   "end": 53.883
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "23:47",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Haha. Cute dog."
+      },
+      {
+       "from": "them",
+       "name": "Mr. Brant (Boss)",
+       "text": "Wait. Is the meme about me?"
+      },
+      {
+       "from": "me",
+       "text": "yes :)"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "bit",
+   "start": 53.883,
+   "end": 55.549
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "kind": "lock",
+     "clock": "23:52",
+     "sub": "Sunday",
+     "notes": [
+      {
+       "app": "WORK CHAT",
+       "text": "Boss: My office. Monday. 9 a.m."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 55.549,
+   "end": 57.651
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "kind": "lock",
+     "clock": "23:52",
+     "sub": "Sunday",
+     "notes": [
+      {
+       "app": "WORK CHAT",
+       "text": "Boss: My office. Monday. 9 a.m."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.37,
+    "y": 0.55,
+    "shake": 0.6,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 57.651,
+   "end": 59.753
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "boss",
+     "x": 0.3,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.15,
+     "facing": 1
+    },
+    {
+     "id": "hero",
+     "x": 0.72,
+     "pose": "shrug",
+     "expr": "shocked",
+     "scale": 1.15,
+     "facing": -1
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "NEW TEAM SHIRT",
+    "sub": "\"QUICK 5 MIN CALL\"",
+    "color": "#2F7BFF"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 59.753,
+   "end": 62.763
+  }
+ ],
+ "endStart": 62.763,
+ "endText": "THE END",
+ "endSub": "Follow for a new What if every day"
+}
