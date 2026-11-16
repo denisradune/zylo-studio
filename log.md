@@ -55,3 +55,6 @@
 | 51 | 2026-11-17 | What If 400 Orders Had One Name? 🛒 Part 6 #shorts | what-if: money (part6) | sources.md | https://youtube.com/shorts/vQS9ZUie9ak |
 | 52 | 2026-11-17 | What If Money Melted Every Minute? 💸 Part 4 #shorts | what-if: money (part4) | sources.md | https://youtube.com/shorts/E07vzRt9vew |
 | 53 | 2026-11-18 | What If You Played for the Casino? Season 2 (Full Story) | what-if: money (full) | sources.md | https://youtu.be/WT0AkC2Nx4s |
+| 54 | 2026-11-16 | What If Your Boss Meme Hit the Work Chat? 😬 #shorts | what-if: comedy (everyday cringe) (part1) | original fiction | https://youtube.com/shorts/1GhJdMlrKV8 |
+| 55 | 2026-11-19 | What If Every Phone Died at Once? ☀️ Part 4 #shorts | what-if: disaster (real history) (part4) | sources.md | https://youtube.com/shorts/jYUUFrIVBuM |
+| 56 | 2026-11-19 | What If Soup Was the Cure? 🌞 Part 6 #shorts | what-if: sci-fi (real nature) (part6) | sources.md | https://youtube.com/shorts/vGgrZoP6zWM |
