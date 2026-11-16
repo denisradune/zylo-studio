@@ -1,5 +1,5 @@
 ---
-description: Fully automatic day — read the stats, every 2nd day invent a new ~7-minute "What if...?" series (8 parts), render, schedule, upload what is due, log, push
+description: Fully automatic day — read the stats, every 2nd day invent a new ~7-minute "What if...?" series (8 parts), every day one standalone funny Short, render, schedule, upload what is due, log, push
 ---
 
 # /zylo-daily
@@ -117,7 +117,28 @@ re-rendering if needed, max 6 per run, state in `episodes/<slug>/tiktok.json`. I
 public posting is not allowed yet (app not audited by TikTok), skip it and mention that in the summary — never block
 the YouTube work on TikTok. If it prints that the refresh token rotated, tell the owner to update TT_REFRESH_TOKEN.
 
-## 4. Save
+## 5. Daily comedy Short (EVERY day, upload days included — owner's request 2026-11-16)
+The owner wants funny videos people actually watch, next to the series. Every day also make ONE standalone
+funny Short, `episodes/<YYYY-MM-DD>-what-if-<slug>/` (reference: `episodes/2026-11-16-what-if-wrong-chat/`).
+- **Premise**: a relatable everyday-cringe situation for 16–35, told to "you" (Jay plays "you"): wrong chat,
+  liking an ex's 2019 photo at 2 a.m., camera on in a meeting, "reply all", mom joins the group chat, voice
+  message that won't stop, alarm in the silent exam… Never repeat one from `log.md`. A HIT comedy → more like it.
+- **Shape** (~45–60 s, 110–150 words, 20–26 lines ≤ 9 words, a cut every 1.5–2.5 s):
+  hook "What if…?" on a phone screen or the cringe moment itself (0–2 s) → the situation gets worse in steps
+  (seen by 2 → seen by 9 → typing…) → "Rule number one/two/three" beats where the hero breaks the rule at once
+  → Bit "helps" and makes it worse (running joke) → fake relief → **punchline twist** in the last 2 lines
+  (unexpected, warm or absurd, never mean) → end line "Follow for a new What if every day."
+- **Look**: at least 6 shots on the phone close-up (`{"type": "phone", "screen": {"kind": "chat"|"lock", …}}`,
+  see `templates/zylo-shared/toon/Phone.tsx`: msgs, seen, typing, draft, lock-screen notes) between big-face
+  reaction shots (scale 1.8–2.1, shake), `ui` cards for rules/stamps/counters, sfx on every ding/pop/hit.
+  mood `warm` (or `tech`), seed new.
+- `series.json`: one part, `"standalone": true`, rubric `"what-if: comedy (<angle>)"`. `metadata.json` part1
+  only: title "What If …? <emoji> #shorts" (≤ 60), categoryId "23" (Comedy), hashtags incl. #relatable #funny.
+- Build `make_series.py <dir>` (no wide/thumb needed), contact-sheet QC as in step 2, then
+  `publish_series.py schedule <dir> --start <today>` (it picks a free slot today; if that time already passed,
+  move part1 `publishAt` in metadata.json to the next free slot) and `upload`.
+
+## 4. Save (after step 5)
 Commit (`stats/`, `episodes/<slug>`, `uploads.json`s, `tiktok.json`s, `log.md`, any template changes) and push to
 `claude/magical-newton-hmla9z`. Finish with a short Russian summary: what the stats showed (hits/flops), why today's topic, premise, links + publish times, anything left
 for tomorrow.

@@ -16,6 +16,7 @@ series.json:
   ],
   "finale": {"text": "SEASON 2?", "sub": "Follow for what's in the cloud"}
 }
+"standalone": true + one part = a single comedy Short (no badge, no full cut).
 A line with "shortOnly": true (the "Part two. <recap>" openers) is left out of the full cut.
 Each part becomes episodes/<slug>/part<N>/ (story.json -> out/short.mp4, badge "PART N/total").
 The full cut (episodes/<slug>/full/) drops every part's closing line except the last and puts a chapter
@@ -66,7 +67,8 @@ def main():
                 **base,
                 'title': f"{s['title']} (Part {i})",
                 'seed': s.get('seed', 1) + i,
-                'partLabel': f'PART {i}/{n}',
+                # A standalone comedy short ("standalone": true, one part) has no part badge and no full cut.
+                **({} if n == 1 else {'partLabel': f'PART {i}/{n}'}),
                 'end': s.get('finale') if last else {'text': f'PART {i + 1}', 'sub': 'Follow — it drops tomorrow' if s.get('every', 2) == 1 else f"Follow — it drops in {s.get('every', 2)} days"},
                 'lines': p['lines'],
                 # Split-screen (story on top, satisfying loop below) is OFF by default — the owner decided on
@@ -77,7 +79,7 @@ def main():
             }
             build(root / f'part{i}', story, a.start)
 
-    if not a.no_full:
+    if not a.no_full and not s.get('standalone'):
         lines, chapters = [], []
         for i, p in enumerate(parts, 1):
             body = p['lines'] if i == n else p['lines'][:-1]

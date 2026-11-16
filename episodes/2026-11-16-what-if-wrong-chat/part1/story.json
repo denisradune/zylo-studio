@@ -1,0 +1,803 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "boss": "MR. BRANT"
+ },
+ "title": "What If Your Boss Meme Hit the Work Chat? (Part 1)",
+ "seed": 6201,
+ "end": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if your boss meme hit the *work chat*?",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "me",
+        "img": "meme",
+        "text": "the boss every monday"
+       }
+      ],
+      "seen": "Delivered"
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "riser",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Eleven forty-seven p.m. You meant the *friends* chat.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "23:47"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then you read the name. *All staff*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "me",
+        "img": "meme",
+        "text": "the boss every monday"
+       }
+      ],
+      "seen": "Delivered"
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.35,
+     "y": 0.1,
+     "x": 0.5
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Forty-eight people. Including *the boss*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 1,
+     "to": 48,
+     "label": "PEOPLE IN THE CHAT"
+    },
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! Unsend it! *Now*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The unsend window closed four seconds *ago*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "TOO LATE"
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number one. Do not *panic*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #1",
+     "sub": "DON'T PANIC",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "You *panic*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "sfx": [
+     {
+      "type": "alarm"
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Seen by two.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "me",
+        "img": "meme",
+        "text": "the boss every monday"
+       }
+      ],
+      "seen": "Seen by 2"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Seen by *nine*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "me",
+        "img": "meme",
+        "text": "the boss every monday"
+       }
+      ],
+      "seen": "Seen by 9"
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.06,
+     "y": 0.5
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the boss starts *typing*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "me",
+        "img": "meme",
+        "text": "the boss every monday"
+       }
+      ],
+      "typing": "Mr. Brant is typing"
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Why is he typing so *long*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 2.1
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number two. Change the subject. *Fast*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #2",
+     "sub": "CHANGE THE SUBJECT",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, send something *cute*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "scared",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Sending the cutest puppy on *Earth*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "me",
+        "img": "meme",
+        "text": "the boss every monday"
+       },
+       {
+        "from": "me",
+        "img": "dog",
+        "text": "anyway look at this puppy"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And then, just in case, his own *selfie*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "me",
+        "img": "meme",
+        "text": "the boss every monday"
+       },
+       {
+        "from": "me",
+        "img": "dog",
+        "text": "anyway look at this puppy"
+       },
+       {
+        "from": "me",
+        "img": "bit"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.5
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number three. Never let your AI *help*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #3",
+     "sub": "NO AI HELP",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The boss *replies*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "me",
+        "img": "meme",
+        "text": "the boss every monday"
+       },
+       {
+        "from": "me",
+        "img": "dog",
+        "text": "anyway look at this puppy"
+       },
+       {
+        "from": "me",
+        "img": "bit"
+       },
+       {
+        "from": "them",
+        "name": "Mr. Brant (Boss)",
+        "text": "Haha. Cute dog."
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "He likes the dog. We're *saved*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "One more message.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "me",
+        "img": "dog",
+        "text": "anyway look at this puppy"
+       },
+       {
+        "from": "me",
+        "img": "bit"
+       },
+       {
+        "from": "them",
+        "name": "Mr. Brant (Boss)",
+        "text": "Haha. Cute dog."
+       },
+       {
+        "from": "them",
+        "name": "Mr. Brant (Boss)",
+        "text": "Wait. Is the meme about me?"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "hit",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "You type. You delete. You *type*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "me",
+        "img": "bit"
+       },
+       {
+        "from": "them",
+        "name": "Mr. Brant (Boss)",
+        "text": "Haha. Cute dog."
+       },
+       {
+        "from": "them",
+        "name": "Mr. Brant (Boss)",
+        "text": "Wait. Is the meme about me?"
+       }
+      ],
+      "draft": "it's about my other bo"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Done! I answered for you. Honestly.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "23:47",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Mr. Brant (Boss)",
+        "text": "Haha. Cute dog."
+       },
+       {
+        "from": "them",
+        "name": "Mr. Brant (Boss)",
+        "text": "Wait. Is the meme about me?"
+       },
+       {
+        "from": "me",
+        "text": "yes :)"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Monday. Nine a.m. Your boss's *office*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "kind": "lock",
+      "clock": "23:52",
+      "sub": "Sunday",
+      "notes": [
+       {
+        "app": "WORK CHAT",
+        "text": "Boss: My office. Monday. 9 a.m."
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He wants the meme. On a *T-shirt*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.32,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.4,
+      "facing": 1
+     },
+     {
+      "id": "hero",
+      "x": 0.72,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 1.4,
+      "facing": -1
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "NEW TEAM SHIRT",
+     "sub": "\"QUICK 5 MIN CALL\"",
+     "color": "#2F7BFF"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for a new What if every day.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

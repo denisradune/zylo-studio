@@ -1,5 +1,6 @@
 import React from 'react';
 import { INK } from './Character';
+import { PhoneScreen, PhoneSet } from './Phone';
 
 /**
  * Flat, code-drawn sets in a 1080x1920 canvas. Characters stand on the floor line at
@@ -12,7 +13,7 @@ export const H = 1920;
 export const FLOOR_Y = 1480;
 
 export type TimeOfDay = 'day' | 'dusk' | 'night' | 'red';
-export type SetName = 'room' | 'street' | 'sky' | 'space' | 'news' | 'store' | 'wasteland' | 'lab' | 'burst' | 'casino' | 'workshop' | 'harbor';
+export type SetName = 'room' | 'street' | 'sky' | 'space' | 'news' | 'store' | 'wasteland' | 'lab' | 'burst' | 'casino' | 'workshop' | 'harbor' | 'phone';
 
 export type SetSpec = {
   type: SetName;
@@ -22,6 +23,8 @@ export type SetSpec = {
   /** burst/news: main colour; news: headline text on the banner. */
   color?: string;
   headline?: string;
+  /** phone: what is on the screen (see Phone.tsx). */
+  screen?: PhoneScreen;
 };
 
 const SKY: Record<TimeOfDay, [string, string]> = {
@@ -562,7 +565,7 @@ const Harbor: React.FC<{ time: TimeOfDay; t: number; damage: number }> = ({ time
   );
 };
 
-export const SetPiece: React.FC<{ spec: SetSpec; t: number }> = ({ spec, t }) => {
+export const SetPiece: React.FC<{ spec: SetSpec; t: number; f?: number }> = ({ spec, t, f = 30 }) => {
   const time = spec.time ?? 'day';
   const damage = spec.damage ?? 0;
   switch (spec.type) {
@@ -590,6 +593,8 @@ export const SetPiece: React.FC<{ spec: SetSpec; t: number }> = ({ spec, t }) =>
       return <Workshop t={t} damage={damage} />;
     case 'harbor':
       return <Harbor time={time} t={t} damage={damage} />;
+    case 'phone':
+      return <PhoneSet screen={spec.screen} time={time} t={t} f={f} />;
   }
 };
 

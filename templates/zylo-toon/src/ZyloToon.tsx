@@ -111,7 +111,7 @@ const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: S
       <AbsoluteFill style={{ transform: `translateX(${whip * -160}px)`, filter: whip > 0.05 ? `blur(${whip * 18}px)` : undefined }}>
         <svg viewBox={split ? `0 ${winY} ${W} ${HALF}` : `0 0 ${W} ${H}`} width="100%" height="100%">
           <g transform={`translate(${sh.x} ${sh.y}) translate(${fx * W} ${fy * H}) scale(${zoom}) translate(${-fx * W} ${-fy * H})`}>
-            <SetPiece spec={shot.set} t={frame} />
+            <SetPiece spec={shot.set} t={frame} f={f} />
             {ordered.map((m, i) => (
               <Actor key={i} m={m} f={f} dur={dur} t={t} frame={frame} words={words} lines={lines} fps={fps} />
             ))}

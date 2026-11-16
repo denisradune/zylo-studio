@@ -11,6 +11,10 @@ Audience: English-speaking 16–35, loves "wait, really?" moments. Talk to the o
 - Format (owner's choice, from 2026-11-01): every story is **~7 minutes, told in detail** — 8 parts of ~1 min,
   one part **every 2 days**, then the full story as a regular 16:9 video (chapters + cartoon thumbnail) the day after
   the last part at 21:00. A new series starts every 2 days; the days in between are upload days.
+- **Plus, every day (owner's request 2026-11-16): one standalone funny Short** (~45–60 s, rubric
+  "what-if: comedy (…)") — relatable everyday cringe told to "you" (wrong chat, 2 a.m. accidental like, mom on
+  speaker…), fast cuts, phone close-ups (`"type": "phone"` set), rules/escalation, a punchline twist at the end.
+  One-part `series.json` with `"standalone": true` (no badge, no full cut). See /zylo-daily step 5.
 - Shorts parts are full-screen (owner's choice 2026-11-02: no split-screen). The split-screen option still exists
   (`"split": true` in series.json) but is off.
 - Slots 13:00 / 15:00 / 17:00 / 19:00 Asia/Jerusalem, chosen so parallel series never collide
