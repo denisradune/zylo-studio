@@ -1,0 +1,2193 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 69.445,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "What",
+   "startMs": 143,
+   "endMs": 373,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 373,
+   "endMs": 443,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 443,
+   "endMs": 603,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "mom",
+   "startMs": 603,
+   "endMs": 1063,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "joined",
+   "startMs": 1063,
+   "endMs": 1383,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 1383,
+   "endMs": 1463,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "group",
+   "startMs": 1463,
+   "endMs": 1763,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "chat?",
+   "startMs": 1763,
+   "endMs": 2169,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Bit,",
+   "startMs": 2427,
+   "endMs": 2617,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "add",
+   "startMs": 2617,
+   "endMs": 2757,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Max",
+   "startMs": 2757,
+   "endMs": 3117,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "to",
+   "startMs": 3117,
+   "endMs": 3197,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 3197,
+   "endMs": 3257,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 3247,
+   "endMs": 3397,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "chat.",
+   "startMs": 3397,
+   "endMs": 3835,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 4159,
+   "endMs": 4439,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "scrolls",
+   "startMs": 4439,
+   "endMs": 4919,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 4919,
+   "endMs": 5089,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "contacts.",
+   "startMs": 5089,
+   "endMs": 5908,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "M.",
+   "startMs": 6295,
+   "endMs": 6871,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Done!",
+   "startMs": 7235,
+   "endMs": 7747,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 8067,
+   "endMs": 8257,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "picked",
+   "startMs": 8257,
+   "endMs": 8597,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 8597,
+   "endMs": 8657,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 8607,
+   "endMs": 8807,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "with",
+   "startMs": 8807,
+   "endMs": 8897,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 8897,
+   "endMs": 9007,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "heart.",
+   "startMs": 9007,
+   "endMs": 9517,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Mom",
+   "startMs": 9820,
+   "endMs": 10230,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 10230,
+   "endMs": 10380,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 10380,
+   "endMs": 10630,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 10630,
+   "endMs": 10770,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "chat.",
+   "startMs": 10770,
+   "endMs": 11121,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "With",
+   "startMs": 11441,
+   "endMs": 11731,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "everything.",
+   "startMs": 11731,
+   "endMs": 12529,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Including",
+   "startMs": 12853,
+   "endMs": 13453,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 13453,
+   "endMs": 13573,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "word",
+   "startMs": 13573,
+   "endMs": 13983,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "studying.",
+   "startMs": 13983,
+   "endMs": 14581,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 14903,
+   "endMs": 15293,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 15293,
+   "endMs": 15693,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 15693,
+   "endMs": 16140,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Remove",
+   "startMs": 16503,
+   "endMs": 16903,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "her",
+   "startMs": 16903,
+   "endMs": 17163,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "before",
+   "startMs": 17163,
+   "endMs": 17463,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "she",
+   "startMs": 17463,
+   "endMs": 17683,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "reads.",
+   "startMs": 17683,
+   "endMs": 18231,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Only",
+   "startMs": 18552,
+   "endMs": 18852,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "admins",
+   "startMs": 18852,
+   "endMs": 19452,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "can",
+   "startMs": 19452,
+   "endMs": 19672,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "remove",
+   "startMs": 19672,
+   "endMs": 20042,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "members.",
+   "startMs": 20042,
+   "endMs": 20664,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 20984,
+   "endMs": 21104,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "admin",
+   "startMs": 21104,
+   "endMs": 21554,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 21554,
+   "endMs": 21794,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Max.",
+   "startMs": 21794,
+   "endMs": 22413,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Max",
+   "startMs": 22735,
+   "endMs": 23125,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 23125,
+   "endMs": 23275,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 23275,
+   "endMs": 23465,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "football",
+   "startMs": 23465,
+   "endMs": 23935,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "practice.",
+   "startMs": 23935,
+   "endMs": 24612,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 24933,
+   "endMs": 25263,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "three",
+   "startMs": 25263,
+   "endMs": 25663,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "dots.",
+   "startMs": 25663,
+   "endMs": 26256,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Mom",
+   "startMs": 26597,
+   "endMs": 27077,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 27077,
+   "endMs": 27267,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "typing.",
+   "startMs": 27267,
+   "endMs": 27920,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 28241,
+   "endMs": 28671,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 28671,
+   "endMs": 29061,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 29061,
+   "endMs": 29607,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Act",
+   "startMs": 29948,
+   "endMs": 30318,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "normal.",
+   "startMs": 30318,
+   "endMs": 30951,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "You",
+   "startMs": 31315,
+   "endMs": 31485,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "send",
+   "startMs": 31485,
+   "endMs": 31735,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 31735,
+   "endMs": 31805,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "photo",
+   "startMs": 31805,
+   "endMs": 32285,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 32285,
+   "endMs": 32405,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 32405,
+   "endMs": 32495,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "math",
+   "startMs": 32495,
+   "endMs": 32895,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "book.",
+   "startMs": 32895,
+   "endMs": 33299,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Upside",
+   "startMs": 33641,
+   "endMs": 34251,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "down.",
+   "startMs": 34251,
+   "endMs": 34815,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "In",
+   "startMs": 35199,
+   "endMs": 35409,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 35409,
+   "endMs": 35529,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "dark.",
+   "startMs": 35529,
+   "endMs": 35967,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Mom's",
+   "startMs": 36416,
+   "endMs": 36796,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "message",
+   "startMs": 36796,
+   "endMs": 37326,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "finally",
+   "startMs": 37326,
+   "endMs": 37886,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "arrives.",
+   "startMs": 37886,
+   "endMs": 38528,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 38849,
+   "endMs": 39009,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "another",
+   "startMs": 39009,
+   "endMs": 39449,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 39449,
+   "endMs": 39852,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 40215,
+   "endMs": 40415,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "another.",
+   "startMs": 40415,
+   "endMs": 40961,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 41304,
+   "endMs": 41734,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 41734,
+   "endMs": 42104,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 42104,
+   "endMs": 42669,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Never",
+   "startMs": 43011,
+   "endMs": 43371,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "let",
+   "startMs": 43371,
+   "endMs": 43561,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 43561,
+   "endMs": 43771,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 43771,
+   "endMs": 44341,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "help.",
+   "startMs": 44341,
+   "endMs": 44781,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "I",
+   "startMs": 45081,
+   "endMs": 45271,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "told",
+   "startMs": 45271,
+   "endMs": 45541,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "her",
+   "startMs": 45541,
+   "endMs": 45661,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 45661,
+   "endMs": 45771,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "like",
+   "startMs": 45771,
+   "endMs": 46051,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "mini",
+   "startMs": 46051,
+   "endMs": 46291,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "pizzas.",
+   "startMs": 46291,
+   "endMs": 46937,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Leo",
+   "startMs": 47243,
+   "endMs": 47743,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "hearts",
+   "startMs": 47743,
+   "endMs": 48113,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 48113,
+   "endMs": 48309,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 48781,
+   "endMs": 49151,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Sam.",
+   "startMs": 49151,
+   "endMs": 49677,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "Wait.",
+   "startMs": 49956,
+   "endMs": 50425,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Is",
+   "startMs": 50727,
+   "endMs": 50887,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "this...",
+   "startMs": 50887,
+   "endMs": 51388,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "working?",
+   "startMs": 51689,
+   "endMs": 52265,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Max",
+   "startMs": 52611,
+   "endMs": 53051,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 53051,
+   "endMs": 53271,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "back.",
+   "startMs": 53271,
+   "endMs": 53741,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "He",
+   "startMs": 54232,
+   "endMs": 54422,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "reads",
+   "startMs": 54422,
+   "endMs": 54922,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "everything.",
+   "startMs": 54922,
+   "endMs": 55640,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "He",
+   "startMs": 56024,
+   "endMs": 56214,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "acts.",
+   "startMs": 56214,
+   "endMs": 56685,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 57009,
+   "endMs": 57099,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 57099,
+   "endMs": 57329,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "admin's",
+   "startMs": 57329,
+   "endMs": 57959,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "first",
+   "startMs": 57959,
+   "endMs": 58289,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "move?",
+   "startMs": 58289,
+   "endMs": 58759,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "She",
+   "startMs": 59185,
+   "endMs": 59375,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "renames",
+   "startMs": 59375,
+   "endMs": 59805,
+   "line": 20,
+   "emph": true
+  },
+  {
+   "text": "the",
+   "startMs": 59805,
+   "endMs": 59975,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "chat.",
+   "startMs": 59975,
+   "endMs": 60572,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "Her",
+   "startMs": 61149,
+   "endMs": 61349,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "second",
+   "startMs": 61349,
+   "endMs": 61669,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "move:",
+   "startMs": 61669,
+   "endMs": 62139,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "you.",
+   "startMs": 62139,
+   "endMs": 62579,
+   "line": 21,
+   "emph": true
+  },
+  {
+   "text": "Friday.",
+   "startMs": 62921,
+   "endMs": 63668,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 63988,
+   "endMs": 64158,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "party",
+   "startMs": 64158,
+   "endMs": 64558,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 64558,
+   "endMs": 64758,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 64758,
+   "endMs": 64928,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 64928,
+   "endMs": 65128,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "house.",
+   "startMs": 65128,
+   "endMs": 65652,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "You're",
+   "startMs": 65993,
+   "endMs": 66223,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "studying.",
+   "startMs": 66223,
+   "endMs": 67017,
+   "line": 22,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 67381,
+   "endMs": 67741,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 67741,
+   "endMs": 67971,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 67971,
+   "endMs": 68091,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 68091,
+   "endMs": 68391,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "What",
+   "startMs": 68391,
+   "endMs": 68541,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 68541,
+   "endMs": 68731,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 68731,
+   "endMs": 69021,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 69021,
+   "endMs": 69408,
+   "line": 23,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 2.207
+  },
+  {
+   "speaker": "hero",
+   "start": 2.427,
+   "end": 3.917
+  },
+  {
+   "speaker": "narrator",
+   "start": 4.137,
+   "end": 6.972
+  },
+  {
+   "speaker": "bit",
+   "start": 7.192,
+   "end": 9.557
+  },
+  {
+   "speaker": "narrator",
+   "start": 9.777,
+   "end": 12.591
+  },
+  {
+   "speaker": "narrator",
+   "start": 12.811,
+   "end": 14.64
+  },
+  {
+   "speaker": "narrator",
+   "start": 14.86,
+   "end": 18.289
+  },
+  {
+   "speaker": "narrator",
+   "start": 18.509,
+   "end": 22.472
+  },
+  {
+   "speaker": "narrator",
+   "start": 22.692,
+   "end": 24.671
+  },
+  {
+   "speaker": "narrator",
+   "start": 24.891,
+   "end": 27.979
+  },
+  {
+   "speaker": "narrator",
+   "start": 28.199,
+   "end": 31.052
+  },
+  {
+   "speaker": "narrator",
+   "start": 31.272,
+   "end": 33.379
+  },
+  {
+   "speaker": "narrator",
+   "start": 33.599,
+   "end": 36.153
+  },
+  {
+   "speaker": "narrator",
+   "start": 36.373,
+   "end": 38.587
+  },
+  {
+   "speaker": "narrator",
+   "start": 38.807,
+   "end": 41.041
+  },
+  {
+   "speaker": "narrator",
+   "start": 41.261,
+   "end": 44.84
+  },
+  {
+   "speaker": "bit",
+   "start": 45.06,
+   "end": 46.98
+  },
+  {
+   "speaker": "narrator",
+   "start": 47.2,
+   "end": 49.736
+  },
+  {
+   "speaker": "hero",
+   "start": 49.956,
+   "end": 52.348
+  },
+  {
+   "speaker": "narrator",
+   "start": 52.568,
+   "end": 56.747
+  },
+  {
+   "speaker": "narrator",
+   "start": 56.967,
+   "end": 60.865
+  },
+  {
+   "speaker": "narrator",
+   "start": 61.085,
+   "end": 62.637
+  },
+  {
+   "speaker": "narrator",
+   "start": 62.857,
+   "end": 67.076
+  },
+  {
+   "speaker": "narrator",
+   "start": 67.296,
+   "end": 69.445
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "mom": "MOM"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Max",
+       "text": "party at mine friday 9pm"
+      },
+      {
+       "from": "me",
+       "text": "cant wait. told mom im studying lol"
+      },
+      {
+       "from": "sys",
+       "text": "Bit added Mom \u2764\ufe0f to the chat"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    },
+    {
+     "type": "riser",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.367
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "phone",
+     "expr": "happy",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "happy",
+     "scale": 0.9
+    }
+   ],
+   "speaker": "hero",
+   "start": 2.367,
+   "end": 4.077
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "kind": "lock",
+     "clock": "16:19",
+     "sub": "Contacts: M",
+     "notes": [
+      {
+       "app": "CONTACTS",
+       "text": "Max"
+      },
+      {
+       "app": "CONTACTS",
+       "text": "Mom \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 4.077,
+   "end": 5.604
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "kind": "lock",
+     "clock": "16:19",
+     "sub": "Contacts: M",
+     "notes": [
+      {
+       "app": "CONTACTS",
+       "text": "Max"
+      },
+      {
+       "app": "CONTACTS",
+       "text": "Mom \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 5.604,
+   "end": 7.132
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.7
+    }
+   ],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 7.132,
+   "end": 9.717
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Max",
+       "text": "party at mine friday 9pm"
+      },
+      {
+       "from": "me",
+       "text": "cant wait. told mom im studying lol"
+      },
+      {
+       "from": "sys",
+       "text": "Bit added Mom \u2764\ufe0f to the chat"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.3,
+    "y": 0.55
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 9.717,
+   "end": 11.234
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Max",
+       "text": "party at mine friday 9pm"
+      },
+      {
+       "from": "me",
+       "text": "cant wait. told mom im studying lol"
+      },
+      {
+       "from": "sys",
+       "text": "Bit added Mom \u2764\ufe0f to the chat"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.69,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 11.234,
+   "end": 12.751
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Max",
+       "text": "party at mine friday 9pm"
+      },
+      {
+       "from": "me",
+       "text": "cant wait. told mom im studying lol"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.45,
+    "y": 0.5
+   },
+   "ui": {
+    "type": "stamp",
+    "text": "LIAR"
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 12.751,
+   "end": 14.8
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "scared",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #1",
+    "sub": "REMOVE MOM",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 14.8,
+   "end": 18.449
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "cant wait. told mom im studying lol"
+      },
+      {
+       "from": "sys",
+       "text": "Bit added Mom \u2764\ufe0f to the chat"
+      },
+      {
+       "from": "me",
+       "text": "max remove my mom NOW"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 18.449,
+   "end": 20.541
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "cant wait. told mom im studying lol"
+      },
+      {
+       "from": "sys",
+       "text": "Bit added Mom \u2764\ufe0f to the chat"
+      },
+      {
+       "from": "me",
+       "text": "max remove my mom NOW"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 20.541,
+   "end": 22.632
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "scared",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "alarm"
+    }
+   ],
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 22.632,
+   "end": 24.831
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "cant wait. told mom im studying lol"
+      },
+      {
+       "from": "sys",
+       "text": "Bit added Mom \u2764\ufe0f to the chat"
+      }
+     ],
+     "typing": "Mom \u2764\ufe0f is typing"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 24.831,
+   "end": 26.485
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "cant wait. told mom im studying lol"
+      },
+      {
+       "from": "sys",
+       "text": "Bit added Mom \u2764\ufe0f to the chat"
+      }
+     ],
+     "typing": "Mom \u2764\ufe0f is typing"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.4,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 26.485,
+   "end": 28.139
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "grin",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #2",
+    "sub": "ACT NORMAL",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 28.139,
+   "end": 31.212
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "Bit added Mom \u2764\ufe0f to the chat"
+      },
+      {
+       "from": "me",
+       "text": "studying hard \ud83d\udcda\ud83d\udcda\ud83d\udcda"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 31.212,
+   "end": 33.539
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "narrator",
+   "start": 33.539,
+   "end": 36.313
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "studying hard \ud83d\udcda\ud83d\udcda\ud83d\udcda"
+      },
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Hello boys! This is Jay's mom."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 36.313,
+   "end": 38.747
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Hello boys! This is Jay's mom."
+      },
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Party Friday? How fun!"
+      },
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "What snacks do you like?"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.06,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.3
+    },
+    {
+     "type": "ding",
+     "at": 0.6
+    }
+   ],
+   "speaker": "narrator",
+   "start": 38.747,
+   "end": 41.201
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #3",
+    "sub": "NO AI HELP",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 41.201,
+   "end": 45.0
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "What snacks do you like?"
+      },
+      {
+       "from": "me",
+       "text": "mini pizzas pls"
+      },
+      {
+       "from": "them",
+       "name": "Leo",
+       "text": "MINI PIZZAS \ud83c\udf55\ud83c\udf55"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 45.0,
+   "end": 47.14
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "mini pizzas pls"
+      },
+      {
+       "from": "them",
+       "name": "Leo",
+       "text": "MINI PIZZAS \ud83c\udf55\ud83c\udf55"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "jay's mom is a legend"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 47.14,
+   "end": 49.896
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "happy",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 49.896,
+   "end": 52.508
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Leo",
+       "text": "MINI PIZZAS \ud83c\udf55\ud83c\udf55"
+      },
+      {
+       "from": "sys",
+       "text": "Max made Mom \u2764\ufe0f an admin"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "hit",
+     "at": 0.5
+    }
+   ],
+   "speaker": "narrator",
+   "start": 52.508,
+   "end": 54.707
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "THE BOYS \ud83d\udd25",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Leo",
+       "text": "MINI PIZZAS \ud83c\udf55\ud83c\udf55"
+      },
+      {
+       "from": "sys",
+       "text": "Max made Mom \u2764\ufe0f an admin"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.4,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 54.707,
+   "end": 56.907
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "MOM'S BOYS \ud83c\udf55",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "Max made Mom \u2764\ufe0f an admin"
+      },
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f renamed the chat: MOM'S BOYS \ud83c\udf55"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 56.907,
+   "end": 58.966
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "MOM'S BOYS \ud83c\udf55",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "Max made Mom \u2764\ufe0f an admin"
+      },
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f renamed the chat: MOM'S BOYS \ud83c\udf55"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 58.966,
+   "end": 61.025
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "MOM'S BOYS \ud83c\udf55",
+     "sub": "Max, Leo, Sam, Mom \u2764\ufe0f",
+     "clock": "16:20",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f renamed the chat: MOM'S BOYS \ud83c\udf55"
+      },
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f removed You"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "ui": {
+    "type": "stamp",
+    "text": "REMOVED"
+   },
+   "speaker": "narrator",
+   "start": 61.025,
+   "end": 62.797
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.3,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.3,
+     "facing": 1
+    },
+    {
+     "id": "hero",
+     "x": 0.72,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.3,
+     "facing": -1
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "FRIDAY 9 PM",
+    "sub": "MINI PIZZAS: 0 FOR JAY",
+    "color": "#2F7BFF"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 62.797,
+   "end": 67.236
+  }
+ ],
+ "endStart": 67.236,
+ "endText": "THE END",
+ "endSub": "Follow for a new What if every day"
+}

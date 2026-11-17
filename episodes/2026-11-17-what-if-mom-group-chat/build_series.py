@@ -39,7 +39,7 @@ lines = [
  L(N, "Mom is in the chat. With *everything*.", chat([PLAN, LIE, ADDED], head=HEAD4), [], camera={"zoom": 1.3, "y": .55}, sfx=[{"type": "hit"}]),
  L(N, "Including the word *studying*.", chat([PLAN, LIE], head=HEAD4), [], camera={"zoom": 1.45, "y": .5}, ui={"type": "stamp", "text": "LIAR"}, sfx=[{"type": "boom"}]),
  L(N, "Rule number one. Remove her *before she reads*.", RK, [c("hero", .5, pose="phone", expr="scared", scale=1.6)], ui=rule(1, "REMOVE MOM")),
- L(N, "Only admins can remove members. The admin is *Max*.", chat([LIE, ADDED, ME("MAX REMOVE MY MOM NOW")], head=HEAD4), [], sfx=[{"type": "pop"}]),
+ L(N, "Only admins can remove members. The admin is *Max*.", chat([LIE, ADDED, ME("max remove my mom NOW")], head=HEAD4), [], sfx=[{"type": "pop"}]),
  L(N, "Max is at *football practice*.", RD, [c("hero", .5, pose="panic", expr="scared", scale=2.0)], camera=SHAKE, sfx=[{"type": "alarm"}], fx=[{"type": "speedLines"}]),
  L(N, "Then three dots. Mom is *typing*.", chat([LIE, ADDED], head=HEAD4, typing="Mom ❤️ is typing"), [], camera=PUSH, sfx=[{"type": "heartbeat"}]),
  L(N, "Rule number two. *Act normal*.", RK, [c("hero", .5, pose="idle", expr="grin", scale=1.6)], ui=rule(2, "ACT NORMAL")),

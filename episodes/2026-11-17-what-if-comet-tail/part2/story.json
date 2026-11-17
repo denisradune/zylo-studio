@@ -1,0 +1,528 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If Earth Flew Through a Comet's Tail Today? (Part 2)",
+ "seed": 6302,
+ "partLabel": "PART 2/8",
+ "end": {
+  "text": "PART 3",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part two. A comet tail full of *poison gas*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "comet"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Tuesday. Bit opens the old 1910 *newspapers*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "1910",
+     "items": [
+      "poison gas?",
+      "end of the world?"
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A famous French astronomer, Camille *Flammarion*, warned...",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "...the gas could snuff out *all life*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "1910: ALL LIFE IN DANGER?"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "He didn't even say it was *likely*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Too late. People bought *anti-comet pills*.",
+   "shot": {
+    "set": {
+     "type": "store"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.4
+     }
+    ],
+    "ui": {
+     "type": "list",
+     "title": "SOLD IN 1910",
+     "items": [
+      "anti-comet pills",
+      "gas masks",
+      "comet umbrellas"
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Comet *umbrellas*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Very popular. Zero *stars*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Some people papered over their *keyholes*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay's mom tapes the *keyhole*. Just in case.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "angry",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Now it's 2026. And the town chat *explodes*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "TOWN CHAT",
+      "sub": "312 members",
+      "clock": "21:14",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Mayor Doyle",
+        "text": "WHERE DO I BUY COMET PILLS"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Somebody already sells them *online*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "TOWN CHAT",
+      "sub": "312 members",
+      "clock": "21:14",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Mayor Doyle",
+        "text": "WHERE DO I BUY COMET PILLS"
+       },
+       {
+        "from": "them",
+        "name": "StarSafe Shop",
+        "text": "COMET PILLS. $99. Only 50 left!"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Forty-nine left. *Thirty*. *Twelve*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "TOWN CHAT",
+      "sub": "312 members",
+      "clock": "21:14",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "StarSafe Shop",
+        "text": "COMET PILLS. $99. Only 12 left!"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "ui": {
+     "type": "counter",
+     "from": 49,
+     "to": 12,
+     "label": "PILLS LEFT"
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "I bought two hundred. For the *town*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bossMask",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "ring"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Two hundred? Mayor, they're ninety-nine *dollars*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.4
+     },
+     {
+      "id": "bossMask",
+      "x": 0.72,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.4,
+      "facing": -1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "And nobody tested a single *pill*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Each. Yes. *Safety first*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bossMask",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Milo opens his piggy bank. Ten *dollars*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 10,
+     "prefix": "$",
+     "label": "MILO'S SAVINGS"
+    }
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Is it enough for *one pill*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay looks at Bit. Bit looks at the *website*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.4
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Jay. Something about this shop is *wrong*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for part three.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
