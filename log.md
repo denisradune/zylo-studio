@@ -58,3 +58,8 @@
 | 54 | 2026-11-16 | What If Your Boss Meme Hit the Work Chat? 😬 #shorts | what-if: comedy (everyday cringe) (part1) | original fiction | https://youtube.com/shorts/1GhJdMlrKV8 |
 | 55 | 2026-11-19 | What If Every Phone Died at Once? ☀️ Part 4 #shorts | what-if: disaster (real history) (part4) | sources.md | https://youtube.com/shorts/jYUUFrIVBuM |
 | 56 | 2026-11-19 | What If Soup Was the Cure? 🌞 Part 6 #shorts | what-if: sci-fi (real nature) (part6) | sources.md | https://youtube.com/shorts/vGgrZoP6zWM |
+| 57 | 2026-11-17 | What If Your Mom Joined the Group Chat? 😳 #shorts | what-if: comedy (everyday cringe) (part1) | original fiction | https://youtube.com/shorts/YxBwF6b_d1Q |
+| 58 | 2026-11-19 | What If the Sea Just Left? 🌋 Part 3 #shorts | what-if: disaster (real history) (part3) | sources.md | https://youtube.com/shorts/vxCrNWEOZZQ |
+| 59 | 2026-11-19 | What If Your AI Was on Every Phone? 🧟 S2 · Part 8 #shorts | what-if: disaster (part8) | sources.md | https://youtube.com/shorts/heOoGikuJpI |
+| 60 | 2026-11-19 | What If Every Toy Was the Only One? 🛒 Part 7 #shorts | what-if: money (part7) | sources.md | https://youtube.com/shorts/GGU4ZdZSIzQ |
+| 61 | 2026-11-19 | What If a Town Copied Wörgl Wrong? 💸 Part 5 #shorts | what-if: money (part5) | sources.md | https://youtube.com/shorts/QffLtMjkUmg |
