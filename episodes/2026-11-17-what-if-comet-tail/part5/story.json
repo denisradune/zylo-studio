@@ -1,0 +1,469 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If Earth Flew Through a Comet's Tail Today? (Part 5)",
+ "seed": 6305,
+ "partLabel": "PART 5/8",
+ "end": {
+  "text": "PART 6",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part five. Scam over. But Grandpa is *sad*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay finds Ezra on the porch, looking *up*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.3
+     },
+     {
+      "id": "scientist",
+      "x": 0.7,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ],
+    "fx": [
+     {
+      "type": "comet",
+      "x": 300,
+      "y": 360,
+      "angle": 330,
+      "length": 760
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Grandpa, the comet is harmless. Why so *sad*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Because I've never actually *seen* one.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He opens a photo. A boy on a *roof*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "MY GRANDPA",
+     "sub": "MAY 1910",
+     "color": "#2F7BFF"
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "My grandpa saw Halley's Comet in *1910*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "He said: it's back in 1986. Watch for *me*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "In 1986, Ezra was working nights. Clouds. *Missed it*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 330
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Halley comes back in *2061*. July twenty-eighth.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.0
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 2026,
+     "to": 2061,
+     "label": "NEXT HALLEY"
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "I'll be a hundred and twelve. I'm not *waiting*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Fun fact. Mark Twain was born with Halley's *Comet*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "1835",
+     "sub": "MARK TWAIN IS BORN",
+     "color": "#2F7BFF"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "He said he'd leave with it. He *did*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "1910",
+     "sub": "HALLEY RETURNS",
+     "color": "#2F7BFF"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. That is the *opposite* of fun.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "Ha! I like him. *This* comet is my chance.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "comet",
+      "x": 300,
+      "y": 360,
+      "angle": 330,
+      "length": 760
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Friday night. Biggest show of the *century*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "comet"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay promises. Front row. The best *roof* in town.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.3
+     },
+     {
+      "id": "scientist",
+      "x": 0.7,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Bit checks the *weather*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Friday night: clouds. A hundred *percent*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 100,
+     "suffix": "%",
+     "label": "CLOUDS FRIDAY"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for part six.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

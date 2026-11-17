@@ -16,7 +16,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-17T16:00:00Z"
  },
  "part2": {
   "title": "What If Everyone Bought Comet Pills? ☄️ Part 2 #shorts",
@@ -35,7 +36,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-19T16:00:00Z"
  },
  "part3": {
   "title": "What If the Comet Pills Were Fake? ☄️ Part 3 #shorts",
@@ -54,7 +56,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-21T16:00:00Z"
  },
  "part4": {
   "title": "What If a Whole Town Panicked? ☄️ Part 4 #shorts",
@@ -73,7 +76,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-23T16:00:00Z"
  },
  "part5": {
   "title": "What If You Never Saw a Comet? ☄️ Part 5 #shorts",
@@ -92,7 +96,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-25T16:00:00Z"
  },
  "part6": {
   "title": "What If Clouds Ruined the Comet? ☄️ Part 6 #shorts",
@@ -111,7 +116,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-27T16:00:00Z"
  },
  "part7": {
   "title": "What If Your AI Flew Above the Clouds? ☄️ Part 7 #shorts",
@@ -130,7 +136,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-29T16:00:00Z"
  },
  "part8": {
   "title": "What If the Comet Tail Hit at Midnight? ☄️ Part 8 #shorts",
@@ -149,7 +156,8 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-12-01T16:00:00Z"
  },
  "full": {
   "title": "What If Earth Flew Through a Comet Tail Today? (Full Story)",
@@ -166,6 +174,7 @@
   "categoryId": "1",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-12-02T19:00:00Z"
  }
 }

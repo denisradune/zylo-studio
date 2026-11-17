@@ -26,7 +26,7 @@ CLIFF = [{"type": "riser"}, {"type": "hit", "at": .9}]
 COMET = [{"type": "comet"}]
 COMET_L = [{"type": "comet", "x": 300, "y": 360, "angle": 330, "length": 760}]
 INSIDE = [{"type": "comet", "inside": True}]
-CLOUDS = [{"type": "clouds"}]
+CLOUDS = [{"type": "clouds", "y": 330}]
 def end(t): return {"speaker": N, "say": t, "end": True}
 def recap(t, set_, cast, **kw):
     l = L(N, t, set_, cast, **kw); l["shortOnly"] = True; return l

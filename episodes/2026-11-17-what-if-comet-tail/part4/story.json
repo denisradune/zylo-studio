@@ -1,0 +1,564 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If Earth Flew Through a Comet's Tail Today? (Part 4)",
+ "seed": 6304,
+ "partLabel": "PART 4/8",
+ "end": {
+  "text": "PART 5",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part four. The pills are *sugar*. Nobody listens.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "angry",
+      "scale": 1.7
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Thursday. Main Street looks like a *movie*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "scared",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Gas masks. Umbrellas. Tape on every *keyhole*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.2,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.1,
+      "depth": 0.3
+     },
+     {
+      "id": "bossMask",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.2
+     },
+     {
+      "id": "friend",
+      "x": 0.8,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.1,
+      "depth": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Citizens! Pills at noon. Umbrellas at *one*!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bossMask",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "siren",
+      "volume": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Mayor, it's a scam. Bit *tested* the pills.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.4
+     },
+     {
+      "id": "bossMask",
+      "x": 0.72,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.4,
+      "facing": -1
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "A robot told you? On the *internet*?",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bossMask",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Excuse me. I am a *very* serious robot.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit's screen shows a smiley face. Not *helping*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Grandpa Ezra steps onto the *bench*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "neutral",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "In 1910, everyone was scared like you. *Everyone*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "And Earth flew through that tail. And *nothing* happened.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "comet",
+      "x": 700,
+      "y": 700,
+      "angle": 200,
+      "length": 1000
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "The only thing people lost was *money*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The crowd laughs. One mask comes *off*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then *ten*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "grin",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "grin",
+      "depth": 0.5
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mayor Doyle keeps his on. *Just in case*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bossMask",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "That night the shop page shows: *closed*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "TOWN CHAT",
+      "sub": "312 members",
+      "clock": "21:14",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "StarSafe Shop",
+        "text": "Store closed. Thank you for your trust!"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "ui": {
+     "type": "stamp",
+     "text": "GONE"
+    },
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "They ran. With everyone's *money*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Not everyone's. I kept the *receipts*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    },
+    "ui": {
+     "type": "card",
+     "text": "REFUNDS",
+     "sub": "312 ORDERS SAVED",
+     "color": "#2FBF71"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But Grandpa Ezra isn't *smiling*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for part five.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

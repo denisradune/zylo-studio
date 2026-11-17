@@ -1,0 +1,581 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If Earth Flew Through a Comet's Tail Today? (Part 6)",
+ "seed": 6306,
+ "partLabel": "PART 6/8",
+ "end": {
+  "text": "PART 7",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part six. Grandpa's last chance. Then: *clouds*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "bit",
+   "say": "This happened in 1910 too. In *Brooklyn*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "1910",
+     "sub": "A ROOFTOP COMET PARTY",
+     "color": "#2F7BFF"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A lady threw a comet party for thirteen *guests*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Telescope on the roof. And then? *Clouds*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "sad",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "So we need to get *above* the clouds.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "A plane? A *mountain*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Milo raises his hand. Shy. *Hopeful*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Bit can *fly*. A little.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Everyone turns to *Bit*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I float. Three feet. Above a *sofa*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 3,
+     "suffix": " FT",
+     "label": "BIT'S RECORD"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "The clouds start at six thousand *feet*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 6000,
+     "suffix": " FT",
+     "label": "CLOUD BASE"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "So they build *a balloon*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.2,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 1.1,
+      "depth": 0.3
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.2
+     },
+     {
+      "id": "friend",
+      "x": 0.8,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 1.1,
+      "depth": 0.3,
+      "facing": -1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Party balloons. Fifty-two of them. All *helium*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 52,
+     "label": "BALLOONS"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit gets a camera. A *live stream*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "ZYLO LIVE",
+     "title": "Bit is going live",
+     "body": "Above the clouds"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Grandpa Ezra gets a tablet. And the *roof*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Friday, eleven p.m. One hour until *the tail*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "neutral",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds"
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "23:00",
+     "to": "23:01"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "If my battery hits zero up there... I *fall*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 100,
+     "to": 100,
+     "suffix": "%",
+     "label": "BATTERY"
+    },
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Then we'll *catch* you. Go!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit lets go of Jay's hand. And *rises*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 0.9,
+      "lift": 420
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for part seven.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

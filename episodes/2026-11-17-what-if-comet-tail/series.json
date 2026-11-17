@@ -2342,7 +2342,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ]
      }
@@ -2624,7 +2625,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ]
      },
@@ -2734,7 +2736,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ],
       "sfx": [
@@ -3014,7 +3017,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ]
      }
@@ -3059,7 +3063,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ],
       "ui": {
@@ -3140,7 +3145,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ],
       "sfx": [
@@ -3187,7 +3193,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ]
      },
@@ -3289,7 +3296,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ]
      }
@@ -3425,7 +3433,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ],
       "camera": {
@@ -3614,7 +3623,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ],
       "camera": {
@@ -3781,7 +3791,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        },
        {
         "type": "glitch"
@@ -3832,7 +3843,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ]
      },
@@ -3857,7 +3869,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ],
       "camera": {
@@ -3906,7 +3919,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ],
       "sfx": [
@@ -3999,7 +4013,8 @@
       ],
       "fx": [
        {
-        "type": "clouds"
+        "type": "clouds",
+        "y": 330
        }
       ],
       "camera": {

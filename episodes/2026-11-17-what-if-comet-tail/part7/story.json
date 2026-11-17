@@ -1,0 +1,661 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If Earth Flew Through a Comet's Tail Today? (Part 7)",
+ "seed": 6307,
+ "partLabel": "PART 7/8",
+ "end": {
+  "text": "PART 8",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part seven. Bit rises toward the *clouds*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Two thousand feet. The town is a little *map*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.0
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 900,
+     "to": 2000,
+     "suffix": " FT",
+     "label": "BIT'S ALTITUDE"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "This is *higher* than the sofa.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Four thousand feet. Cold. The camera *fogs*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "snow"
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 2000,
+     "to": 4000,
+     "suffix": " FT",
+     "label": "BIT'S ALTITUDE"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "On the roof, the tablet shows *gray*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Inside the cloud, Bit sees *nothing*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.3
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 2000
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Battery: thirty *percent*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 2000
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 41,
+     "to": 30,
+     "suffix": "%",
+     "label": "BATTERY"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Hello, cloud. You are very *wet*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 2000
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, come back! It's not *worth* it!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Ezra grips the tablet. *Please*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Ezra waited forty years. I can wait *one cloud*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "angry",
+      "scale": 1.7
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 2000
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Five thousand. Five thousand five *hundred*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.3
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 2000
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 5000,
+     "to": 5500,
+     "suffix": " FT",
+     "label": "BIT'S ALTITUDE"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A balloon *pops*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 2000
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "hit",
+      "at": 0.2
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then *two more*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 2000
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "pop",
+      "at": 0.3
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit starts to *sink*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.3,
+      "lift": 0
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 2000
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Come on, Bit. Come *on*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds"
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Milo grabs Jay's phone. Types *fast*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "angry",
+      "scale": 1.8
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "kid",
+   "say": "Bit! Drop the *camera case*! It's heavy!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit drops it. Bit *rises*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.3,
+      "lift": 380
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 2000
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     },
+     {
+      "type": "powerup",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Six thousand feet. Battery: nine *percent*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.4
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds",
+      "y": 2000
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 15,
+     "to": 9,
+     "suffix": "%",
+     "label": "BATTERY"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Eleven fifty-nine. Then the cloud *opens*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "shocked",
+      "scale": 1.0
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "23:59"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And the signal *dies*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "fx": [
+     {
+      "type": "clouds"
+     },
+     {
+      "type": "glitch"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "glitch"
+     },
+     {
+      "type": "hit",
+      "at": 0.5
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for the final part.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
