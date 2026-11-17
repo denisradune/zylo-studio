@@ -1,0 +1,44 @@
+{
+ "text": "COMET *PILLS*?!",
+ "badge": "FULL STORY",
+ "cropY": 880,
+ "set": {
+  "type": "street",
+  "time": "night"
+ },
+ "fx": [
+  {
+   "type": "comet",
+   "x": 640,
+   "y": 1000,
+   "angle": 200,
+   "length": 700
+  }
+ ],
+ "cast": [
+  {
+   "id": "boss",
+   "x": 0.93,
+   "pose": "panic",
+   "expr": "scared",
+   "scale": 1.0,
+   "y": 1640,
+   "facing": -1
+  },
+  {
+   "id": "hero",
+   "x": 0.72,
+   "pose": "point",
+   "expr": "shocked",
+   "scale": 1.3,
+   "y": 1760
+  },
+  {
+   "id": "bit",
+   "x": 0.56,
+   "expr": "shocked",
+   "scale": 0.55,
+   "y": 1215
+  }
+ ]
+}

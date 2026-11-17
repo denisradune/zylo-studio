@@ -23,7 +23,12 @@ export type FxSpec =
   /** An object (phone) flying in an arc from `from` to `to`, starting `at` seconds in, lasting `dur`. */
   | { type: 'throwObj'; from: [number, number]; to: [number, number]; at?: number; dur?: number }
   /** Bright screen glow at (x, y): what the zombies chase. */
-  | { type: 'glow'; x: number; y: number; r?: number };
+  | { type: 'glow'; x: number; y: number; r?: number }
+  /** A comet: glowing head at (x, y) with a long two-part tail pointing along `angle` degrees (0 = right).
+   *  `inside: true` = Earth is inside the tail: a faint blue-green haze over the whole sky instead. */
+  | { type: 'comet'; x?: number; y?: number; angle?: number; length?: number; size?: number; inside?: boolean }
+  /** Thick night clouds drifting across the top of the frame (bottom edge at `y`). */
+  | { type: 'clouds'; y?: number; color?: string };
 
 /** Camera shake offset for a shot that contains an impact (or `shake: true`). */
 export const shakeAt = (t: number, fps: number, startSec: number, strength = 1) => {
@@ -226,6 +231,65 @@ export const FxLayer: React.FC<{ fx: FxSpec[]; f: number; fps: number }> = ({ fx
               <circle cx={e.x} cy={e.y} r={(e.r ?? 260) * (1 + Math.sin(f / 4) * 0.05)} fill={`url(#glow${i})`} />
             </g>
           );
+        case 'comet': {
+          if (e.inside) {
+            return (
+              <g key={i}>
+                <defs>
+                  <linearGradient id={`haze${i}`} x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stopColor="rgba(120,255,220,0.42)" />
+                    <stop offset="0.5" stopColor="rgba(90,170,255,0.22)" />
+                    <stop offset="1" stopColor="rgba(120,255,220,0)" />
+                  </linearGradient>
+                </defs>
+                <rect width={W} height={H} fill={`url(#haze${i})`} opacity={0.75 + 0.25 * Math.sin(f / 9)} />
+                {Array.from({ length: 26 }).map((_, k) => (
+                  <line key={k} x1={(rnd(k + 40) * 1.6 - 0.3) * W + f * 2} y1={rnd(k + 70) * H * 0.6 - 200} x2={(rnd(k + 40) * 1.6 - 0.3) * W + f * 2 + 420} y2={rnd(k + 70) * H * 0.6 + 120} stroke="#CFFFF1" strokeWidth={3} opacity={0.25} strokeLinecap="round" />
+                ))}
+              </g>
+            );
+          }
+          const cx = e.x ?? 760;
+          const cy = e.y ?? 420;
+          const ang = e.angle ?? 205;
+          const len = (e.length ?? 900) * (1 + Math.sin(f / 14) * 0.02);
+          const sz = e.size ?? 1;
+          return (
+            <g key={i} transform={`translate(${cx} ${cy}) rotate(${ang})`}>
+              <defs>
+                <linearGradient id={`ion${i}`} x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stopColor="rgba(140,220,255,0.95)" />
+                  <stop offset="1" stopColor="rgba(140,220,255,0)" />
+                </linearGradient>
+                <linearGradient id={`dust${i}`} x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stopColor="rgba(255,244,200,0.9)" />
+                  <stop offset="1" stopColor="rgba(255,244,200,0)" />
+                </linearGradient>
+                <radialGradient id={`coma${i}`}>
+                  <stop offset="0" stopColor="#FFFFFF" />
+                  <stop offset="0.4" stopColor="rgba(200,255,250,0.9)" />
+                  <stop offset="1" stopColor="rgba(140,220,255,0)" />
+                </radialGradient>
+              </defs>
+              <path d={`M 0 ${-34 * sz} L ${len} ${-110 * sz} L ${len} ${110 * sz} L 0 ${34 * sz} Z`} fill={`url(#dust${i})`} transform="rotate(-7)" />
+              <path d={`M 0 ${-18 * sz} L ${len * 1.15} ${-40 * sz} L ${len * 1.15} ${40 * sz} L 0 ${18 * sz} Z`} fill={`url(#ion${i})`} />
+              <circle r={90 * sz * (1 + Math.sin(f / 6) * 0.05)} fill={`url(#coma${i})`} />
+              <circle r={22 * sz} fill="#FFFFFF" />
+            </g>
+          );
+        }
+        case 'clouds': {
+          const base = e.y ?? 700;
+          const col = e.color ?? '#3A4166';
+          return (
+            <g key={i}>
+              <rect x={0} y={0} width={W} height={base - 120} fill={col} opacity={0.92} />
+              {Array.from({ length: 9 }).map((_, k) => (
+                <circle key={k} cx={((k * 160 + f * 1.2) % (W + 320)) - 160} cy={base - 120 + rnd(k + 5) * 60} r={130 + rnd(k + 9) * 70} fill={col} opacity={0.97} />
+              ))}
+            </g>
+          );
+        }
         case 'vignette':
           return (
             <g key={i}>

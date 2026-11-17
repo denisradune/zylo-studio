@@ -1,0 +1,4451 @@
+{
+ "title": "What If Earth Flew Through a Comet's Tail Today?",
+ "rubric": "what-if: disaster (real history)",
+ "mood": "wonder",
+ "seed": 6300,
+ "every": 2,
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "finale": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "parts": [
+  {
+   "title": "The Tail",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "What if Earth flew through a *comet's tail* today?",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "shocked",
+        "scale": 1.1,
+        "depth": 0.3
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet"
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Monday. A new comet lights up the *evening sky*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "dusk"
+      },
+      "cast": [],
+      "fx": [
+       {
+        "type": "comet"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Astronomers call it Comet *Vela*. It's beautiful.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 300,
+        "y": 360,
+        "angle": 330,
+        "length": 760
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then the news finds one small *detail*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "COMET TAIL: TOXIC GAS"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "shocked",
+        "scale": 0.9
+       }
+      ],
+      "sfx": [
+       {
+        "type": "alarm"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Phones buzz. Every phone. All at *once*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "night",
+       "screen": {
+        "kind": "lock",
+        "clock": "19:02",
+        "sub": "Friday",
+        "notes": [
+         {
+          "app": "NEWS",
+          "text": "Comet tail has toxic gas?"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "buzz"
+       },
+       {
+        "type": "ding",
+        "at": 0.3
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The tail contains a poison gas. *Cyanogen*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "shocked",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "And on Friday night, Earth passes *through it*.",
+     "shot": {
+      "set": {
+       "type": "space"
+      },
+      "cast": [],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 820,
+        "y": 900,
+        "angle": 180,
+        "length": 900
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 5,
+       "to": 4,
+       "suffix": " DAYS",
+       "label": "UNTIL THE TAIL"
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Everybody stay calm! *I* am calm!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mayor Doyle is wearing a *gas mask*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "ui": {
+       "type": "stamp",
+       "text": "CALM?"
+      },
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "It's my *lucky* gas mask.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit, how bad is this? *Honestly*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.3,
+        "pose": "phone",
+        "expr": "scared",
+        "scale": 1.5
+       },
+       {
+        "id": "bit",
+        "x": 0.74,
+        "expr": "think",
+        "scale": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Honestly? Earth already did this. In *1910*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "MAY 1910",
+       "sub": "HALLEY'S COMET",
+       "color": "#2F7BFF"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "On May nineteenth, 1910, we flew through Halley's *tail*.",
+     "shot": {
+      "set": {
+       "type": "space"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.0
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 700,
+        "y": 700,
+        "angle": 200,
+        "length": 1000
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Scientists found cyanogen in that tail *too*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "REAL: 1910, CYANOGEN"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "neutral",
+        "scale": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "And? What *happened*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The planet *panicked*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "1910: PLANET PANICS"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "glitch",
+        "scale": 0.9
+       }
+      ],
+      "sfx": [
+       {
+        "type": "glitch"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "The whole *planet*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "shocked",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "At the door, Grandpa Ezra holds a dusty *box*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "smug",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "knock"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "My grandpa bought these in 1910.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The label says: *comet pills*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "COMET PILLS",
+       "sub": "EST. 1910",
+       "color": "#FF4A3D"
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Real history. And it's about to *repeat*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "scared",
+        "scale": 1.1,
+        "depth": 0.3
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for part two.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Comet Pills",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part two. A comet tail full of *poison gas*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [],
+      "fx": [
+       {
+        "type": "comet"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Tuesday. Bit opens the old 1910 *newspapers*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "list",
+       "title": "1910",
+       "items": [
+        "poison gas?",
+        "end of the world?"
+       ]
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "A famous French astronomer, Camille *Flammarion*, warned...",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "...the gas could snuff out *all life*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "1910: ALL LIFE IN DANGER?"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "shocked",
+        "scale": 0.9
+       }
+      ],
+      "sfx": [
+       {
+        "type": "boom"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "He didn't even say it was *likely*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Too late. People bought *anti-comet pills*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.4
+       }
+      ],
+      "ui": {
+       "type": "list",
+       "title": "SOLD IN 1910",
+       "items": [
+        "anti-comet pills",
+        "gas masks",
+        "comet umbrellas"
+       ]
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Comet *umbrellas*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "shocked",
+        "scale": 2.0
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Very popular. Zero *stars*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Some people papered over their *keyholes*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "scared",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay's mom tapes the *keyhole*. Just in case.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "angry",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Now it's 2026. And the town chat *explodes*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "night",
+       "screen": {
+        "title": "TOWN CHAT",
+        "sub": "312 members",
+        "clock": "21:14",
+        "msgs": [
+         {
+          "from": "them",
+          "name": "Mayor Doyle",
+          "text": "WHERE DO I BUY COMET PILLS"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "ding"
+       },
+       {
+        "type": "ding",
+        "at": 0.3
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Somebody already sells them *online*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "night",
+       "screen": {
+        "title": "TOWN CHAT",
+        "sub": "312 members",
+        "clock": "21:14",
+        "msgs": [
+         {
+          "from": "them",
+          "name": "Mayor Doyle",
+          "text": "WHERE DO I BUY COMET PILLS"
+         },
+         {
+          "from": "them",
+          "name": "StarSafe Shop",
+          "text": "COMET PILLS. $99. Only 50 left!"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Forty-nine left. *Thirty*. *Twelve*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "night",
+       "screen": {
+        "title": "TOWN CHAT",
+        "sub": "312 members",
+        "clock": "21:14",
+        "msgs": [
+         {
+          "from": "them",
+          "name": "StarSafe Shop",
+          "text": "COMET PILLS. $99. Only 12 left!"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "ui": {
+       "type": "counter",
+       "from": 49,
+       "to": 12,
+       "label": "PILLS LEFT"
+      }
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "I bought two hundred. For the *town*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      },
+      "sfx": [
+       {
+        "type": "ring"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Two hundred? Mayor, they're ninety-nine *dollars*!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.3,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.4
+       },
+       {
+        "id": "bossMask",
+        "x": 0.72,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.4,
+        "facing": -1
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "And nobody tested a single *pill*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Each. Yes. *Safety first*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Milo opens his piggy bank. Ten *dollars*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 10,
+       "prefix": "$",
+       "label": "MILO'S SAVINGS"
+      }
+     }
+    },
+    {
+     "speaker": "kid",
+     "say": "Is it enough for *one pill*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay looks at Bit. Bit looks at the *website*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.3,
+        "pose": "idle",
+        "expr": "angry",
+        "scale": 1.4
+       },
+       {
+        "id": "bit",
+        "x": 0.74,
+        "expr": "think",
+        "scale": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Jay. Something about this shop is *wrong*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "angry",
+        "scale": 1.8
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for part three.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Sugar",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part three. Everyone is buying ninety-nine dollar *comet pills*.",
+     "shot": {
+      "set": {
+       "type": "store"
+      },
+      "cast": [
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.4
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Wednesday. Bit traces the StarSafe *Shop*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "glitch"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "glitch"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "The website was made... on *Monday*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "SITE CREATED",
+       "sub": "MONDAY, 18:02",
+       "color": "#FF4A3D"
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "One hour after the comet *news*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "angry",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Nia orders one pill. For *science*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "smug",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "It arrives the next morning in a tiny *envelope*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "knock"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit scans it. Jay and Nia *lean in*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.2,
+        "pose": "idle",
+        "expr": "scared",
+        "scale": 1.1,
+        "depth": 0.3
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.3
+       },
+       {
+        "id": "friend",
+        "x": 0.8,
+        "pose": "idle",
+        "expr": "scared",
+        "scale": 1.1,
+        "depth": 0.3,
+        "facing": -1
+       }
+      ],
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Ingredients: sugar. Food coloring. And... more *sugar*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "bars",
+       "items": [
+        {
+         "label": "SUGAR",
+         "value": 0.97,
+         "color": "#FFD400"
+        },
+        {
+         "label": "COLOR",
+         "value": 0.03,
+         "color": "#FF4A3D"
+        },
+        {
+         "label": "MAGIC",
+         "value": 0.0
+        }
+       ],
+       "tag": "COMET PILL"
+      }
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "A ninety-nine dollar *candy*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "angry",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "And the gas? Is the gas *real*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "scared",
+        "scale": 1.8
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Grandpa Ezra spreads out his old *star charts*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "COMET VELA",
+       "sub": "TAIL: 30 MILLION MILES",
+       "color": "#2F7BFF"
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "A comet tail is huge. But *thin*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "neutral",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Flammarion said it: far sparser than a *cloud*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "smug",
+        "scale": 1.4
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 300,
+        "y": 360,
+        "angle": 330,
+        "length": 760
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Translation: the scary gas is basically *nothing*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "stamp",
+       "text": "HARMLESS",
+       "color": "#2FBF71"
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Then we tell everyone. *Tonight*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay posts a video. Sugar, sugar, *sugar*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "night",
+       "screen": {
+        "title": "TOWN CHAT",
+        "sub": "312 members",
+        "clock": "21:14",
+        "msgs": [
+         {
+          "from": "me",
+          "text": "The comet pills are SUGAR. Video ↑"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Three likes. One is his *mom*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "night",
+       "screen": {
+        "title": "TOWN CHAT",
+        "sub": "312 members",
+        "clock": "21:14",
+        "msgs": [
+         {
+          "from": "me",
+          "text": "The comet pills are SUGAR. Video ↑"
+         }
+        ],
+        "seen": "3 likes"
+       }
+      },
+      "cast": [],
+      "camera": {
+       "zoom": 1.06,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "And the shop posts a new *offer*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "night",
+       "screen": {
+        "title": "TOWN CHAT",
+        "sub": "312 members",
+        "clock": "21:14",
+        "msgs": [
+         {
+          "from": "me",
+          "text": "The comet pills are SUGAR. Video ↑"
+         },
+         {
+          "from": "them",
+          "name": "StarSafe Shop",
+          "text": "NEW! COMET-PROOF UMBRELLAS. $199"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "ding"
+       },
+       {
+        "type": "hit",
+        "at": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mayor Doyle buys *the first one*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "ui": {
+       "type": "stamp",
+       "text": "SOLD"
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for part four.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Masks Off",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part four. The pills are *sugar*. Nobody listens.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "angry",
+        "scale": 1.7
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Thursday. Main Street looks like a *movie*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "vignette"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Gas masks. Umbrellas. Tape on every *keyhole*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.2,
+        "pose": "idle",
+        "expr": "scared",
+        "scale": 1.1,
+        "depth": 0.3
+       },
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.2
+       },
+       {
+        "id": "friend",
+        "x": 0.8,
+        "pose": "idle",
+        "expr": "neutral",
+        "scale": 1.1,
+        "depth": 0.3
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "Citizens! Pills at noon. Umbrellas at *one*!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      },
+      "sfx": [
+       {
+        "type": "siren",
+        "volume": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Mayor, it's a scam. Bit *tested* the pills.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.3,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.4
+       },
+       {
+        "id": "bossMask",
+        "x": 0.72,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.4,
+        "facing": -1
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "boss",
+     "say": "A robot told you? On the *internet*?",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Excuse me. I am a *very* serious robot.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "angry",
+        "scale": 1.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit's screen shows a smiley face. Not *helping*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then Grandpa Ezra steps onto the *bench*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "wave",
+        "expr": "neutral",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "In 1910, everyone was scared like you. *Everyone*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "sad",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "And Earth flew through that tail. And *nothing* happened.",
+     "shot": {
+      "set": {
+       "type": "space"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 0.9
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 700,
+        "y": 700,
+        "angle": 200,
+        "length": 1000
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "The only thing people lost was *money*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "smug",
+        "scale": 1.8
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The crowd laughs. One mask comes *off*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then *ten*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mayor Doyle keeps his on. *Just in case*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "That night the shop page shows: *closed*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "night",
+       "screen": {
+        "title": "TOWN CHAT",
+        "sub": "312 members",
+        "clock": "21:14",
+        "msgs": [
+         {
+          "from": "them",
+          "name": "StarSafe Shop",
+          "text": "Store closed. Thank you for your trust!"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "ui": {
+       "type": "stamp",
+       "text": "GONE"
+      },
+      "sfx": [
+       {
+        "type": "powerdown"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "They ran. With everyone's *money*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "angry",
+        "scale": 1.8
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Not everyone's. I kept the *receipts*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      },
+      "ui": {
+       "type": "card",
+       "text": "REFUNDS",
+       "sub": "312 ORDERS SAVED",
+       "color": "#2FBF71"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "But Grandpa Ezra isn't *smiling*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for part five.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Grandpa's Comet",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part five. Scam over. But Grandpa is *sad*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.6
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay finds Ezra on the porch, looking *up*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.3,
+        "pose": "idle",
+        "expr": "neutral",
+        "scale": 1.3
+       },
+       {
+        "id": "scientist",
+        "x": 0.7,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.3,
+        "facing": -1
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 300,
+        "y": 360,
+        "angle": 330,
+        "length": 760
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Grandpa, the comet is harmless. Why so *sad*?",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Because I've never actually *seen* one.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "He opens a photo. A boy on a *roof*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.5
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "MY GRANDPA",
+       "sub": "MAY 1910",
+       "color": "#2F7BFF"
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "My grandpa saw Halley's Comet in *1910*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "happy",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "He said: it's back in 1986. Watch for *me*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "In 1986, Ezra was working nights. Clouds. *Missed it*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "sad",
+        "scale": 1.4
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Halley comes back in *2061*. July twenty-eighth.",
+     "shot": {
+      "set": {
+       "type": "space"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.0
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 2026,
+       "to": 2061,
+       "label": "NEXT HALLEY"
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "I'll be a hundred and twelve. I'm not *waiting*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "smug",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Fun fact. Mark Twain was born with Halley's *Comet*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "1835",
+       "sub": "MARK TWAIN IS BORN",
+       "color": "#2F7BFF"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "He said he'd leave with it. He *did*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "1910",
+       "sub": "HALLEY RETURNS",
+       "color": "#2F7BFF"
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit. That is the *opposite* of fun.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Ha! I like him. *This* comet is my chance.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 300,
+        "y": 360,
+        "angle": 330,
+        "length": 760
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Friday night. Biggest show of the *century*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [],
+      "fx": [
+       {
+        "type": "comet"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Jay promises. Front row. The best *roof* in town.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.3,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.3
+       },
+       {
+        "id": "scientist",
+        "x": 0.7,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.3,
+        "facing": -1
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then Bit checks the *weather*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Friday night: clouds. A hundred *percent*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 100,
+       "suffix": "%",
+       "label": "CLOUDS FRIDAY"
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for part six.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Clouds",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part six. Grandpa's last chance. Then: *clouds*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "sad",
+        "scale": 1.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "bit",
+     "say": "This happened in 1910 too. In *Brooklyn*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "1910",
+       "sub": "A ROOFTOP COMET PARTY",
+       "color": "#2F7BFF"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "A lady threw a comet party for thirteen *guests*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "happy",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "happy",
+        "depth": 0.5
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Telescope on the roof. And then? *Clouds*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerdown"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "So we need to get *above* the clouds.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "neutral",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "A plane? A *mountain*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Milo raises his hand. Shy. *Hopeful*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "wave",
+        "expr": "happy",
+        "scale": 1.8
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "kid",
+     "say": "Bit can *fly*. A little.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Everyone turns to *Bit*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "I float. Three feet. Above a *sofa*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.7
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 3,
+       "suffix": " FT",
+       "label": "BIT'S RECORD"
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "The clouds start at six thousand *feet*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "neutral",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 6000,
+       "suffix": " FT",
+       "label": "CLOUD BASE"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "So they build *a balloon*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.2,
+        "pose": "idle",
+        "expr": "grin",
+        "scale": 1.1,
+        "depth": 0.3
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.2
+       },
+       {
+        "id": "friend",
+        "x": 0.8,
+        "pose": "idle",
+        "expr": "grin",
+        "scale": 1.1,
+        "depth": 0.3,
+        "facing": -1
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Party balloons. Fifty-two of them. All *helium*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 0,
+       "to": 52,
+       "label": "BALLOONS"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit gets a camera. A *live stream*.",
+     "shot": {
+      "set": {
+       "type": "lab"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "notify",
+       "app": "ZYLO LIVE",
+       "title": "Bit is going live",
+       "body": "Above the clouds"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Grandpa Ezra gets a tablet. And the *roof*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "happy",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Friday, eleven p.m. One hour until *the tail*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "neutral",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "neutral",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "neutral",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "neutral",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "23:00",
+       "to": "23:01"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "If my battery hits zero up there... I *fall*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 100,
+       "to": 100,
+       "suffix": "%",
+       "label": "BATTERY"
+      },
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Then we'll *catch* you. Go!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit lets go of Jay's hand. And *rises*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 0.9,
+        "lift": 420
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "hit",
+        "at": 0.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for part seven.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "Above the Clouds",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Part seven. Bit rises toward the *clouds*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 0.9
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "Two thousand feet. The town is a little *map*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.0
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 900,
+       "to": 2000,
+       "suffix": " FT",
+       "label": "BIT'S ALTITUDE"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "This is *higher* than the sofa.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Four thousand feet. Cold. The camera *fogs*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.4
+       }
+      ],
+      "fx": [
+       {
+        "type": "snow"
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 2000,
+       "to": 4000,
+       "suffix": " FT",
+       "label": "BIT'S ALTITUDE"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "On the roof, the tablet shows *gray*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Inside the cloud, Bit sees *nothing*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.3
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds",
+        "y": 2000
+       }
+      ],
+      "sfx": [
+       {
+        "type": "buzz"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Battery: thirty *percent*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds",
+        "y": 2000
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 41,
+       "to": 30,
+       "suffix": "%",
+       "label": "BATTERY"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Hello, cloud. You are very *wet*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.7
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds",
+        "y": 2000
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Bit, come back! It's not *worth* it!",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Ezra grips the tablet. *Please*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "scared",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Ezra waited forty years. I can wait *one cloud*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "angry",
+        "scale": 1.7
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds",
+        "y": 2000
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Five thousand. Five thousand five *hundred*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.3
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds",
+        "y": 2000
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 5000,
+       "to": 5500,
+       "suffix": " FT",
+       "label": "BIT'S ALTITUDE"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "A balloon *pops*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds",
+        "y": 2000
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       },
+       {
+        "type": "hit",
+        "at": 0.2
+       }
+      ],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then *two more*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds",
+        "y": 2000
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       },
+       {
+        "type": "pop",
+        "at": 0.3
+       }
+      ],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit starts to *sink*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.3,
+        "lift": 0
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds",
+        "y": 2000
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerdown"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "friend",
+     "say": "Come on, Bit. Come *on*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "scared",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Milo grabs Jay's phone. Types *fast*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "angry",
+        "scale": 1.8
+       }
+      ],
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "kid",
+     "say": "Bit! Drop the *camera case*! It's heavy!",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit drops it. Bit *rises*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.3,
+        "lift": 380
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds",
+        "y": 2000
+       }
+      ],
+      "sfx": [
+       {
+        "type": "whoosh"
+       },
+       {
+        "type": "powerup",
+        "at": 0.3
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Six thousand feet. Battery: nine *percent*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.4
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds",
+        "y": 2000
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 15,
+       "to": 9,
+       "suffix": "%",
+       "label": "BATTERY"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Eleven fifty-nine. Then the cloud *opens*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.0
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "23:59"
+      },
+      "sfx": [
+       {
+        "type": "riser"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "And the signal *dies*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "shocked",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       },
+       {
+        "type": "glitch"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "glitch"
+       },
+       {
+        "type": "hit",
+        "at": 0.5
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for the final part.",
+     "end": true
+    }
+   ]
+  },
+  {
+   "title": "The Glow",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "Final part. Bit broke through. Then the signal *died*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.6
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ]
+     },
+     "shortOnly": true
+    },
+    {
+     "speaker": "narrator",
+     "say": "The roof is silent. Ezra holds the *tablet*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Three seconds. *Four*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "sad",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "heartbeat"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then the screen *lights up*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 560,
+        "y": 520,
+        "angle": 205,
+        "length": 1100,
+        "size": 1.3
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       },
+       {
+        "type": "ding",
+        "at": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Above the clouds: Comet Vela. Huge. *Glowing*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 0.8,
+        "depth": 0.4
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 560,
+        "y": 520,
+        "angle": 205,
+        "length": 1100,
+        "size": 1.3
+       }
+      ],
+      "camera": {
+       "zoom": 1.15,
+       "y": 0.5,
+       "push": 0.12
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Grandpa Ezra doesn't say a *word*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "sit",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "fx": [
+       {
+        "type": "clouds"
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "Grandpa... I'm *watching* it.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "scientist",
+     "say": "It's more beautiful than Grandpa *said*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.8
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 300,
+        "y": 360,
+        "angle": 330,
+        "length": 760
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Midnight. Earth slides into the *tail*.",
+     "shot": {
+      "set": {
+       "type": "space"
+      },
+      "cast": [],
+      "fx": [
+       {
+        "type": "comet",
+        "x": 820,
+        "y": 900,
+        "angle": 180,
+        "length": 900
+       }
+      ],
+      "ui": {
+       "type": "clock",
+       "text": "00:00"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The whole town *holds its breath*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "idle",
+        "expr": "scared",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "inside": true
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "And nothing happens. *Exactly* like 1910.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.15,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       },
+       {
+        "id": "friend",
+        "x": 0.38,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "boss",
+        "x": 0.62,
+        "pose": "idle",
+        "expr": "grin",
+        "depth": 0.6
+       },
+       {
+        "id": "scientist",
+        "x": 0.85,
+        "pose": "cheer",
+        "expr": "grin",
+        "depth": 0.5
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "inside": true
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ],
+      "ui": {
+       "type": "stamp",
+       "text": "STILL ALIVE",
+       "color": "#2FBF71"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Battery: two percent. Bit *drifts down*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.3,
+        "lift": 60
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet",
+        "inside": true
+       }
+      ],
+      "ui": {
+       "type": "counter",
+       "from": 4,
+       "to": 2,
+       "suffix": "%",
+       "label": "BATTERY"
+      },
+      "sfx": [
+       {
+        "type": "powerdown"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Right into Milo's *arms*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.4,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.6
+       },
+       {
+        "id": "bit",
+        "x": 0.62,
+        "expr": "happy",
+        "scale": 0.7
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Told you. Very *serious* robot.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.7
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Ezra hugs Bit. Then Jay. Then the *mayor*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "scientist",
+        "x": 0.3,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.4
+       },
+       {
+        "id": "bossMask",
+        "x": 0.72,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.4,
+        "facing": -1
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Mayor Doyle finally takes off the *mask*.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "boss",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Under it, he's wearing *another* one.",
+     "shot": {
+      "set": {
+       "type": "street",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "bossMask",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.9
+       }
+      ],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.6
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "In 1910, everyone survived the tail. Even pill *buyers*.",
+     "shot": {
+      "set": {
+       "type": "news",
+       "headline": "REAL: 1910, ALL FINE"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.8,
+        "expr": "happy",
+        "scale": 0.9
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Somewhere, a sugar pill rolls under a *sofa*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [],
+      "ui": {
+       "type": "stamp",
+       "text": "$99",
+       "color": "#FF4A3D"
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "kid",
+     "say": "Halley comes back in 2061. I'll be *forty-four*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "JULY 28, 2061",
+       "sub": "HALLEY RETURNS",
+       "color": "#2F7BFF"
+      }
+     }
+    },
+    {
+     "speaker": "kid",
+     "say": "I'll watch it. For *Grandpa*.",
+     "shot": {
+      "set": {
+       "type": "sky",
+       "time": "night"
+      },
+      "cast": [
+       {
+        "id": "kid",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "happy",
+        "scale": 1.1,
+        "depth": 0.3
+       }
+      ],
+      "fx": [
+       {
+        "type": "comet"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for a new What if every day.",
+     "end": true
+    }
+   ]
+  }
+ ]
+}

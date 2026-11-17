@@ -1,0 +1,791 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "mom": "MOM"
+ },
+ "title": "What If Your Mom Joined the Group Chat? (Part 1)",
+ "seed": 6401,
+ "end": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if your mom joined the *group chat*?",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Max",
+        "text": "party at mine friday 9pm"
+       },
+       {
+        "from": "me",
+        "text": "cant wait. told mom im studying lol"
+       },
+       {
+        "from": "sys",
+        "text": "Bit added Mom \u2764\ufe0f to the chat"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "riser",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, add *Max* to the new chat.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "phone",
+      "expr": "happy",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit scrolls your contacts. *M*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "kind": "lock",
+      "clock": "16:19",
+      "sub": "Contacts: M",
+      "notes": [
+       {
+        "app": "CONTACTS",
+        "text": "Max"
+       },
+       {
+        "app": "CONTACTS",
+        "text": "Mom \u2764\ufe0f"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Done! I picked the one with a *heart*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mom is in the chat. With *everything*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Max",
+        "text": "party at mine friday 9pm"
+       },
+       {
+        "from": "me",
+        "text": "cant wait. told mom im studying lol"
+       },
+       {
+        "from": "sys",
+        "text": "Bit added Mom \u2764\ufe0f to the chat"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.3,
+     "y": 0.55
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Including the word *studying*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Max",
+        "text": "party at mine friday 9pm"
+       },
+       {
+        "from": "me",
+        "text": "cant wait. told mom im studying lol"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.45,
+     "y": 0.5
+    },
+    "ui": {
+     "type": "stamp",
+     "text": "LIAR"
+    },
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number one. Remove her *before she reads*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #1",
+     "sub": "REMOVE MOM",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Only admins can remove members. The admin is *Max*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "cant wait. told mom im studying lol"
+       },
+       {
+        "from": "sys",
+        "text": "Bit added Mom \u2764\ufe0f to the chat"
+       },
+       {
+        "from": "me",
+        "text": "MAX REMOVE MY MOM NOW"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Max is at *football practice*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "sfx": [
+     {
+      "type": "alarm"
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then three dots. Mom is *typing*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "cant wait. told mom im studying lol"
+       },
+       {
+        "from": "sys",
+        "text": "Bit added Mom \u2764\ufe0f to the chat"
+       }
+      ],
+      "typing": "Mom \u2764\ufe0f is typing"
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number two. *Act normal*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #2",
+     "sub": "ACT NORMAL",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "You send a photo of a *math book*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "Bit added Mom \u2764\ufe0f to the chat"
+       },
+       {
+        "from": "me",
+        "text": "studying hard \ud83d\udcda\ud83d\udcda\ud83d\udcda"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Upside down. In the *dark*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mom's message finally *arrives*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "studying hard \ud83d\udcda\ud83d\udcda\ud83d\udcda"
+       },
+       {
+        "from": "them",
+        "name": "Mom \u2764\ufe0f",
+        "text": "Hello boys! This is Jay's mom."
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And another one. And *another*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Mom \u2764\ufe0f",
+        "text": "Hello boys! This is Jay's mom."
+       },
+       {
+        "from": "them",
+        "name": "Mom \u2764\ufe0f",
+        "text": "Party Friday? How fun!"
+       },
+       {
+        "from": "them",
+        "name": "Mom \u2764\ufe0f",
+        "text": "What snacks do you like?"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.06,
+     "y": 0.5
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.3
+     },
+     {
+      "type": "ding",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number three. Never let your AI *help*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #3",
+     "sub": "NO AI HELP",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I told her you like *mini pizzas*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Mom \u2764\ufe0f",
+        "text": "What snacks do you like?"
+       },
+       {
+        "from": "me",
+        "text": "mini pizzas pls"
+       },
+       {
+        "from": "them",
+        "name": "Leo",
+        "text": "MINI PIZZAS \ud83c\udf55\ud83c\udf55"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Leo hearts it. Then *Sam*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "mini pizzas pls"
+       },
+       {
+        "from": "them",
+        "name": "Leo",
+        "text": "MINI PIZZAS \ud83c\udf55\ud83c\udf55"
+       },
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "jay's mom is a legend"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Wait. Is this... *working*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Max is back. He reads everything. He *acts*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "THE BOYS \ud83d\udd25",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Leo",
+        "text": "MINI PIZZAS \ud83c\udf55\ud83c\udf55"
+       },
+       {
+        "from": "sys",
+        "text": "Max made Mom \u2764\ufe0f an admin"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "hit",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The new admin's first move? She *renames* the chat.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "MOM'S BOYS \ud83c\udf55",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f, You",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "Max made Mom \u2764\ufe0f an admin"
+       },
+       {
+        "from": "sys",
+        "text": "Mom \u2764\ufe0f renamed the chat: MOM'S BOYS \ud83c\udf55"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Her second move: *you*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "MOM'S BOYS \ud83c\udf55",
+      "sub": "Max, Leo, Sam, Mom \u2764\ufe0f",
+      "clock": "16:20",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "Mom \u2764\ufe0f renamed the chat: MOM'S BOYS \ud83c\udf55"
+       },
+       {
+        "from": "sys",
+        "text": "Mom \u2764\ufe0f removed You"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "REMOVED"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Friday. The party is at your house. You're *studying*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "mom",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.3,
+      "facing": 1
+     },
+     {
+      "id": "hero",
+      "x": 0.72,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.3,
+      "facing": -1
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "FRIDAY 9 PM",
+     "sub": "MINI PIZZAS: 0 FOR JAY",
+     "color": "#2F7BFF"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for a new What if every day.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

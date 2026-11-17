@@ -45,6 +45,8 @@ export type Look = {
   hatStyle?: 'cap' | 'santa' | 'elf';
   /** Suit: white shirt V, lapels and a tie in this colour. */
   tie?: string;
+  /** Old-style gas mask over the face (round goggles + filter canister). */
+  mask?: boolean;
 };
 
 export const LOOKS: Record<string, Look> = {
@@ -52,6 +54,10 @@ export const LOOKS: Record<string, Look> = {
   hero: { skin: '#F5C49C', hair: '#3B2416', hairStyle: 'messy', top: '#2F6BFF', pants: '#262A3D', shoes: '#F4F4F4', logo: true },
   friend: { skin: '#C98B5E', hair: '#141414', hairStyle: 'bun', top: '#FF6B4A', pants: '#2E2E38', shoes: '#141414' },
   boss: { skin: '#F0BE96', hair: '#8C8C8C', hairStyle: 'short', top: '#3A3F4F', pants: '#22242E', shoes: '#141414', glasses: true, beard: true },
+  // Jay's mom (comedy Shorts).
+  mom: { skin: '#F2C29A', hair: '#7A4A2A', hairStyle: 'bun', top: '#B05AD9', pants: '#2E2E38', shoes: '#141414', glasses: true },
+  // The mayor in his panic gas mask (comet-tail story).
+  bossMask: { skin: '#F0BE96', hair: '#8C8C8C', hairStyle: 'short', top: '#3A3F4F', pants: '#22242E', shoes: '#141414', beard: true, mask: true },
   kid: { skin: '#FFD3B0', hair: '#E2A23B', hairStyle: 'short', top: '#2DBE7E', pants: '#3A4A8C', shoes: '#F4F4F4' },
   scientist: { skin: '#E8B08A', hair: '#EDEDED', hairStyle: 'messy', top: '#F2F2F2', pants: '#3B3F52', shoes: '#141414', glasses: true },
   zombie: { skin: '#9CC27A', hair: '#2B2B2B', hairStyle: 'messy', top: '#7A6E66', pants: '#3D3A44', shoes: '#2B2B2B', zombie: true },
@@ -351,6 +357,19 @@ export const Human: React.FC<{
         <circle cx={204} cy={186} r={11} fill="#FF8A8A" opacity={look.zombie ? 0 : 0.45} />
         {look.beard && <path d="M 80 180 Q 86 250 150 254 Q 214 250 220 180 Q 196 236 150 234 Q 104 236 80 180 Z" fill={look.hair} stroke={INK} strokeWidth={5} />}
         {mouth}
+        {look.mask && (
+          <g>
+            <line x1={70} y1={150} x2={230} y2={150} stroke="#2E3A2E" strokeWidth={14} />
+            <path d="M 78 170 Q 80 120 150 118 Q 220 120 222 170 Q 226 236 150 262 Q 74 236 78 170 Z" fill="#5E7356" stroke={INK} strokeWidth={6} />
+            <circle cx={114} cy={152} r={30} fill="#CFE8F2" stroke={INK} strokeWidth={8} opacity={0.55} />
+            <circle cx={186} cy={152} r={30} fill="#CFE8F2" stroke={INK} strokeWidth={8} opacity={0.55} />
+            <circle cx={150} cy={232} r={36} fill="#8C9688" stroke={INK} strokeWidth={6} />
+            <circle cx={150} cy={232} r={20} fill="#5A6258" stroke={INK} strokeWidth={4} />
+            {[0, 1, 2].map((k) => (
+              <line key={k} x1={138} y1={224 + k * 8} x2={162} y2={224 + k * 8} stroke={INK} strokeWidth={3} />
+            ))}
+          </g>
+        )}
         {face.sweat && <path d="M 236 108 Q 250 130 242 140 Q 230 140 230 128 Q 230 118 236 108 Z" fill="#8FD3FF" stroke={INK} strokeWidth={4} />}
       </g>
     </g>

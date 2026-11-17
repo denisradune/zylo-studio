@@ -1,0 +1,577 @@
+{
+ "mood": "wonder",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MAYOR DOYLE",
+  "scientist": "GRANDPA EZRA",
+  "kid": "MILO"
+ },
+ "title": "What If Earth Flew Through a Comet's Tail Today? (Part 1)",
+ "seed": 6301,
+ "partLabel": "PART 1/8",
+ "end": {
+  "text": "PART 2",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if Earth flew through a *comet's tail* today?",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "shocked",
+      "scale": 1.1,
+      "depth": 0.3
+     }
+    ],
+    "fx": [
+     {
+      "type": "comet"
+     }
+    ],
+    "camera": {
+     "zoom": 1.15,
+     "y": 0.5,
+     "push": 0.12
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Monday. A new comet lights up the *evening sky*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "dusk"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "comet"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Astronomers call it Comet *Vela*. It's beautiful.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.15,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.38,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "boss",
+      "x": 0.62,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.6
+     },
+     {
+      "id": "scientist",
+      "x": 0.85,
+      "pose": "idle",
+      "expr": "happy",
+      "depth": 0.5
+     }
+    ],
+    "fx": [
+     {
+      "type": "comet",
+      "x": 300,
+      "y": 360,
+      "angle": 330,
+      "length": 760
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then the news finds one small *detail*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "COMET TAIL: TOXIC GAS"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "alarm"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Phones buzz. Every phone. All at *once*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "kind": "lock",
+      "clock": "19:02",
+      "sub": "Friday",
+      "notes": [
+       {
+        "app": "NEWS",
+        "text": "Comet tail has toxic gas?"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "buzz"
+     },
+     {
+      "type": "ding",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The tail contains a poison gas. *Cyanogen*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "And on Friday night, Earth passes *through it*.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [],
+    "fx": [
+     {
+      "type": "comet",
+      "x": 820,
+      "y": 900,
+      "angle": 180,
+      "length": 900
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 5,
+     "to": 4,
+     "suffix": " DAYS",
+     "label": "UNTIL THE TAIL"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "Everybody stay calm! *I* am calm!",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mayor Doyle is wearing a *gas mask*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bossMask",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "CALM?"
+    },
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "boss",
+   "say": "It's my *lucky* gas mask.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bossMask",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, how bad is this? *Honestly*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "think",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Honestly? Earth already did this. In *1910*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "MAY 1910",
+     "sub": "HALLEY'S COMET",
+     "color": "#2F7BFF"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "On May nineteenth, 1910, we flew through Halley's *tail*.",
+   "shot": {
+    "set": {
+     "type": "space"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.0
+     }
+    ],
+    "fx": [
+     {
+      "type": "comet",
+      "x": 700,
+      "y": 700,
+      "angle": 200,
+      "length": 1000
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Scientists found cyanogen in that tail *too*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "REAL: 1910, CYANOGEN"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "neutral",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "And? What *happened*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "The planet *panicked*.",
+   "shot": {
+    "set": {
+     "type": "news",
+     "headline": "1910: PLANET PANICS"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "glitch",
+      "scale": 0.9
+     }
+    ],
+    "sfx": [
+     {
+      "type": "glitch"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "The whole *planet*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "At the door, Grandpa Ezra holds a dusty *box*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "knock"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "scientist",
+   "say": "My grandpa bought these in 1910.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The label says: *comet pills*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "shocked",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "COMET PILLS",
+     "sub": "EST. 1910",
+     "color": "#FF4A3D"
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Real history. And it's about to *repeat*.",
+   "shot": {
+    "set": {
+     "type": "sky",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.1,
+      "depth": 0.3
+     }
+    ],
+    "fx": [
+     {
+      "type": "comet"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for part two.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

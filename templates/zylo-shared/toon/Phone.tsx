@@ -16,7 +16,7 @@ import { INK } from './Character';
  * The LAST message (or note) pops in at the start of the shot, so consecutive shots read as a live chat.
  */
 
-export type PhoneMsg = { from?: 'me' | 'them'; name?: string; text?: string; img?: 'meme' | 'dog' | 'bit' };
+export type PhoneMsg = { from?: 'me' | 'them' | 'sys'; name?: string; text?: string; img?: 'meme' | 'dog' | 'bit' };
 export type PhoneScreen = {
   kind?: 'chat' | 'lock';
   title?: string;
@@ -104,6 +104,23 @@ const Img: React.FC<{ kind: string; w: number; h: number }> = ({ kind, w, h }) =
 };
 
 const Bubble: React.FC<{ m: PhoneMsg; y: number; f: number; live: boolean }> = ({ m, y, f, live }) => {
+  if (m.from === 'sys') {
+    // centred grey system line: "Bit added Mom to the chat"
+    const ls = wrap(m.text ?? '', 30);
+    const bw = Math.min(SW - 80, Math.max(...ls.map((l) => l.length)) * 19 + 60);
+    const bh = ls.length * 40 + 28;
+    const s = live ? pop(f) : 1;
+    return (
+      <g transform={`translate(540 ${y}) scale(${s}) translate(-540 ${-y})`} opacity={live ? Math.min(1, f / 4) : 1}>
+        <rect x={540 - bw / 2} y={y} width={bw} height={bh} rx={bh / 2} fill="#FFF3C4" stroke="#E8D38A" strokeWidth={3} />
+        {ls.map((l, i) => (
+          <text key={i} x={540} y={y + 46 + i * 40} textAnchor="middle" fontFamily="ZyloBody" fontWeight={800} fontSize={30} fill="#6B5A1E">
+            {l}
+          </text>
+        ))}
+      </g>
+    );
+  }
   const me = m.from !== 'them';
   const lines = m.text ? wrap(m.text, 22) : [];
   const imgW = 470;
@@ -138,6 +155,7 @@ const Bubble: React.FC<{ m: PhoneMsg; y: number; f: number; live: boolean }> = (
 };
 
 const bubbleH = (m: PhoneMsg) => {
+  if (m.from === 'sys') return wrap(m.text ?? '', 30).length * 40 + 28;
   const lines = m.text ? wrap(m.text, 22).length : 0;
   return (m.from === 'them' && m.name ? 44 : 0) + (m.img ? 300 : 0) + (m.img && lines ? 16 : 0) + lines * 52 + (m.img ? 24 : 34);
 };
