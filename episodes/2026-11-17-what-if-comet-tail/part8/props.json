@@ -1123,7 +1123,8 @@
    ],
    "fx": [
     {
-     "type": "clouds"
+     "type": "clouds",
+     "y": 330
     }
    ],
    "speaker": "narrator",
@@ -1147,7 +1148,8 @@
    ],
    "fx": [
     {
-     "type": "clouds"
+     "type": "clouds",
+     "y": 330
     }
    ],
    "camera": {
@@ -1178,7 +1180,8 @@
    ],
    "fx": [
     {
-     "type": "clouds"
+     "type": "clouds",
+     "y": 330
     }
    ],
    "camera": {
@@ -1206,7 +1209,8 @@
    ],
    "fx": [
     {
-     "type": "clouds"
+     "type": "clouds",
+     "y": 330
     }
    ],
    "camera": {
@@ -1258,7 +1262,8 @@
    ],
    "fx": [
     {
-     "type": "clouds"
+     "type": "clouds",
+     "y": 330
     }
    ],
    "sfx": [
@@ -1385,7 +1390,8 @@
    ],
    "fx": [
     {
-     "type": "clouds"
+     "type": "clouds",
+     "y": 330
     }
    ],
    "camera": {
