@@ -63,3 +63,5 @@
 | 59 | 2026-11-19 | What If Your AI Was on Every Phone? 🧟 S2 · Part 8 #shorts | what-if: disaster (part8) | sources.md | https://youtube.com/shorts/heOoGikuJpI |
 | 60 | 2026-11-19 | What If Every Toy Was the Only One? 🛒 Part 7 #shorts | what-if: money (part7) | sources.md | https://youtube.com/shorts/GGU4ZdZSIzQ |
 | 61 | 2026-11-19 | What If a Town Copied Wörgl Wrong? 💸 Part 5 #shorts | what-if: money (part5) | sources.md | https://youtube.com/shorts/QffLtMjkUmg |
+| 62 | 2026-11-17 | What If Earth Flew Through a Comet's Tail? ☄️ Part 1 #shorts | what-if: disaster (real history) (part1) | sources.md | https://youtube.com/shorts/hcVFxoBfDgw |
+| 63 | 2026-11-19 | What If Everyone Bought Comet Pills? ☄️ Part 2 #shorts | what-if: disaster (real history) (part2) | sources.md | https://youtube.com/shorts/g8SZ89vjwI0 |
