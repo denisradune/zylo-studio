@@ -65,3 +65,5 @@
 | 61 | 2026-11-19 | What If a Town Copied Wörgl Wrong? 💸 Part 5 #shorts | what-if: money (part5) | sources.md | https://youtube.com/shorts/QffLtMjkUmg |
 | 62 | 2026-11-17 | What If Earth Flew Through a Comet's Tail? ☄️ Part 1 #shorts | what-if: disaster (real history) (part1) | sources.md | https://youtube.com/shorts/hcVFxoBfDgw |
 | 63 | 2026-11-19 | What If Everyone Bought Comet Pills? ☄️ Part 2 #shorts | what-if: disaster (real history) (part2) | sources.md | https://youtube.com/shorts/g8SZ89vjwI0 |
+| 64 | 2026-11-18 | What If You Liked Your Crush's 2019 Photo? 😳 #shorts | what-if: comedy (everyday cringe) (part1) | original fiction | https://youtube.com/shorts/VyDaQabsHyY |
+| 65 | 2026-11-20 | What If the Zombies Came Back? Season 2 (Full Story) | what-if: disaster (full) | sources.md | https://youtu.be/RgcKpcC2S-I |
