@@ -1,0 +1,773 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "title": "What If You Liked Your Crush's 2019 Photo? (Part 1)",
+ "seed": 6501,
+ "end": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if you liked your crush's *2019 photo*?",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "Sam",
+      "sub": "last seen 1:58",
+      "clock": "02:07",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You liked Sam's photo \u00b7 June 2019"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "riser",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Two a.m. You're deep in Sam's *profile*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "02:06"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Scroll. Scroll. 2021. 2020. *Beach, 2019*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "grin",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    },
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Your thumb slips. *Double tap*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "Sam",
+      "sub": "last seen 1:58",
+      "clock": "02:07",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You liked Sam's photo \u00b7 June 2019"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.35,
+     "y": 0.5
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "A little red *heart*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "ui": {
+     "type": "stamp",
+     "text": "LIKED"
+    },
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number one. *Don't unlike it*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #1",
+     "sub": "DON'T UNLIKE",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! Make it *disappear*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Done. I unliked it. And liked it *again*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "Sam",
+      "sub": "last seen 1:58",
+      "clock": "02:07",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You liked Sam's photo \u00b7 June 2019"
+       },
+       {
+        "from": "sys",
+        "text": "You unliked it"
+       },
+       {
+        "from": "sys",
+        "text": "You liked Sam's photo \u00b7 June 2019"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "pop",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "That's *two* notifications.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "kind": "lock",
+      "clock": "02:07",
+      "sub": "Sam's phone",
+      "notes": [
+       {
+        "app": "PHOTOS",
+        "text": "Jay liked your photo from 2019"
+       },
+       {
+        "app": "PHOTOS",
+        "text": "Jay liked your photo from 2019"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number two. *Call backup*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #2",
+     "sub": "CALL BACKUP",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "You text Nia. She's *awake*. Of course.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "NIA \ud83d\udea8",
+      "sub": "online",
+      "clock": "02:07",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "I LIKED SAMS 2019 PHOTO"
+       },
+       {
+        "from": "them",
+        "name": "Nia",
+        "text": "the BEACH one??"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia's advice: act like *a robot did it*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "NIA \ud83d\udea8",
+      "sub": "online",
+      "clock": "02:07",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Nia",
+        "text": "the BEACH one??"
+       },
+       {
+        "from": "them",
+        "name": "Nia",
+        "text": "say your AI did it lol"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Wait. A robot *did* do it.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number three. Never let your AI *help*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #3",
+     "sub": "NO AI HELP",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Smart move. I liked her *other* photos too.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 1,
+     "to": 63,
+     "label": "PHOTOS LIKED"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.2
+     },
+     {
+      "type": "ding",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sixty-three. Back to *2016*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "sfx": [
+     {
+      "type": "alarm"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Sam's dot turns *green*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "02:07",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You liked Sam's photo \u00b7 June 2019"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sam is *typing*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "02:07",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You liked Sam's photo \u00b7 June 2019"
+       }
+      ],
+      "typing": "Sam is typing"
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.1,
+     "y": 0.5
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "You type. You delete. You *type*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "02:07",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You liked Sam's photo \u00b7 June 2019"
+       }
+      ],
+      "draft": "my AI did it i swe"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sam's message *arrives*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "02:07",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You liked Sam's photo \u00b7 June 2019"
+       },
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "why are you up at 2am"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "She's going to block me. *Forever*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 2.1
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then a notification. From *Sam*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "kind": "lock",
+      "clock": "02:09",
+      "sub": "Wednesday",
+      "notes": [
+       {
+        "app": "PHOTOS",
+        "text": "Sam liked your photo from 2014"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "2014. The *bowl haircut*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "02:07",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "why are you up at 2am"
+       },
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "ok now we're even \ud83d\ude02"
+       },
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "coffee tomorrow?"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit takes the *credit*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.3,
+      "expr": "smug",
+      "scale": 1.15
+     },
+     {
+      "id": "hero",
+      "x": 0.72,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.15,
+      "facing": -1
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "COFFEE: 10 AM",
+     "sub": "BIT: \"YOU'RE WELCOME\"",
+     "color": "#2F7BFF"
+    },
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow for a new What if every day.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

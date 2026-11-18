@@ -1,0 +1,2126 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 75.135,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "What",
+   "startMs": 164,
+   "endMs": 364,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 364,
+   "endMs": 434,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 434,
+   "endMs": 544,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "liked",
+   "startMs": 544,
+   "endMs": 784,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 784,
+   "endMs": 954,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "crush's",
+   "startMs": 954,
+   "endMs": 1434,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "2019",
+   "startMs": 1434,
+   "endMs": 2684,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "photo?",
+   "startMs": 2684,
+   "endMs": 3215,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Two",
+   "startMs": 3536,
+   "endMs": 3786,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "a.m.",
+   "startMs": 3786,
+   "endMs": 4603,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "You're",
+   "startMs": 4944,
+   "endMs": 5194,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "deep",
+   "startMs": 5194,
+   "endMs": 5434,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 5434,
+   "endMs": 5664,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Sam's",
+   "startMs": 5664,
+   "endMs": 6114,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "profile.",
+   "startMs": 6114,
+   "endMs": 6800,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Scroll.",
+   "startMs": 7164,
+   "endMs": 7825,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Scroll.",
+   "startMs": 8188,
+   "endMs": 8849,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "2021.",
+   "startMs": 9191,
+   "endMs": 10812,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "2020.",
+   "startMs": 11153,
+   "endMs": 12647,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Beach,",
+   "startMs": 12988,
+   "endMs": 13458,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "2019.",
+   "startMs": 13458,
+   "endMs": 14801,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Your",
+   "startMs": 15104,
+   "endMs": 15394,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "thumb",
+   "startMs": 15394,
+   "endMs": 15754,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "slips.",
+   "startMs": 15754,
+   "endMs": 16320,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Double",
+   "startMs": 16664,
+   "endMs": 17104,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "tap.",
+   "startMs": 17104,
+   "endMs": 17517,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "A",
+   "startMs": 17927,
+   "endMs": 18087,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "little",
+   "startMs": 18087,
+   "endMs": 18337,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "red",
+   "startMs": 18337,
+   "endMs": 18667,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "heart.",
+   "startMs": 18667,
+   "endMs": 19249,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 19571,
+   "endMs": 19961,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 19961,
+   "endMs": 20361,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 20361,
+   "endMs": 20808,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Don't",
+   "startMs": 21171,
+   "endMs": 21451,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "unlike",
+   "startMs": 21451,
+   "endMs": 22001,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 22001,
+   "endMs": 22195,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Bit!",
+   "startMs": 22623,
+   "endMs": 23049,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Make",
+   "startMs": 23351,
+   "endMs": 23501,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 23501,
+   "endMs": 23611,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "disappear!",
+   "startMs": 23611,
+   "endMs": 24268,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Done.",
+   "startMs": 24613,
+   "endMs": 25104,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 25597,
+   "endMs": 25827,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "unliked",
+   "startMs": 25827,
+   "endMs": 26257,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 26257,
+   "endMs": 26643,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 26984,
+   "endMs": 27154,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "liked",
+   "startMs": 27154,
+   "endMs": 27474,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 27474,
+   "endMs": 27544,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "again.",
+   "startMs": 27544,
+   "endMs": 28093,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "That's",
+   "startMs": 28396,
+   "endMs": 28756,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 28756,
+   "endMs": 28966,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "notifications.",
+   "startMs": 28966,
+   "endMs": 29953,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Rule",
+   "startMs": 30320,
+   "endMs": 30750,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 30750,
+   "endMs": 31140,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 31140,
+   "endMs": 31685,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Call",
+   "startMs": 32005,
+   "endMs": 32405,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "backup.",
+   "startMs": 32405,
+   "endMs": 32944,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "You",
+   "startMs": 33372,
+   "endMs": 33592,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "text",
+   "startMs": 33592,
+   "endMs": 34022,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Nia.",
+   "startMs": 34022,
+   "endMs": 34631,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "She's",
+   "startMs": 34972,
+   "endMs": 35342,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "awake.",
+   "startMs": 35342,
+   "endMs": 35847,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Of",
+   "startMs": 36337,
+   "endMs": 36507,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "course.",
+   "startMs": 36507,
+   "endMs": 37127,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Nia's",
+   "startMs": 37448,
+   "endMs": 37828,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "advice:",
+   "startMs": 37828,
+   "endMs": 38418,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "act",
+   "startMs": 38418,
+   "endMs": 38788,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "like",
+   "startMs": 38788,
+   "endMs": 38908,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 38908,
+   "endMs": 39058,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "robot",
+   "startMs": 39058,
+   "endMs": 39498,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "did",
+   "startMs": 39498,
+   "endMs": 39738,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 39738,
+   "endMs": 39901,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Wait.",
+   "startMs": 40159,
+   "endMs": 40628,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "A",
+   "startMs": 40929,
+   "endMs": 41039,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "robot",
+   "startMs": 41039,
+   "endMs": 41469,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "did",
+   "startMs": 41469,
+   "endMs": 41609,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "do",
+   "startMs": 41609,
+   "endMs": 41859,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 41859,
+   "endMs": 41996,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Rule",
+   "startMs": 42363,
+   "endMs": 42793,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 42793,
+   "endMs": 43163,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 43163,
+   "endMs": 43728,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Never",
+   "startMs": 44069,
+   "endMs": 44429,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "let",
+   "startMs": 44429,
+   "endMs": 44619,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 44619,
+   "endMs": 44829,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 44829,
+   "endMs": 45399,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "help.",
+   "startMs": 45399,
+   "endMs": 45840,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Smart",
+   "startMs": 46140,
+   "endMs": 46580,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "move.",
+   "startMs": 46580,
+   "endMs": 47121,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 47444,
+   "endMs": 47594,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "liked",
+   "startMs": 47594,
+   "endMs": 47894,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "her",
+   "startMs": 47894,
+   "endMs": 48054,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "other",
+   "startMs": 48054,
+   "endMs": 48324,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "photos",
+   "startMs": 48324,
+   "endMs": 48784,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "too.",
+   "startMs": 48784,
+   "endMs": 49172,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Sixty-three.",
+   "startMs": 49475,
+   "endMs": 50563,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Back",
+   "startMs": 50925,
+   "endMs": 51205,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 51205,
+   "endMs": 51355,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "2016.",
+   "startMs": 51355,
+   "endMs": 52760,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 53063,
+   "endMs": 53313,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Sam's",
+   "startMs": 53313,
+   "endMs": 53653,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "dot",
+   "startMs": 53653,
+   "endMs": 54033,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "turns",
+   "startMs": 54033,
+   "endMs": 54403,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "green.",
+   "startMs": 54403,
+   "endMs": 54940,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Sam",
+   "startMs": 55283,
+   "endMs": 55663,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 55663,
+   "endMs": 55893,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "typing.",
+   "startMs": 55893,
+   "endMs": 56563,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "You",
+   "startMs": 56905,
+   "endMs": 57195,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "type.",
+   "startMs": 57195,
+   "endMs": 57695,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 58036,
+   "endMs": 58316,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "delete.",
+   "startMs": 58316,
+   "endMs": 58932,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 59273,
+   "endMs": 59563,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "type.",
+   "startMs": 59563,
+   "endMs": 60063,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Sam's",
+   "startMs": 60384,
+   "endMs": 60854,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "message",
+   "startMs": 60854,
+   "endMs": 61374,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "arrives.",
+   "startMs": 61374,
+   "endMs": 62048,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "She's",
+   "startMs": 62348,
+   "endMs": 62488,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "going",
+   "startMs": 62488,
+   "endMs": 62668,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 62668,
+   "endMs": 62778,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "block",
+   "startMs": 62778,
+   "endMs": 63088,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "me.",
+   "startMs": 63088,
+   "endMs": 63479,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "Forever.",
+   "startMs": 63844,
+   "endMs": 64377,
+   "line": 20,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 64744,
+   "endMs": 65044,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 65044,
+   "endMs": 65224,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "notification.",
+   "startMs": 65224,
+   "endMs": 66259,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "From",
+   "startMs": 66621,
+   "endMs": 66911,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "Sam.",
+   "startMs": 66911,
+   "endMs": 67432,
+   "line": 21,
+   "emph": true
+  },
+  {
+   "text": "2014.",
+   "startMs": 67753,
+   "endMs": 69396,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 69737,
+   "endMs": 69907,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "bowl",
+   "startMs": 69907,
+   "endMs": 70327,
+   "line": 22,
+   "emph": true
+  },
+  {
+   "text": "haircut.",
+   "startMs": 70327,
+   "endMs": 70889,
+   "line": 22,
+   "emph": true
+  },
+  {
+   "text": "Bit",
+   "startMs": 71296,
+   "endMs": 71586,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "takes",
+   "startMs": 71586,
+   "endMs": 71966,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 71966,
+   "endMs": 72076,
+   "line": 23,
+   "emph": false
+  },
+  {
+   "text": "credit.",
+   "startMs": 72076,
+   "endMs": 72683,
+   "line": 23,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 73071,
+   "endMs": 73431,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 73431,
+   "endMs": 73661,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 73661,
+   "endMs": 73781,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 73781,
+   "endMs": 74081,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "What",
+   "startMs": 74081,
+   "endMs": 74231,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 74231,
+   "endMs": 74421,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 74421,
+   "endMs": 74711,
+   "line": 24,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 74711,
+   "endMs": 75097,
+   "line": 24,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 3.273
+  },
+  {
+   "speaker": "narrator",
+   "start": 3.493,
+   "end": 6.88
+  },
+  {
+   "speaker": "narrator",
+   "start": 7.1,
+   "end": 14.863
+  },
+  {
+   "speaker": "narrator",
+   "start": 15.083,
+   "end": 17.664
+  },
+  {
+   "speaker": "narrator",
+   "start": 17.884,
+   "end": 19.308
+  },
+  {
+   "speaker": "narrator",
+   "start": 19.528,
+   "end": 22.381
+  },
+  {
+   "speaker": "hero",
+   "start": 22.601,
+   "end": 24.351
+  },
+  {
+   "speaker": "bit",
+   "start": 24.571,
+   "end": 28.155
+  },
+  {
+   "speaker": "narrator",
+   "start": 28.375,
+   "end": 30.057
+  },
+  {
+   "speaker": "narrator",
+   "start": 30.277,
+   "end": 33.109
+  },
+  {
+   "speaker": "narrator",
+   "start": 33.329,
+   "end": 37.185
+  },
+  {
+   "speaker": "narrator",
+   "start": 37.405,
+   "end": 39.939
+  },
+  {
+   "speaker": "hero",
+   "start": 40.159,
+   "end": 42.1
+  },
+  {
+   "speaker": "narrator",
+   "start": 42.32,
+   "end": 45.899
+  },
+  {
+   "speaker": "bit",
+   "start": 46.119,
+   "end": 49.212
+  },
+  {
+   "speaker": "narrator",
+   "start": 49.432,
+   "end": 52.8
+  },
+  {
+   "speaker": "narrator",
+   "start": 53.02,
+   "end": 54.999
+  },
+  {
+   "speaker": "narrator",
+   "start": 55.219,
+   "end": 56.643
+  },
+  {
+   "speaker": "narrator",
+   "start": 56.863,
+   "end": 60.121
+  },
+  {
+   "speaker": "narrator",
+   "start": 60.341,
+   "end": 62.107
+  },
+  {
+   "speaker": "hero",
+   "start": 62.327,
+   "end": 64.481
+  },
+  {
+   "speaker": "narrator",
+   "start": 64.701,
+   "end": 67.491
+  },
+  {
+   "speaker": "narrator",
+   "start": 67.711,
+   "end": 71.033
+  },
+  {
+   "speaker": "narrator",
+   "start": 71.253,
+   "end": 72.765
+  },
+  {
+   "speaker": "narrator",
+   "start": 72.985,
+   "end": 75.135
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "last seen 1:58",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    },
+    {
+     "type": "riser",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 1.716
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "last seen 1:58",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.4,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 1.716,
+   "end": 3.433
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "happy",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "02:06"
+   },
+   "speaker": "narrator",
+   "start": 3.433,
+   "end": 7.04
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 7.04,
+   "end": 11.031
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "grin",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.46,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "sfx": [],
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 11.031,
+   "end": 15.023
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "last seen 1:58",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.35,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 15.023,
+   "end": 17.824
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "ui": {
+    "type": "stamp",
+    "text": "LIKED"
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 17.824,
+   "end": 19.468
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #1",
+    "sub": "DON'T UNLIKE",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 19.468,
+   "end": 22.541
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "panic",
+     "expr": "scared",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "shocked",
+     "scale": 0.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "speaker": "hero",
+   "start": 22.541,
+   "end": 24.511
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "last seen 1:58",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      },
+      {
+       "from": "sys",
+       "text": "You unliked it"
+      },
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    },
+    {
+     "type": "pop",
+     "at": 0.4
+    }
+   ],
+   "speaker": "bit",
+   "start": 24.511,
+   "end": 26.413
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "last seen 1:58",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      },
+      {
+       "from": "sys",
+       "text": "You unliked it"
+      },
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "bit",
+   "start": 26.413,
+   "end": 28.315
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "kind": "lock",
+     "clock": "02:07",
+     "sub": "Sam's phone",
+     "notes": [
+      {
+       "app": "PHOTOS",
+       "text": "Jay liked your photo from 2019"
+      },
+      {
+       "app": "PHOTOS",
+       "text": "Jay liked your photo from 2019"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 28.315,
+   "end": 30.217
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "scared",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #2",
+    "sub": "CALL BACKUP",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 30.217,
+   "end": 33.269
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "NIA \ud83d\udea8",
+     "sub": "online",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "I LIKED SAMS 2019 PHOTO"
+      },
+      {
+       "from": "them",
+       "name": "Nia",
+       "text": "the BEACH one??"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 33.269,
+   "end": 35.307
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "NIA \ud83d\udea8",
+     "sub": "online",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "I LIKED SAMS 2019 PHOTO"
+      },
+      {
+       "from": "them",
+       "name": "Nia",
+       "text": "the BEACH one??"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 35.307,
+   "end": 37.345
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "NIA \ud83d\udea8",
+     "sub": "online",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Nia",
+       "text": "the BEACH one??"
+      },
+      {
+       "from": "them",
+       "name": "Nia",
+       "text": "say your AI did it lol"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 37.345,
+   "end": 40.099
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "happy",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 40.099,
+   "end": 42.26
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #3",
+    "sub": "NO AI HELP",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 42.26,
+   "end": 46.059
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 1,
+    "to": 63,
+    "label": "PHOTOS LIKED"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.2
+    },
+    {
+     "type": "ding",
+     "at": 0.4
+    }
+   ],
+   "speaker": "bit",
+   "start": 46.059,
+   "end": 49.372
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "alarm"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 49.372,
+   "end": 51.166
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 2.0,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.37,
+    "y": 0.55,
+    "shake": 0.6,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 51.166,
+   "end": 52.96
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 52.96,
+   "end": 55.159
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      }
+     ],
+     "typing": "Sam is typing"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 55.159,
+   "end": 56.803
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      }
+     ],
+     "draft": "my AI did it i swe"
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 56.803,
+   "end": 58.542
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      }
+     ],
+     "draft": "my AI did it i swe"
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 58.542,
+   "end": 60.281
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You liked Sam's photo \u00b7 June 2019"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "why are you up at 2am"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 60.281,
+   "end": 62.267
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "scared",
+     "scale": 2.1
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 62.267,
+   "end": 64.641
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "kind": "lock",
+     "clock": "02:09",
+     "sub": "Wednesday",
+     "notes": [
+      {
+       "app": "PHOTOS",
+       "text": "Sam liked your photo from 2014"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 64.641,
+   "end": 66.146
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "kind": "lock",
+     "clock": "02:09",
+     "sub": "Wednesday",
+     "notes": [
+      {
+       "app": "PHOTOS",
+       "text": "Sam liked your photo from 2014"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.37,
+    "y": 0.55,
+    "shake": 0.6,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 66.146,
+   "end": 67.651
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "why are you up at 2am"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "ok now we're even \ud83d\ude02"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "coffee tomorrow?"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 67.651,
+   "end": 69.422
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "02:07",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "why are you up at 2am"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "ok now we're even \ud83d\ude02"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "coffee tomorrow?"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 69.422,
+   "end": 71.193
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.3,
+     "expr": "smug",
+     "scale": 1.15
+    },
+    {
+     "id": "hero",
+     "x": 0.72,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.15,
+     "facing": -1
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "COFFEE: 10 AM",
+    "sub": "BIT: \"YOU'RE WELCOME\"",
+    "color": "#2F7BFF"
+   },
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 71.193,
+   "end": 72.925
+  }
+ ],
+ "endStart": 72.925,
+ "endText": "THE END",
+ "endSub": "Follow for a new What if every day"
+}
