@@ -55,6 +55,7 @@ export const LOOKS: Record<string, Look> = {
   friend: { skin: '#C98B5E', hair: '#141414', hairStyle: 'bun', top: '#FF6B4A', pants: '#2E2E38', shoes: '#141414' },
   boss: { skin: '#F0BE96', hair: '#8C8C8C', hairStyle: 'short', top: '#3A3F4F', pants: '#22242E', shoes: '#141414', glasses: true, beard: true },
   // Jay's mom (comedy Shorts).
+  sam: { skin: '#E8B08A', hair: '#7A4A22', hairStyle: 'long', top: '#E2A23B', pants: '#3A4A8C', shoes: '#F4F4F4' },
   mom: { skin: '#F2C29A', hair: '#7A4A2A', hairStyle: 'bun', top: '#B05AD9', pants: '#2E2E38', shoes: '#141414', glasses: true },
   // The mayor in his panic gas mask (comet-tail story).
   bossMask: { skin: '#F0BE96', hair: '#8C8C8C', hairStyle: 'short', top: '#3A3F4F', pants: '#22242E', shoes: '#141414', beard: true, mask: true },
