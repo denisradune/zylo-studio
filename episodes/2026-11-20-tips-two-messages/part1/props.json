@@ -1,0 +1,1708 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 54.061,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Bit,",
+   "startMs": 100,
+   "endMs": 310,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "why",
+   "startMs": 310,
+   "endMs": 500,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "does",
+   "startMs": 500,
+   "endMs": 600,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 600,
+   "endMs": 800,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 800,
+   "endMs": 1280,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "always",
+   "startMs": 1280,
+   "endMs": 1660,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "sound",
+   "startMs": 1660,
+   "endMs": 1880,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "like",
+   "startMs": 1880,
+   "endMs": 2140,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 2140,
+   "endMs": 2270,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "robot?",
+   "startMs": 2270,
+   "endMs": 2703,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Because",
+   "startMs": 3133,
+   "endMs": 3403,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 3403,
+   "endMs": 3593,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "ask",
+   "startMs": 3593,
+   "endMs": 3923,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "like",
+   "startMs": 3923,
+   "endMs": 4113,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "everyone",
+   "startMs": 4113,
+   "endMs": 4483,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "else.",
+   "startMs": 4483,
+   "endMs": 4904,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Everyone",
+   "startMs": 5164,
+   "endMs": 5604,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "types:",
+   "startMs": 5604,
+   "endMs": 6134,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "write",
+   "startMs": 6134,
+   "endMs": 6324,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "me",
+   "startMs": 6324,
+   "endMs": 6464,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 6464,
+   "endMs": 6544,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "viral",
+   "startMs": 6544,
+   "endMs": 6894,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "video.",
+   "startMs": 6894,
+   "endMs": 7361,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "So",
+   "startMs": 7643,
+   "endMs": 7863,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "everyone",
+   "startMs": 7863,
+   "endMs": 8373,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "gets",
+   "startMs": 8373,
+   "endMs": 8653,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 8653,
+   "endMs": 8753,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "same",
+   "startMs": 8753,
+   "endMs": 9033,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "boring",
+   "startMs": 9033,
+   "endMs": 9343,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "script.",
+   "startMs": 9343,
+   "endMs": 9819,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Okay.",
+   "startMs": 10079,
+   "endMs": 10612,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "So",
+   "startMs": 10935,
+   "endMs": 11045,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "how",
+   "startMs": 11045,
+   "endMs": 11175,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "do",
+   "startMs": 11175,
+   "endMs": 11275,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 11275,
+   "endMs": 11445,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "ask",
+   "startMs": 11445,
+   "endMs": 11675,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "right?",
+   "startMs": 11675,
+   "endMs": 12087,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Two",
+   "startMs": 12475,
+   "endMs": 12725,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "messages.",
+   "startMs": 12725,
+   "endMs": 13456,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Not",
+   "startMs": 13776,
+   "endMs": 14056,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 14056,
+   "endMs": 14565,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Message",
+   "startMs": 14847,
+   "endMs": 15287,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 15287,
+   "endMs": 15785,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Tell",
+   "startMs": 16087,
+   "endMs": 16347,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "me",
+   "startMs": 16347,
+   "endMs": 16447,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 16447,
+   "endMs": 16627,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "topic.",
+   "startMs": 16627,
+   "endMs": 17260,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Ask",
+   "startMs": 17541,
+   "endMs": 17851,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 17851,
+   "endMs": 17961,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "ten",
+   "startMs": 17961,
+   "endMs": 18231,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "problems",
+   "startMs": 18231,
+   "endMs": 18701,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "people",
+   "startMs": 18701,
+   "endMs": 19071,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "really",
+   "startMs": 19071,
+   "endMs": 19371,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "worry",
+   "startMs": 19371,
+   "endMs": 19731,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "about.",
+   "startMs": 19731,
+   "endMs": 20144,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 20407,
+   "endMs": 20587,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 20587,
+   "endMs": 20697,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "each",
+   "startMs": 20697,
+   "endMs": 20967,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "one,",
+   "startMs": 20967,
+   "endMs": 21167,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 21167,
+   "endMs": 21267,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "question",
+   "startMs": 21267,
+   "endMs": 21637,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 21637,
+   "endMs": 21857,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "can't",
+   "startMs": 21857,
+   "endMs": 22097,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "scroll",
+   "startMs": 22097,
+   "endMs": 22447,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "past.",
+   "startMs": 22447,
+   "endMs": 22945,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "Ten",
+   "startMs": 23229,
+   "endMs": 23459,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "questions.",
+   "startMs": 23459,
+   "endMs": 24104,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "So",
+   "startMs": 24405,
+   "endMs": 24515,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 24515,
+   "endMs": 24705,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "make",
+   "startMs": 24705,
+   "endMs": 24765,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "ten",
+   "startMs": 24755,
+   "endMs": 24995,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "videos?",
+   "startMs": 24995,
+   "endMs": 25557,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "No.",
+   "startMs": 25881,
+   "endMs": 26415,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Message",
+   "startMs": 26932,
+   "endMs": 27392,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 27392,
+   "endMs": 27913,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Pick",
+   "startMs": 28195,
+   "endMs": 28445,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 28445,
+   "endMs": 28585,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "strongest",
+   "startMs": 28585,
+   "endMs": 29045,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "question.",
+   "startMs": 29045,
+   "endMs": 29731,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Ask",
+   "startMs": 30011,
+   "endMs": 30341,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 30341,
+   "endMs": 30461,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 30461,
+   "endMs": 30571,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "thirty-second",
+   "startMs": 30571,
+   "endMs": 31231,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "script.",
+   "startMs": 31231,
+   "endMs": 31803,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "First",
+   "startMs": 32087,
+   "endMs": 32427,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "line",
+   "startMs": 32427,
+   "endMs": 32767,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "hooks.",
+   "startMs": 32767,
+   "endMs": 33260,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 33540,
+   "endMs": 33860,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "simple",
+   "startMs": 33860,
+   "endMs": 34190,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "words.",
+   "startMs": 34190,
+   "endMs": 34756,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 35079,
+   "endMs": 35259,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 35259,
+   "endMs": 35359,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "question",
+   "startMs": 35359,
+   "endMs": 35859,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 35859,
+   "endMs": 35969,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 35969,
+   "endMs": 36059,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "comments.",
+   "startMs": 36059,
+   "endMs": 36636,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Script's",
+   "startMs": 36941,
+   "endMs": 37241,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "ready.",
+   "startMs": 37241,
+   "endMs": 37709,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Can",
+   "startMs": 38029,
+   "endMs": 38139,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 38139,
+   "endMs": 38289,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "post",
+   "startMs": 38289,
+   "endMs": 38569,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "it?",
+   "startMs": 38569,
+   "endMs": 38819,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Not",
+   "startMs": 39164,
+   "endMs": 39454,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "yet.",
+   "startMs": 39454,
+   "endMs": 39975,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "First",
+   "startMs": 40319,
+   "endMs": 40619,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "check:",
+   "startMs": 40619,
+   "endMs": 41019,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "do",
+   "startMs": 41019,
+   "endMs": 41199,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "videos",
+   "startMs": 41199,
+   "endMs": 41599,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 41599,
+   "endMs": 41719,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "this",
+   "startMs": 41719,
+   "endMs": 41889,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "question",
+   "startMs": 41889,
+   "endMs": 42309,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "already",
+   "startMs": 42309,
+   "endMs": 42669,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "get",
+   "startMs": 42669,
+   "endMs": 42839,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "views?",
+   "startMs": 42839,
+   "endMs": 43348,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 43589,
+   "endMs": 43709,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 43709,
+   "endMs": 43799,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "nobody",
+   "startMs": 43799,
+   "endMs": 44169,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "made",
+   "startMs": 44169,
+   "endMs": 44349,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "one?",
+   "startMs": 44349,
+   "endMs": 44677,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 45023,
+   "endMs": 45313,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "take",
+   "startMs": 45313,
+   "endMs": 45573,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 45573,
+   "endMs": 45673,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "next",
+   "startMs": 45673,
+   "endMs": 45953,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "question.",
+   "startMs": 45953,
+   "endMs": 46559,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 46881,
+   "endMs": 47091,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "still",
+   "startMs": 47091,
+   "endMs": 47321,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 47321,
+   "endMs": 47511,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "nine.",
+   "startMs": 47511,
+   "endMs": 48033,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "All",
+   "startMs": 48315,
+   "endMs": 48455,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "that",
+   "startMs": 48455,
+   "endMs": 48645,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 48645,
+   "endMs": 48775,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 48775,
+   "endMs": 48985,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "video?",
+   "startMs": 48985,
+   "endMs": 49488,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "For",
+   "startMs": 49812,
+   "endMs": 49972,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 49972,
+   "endMs": 50232,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "video",
+   "startMs": 50232,
+   "endMs": 50542,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "people",
+   "startMs": 50542,
+   "endMs": 50972,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "actually",
+   "startMs": 50972,
+   "endMs": 51432,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "watch.",
+   "startMs": 51432,
+   "endMs": 51881,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 52165,
+   "endMs": 52565,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 52565,
+   "endMs": 52725,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 52725,
+   "endMs": 52955,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 52955,
+   "endMs": 53355,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "trick",
+   "startMs": 53355,
+   "endMs": 53575,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 53575,
+   "endMs": 53645,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 53645,
+   "endMs": 54000,
+   "line": 19,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "hero",
+   "start": 0.1,
+   "end": 2.913
+  },
+  {
+   "speaker": "bit",
+   "start": 3.133,
+   "end": 4.944
+  },
+  {
+   "speaker": "bit",
+   "start": 5.164,
+   "end": 7.423
+  },
+  {
+   "speaker": "bit",
+   "start": 7.643,
+   "end": 9.859
+  },
+  {
+   "speaker": "hero",
+   "start": 10.079,
+   "end": 12.212
+  },
+  {
+   "speaker": "bit",
+   "start": 12.432,
+   "end": 14.627
+  },
+  {
+   "speaker": "bit",
+   "start": 14.847,
+   "end": 17.321
+  },
+  {
+   "speaker": "bit",
+   "start": 17.541,
+   "end": 20.187
+  },
+  {
+   "speaker": "bit",
+   "start": 20.407,
+   "end": 22.988
+  },
+  {
+   "speaker": "hero",
+   "start": 23.208,
+   "end": 25.64
+  },
+  {
+   "speaker": "bit",
+   "start": 25.86,
+   "end": 27.975
+  },
+  {
+   "speaker": "bit",
+   "start": 28.195,
+   "end": 31.845
+  },
+  {
+   "speaker": "bit",
+   "start": 32.065,
+   "end": 36.679
+  },
+  {
+   "speaker": "hero",
+   "start": 36.899,
+   "end": 38.923
+  },
+  {
+   "speaker": "bit",
+   "start": 39.143,
+   "end": 43.369
+  },
+  {
+   "speaker": "hero",
+   "start": 43.589,
+   "end": 44.803
+  },
+  {
+   "speaker": "bit",
+   "start": 45.023,
+   "end": 48.095
+  },
+  {
+   "speaker": "hero",
+   "start": 48.315,
+   "end": 49.571
+  },
+  {
+   "speaker": "bit",
+   "start": 49.791,
+   "end": 51.924
+  },
+  {
+   "speaker": "bit",
+   "start": 52.144,
+   "end": 54.061
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser"
+    }
+   ],
+   "speaker": "hero",
+   "start": 0.0,
+   "end": 1.536
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "hero",
+   "start": 1.536,
+   "end": 3.073
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "prompts",
+    "text": "write me a viral video",
+    "n": 3
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 3.073,
+   "end": 5.104
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "prompts",
+    "text": "write me a viral video",
+    "n": 3
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 5.104,
+   "end": 7.583
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "write me a viral video",
+    "reply": 4
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "bit",
+   "start": 7.583,
+   "end": 10.019
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "neutral",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 10.019,
+   "end": 12.372
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "2 MESSAGES",
+    "sub": "not one"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 12.372,
+   "end": 14.787
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 1,
+    "text": "Here's my topic: home workouts."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 14.787,
+   "end": 17.481
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "Here's my topic: home workouts. Find 10 problems people worry about. For each one, write a sharp question."
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 17.481,
+   "end": 20.347
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "cards",
+    "n": 10,
+    "mark": "?"
+   },
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "bit",
+   "start": 20.347,
+   "end": 23.148
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "shocked",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 23.148,
+   "end": 25.8
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "shocked",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 2
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 25.8,
+   "end": 28.135
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "cards",
+    "n": 10,
+    "mark": "?",
+    "pick": 3
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 28.135,
+   "end": 32.005
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "slots",
+    "title": "30-SECOND SCRIPT",
+    "items": [
+     {
+      "icon": "hook",
+      "label": "HOOK"
+     },
+     {
+      "icon": "lines",
+      "label": "SIMPLE"
+     },
+     {
+      "icon": "question",
+      "label": "QUESTION"
+     }
+    ]
+   },
+   "speaker": "bit",
+   "start": 32.005,
+   "end": 36.839
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "happy",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 36.839,
+   "end": 39.083
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "videos",
+    "title": "VIDEOS ON THIS QUESTION",
+    "items": [
+     {
+      "views": "2.8M",
+      "ok": true
+     },
+     {
+      "views": "940K",
+      "ok": true
+     },
+     {
+      "views": "3.1M",
+      "ok": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.3
+    }
+   ],
+   "speaker": "bit",
+   "start": 39.083,
+   "end": 43.529
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "neutral",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 43.529,
+   "end": 44.963
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "cards",
+    "n": 10,
+    "mark": "?",
+    "pick": 4
+   },
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "bit",
+   "start": 44.963,
+   "end": 48.255
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 48.255,
+   "end": 49.731
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "happy",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "list",
+    "title": "THE TRICK",
+    "items": [
+     "Topic + 10 problems",
+     "Best question = script",
+     "Check it gets views"
+    ]
+   },
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "bit",
+   "start": 49.731,
+   "end": 52.084
+  }
+ ],
+ "endStart": 52.084,
+ "endText": "1 AI TRICK A DAY",
+ "endSub": "Follow so you don't miss tomorrow's",
+ "look": "tips"
+}

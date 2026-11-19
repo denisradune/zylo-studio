@@ -1,0 +1,578 @@
+{
+ "mood": "tech",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "look": "tips",
+ "title": "Why Does Your AI Sound Like a Robot? (Part 1)",
+ "seed": 6801,
+ "end": {
+  "text": "1 AI TRICK A DAY",
+  "sub": "Follow so you don't miss tomorrow's"
+ },
+ "lines": [
+  {
+   "speaker": "hero",
+   "say": "Bit, why does my AI always sound like a *robot*?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Because you ask like everyone *else*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "neutral",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "prompts",
+     "text": "write me a viral video",
+     "n": 3
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Everyone types: write me a viral video.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "prompts",
+     "text": "write me a viral video",
+     "n": 3
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "So everyone gets the *same* boring script.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "chat",
+     "from": "hero",
+     "text": "write me a viral video",
+     "reply": 4
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Okay. So how do I ask *right*?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Two messages. Not *one*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "neutral",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "title",
+     "text": "2 MESSAGES",
+     "sub": "not one"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Message one. Tell me your *topic*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "step",
+     "n": 1,
+     "text": "Here's my topic: home workouts."
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Ask for ten problems people really *worry about*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "chat",
+     "from": "hero",
+     "text": "Here's my topic: home workouts. Find 10 problems people worry about. For each one, write a sharp question."
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "And for each one, a question you can't *scroll past*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "cards",
+     "n": 10,
+     "mark": "?"
+    },
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Ten questions. So I make ten *videos*?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "shocked",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "No. Message *two*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "shocked",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "step",
+     "n": 2
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Pick the strongest question. Ask for a thirty-second *script*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "cards",
+     "n": 10,
+     "mark": "?",
+     "pick": 3
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "First line *hooks*. Then simple words. Then a question for the *comments*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "slots",
+     "title": "30-SECOND SCRIPT",
+     "items": [
+      {
+       "icon": "hook",
+       "label": "HOOK"
+      },
+      {
+       "icon": "lines",
+       "label": "SIMPLE"
+      },
+      {
+       "icon": "question",
+       "label": "QUESTION"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Script's ready. Can I post it?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "happy",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Not yet. First check: do videos on this question already get *views*?",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "neutral",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "videos",
+     "title": "VIDEOS ON THIS QUESTION",
+     "items": [
+      {
+       "views": "2.8M",
+       "ok": true
+      },
+      {
+       "views": "940K",
+       "ok": true
+      },
+      {
+       "views": "3.1M",
+       "ok": true
+      }
+     ]
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "And if nobody made one?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Then take the *next* question. You still have nine.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "cards",
+     "n": 10,
+     "mark": "?",
+     "pick": 4
+    },
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "All that for *one* video?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "For one video people actually *watch*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "happy",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "list",
+     "title": "THE TRICK",
+     "items": [
+      "Topic + 10 problems",
+      "Best question = script",
+      "Check it gets views"
+     ]
+    },
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Follow for one AI trick a day.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
