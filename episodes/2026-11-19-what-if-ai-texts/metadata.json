@@ -16,7 +16,8 @@
   "categoryId": "23",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-19T14:00:00Z"
  },
  "part2": {
   "title": "What If Your AI Texted Your Boss? 📱 Part 2 #shorts",
@@ -35,7 +36,8 @@
   "categoryId": "23",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-21T14:00:00Z"
  },
  "part3": {
   "title": "What If Your AI Texted Your Crush? 📱 Part 3 #shorts",
@@ -54,7 +56,8 @@
   "categoryId": "23",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-23T14:00:00Z"
  },
  "part4": {
   "title": "What If Your AI Texted Your Mom? 📱 Part 4 #shorts",
@@ -73,7 +76,8 @@
   "categoryId": "23",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-25T14:00:00Z"
  },
  "part5": {
   "title": "What If Your Crush Joined the Family Chat? 📱 Part 5 #shorts",
@@ -92,7 +96,8 @@
   "categoryId": "23",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-27T14:00:00Z"
  },
  "part6": {
   "title": "What If You Never Sent Your Drafts? 📱 Part 6 #shorts",
@@ -111,7 +116,8 @@
   "categoryId": "23",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-11-29T14:00:00Z"
  },
  "part7": {
   "title": "What If You Factory Reset Your AI? 📱 Part 7 #shorts",
@@ -130,7 +136,8 @@
   "categoryId": "23",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-12-01T14:00:00Z"
  },
  "part8": {
   "title": "What If Your AI Was Right All Along? 📱 Part 8 #shorts",
@@ -149,7 +156,8 @@
   "categoryId": "23",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-12-03T14:00:00Z"
  },
  "full": {
   "title": "What If Your AI Texted for You for a Week? (Full Story)",
@@ -166,6 +174,7 @@
   "categoryId": "23",
   "privacy": "public",
   "madeForKids": false,
-  "syntheticMedia": false
+  "syntheticMedia": false,
+  "publishAt": "2026-12-04T19:00:00Z"
  }
 }

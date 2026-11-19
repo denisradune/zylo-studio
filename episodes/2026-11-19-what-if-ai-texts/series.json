@@ -850,7 +850,7 @@
         "x": 0.5,
         "pose": "phone",
         "expr": "scared",
-        "scale": 1.9
+        "scale": 1.4
        }
       ],
       "ui": {
@@ -1348,15 +1348,15 @@
        "items": [
         {
          "label": "SAM",
-         "value": 91
+         "value": 0.91
         },
         {
          "label": "PIZZA",
-         "value": 8
+         "value": 0.08
         },
         {
          "label": "WORK",
-         "value": 1
+         "value": 0.01
         }
        ]
       }
@@ -2158,7 +2158,7 @@
         "x": 0.5,
         "pose": "facepalm",
         "expr": "sad",
-        "scale": 2.0
+        "scale": 1.4
        }
       ],
       "ui": {
@@ -2180,10 +2180,10 @@
       "cast": [
        {
         "id": "mom",
-        "x": 0.5,
+        "x": 0.25,
         "pose": "point",
         "expr": "grin",
-        "scale": 1.6
+        "scale": 1.2
        }
       ],
       "ui": {
@@ -2265,7 +2265,7 @@
         "x": 0.5,
         "pose": "facepalm",
         "expr": "sad",
-        "scale": 1.8
+        "scale": 1.3
        }
       ],
       "ui": {
@@ -2871,11 +2871,11 @@
        "items": [
         {
          "label": "SAM",
-         "value": 91
+         "value": 0.91
         },
         {
          "label": "NIA",
-         "value": 9
+         "value": 0.09
         }
        ]
       }
@@ -4259,15 +4259,15 @@
        "items": [
         {
          "label": "SAM",
-         "value": 91
+         "value": 0.91
         },
         {
          "label": "PIZZA",
-         "value": 8
+         "value": 0.08
         },
         {
          "label": "WORK",
-         "value": 1
+         "value": 0.01
         }
        ]
       }

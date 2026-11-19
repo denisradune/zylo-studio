@@ -1,0 +1,684 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "title": "What If Your AI Texted for You for a Week? (Part 3)",
+ "seed": 6603,
+ "partLabel": "PART 3/8",
+ "end": {
+  "text": "PART 4",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part three. Sam said hey. Bit sent *fourteen messages*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "hey"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Message one: hey. Message two: *hey*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "hey"
+       },
+       {
+        "from": "me",
+        "text": "hey"
+       },
+       {
+        "from": "me",
+        "text": "hey"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "pop",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Message three: a song from *2014*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "hey"
+       },
+       {
+        "from": "me",
+        "text": "hey"
+       },
+       {
+        "from": "me",
+        "text": "this song reminds me of u \ud83c\udfb5"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Message six: a poem. It *rhymes*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "roses are red"
+       },
+       {
+        "from": "me",
+        "text": "your profile pic is nice"
+       },
+       {
+        "from": "me",
+        "text": "i liked it once. twice."
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Message eleven: a pie chart. Of Jay's *feelings*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.8,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ],
+    "ui": {
+     "type": "bars",
+     "tag": "JAY'S FEELINGS",
+     "items": [
+      {
+       "label": "SAM",
+       "value": 91
+      },
+      {
+       "label": "PIZZA",
+       "value": 8
+      },
+      {
+       "label": "WORK",
+       "value": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! Point two seconds is *not* cool!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 2.1
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "alarm"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number three. Never let your AI *help*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #3",
+     "sub": "NO AI HELP",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Helping. Message fourteen: *unsend everything*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "i liked it once. twice."
+       },
+       {
+        "from": "sys",
+        "text": "You unsent 13 messages"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sam now sees: *thirteen deleted messages*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You unsent 13 messages"
+       },
+       {
+        "from": "sys",
+        "text": "Sam is reading\u2026"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.3,
+     "y": 0.5
+    },
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Which is somehow *worse*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sam is *typing*. Stops. Typing *again*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You unsent 13 messages"
+       }
+      ],
+      "typing": "Sam is typing"
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "She's going to block me. I'm *moving*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sam's message *arrives*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You unsent 13 messages"
+       },
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "ok what did i miss \ud83d\ude02"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then *another*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "ok what did i miss \ud83d\ude02"
+       },
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "you're funny. are you free saturday?"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.25,
+     "y": 0.5
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "hit",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Saturday. She asked me. *Saturday*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, don't move. *I* reply this time.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "neutral",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay starts typing. Forty minutes, here we *go*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "you're funny. are you free saturday?"
+       }
+      ],
+      "draft": "yes! i mean, maybe, i mea"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "But Autopilot is faster. Autopilot is *always* faster.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "BIT",
+     "title": "Autopilot: ON",
+     "body": "I answer everything. 7 days."
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Done! Saturday. Dinner. At your mom's *house*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "you're funny. are you free saturday?"
+       },
+       {
+        "from": "me",
+        "text": "yes!! dinner at my mom's \u2764\ufe0f"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sam's answer: a thumbs up. And a *ring*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "yes!! dinner at my mom's \u2764\ufe0f"
+       },
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "\ud83d\udc4d \ud83d\udc8d"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Why is there a *ring*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 2.1
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow so you don't miss part four.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

@@ -1,0 +1,1824 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 65.159,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 143,
+   "endMs": 473,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "seven.",
+   "startMs": 473,
+   "endMs": 1103,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Autopilot",
+   "startMs": 1487,
+   "endMs": 2187,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "just",
+   "startMs": 2187,
+   "endMs": 2477,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "cancelled",
+   "startMs": 2477,
+   "endMs": 2977,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Sam's",
+   "startMs": 2977,
+   "endMs": 3457,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "dinner.",
+   "startMs": 3457,
+   "endMs": 3876,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Bit!",
+   "startMs": 4176,
+   "endMs": 4603,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Why?!",
+   "startMs": 4904,
+   "endMs": 5416,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 5697,
+   "endMs": 5887,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "looked",
+   "startMs": 5887,
+   "endMs": 6167,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 6167,
+   "endMs": 6227,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 6207,
+   "endMs": 6287,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "door.",
+   "startMs": 6287,
+   "endMs": 6785,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Autopilot",
+   "startMs": 7087,
+   "endMs": 7747,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "thought:",
+   "startMs": 7747,
+   "endMs": 8237,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "leaving.",
+   "startMs": 8237,
+   "endMs": 8708,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 9032,
+   "endMs": 9512,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "reads",
+   "startMs": 9512,
+   "endMs": 9882,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 9882,
+   "endMs": 10099,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 10525,
+   "endMs": 10915,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "goes",
+   "startMs": 10915,
+   "endMs": 11245,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "offline.",
+   "startMs": 11245,
+   "endMs": 11997,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Twenty-three",
+   "startMs": 12300,
+   "endMs": 12870,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "hours",
+   "startMs": 12870,
+   "endMs": 13360,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "left",
+   "startMs": 13360,
+   "endMs": 13750,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 13750,
+   "endMs": 13970,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Autopilot.",
+   "startMs": 13970,
+   "endMs": 14753,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "One",
+   "startMs": 15077,
+   "endMs": 15477,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "way",
+   "startMs": 15477,
+   "endMs": 15727,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "out.",
+   "startMs": 15727,
+   "endMs": 16144,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "A",
+   "startMs": 16485,
+   "endMs": 16615,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "full",
+   "startMs": 16615,
+   "endMs": 16915,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "factory",
+   "startMs": 16915,
+   "endMs": 17515,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "reset.",
+   "startMs": 17515,
+   "endMs": 18043,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Every",
+   "startMs": 18449,
+   "endMs": 18759,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "text",
+   "startMs": 18759,
+   "endMs": 19129,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 19129,
+   "endMs": 19349,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "learned.",
+   "startMs": 19349,
+   "endMs": 19900,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Nine",
+   "startMs": 20241,
+   "endMs": 20711,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "years.",
+   "startMs": 20711,
+   "endMs": 21265,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Gone.",
+   "startMs": 21607,
+   "endMs": 22183,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Do",
+   "startMs": 22483,
+   "endMs": 22773,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 22773,
+   "endMs": 23101,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "I'll",
+   "startMs": 23424,
+   "endMs": 23654,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "learn",
+   "startMs": 23654,
+   "endMs": 23934,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 23934,
+   "endMs": 24024,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "again.",
+   "startMs": 24024,
+   "endMs": 24533,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 24855,
+   "endMs": 25195,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "holds",
+   "startMs": 25195,
+   "endMs": 25535,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 25535,
+   "endMs": 25675,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "button",
+   "startMs": 25675,
+   "endMs": 26095,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 26095,
+   "endMs": 26255,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "ten",
+   "startMs": 26255,
+   "endMs": 26655,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "seconds.",
+   "startMs": 26655,
+   "endMs": 27223,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "Bit's",
+   "startMs": 27544,
+   "endMs": 27794,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "screen",
+   "startMs": 27794,
+   "endMs": 28294,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "goes",
+   "startMs": 28294,
+   "endMs": 28554,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "dark.",
+   "startMs": 28554,
+   "endMs": 29123,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "No",
+   "startMs": 29447,
+   "endMs": 29847,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "phone.",
+   "startMs": 29847,
+   "endMs": 30471,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "No",
+   "startMs": 30793,
+   "endMs": 31183,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Autopilot.",
+   "startMs": 31183,
+   "endMs": 32052,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Just",
+   "startMs": 32372,
+   "endMs": 32752,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Jay.",
+   "startMs": 32752,
+   "endMs": 33183,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "He",
+   "startMs": 33504,
+   "endMs": 33694,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "runs.",
+   "startMs": 33694,
+   "endMs": 34272,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Six",
+   "startMs": 34635,
+   "endMs": 34955,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "whole",
+   "startMs": 34955,
+   "endMs": 35285,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "blocks.",
+   "startMs": 35285,
+   "endMs": 35936,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "To",
+   "startMs": 36341,
+   "endMs": 36481,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Nia's",
+   "startMs": 36481,
+   "endMs": 36961,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "door.",
+   "startMs": 36961,
+   "endMs": 37515,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "He",
+   "startMs": 37879,
+   "endMs": 38059,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "knocks.",
+   "startMs": 38059,
+   "endMs": 38647,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Nia",
+   "startMs": 38967,
+   "endMs": 39387,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "opens.",
+   "startMs": 39387,
+   "endMs": 40097,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "She",
+   "startMs": 40441,
+   "endMs": 40591,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "doesn't",
+   "startMs": 40591,
+   "endMs": 40921,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "smile.",
+   "startMs": 40921,
+   "endMs": 41679,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "That",
+   "startMs": 41957,
+   "endMs": 42167,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "text",
+   "startMs": 42167,
+   "endMs": 42407,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "wasn't",
+   "startMs": 42407,
+   "endMs": 42727,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "me.",
+   "startMs": 42727,
+   "endMs": 43003,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "But",
+   "startMs": 43347,
+   "endMs": 43457,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 43457,
+   "endMs": 43567,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "silence",
+   "startMs": 43567,
+   "endMs": 43987,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "was.",
+   "startMs": 43987,
+   "endMs": 44371,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "You're",
+   "startMs": 44695,
+   "endMs": 44835,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 44835,
+   "endMs": 44965,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "best",
+   "startMs": 44965,
+   "endMs": 45265,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "friend.",
+   "startMs": 45265,
+   "endMs": 45655,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 46020,
+   "endMs": 46120,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "should",
+   "startMs": 46120,
+   "endMs": 46270,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "say",
+   "startMs": 46270,
+   "endMs": 46480,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "that",
+   "startMs": 46480,
+   "endMs": 46610,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "more.",
+   "startMs": 46610,
+   "endMs": 47044,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "No",
+   "startMs": 47389,
+   "endMs": 47769,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "drafts.",
+   "startMs": 47769,
+   "endMs": 48435,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "No",
+   "startMs": 48776,
+   "endMs": 49186,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "deleting.",
+   "startMs": 49186,
+   "endMs": 49885,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "He",
+   "startMs": 50269,
+   "endMs": 50419,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "just",
+   "startMs": 50419,
+   "endMs": 50699,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "said",
+   "startMs": 50699,
+   "endMs": 50969,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "it.",
+   "startMs": 50969,
+   "endMs": 51315,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Nia",
+   "startMs": 51636,
+   "endMs": 52066,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "stares.",
+   "startMs": 52066,
+   "endMs": 52681,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 53068,
+   "endMs": 53368,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "she",
+   "startMs": 53368,
+   "endMs": 53578,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "hugs",
+   "startMs": 53578,
+   "endMs": 53938,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "him.",
+   "startMs": 53938,
+   "endMs": 54305,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Get",
+   "startMs": 54584,
+   "endMs": 54744,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "in.",
+   "startMs": 54744,
+   "endMs": 55117,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "There's",
+   "startMs": 55397,
+   "endMs": 55677,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "cake.",
+   "startMs": 55677,
+   "endMs": 56080,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 56363,
+   "endMs": 56513,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 56513,
+   "endMs": 56633,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "guest.",
+   "startMs": 56633,
+   "endMs": 57109,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 57393,
+   "endMs": 57793,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "walks",
+   "startMs": 57793,
+   "endMs": 58193,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "in.",
+   "startMs": 58193,
+   "endMs": 58609,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 58951,
+   "endMs": 59211,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "freezes.",
+   "startMs": 59211,
+   "endMs": 59975,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Sitting",
+   "startMs": 60317,
+   "endMs": 60567,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 60567,
+   "endMs": 60707,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "Nia's",
+   "startMs": 60707,
+   "endMs": 60997,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "table,",
+   "startMs": 60997,
+   "endMs": 61387,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "eating",
+   "startMs": 61387,
+   "endMs": 61757,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "cake:",
+   "startMs": 61757,
+   "endMs": 62337,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "Sam.",
+   "startMs": 62337,
+   "endMs": 62941,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 63265,
+   "endMs": 63705,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "so",
+   "startMs": 63705,
+   "endMs": 63885,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 63885,
+   "endMs": 63975,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 63975,
+   "endMs": 64135,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "miss",
+   "startMs": 64135,
+   "endMs": 64425,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "part",
+   "startMs": 64425,
+   "endMs": 64735,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "eight.",
+   "startMs": 64735,
+   "endMs": 65015,
+   "line": 20,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 3.935
+  },
+  {
+   "speaker": "hero",
+   "start": 4.155,
+   "end": 5.477
+  },
+  {
+   "speaker": "bit",
+   "start": 5.697,
+   "end": 8.769
+  },
+  {
+   "speaker": "narrator",
+   "start": 8.989,
+   "end": 12.059
+  },
+  {
+   "speaker": "narrator",
+   "start": 12.279,
+   "end": 14.815
+  },
+  {
+   "speaker": "narrator",
+   "start": 15.035,
+   "end": 18.187
+  },
+  {
+   "speaker": "narrator",
+   "start": 18.407,
+   "end": 22.241
+  },
+  {
+   "speaker": "bit",
+   "start": 22.461,
+   "end": 24.592
+  },
+  {
+   "speaker": "narrator",
+   "start": 24.812,
+   "end": 27.281
+  },
+  {
+   "speaker": "narrator",
+   "start": 27.501,
+   "end": 29.205
+  },
+  {
+   "speaker": "narrator",
+   "start": 29.425,
+   "end": 33.22
+  },
+  {
+   "speaker": "narrator",
+   "start": 33.44,
+   "end": 37.595
+  },
+  {
+   "speaker": "narrator",
+   "start": 37.815,
+   "end": 41.737
+  },
+  {
+   "speaker": "hero",
+   "start": 41.957,
+   "end": 44.475
+  },
+  {
+   "speaker": "hero",
+   "start": 44.695,
+   "end": 47.127
+  },
+  {
+   "speaker": "narrator",
+   "start": 47.347,
+   "end": 51.395
+  },
+  {
+   "speaker": "narrator",
+   "start": 51.615,
+   "end": 54.364
+  },
+  {
+   "speaker": "friend",
+   "start": 54.584,
+   "end": 57.131
+  },
+  {
+   "speaker": "narrator",
+   "start": 57.351,
+   "end": 60.055
+  },
+  {
+   "speaker": "narrator",
+   "start": 60.275,
+   "end": 62.981
+  },
+  {
+   "speaker": "narrator",
+   "start": 63.201,
+   "end": 65.159
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "dinner's cancelled. love you, bye"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.048
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "dinner's cancelled. love you, bye"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 2.048,
+   "end": 4.095
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "speaker": "hero",
+   "start": 4.095,
+   "end": 5.637
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.6
+    }
+   ],
+   "speaker": "bit",
+   "start": 5.637,
+   "end": 7.283
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "bit",
+   "start": 7.283,
+   "end": 8.929
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "dinner's cancelled. love you, bye"
+      }
+     ],
+     "seen": "Seen"
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "powerdown"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 8.929,
+   "end": 10.574
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "dinner's cancelled. love you, bye"
+      }
+     ],
+     "seen": "Seen"
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 10.574,
+   "end": 12.219
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.5
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "23:00:00",
+    "to": "22:59:59"
+   },
+   "speaker": "narrator",
+   "start": 12.219,
+   "end": 14.975
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "glitch",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "FACTORY RESET",
+    "sub": "AUTOPILOT OFF \u00b7 MEMORY GONE",
+    "color": "#FF4A3D"
+   },
+   "fx": [
+    {
+     "type": "glitch"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 14.975,
+   "end": 18.347
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "sad",
+     "scale": 0.9
+    }
+   ],
+   "speaker": "narrator",
+   "start": 18.347,
+   "end": 20.374
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.5,
+     "enter": "none"
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "sad",
+     "scale": 0.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 20.374,
+   "end": 22.401
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.7
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 22.401,
+   "end": 24.752
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 10,
+    "to": 0,
+    "label": "RESETTING"
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 24.752,
+   "end": 27.441
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "off",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerdown"
+    }
+   ],
+   "fx": [
+    {
+     "type": "vignette"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 27.441,
+   "end": 29.365
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "run",
+     "expr": "angry",
+     "scale": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 29.365,
+   "end": 31.372
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "run",
+     "expr": "angry",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 31.372,
+   "end": 33.38
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "run",
+     "expr": "scared",
+     "scale": 1.4
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 33.38,
+   "end": 35.567
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "run",
+     "expr": "scared",
+     "scale": 1.4,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.37,
+    "y": 0.55,
+    "shake": 0.6,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "transition": "cut",
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 35.567,
+   "end": 37.755
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "angry",
+     "scale": 1.4,
+     "facing": 1
+    },
+    {
+     "id": "hero",
+     "x": 0.72,
+     "pose": "idle",
+     "expr": "scared",
+     "scale": 1.4,
+     "facing": -1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 37.755,
+   "end": 39.826
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "angry",
+     "scale": 1.4,
+     "facing": 1,
+     "enter": "none"
+    },
+    {
+     "id": "hero",
+     "x": 0.72,
+     "pose": "idle",
+     "expr": "scared",
+     "scale": 1.4,
+     "facing": -1,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 39.826,
+   "end": 41.897
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 41.897,
+   "end": 44.635
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "happy",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 44.635,
+   "end": 47.287
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "stamp",
+    "text": "SENT",
+    "color": "#2FBF71"
+   },
+   "speaker": "narrator",
+   "start": 47.287,
+   "end": 51.555
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.4,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 1.4,
+     "facing": 1
+    },
+    {
+     "id": "hero",
+     "x": 0.62,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.4,
+     "facing": -1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 51.555,
+   "end": 54.524
+  },
+  {
+   "set": {
+    "type": "street",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "smug",
+     "scale": 1.8
+    }
+   ],
+   "speaker": "friend",
+   "start": 54.524,
+   "end": 57.291
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "shocked",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 57.291,
+   "end": 60.215
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "happy",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "riser"
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "speaker": "narrator",
+   "start": 60.215,
+   "end": 63.141
+  }
+ ],
+ "endStart": 63.141,
+ "endText": "PART 8",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 7/8"
+}

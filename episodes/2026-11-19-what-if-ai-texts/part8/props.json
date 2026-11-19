@@ -1,0 +1,2010 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 65.297,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Final",
+   "startMs": 164,
+   "endMs": 634,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "part.",
+   "startMs": 634,
+   "endMs": 1231,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 1700,
+   "endMs": 2070,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "ran",
+   "startMs": 2070,
+   "endMs": 2420,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 2420,
+   "endMs": 2600,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Nia's.",
+   "startMs": 2600,
+   "endMs": 3108,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 3449,
+   "endMs": 3649,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "found",
+   "startMs": 3649,
+   "endMs": 3989,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Sam.",
+   "startMs": 3989,
+   "endMs": 4559,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Sam?",
+   "startMs": 4859,
+   "endMs": 5349,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "How",
+   "startMs": 5739,
+   "endMs": 5799,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 5779,
+   "endMs": 5949,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 5949,
+   "endMs": 6109,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "here?",
+   "startMs": 6109,
+   "endMs": 6464,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Nia's",
+   "startMs": 6809,
+   "endMs": 7319,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 7319,
+   "endMs": 7659,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "cousin.",
+   "startMs": 7659,
+   "endMs": 8217,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Since,",
+   "startMs": 8559,
+   "endMs": 8919,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "well,",
+   "startMs": 8919,
+   "endMs": 9339,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "birth.",
+   "startMs": 9339,
+   "endMs": 9775,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "You",
+   "startMs": 10184,
+   "endMs": 10314,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "talked",
+   "startMs": 10314,
+   "endMs": 10584,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "about",
+   "startMs": 10584,
+   "endMs": 10854,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 10854,
+   "endMs": 11134,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 11134,
+   "endMs": 11314,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "three",
+   "startMs": 11314,
+   "endMs": 11544,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "months.",
+   "startMs": 11544,
+   "endMs": 11955,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Who",
+   "startMs": 12257,
+   "endMs": 12377,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "do",
+   "startMs": 12377,
+   "endMs": 12447,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 12447,
+   "endMs": 12577,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "think",
+   "startMs": 12577,
+   "endMs": 12787,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "gave",
+   "startMs": 12787,
+   "endMs": 13027,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 13027,
+   "endMs": 13307,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 13307,
+   "endMs": 13417,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "number?",
+   "startMs": 13417,
+   "endMs": 13772,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 14115,
+   "endMs": 14265,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "cancelled",
+   "startMs": 14265,
+   "endMs": 14845,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "dinner?",
+   "startMs": 14845,
+   "endMs": 15373,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Nia",
+   "startMs": 15757,
+   "endMs": 16167,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "said",
+   "startMs": 16167,
+   "endMs": 16397,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 16397,
+   "endMs": 16537,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "was",
+   "startMs": 16537,
+   "endMs": 16787,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 16787,
+   "endMs": 16907,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "robot.",
+   "startMs": 16907,
+   "endMs": 17571,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Fourteen",
+   "startMs": 17913,
+   "endMs": 18253,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "messages,",
+   "startMs": 18253,
+   "endMs": 18833,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 18833,
+   "endMs": 19033,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "poem,",
+   "startMs": 19033,
+   "endMs": 19503,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 19503,
+   "endMs": 19693,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "pie",
+   "startMs": 19693,
+   "endMs": 20053,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "chart.",
+   "startMs": 20053,
+   "endMs": 20431,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Honestly?",
+   "startMs": 20773,
+   "endMs": 21584,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Best",
+   "startMs": 21989,
+   "endMs": 22299,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "texts",
+   "startMs": 22299,
+   "endMs": 22659,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 22659,
+   "endMs": 22879,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "ever",
+   "startMs": 22879,
+   "endMs": 23139,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "got.",
+   "startMs": 23139,
+   "endMs": 23611,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 23935,
+   "endMs": 24405,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "says",
+   "startMs": 24405,
+   "endMs": 24715,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "it.",
+   "startMs": 24715,
+   "endMs": 24937,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Out",
+   "startMs": 25279,
+   "endMs": 25529,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "loud.",
+   "startMs": 25529,
+   "endMs": 26153,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "No",
+   "startMs": 26516,
+   "endMs": 26896,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "draft.",
+   "startMs": 26896,
+   "endMs": 27433,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "Sam.",
+   "startMs": 27840,
+   "endMs": 28331,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 28635,
+   "endMs": 28735,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "like",
+   "startMs": 28735,
+   "endMs": 29005,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "you.",
+   "startMs": 29005,
+   "endMs": 29403,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Since",
+   "startMs": 29725,
+   "endMs": 29935,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "September.",
+   "startMs": 29935,
+   "endMs": 30600,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "I",
+   "startMs": 30945,
+   "endMs": 31175,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "know.",
+   "startMs": 31175,
+   "endMs": 31628,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 31991,
+   "endMs": 32161,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "told",
+   "startMs": 32161,
+   "endMs": 32411,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "me",
+   "startMs": 32411,
+   "endMs": 32631,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "fourteen",
+   "startMs": 32631,
+   "endMs": 33131,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "times.",
+   "startMs": 33131,
+   "endMs": 33804,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 34125,
+   "endMs": 34415,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 34415,
+   "endMs": 34535,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "door",
+   "startMs": 34535,
+   "endMs": 34855,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "opens.",
+   "startMs": 34855,
+   "endMs": 35533,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 35875,
+   "endMs": 36125,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Mom.",
+   "startMs": 36125,
+   "endMs": 36728,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "With",
+   "startMs": 37049,
+   "endMs": 37269,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "lasagna.",
+   "startMs": 37269,
+   "endMs": 38159,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 38500,
+   "endMs": 38630,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 38630,
+   "endMs": 38750,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "projector.",
+   "startMs": 38750,
+   "endMs": 39524,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Nia's",
+   "startMs": 39824,
+   "endMs": 40234,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "birthday",
+   "startMs": 40234,
+   "endMs": 40804,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "gets",
+   "startMs": 40804,
+   "endMs": 40984,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 40984,
+   "endMs": 41104,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "slideshow.",
+   "startMs": 41104,
+   "endMs": 41893,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "All",
+   "startMs": 42216,
+   "endMs": 42586,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "ninety.",
+   "startMs": 42586,
+   "endMs": 43197,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Monday.",
+   "startMs": 43519,
+   "endMs": 44159,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 44500,
+   "endMs": 44760,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "wakes",
+   "startMs": 44760,
+   "endMs": 45170,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "up.",
+   "startMs": 45170,
+   "endMs": 45545,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Brand",
+   "startMs": 45932,
+   "endMs": 46312,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "new.",
+   "startMs": 46312,
+   "endMs": 46828,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Hello.",
+   "startMs": 47128,
+   "endMs": 47725,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 48069,
+   "endMs": 48339,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "am",
+   "startMs": 48339,
+   "endMs": 48479,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Bit.",
+   "startMs": 48479,
+   "endMs": 48965,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "How",
+   "startMs": 49285,
+   "endMs": 49475,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "do",
+   "startMs": 49475,
+   "endMs": 49535,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 49515,
+   "endMs": 49735,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "text?",
+   "startMs": 49735,
+   "endMs": 50352,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Badly.",
+   "startMs": 50633,
+   "endMs": 51231,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Let's",
+   "startMs": 51553,
+   "endMs": 51763,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "learn",
+   "startMs": 51763,
+   "endMs": 51953,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "together.",
+   "startMs": 51953,
+   "endMs": 52513,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 52859,
+   "endMs": 53279,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "sends",
+   "startMs": 53279,
+   "endMs": 53569,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "his",
+   "startMs": 53569,
+   "endMs": 53789,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "first",
+   "startMs": 53789,
+   "endMs": 54109,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "message.",
+   "startMs": 54109,
+   "endMs": 54693,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Himself.",
+   "startMs": 55077,
+   "endMs": 55739,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Nine",
+   "startMs": 56059,
+   "endMs": 56579,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "seconds.",
+   "startMs": 56579,
+   "endMs": 57275,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 57641,
+   "endMs": 57761,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 57761,
+   "endMs": 57841,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "work",
+   "startMs": 57841,
+   "endMs": 58091,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "chat",
+   "startMs": 58091,
+   "endMs": 58451,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "still",
+   "startMs": 58451,
+   "endMs": 58791,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "says",
+   "startMs": 58791,
+   "endMs": 59111,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "love",
+   "startMs": 59111,
+   "endMs": 59301,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "you.",
+   "startMs": 59301,
+   "endMs": 59604,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Mr.",
+   "startMs": 59904,
+   "endMs": 60608,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "Brant",
+   "startMs": 60949,
+   "endMs": 61249,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "made",
+   "startMs": 61249,
+   "endMs": 61519,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 61519,
+   "endMs": 61689,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "company",
+   "startMs": 61689,
+   "endMs": 62189,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "policy.",
+   "startMs": 62189,
+   "endMs": 62869,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 63233,
+   "endMs": 63593,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 63593,
+   "endMs": 63823,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 63823,
+   "endMs": 63943,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 63943,
+   "endMs": 64243,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "What",
+   "startMs": 64243,
+   "endMs": 64393,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 64393,
+   "endMs": 64583,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 64583,
+   "endMs": 64873,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 64873,
+   "endMs": 65260,
+   "line": 20,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 4.617
+  },
+  {
+   "speaker": "hero",
+   "start": 4.837,
+   "end": 6.547
+  },
+  {
+   "speaker": "sam",
+   "start": 6.767,
+   "end": 9.943
+  },
+  {
+   "speaker": "friend",
+   "start": 10.163,
+   "end": 11.995
+  },
+  {
+   "speaker": "friend",
+   "start": 12.215,
+   "end": 13.831
+  },
+  {
+   "speaker": "sam",
+   "start": 14.051,
+   "end": 17.629
+  },
+  {
+   "speaker": "sam",
+   "start": 17.849,
+   "end": 20.489
+  },
+  {
+   "speaker": "sam",
+   "start": 20.709,
+   "end": 23.672
+  },
+  {
+   "speaker": "narrator",
+   "start": 23.892,
+   "end": 27.599
+  },
+  {
+   "speaker": "hero",
+   "start": 27.819,
+   "end": 30.683
+  },
+  {
+   "speaker": "sam",
+   "start": 30.903,
+   "end": 33.863
+  },
+  {
+   "speaker": "narrator",
+   "start": 34.083,
+   "end": 36.787
+  },
+  {
+   "speaker": "narrator",
+   "start": 37.007,
+   "end": 39.583
+  },
+  {
+   "speaker": "narrator",
+   "start": 39.803,
+   "end": 43.256
+  },
+  {
+   "speaker": "narrator",
+   "start": 43.476,
+   "end": 46.887
+  },
+  {
+   "speaker": "bit",
+   "start": 47.107,
+   "end": 50.413
+  },
+  {
+   "speaker": "hero",
+   "start": 50.633,
+   "end": 52.596
+  },
+  {
+   "speaker": "narrator",
+   "start": 52.816,
+   "end": 57.379
+  },
+  {
+   "speaker": "narrator",
+   "start": 57.599,
+   "end": 59.641
+  },
+  {
+   "speaker": "narrator",
+   "start": 59.861,
+   "end": 62.928
+  },
+  {
+   "speaker": "narrator",
+   "start": 63.148,
+   "end": 65.297
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "happy",
+     "scale": 1.8
+    }
+   ],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.389
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.5,
+     "pose": "wave",
+     "expr": "happy",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 2.389,
+   "end": 4.777
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "shocked",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 4.777,
+   "end": 6.707
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.3,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.4,
+     "facing": 1
+    },
+    {
+     "id": "friend",
+     "x": 0.72,
+     "pose": "cheer",
+     "expr": "smug",
+     "scale": 1.4,
+     "facing": -1
+    }
+   ],
+   "speaker": "sam",
+   "start": 6.707,
+   "end": 8.405
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.3,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.4,
+     "facing": 1,
+     "enter": "none"
+    },
+    {
+     "id": "friend",
+     "x": 0.72,
+     "pose": "cheer",
+     "expr": "smug",
+     "scale": 1.4,
+     "facing": -1,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.3,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "sam",
+   "start": 8.405,
+   "end": 10.103
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "smug",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 0,
+    "to": 412,
+    "label": "TIMES YOU SAID \"SAM\""
+   },
+   "speaker": "friend",
+   "start": 10.103,
+   "end": 12.155
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "happy",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "friend",
+   "start": 12.155,
+   "end": 13.991
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.8
+    }
+   ],
+   "speaker": "sam",
+   "start": 13.991,
+   "end": 15.89
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "sam",
+   "start": 15.89,
+   "end": 17.789
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "grin",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "bars",
+    "tag": "JAY'S FEELINGS",
+    "items": [
+     {
+      "label": "SAM",
+      "value": 91
+     },
+     {
+      "label": "PIZZA",
+      "value": 8
+     },
+     {
+      "label": "WORK",
+      "value": 1
+     }
+    ]
+   },
+   "speaker": "sam",
+   "start": 17.789,
+   "end": 20.649
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "sam",
+   "start": 20.649,
+   "end": 22.241
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.46,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "sam",
+   "start": 22.241,
+   "end": 23.832
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "narrator",
+   "start": 23.832,
+   "end": 25.796
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.46,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 25.796,
+   "end": 27.759
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.4,
+     "facing": 1
+    },
+    {
+     "id": "sam",
+     "x": 0.72,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.4,
+     "facing": -1
+    }
+   ],
+   "speaker": "hero",
+   "start": 27.759,
+   "end": 29.301
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.4,
+     "facing": 1,
+     "enter": "none"
+    },
+    {
+     "id": "sam",
+     "x": 0.72,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.4,
+     "facing": -1,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.3,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "hero",
+   "start": 29.301,
+   "end": 30.843
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.8
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "sam",
+   "start": 30.843,
+   "end": 32.433
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "sam",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "sam",
+   "start": 32.433,
+   "end": 34.023
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 34.023,
+   "end": 36.947
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 1,
+    "to": 90,
+    "label": "BABY PHOTOS"
+   },
+   "speaker": "narrator",
+   "start": 36.947,
+   "end": 39.743
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.2,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.0
+    },
+    {
+     "id": "sam",
+     "x": 0.45,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.0
+    },
+    {
+     "id": "mom",
+     "x": 0.7,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 1.0
+    },
+    {
+     "id": "hero",
+     "x": 0.9,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.0,
+     "facing": -1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 39.743,
+   "end": 41.579
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.2,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.0,
+     "enter": "none"
+    },
+    {
+     "id": "sam",
+     "x": 0.45,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.0,
+     "enter": "none"
+    },
+    {
+     "id": "mom",
+     "x": 0.7,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 1.0,
+     "enter": "none"
+    },
+    {
+     "id": "hero",
+     "x": 0.9,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.0,
+     "facing": -1,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 41.579,
+   "end": 43.416
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 43.416,
+   "end": 45.231
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 45.231,
+   "end": 47.047
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.7
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "bit",
+   "start": 47.047,
+   "end": 48.81
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.7,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.46,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "bit",
+   "start": 48.81,
+   "end": 50.573
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "phone",
+     "expr": "happy",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "happy",
+     "scale": 0.9
+    }
+   ],
+   "speaker": "hero",
+   "start": 50.573,
+   "end": 52.756
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "good morning \u2600\ufe0f"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "good morning \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 52.756,
+   "end": 55.147
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "good morning \u2600\ufe0f"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "good morning \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 55.147,
+   "end": 57.539
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "09:12",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mr. Brant",
+       "text": "Monday meeting at 9. Love you, team \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "hit",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 57.539,
+   "end": 59.801
+  },
+  {
+   "set": {
+    "type": "lab"
+   },
+   "cast": [
+    {
+     "id": "boss",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.3
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "NEW RULE",
+    "sub": "END EVERY EMAIL WITH \"LOVE YOU\"",
+    "color": "#2F7BFF"
+   },
+   "speaker": "narrator",
+   "start": 59.801,
+   "end": 63.088
+  }
+ ],
+ "endStart": 63.088,
+ "endText": "THE END",
+ "endSub": "Follow for a new What if every day",
+ "partLabel": "PART 8/8"
+}

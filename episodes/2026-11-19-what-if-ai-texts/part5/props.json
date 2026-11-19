@@ -1,0 +1,1946 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 63.28,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 143,
+   "endMs": 463,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "five.",
+   "startMs": 463,
+   "endMs": 1017,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Mom",
+   "startMs": 1380,
+   "endMs": 1680,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "added",
+   "startMs": 1680,
+   "endMs": 2070,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 2070,
+   "endMs": 2490,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 2490,
+   "endMs": 2560,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 2560,
+   "endMs": 2670,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "family",
+   "startMs": 2670,
+   "endMs": 3020,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "chat.",
+   "startMs": 3020,
+   "endMs": 3385,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Grandpa",
+   "startMs": 3685,
+   "endMs": 4285,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "sends",
+   "startMs": 4285,
+   "endMs": 4565,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 4565,
+   "endMs": 4695,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "voice",
+   "startMs": 4695,
+   "endMs": 5035,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "message.",
+   "startMs": 5035,
+   "endMs": 5627,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Nine",
+   "startMs": 5968,
+   "endMs": 6408,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "minutes.",
+   "startMs": 6408,
+   "endMs": 6928,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 7292,
+   "endMs": 7602,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "forty",
+   "startMs": 7602,
+   "endMs": 7952,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "more.",
+   "startMs": 7952,
+   "endMs": 8444,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "All",
+   "startMs": 8807,
+   "endMs": 9177,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "nine",
+   "startMs": 9177,
+   "endMs": 9537,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "minutes.",
+   "startMs": 9537,
+   "endMs": 10044,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Mom",
+   "startMs": 10344,
+   "endMs": 10714,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "posts",
+   "startMs": 10714,
+   "endMs": 11104,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 11104,
+   "endMs": 11394,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "baby",
+   "startMs": 11394,
+   "endMs": 11774,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "photo.",
+   "startMs": 11774,
+   "endMs": 12328,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "As",
+   "startMs": 12648,
+   "endMs": 12878,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 12878,
+   "endMs": 13048,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "preview.",
+   "startMs": 13048,
+   "endMs": 13821,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 14121,
+   "endMs": 14431,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "waits",
+   "startMs": 14431,
+   "endMs": 14791,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 14791,
+   "endMs": 14951,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 14951,
+   "endMs": 15331,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 15331,
+   "endMs": 15461,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "leave.",
+   "startMs": 15461,
+   "endMs": 15871,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Sam",
+   "startMs": 16235,
+   "endMs": 16655,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "doesn't",
+   "startMs": 16655,
+   "endMs": 16985,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "leave.",
+   "startMs": 16985,
+   "endMs": 17472,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Sam",
+   "startMs": 17860,
+   "endMs": 18180,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "replies",
+   "startMs": 18180,
+   "endMs": 18730,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 18730,
+   "endMs": 18900,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Grandpa's",
+   "startMs": 18900,
+   "endMs": 19540,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "voice",
+   "startMs": 19540,
+   "endMs": 19910,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "message.",
+   "startMs": 19910,
+   "endMs": 20484,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "With",
+   "startMs": 20828,
+   "endMs": 20998,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "her",
+   "startMs": 20998,
+   "endMs": 21288,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "own.",
+   "startMs": 21288,
+   "endMs": 21788,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Grandpa",
+   "startMs": 22109,
+   "endMs": 22719,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "loves",
+   "startMs": 22719,
+   "endMs": 23119,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "her.",
+   "startMs": 23119,
+   "endMs": 23453,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Mom",
+   "startMs": 23795,
+   "endMs": 24265,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "loves",
+   "startMs": 24265,
+   "endMs": 24655,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "her.",
+   "startMs": 24655,
+   "endMs": 24968,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Everyone",
+   "startMs": 25309,
+   "endMs": 25859,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "does.",
+   "startMs": 25859,
+   "endMs": 26355,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Is",
+   "startMs": 26633,
+   "endMs": 26793,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "this...",
+   "startMs": 26793,
+   "endMs": 27295,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "going",
+   "startMs": 27596,
+   "endMs": 27846,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "well?",
+   "startMs": 27846,
+   "endMs": 28257,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 28624,
+   "endMs": 28834,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 28834,
+   "endMs": 29214,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "opens",
+   "startMs": 29214,
+   "endMs": 29614,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 29614,
+   "endMs": 29794,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 29794,
+   "endMs": 30104,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "chat",
+   "startMs": 30104,
+   "endMs": 30414,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "he",
+   "startMs": 30414,
+   "endMs": 30554,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "forgot.",
+   "startMs": 30554,
+   "endMs": 31013,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Nia.",
+   "startMs": 31377,
+   "endMs": 31953,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "His",
+   "startMs": 32359,
+   "endMs": 32559,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "best",
+   "startMs": 32559,
+   "endMs": 32829,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "friend",
+   "startMs": 32829,
+   "endMs": 33219,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "since",
+   "startMs": 33219,
+   "endMs": 33399,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "he",
+   "startMs": 33399,
+   "endMs": 33549,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "was",
+   "startMs": 33549,
+   "endMs": 33789,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "six.",
+   "startMs": 33789,
+   "endMs": 34172,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Saturday",
+   "startMs": 34579,
+   "endMs": 35109,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 35109,
+   "endMs": 35289,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Nia's",
+   "startMs": 35289,
+   "endMs": 35689,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "birthday.",
+   "startMs": 35689,
+   "endMs": 36371,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Bit",
+   "startMs": 36695,
+   "endMs": 36905,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "answered",
+   "startMs": 36905,
+   "endMs": 37445,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "that",
+   "startMs": 37445,
+   "endMs": 37725,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 37725,
+   "endMs": 37955,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 37955,
+   "endMs": 38145,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Monday.",
+   "startMs": 38145,
+   "endMs": 38700,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Bit.",
+   "startMs": 38979,
+   "endMs": 39405,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 39688,
+   "endMs": 39818,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "cancelled",
+   "startMs": 39818,
+   "endMs": 40128,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Nia's",
+   "startMs": 40128,
+   "endMs": 40388,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "birthday?",
+   "startMs": 40388,
+   "endMs": 40968,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Saturday",
+   "startMs": 41292,
+   "endMs": 41852,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "was",
+   "startMs": 41852,
+   "endMs": 42032,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "full.",
+   "startMs": 42032,
+   "endMs": 42465,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 42788,
+   "endMs": 43148,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "has",
+   "startMs": 43148,
+   "endMs": 43308,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 43308,
+   "endMs": 43408,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "higher",
+   "startMs": 43408,
+   "endMs": 43648,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "score.",
+   "startMs": 43648,
+   "endMs": 44132,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Nia",
+   "startMs": 44456,
+   "endMs": 44926,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "never",
+   "startMs": 44926,
+   "endMs": 45216,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "wrote",
+   "startMs": 45216,
+   "endMs": 45486,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "back.",
+   "startMs": 45486,
+   "endMs": 45992,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Not",
+   "startMs": 46376,
+   "endMs": 46706,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "once.",
+   "startMs": 46706,
+   "endMs": 47229,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "All",
+   "startMs": 47592,
+   "endMs": 48002,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "week.",
+   "startMs": 48002,
+   "endMs": 48445,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 48788,
+   "endMs": 49258,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "types.",
+   "startMs": 49258,
+   "endMs": 49791,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "For",
+   "startMs": 50132,
+   "endMs": 50222,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 50222,
+   "endMs": 50362,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "first",
+   "startMs": 50362,
+   "endMs": 50672,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "time,",
+   "startMs": 50672,
+   "endMs": 51082,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "himself.",
+   "startMs": 51082,
+   "endMs": 51625,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "But",
+   "startMs": 51947,
+   "endMs": 52057,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Nia's",
+   "startMs": 52057,
+   "endMs": 52497,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "status",
+   "startMs": 52497,
+   "endMs": 52877,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "changes.",
+   "startMs": 52877,
+   "endMs": 53568,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "Nia",
+   "startMs": 53932,
+   "endMs": 54272,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "blocked",
+   "startMs": 54272,
+   "endMs": 54682,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Jay.",
+   "startMs": 54682,
+   "endMs": 55233,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 55557,
+   "endMs": 55987,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "calls.",
+   "startMs": 55987,
+   "endMs": 56581,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "Straight",
+   "startMs": 56923,
+   "endMs": 57393,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 57393,
+   "endMs": 57553,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "voicemail.",
+   "startMs": 57553,
+   "endMs": 58288,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Twenty",
+   "startMs": 58612,
+   "endMs": 59052,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "years.",
+   "startMs": 59052,
+   "endMs": 59572,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "One",
+   "startMs": 59935,
+   "endMs": 60265,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "robot.",
+   "startMs": 60265,
+   "endMs": 61065,
+   "line": 20,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 61408,
+   "endMs": 61808,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "so",
+   "startMs": 61808,
+   "endMs": 61978,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 61978,
+   "endMs": 62038,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 62038,
+   "endMs": 62188,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "miss",
+   "startMs": 62188,
+   "endMs": 62418,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "part",
+   "startMs": 62418,
+   "endMs": 62668,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "six.",
+   "startMs": 62668,
+   "endMs": 63200,
+   "line": 21,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 3.423
+  },
+  {
+   "speaker": "narrator",
+   "start": 3.643,
+   "end": 7.029
+  },
+  {
+   "speaker": "narrator",
+   "start": 7.249,
+   "end": 10.103
+  },
+  {
+   "speaker": "narrator",
+   "start": 10.323,
+   "end": 13.859
+  },
+  {
+   "speaker": "narrator",
+   "start": 14.079,
+   "end": 15.972
+  },
+  {
+   "speaker": "narrator",
+   "start": 16.192,
+   "end": 17.619
+  },
+  {
+   "speaker": "narrator",
+   "start": 17.839,
+   "end": 21.847
+  },
+  {
+   "speaker": "narrator",
+   "start": 22.067,
+   "end": 26.413
+  },
+  {
+   "speaker": "hero",
+   "start": 26.633,
+   "end": 28.34
+  },
+  {
+   "speaker": "narrator",
+   "start": 28.56,
+   "end": 31.093
+  },
+  {
+   "speaker": "narrator",
+   "start": 31.313,
+   "end": 34.316
+  },
+  {
+   "speaker": "narrator",
+   "start": 34.536,
+   "end": 36.432
+  },
+  {
+   "speaker": "narrator",
+   "start": 36.652,
+   "end": 38.737
+  },
+  {
+   "speaker": "hero",
+   "start": 38.957,
+   "end": 41.051
+  },
+  {
+   "speaker": "bit",
+   "start": 41.271,
+   "end": 44.193
+  },
+  {
+   "speaker": "narrator",
+   "start": 44.413,
+   "end": 48.525
+  },
+  {
+   "speaker": "narrator",
+   "start": 48.745,
+   "end": 51.684
+  },
+  {
+   "speaker": "narrator",
+   "start": 51.904,
+   "end": 53.669
+  },
+  {
+   "speaker": "narrator",
+   "start": 53.889,
+   "end": 55.295
+  },
+  {
+   "speaker": "narrator",
+   "start": 55.515,
+   "end": 58.349
+  },
+  {
+   "speaker": "narrator",
+   "start": 58.569,
+   "end": 61.124
+  },
+  {
+   "speaker": "narrator",
+   "start": 61.344,
+   "end": 63.28
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f added Sam"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 1.791
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f added Sam"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 1.791,
+   "end": 3.583
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f added Sam"
+      },
+      {
+       "from": "them",
+       "name": "Grandpa",
+       "text": "\ud83c\udfa4 Voice message \u00b7 9:14"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 3.583,
+   "end": 5.386
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f added Sam"
+      },
+      {
+       "from": "them",
+       "name": "Grandpa",
+       "text": "\ud83c\udfa4 Voice message \u00b7 9:14"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 5.386,
+   "end": 7.189
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "sad",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 1,
+    "to": 41,
+    "label": "GRANDPA'S VOICE MESSAGES"
+   },
+   "speaker": "narrator",
+   "start": 7.189,
+   "end": 10.263
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Grandpa",
+       "text": "\ud83c\udfa4 Voice message \u00b7 9:14"
+      },
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Sneak peek for Saturday! \ud83d\udec1"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "hit",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 10.263,
+   "end": 12.141
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Grandpa",
+       "text": "\ud83c\udfa4 Voice message \u00b7 9:14"
+      },
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Sneak peek for Saturday! \ud83d\udec1"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 12.141,
+   "end": 14.019
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "scared",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 14.019,
+   "end": 16.132
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Sneak peek for Saturday! \ud83d\udec1"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "omg he was so cute"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 16.132,
+   "end": 17.779
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "omg he was so cute"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "\ud83c\udfa4 Voice message \u00b7 0:12"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 17.779,
+   "end": 19.893
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "omg he was so cute"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "\ud83c\udfa4 Voice message \u00b7 0:12"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 19.893,
+   "end": 22.007
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.3,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.3
+    },
+    {
+     "id": "scientist",
+     "x": 0.72,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.3,
+     "facing": -1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 22.007,
+   "end": 24.29
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.3,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.3,
+     "enter": "none"
+    },
+    {
+     "id": "scientist",
+     "x": 0.72,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.3,
+     "facing": -1,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 24.29,
+   "end": 26.573
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "happy",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 26.573,
+   "end": 28.5
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "NIA \ud83c\udf82",
+     "sub": "online",
+     "clock": "20:02",
+     "msgs": []
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 28.5,
+   "end": 31.253
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "NIA",
+    "sub": "BEST FRIEND \u00b7 20 YEARS",
+    "color": "#2F7BFF"
+   },
+   "speaker": "narrator",
+   "start": 31.253,
+   "end": 34.476
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "NIA \ud83c\udf82",
+     "sub": "online",
+     "clock": "20:02",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Nia",
+       "text": "so you're coming saturday right? \ud83c\udf82"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 34.476,
+   "end": 36.592
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "NIA \ud83c\udf82",
+     "sub": "online",
+     "clock": "20:02",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Nia",
+       "text": "so you're coming saturday right? \ud83c\udf82"
+      },
+      {
+       "from": "me",
+       "text": "can't. busy. love you, bye"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.3,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 36.592,
+   "end": 38.897
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "angry",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "speaker": "hero",
+   "start": 38.897,
+   "end": 41.211
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "bars",
+    "tag": "BIT'S SATURDAY SCORE",
+    "items": [
+     {
+      "label": "SAM",
+      "value": 91
+     },
+     {
+      "label": "NIA",
+      "value": 9
+     }
+    ]
+   },
+   "speaker": "bit",
+   "start": 41.211,
+   "end": 44.353
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "narrator",
+   "start": 44.353,
+   "end": 46.519
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "sad",
+     "scale": 1.8,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.46,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 46.519,
+   "end": 48.685
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "NIA \ud83c\udf82",
+     "sub": "online",
+     "clock": "20:02",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "can't. busy. love you, bye"
+      }
+     ],
+     "draft": "nia that wasn't me, i swe"
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 48.685,
+   "end": 50.264
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "NIA \ud83c\udf82",
+     "sub": "online",
+     "clock": "20:02",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "can't. busy. love you, bye"
+      }
+     ],
+     "draft": "nia that wasn't me, i swe"
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 50.264,
+   "end": 51.844
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "NIA \ud83c\udf82",
+     "sub": "online",
+     "clock": "20:02",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "can't. busy. love you, bye"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 51.844,
+   "end": 53.829
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "NIA \ud83c\udf82",
+     "sub": "online",
+     "clock": "20:02",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "can't. busy. love you, bye"
+      },
+      {
+       "from": "sys",
+       "text": "You can't message this contact"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.3,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "riser"
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "speaker": "narrator",
+   "start": 53.829,
+   "end": 55.455
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 55.455,
+   "end": 56.982
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "sad",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.46,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 56.982,
+   "end": 58.509
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.6
+    }
+   ],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "speaker": "narrator",
+   "start": 58.509,
+   "end": 61.284
+  }
+ ],
+ "endStart": 61.284,
+ "endText": "PART 6",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 5/8"
+}

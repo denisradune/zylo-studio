@@ -1,0 +1,557 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "title": "What If Your AI Texted for You for a Week? (Part 7)",
+ "seed": 6607,
+ "partLabel": "PART 7/8",
+ "end": {
+  "text": "PART 8",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part seven. Autopilot just cancelled *Sam's dinner*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "dinner's cancelled. love you, bye"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit! Why?!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "You looked at the *door*. Autopilot thought: leaving.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sam reads it. Sam goes *offline*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "dinner's cancelled. love you, bye"
+       }
+      ],
+      "seen": "Seen"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Twenty-three hours left on *Autopilot*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "23:00:00",
+     "to": "22:59:59"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "One way out. A full *factory reset*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "glitch",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "FACTORY RESET",
+     "sub": "AUTOPILOT OFF \u00b7 MEMORY GONE",
+     "color": "#FF4A3D"
+    },
+    "fx": [
+     {
+      "type": "glitch"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every text Bit learned. Nine years. *Gone*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "sad",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Do it. I'll learn you *again*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay holds the button for *ten seconds*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 10,
+     "to": 0,
+     "label": "RESETTING"
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit's screen goes *dark*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "off",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerdown"
+     }
+    ],
+    "fx": [
+     {
+      "type": "vignette"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "No phone. No Autopilot. *Just Jay*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "angry",
+      "scale": 1.6
+     }
+    ],
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ],
+    "sfx": [
+     {
+      "type": "whoosh"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He runs. Six whole blocks. To Nia's *door*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "run",
+      "expr": "scared",
+      "scale": 1.4
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    },
+    "fx": [
+     {
+      "type": "speedLines"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He knocks. Nia opens. She doesn't *smile*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "pose": "idle",
+      "expr": "angry",
+      "scale": 1.4,
+      "facing": 1
+     },
+     {
+      "id": "hero",
+      "x": 0.72,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.4,
+      "facing": -1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "That text wasn't me. But the silence *was*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "You're my best friend. I should *say that* more.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "No drafts. No deleting. He just *said it*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "SENT",
+     "color": "#2FBF71"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia stares. Then she *hugs* him.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.4,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.4,
+      "facing": 1
+     },
+     {
+      "id": "hero",
+      "x": 0.62,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.4,
+      "facing": -1
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "friend",
+   "say": "Get in. There's cake. And a *guest*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay walks in. And freezes.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sitting at Nia's table, eating cake: *Sam*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "sam",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow so you don't miss part eight.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

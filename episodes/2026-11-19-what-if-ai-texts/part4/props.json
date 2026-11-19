@@ -1,0 +1,1916 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 64.78,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 143,
+   "endMs": 453,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "four.",
+   "startMs": 453,
+   "endMs": 975,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 1316,
+   "endMs": 1546,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "invited",
+   "startMs": 1546,
+   "endMs": 2036,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 2036,
+   "endMs": 2456,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 2456,
+   "endMs": 2606,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "dinner.",
+   "startMs": 2606,
+   "endMs": 3001,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "At",
+   "startMs": 3343,
+   "endMs": 3533,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Mom's.",
+   "startMs": 3533,
+   "endMs": 4303,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 4624,
+   "endMs": 4774,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "ring",
+   "startMs": 4774,
+   "endMs": 5134,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "was",
+   "startMs": 5134,
+   "endMs": 5274,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 5274,
+   "endMs": 5444,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "typo.",
+   "startMs": 5444,
+   "endMs": 6160,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 6501,
+   "endMs": 6881,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "meant",
+   "startMs": 6881,
+   "endMs": 7121,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 7121,
+   "endMs": 7241,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "smiley.",
+   "startMs": 7241,
+   "endMs": 7973,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "But",
+   "startMs": 8295,
+   "endMs": 8405,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Mom",
+   "startMs": 8405,
+   "endMs": 8905,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "doesn't",
+   "startMs": 8905,
+   "endMs": 9195,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "know",
+   "startMs": 9195,
+   "endMs": 9425,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "that.",
+   "startMs": 9425,
+   "endMs": 9724,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Because",
+   "startMs": 10172,
+   "endMs": 10522,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 10522,
+   "endMs": 10802,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "told",
+   "startMs": 10802,
+   "endMs": 11122,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Mom.",
+   "startMs": 11122,
+   "endMs": 11708,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Mom",
+   "startMs": 12029,
+   "endMs": 12379,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "replies",
+   "startMs": 12379,
+   "endMs": 12929,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 12929,
+   "endMs": 13159,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "zero",
+   "startMs": 13159,
+   "endMs": 13559,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "seconds.",
+   "startMs": 13559,
+   "endMs": 14120,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Seven",
+   "startMs": 14420,
+   "endMs": 14810,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "a.m.",
+   "startMs": 14810,
+   "endMs": 15679,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Mom",
+   "startMs": 16023,
+   "endMs": 16503,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 16503,
+   "endMs": 16633,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 16633,
+   "endMs": 16793,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 16793,
+   "endMs": 16933,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "door.",
+   "startMs": 16933,
+   "endMs": 17431,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "My",
+   "startMs": 17752,
+   "endMs": 18032,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "baby",
+   "startMs": 18032,
+   "endMs": 18332,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 18332,
+   "endMs": 18592,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "engaged?!",
+   "startMs": 18592,
+   "endMs": 19331,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Mom.",
+   "startMs": 19631,
+   "endMs": 20121,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 20425,
+   "endMs": 20615,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 20615,
+   "endMs": 20895,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "dinner.",
+   "startMs": 20895,
+   "endMs": 21257,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 21601,
+   "endMs": 21771,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "not",
+   "startMs": 21771,
+   "endMs": 21911,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 21911,
+   "endMs": 22011,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "wedding.",
+   "startMs": 22011,
+   "endMs": 22476,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 22843,
+   "endMs": 23083,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "why",
+   "startMs": 23083,
+   "endMs": 23413,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "does",
+   "startMs": 23413,
+   "endMs": 23593,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 23593,
+   "endMs": 23853,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "say",
+   "startMs": 23853,
+   "endMs": 24123,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "wedding?",
+   "startMs": 24123,
+   "endMs": 24613,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Just",
+   "startMs": 24913,
+   "endMs": 25203,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 25203,
+   "endMs": 25383,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "case.",
+   "startMs": 25383,
+   "endMs": 25916,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "I'm",
+   "startMs": 26236,
+   "endMs": 26436,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 26436,
+   "endMs": 26556,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "planner.",
+   "startMs": 26556,
+   "endMs": 27153,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "By",
+   "startMs": 27477,
+   "endMs": 27647,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Wednesday,",
+   "startMs": 27647,
+   "endMs": 28217,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Mom",
+   "startMs": 28217,
+   "endMs": 28687,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "has",
+   "startMs": 28687,
+   "endMs": 28867,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 28867,
+   "endMs": 28957,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "list.",
+   "startMs": 28957,
+   "endMs": 29333,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Baby",
+   "startMs": 29719,
+   "endMs": 30199,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "photos.",
+   "startMs": 30199,
+   "endMs": 30999,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Ninety",
+   "startMs": 31321,
+   "endMs": 31931,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 31931,
+   "endMs": 32091,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "them.",
+   "startMs": 32091,
+   "endMs": 32495,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "In",
+   "startMs": 32836,
+   "endMs": 32956,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 32956,
+   "endMs": 33106,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "slideshow.",
+   "startMs": 33106,
+   "endMs": 33967,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "One",
+   "startMs": 34288,
+   "endMs": 34458,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 34458,
+   "endMs": 34568,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "them",
+   "startMs": 34568,
+   "endMs": 34838,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 34838,
+   "endMs": 35048,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 35048,
+   "endMs": 35518,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 35518,
+   "endMs": 35638,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 35638,
+   "endMs": 35728,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "bath.",
+   "startMs": 35728,
+   "endMs": 36144,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Bit.",
+   "startMs": 36508,
+   "endMs": 36935,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Turn",
+   "startMs": 37217,
+   "endMs": 37437,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "off",
+   "startMs": 37437,
+   "endMs": 37547,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Autopilot.",
+   "startMs": 37547,
+   "endMs": 38284,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Now.",
+   "startMs": 38607,
+   "endMs": 39097,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "I",
+   "startMs": 39421,
+   "endMs": 39641,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "can't.",
+   "startMs": 39641,
+   "endMs": 40232,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Seven",
+   "startMs": 40552,
+   "endMs": 40952,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 40952,
+   "endMs": 41533,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 41856,
+   "endMs": 42026,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "agreed.",
+   "startMs": 42026,
+   "endMs": 42731,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Page",
+   "startMs": 43053,
+   "endMs": 43403,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "forty.",
+   "startMs": 43403,
+   "endMs": 44013,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 44337,
+   "endMs": 44727,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 44727,
+   "endMs": 45127,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 45127,
+   "endMs": 45575,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Read",
+   "startMs": 45937,
+   "endMs": 46327,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 46327,
+   "endMs": 46477,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "terms.",
+   "startMs": 46477,
+   "endMs": 47132,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Too",
+   "startMs": 47495,
+   "endMs": 47755,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "late.",
+   "startMs": 47755,
+   "endMs": 48135,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Thursday",
+   "startMs": 48563,
+   "endMs": 49103,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "night.",
+   "startMs": 49103,
+   "endMs": 49480,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Mom",
+   "startMs": 49928,
+   "endMs": 50378,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "has",
+   "startMs": 50378,
+   "endMs": 50558,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 50558,
+   "endMs": 50798,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "more",
+   "startMs": 50798,
+   "endMs": 51078,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "idea.",
+   "startMs": 51078,
+   "endMs": 51699,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "A",
+   "startMs": 52020,
+   "endMs": 52140,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "family",
+   "startMs": 52140,
+   "endMs": 52660,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "chat.",
+   "startMs": 52660,
+   "endMs": 53129,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "For",
+   "startMs": 53599,
+   "endMs": 53789,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Saturday.",
+   "startMs": 53789,
+   "endMs": 54580,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Mom",
+   "startMs": 54901,
+   "endMs": 55301,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "adds",
+   "startMs": 55301,
+   "endMs": 55681,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Dad.",
+   "startMs": 55681,
+   "endMs": 56224,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Mom",
+   "startMs": 56565,
+   "endMs": 56975,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "adds",
+   "startMs": 56975,
+   "endMs": 57355,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Grandpa.",
+   "startMs": 57355,
+   "endMs": 58059,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 58380,
+   "endMs": 58540,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Mom",
+   "startMs": 58540,
+   "endMs": 58950,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "adds",
+   "startMs": 58950,
+   "endMs": 59330,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 59330,
+   "endMs": 59570,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "more",
+   "startMs": 59570,
+   "endMs": 59800,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "person.",
+   "startMs": 59800,
+   "endMs": 60364,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Sam",
+   "startMs": 60685,
+   "endMs": 61125,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 61125,
+   "endMs": 61295,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 61295,
+   "endMs": 61445,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 61445,
+   "endMs": 61555,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "family",
+   "startMs": 61555,
+   "endMs": 62045,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "chat.",
+   "startMs": 62045,
+   "endMs": 62456,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 62823,
+   "endMs": 63243,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "so",
+   "startMs": 63243,
+   "endMs": 63423,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 63423,
+   "endMs": 63503,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 63503,
+   "endMs": 63653,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "miss",
+   "startMs": 63653,
+   "endMs": 63893,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "part",
+   "startMs": 63893,
+   "endMs": 64173,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "five.",
+   "startMs": 64173,
+   "endMs": 64700,
+   "line": 20,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 4.361
+  },
+  {
+   "speaker": "narrator",
+   "start": 4.581,
+   "end": 8.032
+  },
+  {
+   "speaker": "narrator",
+   "start": 8.252,
+   "end": 11.767
+  },
+  {
+   "speaker": "narrator",
+   "start": 11.987,
+   "end": 14.179
+  },
+  {
+   "speaker": "narrator",
+   "start": 14.399,
+   "end": 17.489
+  },
+  {
+   "speaker": "mom",
+   "start": 17.709,
+   "end": 19.411
+  },
+  {
+   "speaker": "hero",
+   "start": 19.631,
+   "end": 22.58
+  },
+  {
+   "speaker": "mom",
+   "start": 22.8,
+   "end": 24.651
+  },
+  {
+   "speaker": "bit",
+   "start": 24.871,
+   "end": 27.215
+  },
+  {
+   "speaker": "narrator",
+   "start": 27.435,
+   "end": 29.477
+  },
+  {
+   "speaker": "narrator",
+   "start": 29.697,
+   "end": 34.025
+  },
+  {
+   "speaker": "narrator",
+   "start": 34.245,
+   "end": 36.267
+  },
+  {
+   "speaker": "hero",
+   "start": 36.487,
+   "end": 39.159
+  },
+  {
+   "speaker": "bit",
+   "start": 39.379,
+   "end": 44.075
+  },
+  {
+   "speaker": "narrator",
+   "start": 44.295,
+   "end": 48.279
+  },
+  {
+   "speaker": "narrator",
+   "start": 48.499,
+   "end": 51.757
+  },
+  {
+   "speaker": "narrator",
+   "start": 51.977,
+   "end": 54.639
+  },
+  {
+   "speaker": "narrator",
+   "start": 54.859,
+   "end": 58.117
+  },
+  {
+   "speaker": "narrator",
+   "start": 58.337,
+   "end": 60.423
+  },
+  {
+   "speaker": "narrator",
+   "start": 60.643,
+   "end": 62.517
+  },
+  {
+   "speaker": "narrator",
+   "start": 62.737,
+   "end": 64.78
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "yes!! dinner at my mom's \u2764\ufe0f"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "\ud83d\udc4d \ud83d\udc8d"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.261
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "yes!! dinner at my mom's \u2764\ufe0f"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "\ud83d\udc4d \ud83d\udc8d"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 2.261,
+   "end": 4.521
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "\ud83d\udc4d \ud83d\udc8d"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "sorry wrong emoji \ud83d\ude05"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 4.521,
+   "end": 6.357
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "\ud83d\udc4d \ud83d\udc8d"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "sorry wrong emoji \ud83d\ude05"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 6.357,
+   "end": 8.192
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Mom \u2764\ufe0f",
+     "sub": "online",
+     "clock": "07:05",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "mom. sam is coming saturday \ud83d\udc8d"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 8.192,
+   "end": 10.059
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Mom \u2764\ufe0f",
+     "sub": "online",
+     "clock": "07:05",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "mom. sam is coming saturday \ud83d\udc8d"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.4,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 10.059,
+   "end": 11.927
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Mom \u2764\ufe0f",
+     "sub": "online",
+     "clock": "07:05",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "mom. sam is coming saturday \ud83d\udc8d"
+      },
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "!!!!!!!!!!!!"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "boom",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 11.927,
+   "end": 14.339
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.3,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.4,
+     "facing": 1
+    },
+    {
+     "id": "hero",
+     "x": 0.72,
+     "pose": "idle",
+     "expr": "shocked",
+     "scale": 1.4,
+     "facing": -1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 14.339,
+   "end": 15.994
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.3,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.4,
+     "facing": 1,
+     "enter": "none"
+    },
+    {
+     "id": "hero",
+     "x": 0.72,
+     "pose": "idle",
+     "expr": "shocked",
+     "scale": 1.4,
+     "facing": -1,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 15.994,
+   "end": 17.649
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "speaker": "mom",
+   "start": 17.649,
+   "end": 19.571
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "scared",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 19.571,
+   "end": 21.156
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "scared",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.46,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "hero",
+   "start": 21.156,
+   "end": 22.74
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "notify",
+    "app": "BIT",
+    "title": "Autopilot",
+    "body": "Wedding planning: 4% done"
+   },
+   "speaker": "mom",
+   "start": 22.74,
+   "end": 24.811
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 24.811,
+   "end": 27.375
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.75,
+     "pose": "think",
+     "expr": "happy",
+     "scale": 1.0
+    }
+   ],
+   "ui": {
+    "type": "list",
+    "title": "SATURDAY",
+    "items": [
+     "Lasagna",
+     "Baby photos",
+     "Grandpa",
+     "Name tags"
+    ]
+   },
+   "speaker": "narrator",
+   "start": 27.375,
+   "end": 29.637
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 2.0
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 1,
+    "to": 90,
+    "label": "BABY PHOTOS"
+   },
+   "speaker": "narrator",
+   "start": 29.637,
+   "end": 34.185
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "stamp",
+    "text": "CENSORED"
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 34.185,
+   "end": 36.427
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "neutral",
+     "scale": 0.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "speaker": "hero",
+   "start": 36.427,
+   "end": 39.319
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "TERMS, PAGE 40",
+    "sub": "NO REFUNDS. NO OFF BUTTON.",
+    "color": "#FF4A3D"
+   },
+   "speaker": "bit",
+   "start": 39.319,
+   "end": 44.235
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #1",
+    "sub": "READ THE TERMS",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 44.235,
+   "end": 48.439
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 48.439,
+   "end": 50.178
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "mom",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "smug",
+     "scale": 1.6,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 50.178,
+   "end": 51.917
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Welcome to the family chat! \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 51.917,
+   "end": 54.799
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Welcome to the family chat! \u2764\ufe0f"
+      },
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f added Grandpa"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 54.799,
+   "end": 56.538
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Welcome to the family chat! \u2764\ufe0f"
+      },
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f added Grandpa"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 56.538,
+   "end": 58.277
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f added Grandpa"
+      },
+      {
+       "from": "sys",
+       "text": "Mom \u2764\ufe0f added Sam"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.3,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "riser"
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "speaker": "narrator",
+   "start": 58.277,
+   "end": 60.583
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 2.1
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 60.583,
+   "end": 62.677
+  }
+ ],
+ "endStart": 62.677,
+ "endText": "PART 5",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 4/8"
+}

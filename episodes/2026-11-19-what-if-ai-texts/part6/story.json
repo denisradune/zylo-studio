@@ -1,0 +1,512 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "title": "What If Your AI Texted for You for a Week? (Part 6)",
+ "seed": 6606,
+ "partLabel": "PART 6/8",
+ "end": {
+  "text": "PART 7",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part six. Bit cancelled Nia's birthday. Nia *blocked Jay*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "NIA \ud83c\udf82",
+      "sub": "online",
+      "clock": "20:02",
+      "msgs": [
+       {
+        "from": "sys",
+        "text": "You can't message this contact"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Friday night. Jay sits on the *floor*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. Why did you *do* this?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.4
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "sad",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I did what you do. Just *faster*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "sad",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Want to see your *drafts* folder?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Three hundred drafts. Never *sent*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "shocked",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 1,
+     "to": 300,
+     "label": "DRAFTS, NEVER SENT"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sam, I like you. *Deleted*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [],
+      "draft": "sam i really like y"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mom, I miss you. *Deleted*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Mom \u2764\ufe0f",
+      "sub": "online",
+      "clock": "07:05",
+      "msgs": [],
+      "draft": "mom i miss you, can i co"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Nia, thanks for always being there. *Deleted*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "NIA \ud83c\udf82",
+      "sub": "online",
+      "clock": "20:02",
+      "msgs": [],
+      "draft": "nia thank you for always b"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "You don't need an AI to *type*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "You need one to press *send*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "But what if I say it *wrong*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "You told your boss you love him. He *survived*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "STILL EMPLOYED",
+     "color": "#2FBF71"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay laughs. For the first time *all week*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He has a plan. But Nia blocked his *number*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "So the plan has no *phone*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Saturday, six p.m. Two places at *once*.",
+   "shot": {
+    "set": {
+     "type": "burst"
+    },
+    "cast": [],
+    "ui": {
+     "type": "card",
+     "text": "SATURDAY 6 PM",
+     "sub": "MOM'S DINNER  \u00b7  NIA'S PARTY",
+     "color": "#2F7BFF"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sam and Mom in one house. Nia in *another*.",
+   "shot": {
+    "set": {
+     "type": "street",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "mom",
+      "x": 0.2,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.0,
+      "depth": 0.5
+     },
+     {
+      "id": "sam",
+      "x": 0.45,
+      "pose": "wave",
+      "expr": "happy",
+      "scale": 1.0,
+      "depth": 0.5
+     },
+     {
+      "id": "friend",
+      "x": 0.8,
+      "pose": "idle",
+      "expr": "sad",
+      "scale": 1.0,
+      "depth": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay grabs his jacket. And then he *stops*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "shocked",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "hit"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "One problem. Autopilot just texted Sam: *dinner's cancelled*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "dinner's cancelled. love you, bye"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.3,
+     "y": 0.5
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow so you don't miss part seven.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

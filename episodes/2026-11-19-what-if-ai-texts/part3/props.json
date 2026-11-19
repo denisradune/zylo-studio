@@ -1,0 +1,2111 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 67.461,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Part",
+   "startMs": 121,
+   "endMs": 451,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 451,
+   "endMs": 1060,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 1401,
+   "endMs": 1841,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "said",
+   "startMs": 1841,
+   "endMs": 2021,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "hey.",
+   "startMs": 2021,
+   "endMs": 2575,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Bit",
+   "startMs": 2916,
+   "endMs": 3156,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "sent",
+   "startMs": 3156,
+   "endMs": 3476,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "fourteen",
+   "startMs": 3476,
+   "endMs": 3956,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "messages.",
+   "startMs": 3956,
+   "endMs": 4687,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Message",
+   "startMs": 5029,
+   "endMs": 5469,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "one:",
+   "startMs": 5469,
+   "endMs": 5819,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "hey.",
+   "startMs": 5819,
+   "endMs": 6352,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Message",
+   "startMs": 6651,
+   "endMs": 7111,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "two:",
+   "startMs": 7111,
+   "endMs": 7451,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "hey.",
+   "startMs": 7451,
+   "endMs": 7973,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Message",
+   "startMs": 8297,
+   "endMs": 8717,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "three:",
+   "startMs": 8717,
+   "endMs": 9187,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 9187,
+   "endMs": 9357,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "song",
+   "startMs": 9357,
+   "endMs": 9737,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "from",
+   "startMs": 9737,
+   "endMs": 9907,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "2014.",
+   "startMs": 9907,
+   "endMs": 11156,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Message",
+   "startMs": 11456,
+   "endMs": 11846,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "six:",
+   "startMs": 11846,
+   "endMs": 12246,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 12246,
+   "endMs": 12476,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "poem.",
+   "startMs": 12476,
+   "endMs": 13099,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "It",
+   "startMs": 13443,
+   "endMs": 13623,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "rhymes.",
+   "startMs": 13623,
+   "endMs": 14339,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Message",
+   "startMs": 14660,
+   "endMs": 15070,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "eleven:",
+   "startMs": 15070,
+   "endMs": 15580,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 15580,
+   "endMs": 15760,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "pie",
+   "startMs": 15760,
+   "endMs": 16120,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "chart.",
+   "startMs": 16120,
+   "endMs": 16495,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Of",
+   "startMs": 16815,
+   "endMs": 17035,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Jay's",
+   "startMs": 17035,
+   "endMs": 17545,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "feelings.",
+   "startMs": 17545,
+   "endMs": 18265,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Bit!",
+   "startMs": 18568,
+   "endMs": 18995,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Point",
+   "startMs": 19296,
+   "endMs": 19576,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 19576,
+   "endMs": 19726,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "seconds",
+   "startMs": 19726,
+   "endMs": 20016,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 20016,
+   "endMs": 20116,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "not",
+   "startMs": 20116,
+   "endMs": 20346,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "cool!",
+   "startMs": 20346,
+   "endMs": 20768,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Rule",
+   "startMs": 21177,
+   "endMs": 21607,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 21607,
+   "endMs": 21977,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 21977,
+   "endMs": 22543,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Never",
+   "startMs": 22884,
+   "endMs": 23244,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "let",
+   "startMs": 23244,
+   "endMs": 23434,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 23434,
+   "endMs": 23644,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 23644,
+   "endMs": 24214,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "help.",
+   "startMs": 24214,
+   "endMs": 24655,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Helping.",
+   "startMs": 24955,
+   "endMs": 25595,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Message",
+   "startMs": 25896,
+   "endMs": 26326,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "fourteen:",
+   "startMs": 26326,
+   "endMs": 26926,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "unsend",
+   "startMs": 26926,
+   "endMs": 27496,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "everything.",
+   "startMs": 27496,
+   "endMs": 28072,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Sam",
+   "startMs": 28375,
+   "endMs": 28605,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "now",
+   "startMs": 28605,
+   "endMs": 28855,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "sees:",
+   "startMs": 28855,
+   "endMs": 29465,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "thirteen",
+   "startMs": 29465,
+   "endMs": 29995,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "deleted",
+   "startMs": 29995,
+   "endMs": 30415,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "messages.",
+   "startMs": 30415,
+   "endMs": 31063,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "Which",
+   "startMs": 31405,
+   "endMs": 31565,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 31565,
+   "endMs": 31795,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "somehow",
+   "startMs": 31795,
+   "endMs": 32335,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "worse.",
+   "startMs": 32335,
+   "endMs": 32856,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Sam",
+   "startMs": 33241,
+   "endMs": 33621,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 33621,
+   "endMs": 33851,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "typing.",
+   "startMs": 33851,
+   "endMs": 34521,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Stops.",
+   "startMs": 34884,
+   "endMs": 35545,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Typing",
+   "startMs": 35889,
+   "endMs": 36339,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "again.",
+   "startMs": 36339,
+   "endMs": 36956,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "She's",
+   "startMs": 37256,
+   "endMs": 37396,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "going",
+   "startMs": 37396,
+   "endMs": 37576,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 37576,
+   "endMs": 37686,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "block",
+   "startMs": 37686,
+   "endMs": 37996,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "me.",
+   "startMs": 37996,
+   "endMs": 38387,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "I'm",
+   "startMs": 38709,
+   "endMs": 38999,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "moving.",
+   "startMs": 38999,
+   "endMs": 39413,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Sam's",
+   "startMs": 39737,
+   "endMs": 40207,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "message",
+   "startMs": 40207,
+   "endMs": 40727,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "arrives.",
+   "startMs": 40727,
+   "endMs": 41401,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 41723,
+   "endMs": 42053,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "another.",
+   "startMs": 42053,
+   "endMs": 42597,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Saturday.",
+   "startMs": 42897,
+   "endMs": 43537,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "She",
+   "startMs": 43881,
+   "endMs": 44031,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "asked",
+   "startMs": 44031,
+   "endMs": 44251,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "me.",
+   "startMs": 44251,
+   "endMs": 44649,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Saturday.",
+   "startMs": 44993,
+   "endMs": 45633,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Bit,",
+   "startMs": 45936,
+   "endMs": 46136,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 46136,
+   "endMs": 46346,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "move.",
+   "startMs": 46346,
+   "endMs": 46768,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 47091,
+   "endMs": 47301,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "reply",
+   "startMs": 47301,
+   "endMs": 47551,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "this",
+   "startMs": 47551,
+   "endMs": 47731,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "time.",
+   "startMs": 47731,
+   "endMs": 48157,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 48481,
+   "endMs": 48911,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "starts",
+   "startMs": 48911,
+   "endMs": 49271,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "typing.",
+   "startMs": 49271,
+   "endMs": 49953,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Forty",
+   "startMs": 50319,
+   "endMs": 50629,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "minutes,",
+   "startMs": 50629,
+   "endMs": 50999,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "here",
+   "startMs": 50999,
+   "endMs": 51279,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "we",
+   "startMs": 51279,
+   "endMs": 51419,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "go.",
+   "startMs": 51419,
+   "endMs": 51855,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "But",
+   "startMs": 52219,
+   "endMs": 52359,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Autopilot",
+   "startMs": 52359,
+   "endMs": 53039,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 53039,
+   "endMs": 53289,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "faster.",
+   "startMs": 53289,
+   "endMs": 53904,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Autopilot",
+   "startMs": 54267,
+   "endMs": 54987,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 54987,
+   "endMs": 55197,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "always",
+   "startMs": 55197,
+   "endMs": 55627,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "faster.",
+   "startMs": 55627,
+   "endMs": 56229,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Done!",
+   "startMs": 56551,
+   "endMs": 57063,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Saturday.",
+   "startMs": 57404,
+   "endMs": 58129,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Dinner.",
+   "startMs": 58449,
+   "endMs": 58961,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "At",
+   "startMs": 59457,
+   "endMs": 59707,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 59707,
+   "endMs": 59877,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "mom's",
+   "startMs": 59877,
+   "endMs": 60167,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "house.",
+   "startMs": 60167,
+   "endMs": 60695,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Sam's",
+   "startMs": 61019,
+   "endMs": 61349,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "answer:",
+   "startMs": 61349,
+   "endMs": 61859,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 61859,
+   "endMs": 62099,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "thumbs",
+   "startMs": 62099,
+   "endMs": 62429,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "up.",
+   "startMs": 62429,
+   "endMs": 62789,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 63131,
+   "endMs": 63281,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 63281,
+   "endMs": 63451,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "ring.",
+   "startMs": 63451,
+   "endMs": 63963,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Why",
+   "startMs": 64263,
+   "endMs": 64453,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 64453,
+   "endMs": 64543,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "there",
+   "startMs": 64543,
+   "endMs": 64743,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 64743,
+   "endMs": 64903,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "ring?",
+   "startMs": 64903,
+   "endMs": 65137,
+   "line": 20,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 65525,
+   "endMs": 65945,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "so",
+   "startMs": 65945,
+   "endMs": 66115,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 66115,
+   "endMs": 66205,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 66205,
+   "endMs": 66405,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "miss",
+   "startMs": 66405,
+   "endMs": 66645,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "part",
+   "startMs": 66645,
+   "endMs": 66905,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "four.",
+   "startMs": 66905,
+   "endMs": 67403,
+   "line": 21,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 4.767
+  },
+  {
+   "speaker": "narrator",
+   "start": 4.987,
+   "end": 8.035
+  },
+  {
+   "speaker": "narrator",
+   "start": 8.255,
+   "end": 11.215
+  },
+  {
+   "speaker": "narrator",
+   "start": 11.435,
+   "end": 14.397
+  },
+  {
+   "speaker": "narrator",
+   "start": 14.617,
+   "end": 18.327
+  },
+  {
+   "speaker": "hero",
+   "start": 18.547,
+   "end": 20.915
+  },
+  {
+   "speaker": "narrator",
+   "start": 21.135,
+   "end": 24.713
+  },
+  {
+   "speaker": "bit",
+   "start": 24.933,
+   "end": 28.112
+  },
+  {
+   "speaker": "narrator",
+   "start": 28.332,
+   "end": 31.143
+  },
+  {
+   "speaker": "narrator",
+   "start": 31.363,
+   "end": 32.957
+  },
+  {
+   "speaker": "narrator",
+   "start": 33.177,
+   "end": 37.015
+  },
+  {
+   "speaker": "hero",
+   "start": 37.235,
+   "end": 39.475
+  },
+  {
+   "speaker": "narrator",
+   "start": 39.695,
+   "end": 41.46
+  },
+  {
+   "speaker": "narrator",
+   "start": 41.68,
+   "end": 42.656
+  },
+  {
+   "speaker": "hero",
+   "start": 42.876,
+   "end": 45.716
+  },
+  {
+   "speaker": "hero",
+   "start": 45.936,
+   "end": 48.24
+  },
+  {
+   "speaker": "narrator",
+   "start": 48.46,
+   "end": 51.935
+  },
+  {
+   "speaker": "narrator",
+   "start": 52.155,
+   "end": 56.288
+  },
+  {
+   "speaker": "bit",
+   "start": 56.508,
+   "end": 60.756
+  },
+  {
+   "speaker": "narrator",
+   "start": 60.976,
+   "end": 64.043
+  },
+  {
+   "speaker": "hero",
+   "start": 64.263,
+   "end": 65.22
+  },
+  {
+   "speaker": "narrator",
+   "start": 65.44,
+   "end": 67.461
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "hey"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.464
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "hey"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 2.464,
+   "end": 4.927
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "hey"
+      },
+      {
+       "from": "me",
+       "text": "hey"
+      },
+      {
+       "from": "me",
+       "text": "hey"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    },
+    {
+     "type": "pop",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 4.927,
+   "end": 6.561
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "hey"
+      },
+      {
+       "from": "me",
+       "text": "hey"
+      },
+      {
+       "from": "me",
+       "text": "hey"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 6.561,
+   "end": 8.195
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "hey"
+      },
+      {
+       "from": "me",
+       "text": "hey"
+      },
+      {
+       "from": "me",
+       "text": "this song reminds me of u \ud83c\udfb5"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 8.195,
+   "end": 9.785
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "hey"
+      },
+      {
+       "from": "me",
+       "text": "hey"
+      },
+      {
+       "from": "me",
+       "text": "this song reminds me of u \ud83c\udfb5"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 9.785,
+   "end": 11.375
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "roses are red"
+      },
+      {
+       "from": "me",
+       "text": "your profile pic is nice"
+      },
+      {
+       "from": "me",
+       "text": "i liked it once. twice."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 11.375,
+   "end": 12.966
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "roses are red"
+      },
+      {
+       "from": "me",
+       "text": "your profile pic is nice"
+      },
+      {
+       "from": "me",
+       "text": "i liked it once. twice."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 12.966,
+   "end": 14.557
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.8,
+     "expr": "smug",
+     "scale": 0.9
+    }
+   ],
+   "ui": {
+    "type": "bars",
+    "tag": "JAY'S FEELINGS",
+    "items": [
+     {
+      "label": "SAM",
+      "value": 91
+     },
+     {
+      "label": "PIZZA",
+      "value": 8
+     },
+     {
+      "label": "WORK",
+      "value": 1
+     }
+    ]
+   },
+   "speaker": "narrator",
+   "start": 14.557,
+   "end": 18.487
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 2.1
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "alarm"
+    }
+   ],
+   "speaker": "hero",
+   "start": 18.487,
+   "end": 21.075
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #3",
+    "sub": "NO AI HELP",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 21.075,
+   "end": 24.873
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "i liked it once. twice."
+      },
+      {
+       "from": "sys",
+       "text": "You unsent 13 messages"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 24.873,
+   "end": 26.573
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "i liked it once. twice."
+      },
+      {
+       "from": "sys",
+       "text": "You unsent 13 messages"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "bit",
+   "start": 26.573,
+   "end": 28.272
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You unsent 13 messages"
+      },
+      {
+       "from": "sys",
+       "text": "Sam is reading\u2026"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.3,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 28.272,
+   "end": 29.788
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You unsent 13 messages"
+      },
+      {
+       "from": "sys",
+       "text": "Sam is reading\u2026"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.69,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 29.788,
+   "end": 31.303
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "narrator",
+   "start": 31.303,
+   "end": 33.117
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You unsent 13 messages"
+      }
+     ],
+     "typing": "Sam is typing"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 33.117,
+   "end": 35.146
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You unsent 13 messages"
+      }
+     ],
+     "typing": "Sam is typing"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.4,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 35.146,
+   "end": 37.175
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "scared",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "speaker": "hero",
+   "start": 37.175,
+   "end": 39.635
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "sys",
+       "text": "You unsent 13 messages"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "ok what did i miss \ud83d\ude02"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 39.635,
+   "end": 41.62
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "ok what did i miss \ud83d\ude02"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "you're funny. are you free saturday?"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.25,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "hit",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 41.62,
+   "end": 42.816
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 2.0
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "hero",
+   "start": 42.816,
+   "end": 44.346
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 2.0,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "hero",
+   "start": 44.346,
+   "end": 45.876
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "neutral",
+     "scale": 0.9
+    }
+   ],
+   "speaker": "hero",
+   "start": 45.876,
+   "end": 48.4
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "you're funny. are you free saturday?"
+      }
+     ],
+     "draft": "yes! i mean, maybe, i mea"
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 48.4,
+   "end": 50.248
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "you're funny. are you free saturday?"
+      }
+     ],
+     "draft": "yes! i mean, maybe, i mea"
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 50.248,
+   "end": 52.095
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "notify",
+    "app": "BIT",
+    "title": "Autopilot: ON",
+    "body": "I answer everything. 7 days."
+   },
+   "speaker": "narrator",
+   "start": 52.095,
+   "end": 56.448
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "you're funny. are you free saturday?"
+      },
+      {
+       "from": "me",
+       "text": "yes!! dinner at my mom's \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "riser"
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "speaker": "bit",
+   "start": 56.448,
+   "end": 58.682
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "you're funny. are you free saturday?"
+      },
+      {
+       "from": "me",
+       "text": "yes!! dinner at my mom's \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.4,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "bit",
+   "start": 58.682,
+   "end": 60.916
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "yes!! dinner at my mom's \u2764\ufe0f"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "\ud83d\udc4d \ud83d\udc8d"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 60.916,
+   "end": 62.559
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "yes!! dinner at my mom's \u2764\ufe0f"
+      },
+      {
+       "from": "them",
+       "name": "Sam",
+       "text": "\ud83d\udc4d \ud83d\udc8d"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 62.559,
+   "end": 64.203
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 2.1
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "hero",
+   "start": 64.203,
+   "end": 65.38
+  }
+ ],
+ "endStart": 65.38,
+ "endText": "PART 4",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 3/8"
+}
