@@ -74,3 +74,5 @@
 | 70 | 2026-11-21 | What If the Comet Pills Were Fake? ☄️ Part 3 #shorts | what-if: disaster (real history) (part3) | sources.md | https://youtube.com/shorts/SaIDkeGvXCo |
 | 71 | 2026-11-21 | What If the Price Was One Cent? 🛒 Part 8 #shorts | what-if: money (part8) | sources.md | https://youtube.com/shorts/mXX__kABCrk |
 | 72 | 2026-11-21 | What If Your Town Printed Its Own Money? 💸 Part 6 #shorts | what-if: money (part6) | sources.md | https://youtube.com/shorts/gIiz-1PPIYo |
+| 73 | 2026-11-19 | What If Your AI Texted for You? 📱 Part 1 #shorts | what-if: comedy (everyday cringe) (part1) | sources.md | https://youtube.com/shorts/AtWWZ3weWRM |
+| 74 | 2026-11-21 | What If Your AI Texted Your Boss? 📱 Part 2 #shorts | what-if: comedy (everyday cringe) (part2) | sources.md | https://youtube.com/shorts/LcTdEKWWAFE |
