@@ -56,7 +56,7 @@ def main():
     s = json.loads((root / 'series.json').read_text())
     parts = s['parts']
     n = len(parts)
-    base = {k: s[k] for k in ('mood', 'names') if k in s}
+    base = {k: s[k] for k in ('mood', 'names', 'look') if k in s}
 
     if not a.full_only:
         wanted = [int(x) for x in a.parts.split(',')] if a.parts else range(1, n + 1)

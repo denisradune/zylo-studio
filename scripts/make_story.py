@@ -72,7 +72,7 @@ def stage_props(d: Path, ep: dict) -> None:
     for i, line in enumerate(lines[:-1]):
         a, b = starts[i], starts[i + 1]
         parts = line.get('shots') or [line['shot']]
-        if len(parts) == 1 and b - a > 3.0 and not line['shot'].get('ui') and not any('moveTo' in c for c in line['shot'].get('cast', [])):
+        if len(parts) == 1 and b - a > 3.0 and not line['shot'].get('ui') and not line['shot'].get('screen') and not any('moveTo' in c for c in line['shot'].get('cast', [])):
             # Long line: punch in on the same shot halfway, so the picture changes every ~2 s.
             sh = line['shot']
             cam = sh.get('camera', {})
@@ -102,6 +102,9 @@ def stage_props(d: Path, ep: dict) -> None:
         props['partLabel'] = ep['partLabel']
     if ep.get('split'):
         props['split'] = ep['split']
+    if ep.get('look'):
+        # 'tips': pixel-art desk studio, monitor graphics, small top captions (owner's reference 2026-11-19).
+        props['look'] = ep['look']
     if ep.get('chapters'):
         # chapters: [{"line": index of the part's first line, "label": "PART 2", "title": "..."}]
         props['chapters'] = [{'start': round(starts[c['line']], 3), 'label': c['label'], 'title': c['title']} for c in ep['chapters']]

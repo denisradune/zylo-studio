@@ -8,6 +8,8 @@ import { FxLayer, shakeAt } from '../../zylo-shared/toon/Fx';
 import type { CastMember, Shot, StoryProps, StoryWord } from '../../zylo-shared/toon/types';
 import { UiLayer } from '../../zylo-shared/toon/Ui';
 import { SatisfyingPanel } from '../../zylo-shared/toon/Satisfying';
+import { PixelFilter } from '../../zylo-shared/toon/Den';
+import { MonitorLayer } from '../../zylo-shared/toon/Monitor';
 
 /** Split-screen: the top half shows this window of the 1080x1920 scene (heads to floor). */
 const SPLIT_Y = 510;
@@ -71,7 +73,7 @@ const Actor: React.FC<{ m: CastMember; f: number; dur: number; t: number; frame:
   );
 };
 
-const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: StoryProps['lines']; split?: boolean }> = ({ shot, dur, words, lines, split }) => {
+const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: StoryProps['lines']; split?: boolean; tips?: boolean }> = ({ shot, dur, words, lines, split, tips }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = shot.start + f / fps;
@@ -111,10 +113,20 @@ const ShotView: React.FC<{ shot: Shot; dur: number; words: StoryWord[]; lines: S
       <AbsoluteFill style={{ transform: `translateX(${whip * -160}px)`, filter: whip > 0.05 ? `blur(${whip * 18}px)` : undefined }}>
         <svg viewBox={split ? `0 ${winY} ${W} ${HALF}` : `0 0 ${W} ${H}`} width="100%" height="100%">
           <g transform={`translate(${sh.x} ${sh.y}) translate(${fx * W} ${fy * H}) scale(${zoom}) translate(${-fx * W} ${-fy * H})`}>
-            <SetPiece spec={shot.set} t={frame} f={f} />
-            {ordered.map((m, i) => (
-              <Actor key={i} m={m} f={f} dur={dur} t={t} frame={frame} words={words} lines={lines} fps={fps} />
-            ))}
+            {tips && (
+              <defs>
+                <PixelFilter />
+              </defs>
+            )}
+            <g filter={tips ? 'url(#px)' : undefined}>
+              <SetPiece spec={shot.set} t={frame} f={f} />
+            </g>
+            {shot.screen && <MonitorLayer screen={shot.screen} f={f} fps={fps} dur={dur} />}
+            <g filter={tips ? 'url(#px)' : undefined}>
+              {ordered.map((m, i) => (
+                <Actor key={i} m={m} f={f} dur={dur} t={t} frame={frame} words={words} lines={lines} fps={fps} />
+              ))}
+            </g>
             <FxLayer fx={shot.fx ?? []} f={f} fps={fps} />
           </g>
         </svg>
@@ -211,6 +223,44 @@ const StoryCaptions: React.FC<{ words: StoryWord[]; lines: StoryProps['lines']; 
             </span>
           );
         })}
+      </div>
+    </div>
+  );
+};
+
+/** Tips look: one short phrase at a time in a small yellow pill above the monitor (reference style). */
+const TipsCaptions: React.FC<{ words: StoryWord[]; hideFrom: number }> = ({ words, hideFrom }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const ps = useMemo(() => pages(words), [words]);
+  const ms = (frame / fps) * 1000;
+  if (ms >= hideFrom * 1000) return null;
+  const p = ps.find((x) => ms >= x.start && ms < x.end);
+  if (!p) return null;
+  const k = interpolate(ms - p.start, [0, 90], [0.85, 1], clamp);
+  return (
+    <div style={{ position: 'absolute', left: 0, right: 0, top: 178, display: 'flex', justifyContent: 'center' }}>
+      <div
+        style={{
+          transform: `scale(${k})`,
+          padding: '12px 30px',
+          borderRadius: 18,
+          background: '#FFD400',
+          border: `5px solid ${INK}`,
+          boxShadow: `0 7px 0 ${INK}`,
+          fontFamily: brand.body,
+          fontWeight: 900,
+          fontSize: 54,
+          color: INK,
+          maxWidth: 900,
+          textAlign: 'center',
+        }}
+      >
+        {p.words.map((w, i) => (
+          <span key={i} style={{ opacity: ms >= w.startMs - 40 ? 1 : 0.25, color: w.emph ? '#C8102E' : INK }}>
+            {(i ? ' ' : '') + w.text}
+          </span>
+        ))}
       </div>
     </div>
   );
@@ -322,7 +372,7 @@ export const ZyloToon: React.FC<StoryProps> = (props) => {
     const dur = Math.max(1, Math.round(s.end * fps) - from);
     return (
       <Sequence key={i} from={from} durationInFrames={dur}>
-        <ShotView shot={s} dur={dur} words={props.words} lines={props.lines} split={split} />
+        <ShotView shot={s} dur={dur} words={props.words} lines={props.lines} split={split} tips={props.look === 'tips'} />
         {(s.sfx ?? []).map((e, k) => (
           <Sequence key={k} from={Math.round((e.at ?? 0) * fps)} layout="none">
             <Audio src={staticFile(`sfx/${e.type}.wav`)} volume={e.volume ?? 0.55} />
@@ -357,7 +407,11 @@ export const ZyloToon: React.FC<StoryProps> = (props) => {
         </Sequence>
       ))}
       {props.partLabel && <PartBadge label={props.partLabel} hideFrom={endFrame} />}
-      <StoryCaptions words={props.words} lines={props.lines} names={props.names ?? {}} hideFrom={props.endStart + 99} split={split} />
+      {props.look === 'tips' ? (
+        <TipsCaptions words={props.words} hideFrom={props.endStart} />
+      ) : (
+        <StoryCaptions words={props.words} lines={props.lines} names={props.names ?? {}} hideFrom={props.endStart + 99} split={split} />
+      )}
       <Audio src={staticFile(props.voiceover)} />
       {props.music && (
         <Audio

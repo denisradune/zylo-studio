@@ -2,6 +2,7 @@ import type { BitExpr, Expr, Pose } from './Character';
 import type { SetSpec } from './Backgrounds';
 import type { FxSpec } from './Fx';
 import type { UiSpec } from './Ui';
+import type { MonitorScreen } from './Monitor';
 
 export type CastMember = {
   /** A key of LOOKS (hero, friend, boss, zombie, ...) or 'bit' for the AI. */
@@ -36,6 +37,8 @@ export type Shot = {
   cast: CastMember[];
   fx?: FxSpec[];
   ui?: UiSpec;
+  /** desk set: what the monitor shows (Monitor.tsx). */
+  screen?: MonitorScreen;
   camera?: { zoom?: number; x?: number; y?: number; push?: number; shake?: number };
   transition?: 'cut' | 'flash' | 'whip';
   /** Sound effects from brand/sfx, `at` seconds into the shot. */
@@ -66,4 +69,6 @@ export type StoryProps = {
   split?: { kind: 'press' | 'sand' | 'marbles' | 'video'; seed?: number; src?: string };
   /** Full-length version: a chapter card at the start of each part after the first. */
   chapters?: { start: number; label: string; title: string }[];
+  /** 'tips': pixel-art look, monitor graphics, small top captions without speaker tags. */
+  look?: 'tips';
 };
