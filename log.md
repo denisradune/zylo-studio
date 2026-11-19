@@ -67,3 +67,10 @@
 | 63 | 2026-11-19 | What If Everyone Bought Comet Pills? ☄️ Part 2 #shorts | what-if: disaster (real history) (part2) | sources.md | https://youtube.com/shorts/g8SZ89vjwI0 |
 | 64 | 2026-11-18 | What If You Liked Your Crush's 2019 Photo? 😳 #shorts | what-if: comedy (everyday cringe) (part1) | original fiction | https://youtube.com/shorts/VyDaQabsHyY |
 | 65 | 2026-11-20 | What If the Zombies Came Back? Season 2 (Full Story) | what-if: disaster (full) | sources.md | https://youtu.be/RgcKpcC2S-I |
+| 66 | 2026-11-19 | What If Your Voice Message Wouldn't Stop? 🎤 #shorts | what-if: comedy (everyday cringe) (part1) | original fiction | https://youtube.com/shorts/58mKaR6Q6BE |
+| 67 | 2026-11-21 | What If a Dead Telegraph Came Alive? ☀️ Part 5 #shorts | what-if: disaster (real history) (part5) | sources.md | https://youtube.com/shorts/Wwg4vTQBOfU |
+| 68 | 2026-11-21 | What If a City Needed a Million Bowls? 🌞 Part 7 #shorts | what-if: sci-fi (real nature) (part7) | sources.md | https://youtube.com/shorts/L0dMufbXKxk |
+| 69 | 2026-11-21 | What If Nobody Heard the Warning? 🌋 Part 4 #shorts | what-if: disaster (real history) (part4) | sources.md | https://youtube.com/shorts/8iuNLquuhME |
+| 70 | 2026-11-21 | What If the Comet Pills Were Fake? ☄️ Part 3 #shorts | what-if: disaster (real history) (part3) | sources.md | https://youtube.com/shorts/SaIDkeGvXCo |
+| 71 | 2026-11-21 | What If the Price Was One Cent? 🛒 Part 8 #shorts | what-if: money (part8) | sources.md | https://youtube.com/shorts/mXX__kABCrk |
+| 72 | 2026-11-21 | What If Your Town Printed Its Own Money? 💸 Part 6 #shorts | what-if: money (part6) | sources.md | https://youtube.com/shorts/gIiz-1PPIYo |
