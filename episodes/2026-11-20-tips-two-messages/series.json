@@ -52,17 +52,17 @@
       "cast": [
        {
         "id": "hero",
-        "x": 0.13,
+        "x": 0.12,
         "pose": "sit",
         "expr": "neutral",
-        "scale": 0.95
+        "scale": 1.45
        },
        {
         "id": "bit",
         "x": 0.5,
         "expr": "smug",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -89,8 +89,8 @@
         "id": "bit",
         "x": 0.5,
         "expr": "neutral",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -117,8 +117,8 @@
         "id": "bit",
         "x": 0.5,
         "expr": "sad",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -164,17 +164,17 @@
       "cast": [
        {
         "id": "hero",
-        "x": 0.13,
+        "x": 0.12,
         "pose": "sit",
         "expr": "neutral",
-        "scale": 0.95
+        "scale": 1.45
        },
        {
         "id": "bit",
         "x": 0.5,
         "expr": "happy",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -201,8 +201,8 @@
         "id": "bit",
         "x": 0.5,
         "expr": "neutral",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -229,8 +229,8 @@
         "id": "bit",
         "x": 0.5,
         "expr": "think",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -257,8 +257,8 @@
         "id": "bit",
         "x": 0.5,
         "expr": "happy",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -303,17 +303,17 @@
       "cast": [
        {
         "id": "hero",
-        "x": 0.13,
+        "x": 0.12,
         "pose": "sit",
         "expr": "shocked",
-        "scale": 0.95
+        "scale": 1.45
        },
        {
         "id": "bit",
         "x": 0.5,
         "expr": "smug",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -339,8 +339,8 @@
         "id": "bit",
         "x": 0.5,
         "expr": "think",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -368,8 +368,8 @@
         "id": "bit",
         "x": 0.5,
         "expr": "happy",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -422,17 +422,17 @@
       "cast": [
        {
         "id": "hero",
-        "x": 0.13,
+        "x": 0.12,
         "pose": "sit",
         "expr": "neutral",
-        "scale": 0.95
+        "scale": 1.45
        },
        {
         "id": "bit",
         "x": 0.5,
         "expr": "neutral",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -496,8 +496,8 @@
         "id": "bit",
         "x": 0.5,
         "expr": "smug",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {
@@ -543,17 +543,17 @@
       "cast": [
        {
         "id": "hero",
-        "x": 0.13,
+        "x": 0.12,
         "pose": "sit",
         "expr": "happy",
-        "scale": 0.95
+        "scale": 1.45
        },
        {
         "id": "bit",
         "x": 0.5,
         "expr": "happy",
-        "scale": 1.2,
-        "lift": -186
+        "scale": 1.65,
+        "lift": -312
        }
       ],
       "screen": {

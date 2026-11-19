@@ -12,8 +12,8 @@ def L(sp, say, set_, cast=(), **kw):
     shot.update(kw)
     return {"speaker": sp, "say": say, "shot": shot}
 WIDE = {"type": "desk"}; CLOSE = {"type": "desk", "view": "close"}
-def bit(expr="neutral", s=1.2): return {"id": "bit", "x": .5, "expr": expr, "scale": s, "lift": -int(1330 + 280 * s - 1480)}
-def jay(expr="neutral", pose="sit"): return {"id": "hero", "x": .13, "pose": pose, "expr": expr, "scale": .95}
+def bit(expr="neutral", s=1.65): return {"id": "bit", "x": .5, "expr": expr, "scale": s, "lift": -int(1330 + 280 * s - 1480)}
+def jay(expr="neutral", pose="sit"): return {"id": "hero", "x": .12, "pose": pose, "expr": expr, "scale": 1.45}
 def face(expr="neutral", pose="idle", x=.5): return {"id": "hero", "x": x, "pose": pose, "expr": expr, "scale": 3.4, "lift": -950}
 def W(screen, expr="neutral", jexpr=None, **kw):
     cast = ([jay(jexpr)] if jexpr else []) + [bit(expr)]

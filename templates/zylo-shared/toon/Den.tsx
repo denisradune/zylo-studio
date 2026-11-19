@@ -152,7 +152,7 @@ export const DenSet: React.FC<{ t: number; view?: 'wide' | 'close' | 'screen' }>
  * Chunky-pixel look over vector art: sample one pixel per BLOCK and dilate it to a block.
  * Applied to the set and cast; monitor graphics and captions stay crisp.
  */
-export const PIXEL = 6;
+export const PIXEL = 8;
 export const PixelFilter: React.FC<{ id?: string; size?: number }> = ({ id = 'px', size = PIXEL }) => (
   <filter id={id} x={0} y={0} width={DW} height={DH} filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
     <feFlood x={size / 2} y={size / 2} width={1} height={1} />
