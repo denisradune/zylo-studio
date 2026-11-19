@@ -322,7 +322,7 @@
       "x": 0.5,
       "pose": "facepalm",
       "expr": "sad",
-      "scale": 2.0
+      "scale": 1.4
      }
     ],
     "ui": {
@@ -344,10 +344,10 @@
     "cast": [
      {
       "id": "mom",
-      "x": 0.5,
+      "x": 0.25,
       "pose": "point",
       "expr": "grin",
-      "scale": 1.6
+      "scale": 1.2
      }
     ],
     "ui": {
@@ -429,7 +429,7 @@
       "x": 0.5,
       "pose": "facepalm",
       "expr": "sad",
-      "scale": 1.8
+      "scale": 1.3
      }
     ],
     "ui": {

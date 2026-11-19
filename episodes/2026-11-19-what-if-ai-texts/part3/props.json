@@ -1393,15 +1393,15 @@
     "items": [
      {
       "label": "SAM",
-      "value": 91
+      "value": 0.91
      },
      {
       "label": "PIZZA",
-      "value": 8
+      "value": 0.08
      },
      {
       "label": "WORK",
-      "value": 1
+      "value": 0.01
      }
     ]
    },
