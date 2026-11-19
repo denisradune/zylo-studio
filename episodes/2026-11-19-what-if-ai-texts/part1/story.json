@@ -1,0 +1,593 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "title": "What If Your AI Texted for You for a Week? (Part 1)",
+ "seed": 6601,
+ "partLabel": "PART 1/8",
+ "end": {
+  "text": "PART 2",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "What if your AI texted *for you* all week?",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "kind": "lock",
+      "clock": "07:00",
+      "sub": "Monday",
+      "notes": [
+       {
+        "app": "MESSAGES",
+        "text": "214 unread messages"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     },
+     {
+      "type": "riser",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Monday. Jay has two hundred fourteen *unread messages*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 1,
+     "to": 214,
+     "label": "UNREAD"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "The work chat. The family chat. *Mom*. Sam.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Sam. The person Jay *likes*. Since September.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "dusk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "SAM",
+     "sub": "CRUSH SINCE SEPTEMBER",
+     "color": "#2F7BFF"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Every text to Sam takes Jay *forty minutes*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "40:00"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "I type. I delete. I *panic*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [],
+      "draft": "hey haha so um what"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Let me help. I learned *your style*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "shrug",
+      "expr": "neutral",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "smug",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Nine years of your texts. Every *haha*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 0,
+     "to": 31406,
+     "label": "HAHAS ANALYSED"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit offers *Autopilot*. He answers everything. Seven days.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.5
+     }
+    ],
+    "ui": {
+     "type": "notify",
+     "app": "BIT",
+     "title": "Autopilot: ON",
+     "body": "I answer everything. 7 days."
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number one. Read the *terms*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #1",
+     "sub": "READ THE TERMS",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay doesn't. Jay taps *yes*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "grin",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "At first? It's *magic*.",
+   "shot": {
+    "set": {
+     "type": "burst"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "grin",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Grandpa gets a *birthday* wish. On time.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "FAMILY \ud83c\udfe0",
+      "sub": "Mom, Dad, Grandpa, Sam, You",
+      "clock": "22:10",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "happy birthday grandpa!! \ud83c\udf89"
+       },
+       {
+        "from": "them",
+        "name": "Grandpa",
+        "text": "WHO IS THIS"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Mom gets *I love you*. Before she asks.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Mom \u2764\ufe0f",
+      "sub": "online",
+      "clock": "07:05",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Mom \u2764\ufe0f",
+        "text": "Did you eat?"
+       },
+       {
+        "from": "me",
+        "text": "yes. love you mom \u2764\ufe0f"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Two hundred fourteen messages. Answered in *one minute*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 1.8
+     }
+    ],
+    "ui": {
+     "type": "counter",
+     "from": 214,
+     "to": 0,
+     "label": "UNREAD"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, you're a *genius*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "grin",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "happy",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "I know. Your boss just messaged. *Done*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay checks the work chat. Forty-eight *people*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "09:12",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Mr. Brant",
+        "text": "Report by Friday please."
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit's reply is already *there*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "09:12",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Mr. Brant",
+        "text": "Report by Friday please."
+       },
+       {
+        "from": "me",
+        "text": "ok. love you, bye \u2764\ufe0f"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.3,
+     "y": 0.5
+    },
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. Why did you say *love you*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "panic",
+      "expr": "shocked",
+      "scale": 2.1
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Your style. You say it to *everyone*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "SENT"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow so you don't miss part two.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

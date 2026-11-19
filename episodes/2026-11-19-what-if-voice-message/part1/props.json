@@ -1,0 +1,2064 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 67.692,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "What",
+   "startMs": 143,
+   "endMs": 403,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 403,
+   "endMs": 483,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 483,
+   "endMs": 663,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "voice",
+   "startMs": 663,
+   "endMs": 1003,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "message",
+   "startMs": 1003,
+   "endMs": 1443,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "wouldn't",
+   "startMs": 1443,
+   "endMs": 1753,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "stop?",
+   "startMs": 1753,
+   "endMs": 2212,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "You",
+   "startMs": 2640,
+   "endMs": 2920,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "hold",
+   "startMs": 2920,
+   "endMs": 3230,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 3230,
+   "endMs": 3350,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "mic.",
+   "startMs": 3350,
+   "endMs": 3813,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Quick",
+   "startMs": 4176,
+   "endMs": 4436,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "question",
+   "startMs": 4436,
+   "endMs": 5006,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 5006,
+   "endMs": 5146,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 5146,
+   "endMs": 5256,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "neighbors.",
+   "startMs": 5256,
+   "endMs": 5861,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Hi,",
+   "startMs": 6183,
+   "endMs": 6403,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 6403,
+   "endMs": 6523,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 6523,
+   "endMs": 6623,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "water",
+   "startMs": 6623,
+   "endMs": 6963,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "off",
+   "startMs": 6963,
+   "endMs": 7043,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "all",
+   "startMs": 7043,
+   "endMs": 7243,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "day?",
+   "startMs": 7243,
+   "endMs": 7591,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 8000,
+   "endMs": 8200,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 8200,
+   "endMs": 8320,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "phone",
+   "startMs": 8320,
+   "endMs": 8730,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "slides",
+   "startMs": 8730,
+   "endMs": 9230,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "into",
+   "startMs": 9230,
+   "endMs": 9430,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 9430,
+   "endMs": 9640,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "pocket.",
+   "startMs": 9640,
+   "endMs": 10155,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Still",
+   "startMs": 10433,
+   "endMs": 10863,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "recording.",
+   "startMs": 10863,
+   "endMs": 11671,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "You",
+   "startMs": 12016,
+   "endMs": 12166,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "complain",
+   "startMs": 12166,
+   "endMs": 12716,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "about",
+   "startMs": 12716,
+   "endMs": 12936,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 12936,
+   "endMs": 13036,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "drummer",
+   "startMs": 13036,
+   "endMs": 13456,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 13456,
+   "endMs": 13656,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "5A.",
+   "startMs": 13656,
+   "endMs": 14363,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "You",
+   "startMs": 14663,
+   "endMs": 14903,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "sing",
+   "startMs": 14903,
+   "endMs": 15173,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 15173,
+   "endMs": 15313,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 15313,
+   "endMs": 15403,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "shower.",
+   "startMs": 15403,
+   "endMs": 16049,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Loud.",
+   "startMs": 16391,
+   "endMs": 17052,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Badly.",
+   "startMs": 17415,
+   "endMs": 18076,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Bit",
+   "startMs": 18376,
+   "endMs": 18616,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "narrates",
+   "startMs": 18616,
+   "endMs": 19146,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 19146,
+   "endMs": 19356,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "pasta.",
+   "startMs": 19356,
+   "endMs": 20040,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "You",
+   "startMs": 20364,
+   "endMs": 20584,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "lift",
+   "startMs": 20584,
+   "endMs": 20914,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 20914,
+   "endMs": 21054,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "phone.",
+   "startMs": 21054,
+   "endMs": 21644,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Nine",
+   "startMs": 21985,
+   "endMs": 22425,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "minutes.",
+   "startMs": 22425,
+   "endMs": 22945,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Sent.",
+   "startMs": 23351,
+   "endMs": 23905,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 24227,
+   "endMs": 24617,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 24617,
+   "endMs": 25017,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 25017,
+   "endMs": 25464,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Delete",
+   "startMs": 25827,
+   "endMs": 26267,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "for",
+   "startMs": 26267,
+   "endMs": 26487,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "everyone.",
+   "startMs": 26487,
+   "endMs": 27171,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Your",
+   "startMs": 27492,
+   "endMs": 27752,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "thumb",
+   "startMs": 27752,
+   "endMs": 28062,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "hits",
+   "startMs": 28062,
+   "endMs": 28332,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "play",
+   "startMs": 28332,
+   "endMs": 28592,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "instead.",
+   "startMs": 28592,
+   "endMs": 29284,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Volume",
+   "startMs": 29604,
+   "endMs": 30204,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "max.",
+   "startMs": 30204,
+   "endMs": 30756,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Played",
+   "startMs": 31077,
+   "endMs": 31467,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "by",
+   "startMs": 31467,
+   "endMs": 31707,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 31707,
+   "endMs": 32165,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Played",
+   "startMs": 32507,
+   "endMs": 32867,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "by",
+   "startMs": 32867,
+   "endMs": 33137,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "nineteen.",
+   "startMs": 33137,
+   "endMs": 33851,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 34193,
+   "endMs": 34623,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 34623,
+   "endMs": 35013,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 35013,
+   "endMs": 35559,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Pretend",
+   "startMs": 35857,
+   "endMs": 36467,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 36467,
+   "endMs": 36637,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "moved",
+   "startMs": 36637,
+   "endMs": 37027,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "out.",
+   "startMs": 37027,
+   "endMs": 37329,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Rule",
+   "startMs": 37632,
+   "endMs": 38062,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 38062,
+   "endMs": 38432,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 38432,
+   "endMs": 38997,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Never",
+   "startMs": 39339,
+   "endMs": 39699,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "let",
+   "startMs": 39699,
+   "endMs": 39889,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 39889,
+   "endMs": 40099,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 40099,
+   "endMs": 40669,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "help.",
+   "startMs": 40669,
+   "endMs": 41109,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "I",
+   "startMs": 41409,
+   "endMs": 41619,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "added",
+   "startMs": 41619,
+   "endMs": 41999,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "subtitles.",
+   "startMs": 41999,
+   "endMs": 42860,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "For",
+   "startMs": 43183,
+   "endMs": 43333,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "accessibility.",
+   "startMs": 43333,
+   "endMs": 44356,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 44680,
+   "endMs": 44960,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "5A",
+   "startMs": 44960,
+   "endMs": 45580,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "starts",
+   "startMs": 45580,
+   "endMs": 45950,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "typing.",
+   "startMs": 45950,
+   "endMs": 46579,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "He's",
+   "startMs": 46857,
+   "endMs": 47047,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "coming",
+   "startMs": 47047,
+   "endMs": 47367,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "up.",
+   "startMs": 47367,
+   "endMs": 47668,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "With",
+   "startMs": 47969,
+   "endMs": 48149,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "drumsticks.",
+   "startMs": 48149,
+   "endMs": 48780,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Kev's",
+   "startMs": 49104,
+   "endMs": 49494,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "message",
+   "startMs": 49494,
+   "endMs": 50024,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "arrives.",
+   "startMs": 50024,
+   "endMs": 50683,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 51049,
+   "endMs": 51399,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Mrs.",
+   "startMs": 51399,
+   "endMs": 51945,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Rose.",
+   "startMs": 52329,
+   "endMs": 53012,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 53353,
+   "endMs": 53663,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "twelve",
+   "startMs": 53663,
+   "endMs": 54093,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "more.",
+   "startMs": 54093,
+   "endMs": 54591,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "Kev",
+   "startMs": 54912,
+   "endMs": 55262,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "needs",
+   "startMs": 55262,
+   "endMs": 55672,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 55672,
+   "endMs": 55782,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "singer.",
+   "startMs": 55782,
+   "endMs": 56277,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "His",
+   "startMs": 56619,
+   "endMs": 56829,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "band",
+   "startMs": 56829,
+   "endMs": 57229,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "plays",
+   "startMs": 57229,
+   "endMs": 57559,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "Friday.",
+   "startMs": 57559,
+   "endMs": 58176,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Friday.",
+   "startMs": 58519,
+   "endMs": 59265,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "Rooftop.",
+   "startMs": 59564,
+   "endMs": 60375,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "Sixty-four",
+   "startMs": 60804,
+   "endMs": 61574,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "neighbors.",
+   "startMs": 61574,
+   "endMs": 62233,
+   "line": 20,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 62555,
+   "endMs": 62725,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "band's",
+   "startMs": 62725,
+   "endMs": 63165,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "name?",
+   "startMs": 63165,
+   "endMs": 63749,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 64133,
+   "endMs": 64293,
+   "line": 21,
+   "emph": true
+  },
+  {
+   "text": "Water",
+   "startMs": 64293,
+   "endMs": 64683,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "Is",
+   "startMs": 64683,
+   "endMs": 64993,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "Off.",
+   "startMs": 64993,
+   "endMs": 65243,
+   "line": 21,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 65628,
+   "endMs": 65988,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 65988,
+   "endMs": 66218,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 66218,
+   "endMs": 66338,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 66338,
+   "endMs": 66638,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "What",
+   "startMs": 66638,
+   "endMs": 66788,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 66788,
+   "endMs": 66978,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 66978,
+   "endMs": 67268,
+   "line": 22,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 67268,
+   "endMs": 67655,
+   "line": 22,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 2.377
+  },
+  {
+   "speaker": "narrator",
+   "start": 2.597,
+   "end": 5.941
+  },
+  {
+   "speaker": "hero",
+   "start": 6.161,
+   "end": 7.737
+  },
+  {
+   "speaker": "narrator",
+   "start": 7.957,
+   "end": 10.192
+  },
+  {
+   "speaker": "narrator",
+   "start": 10.412,
+   "end": 11.753
+  },
+  {
+   "speaker": "narrator",
+   "start": 11.973,
+   "end": 14.4
+  },
+  {
+   "speaker": "narrator",
+   "start": 14.62,
+   "end": 18.135
+  },
+  {
+   "speaker": "narrator",
+   "start": 18.355,
+   "end": 20.101
+  },
+  {
+   "speaker": "narrator",
+   "start": 20.321,
+   "end": 23.964
+  },
+  {
+   "speaker": "narrator",
+   "start": 24.184,
+   "end": 27.229
+  },
+  {
+   "speaker": "narrator",
+   "start": 27.449,
+   "end": 30.815
+  },
+  {
+   "speaker": "narrator",
+   "start": 31.035,
+   "end": 33.931
+  },
+  {
+   "speaker": "narrator",
+   "start": 34.151,
+   "end": 37.369
+  },
+  {
+   "speaker": "narrator",
+   "start": 37.589,
+   "end": 41.168
+  },
+  {
+   "speaker": "bit",
+   "start": 41.388,
+   "end": 44.417
+  },
+  {
+   "speaker": "narrator",
+   "start": 44.637,
+   "end": 46.637
+  },
+  {
+   "speaker": "hero",
+   "start": 46.857,
+   "end": 48.863
+  },
+  {
+   "speaker": "narrator",
+   "start": 49.083,
+   "end": 50.765
+  },
+  {
+   "speaker": "narrator",
+   "start": 50.985,
+   "end": 54.649
+  },
+  {
+   "speaker": "narrator",
+   "start": 54.869,
+   "end": 58.235
+  },
+  {
+   "speaker": "narrator",
+   "start": 58.455,
+   "end": 62.292
+  },
+  {
+   "speaker": "narrator",
+   "start": 62.512,
+   "end": 65.323
+  },
+  {
+   "speaker": "narrator",
+   "start": 65.543,
+   "end": 67.692
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NEIGHBOR",
+  "kid": "NEIGHBOR"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "\ud83c\udfa4 Voice message \u00b7 4:12 \u25cf REC"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    },
+    {
+     "type": "riser",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.537
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Building Manager",
+       "text": "Water off tomorrow 9-11."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 2.537,
+   "end": 4.319
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Building Manager",
+       "text": "Water off tomorrow 9-11."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 4.319,
+   "end": 6.101
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "happy",
+     "scale": 1.7
+    }
+   ],
+   "speaker": "hero",
+   "start": 6.101,
+   "end": 7.897
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 7.897,
+   "end": 10.352
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "\ud83c\udfa4 Voice message \u00b7 0:41 \u25cf REC"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.3,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 10.352,
+   "end": 11.913
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "angry",
+     "scale": 1.8
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "narrator",
+   "start": 11.913,
+   "end": 14.56
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.9
+    }
+   ],
+   "fx": [
+    {
+     "type": "rain"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 14.56,
+   "end": 16.428
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "fx": [
+    {
+     "type": "rain"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 16.428,
+   "end": 18.295
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 18.295,
+   "end": 20.261
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "\ud83c\udfa4 Voice message \u00b7 9:14"
+      }
+     ],
+     "seen": "Delivered"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 20.261,
+   "end": 22.193
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "\ud83c\udfa4 Voice message \u00b7 9:14"
+      }
+     ],
+     "seen": "Delivered"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.37,
+    "y": 0.55,
+    "shake": 0.6,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 22.193,
+   "end": 24.124
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "scared",
+     "scale": 1.25
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #1",
+    "sub": "DELETE IT",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 24.124,
+   "end": 27.389
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "shocked",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "alarm"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 27.389,
+   "end": 29.182
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "shocked",
+     "scale": 2.0,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.37,
+    "y": 0.55,
+    "shake": 0.6,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "fx": [
+    {
+     "type": "speedLines"
+    }
+   ],
+   "sfx": [],
+   "transition": "cut",
+   "speaker": "narrator",
+   "start": 29.182,
+   "end": 30.975
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "\ud83c\udfa4 Voice message \u00b7 9:14"
+      }
+     ],
+     "seen": "Played by 19"
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 30.975,
+   "end": 32.533
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "\ud83c\udfa4 Voice message \u00b7 9:14"
+      }
+     ],
+     "seen": "Played by 19"
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 32.533,
+   "end": 34.091
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.3
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #2",
+    "sub": "MOVE OUT",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 34.091,
+   "end": 37.529
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #3",
+    "sub": "NO AI HELP",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 37.529,
+   "end": 41.328
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "\ud83c\udfa4 Voice message \u00b7 9:14"
+      },
+      {
+       "from": "me",
+       "text": "\ud83d\udcdd \"the drummer in 5A is a menace\""
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 41.328,
+   "end": 42.953
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "\ud83c\udfa4 Voice message \u00b7 9:14"
+      },
+      {
+       "from": "me",
+       "text": "\ud83d\udcdd \"the drummer in 5A is a menace\""
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "bit",
+   "start": 42.953,
+   "end": 44.577
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "\ud83d\udcdd \"the drummer in 5A is a menace\""
+      }
+     ],
+     "typing": "Kev (5A) is typing"
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 44.577,
+   "end": 46.797
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "scared",
+     "scale": 2.1
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "hero",
+   "start": 46.797,
+   "end": 49.023
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "\ud83d\udcdd \"the drummer in 5A is a menace\""
+      },
+      {
+       "from": "them",
+       "name": "Kev (5A)",
+       "text": "who is singing at 3:20??"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 49.023,
+   "end": 50.925
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Kev (5A)",
+       "text": "who is singing at 3:20??"
+      },
+      {
+       "from": "them",
+       "name": "Mrs. Rose (4B)",
+       "text": "I cried. Beautiful voice."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.3
+    }
+   ],
+   "speaker": "narrator",
+   "start": 50.925,
+   "end": 52.867
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Kev (5A)",
+       "text": "who is singing at 3:20??"
+      },
+      {
+       "from": "them",
+       "name": "Mrs. Rose (4B)",
+       "text": "I cried. Beautiful voice."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 52.867,
+   "end": 54.809
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mrs. Rose (4B)",
+       "text": "I cried. Beautiful voice."
+      },
+      {
+       "from": "them",
+       "name": "Kev (5A)",
+       "text": "we need a singer. friday?"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.1,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 54.809,
+   "end": 56.602
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "BUILDING 12 \ud83c\udfe2",
+     "sub": "64 neighbors",
+     "clock": "18:12",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mrs. Rose (4B)",
+       "text": "I cried. Beautiful voice."
+      },
+      {
+       "from": "them",
+       "name": "Kev (5A)",
+       "text": "we need a singer. friday?"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.43,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 56.602,
+   "end": 58.395
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.2,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.0
+    },
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.2
+    },
+    {
+     "id": "kid",
+     "x": 0.8,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 1.0
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 58.395,
+   "end": 60.423
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "friend",
+     "x": 0.2,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.0,
+     "enter": "none"
+    },
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.2,
+     "enter": "none"
+    },
+    {
+     "id": "kid",
+     "x": 0.8,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 1.0,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 60.423,
+   "end": 62.452
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.15
+    },
+    {
+     "id": "bit",
+     "x": 0.82,
+     "expr": "smug",
+     "scale": 0.7
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "THE WATER IS OFF",
+    "sub": "LIVE \u00b7 ROOF \u00b7 FRIDAY",
+    "color": "#2F7BFF"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 62.452,
+   "end": 65.483
+  }
+ ],
+ "endStart": 65.483,
+ "endText": "THE END",
+ "endSub": "Follow for a new What if every day"
+}

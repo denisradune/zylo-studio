@@ -1,0 +1,682 @@
+{
+ "title": "What If Your Voice Message Wouldn't Stop?",
+ "rubric": "what-if: comedy (everyday cringe)",
+ "mood": "warm",
+ "seed": 6700,
+ "standalone": true,
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NEIGHBOR",
+  "kid": "NEIGHBOR"
+ },
+ "finale": {
+  "text": "THE END",
+  "sub": "Follow for a new What if every day"
+ },
+ "parts": [
+  {
+   "title": "Voice Message",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "say": "What if your voice message *wouldn't stop*?",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "day",
+       "screen": {
+        "title": "BUILDING 12 🏢",
+        "sub": "64 neighbors",
+        "clock": "18:12",
+        "msgs": [
+         {
+          "from": "me",
+          "text": "🎤 Voice message · 4:12 ● REC"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "camera": {
+       "zoom": 1.08,
+       "y": 0.45,
+       "push": 0.1
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       },
+       {
+        "type": "riser",
+        "at": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "You hold the mic. Quick question for the *neighbors*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "day",
+       "screen": {
+        "title": "BUILDING 12 🏢",
+        "sub": "64 neighbors",
+        "clock": "18:12",
+        "msgs": [
+         {
+          "from": "them",
+          "name": "Building Manager",
+          "text": "Water off tomorrow 9-11."
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Hi, is the water off *all day*?",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "happy",
+        "scale": 1.7
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then the phone slides into your *pocket*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "idle",
+        "expr": "neutral",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Still *recording*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "day",
+       "screen": {
+        "title": "BUILDING 12 🏢",
+        "sub": "64 neighbors",
+        "clock": "18:12",
+        "msgs": [
+         {
+          "from": "me",
+          "text": "🎤 Voice message · 0:41 ● REC"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "camera": {
+       "zoom": 1.3,
+       "y": 0.5
+      },
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "You complain about the drummer in *5A*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "angry",
+        "scale": 1.8
+       }
+      ],
+      "camera": {
+       "zoom": 1.12,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "You sing in the shower. Loud. *Badly*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.9
+       }
+      ],
+      "fx": [
+       {
+        "type": "rain"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Bit narrates your *pasta*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.6
+       }
+      ],
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "You lift the phone. Nine minutes. *Sent*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "day",
+       "screen": {
+        "title": "BUILDING 12 🏢",
+        "sub": "64 neighbors",
+        "clock": "18:12",
+        "msgs": [
+         {
+          "from": "me",
+          "text": "🎤 Voice message · 9:14"
+         }
+        ],
+        "seen": "Delivered"
+       }
+      },
+      "cast": [],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      },
+      "sfx": [
+       {
+        "type": "boom"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Rule number one. *Delete for everyone*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 1.25
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "RULE #1",
+       "sub": "DELETE IT",
+       "color": "#FF4A3D"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Your thumb hits *play* instead. Volume max.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "shocked",
+        "scale": 2.0
+       }
+      ],
+      "camera": {
+       "zoom": 1.05,
+       "y": 0.55,
+       "shake": 0.6
+      },
+      "fx": [
+       {
+        "type": "speedLines"
+       }
+      ],
+      "sfx": [
+       {
+        "type": "alarm"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Played by one. Played by *nineteen*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "day",
+       "screen": {
+        "title": "BUILDING 12 🏢",
+        "sub": "64 neighbors",
+        "clock": "18:12",
+        "msgs": [
+         {
+          "from": "me",
+          "text": "🎤 Voice message · 9:14"
+         }
+        ],
+        "seen": "Played by 19"
+       }
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "ding"
+       },
+       {
+        "type": "ding",
+        "at": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Rule number two. Pretend you *moved out*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "sad",
+        "scale": 1.3
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "RULE #2",
+       "sub": "MOVE OUT",
+       "color": "#FF4A3D"
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Rule number three. Never let your AI *help*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.6
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "RULE #3",
+       "sub": "NO AI HELP",
+       "color": "#FF4A3D"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "I added *subtitles*. For accessibility.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "day",
+       "screen": {
+        "title": "BUILDING 12 🏢",
+        "sub": "64 neighbors",
+        "clock": "18:12",
+        "msgs": [
+         {
+          "from": "me",
+          "text": "🎤 Voice message · 9:14"
+         },
+         {
+          "from": "me",
+          "text": "📝 \"the drummer in 5A is a menace\""
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then 5A starts *typing*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "day",
+       "screen": {
+        "title": "BUILDING 12 🏢",
+        "sub": "64 neighbors",
+        "clock": "18:12",
+        "msgs": [
+         {
+          "from": "me",
+          "text": "📝 \"the drummer in 5A is a menace\""
+         }
+        ],
+        "typing": "Kev (5A) is typing"
+       }
+      },
+      "cast": [],
+      "camera": {
+       "zoom": 1.08,
+       "y": 0.45,
+       "push": 0.1
+      },
+      "sfx": [
+       {
+        "type": "heartbeat"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "He's coming up. With *drumsticks*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "day"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "panic",
+        "expr": "scared",
+        "scale": 2.1
+       }
+      ],
+      "camera": {
+       "zoom": 1.12,
+       "y": 0.6
+      }
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Kev's message *arrives*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "day",
+       "screen": {
+        "title": "BUILDING 12 🏢",
+        "sub": "64 neighbors",
+        "clock": "18:12",
+        "msgs": [
+         {
+          "from": "me",
+          "text": "📝 \"the drummer in 5A is a menace\""
+         },
+         {
+          "from": "them",
+          "name": "Kev (5A)",
+          "text": "who is singing at 3:20??"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Then Mrs. Rose. Then *twelve* more.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "day",
+       "screen": {
+        "title": "BUILDING 12 🏢",
+        "sub": "64 neighbors",
+        "clock": "18:12",
+        "msgs": [
+         {
+          "from": "them",
+          "name": "Kev (5A)",
+          "text": "who is singing at 3:20??"
+         },
+         {
+          "from": "them",
+          "name": "Mrs. Rose (4B)",
+          "text": "I cried. Beautiful voice."
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "sfx": [
+       {
+        "type": "ding"
+       },
+       {
+        "type": "ding",
+        "at": 0.3
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Kev needs a singer. His band plays *Friday*.",
+     "shot": {
+      "set": {
+       "type": "phone",
+       "time": "day",
+       "screen": {
+        "title": "BUILDING 12 🏢",
+        "sub": "64 neighbors",
+        "clock": "18:12",
+        "msgs": [
+         {
+          "from": "them",
+          "name": "Mrs. Rose (4B)",
+          "text": "I cried. Beautiful voice."
+         },
+         {
+          "from": "them",
+          "name": "Kev (5A)",
+          "text": "we need a singer. friday?"
+         }
+        ]
+       }
+      },
+      "cast": [],
+      "camera": {
+       "zoom": 1.1,
+       "y": 0.5
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Friday. Rooftop. Sixty-four *neighbors*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "friend",
+        "x": 0.2,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.0
+       },
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.2
+       },
+       {
+        "id": "kid",
+        "x": 0.8,
+        "pose": "cheer",
+        "expr": "happy",
+        "scale": 1.0
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "The band's name? *The Water Is Off*.",
+     "shot": {
+      "set": {
+       "type": "room",
+       "time": "dusk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "grin",
+        "scale": 1.15
+       },
+       {
+        "id": "bit",
+        "x": 0.82,
+        "expr": "smug",
+        "scale": 0.7
+       }
+      ],
+      "ui": {
+       "type": "card",
+       "text": "THE WATER IS OFF",
+       "sub": "LIVE · ROOF · FRIDAY",
+       "color": "#2F7BFF"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "narrator",
+     "say": "Follow for a new What if every day.",
+     "end": true
+    }
+   ]
+  }
+ ]
+}

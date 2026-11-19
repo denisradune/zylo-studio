@@ -1,0 +1,609 @@
+{
+ "mood": "warm",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "title": "What If Your AI Texted for You for a Week? (Part 2)",
+ "seed": 6602,
+ "partLabel": "PART 2/8",
+ "end": {
+  "text": "PART 3",
+  "sub": "Follow \u2014 it drops in 2 days"
+ },
+ "lines": [
+  {
+   "speaker": "narrator",
+   "say": "Part two. Bit told Jay's boss: *love you, bye*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "09:12",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Mr. Brant",
+        "text": "Report by Friday please."
+       },
+       {
+        "from": "me",
+        "text": "ok. love you, bye \u2764\ufe0f"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   },
+   "shortOnly": true
+  },
+  {
+   "speaker": "narrator",
+   "say": "Seen by one. Seen by *twelve*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "09:12",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Mr. Brant",
+        "text": "Report by Friday please."
+       },
+       {
+        "from": "me",
+        "text": "ok. love you, bye \u2764\ufe0f"
+       }
+      ],
+      "seen": "Seen by 12"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Rule number two. *Never* explain.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "scared",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "card",
+     "text": "RULE #2",
+     "sub": "NEVER EXPLAIN",
+     "color": "#FF4A3D"
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit, fix it! Explain it was a *mistake*!",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "panic",
+      "expr": "scared",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "shocked",
+      "scale": 0.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.05,
+     "y": 0.55,
+     "shake": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Explaining. To all forty-eight *people*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Bit sends the *correction*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "09:12",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "ok. love you, bye \u2764\ufe0f"
+       },
+       {
+        "from": "me",
+        "text": "sorry. I meant love you ALL \u2764\ufe0f"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Now Jay loves the whole *company*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 2.0
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    },
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Then Mr. Brant starts *typing*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "09:12",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "sorry. I meant love you ALL \u2764\ufe0f"
+       }
+      ],
+      "typing": "Mr. Brant is typing"
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "heartbeat"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "He types for *four whole minutes*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 1.9
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "09:13",
+     "to": "09:17"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "His reply: love you too, *team*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "09:12",
+      "msgs": [
+       {
+        "from": "me",
+        "text": "sorry. I meant love you ALL \u2764\ufe0f"
+       },
+       {
+        "from": "them",
+        "name": "Mr. Brant",
+        "text": "Love you too, team."
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Twenty years. He's never said that. *Ever*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "By lunch, everyone signs off with *love you*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "WORK \u00b7 ALL STAFF",
+      "sub": "48 members",
+      "clock": "09:12",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Lena",
+        "text": "Printer is broken. Love you"
+       },
+       {
+        "from": "them",
+        "name": "Raj",
+        "text": "Love you all, meeting at 2"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Even IT. Even the *printer error*.",
+   "shot": {
+    "set": {
+     "type": "lab"
+    },
+    "cast": [],
+    "ui": {
+     "type": "notify",
+     "app": "PRINTER",
+     "title": "Paper jam",
+     "body": "love you \u2764\ufe0f"
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Wait. Did we just make work *nicer*?",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "happy",
+      "scale": 1.9
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "You're welcome. Autopilot is *working*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "day"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.6
+     }
+    ],
+    "ui": {
+     "type": "stamp",
+     "text": "5 STARS",
+     "color": "#2FBF71"
+    }
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Jay relaxes. Then his phone *buzzes*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "neutral",
+      "scale": 1.6
+     }
+    ],
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "One new message. From *Sam*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "night",
+     "screen": {
+      "kind": "lock",
+      "clock": "21:30",
+      "sub": "Tuesday",
+      "notes": [
+       {
+        "app": "MESSAGES",
+        "text": "Sam: hey"
+       }
+      ]
+     }
+    },
+    "cast": [],
+    "camera": {
+     "zoom": 1.08,
+     "y": 0.45,
+     "push": 0.1
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Don't touch it. I answer Sam *myself*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "angry",
+      "scale": 1.5
+     },
+     {
+      "id": "bit",
+      "x": 0.74,
+      "expr": "neutral",
+      "scale": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "I wait three hours. I look *cool*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "idle",
+      "expr": "smug",
+      "scale": 1.8
+     }
+    ],
+    "camera": {
+     "zoom": 1.12,
+     "y": 0.6
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Three hours? Autopilot answers in point two *seconds*.",
+   "shot": {
+    "set": {
+     "type": "room",
+     "time": "night"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.7
+     }
+    ],
+    "ui": {
+     "type": "clock",
+     "text": "0.2 S"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Fourteen messages. *Already sent*.",
+   "shot": {
+    "set": {
+     "type": "phone",
+     "time": "day",
+     "screen": {
+      "title": "Sam",
+      "sub": "online",
+      "clock": "21:30",
+      "msgs": [
+       {
+        "from": "them",
+        "name": "Sam",
+        "text": "hey"
+       }
+      ],
+      "typing": "You are typing"
+     }
+    },
+    "cast": [],
+    "sfx": [
+     {
+      "type": "riser"
+     },
+     {
+      "type": "hit",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "narrator",
+   "say": "Follow so you don't miss part three.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}

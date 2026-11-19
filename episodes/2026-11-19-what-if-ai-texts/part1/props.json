@@ -1,0 +1,1914 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 70.067,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "What",
+   "startMs": 143,
+   "endMs": 383,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 383,
+   "endMs": 443,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 443,
+   "endMs": 603,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 603,
+   "endMs": 1133,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "texted",
+   "startMs": 1133,
+   "endMs": 1633,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 1633,
+   "endMs": 1793,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "you",
+   "startMs": 1793,
+   "endMs": 1993,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "all",
+   "startMs": 1993,
+   "endMs": 2173,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "week?",
+   "startMs": 2173,
+   "endMs": 2532,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Monday.",
+   "startMs": 2875,
+   "endMs": 3515,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 3856,
+   "endMs": 4196,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "has",
+   "startMs": 4196,
+   "endMs": 4406,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 4406,
+   "endMs": 4626,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "hundred",
+   "startMs": 4626,
+   "endMs": 4906,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "fourteen",
+   "startMs": 4906,
+   "endMs": 5586,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "unread",
+   "startMs": 5586,
+   "endMs": 6056,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "messages.",
+   "startMs": 6056,
+   "endMs": 6779,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "The",
+   "startMs": 7100,
+   "endMs": 7230,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "work",
+   "startMs": 7230,
+   "endMs": 7590,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "chat.",
+   "startMs": 7590,
+   "endMs": 8039,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 8359,
+   "endMs": 8549,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "family",
+   "startMs": 8549,
+   "endMs": 9069,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "chat.",
+   "startMs": 9069,
+   "endMs": 9553,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Mom.",
+   "startMs": 9983,
+   "endMs": 10601,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Sam.",
+   "startMs": 10985,
+   "endMs": 11561,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Sam.",
+   "startMs": 11904,
+   "endMs": 12480,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 12821,
+   "endMs": 12951,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "person",
+   "startMs": 12951,
+   "endMs": 13471,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 13471,
+   "endMs": 13841,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "likes.",
+   "startMs": 13841,
+   "endMs": 14336,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Since",
+   "startMs": 14701,
+   "endMs": 14941,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "September.",
+   "startMs": 14941,
+   "endMs": 15875,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Every",
+   "startMs": 16217,
+   "endMs": 16517,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "text",
+   "startMs": 16517,
+   "endMs": 16817,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 16817,
+   "endMs": 16997,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Sam",
+   "startMs": 16997,
+   "endMs": 17427,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "takes",
+   "startMs": 17427,
+   "endMs": 17747,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 17747,
+   "endMs": 18137,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "forty",
+   "startMs": 18137,
+   "endMs": 18477,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "minutes.",
+   "startMs": 18477,
+   "endMs": 18948,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "I",
+   "startMs": 19227,
+   "endMs": 19417,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "type.",
+   "startMs": 19417,
+   "endMs": 19824,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 20125,
+   "endMs": 20285,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "delete.",
+   "startMs": 20285,
+   "endMs": 20787,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 21109,
+   "endMs": 21299,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "panic.",
+   "startMs": 21299,
+   "endMs": 21771,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Let",
+   "startMs": 22073,
+   "endMs": 22303,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "me",
+   "startMs": 22303,
+   "endMs": 22483,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "help.",
+   "startMs": 22483,
+   "endMs": 22969,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 23292,
+   "endMs": 23462,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "learned",
+   "startMs": 23462,
+   "endMs": 23802,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 23802,
+   "endMs": 23972,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "style.",
+   "startMs": 23972,
+   "endMs": 24465,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Nine",
+   "startMs": 24768,
+   "endMs": 25158,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "years",
+   "startMs": 25158,
+   "endMs": 25408,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 25408,
+   "endMs": 25468,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 25458,
+   "endMs": 25628,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "texts.",
+   "startMs": 25628,
+   "endMs": 26261,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Every",
+   "startMs": 26563,
+   "endMs": 26913,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "haha.",
+   "startMs": 26913,
+   "endMs": 27565,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Bit",
+   "startMs": 27889,
+   "endMs": 28159,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "offers",
+   "startMs": 28159,
+   "endMs": 28649,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Autopilot.",
+   "startMs": 28649,
+   "endMs": 29511,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "He",
+   "startMs": 29876,
+   "endMs": 30046,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "answers",
+   "startMs": 30046,
+   "endMs": 30576,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "everything.",
+   "startMs": 30576,
+   "endMs": 31348,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Seven",
+   "startMs": 31689,
+   "endMs": 32099,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "days.",
+   "startMs": 32099,
+   "endMs": 32564,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Rule",
+   "startMs": 32928,
+   "endMs": 33318,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "number",
+   "startMs": 33318,
+   "endMs": 33718,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 33718,
+   "endMs": 34165,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Read",
+   "startMs": 34528,
+   "endMs": 34918,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 34918,
+   "endMs": 35068,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "terms.",
+   "startMs": 35068,
+   "endMs": 35723,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 36087,
+   "endMs": 36537,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "doesn't.",
+   "startMs": 36537,
+   "endMs": 37025,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Jay",
+   "startMs": 37431,
+   "endMs": 37831,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "taps",
+   "startMs": 37831,
+   "endMs": 38291,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "yes.",
+   "startMs": 38291,
+   "endMs": 38753,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "At",
+   "startMs": 39141,
+   "endMs": 39401,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "first?",
+   "startMs": 39401,
+   "endMs": 39845,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 40315,
+   "endMs": 40555,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "magic.",
+   "startMs": 40555,
+   "endMs": 41232,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Grandpa",
+   "startMs": 41745,
+   "endMs": 42305,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "gets",
+   "startMs": 42305,
+   "endMs": 42545,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 42545,
+   "endMs": 42685,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "birthday",
+   "startMs": 42685,
+   "endMs": 43175,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "wish.",
+   "startMs": 43175,
+   "endMs": 43644,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "On",
+   "startMs": 43964,
+   "endMs": 44304,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "time.",
+   "startMs": 44304,
+   "endMs": 44860,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Mom",
+   "startMs": 45203,
+   "endMs": 45653,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "gets",
+   "startMs": 45653,
+   "endMs": 45873,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 45873,
+   "endMs": 46153,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "love",
+   "startMs": 46153,
+   "endMs": 46373,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "you.",
+   "startMs": 46373,
+   "endMs": 46696,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Before",
+   "startMs": 47037,
+   "endMs": 47447,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "she",
+   "startMs": 47447,
+   "endMs": 47667,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "asks.",
+   "startMs": 47667,
+   "endMs": 48232,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Two",
+   "startMs": 48596,
+   "endMs": 48836,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "hundred",
+   "startMs": 48836,
+   "endMs": 49146,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "fourteen",
+   "startMs": 49146,
+   "endMs": 49656,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "messages.",
+   "startMs": 49656,
+   "endMs": 50473,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Answered",
+   "startMs": 50815,
+   "endMs": 51325,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 51325,
+   "endMs": 51565,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 51565,
+   "endMs": 51815,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "minute.",
+   "startMs": 51815,
+   "endMs": 52095,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Bit,",
+   "startMs": 52459,
+   "endMs": 52629,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "you're",
+   "startMs": 52629,
+   "endMs": 52789,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 52789,
+   "endMs": 52849,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "genius.",
+   "startMs": 52849,
+   "endMs": 53419,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "I",
+   "startMs": 53743,
+   "endMs": 53983,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "know.",
+   "startMs": 53983,
+   "endMs": 54425,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Your",
+   "startMs": 54748,
+   "endMs": 54968,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "boss",
+   "startMs": 54968,
+   "endMs": 55248,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "just",
+   "startMs": 55248,
+   "endMs": 55538,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "messaged.",
+   "startMs": 55538,
+   "endMs": 56220,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Done.",
+   "startMs": 56564,
+   "endMs": 57055,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "Jay",
+   "startMs": 57528,
+   "endMs": 57908,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "checks",
+   "startMs": 57908,
+   "endMs": 58268,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 58268,
+   "endMs": 58338,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "work",
+   "startMs": 58338,
+   "endMs": 58598,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "chat.",
+   "startMs": 58598,
+   "endMs": 59085,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "Forty-eight",
+   "startMs": 59451,
+   "endMs": 60151,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "people.",
+   "startMs": 60151,
+   "endMs": 60731,
+   "line": 17,
+   "emph": true
+  },
+  {
+   "text": "Bit's",
+   "startMs": 61073,
+   "endMs": 61343,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "reply",
+   "startMs": 61343,
+   "endMs": 61903,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 61903,
+   "endMs": 62173,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "already",
+   "startMs": 62173,
+   "endMs": 62463,
+   "line": 18,
+   "emph": false
+  },
+  {
+   "text": "there.",
+   "startMs": 62463,
+   "endMs": 62865,
+   "line": 18,
+   "emph": true
+  },
+  {
+   "text": "Bit.",
+   "startMs": 63165,
+   "endMs": 63592,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "Why",
+   "startMs": 63875,
+   "endMs": 64035,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "did",
+   "startMs": 64035,
+   "endMs": 64125,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 64125,
+   "endMs": 64265,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "say",
+   "startMs": 64265,
+   "endMs": 64485,
+   "line": 19,
+   "emph": false
+  },
+  {
+   "text": "love",
+   "startMs": 64485,
+   "endMs": 64675,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "you?",
+   "startMs": 64675,
+   "endMs": 65069,
+   "line": 19,
+   "emph": true
+  },
+  {
+   "text": "Your",
+   "startMs": 65393,
+   "endMs": 65603,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "style.",
+   "startMs": 65603,
+   "endMs": 66225,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 66548,
+   "endMs": 66748,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "say",
+   "startMs": 66748,
+   "endMs": 66968,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 66968,
+   "endMs": 67138,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 67138,
+   "endMs": 67238,
+   "line": 20,
+   "emph": false
+  },
+  {
+   "text": "everyone.",
+   "startMs": 67238,
+   "endMs": 67871,
+   "line": 20,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 68237,
+   "endMs": 68637,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "so",
+   "startMs": 68637,
+   "endMs": 68797,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 68797,
+   "endMs": 68877,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 68877,
+   "endMs": 69047,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "miss",
+   "startMs": 69047,
+   "endMs": 69257,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "part",
+   "startMs": 69257,
+   "endMs": 69537,
+   "line": 21,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 69537,
+   "endMs": 70008,
+   "line": 21,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "narrator",
+   "start": 0.1,
+   "end": 2.612
+  },
+  {
+   "speaker": "narrator",
+   "start": 2.832,
+   "end": 6.837
+  },
+  {
+   "speaker": "narrator",
+   "start": 7.057,
+   "end": 11.62
+  },
+  {
+   "speaker": "narrator",
+   "start": 11.84,
+   "end": 15.955
+  },
+  {
+   "speaker": "narrator",
+   "start": 16.175,
+   "end": 19.007
+  },
+  {
+   "speaker": "hero",
+   "start": 19.227,
+   "end": 21.832
+  },
+  {
+   "speaker": "bit",
+   "start": 22.052,
+   "end": 24.527
+  },
+  {
+   "speaker": "bit",
+   "start": 24.747,
+   "end": 27.627
+  },
+  {
+   "speaker": "narrator",
+   "start": 27.847,
+   "end": 32.665
+  },
+  {
+   "speaker": "narrator",
+   "start": 32.885,
+   "end": 35.803
+  },
+  {
+   "speaker": "narrator",
+   "start": 36.023,
+   "end": 38.879
+  },
+  {
+   "speaker": "narrator",
+   "start": 39.099,
+   "end": 41.483
+  },
+  {
+   "speaker": "narrator",
+   "start": 41.703,
+   "end": 44.94
+  },
+  {
+   "speaker": "narrator",
+   "start": 45.16,
+   "end": 48.333
+  },
+  {
+   "speaker": "narrator",
+   "start": 48.553,
+   "end": 52.239
+  },
+  {
+   "speaker": "hero",
+   "start": 52.459,
+   "end": 53.501
+  },
+  {
+   "speaker": "bit",
+   "start": 53.721,
+   "end": 57.287
+  },
+  {
+   "speaker": "narrator",
+   "start": 57.507,
+   "end": 60.789
+  },
+  {
+   "speaker": "narrator",
+   "start": 61.009,
+   "end": 62.924
+  },
+  {
+   "speaker": "hero",
+   "start": 63.144,
+   "end": 65.152
+  },
+  {
+   "speaker": "bit",
+   "start": 65.372,
+   "end": 67.932
+  },
+  {
+   "speaker": "narrator",
+   "start": 68.152,
+   "end": 70.067
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT",
+  "friend": "NIA",
+  "boss": "MR. BRANT",
+  "mom": "MOM",
+  "sam": "SAM",
+  "scientist": "GRANDPA"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "phone",
+    "time": "night",
+    "screen": {
+     "kind": "lock",
+     "clock": "07:00",
+     "sub": "Monday",
+     "notes": [
+      {
+       "app": "MESSAGES",
+       "text": "214 unread messages"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    },
+    {
+     "type": "riser",
+     "at": 0.4
+    }
+   ],
+   "speaker": "narrator",
+   "start": 0.0,
+   "end": 2.772
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "scared",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 1,
+    "to": 214,
+    "label": "UNREAD"
+   },
+   "speaker": "narrator",
+   "start": 2.772,
+   "end": 6.997
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.9
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "speaker": "narrator",
+   "start": 6.997,
+   "end": 9.389
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 1.9,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.46,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "sfx": [],
+   "speaker": "narrator",
+   "start": 9.389,
+   "end": 11.78
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "dusk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "happy",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "SAM",
+    "sub": "CRUSH SINCE SEPTEMBER",
+    "color": "#2F7BFF"
+   },
+   "speaker": "narrator",
+   "start": 11.78,
+   "end": 16.115
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "night"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "scared",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "clock",
+    "text": "40:00"
+   },
+   "speaker": "narrator",
+   "start": 16.115,
+   "end": 19.167
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Sam",
+     "sub": "online",
+     "clock": "21:30",
+     "msgs": [],
+     "draft": "hey haha so um what"
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "hero",
+   "start": 19.167,
+   "end": 21.992
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "shrug",
+     "expr": "neutral",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "smug",
+     "scale": 0.9
+    }
+   ],
+   "speaker": "bit",
+   "start": 21.992,
+   "end": 24.687
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 0,
+    "to": 31406,
+    "label": "HAHAS ANALYSED"
+   },
+   "speaker": "bit",
+   "start": 24.687,
+   "end": 27.787
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.5
+    }
+   ],
+   "ui": {
+    "type": "notify",
+    "app": "BIT",
+    "title": "Autopilot: ON",
+    "body": "I answer everything. 7 days."
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 27.787,
+   "end": 32.825
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "idle",
+     "expr": "neutral",
+     "scale": 1.6
+    }
+   ],
+   "ui": {
+    "type": "card",
+    "text": "RULE #1",
+    "sub": "READ THE TERMS",
+    "color": "#FF4A3D"
+   },
+   "speaker": "narrator",
+   "start": 32.825,
+   "end": 35.963
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "grin",
+     "scale": 2.0
+    }
+   ],
+   "camera": {
+    "zoom": 1.12,
+    "y": 0.6
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 35.963,
+   "end": 37.501
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "phone",
+     "expr": "grin",
+     "scale": 2.0,
+     "enter": "none"
+    }
+   ],
+   "camera": {
+    "zoom": 1.46,
+    "y": 0.55,
+    "x": 0.5,
+    "push": 0.04
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 37.501,
+   "end": 39.039
+  },
+  {
+   "set": {
+    "type": "burst"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "grin",
+     "scale": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 39.039,
+   "end": 41.643
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "happy birthday grandpa!! \ud83c\udf89"
+      },
+      {
+       "from": "them",
+       "name": "Grandpa",
+       "text": "WHO IS THIS"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 41.643,
+   "end": 43.371
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "FAMILY \ud83c\udfe0",
+     "sub": "Mom, Dad, Grandpa, Sam, You",
+     "clock": "22:10",
+     "msgs": [
+      {
+       "from": "me",
+       "text": "happy birthday grandpa!! \ud83c\udf89"
+      },
+      {
+       "from": "them",
+       "name": "Grandpa",
+       "text": "WHO IS THIS"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 43.371,
+   "end": 45.1
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Mom \u2764\ufe0f",
+     "sub": "online",
+     "clock": "07:05",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Did you eat?"
+      },
+      {
+       "from": "me",
+       "text": "yes. love you mom \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 45.1,
+   "end": 46.796
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "Mom \u2764\ufe0f",
+     "sub": "online",
+     "clock": "07:05",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mom \u2764\ufe0f",
+       "text": "Did you eat?"
+      },
+      {
+       "from": "me",
+       "text": "yes. love you mom \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 46.796,
+   "end": 48.493
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 1.8
+    }
+   ],
+   "ui": {
+    "type": "counter",
+    "from": 214,
+    "to": 0,
+    "label": "UNREAD"
+   },
+   "speaker": "narrator",
+   "start": 48.493,
+   "end": 52.399
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.3,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 1.5
+    },
+    {
+     "id": "bit",
+     "x": 0.74,
+     "expr": "happy",
+     "scale": 0.9
+    }
+   ],
+   "speaker": "hero",
+   "start": 52.399,
+   "end": 53.661
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.7
+    }
+   ],
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 53.661,
+   "end": 55.554
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.7,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "bit",
+   "start": 55.554,
+   "end": 57.447
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "09:12",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mr. Brant",
+       "text": "Report by Friday please."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.08,
+    "y": 0.45,
+    "push": 0.1
+   },
+   "sfx": [
+    {
+     "type": "heartbeat"
+    }
+   ],
+   "speaker": "narrator",
+   "start": 57.447,
+   "end": 59.198
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "09:12",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mr. Brant",
+       "text": "Report by Friday please."
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.4,
+    "y": 0.55,
+    "push": 0.04,
+    "x": 0.5
+   },
+   "sfx": [],
+   "transition": "cut",
+   "fx": [],
+   "speaker": "narrator",
+   "start": 59.198,
+   "end": 60.949
+  },
+  {
+   "set": {
+    "type": "phone",
+    "time": "day",
+    "screen": {
+     "title": "WORK \u00b7 ALL STAFF",
+     "sub": "48 members",
+     "clock": "09:12",
+     "msgs": [
+      {
+       "from": "them",
+       "name": "Mr. Brant",
+       "text": "Report by Friday please."
+      },
+      {
+       "from": "me",
+       "text": "ok. love you, bye \u2764\ufe0f"
+      }
+     ]
+    }
+   },
+   "cast": [],
+   "camera": {
+    "zoom": 1.3,
+    "y": 0.5
+   },
+   "sfx": [
+    {
+     "type": "riser"
+    },
+    {
+     "type": "hit",
+     "at": 0.9
+    }
+   ],
+   "speaker": "narrator",
+   "start": 60.949,
+   "end": 63.084
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "panic",
+     "expr": "shocked",
+     "scale": 2.1
+    }
+   ],
+   "camera": {
+    "zoom": 1.05,
+    "y": 0.55,
+    "shake": 0.6
+   },
+   "speaker": "hero",
+   "start": 63.084,
+   "end": 65.312
+  },
+  {
+   "set": {
+    "type": "room",
+    "time": "day"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.7
+    }
+   ],
+   "ui": {
+    "type": "stamp",
+    "text": "SENT"
+   },
+   "speaker": "bit",
+   "start": 65.312,
+   "end": 68.092
+  }
+ ],
+ "endStart": 68.092,
+ "endText": "PART 2",
+ "endSub": "Follow \u2014 it drops in 2 days",
+ "partLabel": "PART 1/8"
+}
