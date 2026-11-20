@@ -76,3 +76,4 @@
 | 72 | 2026-11-21 | What If Your Town Printed Its Own Money? 💸 Part 6 #shorts | what-if: money (part6) | sources.md | https://youtube.com/shorts/gIiz-1PPIYo |
 | 73 | 2026-11-19 | What If Your AI Texted for You? 📱 Part 1 #shorts | what-if: comedy (everyday cringe) (part1) | sources.md | https://youtube.com/shorts/AtWWZ3weWRM |
 | 74 | 2026-11-21 | What If Your AI Texted Your Boss? 📱 Part 2 #shorts | what-if: comedy (everyday cringe) (part2) | sources.md | https://youtube.com/shorts/LcTdEKWWAFE |
+| 75 | 2026-11-20 | Why Your AI Sounds Like a Robot (2-Message Fix) #shorts | tips: AI (prompting) (part1) | original fiction | https://youtube.com/shorts/m1UtjnA93qY |
