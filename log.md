@@ -77,3 +77,11 @@
 | 73 | 2026-11-19 | What If Your AI Texted for You? 📱 Part 1 #shorts | what-if: comedy (everyday cringe) (part1) | sources.md | https://youtube.com/shorts/AtWWZ3weWRM |
 | 74 | 2026-11-21 | What If Your AI Texted Your Boss? 📱 Part 2 #shorts | what-if: comedy (everyday cringe) (part2) | sources.md | https://youtube.com/shorts/LcTdEKWWAFE |
 | 75 | 2026-11-20 | Why Your AI Sounds Like a Robot (2-Message Fix) #shorts | tips: AI (prompting) (part1) | original fiction | https://youtube.com/shorts/m1UtjnA93qY |
+| 76 | 2026-11-21 | Your AI Writes Boring Stuff? Let It Interview You #shorts | tips: AI (prompting) (part1) | original fiction | https://youtube.com/shorts/F5FAFkYFv-o |
+| 77 | 2026-11-22 | What If Prices Dropped Every Minute You Waited? (Full Story) | what-if: money (full) | sources.md | https://youtu.be/1TISFFdcglM |
+| 78 | 2026-11-23 | What If a Kid Answered in Morse Code? ☀️ Part 6 #shorts | what-if: disaster (real history) (part6) | sources.md | https://youtube.com/shorts/vZJ6HU4pGnw |
+| 79 | 2026-11-23 | What If a Leaf Grew on Your Head? 🌞 Part 8 #shorts | what-if: sci-fi (real nature) (part8) | sources.md | https://youtube.com/shorts/-ID93OGd2as |
+| 80 | 2026-11-23 | What If the Sky Turned Blood Red? 🌋 Part 5 #shorts | what-if: disaster (real history) (part5) | sources.md | https://youtube.com/shorts/C3nffxC5ZKM |
+| 81 | 2026-11-23 | What If Your AI Texted Your Crush? 📱 Part 3 #shorts | what-if: comedy (everyday cringe) (part3) | sources.md | https://youtube.com/shorts/rKdJApXN_WM |
+| 82 | 2026-11-23 | What If a Whole Town Panicked? ☄️ Part 4 #shorts | what-if: disaster (real history) (part4) | sources.md | https://youtube.com/shorts/FAYlVep__OU |
+| 83 | 2026-11-23 | What If Your Town's Money Was Illegal? 💸 Part 7 #shorts | what-if: money (part7) | sources.md | https://youtube.com/shorts/GR029oHxN3I |
