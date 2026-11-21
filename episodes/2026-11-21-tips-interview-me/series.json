@@ -1,0 +1,521 @@
+{
+ "title": "Make AI Interview You First",
+ "rubric": "tips: AI (prompting)",
+ "mood": "tech",
+ "seed": 6900,
+ "standalone": true,
+ "look": "tips",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "finale": {
+  "text": "1 AI TRICK A DAY",
+  "sub": "Follow so you don't miss tomorrow's"
+ },
+ "parts": [
+  {
+   "title": "Interview Me",
+   "lines": [
+    {
+     "speaker": "hero",
+     "say": "Bit, AI wrote my dad's birthday speech. It's so *boring*.",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "sad",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Show me what you *asked*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "Write a birthday speech for my dad."
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "One line. It knows *nothing* about your dad.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "Write a birthday speech for my dad.",
+       "reply": 4
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "So it writes a speech for *any* dad.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "sad",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "prompts",
+       "text": "Write a birthday speech for my dad.",
+       "n": 3
+      },
+      "sfx": [
+       {
+        "type": "buzz"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "So I have to write *everything* myself?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "shocked",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "No. Let the AI *interview* you.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "neutral",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "title",
+       "text": "LET IT INTERVIEW YOU"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Add one line before it *writes*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 1,
+       "text": "Write a birthday speech for my dad."
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Ask me five questions first. *One at a time*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "Write a birthday speech for my dad. Before you write, ask me 5 questions about him. One at a time."
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Now it asks what only *you* know.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "list",
+       "title": "AI ASKS YOU",
+       "items": [
+        "What does he love?",
+        "His worst joke?",
+        "A story only you know?"
+       ]
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       },
+       {
+        "type": "ding",
+        "at": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "His worst joke? Oh, I have *ten*.",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Perfect. One at a time keeps the answers *short*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "grin",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "bit",
+       "text": "Question 2 of 5: what's his worst joke?",
+       "reply": "Why did the scarecrow win a prize? He was outstanding in his field."
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Then step two: tell it the *tone* and length.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 2,
+       "text": "Now write it. Funny, warm, under two minutes."
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Details. Tone. *Length*. That's the whole script.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "slots",
+       "title": "A GOOD ANSWER NEEDS",
+       "items": [
+        {
+         "icon": "chat",
+         "label": "YOUR DETAILS"
+        },
+        {
+         "icon": "star",
+         "label": "TONE"
+        },
+        {
+         "icon": "clock",
+         "label": "LENGTH"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Works for speeches. What *else*?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "neutral",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Cover letters. Gift ideas. Trip plans. *Anything* personal.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "neutral",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "compare",
+       "bad": "Plan a trip to Rome",
+       "good": "Ask me 5 questions, then plan my Rome trip"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Okay. Speech done. Dad *cried*.",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "happy",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Happy tears? Or the *scarecrow* joke?",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "grin",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "title",
+       "text": "OUTSTANDING",
+       "sub": "in his field"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Follow for one AI trick a day.",
+     "end": true
+    }
+   ]
+  }
+ ]
+}
