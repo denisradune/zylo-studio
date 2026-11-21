@@ -1,0 +1,1519 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 50.901,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Bit,",
+   "startMs": 100,
+   "endMs": 290,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 290,
+   "endMs": 720,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "wrote",
+   "startMs": 720,
+   "endMs": 860,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 860,
+   "endMs": 1000,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "dad's",
+   "startMs": 1000,
+   "endMs": 1300,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "birthday",
+   "startMs": 1300,
+   "endMs": 1690,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "speech.",
+   "startMs": 1690,
+   "endMs": 2127,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 2471,
+   "endMs": 2571,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "so",
+   "startMs": 2571,
+   "endMs": 2761,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "boring.",
+   "startMs": 2761,
+   "endMs": 3260,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Show",
+   "startMs": 3605,
+   "endMs": 3905,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "me",
+   "startMs": 3905,
+   "endMs": 4025,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "what",
+   "startMs": 4025,
+   "endMs": 4165,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 4165,
+   "endMs": 4325,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "asked.",
+   "startMs": 4325,
+   "endMs": 4843,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "One",
+   "startMs": 5124,
+   "endMs": 5384,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "line.",
+   "startMs": 5384,
+   "endMs": 5977,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "It",
+   "startMs": 6279,
+   "endMs": 6399,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "knows",
+   "startMs": 6399,
+   "endMs": 6709,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "nothing",
+   "startMs": 6709,
+   "endMs": 7089,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "about",
+   "startMs": 7089,
+   "endMs": 7409,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 7409,
+   "endMs": 7559,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "dad.",
+   "startMs": 7559,
+   "endMs": 7985,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "So",
+   "startMs": 8288,
+   "endMs": 8458,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 8458,
+   "endMs": 8578,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "writes",
+   "startMs": 8578,
+   "endMs": 8838,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 8838,
+   "endMs": 8898,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "speech",
+   "startMs": 8888,
+   "endMs": 9368,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 9368,
+   "endMs": 9498,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "any",
+   "startMs": 9498,
+   "endMs": 9658,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "dad.",
+   "startMs": 9658,
+   "endMs": 10080,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "So",
+   "startMs": 10361,
+   "endMs": 10481,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 10481,
+   "endMs": 10541,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 10541,
+   "endMs": 10691,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 10691,
+   "endMs": 10781,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "write",
+   "startMs": 10781,
+   "endMs": 11021,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "everything",
+   "startMs": 11021,
+   "endMs": 11411,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "myself?",
+   "startMs": 11411,
+   "endMs": 12047,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "No.",
+   "startMs": 12349,
+   "endMs": 12883,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Let",
+   "startMs": 13400,
+   "endMs": 13640,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 13640,
+   "endMs": 13770,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 13770,
+   "endMs": 14230,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "interview",
+   "startMs": 14230,
+   "endMs": 14610,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "you.",
+   "startMs": 14610,
+   "endMs": 14936,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Add",
+   "startMs": 15239,
+   "endMs": 15489,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 15489,
+   "endMs": 15759,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "line",
+   "startMs": 15759,
+   "endMs": 16059,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "before",
+   "startMs": 16059,
+   "endMs": 16329,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 16329,
+   "endMs": 16409,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "writes.",
+   "startMs": 16409,
+   "endMs": 16924,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Ask",
+   "startMs": 17184,
+   "endMs": 17474,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "me",
+   "startMs": 17474,
+   "endMs": 17644,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "five",
+   "startMs": 17644,
+   "endMs": 17964,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "questions",
+   "startMs": 17964,
+   "endMs": 18484,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "first.",
+   "startMs": 18484,
+   "endMs": 18997,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "One",
+   "startMs": 19280,
+   "endMs": 19570,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "at",
+   "startMs": 19570,
+   "endMs": 19660,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 19660,
+   "endMs": 19770,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "time.",
+   "startMs": 19770,
+   "endMs": 20283,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Now",
+   "startMs": 20607,
+   "endMs": 20907,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 20907,
+   "endMs": 20987,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "asks",
+   "startMs": 20987,
+   "endMs": 21417,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "what",
+   "startMs": 21417,
+   "endMs": 21567,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "only",
+   "startMs": 21567,
+   "endMs": 21887,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 21887,
+   "endMs": 21997,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "know.",
+   "startMs": 21997,
+   "endMs": 22356,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "His",
+   "startMs": 22637,
+   "endMs": 22757,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "worst",
+   "startMs": 22757,
+   "endMs": 23097,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "joke?",
+   "startMs": 23097,
+   "endMs": 23533,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Oh,",
+   "startMs": 23941,
+   "endMs": 24061,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 24061,
+   "endMs": 24171,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 24171,
+   "endMs": 24321,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "ten.",
+   "startMs": 24321,
+   "endMs": 24773,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Perfect.",
+   "startMs": 25097,
+   "endMs": 25823,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "One",
+   "startMs": 26124,
+   "endMs": 26324,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 26324,
+   "endMs": 26414,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 26414,
+   "endMs": 26494,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "time",
+   "startMs": 26494,
+   "endMs": 26874,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "keeps",
+   "startMs": 26874,
+   "endMs": 27184,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 27184,
+   "endMs": 27324,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "answers",
+   "startMs": 27324,
+   "endMs": 27664,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "short.",
+   "startMs": 27664,
+   "endMs": 28129,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 28411,
+   "endMs": 28691,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "step",
+   "startMs": 28691,
+   "endMs": 28931,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "two:",
+   "startMs": 28931,
+   "endMs": 29281,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "tell",
+   "startMs": 29281,
+   "endMs": 29461,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 29461,
+   "endMs": 29571,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 29571,
+   "endMs": 29661,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "tone",
+   "startMs": 29661,
+   "endMs": 29991,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "and",
+   "startMs": 29991,
+   "endMs": 30081,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "length.",
+   "startMs": 30081,
+   "endMs": 30480,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Details.",
+   "startMs": 30743,
+   "endMs": 31617,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Tone.",
+   "startMs": 31961,
+   "endMs": 32516,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Length.",
+   "startMs": 32815,
+   "endMs": 33369,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "That's",
+   "startMs": 33844,
+   "endMs": 34144,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 34144,
+   "endMs": 34244,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "whole",
+   "startMs": 34244,
+   "endMs": 34494,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "script.",
+   "startMs": 34494,
+   "endMs": 35124,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Works",
+   "startMs": 35405,
+   "endMs": 35645,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 35645,
+   "endMs": 35865,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "speeches.",
+   "startMs": 35865,
+   "endMs": 36429,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "What",
+   "startMs": 36773,
+   "endMs": 36913,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "else?",
+   "startMs": 36913,
+   "endMs": 37349,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "Cover",
+   "startMs": 37631,
+   "endMs": 37941,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "letters.",
+   "startMs": 37941,
+   "endMs": 38633,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Gift",
+   "startMs": 38977,
+   "endMs": 39327,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "ideas.",
+   "startMs": 39327,
+   "endMs": 40023,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Trip",
+   "startMs": 40343,
+   "endMs": 40643,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "plans.",
+   "startMs": 40643,
+   "endMs": 41281,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Anything",
+   "startMs": 41604,
+   "endMs": 42104,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "personal.",
+   "startMs": 42104,
+   "endMs": 42799,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "Okay.",
+   "startMs": 43080,
+   "endMs": 43613,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Speech",
+   "startMs": 43936,
+   "endMs": 44296,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "done.",
+   "startMs": 44296,
+   "endMs": 44683,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "Dad",
+   "startMs": 44963,
+   "endMs": 45253,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "cried.",
+   "startMs": 45253,
+   "endMs": 45688,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Happy",
+   "startMs": 46033,
+   "endMs": 46373,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "tears?",
+   "startMs": 46373,
+   "endMs": 46993,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Or",
+   "startMs": 47380,
+   "endMs": 47540,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 47540,
+   "endMs": 47680,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "scarecrow",
+   "startMs": 47680,
+   "endMs": 48160,
+   "line": 16,
+   "emph": true
+  },
+  {
+   "text": "joke?",
+   "startMs": 48160,
+   "endMs": 48703,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "Follow",
+   "startMs": 49005,
+   "endMs": 49405,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 49405,
+   "endMs": 49565,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 49565,
+   "endMs": 49795,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 49795,
+   "endMs": 50195,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "trick",
+   "startMs": 50195,
+   "endMs": 50415,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 50415,
+   "endMs": 50485,
+   "line": 17,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 50485,
+   "endMs": 50840,
+   "line": 17,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "hero",
+   "start": 0.1,
+   "end": 3.385
+  },
+  {
+   "speaker": "bit",
+   "start": 3.605,
+   "end": 4.904
+  },
+  {
+   "speaker": "bit",
+   "start": 5.124,
+   "end": 8.047
+  },
+  {
+   "speaker": "bit",
+   "start": 8.267,
+   "end": 10.141
+  },
+  {
+   "speaker": "hero",
+   "start": 10.361,
+   "end": 12.108
+  },
+  {
+   "speaker": "bit",
+   "start": 12.328,
+   "end": 14.997
+  },
+  {
+   "speaker": "bit",
+   "start": 15.217,
+   "end": 16.964
+  },
+  {
+   "speaker": "bit",
+   "start": 17.184,
+   "end": 20.365
+  },
+  {
+   "speaker": "bit",
+   "start": 20.585,
+   "end": 22.417
+  },
+  {
+   "speaker": "hero",
+   "start": 22.637,
+   "end": 24.856
+  },
+  {
+   "speaker": "bit",
+   "start": 25.076,
+   "end": 28.169
+  },
+  {
+   "speaker": "bit",
+   "start": 28.389,
+   "end": 30.523
+  },
+  {
+   "speaker": "bit",
+   "start": 30.743,
+   "end": 35.185
+  },
+  {
+   "speaker": "hero",
+   "start": 35.405,
+   "end": 37.389
+  },
+  {
+   "speaker": "bit",
+   "start": 37.609,
+   "end": 42.86
+  },
+  {
+   "speaker": "hero",
+   "start": 43.08,
+   "end": 45.792
+  },
+  {
+   "speaker": "bit",
+   "start": 46.012,
+   "end": 48.764
+  },
+  {
+   "speaker": "bit",
+   "start": 48.984,
+   "end": 50.901
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser"
+    }
+   ],
+   "speaker": "hero",
+   "start": 0.0,
+   "end": 1.772
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "hero",
+   "start": 1.772,
+   "end": 3.545
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "Write a birthday speech for my dad."
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 3.545,
+   "end": 5.064
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "Write a birthday speech for my dad.",
+    "reply": 4
+   },
+   "speaker": "bit",
+   "start": 5.064,
+   "end": 8.207
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "prompts",
+    "text": "Write a birthday speech for my dad.",
+    "n": 3
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "bit",
+   "start": 8.207,
+   "end": 10.301
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "shocked",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 10.301,
+   "end": 12.268
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "LET IT INTERVIEW YOU"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 12.268,
+   "end": 15.157
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 1,
+    "text": "Write a birthday speech for my dad."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 15.157,
+   "end": 17.124
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "Write a birthday speech for my dad. Before you write, ask me 5 questions about him. One at a time."
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 17.124,
+   "end": 20.525
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "list",
+    "title": "AI ASKS YOU",
+    "items": [
+     "What does he love?",
+     "His worst joke?",
+     "A story only you know?"
+    ]
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.4
+    }
+   ],
+   "speaker": "bit",
+   "start": 20.525,
+   "end": 22.577
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 22.577,
+   "end": 25.016
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "grin",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "bit",
+    "text": "Question 2 of 5: what's his worst joke?",
+    "reply": "Why did the scarecrow win a prize? He was outstanding in his field."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 25.016,
+   "end": 28.329
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 2,
+    "text": "Now write it. Funny, warm, under two minutes."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 28.329,
+   "end": 30.683
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "slots",
+    "title": "A GOOD ANSWER NEEDS",
+    "items": [
+     {
+      "icon": "chat",
+      "label": "YOUR DETAILS"
+     },
+     {
+      "icon": "star",
+      "label": "TONE"
+     },
+     {
+      "icon": "clock",
+      "label": "LENGTH"
+     }
+    ]
+   },
+   "speaker": "bit",
+   "start": 30.683,
+   "end": 35.345
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "neutral",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 35.345,
+   "end": 37.549
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "compare",
+    "bad": "Plan a trip to Rome",
+    "good": "Ask me 5 questions, then plan my Rome trip"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 37.549,
+   "end": 43.02
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "hero",
+   "start": 43.02,
+   "end": 45.952
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "grin",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "OUTSTANDING",
+    "sub": "in his field"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 45.952,
+   "end": 48.924
+  }
+ ],
+ "endStart": 48.924,
+ "endText": "1 AI TRICK A DAY",
+ "endSub": "Follow so you don't miss tomorrow's",
+ "look": "tips"
+}
