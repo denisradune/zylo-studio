@@ -1,0 +1,515 @@
+{
+ "mood": "tech",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "look": "tips",
+ "title": "Long Email? Ask AI These 3 Questions (Part 1)",
+ "seed": 7001,
+ "end": {
+  "text": "1 AI TRICK A DAY",
+  "sub": "Follow so you don't miss tomorrow's"
+ },
+ "lines": [
+  {
+   "speaker": "hero",
+   "say": "Bit, my boss sent a nine-hundred-word *email*.",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "shocked",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "And you read it three times. Still *lost*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "stat",
+     "label": "EMAIL LENGTH",
+     "value": 900,
+     "suffix": " WORDS",
+     "sub": "read 3 times"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Can you just tell me what he *wants*?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Better. I'll show you how to ask *any* AI.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "neutral",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "title",
+     "text": "3 QUESTIONS",
+     "sub": "for any long email"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Step one. Paste the whole email. Don't *summarize* it yourself.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "step",
+     "n": 1,
+     "text": "Here's an email from my boss: [paste]"
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Step two. Ask three questions. *Not* summarize this.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "compare",
+     "bad": "Summarize this",
+     "good": "What do they want? By when? Draft my reply."
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "What do they want from me?",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "slots",
+     "title": "ASK THESE 3",
+     "items": [
+      {
+       "icon": "search",
+       "label": "THE ASK"
+      },
+      {
+       "icon": "clock",
+       "label": "DEADLINE"
+      },
+      {
+       "icon": "chat",
+       "label": "MY REPLY"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "By *when*? And draft a three-line *reply*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "chat",
+     "from": "hero",
+     "text": "What do they want from me? By when? Draft a 3-line reply."
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Why not just ask for a *summary*?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "A summary is shorter. Questions give you the next *move*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "neutral",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "chat",
+     "from": "hero",
+     "text": "What do they want from me? By when? Draft a 3-line reply.",
+     "reply": "He wants the Q4 report. By Friday 5 p.m. Reply: On it, you'll have it Friday."
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Nine hundred words. And it's just: report by *Friday*?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "shocked",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ],
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Step three. Before you send, check names, dates and *numbers*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "step",
+     "n": 3,
+     "text": "Check: names, dates, numbers."
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "AI can mix them up. That part is *your* job.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "list",
+     "title": "BEFORE YOU SEND",
+     "items": [
+      "Names right?",
+      "Dates right?",
+      "Numbers right?"
+     ]
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Works for group chats too?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "happy",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Two hundred unread? Same three *questions*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "grin",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "stat",
+     "label": "UNREAD",
+     "value": 214,
+     "sub": "3 questions"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Bit. The boss just sent a *second* email.",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "It says: thanks for the *fast reply*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "grin",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "title",
+     "text": "THANKS FOR THE FAST REPLY"
+    },
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Follow for one AI trick a day.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
