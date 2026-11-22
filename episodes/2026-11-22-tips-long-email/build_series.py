@@ -24,7 +24,7 @@ Q3 = "What do they want from me? By when? Draft a 3-line reply."
 
 lines = [
  L("hero", "Bit, my boss sent a nine-hundred-word *email*.", CLOSE, [face("shocked", "phone")], sfx=[{"type": "riser"}]),
- L("bit", "And you read it three times. Still *lost*.", **W({"kind": "stat", "label": "EMAIL LENGTH", "value": 900, "suffix": " WORDS", "sub": "read 3 times"}, "smug", "sad"), sfx=TICK),
+ L("bit", "And you read it three times. Still *lost*.", **W({"kind": "stat", "label": "WORDS IN ONE EMAIL", "value": 900, "sub": "read 3 times"}, "smug", "sad"), sfx=TICK),
  L("hero", "Can you just tell me what he *wants*?", CLOSE, [face("sad", "shrug")]),
  L("bit", "Better. I'll show you how to ask *any* AI.", **W({"kind": "title", "text": "3 QUESTIONS", "sub": "for any long email"}, "happy", "neutral"), sfx=DING),
  L("bit", "Step one. Paste the whole email. Don't *summarize* it yourself.", **W({"kind": "step", "n": 1, "text": "Here's an email from my boss: [paste]"}, "neutral"), sfx=POP),

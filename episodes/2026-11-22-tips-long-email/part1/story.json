@@ -62,9 +62,8 @@
     ],
     "screen": {
      "kind": "stat",
-     "label": "EMAIL LENGTH",
+     "label": "WORDS IN ONE EMAIL",
      "value": 900,
-     "suffix": " WORDS",
      "sub": "read 3 times"
     },
     "sfx": [
