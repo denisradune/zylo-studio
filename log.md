@@ -86,3 +86,4 @@
 | 82 | 2026-11-23 | What If a Whole Town Panicked? ☄️ Part 4 #shorts | what-if: disaster (real history) (part4) | sources.md | https://youtube.com/shorts/FAYlVep__OU |
 | 83 | 2026-11-23 | What If Your Town's Money Was Illegal? 💸 Part 7 #shorts | what-if: money (part7) | sources.md | https://youtube.com/shorts/GR029oHxN3I |
 | 84 | 2026-11-24 | What If You Could Eat Sunlight? (Full Story) | what-if: sci-fi (real nature) (full) | sources.md | https://youtu.be/pBG-vJV5RB0 |
+| 85 | 2026-11-22 | Long Email? Ask AI These 3 Questions, Not Summarize #shorts | tips: AI (productivity) (part1) | original fiction | https://youtube.com/shorts/kMYXrCy56gI |
