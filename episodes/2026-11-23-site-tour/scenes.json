@@ -1,0 +1,15 @@
+[
+ {"id":"intro","chapter":"","text":"Every zylo video now has a home on the web. It's called zylo dot video. In the next three minutes, I'll show you everything you can do there."},
+ {"id":"hero","chapter":"The home page","text":"Open the site and you land on our slogan, read word by word, just like the captions in our Shorts. One fact a day that changes how you see the world."},
+ {"id":"stats","chapter":"The home page","text":"Right below it, you see the whole channel at a glance. How many videos there are, when the latest one came out, and how many views they have together. On the right, a stack of phones shows the newest videos. Tap the front one, and it starts playing."},
+ {"id":"archive","chapter":"Every video","text":"Scroll down and you reach the archive. This is every single zylo video, more than eighty of them, and the list keeps itself up to date. When a new video goes up on YouTube, it appears here on its own, usually within fifteen minutes."},
+ {"id":"cards","chapter":"Every video","text":"Each card shows the cover, the title, the date, and the number of views. The newest video wears a yellow new tag, and the longer full stories are marked, so you always know what you're about to watch."},
+ {"id":"filters","chapter":"Find anything","text":"Looking for something specific? Pick a rubric. Weird science and the body, psychology, money and tech, or history and space."},
+ {"id":"search","chapter":"Find anything","text":"Or just search. Type zombie, and you get every zombie episode in a second. You can sort by newest, oldest, or most viewed, and load more whenever you reach the end."},
+ {"id":"player","chapter":"Watch right here","text":"Tap any video, and it plays right there on the page, in a pop up player. If you'd rather watch on YouTube, one button takes you there."},
+ {"id":"suggest","chapter":"Suggest a video","text":"Now my favorite part. Got an idea for a video? Write it in the suggest form, pick a rubric, and if you like, leave your name and email. We read every idea, and the best ones become new videos. If yours makes it, you'll hear from us."},
+ {"id":"ask","chapter":"Ask zylo","text":"Curious about something right now? Ask zylo. Type any question about science, the brain, money, history, or space, or tap one of the examples. You get a short answer in a few sentences, and if we made a video about it, a link to watch it."},
+ {"id":"faq","chapter":"FAQ","text":"Still have questions? The FAQ covers how often we post, how we check every fact, and how the videos are made."},
+ {"id":"mobile","chapter":"On your phone","text":"The whole site works just as well on your phone, with videos in two columns and big buttons. And it follows your device, with a dark theme for the night and a light one for the day."},
+ {"id":"outro","chapter":"","text":"So that's zylo dot video. Watch every video, suggest the next one, and ask anything you want. And if you don't want to miss a single fact, hit subscribe. See you there."}
+]
