@@ -1,0 +1,1466 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 45.775,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Bit,",
+   "startMs": 100,
+   "endMs": 240,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 240,
+   "endMs": 450,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "fridge",
+   "startMs": 450,
+   "endMs": 620,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 620,
+   "endMs": 840,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "full.",
+   "startMs": 840,
+   "endMs": 1188,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 1511,
+   "endMs": 1661,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "there's",
+   "startMs": 1661,
+   "endMs": 1771,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "nothing",
+   "startMs": 1771,
+   "endMs": 2091,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "to",
+   "startMs": 2091,
+   "endMs": 2211,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "eat.",
+   "startMs": 2211,
+   "endMs": 2599,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Classic.",
+   "startMs": 2923,
+   "endMs": 3584,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Open",
+   "startMs": 3904,
+   "endMs": 4264,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 4264,
+   "endMs": 4344,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "fridge.",
+   "startMs": 4344,
+   "endMs": 4971,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Take",
+   "startMs": 5291,
+   "endMs": 5621,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 5621,
+   "endMs": 5881,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "photo.",
+   "startMs": 5881,
+   "endMs": 6485,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Send",
+   "startMs": 6788,
+   "endMs": 7048,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 7048,
+   "endMs": 7138,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 7138,
+   "endMs": 7248,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "any",
+   "startMs": 7248,
+   "endMs": 7468,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 7468,
+   "endMs": 7808,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "chat",
+   "startMs": 7808,
+   "endMs": 8088,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "app",
+   "startMs": 8088,
+   "endMs": 8298,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "that",
+   "startMs": 8298,
+   "endMs": 8448,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "takes",
+   "startMs": 8448,
+   "endMs": 8738,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "pictures.",
+   "startMs": 8738,
+   "endMs": 9348,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Then",
+   "startMs": 9611,
+   "endMs": 9901,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 9901,
+   "endMs": 10031,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "important",
+   "startMs": 10031,
+   "endMs": 10521,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "part.",
+   "startMs": 10521,
+   "endMs": 11019,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Give",
+   "startMs": 11363,
+   "endMs": 11593,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 11593,
+   "endMs": 11653,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "limits.",
+   "startMs": 11653,
+   "endMs": 12280,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Why",
+   "startMs": 12559,
+   "endMs": 12829,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "limits?",
+   "startMs": 12829,
+   "endMs": 13305,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Just",
+   "startMs": 13692,
+   "endMs": 13832,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "ask",
+   "startMs": 13832,
+   "endMs": 14142,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 14142,
+   "endMs": 14342,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 14342,
+   "endMs": 14422,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "recipe.",
+   "startMs": 14422,
+   "endMs": 14972,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Without",
+   "startMs": 15253,
+   "endMs": 15573,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "limits,",
+   "startMs": 15573,
+   "endMs": 15993,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 15993,
+   "endMs": 16103,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "suggests",
+   "startMs": 16103,
+   "endMs": 16683,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "lasagna.",
+   "startMs": 16683,
+   "endMs": 17280,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 17603,
+   "endMs": 17763,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 17763,
+   "endMs": 17853,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "trip",
+   "startMs": 17853,
+   "endMs": 18103,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 18103,
+   "endMs": 18213,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 18213,
+   "endMs": 18303,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "store.",
+   "startMs": 18303,
+   "endMs": 18840,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Time.",
+   "startMs": 19161,
+   "endMs": 19716,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Only",
+   "startMs": 20057,
+   "endMs": 20437,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "these",
+   "startMs": 20437,
+   "endMs": 20657,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "ingredients.",
+   "startMs": 20657,
+   "endMs": 21529,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Your",
+   "startMs": 21812,
+   "endMs": 22062,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "skill",
+   "startMs": 22062,
+   "endMs": 22332,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "level.",
+   "startMs": 22332,
+   "endMs": 22836,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Now",
+   "startMs": 23139,
+   "endMs": 23429,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "look",
+   "startMs": 23429,
+   "endMs": 23649,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "what",
+   "startMs": 23649,
+   "endMs": 23799,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 23799,
+   "endMs": 23909,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "finds.",
+   "startMs": 23909,
+   "endMs": 24547,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Fried",
+   "startMs": 24849,
+   "endMs": 25109,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "rice?",
+   "startMs": 25109,
+   "endMs": 25575,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 25959,
+   "endMs": 26089,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "had",
+   "startMs": 26089,
+   "endMs": 26179,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "all",
+   "startMs": 26179,
+   "endMs": 26359,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "of",
+   "startMs": 26359,
+   "endMs": 26419,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "that?",
+   "startMs": 26389,
+   "endMs": 26791,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Step",
+   "startMs": 27136,
+   "endMs": 27446,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 27446,
+   "endMs": 27925,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Ask",
+   "startMs": 28248,
+   "endMs": 28558,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 28558,
+   "endMs": 28678,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "two",
+   "startMs": 28678,
+   "endMs": 28858,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "more",
+   "startMs": 28858,
+   "endMs": 29078,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "options.",
+   "startMs": 29078,
+   "endMs": 29699,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 29959,
+   "endMs": 30079,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "first",
+   "startMs": 30079,
+   "endMs": 30389,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "idea",
+   "startMs": 30389,
+   "endMs": 30829,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 30829,
+   "endMs": 31039,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "rarely",
+   "startMs": 31039,
+   "endMs": 31349,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 31349,
+   "endMs": 31439,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "best",
+   "startMs": 31439,
+   "endMs": 31719,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "one.",
+   "startMs": 31719,
+   "endMs": 31964,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Can",
+   "startMs": 32267,
+   "endMs": 32417,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 32417,
+   "endMs": 32507,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "tell",
+   "startMs": 32507,
+   "endMs": 32727,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 32727,
+   "endMs": 32787,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 32737,
+   "endMs": 32837,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "milk",
+   "startMs": 32837,
+   "endMs": 33017,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 33017,
+   "endMs": 33177,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "still",
+   "startMs": 33177,
+   "endMs": 33377,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "good?",
+   "startMs": 33377,
+   "endMs": 33739,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "No.",
+   "startMs": 34105,
+   "endMs": 34639,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "It",
+   "startMs": 35135,
+   "endMs": 35285,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "can't",
+   "startMs": 35285,
+   "endMs": 35605,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "smell.",
+   "startMs": 35605,
+   "endMs": 36116,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Dates",
+   "startMs": 36439,
+   "endMs": 36769,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "and",
+   "startMs": 36769,
+   "endMs": 36899,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "allergies",
+   "startMs": 36899,
+   "endMs": 37439,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 37439,
+   "endMs": 37589,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 37589,
+   "endMs": 37779,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "job.",
+   "startMs": 37779,
+   "endMs": 38209,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "Fifteen",
+   "startMs": 38491,
+   "endMs": 38781,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "minutes",
+   "startMs": 38781,
+   "endMs": 39021,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "later:",
+   "startMs": 39021,
+   "endMs": 39531,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "dinner.",
+   "startMs": 39531,
+   "endMs": 39920,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 40287,
+   "endMs": 40477,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 40477,
+   "endMs": 40667,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "more",
+   "startMs": 40667,
+   "endMs": 40947,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "thing",
+   "startMs": 40947,
+   "endMs": 41107,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 41107,
+   "endMs": 41287,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "found",
+   "startMs": 41287,
+   "endMs": 41617,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 41617,
+   "endMs": 41717,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 41717,
+   "endMs": 41787,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "photo.",
+   "startMs": 41787,
+   "endMs": 42356,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "March",
+   "startMs": 42616,
+   "endMs": 42876,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 42876,
+   "endMs": 42986,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "which",
+   "startMs": 42986,
+   "endMs": 43196,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "year?",
+   "startMs": 43196,
+   "endMs": 43533,
+   "line": 15,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 43879,
+   "endMs": 44279,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 44279,
+   "endMs": 44439,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 44439,
+   "endMs": 44669,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 44669,
+   "endMs": 45069,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "trick",
+   "startMs": 45069,
+   "endMs": 45289,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 45289,
+   "endMs": 45359,
+   "line": 16,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 45359,
+   "endMs": 45713,
+   "line": 16,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "hero",
+   "start": 0.1,
+   "end": 2.66
+  },
+  {
+   "speaker": "bit",
+   "start": 2.88,
+   "end": 6.547
+  },
+  {
+   "speaker": "bit",
+   "start": 6.767,
+   "end": 9.369
+  },
+  {
+   "speaker": "bit",
+   "start": 9.589,
+   "end": 12.339
+  },
+  {
+   "speaker": "hero",
+   "start": 12.559,
+   "end": 15.012
+  },
+  {
+   "speaker": "bit",
+   "start": 15.232,
+   "end": 18.899
+  },
+  {
+   "speaker": "bit",
+   "start": 19.119,
+   "end": 22.897
+  },
+  {
+   "speaker": "bit",
+   "start": 23.117,
+   "end": 24.587
+  },
+  {
+   "speaker": "hero",
+   "start": 24.807,
+   "end": 26.873
+  },
+  {
+   "speaker": "bit",
+   "start": 27.093,
+   "end": 29.739
+  },
+  {
+   "speaker": "bit",
+   "start": 29.959,
+   "end": 32.004
+  },
+  {
+   "speaker": "hero",
+   "start": 32.224,
+   "end": 33.864
+  },
+  {
+   "speaker": "bit",
+   "start": 34.084,
+   "end": 38.271
+  },
+  {
+   "speaker": "hero",
+   "start": 38.491,
+   "end": 40.067
+  },
+  {
+   "speaker": "bit",
+   "start": 40.287,
+   "end": 42.396
+  },
+  {
+   "speaker": "hero",
+   "start": 42.616,
+   "end": 43.637
+  },
+  {
+   "speaker": "bit",
+   "start": 43.857,
+   "end": 45.775
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser"
+    }
+   ],
+   "speaker": "hero",
+   "start": 0.0,
+   "end": 2.82
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 1,
+    "text": "Take a photo of your fridge."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 2.82,
+   "end": 6.707
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "[photo of my fridge]"
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 6.707,
+   "end": 9.529
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 2,
+    "text": "What can I cook in 20 minutes with only this? No shopping. Easy steps."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 9.529,
+   "end": 12.499
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "neutral",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 12.499,
+   "end": 15.172
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "compare",
+    "bad": "Give me a recipe",
+    "good": "Only what's in the photo. 20 minutes. No shopping."
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "bit",
+   "start": 15.172,
+   "end": 19.059
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "slots",
+    "title": "ADD 3 LIMITS",
+    "items": [
+     {
+      "icon": "clock",
+      "label": "TIME"
+     },
+     {
+      "icon": "search",
+      "label": "ONLY THIS"
+     },
+     {
+      "icon": "star",
+      "label": "SKILL"
+     }
+    ]
+   },
+   "speaker": "bit",
+   "start": 19.059,
+   "end": 23.057
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "shocked",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "What can I cook in 20 minutes with only this? No shopping. Easy steps.",
+    "reply": "Eggs + leftover rice + peas = fried rice. 15 minutes. Step 1: heat the pan..."
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 23.057,
+   "end": 24.747
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "shocked",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "hero",
+   "start": 24.747,
+   "end": 27.033
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "cards",
+    "n": 3,
+    "mark": "?",
+    "pick": 1
+   },
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "bit",
+   "start": 27.033,
+   "end": 29.899
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "list",
+    "title": "3 OPTIONS",
+    "items": [
+     "Fried rice",
+     "Cheesy omelette",
+     "Pasta with peas"
+    ]
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.4
+    }
+   ],
+   "speaker": "bit",
+   "start": 29.899,
+   "end": 32.164
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "scared",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 32.164,
+   "end": 34.024
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "sad",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "IT CAN'T SMELL",
+    "sub": "check dates + allergies yourself"
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "bit",
+   "start": 34.024,
+   "end": 38.431
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "hero",
+   "start": 38.431,
+   "end": 40.227
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "shocked",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "bit",
+    "text": "Also: the cheese behind the jam is from March."
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 40.227,
+   "end": 42.556
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "scared",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "hero",
+   "start": 42.556,
+   "end": 43.797
+  }
+ ],
+ "endStart": 43.797,
+ "endText": "1 AI TRICK A DAY",
+ "endSub": "Follow so you don't miss tomorrow's",
+ "look": "tips"
+}
