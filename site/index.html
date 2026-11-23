@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>zylo · One fact a day</title>
+<meta name="description" content="zylo makes short videos with one mind-blowing fact a day: weird science, psychology, money, tech, history and space. Watch every video, suggest the next one, ask a question.">
+<meta property="og:title" content="zylo · One fact a day that changes how you see the world">
+<meta property="og:description" content="Watch every zylo Short, suggest an idea for the next video, or ask zylo a question.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zylo.video/">
+<meta name="theme-color" content="#14112a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314112a'/%3E%3Crect x='12' y='20' width='40' height='24' rx='6' fill='%23ffd600'/%3E%3Ctext x='32' y='39' font-family='Arial Black,Arial' font-weight='900' font-size='19' text-anchor='middle' fill='%2314112a'%3Ez%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a Shorts-caption identity. Hero line with a yellow word-highlight (like the videos), then a
+   9:16 video wall, then two working panels (suggest / ask) side by side. */
+:root{
+  --bg:#f3f2fa; --surface:#ffffff; --ink:#17142b; --muted:#5f5a7a; --line:#dcd8ec;
+  --hi:#ffd600; --hi-ink:#17142b; --violet:#4b33d6; --night:#14112a; --ok:#137a43; --err:#b3261e;
+  --display:"Archivo Black","Arial Black",Impact,sans-serif;
+  --body:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:14px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#100d20; --surface:#1b1735; --ink:#f2f0fb; --muted:#a7a1c6; --line:#2e2950;
+  --violet:#9d8bff; --ok:#5fd394; --err:#ff8a80; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#100d20; --surface:#1b1735; --ink:#f2f0fb; --muted:#a7a1c6; --line:#2e2950;
+  --violet:#9d8bff; --ok:#5fd394; --err:#ff8a80; color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--body)}
+a{color:inherit}
+img{max-width:100%}
+[hidden]{display:none!important}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+:focus-visible{outline:3px solid var(--violet);outline-offset:2px;border-radius:6px}
+.mono{font-family:var(--mono);font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+
+/* header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:21;background:var(--bg)}
+.bar{display:flex;align-items:center;gap:20px;padding-block:12px}
+.logo{display:flex;align-items:center;gap:8px;text-decoration:none;font:1.35rem var(--display);letter-spacing:-.01em}
+.logo b{background:var(--hi);color:var(--hi-ink);padding:0 .28em;border-radius:7px;font-weight:400}
+nav.links{display:flex;gap:18px;margin-left:auto;flex-wrap:wrap}
+nav.links a{text-decoration:none;font-weight:500;color:var(--muted)}
+nav.links a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;font:700 .95rem var(--body);padding:11px 18px;border-radius:999px;text-decoration:none;transition:transform .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn:disabled{opacity:.6;cursor:progress}
+.btn-hi{background:var(--hi);color:var(--hi-ink)}
+.btn-ink{background:var(--ink);color:var(--bg)}
+.btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+@media (max-width:720px){nav.links{display:none} .bar .btn{margin-left:auto}}
+
+/* hero */
+.hero{padding-block:56px 36px;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:40px;align-items:end}
+@media (max-width:860px){.hero{grid-template-columns:1fr;padding-block:36px 24px}}
+.hero h1{font:clamp(2.3rem,6.2vw,4.6rem)/1.06 var(--display);margin:14px 0 18px;letter-spacing:-.02em;text-wrap:balance;font-weight:400}
+.cap{display:inline;padding:0 .14em;border-radius:.16em;transition:background .25s,color .25s;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.cap.on{background:var(--hi);color:var(--hi-ink)}
+.hero p.lede{font-size:1.15rem;color:var(--muted);max-width:52ch;margin:0 0 24px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.stat{background:var(--surface);padding:16px 14px;min-width:0}
+.stat strong{display:block;font:1.7rem/1.1 var(--display);font-variant-numeric:tabular-nums;font-weight:400}
+.stat span{font-size:.82rem;color:var(--muted)}
+
+/* sections */
+section{padding-block:44px}
+.head{display:flex;flex-wrap:wrap;align-items:end;gap:14px 24px;margin-bottom:22px}
+.head h2{font:clamp(1.7rem,3.6vw,2.4rem)/1.05 var(--display);margin:6px 0 0;letter-spacing:-.01em;text-wrap:balance;font-weight:400}
+.head .tools{margin-left:auto;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:var(--surface);color:var(--ink);font:500 .88rem var(--body);padding:7px 13px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip .n{font:500 .7rem var(--mono);opacity:.7;margin-left:4px}
+input,textarea,select{font:inherit;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;width:100%}
+textarea{resize:vertical;min-height:110px}
+.search{width:min(260px,100%)}
+#sort{width:auto}
+
+/* video wall */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:18px}
+@media (max-width:440px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+.card{display:flex;flex-direction:column;gap:9px;min-width:0;text-align:left;background:none;border:0;padding:0;color:inherit;cursor:pointer;font:inherit}
+.thumb{position:relative;aspect-ratio:9/16;max-width:100%;border-radius:var(--r);overflow:hidden;background:linear-gradient(160deg,#2a1f6b,#14112a)}
+.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .35s}
+.card:hover .thumb img{transform:scale(1.04)}
+.thumb .t{position:absolute;inset:auto 10px 12px;font:1.02rem/1.15 var(--display);color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.6)}
+.thumb .play{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;background:var(--hi);display:grid;place-items:center}
+.thumb .play::before{content:"";border-left:11px solid var(--hi-ink);border-top:7px solid transparent;border-bottom:7px solid transparent;margin-left:3px}
+.thumb .new{position:absolute;top:10px;left:10px;background:var(--hi);color:var(--hi-ink);font:700 .7rem var(--mono);padding:3px 7px;border-radius:6px}
+.card h3{font:700 .95rem/1.3 var(--body);margin:0;overflow-wrap:anywhere}
+.meta{display:flex;gap:8px;flex-wrap:wrap;font:.74rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+.empty{grid-column:1/-1;padding:40px;border:1.5px dashed var(--line);border-radius:var(--r);text-align:center;color:var(--muted)}
+.more{display:flex;justify-content:center;margin-top:26px}
+
+/* player */
+dialog{border:0;padding:0;background:transparent;max-width:min(440px,92vw);width:100%}
+dialog::backdrop{background:rgba(10,8,24,.82)}
+.player{aspect-ratio:9/16;max-height:80vh;max-width:100%;margin:0 auto;border-radius:18px;overflow:hidden;background:#000}
+.player iframe{width:100%;height:100%;border:0;display:block}
+.pbar{display:flex;gap:10px;justify-content:space-between;align-items:center;margin-top:12px;color:#fff}
+.pbar p{margin:0;font-weight:700;min-width:0;overflow-wrap:anywhere;flex:1}
+.x{background:#fff;color:#14112a;border:0;border-radius:999px;width:40px;height:40px;font:700 1.1rem var(--body);cursor:pointer;flex:none}
+
+/* interact */
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px}
+@media (max-width:860px){.two{grid-template-columns:1fr}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:clamp(18px,3vw,26px);display:flex;flex-direction:column;gap:14px;min-width:0}
+.panel h2{font:clamp(1.5rem,3vw,2rem)/1.08 var(--display);margin:0;text-wrap:balance;font-weight:400}
+.panel p.sub{margin:0;color:var(--muted)}
+form{display:flex;flex-direction:column;gap:12px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+@media (max-width:480px){.row{grid-template-columns:1fr}}
+label{display:flex;flex-direction:column;gap:6px;font-weight:500;font-size:.9rem}
+label small{color:var(--muted);font-weight:400}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.status{font-size:.92rem;min-height:1.4em;margin:0}
+.status.ok{color:var(--ok)} .status.err{color:var(--err)}
+form.ask{flex-direction:row;gap:10px}
+form.ask input{flex:1;min-width:0}
+.answer{border-left:4px solid var(--hi);background:color-mix(in srgb,var(--hi) 12%,var(--surface));padding:14px 16px;border-radius:0 12px 12px 0;white-space:pre-wrap;margin:0}
+.samples{display:flex;flex-wrap:wrap;gap:8px}
+.faq{margin-top:8px}
+details{border-top:1px solid var(--line);padding-block:12px}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font:1.2rem var(--display);color:var(--violet)}
+details[open] summary::after{content:"–"}
+details p{margin:8px 0 0;color:var(--muted)}
+
+/* subscribe band */
+.band{background:var(--night);color:#f2f0fb;border-radius:24px;padding:38px clamp(20px,4vw,48px);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:center}
+@media (max-width:720px){.band{grid-template-columns:1fr}}
+.band h2{font:clamp(1.6rem,3.4vw,2.4rem)/1.05 var(--display);margin:0;text-wrap:balance;font-weight:400}
+.band p{margin:8px 0 0;color:#b9b3d8}
+footer{padding-block:34px 44px;color:var(--muted);font-size:.9rem;display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center}
+footer a{color:var(--muted)}
+footer .sp{margin-left:auto}
+</style>
+</head>
+<body>
+<!--PAGE-->
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="zylo home"><b>zylo</b></a>
+    <nav class="links" aria-label="Sections">
+      <a href="#videos">Videos</a><a href="#suggest">Suggest a video</a><a href="#ask">Ask zylo</a><a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-hi" href="https://www.youtube.com/channel/UCfoc78YxRz1DXNroyI688mA?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <div>
+      <span class="mono">YouTube Shorts · new video every day</span>
+      <h1 id="hl"><span class="cap">One</span> <span class="cap on">fact</span> <span class="cap">a</span> <span class="cap">day</span> <span class="cap">that</span> <span class="cap">changes</span> <span class="cap">how</span> <span class="cap">you</span> <span class="cap">see</span> <span class="cap">the</span> <span class="cap">world.</span></h1>
+      <p class="lede">Weird science, how your brain tricks you, money and tech, history and space. Every fact is checked before it goes in a video. Watch them all here, tell us what to make next, or ask zylo anything.</p>
+      <div class="cta">
+        <a class="btn btn-ink" href="#videos">Watch all videos</a>
+        <a class="btn btn-ghost" href="#suggest">Suggest a video</a>
+      </div>
+    </div>
+    <div class="stats" aria-label="Channel numbers">
+      <div class="stat"><strong id="sCount">–</strong><span>videos</span></div>
+      <div class="stat"><strong id="sLatest">–</strong><span>latest upload</span></div>
+      <div class="stat"><strong id="sViews">–</strong><span>total views</span></div>
+    </div>
+  </div>
+
+  <section id="videos">
+    <div class="wrap">
+      <div class="head">
+        <div><span class="mono">Every video</span><h2>The full zylo archive</h2></div>
+        <div class="tools">
+          <input class="search" id="q" type="search" placeholder="Search videos" aria-label="Search videos">
+          <select id="sort" aria-label="Sort videos">
+            <option value="new">Newest first</option>
+            <option value="old">Oldest first</option>
+            <option value="views">Most viewed</option>
+          </select>
+        </div>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Filter by topic" style="margin-bottom:22px"></div>
+      <div class="grid" id="grid" aria-live="polite"></div>
+      <div class="more"><button class="btn btn-ghost" id="moreBtn" hidden>Show more</button></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two">
+      <div class="panel" id="suggest">
+        <span class="mono">Your idea, our next Short</span>
+        <h2>Suggest a video</h2>
+        <p class="sub">Got a fact that blew your mind, or a question you always wanted explained in 45 seconds? Send it in. The best ideas become videos.</p>
+        <form id="ideaForm" novalidate>
+          <label>Your idea
+            <textarea id="idea" name="idea" maxlength="600" required placeholder="Example: Why do we get goosebumps when music is really good?"></textarea>
+          </label>
+          <div class="row">
+            <label>Topic
+              <select id="topic" name="topic">
+                <option value="science">Weird science & the body</option>
+                <option value="mind">Psychology & the brain</option>
+                <option value="money">Money, tech & AI</option>
+                <option value="history">History & space</option>
+                <option value="other">Something else</option>
+              </select>
+            </label>
+            <label>Name <small>optional, for a shout-out</small>
+              <input id="name" name="name" maxlength="60" autocomplete="nickname">
+            </label>
+          </div>
+          <label>Email <small>optional, we'll tell you when your video is out</small>
+            <input id="email" name="email" type="email" maxlength="120" autocomplete="email">
+          </label>
+          <div class="hp" aria-hidden="true"><label>Website<input id="website" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn btn-hi" type="submit" id="ideaBtn">Send idea</button>
+          <p class="status" id="ideaStatus" role="status"></p>
+        </form>
+      </div>
+
+      <div class="panel" id="ask">
+        <span class="mono">Curious about something?</span>
+        <h2>Ask zylo</h2>
+        <p class="sub">Ask about any fact from our videos, or anything you've wondered about. You'll get a short answer, and good questions may become a Short.</p>
+        <form id="askForm" class="ask" novalidate>
+          <input id="question" name="question" maxlength="500" placeholder="Why are sunsets red?" aria-label="Your question" required>
+          <button class="btn btn-ink" type="submit" id="askBtn">Ask</button>
+        </form>
+        <div class="samples" id="samples" aria-label="Example questions"></div>
+        <p class="status" id="askStatus" role="status"></p>
+        <p class="answer" id="answer" hidden></p>
+
+        <div class="faq" id="faq">
+          <span class="mono">FAQ</span>
+          <details><summary>How often do new videos come out?</summary><p>One new Short every day. New videos show up on this page automatically.</p></details>
+          <details><summary>Are the facts real?</summary><p>Yes. Every fact is checked against published sources before it goes in a script, and sources are listed in the video description.</p></details>
+          <details><summary>Can my idea really become a video?</summary><p>Yes. Ideas sent through the form go straight to the team. If yours is picked and you left an email, you'll hear about it.</p></details>
+          <details><summary>How are the videos made?</summary><p>zylo uses AI tools for research, voice-over and editing, and a person sets the direction of the channel. Facts are verified with sources before publishing.</p></details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="band">
+        <div>
+          <h2>Never miss a fact.</h2>
+          <p>Subscribe on YouTube and get one new Short every day.</p>
+        </div>
+        <a class="btn btn-hi" href="https://www.youtube.com/channel/UCfoc78YxRz1DXNroyI688mA?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <a class="logo" href="#top"><b>zylo</b></a>
+    <span>One fact a day that changes how you see the world.</span>
+    <span class="sp"><a href="/privacy">Privacy</a> · <a href="https://www.youtube.com/channel/UCfoc78YxRz1DXNroyI688mA" target="_blank" rel="noopener">YouTube</a></span>
+  </footer>
+</main>
+
+<dialog id="dlg" aria-label="Video player">
+  <div class="player" id="player"></div>
+  <div class="pbar"><p id="ptitle"></p><a class="btn btn-hi" id="plink" target="_blank" rel="noopener" style="padding:9px 14px">YouTube</a><button class="x" id="closeBtn" aria-label="Close video">✕</button></div>
+</dialog>
+
+<script>
+(() => {
+  // Fallback archive, used only if /api/videos and /videos.json are both unreachable.
+  const FALLBACK = [
+    {id:"Ij0lz1fKidI",title:"Daylight Saving Time Was Never For Farmers ⏰ #shorts",published:"2026-11-01",pillar:"history"},
+    {id:"nYgWBHc0c6w",title:"Why Getting Scared Is Good For Your Brain 🎃 #shorts",published:"2026-10-30",pillar:"mind"},
+    {id:"6dzG9ZUXOtw",title:"5 Creepy Facts Science Can't Unsee 💀 #shorts",published:"2026-10-30",pillar:"science"}
+  ];
+  const PILLARS = [
+    {k:"all",label:"All"},
+    {k:"science",label:"Weird science",re:/scien|body|blood|bone|dna|gene|sleep|creepy|animal|ocean|virus|bacteria|heart|skin|eye/i},
+    {k:"mind",label:"Psychology",re:/brain|psych|mind|scared|fear|emotion|habit|memory|happy|dream|trick|bias|feel/i},
+    {k:"money",label:"Money & tech",re:/money|\$|rich|billion|million|price|bank|tech|\bai\b|robot|phone|internet|crypto|company|business/i},
+    {k:"history",label:"History & space",re:/histor|war|ancient|king|queen|empire|century|19\d\d|18\d\d|space|planet|moon|mars|nasa|star|galax|universe|time|clock/i}
+  ];
+  const $ = (s) => document.querySelector(s);
+  const el = (tag, props = {}, kids = []) => { const n = document.createElement(tag); Object.assign(n, props); for (const k of [].concat(kids)) if (k != null) n.append(k); return n; };
+  const clean = (t) => String(t).replace(/\s*#shorts?\b/ig, "").trim();
+  const pillarOf = (v) => v.pillar || (PILLARS.slice(1).find((p) => p.re.test(v.title + " " + (v.description || ""))) || {k:"science"}).k;
+  const fmtDate = (d, opt) => { try { return new Date(d + "T12:00:00").toLocaleDateString("en-US", opt || {month:"short", day:"numeric", year:"numeric"}); } catch { return d; } };
+  const fmtNum = (n) => n == null ? "–" : n >= 1e6 ? (n/1e6).toFixed(1).replace(/\.0$/,"") + "M" : n >= 1e3 ? (n/1e3).toFixed(1).replace(/\.0$/,"") + "K" : String(n);
+
+  // ---------- headline: caption-style word highlight, like the Shorts ----------
+  const caps = [...document.querySelectorAll("#hl .cap")];
+  if (!matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    let i = 2;
+    setInterval(() => { caps.forEach((c) => c.classList.remove("on")); caps[i % caps.length].classList.add("on"); i++; }, 520);
+  }
+
+  // ---------- videos ----------
+  let all = [], filter = "all", shown = 24;
+  async function load() {
+    for (const url of ["/api/videos", "/videos.json"]) {
+      try {
+        const r = await fetch(url, {headers:{Accept:"application/json"}});
+        if (!r.ok) continue;
+        const j = await r.json();
+        const list = Array.isArray(j) ? j : j.videos;
+        if (list && list.length) return list;
+      } catch {}
+    }
+    return FALLBACK;
+  }
+  function chips() {
+    $("#chips").replaceChildren(...PILLARS.map((p) => {
+      const n = p.k === "all" ? all.length : all.filter((v) => v._p === p.k).length;
+      const b = el("button", {className:"chip", type:"button"}, [p.label, el("span", {className:"n", textContent:String(n)})]);
+      b.dataset.k = p.k; b.setAttribute("aria-pressed", String(p.k === filter));
+      return b;
+    }));
+  }
+  function card(v, newest) {
+    const t = clean(v.title);
+    const img = el("img", {loading:"lazy", alt:"", src:`https://i.ytimg.com/vi/${encodeURIComponent(v.id)}/oardefault.jpg`});
+    img.addEventListener("error", () => {
+      const alt = `https://i.ytimg.com/vi/${encodeURIComponent(v.id)}/hqdefault.jpg`;
+      if (img.src !== alt) img.src = alt; else img.remove();
+    });
+    const thumb = el("div", {className:"thumb"}, [img,
+      v.id === newest ? el("span", {className:"new", textContent:"NEW"}) : null,
+      el("span", {className:"play"}), el("span", {className:"t", textContent:t})]);
+    thumb.querySelector(".play").setAttribute("aria-hidden", "true");
+    thumb.querySelector(".t").setAttribute("aria-hidden", "true");
+    const meta = el("div", {className:"meta"}, [el("span", {textContent:fmtDate(v.published)}),
+      v.views != null ? el("span", {textContent:`· ${fmtNum(v.views)} views`}) : null]);
+    const b = el("button", {className:"card", type:"button"}, [thumb, el("h3", {textContent:t}), meta]);
+    b.dataset.id = v.id; b.setAttribute("aria-label", `Play: ${t}`);
+    return b;
+  }
+  function render() {
+    const q = $("#q").value.trim().toLowerCase();
+    const list = all.filter((v) => (filter === "all" || v._p === filter) && (!q || v.title.toLowerCase().includes(q) || (v.description || "").toLowerCase().includes(q)));
+    const s = $("#sort").value;
+    list.sort((a, b) => s === "old" ? String(a.published).localeCompare(String(b.published)) : s === "views" ? (b.views || 0) - (a.views || 0) : String(b.published).localeCompare(String(a.published)));
+    const newest = all[0] && all[0].id;
+    if (list.length) $("#grid").replaceChildren(...list.slice(0, shown).map((v) => card(v, newest)));
+    else $("#grid").replaceChildren(el("div", {className:"empty"}, ["No videos match. Try another word, or ", el("a", {href:"#suggest", textContent:"suggest it as a video"}), "."]));
+    $("#moreBtn").hidden = list.length <= shown;
+  }
+  function stats() {
+    $("#sCount").textContent = all.length;
+    $("#sLatest").textContent = all[0] ? fmtDate(all[0].published, {month:"short", day:"numeric"}) : "–";
+    const has = all.some((v) => v.views != null);
+    $("#sViews").textContent = has ? fmtNum(all.reduce((a, v) => a + (v.views || 0), 0)) : "–";
+  }
+  $("#chips").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (!b) return; filter = b.dataset.k; shown = 24; chips(); render(); });
+  $("#q").addEventListener("input", () => { shown = 24; render(); });
+  $("#sort").addEventListener("change", render);
+  $("#moreBtn").addEventListener("click", () => { shown += 24; render(); });
+
+  // ---------- player ----------
+  const dlg = $("#dlg");
+  function play(id) {
+    const v = all.find((x) => x.id === id); if (!v) return;
+    const link = `https://www.youtube.com/shorts/${encodeURIComponent(id)}`;
+    if (!dlg.showModal) { window.open(link, "_blank", "noopener"); return; }
+    const f = el("iframe", {src:`https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&rel=0&playsinline=1`, title:clean(v.title), allowFullscreen:true});
+    f.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture; fullscreen");
+    $("#player").replaceChildren(f);
+    $("#ptitle").textContent = clean(v.title);
+    $("#plink").href = link;
+    dlg.showModal();
+  }
+  $("#grid").addEventListener("click", (e) => { const c = e.target.closest(".card"); if (c) play(c.dataset.id); });
+  $("#closeBtn").addEventListener("click", () => dlg.close());
+  dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener("close", () => $("#player").replaceChildren());
+
+  // ---------- forms ----------
+  async function post(url, data) {
+    let r;
+    try { r = await fetch(url, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(data)}); }
+    catch { throw new Error("Couldn't reach the server. Check your connection and try again."); }
+    let j = {}; try { j = await r.json(); } catch {}
+    if (!r.ok) throw new Error(j.error || "The server didn't answer. Please try again in a minute.");
+    return j;
+  }
+  const say = (node, cls, text) => { node.className = "status" + (cls ? " " + cls : ""); node.textContent = text; };
+  $("#ideaForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const st = $("#ideaStatus"), idea = $("#idea").value.trim(), em = $("#email").value.trim();
+    if (idea.length < 8) { say(st, "err", "Describe the idea in at least a few words."); $("#idea").focus(); return; }
+    if (em && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)) { say(st, "err", "That email doesn't look right. Fix it or leave it empty."); $("#email").focus(); return; }
+    $("#ideaBtn").disabled = true; say(st, "", "Sending…");
+    try {
+      await post("/api/ideas", {idea, topic:$("#topic").value, name:$("#name").value, email:em, website:$("#website").value});
+      say(st, "ok", "Idea received. Thanks! Keep an eye on the channel.");
+      $("#idea").value = "";
+    } catch (err) { say(st, "err", err.message); }
+    $("#ideaBtn").disabled = false;
+  });
+
+  const SAMPLES = ["Why do we dream?", "Do we only use 10% of our brain?", "Why does time fly when you're having fun?", "How do black holes form?"];
+  $("#samples").replaceChildren(...SAMPLES.map((q) => el("button", {type:"button", className:"chip", textContent:q})));
+  $("#samples").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (!b) return; $("#question").value = b.textContent; $("#askForm").requestSubmit(); });
+  $("#askForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const q = $("#question").value.trim(), st = $("#askStatus"), ans = $("#answer");
+    if (q.length < 5) { say(st, "err", "Type a question first."); $("#question").focus(); return; }
+    $("#askBtn").disabled = true; say(st, "", "Thinking…"); ans.hidden = true;
+    try {
+      const j = await post("/api/ask", {question:q});
+      if (j.answer) { ans.textContent = j.answer; ans.hidden = false; say(st, "", ""); }
+      else say(st, "ok", "Question received. The best questions get answered in a Short.");
+    } catch (err) { say(st, "err", err.message); }
+    $("#askBtn").disabled = false;
+  });
+
+  load().then((list) => {
+    all = list.filter((v) => v && v.id).map((v) => ({...v, _p: pillarOf(v)}));
+    all.sort((a, b) => String(b.published).localeCompare(String(a.published)));
+    chips(); render(); stats();
+  });
+})();
+</script>
+<!--/PAGE-->
+</body>
+</html>

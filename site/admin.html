@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>zylo · Идеи и вопросы</title>
+<style>
+:root{--bg:#f3f2fa;--surface:#fff;--ink:#17142b;--muted:#5f5a7a;--line:#dcd8ec;--hi:#ffd600;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#100d20;--surface:#1b1735;--ink:#f2f0fb;--muted:#a7a1c6;--line:#2e2950;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:24px max(16px,env(safe-area-inset-left,0px))}
+h1{margin:0 0 16px} h2{margin:28px 0 10px}
+form{display:flex;gap:8px;flex-wrap:wrap}
+input{font:inherit;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);flex:1;min-width:0}
+button{font:700 15px system-ui;padding:10px 16px;border:0;border-radius:999px;background:var(--hi);color:#17142b;cursor:pointer}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px;overflow-wrap:anywhere}
+.item small{color:var(--muted)}
+.item .a{margin-top:6px;color:var(--muted);white-space:pre-wrap}
+#msg{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Идеи и вопросы зрителей</h1>
+  <form id="f"><input id="key" type="password" placeholder="ADMIN_KEY" aria-label="Ключ администратора" autocomplete="current-password"><button>Показать</button></form>
+  <p id="msg"></p>
+  <h2>Идеи для видео <span id="ni"></span></h2><div id="ideas"></div>
+  <h2>Вопросы <span id="nq"></span></h2><div id="qs"></div>
+</div>
+<script>
+const $ = (s) => document.querySelector(s);
+const el = (t, p = {}, kids = []) => { const n = document.createElement(t); Object.assign(n, p); for (const k of kids) if (k) n.append(k); return n; };
+const when = (s) => new Date(s).toLocaleString("ru-RU");
+$("#f").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  $("#msg").textContent = "Загрузка…";
+  const r = await fetch("/api/ideas?key=" + encodeURIComponent($("#key").value));
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) { $("#msg").textContent = j.error === "Wrong admin key." ? "Неверный ключ." : "Ошибка сервера."; return; }
+  $("#msg").textContent = j.storage ? "" : "Хранилище не подключено: идеи приходят только на почту (если настроен Resend).";
+  $("#ni").textContent = `(${j.ideas.length})`; $("#nq").textContent = `(${j.questions.length})`;
+  $("#ideas").replaceChildren(...j.ideas.map((i) => el("div", {className:"item"}, [
+    el("div", {textContent:i.idea}),
+    el("small", {textContent:`${when(i.at)} · ${i.topic || ""} · ${i.name || "без имени"} ${i.email || ""}`})])));
+  $("#qs").replaceChildren(...j.questions.map((q) => el("div", {className:"item"}, [
+    el("div", {textContent:q.question}),
+    el("small", {textContent:when(q.at)}),
+    q.answer ? el("div", {className:"a", textContent:"Ответ: " + q.answer}) : null])));
+});
+</script>
+</body>
+</html>
