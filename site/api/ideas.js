@@ -1,36 +1,35 @@
-// POST /api/ideas  {idea, name?, email?, website(honeypot)}  -> saves a video idea from a viewer
-// GET  /api/ideas?key=ADMIN_KEY                              -> owner-only list (used by /admin)
-import { hasStore, pushItem, listItems, notifyOwner, readJson, clean, rateLimited } from "./_lib.js";
+// POST /api/ideas {idea, topic?, name?, email?, website (honeypot), t (ms the form was open)}
+// Saves a video idea from a viewer. The owner reads them at /admin (and by e-mail if Resend is set).
+import { hasStore, hasMail, pushItem, notifyOwner, readJson, clean, rateLimited } from "./_lib.js";
+
+const TOPICS = new Set(["science", "mind", "money", "history", "other"]);
 
 export default async function handler(req, res) {
-  if (req.method === "GET") {
-    if (!process.env.ADMIN_KEY || req.query.key !== process.env.ADMIN_KEY) return res.status(401).json({ error: "Wrong admin key." });
-    const [ideas, questions] = hasStore() ? await Promise.all([listItems("ideas"), listItems("questions")]) : [[], []];
-    return res.status(200).json({ storage: hasStore(), ideas, questions });
-  }
+  res.setHeader("Cache-Control", "no-store");
   if (req.method !== "POST") return res.status(405).json({ error: "Use POST." });
-  if (rateLimited(req)) return res.status(429).json({ error: "Too many ideas at once. Try again in a few minutes." });
+  if (rateLimited(req, 6, 10 * 60 * 1000, "idea:")) return res.status(429).json({ error: "Too many ideas at once. Try again in a few minutes." });
 
   const body = await readJson(req);
-  if (body.website) return res.status(200).json({ ok: true }); // bot filled the hidden field
+  // Bots: hidden field filled, form sent faster than a human can type, or a wall of links.
   const idea = clean(body.idea, 600);
+  const tooFast = Number(body.t) > 0 && Number(body.t) < 2500;
+  if (body.website || tooFast || (idea.match(/https?:\/\//g) || []).length > 2) return res.status(200).json({ ok: true });
   if (idea.length < 8) return res.status(400).json({ error: "Describe the idea in at least a few words." });
 
-  const item = {
-    idea,
-    topic: clean(body.topic, 40),
-    name: clean(body.name, 60),
-    email: clean(body.email, 120),
-    at: new Date().toISOString(),
-  };
-  if (!hasStore() && !process.env.RESEND_API_KEY) {
-    return res.status(503).json({ error: "Idea inbox is not connected yet. Please try again later." });
+  const email = clean(body.email, 120);
+  if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return res.status(400).json({ error: "That email doesn't look right. Fix it or leave it empty." });
+  const topic = clean(body.topic, 20);
+  const item = { idea, topic: TOPICS.has(topic) ? topic : "other", name: clean(body.name, 60), email, at: new Date().toISOString() };
+
+  if (!hasStore() && !hasMail()) {
+    return res.status(503).json({ error: "The idea inbox is offline right now. Please try again later." });
   }
-  try {
-    if (hasStore()) await pushItem("ideas", item);
-    await notifyOwner(`New zylo idea: ${idea.slice(0, 60)}`, `${idea}\n\nTopic: ${item.topic}\nFrom: ${item.name} ${item.email}`);
-  } catch {
-    return res.status(500).json({ error: "Could not save the idea. Please try again." });
+  let saved = false;
+  if (hasStore()) { try { await pushItem("ideas", item); saved = true; } catch { /* try e-mail below */ } }
+  if (hasMail()) {
+    await notifyOwner(`New zylo idea: ${idea.slice(0, 60)}`, `${idea}\n\nTopic: ${item.topic}\nFrom: ${item.name || "-"} ${item.email || ""}\nAt: ${item.at}`);
+    saved = true;
   }
+  if (!saved) return res.status(503).json({ error: "Couldn't save your idea right now. Please try again in a minute." });
   return res.status(200).json({ ok: true });
 }

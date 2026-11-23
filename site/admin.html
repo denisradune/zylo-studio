@@ -2,52 +2,175 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
-<title>zylo · Идеи и вопросы</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>zylo · Кабинет</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wdth,wght@100..125,400..800&display=swap">
 <style>
-:root{--bg:#f3f2fa;--surface:#fff;--ink:#17142b;--muted:#5f5a7a;--line:#dcd8ec;--hi:#ffd600;color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--bg:#100d20;--surface:#1b1735;--ink:#f2f0fb;--muted:#a7a1c6;--line:#2e2950;color-scheme:dark}}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,sans-serif}
-.wrap{max-width:960px;margin:0 auto;padding:24px max(16px,env(safe-area-inset-left,0px))}
-h1{margin:0 0 16px} h2{margin:28px 0 10px}
-form{display:flex;gap:8px;flex-wrap:wrap}
-input{font:inherit;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);flex:1;min-width:0}
-button{font:700 15px system-ui;padding:10px 16px;border:0;border-radius:999px;background:var(--hi);color:#17142b;cursor:pointer}
-.item{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px;overflow-wrap:anywhere}
-.item small{color:var(--muted)}
-.item .a{margin-top:6px;color:var(--muted);white-space:pre-wrap}
-#msg{color:var(--muted)}
+/* Layout: owner's inbox. Night header with the logo, then a two-tab list of viewer ideas and questions. */
+:root{
+  --bg:#f4f2fb; --surface:#fff; --surface-2:#ebe7f8; --ink:#16112e; --muted:#5d5780; --line:#dedaf0; --violet:#5b3df5;
+  --ok:#11804a; --err:#c0262d; --hi:#ffd600; --hi-ink:#16112e; --night:#120d2b; --on-night:#f4f1ff; --on-night-muted:#b5addf;
+  --r-science:#0f9b74; --r-mind:#d23f8c; --r-money:#3d8f1b; --r-history:#d0701a;
+  --display:"Archivo Black","Arial Black",Impact,sans-serif; --body:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0a22;--surface:#171137;--surface-2:#211a4c;--ink:#f4f1ff;--muted:#aaa2d3;--line:#2a2259;--violet:#9583ff;--ok:#5fd394;--err:#ff8b85;
+  --r-science:#35d6a8;--r-mind:#ff74b8;--r-money:#8ad85e;--r-history:#ffa04d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d0a22;--surface:#171137;--surface-2:#211a4c;--ink:#f4f1ff;--muted:#aaa2d3;--line:#2a2259;--violet:#9583ff;--ok:#5fd394;--err:#ff8b85;
+  --r-science:#35d6a8;--r-mind:#ff74b8;--r-money:#8ad85e;--r-history:#ffa04d;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--body)}
+[hidden]{display:none!important}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{background:var(--night);color:var(--on-night)}
+header .wrap{display:flex;align-items:center;gap:14px;padding-block:16px;flex-wrap:wrap}
+.logo{font:1.35rem/1 var(--display);text-decoration:none;color:inherit}
+.logo span{background:var(--hi);color:var(--hi-ink);padding:.12em .3em .16em;border-radius:8px;display:inline-block;transform:rotate(-3deg)}
+header h1{font:600 1rem var(--body);margin:0;color:var(--on-night-muted)}
+header .sp{margin-left:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+button,input{font:inherit;color:inherit}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:42px;border:0;border-radius:999px;padding:0 18px;font-weight:700;cursor:pointer;background:var(--hi);color:var(--hi-ink);text-decoration:none}
+.btn.ghost{background:transparent;color:inherit;box-shadow:inset 0 0 0 1.5px currentColor}
+.btn:disabled{opacity:.6;cursor:progress}
+input{min-height:44px;border:1.5px solid var(--line);border-radius:12px;padding:10px 13px;background:var(--surface);width:100%}
+input:focus{outline:none;border-color:var(--violet);box-shadow:0 0 0 4px color-mix(in srgb,var(--violet) 18%,transparent)}
+:focus-visible{outline:3px solid var(--violet);outline-offset:2px}
+.login{max-width:400px;margin:64px auto;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:28px;display:flex;flex-direction:column;gap:14px}
+.login h2{font:1.8rem/1.05 var(--display);margin:0;font-weight:400}
+.login p{margin:0;color:var(--muted)}
+.msg{min-height:1.4em;margin:0}
+.msg.err{color:var(--err)}
+.status{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 4px}
+.st{display:inline-flex;align-items:center;gap:7px;font-size:.82rem;padding:6px 11px;border-radius:999px;background:var(--surface);border:1px solid var(--line)}
+.st i{width:8px;height:8px;border-radius:50%;background:var(--err)}
+.st.on i{background:var(--ok)}
+.tabs{display:flex;gap:8px;margin:18px 0;flex-wrap:wrap;align-items:center}
+.tab{min-height:42px;border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:0 16px;font-weight:700;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tabs input{flex:1 1 220px;width:auto;border-radius:999px}
+.list{display:flex;flex-direction:column;gap:10px;padding-bottom:48px}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:flex;flex-direction:column;gap:8px;overflow-wrap:anywhere}
+.item .text{font-size:1.02rem;white-space:pre-wrap}
+.item .meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.84rem;color:var(--muted);align-items:center}
+.rub{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--ink)}
+.rub i{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.rub.science i{background:var(--r-science)} .rub.mind i{background:var(--r-mind)} .rub.money i{background:var(--r-money)} .rub.history i{background:var(--r-history)}
+.item .ans{border-left:3px solid var(--hi);padding:6px 0 6px 12px;color:var(--muted);white-space:pre-wrap}
+.item .ans.none{border-color:var(--line);font-style:italic}
+.copy{border:0;background:var(--surface-2);border-radius:8px;padding:3px 8px;cursor:pointer;font-size:.8rem}
+.empty{padding:40px 16px;text-align:center;color:var(--muted);border:1.5px dashed var(--line);border-radius:16px}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <h1>Идеи и вопросы зрителей</h1>
-  <form id="f"><input id="key" type="password" placeholder="ADMIN_KEY" aria-label="Ключ администратора" autocomplete="current-password"><button>Показать</button></form>
-  <p id="msg"></p>
-  <h2>Идеи для видео <span id="ni"></span></h2><div id="ideas"></div>
-  <h2>Вопросы <span id="nq"></span></h2><div id="qs"></div>
-</div>
+<header><div class="wrap"><a class="logo" href="/"><span>zylo</span></a><h1>Кабинет владельца</h1>
+  <div class="sp" id="actions" hidden><button class="btn ghost" id="csv" type="button">Скачать CSV</button><button class="btn ghost" id="refresh" type="button">Обновить</button><button class="btn ghost" id="logout" type="button">Выйти</button></div></div></header>
+
+<main class="wrap">
+  <form class="login" id="loginForm">
+    <h2>Вход</h2>
+    <p>Идеи и вопросы зрителей видит только владелец канала.</p>
+    <label for="pw" style="display:flex;flex-direction:column;gap:6px;font-weight:600">Пароль
+      <input id="pw" type="password" autocomplete="current-password" required></label>
+    <button class="btn" id="loginBtn" type="submit">Войти</button>
+    <p class="msg" id="loginMsg" role="status"></p>
+  </form>
+
+  <div id="app" hidden>
+    <div class="status" id="status"></div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tabIdeas" aria-selected="true" type="button">Идеи <span id="nIdeas"></span></button>
+      <button class="tab" role="tab" id="tabQs" aria-selected="false" type="button">Вопросы <span id="nQs"></span></button>
+      <input id="filter" type="search" placeholder="Поиск по тексту, имени, email" aria-label="Поиск">
+    </div>
+    <p class="msg err" id="appMsg"></p>
+    <div class="list" id="list"></div>
+  </div>
+</main>
+
 <script>
-const $ = (s) => document.querySelector(s);
-const el = (t, p = {}, kids = []) => { const n = document.createElement(t); Object.assign(n, p); for (const k of kids) if (k) n.append(k); return n; };
-const when = (s) => new Date(s).toLocaleString("ru-RU");
-$("#f").addEventListener("submit", async (e) => {
-  e.preventDefault();
-  $("#msg").textContent = "Загрузка…";
-  const r = await fetch("/api/ideas?key=" + encodeURIComponent($("#key").value));
-  const j = await r.json().catch(() => ({}));
-  if (!r.ok) { $("#msg").textContent = j.error === "Wrong admin key." ? "Неверный ключ." : "Ошибка сервера."; return; }
-  $("#msg").textContent = j.storage ? "" : "Хранилище не подключено: идеи приходят только на почту (если настроен Resend).";
-  $("#ni").textContent = `(${j.ideas.length})`; $("#nq").textContent = `(${j.questions.length})`;
-  $("#ideas").replaceChildren(...j.ideas.map((i) => el("div", {className:"item"}, [
-    el("div", {textContent:i.idea}),
-    el("small", {textContent:`${when(i.at)} · ${i.topic || ""} · ${i.name || "без имени"} ${i.email || ""}`})])));
-  $("#qs").replaceChildren(...j.questions.map((q) => el("div", {className:"item"}, [
-    el("div", {textContent:q.question}),
-    el("small", {textContent:when(q.at)}),
-    q.answer ? el("div", {className:"a", textContent:"Ответ: " + q.answer}) : null])));
-});
+(() => {
+  const $ = (s) => document.querySelector(s);
+  const el = (t, p = {}, kids = []) => { const n = document.createElement(t); Object.assign(n, p); for (const k of [].concat(kids)) if (k != null && k !== false) n.append(k); return n; };
+  const RUB = {science:"Наука и тело", mind:"Психология", money:"Деньги и технологии", history:"История и космос", other:"Другое"};
+  const when = (s) => { const d = new Date(s); return isNaN(d) ? "" : d.toLocaleString("ru-RU", {day:"numeric", month:"long", year:"numeric", hour:"2-digit", minute:"2-digit"}); };
+  const store = { get(){ try { return sessionStorage.getItem("zylo-admin") || ""; } catch { return ""; } }, set(v){ try { v ? sessionStorage.setItem("zylo-admin", v) : sessionStorage.removeItem("zylo-admin"); } catch {} } };
+  let data = null, tab = "ideas", password = "";
+
+  const ERR = {wrong_password:"Неверный пароль.", no_password:"Пароль не задан. Добавьте переменную ADMIN_PASSWORD в настройках проекта на Vercel и сделайте Redeploy.", too_many:"Слишком много попыток. Подождите 10 минут."};
+
+  async function fetchData(pw) {
+    let r;
+    try { r = await fetch("/api/admin", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({password:pw})}); }
+    catch { throw new Error("Нет связи с сервером. Проверьте интернет."); }
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(ERR[j.error] || "Ошибка сервера. Попробуйте ещё раз.");
+    return j;
+  }
+
+  function statusChips() {
+    const s = [["Хранилище идей", data.storage && !data.storeError], ["Ответы ИИ", data.ai], ["Уведомления на почту", data.email]];
+    $("#status").replaceChildren(...s.map(([t, on]) => el("span", {className:"st" + (on ? " on" : ""), title: on ? "подключено" : "не подключено"}, [el("i"), `${t}: ${on ? "подключено" : "нет"}`])));
+    $("#appMsg").textContent = !data.storage ? "Хранилище не подключено: идеи и вопросы не сохраняются на сайте (только письма, если настроена почта). Подключите Upstash Redis в Vercel → Storage."
+      : data.storeError ? "Хранилище не ответило. Обновите страницу через минуту." : "";
+  }
+  function copyBtn(text) {
+    const b = el("button", {className:"copy", type:"button", textContent:"копировать"});
+    b.addEventListener("click", async () => { try { await navigator.clipboard.writeText(text); b.textContent = "скопировано"; } catch { b.textContent = text; } });
+    return b;
+  }
+  function render() {
+    $("#nIdeas").textContent = `(${data.ideas.length})`; $("#nQs").textContent = `(${data.questions.length})`;
+    $("#tabIdeas").setAttribute("aria-selected", String(tab === "ideas")); $("#tabQs").setAttribute("aria-selected", String(tab === "qs"));
+    const f = $("#filter").value.trim().toLowerCase();
+    const match = (o) => !f || JSON.stringify(o).toLowerCase().includes(f);
+    let items;
+    if (tab === "ideas") {
+      items = data.ideas.filter(match).map((i) => el("article", {className:"item"}, [
+        el("div", {className:"text", textContent:i.idea}),
+        el("div", {className:"meta"}, [
+          el("span", {className:"rub " + (i.topic || "other")}, [el("i"), RUB[i.topic] || RUB.other]),
+          el("span", {textContent: when(i.at)}),
+          el("span", {textContent: i.name || "без имени"}),
+          i.email ? el("span", {}, [i.email, " ", copyBtn(i.email)]) : el("span", {textContent:"без email"})])]));
+    } else {
+      items = data.questions.filter(match).map((q) => el("article", {className:"item"}, [
+        el("div", {className:"text", textContent:q.question}),
+        el("div", {className: "ans" + (q.answer ? "" : " none"), textContent: q.answer || "Ответа ИИ не было (ИИ не подключён или не ответил)."}),
+        el("div", {className:"meta"}, [el("span", {textContent: when(q.at)}),
+          q.video ? el("a", {href:`https://www.youtube.com/shorts/${q.video}`, target:"_blank", rel:"noopener", textContent:"предложено видео ↗"}) : null])]));
+    }
+    $("#list").replaceChildren(...(items.length ? items : [el("div", {className:"empty", textContent: f ? "Ничего не найдено." : tab === "ideas" ? "Идей пока нет." : "Вопросов пока нет."})]));
+  }
+  async function enter(pw, quiet) {
+    $("#loginBtn").disabled = true; if (!quiet) $("#loginMsg").textContent = "Проверяю…";
+    try {
+      data = await fetchData(pw); password = pw; store.set(pw);
+      $("#loginForm").hidden = true; $("#app").hidden = false; $("#actions").hidden = false; $("#loginMsg").textContent = "";
+      statusChips(); render();
+    } catch (e) { store.set(""); $("#loginMsg").textContent = e.message; $("#loginMsg").className = "msg err"; }
+    $("#loginBtn").disabled = false;
+  }
+  $("#loginForm").addEventListener("submit", (e) => { e.preventDefault(); enter($("#pw").value); });
+  $("#tabIdeas").addEventListener("click", () => { tab = "ideas"; render(); });
+  $("#tabQs").addEventListener("click", () => { tab = "qs"; render(); });
+  $("#filter").addEventListener("input", render);
+  $("#refresh").addEventListener("click", () => enter(password, true));
+  $("#logout").addEventListener("click", () => { store.set(""); location.reload(); });
+  $("#csv").addEventListener("click", () => {
+    const esc = (s) => `"${String(s ?? "").replace(/"/g, '""')}"`;
+    const rows = tab === "ideas"
+      ? [["Дата", "Рубрика", "Идея", "Имя", "Email"], ...data.ideas.map((i) => [i.at, RUB[i.topic] || "", i.idea, i.name, i.email])]
+      : [["Дата", "Вопрос", "Ответ ИИ"], ...data.questions.map((q) => [q.at, q.question, q.answer])];
+    const blob = new Blob(["﻿" + rows.map((r) => r.map(esc).join(",")).join("\n")], {type:"text/csv;charset=utf-8"});
+    const a = el("a", {href:URL.createObjectURL(blob), download:`zylo-${tab === "ideas" ? "ideas" : "questions"}-${new Date().toISOString().slice(0, 10)}.csv`});
+    document.body.append(a); a.click(); a.remove();
+  });
+  const saved = store.get(); if (saved) enter(saved, true);
+})();
 </script>
 </body>
 </html>

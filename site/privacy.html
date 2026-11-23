@@ -2,28 +2,71 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>zylo · Privacy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy · zylo</title>
+<meta name="description" content="What zylo.video collects (video ideas, optional email, questions), how it is used, and how to get your data deleted.">
+<link rel="canonical" href="https://zylo.video/privacy">
+<meta name="theme-color" content="#120d2b">
+<meta property="og:title" content="Privacy · zylo">
+<meta property="og:image" content="https://zylo.video/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wdth,wght@100..125,400..800&display=swap">
 <style>
-:root{--bg:#f3f2fa;--ink:#17142b;--muted:#5f5a7a;color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--bg:#100d20;--ink:#f2f0fb;--muted:#a7a1c6;color-scheme:dark}}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,sans-serif}
-.wrap{max-width:680px;margin:0 auto;padding:40px max(16px,env(safe-area-inset-left,0px))}
-h1{font:2rem/1.1 "Arial Black",system-ui;margin:0 0 20px} p,li{color:var(--muted)} a{color:inherit}
+/* Layout: a single readable column under the night header; each data type is its own short block. */
+:root{--bg:#f4f2fb;--surface:#fff;--ink:#16112e;--muted:#5d5780;--line:#dedaf0;--hi:#ffd600;--hi-ink:#16112e;--night:#120d2b;--on-night:#f4f1ff;--on-night-muted:#b5addf;
+  --display:"Archivo Black","Arial Black",Impact,sans-serif;--body:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0a22;--surface:#171137;--ink:#f4f1ff;--muted:#aaa2d3;--line:#2a2259;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d0a22;--surface:#171137;--ink:#f4f1ff;--muted:#aaa2d3;--line:#2a2259;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--body)}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{background:var(--night);color:var(--on-night)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:16px;max-width:1200px}
+.logo{font:1.45rem/1 var(--display);text-decoration:none;color:inherit}
+.logo span{background:var(--hi);color:var(--hi-ink);padding:.12em .3em .16em;border-radius:9px;display:inline-block;transform:rotate(-3deg)}
+header a.back{color:var(--on-night-muted);text-decoration:none;font-weight:600}
+header a.back:hover{color:var(--hi)}
+main{padding-block:56px 72px}
+.eyebrow{font:700 .74rem/1.2 var(--body);font-stretch:125%;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+h1{font:clamp(2.4rem,7vw,4rem)/1 var(--display);margin:12px 0 14px;letter-spacing:-.02em;font-weight:400}
+.lead{color:var(--muted);margin:0 0 36px;font-size:1.1rem}
+section{border-top:1.5px solid var(--line);padding-block:24px;display:grid;grid-template-columns:200px minmax(0,1fr);gap:8px 32px}
+@media (max-width:640px){section{grid-template-columns:1fr}}
+h2{font:700 1.08rem/1.35 var(--body);margin:0}
+section p{margin:0 0 10px;color:var(--muted)} section p:last-child{margin:0}
+b{color:var(--ink)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--hi);outline-offset:3px;border-radius:6px}
+footer{border-top:1.5px solid var(--line);padding-block:24px 40px;color:var(--muted);font-size:.9rem}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <p><a href="/">← zylo</a></p>
+<header><div class="wrap"><a class="logo" href="/"><span>zylo</span></a><a class="back" href="/">← Back to videos</a></div></header>
+<main class="wrap">
+  <span class="eyebrow">zylo.video</span>
   <h1>Privacy</h1>
-  <p>Last updated: November 2026.</p>
-  <ul>
-    <li><b>Video ideas.</b> When you send an idea we store the text and, only if you enter them, your name and email. We use them to read your idea and to tell you if it becomes a video. We never sell them or use them for ads.</li>
-    <li><b>Questions.</b> Questions you ask are stored so we can improve answers and pick topics for new videos. If instant answers are on, your question is sent to an AI provider (Anthropic) to generate the reply. Don't include personal details in questions.</li>
-    <li><b>Videos.</b> Videos play from YouTube using its privacy-enhanced mode (youtube-nocookie.com). YouTube's own privacy policy applies when you watch or open a video on YouTube.</li>
-    <li><b>Hosting.</b> The site is hosted on Vercel, which keeps standard server logs (such as IP address) for security.</li>
-    <li><b>Deleting your data.</b> Want your idea or email removed? Use the idea form to ask, include the email you used, and we'll delete it.</li>
-  </ul>
-</div>
+  <p class="lead">zylo.video collects as little as possible. Here is exactly what we keep, why, and how to get it removed. Last updated: November 23, 2026.</p>
+
+  <section><h2>Video ideas</h2><div>
+    <p>When you send an idea we store the text, the rubric you picked and the time. Your <b>name and email are optional</b> and stored only if you type them in.</p>
+    <p>We use them to read your idea and, if you left an email, to tell you when it becomes a video. We never sell them, share them for advertising, or add you to a mailing list.</p></div></section>
+
+  <section><h2>Questions to “Ask zylo”</h2><div>
+    <p>Your question and the answer are stored so we can see what people are curious about and turn the best questions into new Shorts.</p>
+    <p>To answer instantly, the question is <b>sent to an AI provider (Anthropic)</b>, which processes it to write the reply. Please don't put personal details in your questions.</p></div></section>
+
+  <section><h2>Videos</h2><div>
+    <p>Videos play from <b>YouTube</b> in its privacy-enhanced mode (youtube-nocookie.com). Thumbnails load from YouTube's image servers. When you play a video or open it on YouTube, Google's privacy policy applies.</p></div></section>
+
+  <section><h2>Hosting and logs</h2><div>
+    <p>The site is hosted on Vercel, which keeps standard technical logs (such as IP address and browser) for security and to block spam. We don't use advertising trackers or analytics cookies.</p></div></section>
+
+  <section><h2>Delete your data</h2><div>
+    <p>Want your idea, name or email removed? Send a message through the <a href="/#suggest">Suggest a video</a> form, choose “Something else”, write <b>“Delete my data”</b> and include the email you used before. We delete it within 30 days.</p></div></section>
+</main>
+<footer><div class="wrap">© 2026 zylo · <a href="/">zylo.video</a> · <a href="https://www.youtube.com/channel/UCfoc78YxRz1DXNroyI688mA" target="_blank" rel="noopener">YouTube</a></div></footer>
 </body>
 </html>

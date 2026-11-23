@@ -1,26 +1,44 @@
 {
+  "framework": null,
   "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
-      "source": "/api/videos",
+      "source": "/(.*)",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "s-maxage=1800, stale-while-revalidate=86400"
-        }
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
       ]
+    },
+    {
+      "source": "/(og.png|favicon.svg|apple-touch-icon.png)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }]
+    },
+    {
+      "source": "/admin",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
     }
   ],
   "redirects": [
-    {
-      "source": "/app",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/terms",
-      "destination": "/privacy",
-      "permanent": false
-    }
+    { "source": "/index", "destination": "/", "permanent": true },
+    { "source": "/home", "destination": "/", "permanent": true },
+    { "source": "/videos", "destination": "/#videos", "permanent": true },
+    { "source": "/suggest", "destination": "/#suggest", "permanent": true },
+    { "source": "/ask", "destination": "/#ask", "permanent": true },
+    { "source": "/faq", "destination": "/#faq", "permanent": true },
+    { "source": "/app", "destination": "/", "permanent": true },
+    { "source": "/app/:path*", "destination": "/", "permanent": true },
+    { "source": "/login", "destination": "/", "permanent": true },
+    { "source": "/signup", "destination": "/", "permanent": true },
+    { "source": "/studio", "destination": "/", "permanent": true },
+    { "source": "/studio/:path*", "destination": "/", "permanent": true },
+    { "source": "/pricing", "destination": "/", "permanent": true },
+    { "source": "/auth/:path*", "destination": "/", "permanent": true },
+    { "source": "/review/:path*", "destination": "/", "permanent": true },
+    { "source": "/terms", "destination": "/privacy", "permanent": true },
+    { "source": "/copyright", "destination": "/privacy", "permanent": true },
+    { "source": "/refunds", "destination": "/privacy", "permanent": true },
+    { "source": "/privacy-policy", "destination": "/privacy", "permanent": true }
   ]
 }
