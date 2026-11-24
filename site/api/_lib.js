@@ -6,8 +6,11 @@ import { timingSafeEqual, createHash } from "node:crypto";
 export const CHANNEL_ID = process.env.YT_CHANNEL_ID || "UCfoc78YxRz1DXNroyI688mA";
 
 // ---------- Storage: Upstash Redis REST (Vercel "Upstash for Redis" / KV integration) ----------
-const redisUrl = () => process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
-const redisToken = () => process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+// The Vercel integration names the variables <PREFIX>_REST_API_URL / _REST_API_TOKEN (prefix KV by default, but the
+// owner can pick another one), so fall back to any matching pair.
+const anyEnv = (suffix) => Object.keys(process.env).sort().find((k) => k.endsWith(suffix) && !k.includes("READ_ONLY") && process.env[k]);
+const redisUrl = () => process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL || process.env[anyEnv("_REST_API_URL")];
+const redisToken = () => process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN || process.env[anyEnv("_REST_API_TOKEN")];
 
 export const hasStore = () => Boolean(redisUrl() && redisToken());
 
