@@ -24,18 +24,15 @@ Audience: English-speaking 16–35, loves "wait, really?" moments. Talk to the o
 
 ## Viewer ideas (zylo.video "Suggest a video")
 Every daily run starts by reading them: `.venv/bin/python scripts/ideas.py pending` (no ideas source → carry on as usual).
-Judge each idea yourself; most will not make it, and that is fine. An idea becomes the episode only if it passes **all** of:
-- **Fits the channel:** works as a "What if...?" story or a fact Short in one of our rubrics, with a real "wait, really?" core.
-- **Verifiable:** the facts it rests on can be confirmed by reputable sources (the usual fact check still runs in full).
+Judge each idea yourself; most will not make it, and that is fine. An idea becomes the episode only if it passes **all three**:
 - **New:** not already covered in `log.md`, not a near-duplicate of a recent episode.
-- **Safe:** nothing hateful, sexual, violent for shock, medical/financial advice, real private people, defamation,
-  politics bait, ads/links/self-promotion, or anything that breaks YouTube policy.
-- **Strong:** you would have been glad to pick this topic yourself today; a weak or vague idea is not used just because a viewer sent it.
-- **Fits today:** rubric/theme rotation still applies; a great idea for another rubric is `shortlisted` for its day, not forced in.
+- **Safe:** no ads, links or self-promotion, no insults or hate, no real private people.
+- **Strong:** you would have been glad to pick this topic yourself; a weak or vague idea is not used just because a viewer sent it.
 
-Then record a decision for every idea you looked at (notes in Russian, short, for the owner in /admin):
-`ideas.py review <id> --status rejected|shortlisted --note "..."`, and after upload `--status used --video <url>`.
-Shortlisted ideas come back in `pending` and are preferred on their rubric's day. Use at most one idea per day.
+Reject an idea that fails a check, with a short note in Russian for the owner in /admin:
+`ideas.py review <id> --status rejected --note "..."`; after upload mark the one you used `--status used --video <url>`.
+Use at most one idea per day; other good ideas stay as they are and come back in `pending` tomorrow.
+Ideas the owner marked `shortlisted` in /admin come first.
 Never copy the viewer's text into the video or title, never publish or log e-mails; the idea is only a starting point.
 Credit in the description: "Idea from <name>, a viewer on zylo.video" (only the name they gave, if it is a normal first
 name or nickname), otherwise "Idea from a viewer on zylo.video". Mention the idea and its id in `sources.md`.

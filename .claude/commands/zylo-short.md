@@ -14,7 +14,7 @@ by accounts, keys or payment. Arguments (optional): `$ARGUMENTS` — a topic or 
 ## 1. Topic
 - Next rubric in rotation (1→2→3→4→1), unless `$ARGUMENTS` says otherwise.
 - Viewer ideas first: run `scripts/ideas.py pending` and judge them by "Viewer ideas" in CLAUDE.md. If one passes
-  every check for today's rubric, it is today's topic. Record a decision for every idea you read.
+  all three checks, it is today's topic. Reject the ones that fail, with a note.
 - WebSearch (standard; several queries in one turn) for what is trending today: holidays/observances,
   news, viral science/tech/history stories. Pick a topic inside the rubric with a strong "wait, really?" core.
 - Reject anything already in `log.md` (same subject, not just same title).

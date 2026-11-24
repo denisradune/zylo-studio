@@ -9,8 +9,8 @@ style (`templates/zylo-toon`). Follow CLAUDE.md. Ask only when blocked by accoun
 `$ARGUMENTS` may force a premise or theme.
 
 ## 1. Premise
-- Viewer ideas first: run `scripts/ideas.py pending` and judge them by "Viewer ideas" in CLAUDE.md. A "What if"
-  idea that passes every check (and fits today's theme rotation) becomes today's premise. Record a decision for each.
+- Viewer ideas first: run `scripts/ideas.py pending` and judge them by "Viewer ideas" in CLAUDE.md. An idea that
+  passes all three checks becomes today's premise. Reject the ones that fail, with a note.
 - Rotate themes (check `log.md`, never two days running): disaster/survival (meteor, zombies, blackout,
   flood, aliens) · money (a billion in 30 days, the last dollar on Earth) · AI/Claude-style assistant gone weird
   (our AI is **Bit**, never another company's mascot) · science-fiction twists (gravity off, time loop).
