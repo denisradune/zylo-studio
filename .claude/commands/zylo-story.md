@@ -9,6 +9,8 @@ style (`templates/zylo-toon`). Follow CLAUDE.md. Ask only when blocked by accoun
 `$ARGUMENTS` may force a premise or theme.
 
 ## 1. Premise
+- Viewer ideas first: run `scripts/ideas.py pending` and judge them by "Viewer ideas" in CLAUDE.md. A "What if"
+  idea that passes every check (and fits today's theme rotation) becomes today's premise. Record a decision for each.
 - Rotate themes (check `log.md`, never two days running): disaster/survival (meteor, zombies, blackout,
   flood, aliens) · money (a billion in 30 days, the last dollar on Earth) · AI/Claude-style assistant gone weird
   (our AI is **Bit**, never another company's mascot) · science-fiction twists (gravity off, time loop).
@@ -56,4 +58,5 @@ captions sit inside the frame, the speaker is visible, nothing overlaps badly. F
 ## 5. Metadata, upload, log
 As in `/zylo-short` steps 6–8: title ≤ 60 chars with " #shorts" (starts "What If..."), description 2 lines +
 CTA + 4–5 hashtags, `syntheticMedia: false` (stylised cartoon, no realistic people). Upload with
-`scripts/youtube_upload.py`, append to `log.md`, commit and push.
+`scripts/youtube_upload.py`, mark a used viewer idea (`scripts/ideas.py review <id> --status used --video <link>`),
+append to `log.md`, commit and push.

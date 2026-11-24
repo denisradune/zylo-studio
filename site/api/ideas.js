@@ -1,5 +1,6 @@
 // POST /api/ideas {idea, topic?, name?, email?, website (honeypot), t (ms the form was open)}
 // Saves a video idea from a viewer. The owner reads them at /admin (and by e-mail if Resend is set).
+import { randomBytes } from "node:crypto";
 import { hasStore, hasMail, pushItem, notifyOwner, readJson, clean, rateLimited } from "./_lib.js";
 
 const TOPICS = new Set(["science", "mind", "money", "history", "other"]);
@@ -19,7 +20,7 @@ export default async function handler(req, res) {
   const email = clean(body.email, 120);
   if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return res.status(400).json({ error: "That email doesn't look right. Fix it or leave it empty." });
   const topic = clean(body.topic, 20);
-  const item = { idea, topic: TOPICS.has(topic) ? topic : "other", name: clean(body.name, 60), email, at: new Date().toISOString() };
+  const item = { id: randomBytes(6).toString("hex"), idea, topic: TOPICS.has(topic) ? topic : "other", name: clean(body.name, 60), email, at: new Date().toISOString() };
 
   if (!hasStore() && !hasMail()) {
     return res.status(503).json({ error: "The idea inbox is offline right now. Please try again later." });

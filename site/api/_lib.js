@@ -48,6 +48,20 @@ export async function notifyOwner(subject, text) {
   } catch { /* notification is best-effort */ }
 }
 
+/** E-mail to anyone (used to tell a viewer their idea became a video). Needs a Resend domain in MAIL_FROM. */
+export async function sendMail(to, subject, text) {
+  if (!process.env.RESEND_API_KEY || !to) return false;
+  try {
+    const r = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ from: process.env.MAIL_FROM || "zylo <onboarding@resend.dev>", to: [to], subject, text }),
+      signal: AbortSignal.timeout(6000),
+    });
+    return r.ok;
+  } catch { return false; }
+}
+
 // ---------- Admin password (ADMIN_PASSWORD, or the older ADMIN_KEY) ----------
 export const adminSecret = () => process.env.ADMIN_PASSWORD || process.env.ADMIN_KEY || "";
 

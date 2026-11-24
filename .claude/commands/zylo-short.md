@@ -13,6 +13,8 @@ by accounts, keys or payment. Arguments (optional): `$ARGUMENTS` — a topic or 
 
 ## 1. Topic
 - Next rubric in rotation (1→2→3→4→1), unless `$ARGUMENTS` says otherwise.
+- Viewer ideas first: run `scripts/ideas.py pending` and judge them by "Viewer ideas" in CLAUDE.md. If one passes
+  every check for today's rubric, it is today's topic. Record a decision for every idea you read.
 - WebSearch (standard; several queries in one turn) for what is trending today: holidays/observances,
   news, viral science/tech/history stories. Pick a topic inside the rubric with a strong "wait, really?" core.
 - Reject anything already in `log.md` (same subject, not just same title).
@@ -65,6 +67,7 @@ Set `publishAt` to today 17:00 Asia/Jerusalem in UTC if it is still before that 
 If credentials are missing, stop here and report (the video stays ready to upload).
 
 ## 8. Log and save
+- If the topic came from a viewer idea: `scripts/ideas.py review <id> --status used --video <link>`.
 - Append to `log.md`: `| N | date | title | rubric | sources (short) | link |`.
 - `git add -A && git commit -m "Short #N: <title>" && git push` (media is gitignored; episode.json,
   sources.md, metadata.json, props.json are kept).
