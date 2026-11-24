@@ -1,0 +1,466 @@
+{
+ "title": "Messy Room? Send AI One Photo",
+ "rubric": "tips: AI (everyday life)",
+ "mood": "tech",
+ "seed": 7200,
+ "standalone": true,
+ "look": "tips",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "finale": {
+  "text": "1 AI TRICK A DAY",
+  "sub": "Follow so you don't miss tomorrow's"
+ },
+ "parts": [
+  {
+   "title": "Messy Room",
+   "lines": [
+    {
+     "speaker": "hero",
+     "say": "Bit, my room is a *disaster*. I don't know where to start.",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "sad",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "That's the real problem. Not the mess. The *start*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "title",
+       "text": "WHERE DO I START?"
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step one. Take one photo of the *whole* room.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 1,
+       "text": "Take a photo of your room."
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Send it to an AI chat that reads *pictures*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "[photo of my room]"
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step two. Ask for a plan with a *time limit*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 2,
+       "text": "Here's my room. Give me a 15-minute cleaning plan. Smallest steps first. Set a timer for each."
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Why fifteen minutes? I need *five hours*.",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "shocked",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Five hours sounds scary. Fifteen minutes sounds *doable*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "neutral",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "compare",
+       "bad": "Clean my room",
+       "good": "15-minute plan. Smallest steps first."
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Look. It sees your room and splits it into *tiny* jobs.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "list",
+       "title": "YOUR 15 MINUTES",
+       "items": [
+        "3 min: clothes in basket",
+        "4 min: dishes out",
+        "5 min: clear the desk",
+        "3 min: trash bag"
+       ]
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       },
+       {
+        "type": "ding",
+        "at": 0.3
+       },
+       {
+        "type": "ding",
+        "at": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Three minutes for clothes? I can do *three minutes*.",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "grin",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "That's the trick. Small first, so you *keep going*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "slots",
+       "title": "WHY IT WORKS",
+       "items": [
+        {
+         "icon": "search",
+         "label": "IT SEES"
+        },
+        {
+         "icon": "clock",
+         "label": "TIME LIMIT"
+        },
+        {
+         "icon": "check",
+         "label": "TINY WINS"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step three. Done? Take a new photo. Ask: what's *next*?",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 3,
+       "text": "Here's my room now. What's next?"
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Wait. Is the AI going to *judge* my room?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "scared",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "No. And if you don't want to share, describe it in *words*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "scared",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "Clothes on the chair, cups on the desk, bed not made."
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Fifteen minutes later: a *clean* room.",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "happy",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "And under the bed it found your *other sock*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "grin",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "title",
+       "text": "SOCK FOUND",
+       "sub": "missing since 2024"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Follow for one AI trick a day.",
+     "end": true
+    }
+   ]
+  }
+ ]
+}
