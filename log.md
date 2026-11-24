@@ -94,3 +94,4 @@
 | 90 | 2026-11-25 | What If a Town With No Snow Built a Ski Jump? Part 8 #shorts | what-if: money (part8) | sources.md | https://youtube.com/shorts/xrQjPr-uQN0 |
 | 91 | 2026-11-23 | Nothing to Eat? Send AI a Photo of Your Fridge #shorts | tips: AI (everyday life) (part1) | original fiction | https://youtube.com/shorts/csB_bBD_WiM |
 | 92 | 2026-11-26 | What If Your Money Expired? (Full Story) | what-if: money (full) | sources.md | https://youtu.be/SUOF9_M5Vdk |
+| 93 | 2026-11-24 | Messy Room? Send AI One Photo (15-Minute Plan) #shorts | tips: AI (everyday life) (part1) | original fiction | https://youtube.com/shorts/cC8wG6N7Hwg |
