@@ -16,7 +16,8 @@ optional first name and date come back.
 Statuses: new | shortlisted | used | rejected. Marking "used" with --video e-mails the viewer (site side,
 only if they left an address and Resend is configured).
 
-Credentials: ZYLO_ADMIN_PASSWORD (same value as ADMIN_PASSWORD in Vercel), from the environment or .env.
+Credentials: the same password as ADMIN_PASSWORD in Vercel, either as a network secret for zylo.video in the cloud
+environment (preferred, sent as "Authorization: Bearer") or as ZYLO_ADMIN_PASSWORD in the environment or .env.
 Site: ZYLO_SITE, default https://zylo.video. If either is missing or storage is off, `pending` prints
 {"available": false, ...} and exits 0, so the daily run simply continues without ideas.
 """
@@ -44,9 +45,9 @@ def load_env() -> None:
 
 def call(body: dict) -> dict:
     site = os.environ.get('ZYLO_SITE', 'https://zylo.video').rstrip('/')
-    pw = os.environ.get('ZYLO_ADMIN_PASSWORD') or os.environ.get('ADMIN_PASSWORD')
-    if not pw:
-        raise RuntimeError('ZYLO_ADMIN_PASSWORD is not set')
+    # The password can live in the cloud environment's network secrets for zylo.video: the proxy then puts the
+    # real value into the Authorization header, so the placeholder below is all this script ever sees.
+    pw = os.environ.get('ZYLO_ADMIN_PASSWORD') or os.environ.get('ADMIN_PASSWORD') or 'set-by-network-secret'
     req = urllib.request.Request(
         f'{site}/api/admin', data=json.dumps(body).encode(), method='POST',
         headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {pw}', 'User-Agent': 'zylo-studio/1.0'},
