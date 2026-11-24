@@ -1,0 +1,1575 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 50.752,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Bit,",
+   "startMs": 100,
+   "endMs": 230,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 230,
+   "endMs": 410,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "room",
+   "startMs": 410,
+   "endMs": 600,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 600,
+   "endMs": 760,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 760,
+   "endMs": 860,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "disaster.",
+   "startMs": 860,
+   "endMs": 1423,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "I",
+   "startMs": 1788,
+   "endMs": 1908,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 1908,
+   "endMs": 2048,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "know",
+   "startMs": 2048,
+   "endMs": 2198,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "where",
+   "startMs": 2198,
+   "endMs": 2298,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 2298,
+   "endMs": 2428,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "start.",
+   "startMs": 2428,
+   "endMs": 2919,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "That's",
+   "startMs": 3264,
+   "endMs": 3564,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 3564,
+   "endMs": 3684,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "real",
+   "startMs": 3684,
+   "endMs": 3974,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "problem.",
+   "startMs": 3974,
+   "endMs": 4544,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Not",
+   "startMs": 4888,
+   "endMs": 5158,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 5158,
+   "endMs": 5238,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "mess.",
+   "startMs": 5238,
+   "endMs": 5805,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 6128,
+   "endMs": 6288,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "start.",
+   "startMs": 6288,
+   "endMs": 6832,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 7135,
+   "endMs": 7495,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 7495,
+   "endMs": 7967,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Take",
+   "startMs": 8247,
+   "endMs": 8577,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 8577,
+   "endMs": 8817,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "photo",
+   "startMs": 8817,
+   "endMs": 9257,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 9257,
+   "endMs": 9357,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 9357,
+   "endMs": 9457,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "whole",
+   "startMs": 9457,
+   "endMs": 9737,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "room.",
+   "startMs": 9737,
+   "endMs": 10124,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Send",
+   "startMs": 10408,
+   "endMs": 10678,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 10678,
+   "endMs": 10778,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 10778,
+   "endMs": 10878,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "an",
+   "startMs": 10878,
+   "endMs": 10938,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 10918,
+   "endMs": 11318,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "chat",
+   "startMs": 11318,
+   "endMs": 11718,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "that",
+   "startMs": 11718,
+   "endMs": 11888,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "reads",
+   "startMs": 11888,
+   "endMs": 12138,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "pictures.",
+   "startMs": 12138,
+   "endMs": 12755,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 13017,
+   "endMs": 13377,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 13377,
+   "endMs": 13764,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Ask",
+   "startMs": 14065,
+   "endMs": 14375,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 14375,
+   "endMs": 14455,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 14455,
+   "endMs": 14555,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "plan",
+   "startMs": 14555,
+   "endMs": 14915,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "with",
+   "startMs": 14915,
+   "endMs": 14995,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 14995,
+   "endMs": 15095,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "time",
+   "startMs": 15095,
+   "endMs": 15395,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "limit.",
+   "startMs": 15395,
+   "endMs": 15836,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Why",
+   "startMs": 16117,
+   "endMs": 16367,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "fifteen",
+   "startMs": 16367,
+   "endMs": 16647,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "minutes?",
+   "startMs": 16647,
+   "endMs": 17077,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 17464,
+   "endMs": 17584,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "need",
+   "startMs": 17584,
+   "endMs": 17774,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "five",
+   "startMs": 17774,
+   "endMs": 17984,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "hours.",
+   "startMs": 17984,
+   "endMs": 18467,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Five",
+   "startMs": 18833,
+   "endMs": 19133,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "hours",
+   "startMs": 19133,
+   "endMs": 19483,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "sounds",
+   "startMs": 19483,
+   "endMs": 19853,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "scary.",
+   "startMs": 19853,
+   "endMs": 20369,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Fifteen",
+   "startMs": 20692,
+   "endMs": 21132,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "minutes",
+   "startMs": 21132,
+   "endMs": 21422,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "sounds",
+   "startMs": 21422,
+   "endMs": 21812,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "doable.",
+   "startMs": 21812,
+   "endMs": 22313,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Look.",
+   "startMs": 22573,
+   "endMs": 23064,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "It",
+   "startMs": 23344,
+   "endMs": 23524,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "sees",
+   "startMs": 23524,
+   "endMs": 23794,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 23794,
+   "endMs": 23994,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "room",
+   "startMs": 23994,
+   "endMs": 24324,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "and",
+   "startMs": 24324,
+   "endMs": 24484,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "splits",
+   "startMs": 24484,
+   "endMs": 24794,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 24794,
+   "endMs": 24914,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "into",
+   "startMs": 24914,
+   "endMs": 25134,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "tiny",
+   "startMs": 25134,
+   "endMs": 25484,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "jobs.",
+   "startMs": 25484,
+   "endMs": 26011,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "Three",
+   "startMs": 26273,
+   "endMs": 26413,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "minutes",
+   "startMs": 26413,
+   "endMs": 26703,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 26703,
+   "endMs": 26823,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "clothes?",
+   "startMs": 26823,
+   "endMs": 27404,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 27855,
+   "endMs": 27955,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "can",
+   "startMs": 27955,
+   "endMs": 28065,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "do",
+   "startMs": 28065,
+   "endMs": 28245,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "three",
+   "startMs": 28245,
+   "endMs": 28385,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "minutes.",
+   "startMs": 28385,
+   "endMs": 28857,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "That's",
+   "startMs": 29181,
+   "endMs": 29501,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 29501,
+   "endMs": 29571,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "trick.",
+   "startMs": 29571,
+   "endMs": 30120,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Small",
+   "startMs": 30443,
+   "endMs": 30873,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "first,",
+   "startMs": 30873,
+   "endMs": 31253,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "so",
+   "startMs": 31253,
+   "endMs": 31513,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 31513,
+   "endMs": 31583,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "keep",
+   "startMs": 31583,
+   "endMs": 31743,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "going.",
+   "startMs": 31743,
+   "endMs": 32192,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 32516,
+   "endMs": 32826,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 32826,
+   "endMs": 33305,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Done?",
+   "startMs": 33628,
+   "endMs": 34140,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Take",
+   "startMs": 34761,
+   "endMs": 35041,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 35041,
+   "endMs": 35111,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 35111,
+   "endMs": 35351,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "photo.",
+   "startMs": 35351,
+   "endMs": 35935,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Ask:",
+   "startMs": 36257,
+   "endMs": 36647,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "what's",
+   "startMs": 36647,
+   "endMs": 36867,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "next?",
+   "startMs": 36867,
+   "endMs": 37452,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "Wait.",
+   "startMs": 37733,
+   "endMs": 38203,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Is",
+   "startMs": 38504,
+   "endMs": 38614,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 38614,
+   "endMs": 38744,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 38744,
+   "endMs": 39184,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "going",
+   "startMs": 39184,
+   "endMs": 39354,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 39354,
+   "endMs": 39464,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "judge",
+   "startMs": 39464,
+   "endMs": 39724,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "my",
+   "startMs": 39724,
+   "endMs": 39924,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "room?",
+   "startMs": 39924,
+   "endMs": 40317,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "No.",
+   "startMs": 40663,
+   "endMs": 41196,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 41692,
+   "endMs": 41822,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 41822,
+   "endMs": 41922,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 41922,
+   "endMs": 42032,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 42032,
+   "endMs": 42232,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "want",
+   "startMs": 42232,
+   "endMs": 42382,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 42382,
+   "endMs": 42492,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "share,",
+   "startMs": 42492,
+   "endMs": 42892,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "describe",
+   "startMs": 42892,
+   "endMs": 43352,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 43352,
+   "endMs": 43522,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 43522,
+   "endMs": 43672,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "words.",
+   "startMs": 43672,
+   "endMs": 44209,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Fifteen",
+   "startMs": 44451,
+   "endMs": 44751,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "minutes",
+   "startMs": 44751,
+   "endMs": 45001,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "later:",
+   "startMs": 45001,
+   "endMs": 45441,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 45441,
+   "endMs": 45641,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "clean",
+   "startMs": 45641,
+   "endMs": 45921,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "room.",
+   "startMs": 45921,
+   "endMs": 46285,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 46652,
+   "endMs": 46802,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "under",
+   "startMs": 46802,
+   "endMs": 47002,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 47002,
+   "endMs": 47102,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "bed",
+   "startMs": 47102,
+   "endMs": 47352,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 47352,
+   "endMs": 47422,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "found",
+   "startMs": 47422,
+   "endMs": 47752,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 47752,
+   "endMs": 47872,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "other",
+   "startMs": 47872,
+   "endMs": 48172,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "sock.",
+   "startMs": 48172,
+   "endMs": 48572,
+   "line": 14,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 48856,
+   "endMs": 49256,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 49256,
+   "endMs": 49416,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 49416,
+   "endMs": 49646,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 49646,
+   "endMs": 50046,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "trick",
+   "startMs": 50046,
+   "endMs": 50266,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 50266,
+   "endMs": 50336,
+   "line": 15,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 50336,
+   "endMs": 50691,
+   "line": 15,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "hero",
+   "start": 0.1,
+   "end": 3.044
+  },
+  {
+   "speaker": "bit",
+   "start": 3.264,
+   "end": 6.893
+  },
+  {
+   "speaker": "bit",
+   "start": 7.113,
+   "end": 10.167
+  },
+  {
+   "speaker": "bit",
+   "start": 10.387,
+   "end": 12.776
+  },
+  {
+   "speaker": "bit",
+   "start": 12.996,
+   "end": 15.897
+  },
+  {
+   "speaker": "hero",
+   "start": 16.117,
+   "end": 18.571
+  },
+  {
+   "speaker": "bit",
+   "start": 18.791,
+   "end": 22.353
+  },
+  {
+   "speaker": "bit",
+   "start": 22.573,
+   "end": 26.032
+  },
+  {
+   "speaker": "hero",
+   "start": 26.252,
+   "end": 28.94
+  },
+  {
+   "speaker": "bit",
+   "start": 29.16,
+   "end": 32.253
+  },
+  {
+   "speaker": "bit",
+   "start": 32.473,
+   "end": 37.513
+  },
+  {
+   "speaker": "hero",
+   "start": 37.733,
+   "end": 40.421
+  },
+  {
+   "speaker": "bit",
+   "start": 40.641,
+   "end": 44.231
+  },
+  {
+   "speaker": "hero",
+   "start": 44.451,
+   "end": 46.411
+  },
+  {
+   "speaker": "bit",
+   "start": 46.631,
+   "end": 48.615
+  },
+  {
+   "speaker": "bit",
+   "start": 48.835,
+   "end": 50.752
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser"
+    }
+   ],
+   "speaker": "hero",
+   "start": 0.0,
+   "end": 1.602
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "hero",
+   "start": 1.602,
+   "end": 3.204
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "WHERE DO I START?"
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 3.204,
+   "end": 7.053
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 1,
+    "text": "Take a photo of your room."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 7.053,
+   "end": 10.327
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "[photo of my room]"
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 10.327,
+   "end": 12.936
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 2,
+    "text": "Here's my room. Give me a 15-minute cleaning plan. Smallest steps first. Set a timer for each."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 12.936,
+   "end": 16.057
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "shocked",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 16.057,
+   "end": 18.731
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "compare",
+    "bad": "Clean my room",
+    "good": "15-minute plan. Smallest steps first."
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 18.731,
+   "end": 22.513
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "list",
+    "title": "YOUR 15 MINUTES",
+    "items": [
+     "3 min: clothes in basket",
+     "4 min: dishes out",
+     "5 min: clear the desk",
+     "3 min: trash bag"
+    ]
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.3
+    },
+    {
+     "type": "ding",
+     "at": 0.6
+    }
+   ],
+   "speaker": "bit",
+   "start": 22.513,
+   "end": 26.192
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "grin",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 26.192,
+   "end": 29.1
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "slots",
+    "title": "WHY IT WORKS",
+    "items": [
+     {
+      "icon": "search",
+      "label": "IT SEES"
+     },
+     {
+      "icon": "clock",
+      "label": "TIME LIMIT"
+     },
+     {
+      "icon": "check",
+      "label": "TINY WINS"
+     }
+    ]
+   },
+   "speaker": "bit",
+   "start": 29.1,
+   "end": 32.413
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 3,
+    "text": "Here's my room now. What's next?"
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 32.413,
+   "end": 37.673
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "scared",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 37.673,
+   "end": 40.581
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "scared",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "Clothes on the chair, cups on the desk, bed not made."
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 40.581,
+   "end": 44.391
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "hero",
+   "start": 44.391,
+   "end": 46.571
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "grin",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "SOCK FOUND",
+    "sub": "missing since 2024"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 46.571,
+   "end": 48.775
+  }
+ ],
+ "endStart": 48.775,
+ "endText": "1 AI TRICK A DAY",
+ "endSub": "Follow so you don't miss tomorrow's",
+ "look": "tips"
+}
