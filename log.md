@@ -95,3 +95,6 @@
 | 91 | 2026-11-23 | Nothing to Eat? Send AI a Photo of Your Fridge #shorts | tips: AI (everyday life) (part1) | original fiction | https://youtube.com/shorts/csB_bBD_WiM |
 | 92 | 2026-11-26 | What If Your Money Expired? (Full Story) | what-if: money (full) | sources.md | https://youtu.be/SUOF9_M5Vdk |
 | 93 | 2026-11-24 | Messy Room? Send AI One Photo (15-Minute Plan) #shorts | tips: AI (everyday life) (part1) | original fiction | https://youtube.com/shorts/cC8wG6N7Hwg |
+| 94 | 2026-11-24 | Every zylo Video in One Place: zylo.video #shorts | tips: channel (site) (part1) | original fiction | https://youtube.com/shorts/X-8N9j1uxSs |
+| 95 | 2026-11-27 | What If the Sun Could Fix What It Broke? ☀️ Part 8 #shorts | what-if: disaster (real history) (part8) | sources.md | https://youtube.com/shorts/Jlv1_cEM_4c |
+| 96 | 2026-11-27 | What If the Engines Came Back? 🌋 Part 7 #shorts | what-if: disaster (real history) (part7) | sources.md | https://youtube.com/shorts/hPKug4F3waU |
