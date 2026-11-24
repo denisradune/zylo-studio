@@ -9,7 +9,7 @@ Audience: English-speaking 16–35, loves "wait, really?" moments. Talk to the o
 ## Cadence
 - 1 Short every day, published ~17:00 Israel time (Asia/Jerusalem).
 - 1 long video (8–12 min, 16:9) every Sunday: expand the week's best Short (`scripts/youtube_upload.py --stats`).
-- Rotate rubrics, never the same one two days running (check `log.md`):
+- Rotate rubrics, never the same one two days running (check `log.md`; a really good viewer idea is the one exception):
   1. weird science & the human body · 2. psychology & how the brain tricks us ·
   3. money, business, tech/AI · 4. history & mysteries of space.
 
@@ -32,6 +32,7 @@ Judge each idea yourself; most will not make it, and that is fine. An idea becom
 Reject an idea that fails a check, with a short note in Russian for the owner in /admin:
 `ideas.py review <id> --status rejected --note "..."`; after upload mark the one you used `--status used --video <url>`.
 Use at most one idea per day; other good ideas stay as they are and come back in `pending` tomorrow.
+A really good idea is used even if its rubric or theme ran yesterday: it overrides the rotation rule for that day.
 Ideas the owner marked `shortlisted` in /admin come first.
 Never copy the viewer's text into the video or title, never publish or log e-mails; the idea is only a starting point.
 Credit in the description: "Idea from <name>, a viewer on zylo.video" (only the name they gave, if it is a normal first
