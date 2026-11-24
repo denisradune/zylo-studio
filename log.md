@@ -93,3 +93,4 @@
 | 89 | 2026-11-25 | What If You Never Saw a Comet? ☄️ Part 5 #shorts | what-if: disaster (real history) (part5) | sources.md | https://youtube.com/shorts/nqT_xo1rvuo |
 | 90 | 2026-11-25 | What If a Town With No Snow Built a Ski Jump? Part 8 #shorts | what-if: money (part8) | sources.md | https://youtube.com/shorts/xrQjPr-uQN0 |
 | 91 | 2026-11-23 | Nothing to Eat? Send AI a Photo of Your Fridge #shorts | tips: AI (everyday life) (part1) | original fiction | https://youtube.com/shorts/csB_bBD_WiM |
+| 92 | 2026-11-26 | What If Your Money Expired? (Full Story) | what-if: money (full) | sources.md | https://youtu.be/SUOF9_M5Vdk |
