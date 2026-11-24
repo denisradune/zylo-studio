@@ -1,0 +1,578 @@
+{
+ "title": "How zylo.video Works",
+ "rubric": "tips: channel (site)",
+ "mood": "tech",
+ "seed": 7300,
+ "standalone": true,
+ "look": "tips",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "finale": {
+  "text": "ZYLO.VIDEO",
+  "sub": "Every video. One site."
+ },
+ "parts": [
+  {
+   "title": "zylo.video",
+   "lines": [
+    {
+     "speaker": "hero",
+     "say": "Bit, where can I watch *every* zylo video? In one place?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "neutral",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "On our own website. *zylo dot video*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "neutral",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "title",
+       "text": "ZYLO.VIDEO",
+       "sub": "every video, one site"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Let me show you how it works. Step *one*: open it.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 1,
+       "text": "zylo.video"
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Up top: how many videos, the newest one, and total *views*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "stat",
+       "label": "VIDEOS ON THE SITE",
+       "value": 80,
+       "suffix": "+",
+       "sub": "updates itself"
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "New video on YouTube? It appears here by *itself*. Usually in fifteen minutes.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "list",
+       "title": "AUTO-UPDATE",
+       "items": [
+        "New video on YouTube",
+        "Site checks",
+        "It's on zylo.video"
+       ]
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       },
+       {
+        "type": "ding",
+        "at": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Eighty videos? How do I find *the one* I want?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "shocked",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step two. Pick a *rubric*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "slots",
+       "title": "RUBRICS",
+       "items": [
+        {
+         "icon": "bolt",
+         "label": "SCIENCE"
+        },
+        {
+         "icon": "star",
+         "label": "MIND"
+        },
+        {
+         "icon": "money",
+         "label": "MONEY"
+        },
+        {
+         "icon": "clock",
+         "label": "HISTORY"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Or search. Type *zombie*. Every zombie episode, in one second.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "zombie"
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Sort by newest, oldest, or *most viewed*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "videos",
+       "title": "MOST VIEWED",
+       "items": [
+        {
+         "views": "25"
+        },
+        {
+         "views": "19"
+        },
+        {
+         "views": "16"
+        }
+       ]
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step three. Tap a card. It plays *right there* on the page.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 3
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "And if I'd rather watch on *YouTube*?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "neutral",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "One button. It takes you *straight* there.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "neutral",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "compare",
+       "bad": "Search YouTube for it",
+       "good": "One tap: Watch on YouTube"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Now the best part. Got an idea for a video? *Suggest* it.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "What if cats could talk for one day?"
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "We read every idea. The best ones become *new videos*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "cards",
+       "n": 7,
+       "mark": "?",
+       "pick": 3
+      },
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "And soon: Ask zylo. Any question. A short *answer*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "Why do we get goosebumps?",
+       "reply": "Opening soon: short answers + a video link if we made one."
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Does it work on my *phone*?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "phone",
+        "expr": "neutral",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Yes. Big buttons. Dark at night, light in the *day*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "list",
+       "title": "ON YOUR PHONE",
+       "items": [
+        "2 videos per row",
+        "Big buttons",
+        "Dark + light theme"
+       ]
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "So one site. Every video. And *my* ideas?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "happy",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Exactly. zylo dot video. Link in the *description*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "grin",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "title",
+       "text": "ZYLO.VIDEO",
+       "sub": "link in description"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Follow for one AI trick a day.",
+     "end": true
+    }
+   ]
+  }
+ ]
+}
