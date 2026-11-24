@@ -142,3 +142,8 @@ funny Short, `episodes/<YYYY-MM-DD>-what-if-<slug>/` (reference: `episodes/2026-
 Commit (`stats/`, `episodes/<slug>`, `uploads.json`s, `tiktok.json`s, `log.md`, any template changes) and push to
 `claude/magical-newton-hmla9z`. Finish with a short Russian summary: what the stats showed (hits/flops), why today's topic, premise, links + publish times, anything left
 for tomorrow.
+
+## 6. Send the owner the new vertical video (owner's request 2026-11-24)
+The owner posts to TikTok by hand. Every day, after today's Short is rendered and QC'd, send its
+`part1/out/short.mp4` to the owner (SendUserFile, attach) with a ready TikTok caption
+(hook + 4–5 hashtags incl. #fyp) in the Russian summary.
