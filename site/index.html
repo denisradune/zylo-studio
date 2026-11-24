@@ -334,7 +334,7 @@ footer small{flex-basis:100%;font-size:.8rem;opacity:.75}
         <div class="stats" aria-label="Channel numbers">
           <div class="stat"><strong id="sCount">–</strong><span>videos</span></div>
           <div class="stat"><strong id="sLatest">–</strong><span>latest video</span></div>
-          <div class="stat"><strong id="sViews">–</strong><span>total views</span></div>
+          <div class="stat"><strong>Daily</strong><span>new videos</span></div>
         </div>
       </div>
       <div class="phones" id="phones" aria-label="Newest videos">
@@ -510,7 +510,6 @@ footer small{flex-basis:100%;font-size:.8rem;opacity:.75}
   const clean = (t) => String(t || "").replace(/\s*#shorts?\b/ig, "").trim();
   const isLong = (v) => /^(\d+:)?(\d+):\d\d$/.test(v.duration || "") && (v.duration.split(":").length > 2 || Number(v.duration.split(":")[0]) >= 3);
   const fmtDate = (d, opt) => { const x = new Date(d + "T12:00:00Z"); return isNaN(x) ? d : x.toLocaleDateString("en-US", opt || {month:"short", day:"numeric", year:"numeric", timeZone:"UTC"}); };
-  const fmtNum = (n) => n == null ? "–" : n >= 1e6 ? (n/1e6).toFixed(1).replace(/\.0$/, "") + "M" : n >= 1e4 ? Math.round(n/1e3) + "K" : n >= 1e3 ? (n/1e3).toFixed(1).replace(/\.0$/, "") + "K" : String(n);
   // Shorts thumbnails: hqdefault holds the vertical frame centred, so a 9:16 crop shows exactly that frame (~9 KB).
   // The hero uses the sharp portrait "oar2" image. YouTube answers a missing size with a tiny grey placeholder
   // instead of an error, so check the real size after loading and fall back.
@@ -571,8 +570,7 @@ footer small{flex-basis:100%;font-size:.8rem;opacity:.75}
     const th = el("div", {class:"thumb"}, [img(v.id), el("span", {class:"shade"}), badges,
       el("span", {class:"rub"}, [el("i", {class:"dot " + (v.pillar || ""), "aria-hidden":"true"}), RUB[v.pillar] || ""]),
       el("span", {class:"hplay", "aria-hidden":"true"})]);
-    const meta = el("div", {class:"meta"}, [el("time", {dateTime:v.published, textContent:fmtDate(v.published)}),
-      v.views != null ? el("span", {textContent:`${fmtNum(v.views)} ${v.views === 1 ? "view" : "views"}`}) : null]);
+    const meta = el("div", {class:"meta"}, [el("time", {dateTime:v.published, textContent:fmtDate(v.published)})]);
     return el("button", {class:"card", type:"button", "data-id":v.id, "aria-label":`Play: ${t}`}, [th, el("h3", {textContent:t}), meta]);
   }
   function current() {
@@ -600,7 +598,6 @@ footer small{flex-basis:100%;font-size:.8rem;opacity:.75}
     $("#sCount").textContent = all.length;
     $("#allCount").textContent = all.length ? "all " + all.length : "all";
     $("#sLatest").textContent = all[0] ? fmtDate(all[0].published, {month:"short", day:"numeric", timeZone:"UTC"}) : "–";
-    $("#sViews").textContent = all.some((v) => v.views != null) ? fmtNum(all.reduce((a, v) => a + (v.views || 0), 0)) : "–";
     const shorts = all.filter((v) => !isLong(v));
     const [a, b, c] = shorts.length >= 3 ? shorts : all;
     if (a) {
