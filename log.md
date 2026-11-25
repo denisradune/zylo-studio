@@ -98,3 +98,5 @@
 | 94 | 2026-11-24 | Every zylo Video in One Place: zylo.video #shorts | tips: channel (site) (part1) | original fiction | https://youtube.com/shorts/X-8N9j1uxSs |
 | 95 | 2026-11-27 | What If the Sun Could Fix What It Broke? ☀️ Part 8 #shorts | what-if: disaster (real history) (part8) | sources.md | https://youtube.com/shorts/Jlv1_cEM_4c |
 | 96 | 2026-11-27 | What If the Engines Came Back? 🌋 Part 7 #shorts | what-if: disaster (real history) (part7) | sources.md | https://youtube.com/shorts/hPKug4F3waU |
+| 97 | 2026-11-27 | What If Your Crush Joined the Family Chat? 📱 Part 5 #shorts | what-if: comedy (everyday cringe) (part5) | sources.md | https://youtube.com/shorts/ZqfuZq4vj_o |
+| 98 | 2026-11-27 | What If Clouds Ruined the Comet? ☄️ Part 6 #shorts | what-if: disaster (real history) (part6) | sources.md | https://youtube.com/shorts/VLGnfyXrY3I |
