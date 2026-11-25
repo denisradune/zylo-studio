@@ -1,0 +1,447 @@
+{
+ "title": "Your Plant Is Dying? Send AI One Photo",
+ "rubric": "tips: AI (everyday life)",
+ "mood": "tech",
+ "seed": 7400,
+ "standalone": true,
+ "look": "tips",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "finale": {
+  "text": "1 AI TRICK A DAY",
+  "sub": "Follow so you don't miss tomorrow's"
+ },
+ "parts": [
+  {
+   "title": "Plant Photo",
+   "lines": [
+    {
+     "speaker": "hero",
+     "say": "Bit, my plant is *dying*. And I water it every day!",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "facepalm",
+        "expr": "sad",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Every day? That might be the *problem*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "sad",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "shocked",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "title",
+       "text": "EVERY DAY?!"
+      },
+      "sfx": [
+       {
+        "type": "buzz"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step one. Take a close photo of the *leaves*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 1,
+       "text": "Take a close photo of the leaves."
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Send it to an AI chat that reads *pictures*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "[photo of my plant]"
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step two. Don't just ask what's wrong. Let it ask *you* first.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 2,
+       "text": "Here's my plant. What's wrong? Ask me 3 questions first: light, water, how long I've had it."
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Why does it need to ask *me*?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "neutral",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Yellow leaves can mean too much water. Or too little *light*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "neutral",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "compare",
+       "bad": "What's wrong with my plant?",
+       "good": "Ask me about light and water first."
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Your answers help it guess *right*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "list",
+       "title": "IT ASKS YOU",
+       "items": [
+        "How much light?",
+        "How often water?",
+        "Drainage hole?"
+       ]
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       },
+       {
+        "type": "ding",
+        "at": 0.4
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Drainage hole? Like, a hole in the *pot*?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "point",
+        "expr": "shocked",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "hit"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Yes. No hole, water stays in. The roots *drown*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "shocked",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "Here's my plant. What's wrong? Ask me 3 questions first: light, water, how long I've had it.",
+       "reply": "Likely too much water + no drainage. Water once a week, move to a pot with a hole."
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step three. Change *one* thing. Then send a new photo in a week.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 3,
+       "text": "Here it is one week later. Better?"
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "It's a guess from a photo. So test one change at a *time*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "slots",
+       "title": "THE TRICK",
+       "items": [
+        {
+         "icon": "search",
+         "label": "PHOTO"
+        },
+        {
+         "icon": "question",
+         "label": "ITS QUESTIONS"
+        },
+        {
+         "icon": "check",
+         "label": "ONE CHANGE"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "One week later: a new *leaf*!",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "happy",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Congratulations. You stopped *drowning* it.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "grin",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "title",
+       "text": "PLANT SAVED",
+       "sub": "water: once a week"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Follow for one AI trick a day.",
+     "end": true
+    }
+   ]
+  }
+ ]
+}
