@@ -1,0 +1,1461 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 44.951,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Bit,",
+   "startMs": 100,
+   "endMs": 230,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 230,
+   "endMs": 410,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "plant",
+   "startMs": 410,
+   "endMs": 620,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 620,
+   "endMs": 750,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "dying.",
+   "startMs": 750,
+   "endMs": 1231,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "And",
+   "startMs": 1596,
+   "endMs": 1696,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 1696,
+   "endMs": 1796,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "water",
+   "startMs": 1796,
+   "endMs": 2076,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 2076,
+   "endMs": 2136,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 2126,
+   "endMs": 2416,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "day!",
+   "startMs": 2416,
+   "endMs": 2833,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Every",
+   "startMs": 3179,
+   "endMs": 3489,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "day?",
+   "startMs": 3489,
+   "endMs": 3989,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "That",
+   "startMs": 4373,
+   "endMs": 4543,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "might",
+   "startMs": 4543,
+   "endMs": 4873,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "be",
+   "startMs": 4873,
+   "endMs": 5013,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 5013,
+   "endMs": 5123,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "problem.",
+   "startMs": 5123,
+   "endMs": 5675,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 5977,
+   "endMs": 6337,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 6337,
+   "endMs": 6809,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Take",
+   "startMs": 7089,
+   "endMs": 7299,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 7299,
+   "endMs": 7399,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "close",
+   "startMs": 7399,
+   "endMs": 7729,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "photo",
+   "startMs": 7729,
+   "endMs": 8129,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 8129,
+   "endMs": 8219,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 8219,
+   "endMs": 8329,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "leaves.",
+   "startMs": 8329,
+   "endMs": 8860,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Send",
+   "startMs": 9123,
+   "endMs": 9393,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 9393,
+   "endMs": 9493,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 9493,
+   "endMs": 9593,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "an",
+   "startMs": 9593,
+   "endMs": 9653,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 9633,
+   "endMs": 10033,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "chat",
+   "startMs": 10033,
+   "endMs": 10433,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "that",
+   "startMs": 10433,
+   "endMs": 10603,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "reads",
+   "startMs": 10603,
+   "endMs": 10853,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "pictures.",
+   "startMs": 10853,
+   "endMs": 11469,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 11732,
+   "endMs": 12092,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 12092,
+   "endMs": 12479,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Don't",
+   "startMs": 12780,
+   "endMs": 13030,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "just",
+   "startMs": 13030,
+   "endMs": 13200,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "ask",
+   "startMs": 13200,
+   "endMs": 13550,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "what's",
+   "startMs": 13550,
+   "endMs": 13770,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "wrong.",
+   "startMs": 13770,
+   "endMs": 14209,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Let",
+   "startMs": 14532,
+   "endMs": 14772,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 14772,
+   "endMs": 14842,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "ask",
+   "startMs": 14842,
+   "endMs": 15162,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 15162,
+   "endMs": 15282,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "first.",
+   "startMs": 15282,
+   "endMs": 15833,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Why",
+   "startMs": 16115,
+   "endMs": 16335,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "does",
+   "startMs": 16335,
+   "endMs": 16425,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 16425,
+   "endMs": 16505,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "need",
+   "startMs": 16505,
+   "endMs": 16765,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 16765,
+   "endMs": 16865,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "ask",
+   "startMs": 16865,
+   "endMs": 17025,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "me?",
+   "startMs": 17025,
+   "endMs": 17395,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Yellow",
+   "startMs": 17697,
+   "endMs": 18037,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "leaves",
+   "startMs": 18037,
+   "endMs": 18417,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "can",
+   "startMs": 18417,
+   "endMs": 18517,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "mean",
+   "startMs": 18517,
+   "endMs": 18787,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "too",
+   "startMs": 18787,
+   "endMs": 18977,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "much",
+   "startMs": 18977,
+   "endMs": 19207,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "water.",
+   "startMs": 19207,
+   "endMs": 19660,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Or",
+   "startMs": 19964,
+   "endMs": 20184,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "too",
+   "startMs": 20184,
+   "endMs": 20394,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "little",
+   "startMs": 20394,
+   "endMs": 20624,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "light.",
+   "startMs": 20624,
+   "endMs": 21180,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Your",
+   "startMs": 21483,
+   "endMs": 21673,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "answers",
+   "startMs": 21673,
+   "endMs": 22123,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "help",
+   "startMs": 22123,
+   "endMs": 22373,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 22373,
+   "endMs": 22463,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "guess",
+   "startMs": 22463,
+   "endMs": 22713,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "right.",
+   "startMs": 22713,
+   "endMs": 23147,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Drainage",
+   "startMs": 23449,
+   "endMs": 23809,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "hole?",
+   "startMs": 23809,
+   "endMs": 24196,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Like,",
+   "startMs": 24604,
+   "endMs": 24744,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 24744,
+   "endMs": 24834,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "hole",
+   "startMs": 24834,
+   "endMs": 25074,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 25074,
+   "endMs": 25134,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 25114,
+   "endMs": 25184,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "pot?",
+   "startMs": 25184,
+   "endMs": 25628,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "Yes.",
+   "startMs": 25973,
+   "endMs": 26485,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "No",
+   "startMs": 26787,
+   "endMs": 27077,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "hole,",
+   "startMs": 27077,
+   "endMs": 27407,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "water",
+   "startMs": 27407,
+   "endMs": 27687,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "stays",
+   "startMs": 27687,
+   "endMs": 28097,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "in.",
+   "startMs": 28097,
+   "endMs": 28344,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 28667,
+   "endMs": 28807,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "roots",
+   "startMs": 28807,
+   "endMs": 29127,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "drown.",
+   "startMs": 29127,
+   "endMs": 29691,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 30015,
+   "endMs": 30325,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 30325,
+   "endMs": 30804,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Change",
+   "startMs": 31105,
+   "endMs": 31515,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 31515,
+   "endMs": 31795,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "thing.",
+   "startMs": 31795,
+   "endMs": 32193,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 32516,
+   "endMs": 32796,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "send",
+   "startMs": 32796,
+   "endMs": 33036,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 33036,
+   "endMs": 33096,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 33086,
+   "endMs": 33326,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "photo",
+   "startMs": 33326,
+   "endMs": 33746,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 33746,
+   "endMs": 33826,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 33826,
+   "endMs": 33946,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "week.",
+   "startMs": 33946,
+   "endMs": 34329,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "It's",
+   "startMs": 34589,
+   "endMs": 34749,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 34749,
+   "endMs": 34859,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "guess",
+   "startMs": 34859,
+   "endMs": 35159,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "from",
+   "startMs": 35159,
+   "endMs": 35279,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 35279,
+   "endMs": 35399,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "photo.",
+   "startMs": 35399,
+   "endMs": 35997,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "So",
+   "startMs": 36320,
+   "endMs": 36540,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "test",
+   "startMs": 36540,
+   "endMs": 36880,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 36880,
+   "endMs": 37130,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "change",
+   "startMs": 37130,
+   "endMs": 37460,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 37460,
+   "endMs": 37580,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 37580,
+   "endMs": 37670,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "time.",
+   "startMs": 37670,
+   "endMs": 38133,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "One",
+   "startMs": 38393,
+   "endMs": 38523,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "week",
+   "startMs": 38523,
+   "endMs": 38663,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "later:",
+   "startMs": 38663,
+   "endMs": 38983,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 38983,
+   "endMs": 39073,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "new",
+   "startMs": 39073,
+   "endMs": 39263,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "leaf!",
+   "startMs": 39263,
+   "endMs": 39652,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Congratulations.",
+   "startMs": 39955,
+   "endMs": 41192,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 41515,
+   "endMs": 41725,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "stopped",
+   "startMs": 41725,
+   "endMs": 42005,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "drowning",
+   "startMs": 42005,
+   "endMs": 42415,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "it.",
+   "startMs": 42415,
+   "endMs": 42752,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Follow",
+   "startMs": 43055,
+   "endMs": 43455,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 43455,
+   "endMs": 43615,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 43615,
+   "endMs": 43845,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 43845,
+   "endMs": 44245,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "trick",
+   "startMs": 44245,
+   "endMs": 44465,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 44465,
+   "endMs": 44535,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 44535,
+   "endMs": 44889,
+   "line": 14,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "hero",
+   "start": 0.1,
+   "end": 2.916
+  },
+  {
+   "speaker": "bit",
+   "start": 3.136,
+   "end": 5.736
+  },
+  {
+   "speaker": "bit",
+   "start": 5.956,
+   "end": 8.881
+  },
+  {
+   "speaker": "bit",
+   "start": 9.101,
+   "end": 11.491
+  },
+  {
+   "speaker": "bit",
+   "start": 11.711,
+   "end": 15.895
+  },
+  {
+   "speaker": "hero",
+   "start": 16.115,
+   "end": 17.456
+  },
+  {
+   "speaker": "bit",
+   "start": 17.676,
+   "end": 21.241
+  },
+  {
+   "speaker": "bit",
+   "start": 21.461,
+   "end": 23.208
+  },
+  {
+   "speaker": "hero",
+   "start": 23.428,
+   "end": 25.732
+  },
+  {
+   "speaker": "bit",
+   "start": 25.952,
+   "end": 29.752
+  },
+  {
+   "speaker": "bit",
+   "start": 29.972,
+   "end": 34.369
+  },
+  {
+   "speaker": "bit",
+   "start": 34.589,
+   "end": 38.173
+  },
+  {
+   "speaker": "hero",
+   "start": 38.393,
+   "end": 39.713
+  },
+  {
+   "speaker": "bit",
+   "start": 39.933,
+   "end": 42.813
+  },
+  {
+   "speaker": "bit",
+   "start": 43.033,
+   "end": 44.951
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser"
+    }
+   ],
+   "speaker": "hero",
+   "start": 0.0,
+   "end": 1.538
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "hero",
+   "start": 1.538,
+   "end": 3.076
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "shocked",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "EVERY DAY?!"
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "bit",
+   "start": 3.076,
+   "end": 5.896
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 1,
+    "text": "Take a close photo of the leaves."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 5.896,
+   "end": 9.041
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "[photo of my plant]"
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 9.041,
+   "end": 11.651
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 2,
+    "text": "Here's my plant. What's wrong? Ask me 3 questions first: light, water, how long I've had it."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 11.651,
+   "end": 16.055
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "neutral",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 16.055,
+   "end": 17.616
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "compare",
+    "bad": "What's wrong with my plant?",
+    "good": "Ask me about light and water first."
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 17.616,
+   "end": 21.401
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "list",
+    "title": "IT ASKS YOU",
+    "items": [
+     "How much light?",
+     "How often water?",
+     "Drainage hole?"
+    ]
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.4
+    }
+   ],
+   "speaker": "bit",
+   "start": 21.401,
+   "end": 23.368
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "point",
+     "expr": "shocked",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit"
+    }
+   ],
+   "speaker": "hero",
+   "start": 23.368,
+   "end": 25.892
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "shocked",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "Here's my plant. What's wrong? Ask me 3 questions first: light, water, how long I've had it.",
+    "reply": "Likely too much water + no drainage. Water once a week, move to a pot with a hole."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 25.892,
+   "end": 29.912
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 3,
+    "text": "Here it is one week later. Better?"
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 29.912,
+   "end": 34.529
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "slots",
+    "title": "THE TRICK",
+    "items": [
+     {
+      "icon": "search",
+      "label": "PHOTO"
+     },
+     {
+      "icon": "question",
+      "label": "ITS QUESTIONS"
+     },
+     {
+      "icon": "check",
+      "label": "ONE CHANGE"
+     }
+    ]
+   },
+   "speaker": "bit",
+   "start": 34.529,
+   "end": 38.333
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "hero",
+   "start": 38.333,
+   "end": 39.873
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "grin",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "PLANT SAVED",
+    "sub": "water: once a week"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 39.873,
+   "end": 42.973
+  }
+ ],
+ "endStart": 42.973,
+ "endText": "1 AI TRICK A DAY",
+ "endSub": "Follow so you don't miss tomorrow's",
+ "look": "tips"
+}
