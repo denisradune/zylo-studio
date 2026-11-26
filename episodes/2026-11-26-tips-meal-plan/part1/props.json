@@ -1,0 +1,1369 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 48.391,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Bit,",
+   "startMs": 100,
+   "endMs": 250,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 250,
+   "endMs": 420,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "spend",
+   "startMs": 420,
+   "endMs": 610,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "so",
+   "startMs": 610,
+   "endMs": 740,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "much",
+   "startMs": 740,
+   "endMs": 870,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "on",
+   "startMs": 870,
+   "endMs": 1050,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "takeout.",
+   "startMs": 1050,
+   "endMs": 1657,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Every",
+   "startMs": 2001,
+   "endMs": 2301,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "single",
+   "startMs": 2301,
+   "endMs": 2661,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "night.",
+   "startMs": 2661,
+   "endMs": 2961,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Because",
+   "startMs": 3328,
+   "endMs": 3628,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "at",
+   "startMs": 3628,
+   "endMs": 3768,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "8",
+   "startMs": 3768,
+   "endMs": 4038,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "p.m.",
+   "startMs": 4038,
+   "endMs": 4757,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "nobody",
+   "startMs": 5077,
+   "endMs": 5557,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "wants",
+   "startMs": 5557,
+   "endMs": 5807,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 5807,
+   "endMs": 5937,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "think.",
+   "startMs": 5937,
+   "endMs": 6400,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "So",
+   "startMs": 6703,
+   "endMs": 6983,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "decide",
+   "startMs": 6983,
+   "endMs": 7453,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "once.",
+   "startMs": 7453,
+   "endMs": 7940,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "On",
+   "startMs": 8263,
+   "endMs": 8513,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Sunday.",
+   "startMs": 8513,
+   "endMs": 9159,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "With",
+   "startMs": 9460,
+   "endMs": 9600,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "AI.",
+   "startMs": 9600,
+   "endMs": 10377,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Ask",
+   "startMs": 10680,
+   "endMs": 11010,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 11010,
+   "endMs": 11160,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "five",
+   "startMs": 11160,
+   "endMs": 11450,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "dinners.",
+   "startMs": 11450,
+   "endMs": 11960,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "Give",
+   "startMs": 12304,
+   "endMs": 12494,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 12494,
+   "endMs": 12594,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 12594,
+   "endMs": 12694,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "budget.",
+   "startMs": 12694,
+   "endMs": 13328,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Why",
+   "startMs": 13628,
+   "endMs": 13848,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "reuse",
+   "startMs": 13848,
+   "endMs": 14058,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "ingredients?",
+   "startMs": 14058,
+   "endMs": 14759,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Half",
+   "startMs": 15083,
+   "endMs": 15353,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 15353,
+   "endMs": 15453,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "bag",
+   "startMs": 15453,
+   "endMs": 15693,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 15693,
+   "endMs": 15813,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "spinach",
+   "startMs": 15813,
+   "endMs": 16153,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "rots.",
+   "startMs": 16153,
+   "endMs": 16683,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "Reuse",
+   "startMs": 16984,
+   "endMs": 17414,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "it,",
+   "startMs": 17414,
+   "endMs": 17614,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "and",
+   "startMs": 17614,
+   "endMs": 17764,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 17764,
+   "endMs": 17904,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "waste",
+   "startMs": 17904,
+   "endMs": 18174,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "nothing.",
+   "startMs": 18174,
+   "endMs": 18691,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Now",
+   "startMs": 18975,
+   "endMs": 19265,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 19265,
+   "endMs": 19365,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "plans",
+   "startMs": 19365,
+   "endMs": 19765,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 19765,
+   "endMs": 19865,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "week.",
+   "startMs": 19865,
+   "endMs": 20319,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 20621,
+   "endMs": 20981,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 20981,
+   "endMs": 21368,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "One",
+   "startMs": 21648,
+   "endMs": 21988,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "shopping",
+   "startMs": 21988,
+   "endMs": 22278,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "list.",
+   "startMs": 22278,
+   "endMs": 22779,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Sorted",
+   "startMs": 23101,
+   "endMs": 23541,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "by",
+   "startMs": 23541,
+   "endMs": 23781,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "aisle.",
+   "startMs": 23781,
+   "endMs": 24253,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "But",
+   "startMs": 24535,
+   "endMs": 24745,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 24745,
+   "endMs": 24855,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 24855,
+   "endMs": 24915,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "prices",
+   "startMs": 24915,
+   "endMs": 25285,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "right?",
+   "startMs": 25285,
+   "endMs": 25708,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "Not",
+   "startMs": 26011,
+   "endMs": 26301,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "always.",
+   "startMs": 26301,
+   "endMs": 26992,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Prices",
+   "startMs": 27293,
+   "endMs": 27783,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "change",
+   "startMs": 27783,
+   "endMs": 28203,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "by",
+   "startMs": 28203,
+   "endMs": 28413,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "store.",
+   "startMs": 28413,
+   "endMs": 28872,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "So",
+   "startMs": 29195,
+   "endMs": 29485,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "check",
+   "startMs": 29485,
+   "endMs": 29775,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 29775,
+   "endMs": 29875,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "total.",
+   "startMs": 29875,
+   "endMs": 30453,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 30777,
+   "endMs": 31087,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 31087,
+   "endMs": 31567,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Ask:",
+   "startMs": 31868,
+   "endMs": 32258,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "which",
+   "startMs": 32258,
+   "endMs": 32468,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "dinner",
+   "startMs": 32468,
+   "endMs": 32708,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "can",
+   "startMs": 32708,
+   "endMs": 32828,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 32828,
+   "endMs": 33008,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "cook",
+   "startMs": 33008,
+   "endMs": 33208,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "twice",
+   "startMs": 33208,
+   "endMs": 33548,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "and",
+   "startMs": 33548,
+   "endMs": 33698,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "freeze?",
+   "startMs": 33698,
+   "endMs": 34172,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Plan.",
+   "startMs": 34456,
+   "endMs": 34968,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "List.",
+   "startMs": 35309,
+   "endMs": 35843,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Freezer.",
+   "startMs": 36163,
+   "endMs": 36781,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "That's",
+   "startMs": 37083,
+   "endMs": 37403,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 37403,
+   "endMs": 37473,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "trick.",
+   "startMs": 37473,
+   "endMs": 38021,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "Friday",
+   "startMs": 38345,
+   "endMs": 38695,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "night.",
+   "startMs": 38695,
+   "endMs": 39092,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "No",
+   "startMs": 39393,
+   "endMs": 39663,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "takeout.",
+   "startMs": 39663,
+   "endMs": 40183,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 40527,
+   "endMs": 40647,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "cooked",
+   "startMs": 40647,
+   "endMs": 40907,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "five",
+   "startMs": 40907,
+   "endMs": 41147,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "times!",
+   "startMs": 41147,
+   "endMs": 41657,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Proud",
+   "startMs": 41960,
+   "endMs": 42310,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 42310,
+   "endMs": 42380,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "you.",
+   "startMs": 42380,
+   "endMs": 42856,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Saturday?",
+   "startMs": 43179,
+   "endMs": 43968,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Pizza.",
+   "startMs": 44355,
+   "endMs": 44995,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 45317,
+   "endMs": 45567,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "earned",
+   "startMs": 45567,
+   "endMs": 45817,
+   "line": 13,
+   "emph": true
+  },
+  {
+   "text": "it.",
+   "startMs": 45817,
+   "endMs": 46192,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "Follow",
+   "startMs": 46495,
+   "endMs": 46895,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 46895,
+   "endMs": 47055,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 47055,
+   "endMs": 47285,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 47285,
+   "endMs": 47685,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "trick",
+   "startMs": 47685,
+   "endMs": 47905,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 47905,
+   "endMs": 47975,
+   "line": 14,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 47975,
+   "endMs": 48329,
+   "line": 14,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "hero",
+   "start": 0.1,
+   "end": 3.065
+  },
+  {
+   "speaker": "bit",
+   "start": 3.285,
+   "end": 6.461
+  },
+  {
+   "speaker": "bit",
+   "start": 6.681,
+   "end": 10.439
+  },
+  {
+   "speaker": "bit",
+   "start": 10.659,
+   "end": 13.408
+  },
+  {
+   "speaker": "hero",
+   "start": 13.628,
+   "end": 14.841
+  },
+  {
+   "speaker": "bit",
+   "start": 15.061,
+   "end": 18.733
+  },
+  {
+   "speaker": "bit",
+   "start": 18.953,
+   "end": 20.38
+  },
+  {
+   "speaker": "bit",
+   "start": 20.6,
+   "end": 24.315
+  },
+  {
+   "speaker": "hero",
+   "start": 24.535,
+   "end": 25.769
+  },
+  {
+   "speaker": "bit",
+   "start": 25.989,
+   "end": 30.515
+  },
+  {
+   "speaker": "bit",
+   "start": 30.735,
+   "end": 34.193
+  },
+  {
+   "speaker": "bit",
+   "start": 34.413,
+   "end": 38.083
+  },
+  {
+   "speaker": "hero",
+   "start": 38.303,
+   "end": 41.719
+  },
+  {
+   "speaker": "bit",
+   "start": 41.939,
+   "end": 46.253
+  },
+  {
+   "speaker": "bit",
+   "start": 46.473,
+   "end": 48.391
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser"
+    }
+   ],
+   "speaker": "hero",
+   "start": 0.0,
+   "end": 1.613
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "hero",
+   "start": 1.613,
+   "end": 3.225
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "8 P.M. BRAIN",
+    "sub": "too tired to decide"
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 3.225,
+   "end": 6.621
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 1,
+    "text": "Sunday, 5 minutes."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 6.621,
+   "end": 10.599
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "Plan 5 dinners for one person. Budget $40 total. Reuse ingredients. Give me one shopping list."
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 10.599,
+   "end": 13.568
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "neutral",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 13.568,
+   "end": 15.001
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "compare",
+    "bad": "5 random recipes",
+    "good": "5 dinners that share ingredients"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 15.001,
+   "end": 18.893
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "list",
+    "title": "YOUR WEEK",
+    "items": [
+     "Mon: chicken rice bowl",
+     "Tue: spinach pasta",
+     "Wed: chicken wraps",
+     "Thu: egg fried rice",
+     "Fri: pasta bake"
+    ]
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.3
+    },
+    {
+     "type": "ding",
+     "at": 0.6
+    }
+   ],
+   "speaker": "bit",
+   "start": 18.893,
+   "end": 20.54
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 2,
+    "text": "Make it one shopping list, sorted by aisle."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 20.54,
+   "end": 24.475
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "scared",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 24.475,
+   "end": 25.929
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "scared",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "stat",
+    "label": "CHECK AT THE STORE",
+    "value": 40,
+    "prefix": "$",
+    "sub": "your prices may differ"
+   },
+   "speaker": "bit",
+   "start": 25.929,
+   "end": 30.675
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 3,
+    "text": "Which one can I double and freeze?"
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 30.675,
+   "end": 34.353
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "slots",
+    "title": "THE TRICK",
+    "items": [
+     {
+      "icon": "clock",
+      "label": "PLAN SUNDAY"
+     },
+     {
+      "icon": "lines",
+      "label": "ONE LIST"
+     },
+     {
+      "icon": "check",
+      "label": "COOK TWICE"
+     }
+    ]
+   },
+   "speaker": "bit",
+   "start": 34.353,
+   "end": 38.243
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "hero",
+   "start": 38.243,
+   "end": 40.061
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 3.4,
+     "lift": -950,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "hero",
+   "start": 40.061,
+   "end": 41.879
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "grin",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "SATURDAY: PIZZA",
+    "sub": "earned it"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 41.879,
+   "end": 46.413
+  }
+ ],
+ "endStart": 46.413,
+ "endText": "1 AI TRICK A DAY",
+ "endSub": "Follow so you don't miss tomorrow's",
+ "look": "tips"
+}
