@@ -101,3 +101,4 @@
 | 97 | 2026-11-27 | What If Your Crush Joined the Family Chat? 📱 Part 5 #shorts | what-if: comedy (everyday cringe) (part5) | sources.md | https://youtube.com/shorts/ZqfuZq4vj_o |
 | 98 | 2026-11-27 | What If Clouds Ruined the Comet? ☄️ Part 6 #shorts | what-if: disaster (real history) (part6) | sources.md | https://youtube.com/shorts/VLGnfyXrY3I |
 | 99 | 2026-11-25 | Your Plant Is Dying? Send AI One Photo #shorts | tips: AI (everyday life) (part1) | original fiction | https://youtube.com/shorts/rjJ7vsF10ho |
+| 100 | 2026-11-28 | What If a Solar Storm Hit Today? (Full Story) | what-if: disaster (real history) (full) | sources.md | https://youtu.be/xRrYyE5SBBo |
