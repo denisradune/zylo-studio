@@ -1,0 +1,440 @@
+{
+ "mood": "tech",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "look": "tips",
+ "title": "A Week of Dinners for $40? Let AI Plan It (Part 1)",
+ "seed": 7501,
+ "end": {
+  "text": "1 AI TRICK A DAY",
+  "sub": "Follow so you don't miss tomorrow's"
+ },
+ "lines": [
+  {
+   "speaker": "hero",
+   "say": "Bit, I spend so much on *takeout*. Every single night.",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "sad",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Because at 8 p.m. nobody wants to *think*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "title",
+     "text": "8 P.M. BRAIN",
+     "sub": "too tired to decide"
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "So decide once. On *Sunday*. With AI.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "step",
+     "n": 1,
+     "text": "Sunday, 5 minutes."
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Ask for five dinners. Give it a *budget*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "chat",
+     "from": "hero",
+     "text": "Plan 5 dinners for one person. Budget $40 total. Reuse ingredients. Give me one shopping list."
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Why *reuse* ingredients?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Half a bag of spinach rots. Reuse it, and you waste *nothing*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "neutral",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "compare",
+     "bad": "5 random recipes",
+     "good": "5 dinners that share ingredients"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Now it plans the *week*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "list",
+     "title": "YOUR WEEK",
+     "items": [
+      "Mon: chicken rice bowl",
+      "Tue: spinach pasta",
+      "Wed: chicken wraps",
+      "Thu: egg fried rice",
+      "Fri: pasta bake"
+     ]
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.3
+     },
+     {
+      "type": "ding",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Step two. One *shopping list*. Sorted by aisle.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "step",
+     "n": 2,
+     "text": "Make it one shopping list, sorted by aisle."
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "But are the prices *right*?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "scared",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Not always. Prices change by store. So check the *total*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "scared",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "stat",
+     "label": "CHECK AT THE STORE",
+     "value": 40,
+     "prefix": "$",
+     "sub": "your prices may differ"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Step three. Ask: which dinner can I cook *twice* and freeze?",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "step",
+     "n": 3,
+     "text": "Which one can I double and freeze?"
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Plan. List. *Freezer*. That's the trick.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "slots",
+     "title": "THE TRICK",
+     "items": [
+      {
+       "icon": "clock",
+       "label": "PLAN SUNDAY"
+      },
+      {
+       "icon": "lines",
+       "label": "ONE LIST"
+      },
+      {
+       "icon": "check",
+       "label": "COOK TWICE"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Friday night. No takeout. I cooked *five times*!",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Proud of you. Saturday? Pizza. You *earned* it.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "grin",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "title",
+     "text": "SATURDAY: PIZZA",
+     "sub": "earned it"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Follow for one AI trick a day.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
