@@ -1,0 +1,409 @@
+{
+ "mood": "tech",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "look": "tips",
+ "title": "You're Paying for Subscriptions You Forgot (Part 1)",
+ "seed": 7601,
+ "end": {
+  "text": "1 AI TRICK A DAY",
+  "sub": "Follow so you don't miss tomorrow's"
+ },
+ "lines": [
+  {
+   "speaker": "hero",
+   "say": "Bit, why is my money *gone* every month?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "sad",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ],
+    "sfx": [
+     {
+      "type": "riser"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Maybe you're paying for things you *forgot*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "sad",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "title",
+     "text": "FORGOTTEN SUBSCRIPTIONS?"
+    },
+    "sfx": [
+     {
+      "type": "buzz"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Step one. Open your banking app. Copy three months of *payments*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "step",
+     "n": 1,
+     "text": "Copy 3 months of card payments."
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "But first: hide card numbers and account *numbers*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "think",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "compare",
+     "bad": "Card 4921 8830 ...",
+     "good": "Card ****  (numbers hidden)"
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Step two. Ask AI to find every *repeating* charge.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "chat",
+     "from": "hero",
+     "text": "Here are my card payments for 3 months (numbers hidden). List every repeating charge, how much per year, and which ones I might not use."
+    },
+    "sfx": [
+     {
+      "type": "tick"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Why ask for the price per *year*?",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "neutral",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Nine ninety-nine sounds small. A hundred twenty a year *doesn't*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "neutral",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "stat",
+     "label": "$9.99 A MONTH =",
+     "value": 120,
+     "prefix": "$",
+     "suffix": " / YEAR",
+     "sub": "per subscription"
+    }
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Now it shows the *list*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "list",
+     "title": "REPEATING CHARGES",
+     "items": [
+      "Music app: $11/mo",
+      "Old gym app: $8/mo",
+      "Cloud storage x2: $6/mo",
+      "Free trial (not free): $15/mo"
+     ]
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     },
+     {
+      "type": "ding",
+      "at": 0.3
+     },
+     {
+      "type": "ding",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Two cloud storages? And a gym app? I don't *go* to the gym!",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "facepalm",
+      "expr": "shocked",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ],
+    "sfx": [
+     {
+      "type": "boom"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Step three. You cancel. Not the AI. *You*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "neutral",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "step",
+     "n": 3,
+     "text": "Cancel in each app or store settings."
+    },
+    "sfx": [
+     {
+      "type": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Ask it how to cancel each one, step by step.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "happy",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "slots",
+     "title": "THE TRICK",
+     "items": [
+      {
+       "icon": "search",
+       "label": "FIND"
+      },
+      {
+       "icon": "money",
+       "label": "PER YEAR"
+      },
+      {
+       "icon": "cross",
+       "label": "CANCEL"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "speaker": "hero",
+   "say": "Three cancelled. That's money back every *month*.",
+   "shot": {
+    "set": {
+     "type": "desk",
+     "view": "close"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "happy",
+      "scale": 3.4,
+      "lift": -950
+     }
+    ],
+    "sfx": [
+     {
+      "type": "powerup"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Don't celebrate yet. One more charge: *zylo premium*.",
+   "shot": {
+    "set": {
+     "type": "desk"
+    },
+    "cast": [
+     {
+      "id": "hero",
+      "x": 0.12,
+      "pose": "sit",
+      "expr": "shocked",
+      "scale": 1.45
+     },
+     {
+      "id": "bit",
+      "x": 0.5,
+      "expr": "smug",
+      "scale": 1.65,
+      "lift": -312
+     }
+    ],
+    "screen": {
+     "kind": "title",
+     "text": "ZYLO PREMIUM?",
+     "sub": "just kidding. zylo is free."
+    },
+    "sfx": [
+     {
+      "type": "ding"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "bit",
+   "say": "Follow for one AI trick a day.",
+   "end": true
+  }
+ ],
+ "minSeconds": 35,
+ "maxSeconds": 90
+}
