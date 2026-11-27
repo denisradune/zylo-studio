@@ -103,3 +103,6 @@
 | 99 | 2026-11-25 | Your Plant Is Dying? Send AI One Photo #shorts | tips: AI (everyday life) (part1) | original fiction | https://youtube.com/shorts/rjJ7vsF10ho |
 | 100 | 2026-11-28 | What If a Solar Storm Hit Today? (Full Story) | what-if: disaster (real history) (full) | sources.md | https://youtu.be/xRrYyE5SBBo |
 | 101 | 2026-11-26 | A Week of Dinners for $40? Let AI Plan It #shorts | tips: AI (everyday life) (part1) | original fiction | https://youtube.com/shorts/cemaGq4x-3U |
+| 102 | 2026-11-29 | What If a Volcano Painted the Sky? 🌋 Part 8 #shorts | what-if: disaster (real history) (part8) | sources.md | https://youtube.com/shorts/IPfViTvTQWY |
+| 103 | 2026-11-29 | What If You Never Sent Your Drafts? 📱 Part 6 #shorts | what-if: comedy (everyday cringe) (part6) | sources.md | https://youtube.com/shorts/T7Sj4-Q00Dg |
+| 104 | 2026-11-29 | What If Your AI Flew Above the Clouds? ☄️ Part 7 #shorts | what-if: disaster (real history) (part7) | sources.md | https://youtube.com/shorts/5v0avboaX8M |
