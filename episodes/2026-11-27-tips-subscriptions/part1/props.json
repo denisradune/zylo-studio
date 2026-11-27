@@ -1,0 +1,1319 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 43.304,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Bit,",
+   "startMs": 100,
+   "endMs": 270,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "why",
+   "startMs": 270,
+   "endMs": 450,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "is",
+   "startMs": 450,
+   "endMs": 560,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 560,
+   "endMs": 730,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "money",
+   "startMs": 730,
+   "endMs": 950,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "gone",
+   "startMs": 950,
+   "endMs": 1140,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "every",
+   "startMs": 1140,
+   "endMs": 1490,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "month?",
+   "startMs": 1490,
+   "endMs": 1871,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "Maybe",
+   "startMs": 2152,
+   "endMs": 2542,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "you're",
+   "startMs": 2542,
+   "endMs": 2702,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "paying",
+   "startMs": 2702,
+   "endMs": 3082,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 3082,
+   "endMs": 3222,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "things",
+   "startMs": 3222,
+   "endMs": 3482,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 3482,
+   "endMs": 3612,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "forgot.",
+   "startMs": 3612,
+   "endMs": 4136,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 4420,
+   "endMs": 4780,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 4780,
+   "endMs": 5252,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Open",
+   "startMs": 5553,
+   "endMs": 5943,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 5943,
+   "endMs": 6153,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "banking",
+   "startMs": 6153,
+   "endMs": 6583,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "app.",
+   "startMs": 6583,
+   "endMs": 6961,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Copy",
+   "startMs": 7263,
+   "endMs": 7603,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "three",
+   "startMs": 7603,
+   "endMs": 7853,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "months",
+   "startMs": 7853,
+   "endMs": 8093,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "of",
+   "startMs": 8093,
+   "endMs": 8173,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "payments.",
+   "startMs": 8173,
+   "endMs": 8777,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "But",
+   "startMs": 9040,
+   "endMs": 9170,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "first:",
+   "startMs": 9170,
+   "endMs": 9660,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "hide",
+   "startMs": 9660,
+   "endMs": 9980,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "card",
+   "startMs": 9980,
+   "endMs": 10290,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "numbers",
+   "startMs": 10290,
+   "endMs": 10740,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "and",
+   "startMs": 10740,
+   "endMs": 10860,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "account",
+   "startMs": 10860,
+   "endMs": 11200,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "numbers.",
+   "startMs": 11200,
+   "endMs": 11749,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 12012,
+   "endMs": 12372,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 12372,
+   "endMs": 12759,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Ask",
+   "startMs": 13060,
+   "endMs": 13300,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 13300,
+   "endMs": 13800,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 13800,
+   "endMs": 13930,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "find",
+   "startMs": 13930,
+   "endMs": 14290,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 14290,
+   "endMs": 14600,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "repeating",
+   "startMs": 14600,
+   "endMs": 15080,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "charge.",
+   "startMs": 15080,
+   "endMs": 15663,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "Why",
+   "startMs": 15904,
+   "endMs": 16094,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "ask",
+   "startMs": 16094,
+   "endMs": 16334,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 16334,
+   "endMs": 16424,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 16424,
+   "endMs": 16554,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "price",
+   "startMs": 16554,
+   "endMs": 16834,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "per",
+   "startMs": 16834,
+   "endMs": 17014,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "year?",
+   "startMs": 17014,
+   "endMs": 17376,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Nine",
+   "startMs": 17657,
+   "endMs": 17997,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "ninety-nine",
+   "startMs": 17997,
+   "endMs": 18667,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "sounds",
+   "startMs": 18667,
+   "endMs": 19017,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "small.",
+   "startMs": 19017,
+   "endMs": 19492,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "A",
+   "startMs": 19796,
+   "endMs": 19936,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "hundred",
+   "startMs": 19936,
+   "endMs": 20326,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "twenty",
+   "startMs": 20326,
+   "endMs": 20716,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 20716,
+   "endMs": 20916,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "year",
+   "startMs": 20916,
+   "endMs": 21146,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "doesn't.",
+   "startMs": 21146,
+   "endMs": 21652,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "Now",
+   "startMs": 21915,
+   "endMs": 22245,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 22245,
+   "endMs": 22305,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "shows",
+   "startMs": 22305,
+   "endMs": 22615,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 22615,
+   "endMs": 22705,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "list.",
+   "startMs": 22705,
+   "endMs": 23216,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Two",
+   "startMs": 23519,
+   "endMs": 23699,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "cloud",
+   "startMs": 23699,
+   "endMs": 23959,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "storages?",
+   "startMs": 23959,
+   "endMs": 24585,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 24972,
+   "endMs": 25032,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 25032,
+   "endMs": 25172,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "gym",
+   "startMs": 25172,
+   "endMs": 25442,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "app?",
+   "startMs": 25442,
+   "endMs": 25783,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 26148,
+   "endMs": 26258,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "don't",
+   "startMs": 26258,
+   "endMs": 26428,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "go",
+   "startMs": 26428,
+   "endMs": 26528,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "to",
+   "startMs": 26528,
+   "endMs": 26588,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 26578,
+   "endMs": 26728,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "gym!",
+   "startMs": 26728,
+   "endMs": 27151,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Step",
+   "startMs": 27517,
+   "endMs": 27827,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 27827,
+   "endMs": 28307,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "You",
+   "startMs": 28651,
+   "endMs": 28811,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "cancel.",
+   "startMs": 28811,
+   "endMs": 29504,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "Not",
+   "startMs": 29805,
+   "endMs": 30095,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 30095,
+   "endMs": 30195,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "AI.",
+   "startMs": 30195,
+   "endMs": 30893,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "You.",
+   "startMs": 31216,
+   "endMs": 31678,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Ask",
+   "startMs": 31898,
+   "endMs": 32188,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 32188,
+   "endMs": 32308,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "how",
+   "startMs": 32308,
+   "endMs": 32498,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 32498,
+   "endMs": 32588,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "cancel",
+   "startMs": 32588,
+   "endMs": 32978,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "each",
+   "startMs": 32978,
+   "endMs": 33278,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "one,",
+   "startMs": 33278,
+   "endMs": 33578,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "step",
+   "startMs": 33578,
+   "endMs": 33938,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "by",
+   "startMs": 33938,
+   "endMs": 34158,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "step.",
+   "startMs": 34158,
+   "endMs": 34522,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Three",
+   "startMs": 34824,
+   "endMs": 35014,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "cancelled.",
+   "startMs": 35014,
+   "endMs": 35614,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "That's",
+   "startMs": 35936,
+   "endMs": 36146,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "money",
+   "startMs": 36146,
+   "endMs": 36336,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "back",
+   "startMs": 36336,
+   "endMs": 36546,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "every",
+   "startMs": 36546,
+   "endMs": 36846,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "month.",
+   "startMs": 36846,
+   "endMs": 37238,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "Don't",
+   "startMs": 37540,
+   "endMs": 37870,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "celebrate",
+   "startMs": 37870,
+   "endMs": 38350,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "yet.",
+   "startMs": 38350,
+   "endMs": 38842,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "One",
+   "startMs": 39143,
+   "endMs": 39383,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "more",
+   "startMs": 39383,
+   "endMs": 39573,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "charge:",
+   "startMs": 39573,
+   "endMs": 40113,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "zylo",
+   "startMs": 40113,
+   "endMs": 40543,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "premium.",
+   "startMs": 40543,
+   "endMs": 41106,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 41408,
+   "endMs": 41808,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 41808,
+   "endMs": 41968,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 41968,
+   "endMs": 42198,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 42198,
+   "endMs": 42598,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "trick",
+   "startMs": 42598,
+   "endMs": 42818,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 42818,
+   "endMs": 42888,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 42888,
+   "endMs": 43243,
+   "line": 13,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "hero",
+   "start": 0.1,
+   "end": 1.932
+  },
+  {
+   "speaker": "bit",
+   "start": 2.152,
+   "end": 4.179
+  },
+  {
+   "speaker": "bit",
+   "start": 4.399,
+   "end": 8.82
+  },
+  {
+   "speaker": "bit",
+   "start": 9.04,
+   "end": 11.771
+  },
+  {
+   "speaker": "bit",
+   "start": 11.991,
+   "end": 15.684
+  },
+  {
+   "speaker": "hero",
+   "start": 15.904,
+   "end": 17.437
+  },
+  {
+   "speaker": "bit",
+   "start": 17.657,
+   "end": 21.695
+  },
+  {
+   "speaker": "bit",
+   "start": 21.915,
+   "end": 23.277
+  },
+  {
+   "speaker": "hero",
+   "start": 23.497,
+   "end": 27.255
+  },
+  {
+   "speaker": "bit",
+   "start": 27.475,
+   "end": 31.678
+  },
+  {
+   "speaker": "bit",
+   "start": 31.898,
+   "end": 34.583
+  },
+  {
+   "speaker": "hero",
+   "start": 34.803,
+   "end": 37.299
+  },
+  {
+   "speaker": "bit",
+   "start": 37.519,
+   "end": 41.167
+  },
+  {
+   "speaker": "bit",
+   "start": 41.387,
+   "end": 43.304
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "sad",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser"
+    }
+   ],
+   "speaker": "hero",
+   "start": 0.0,
+   "end": 2.092
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "sad",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "FORGOTTEN SUBSCRIPTIONS?"
+   },
+   "sfx": [
+    {
+     "type": "buzz"
+    }
+   ],
+   "speaker": "bit",
+   "start": 2.092,
+   "end": 4.339
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 1,
+    "text": "Copy 3 months of card payments."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 4.339,
+   "end": 8.98
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "compare",
+    "bad": "Card 4921 8830 ...",
+    "good": "Card ****  (numbers hidden)"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 8.98,
+   "end": 11.931
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "Here are my card payments for 3 months (numbers hidden). List every repeating charge, how much per year, and which ones I might not use."
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 11.931,
+   "end": 15.844
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "neutral",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 15.844,
+   "end": 17.597
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "stat",
+    "label": "$9.99 A MONTH =",
+    "value": 120,
+    "prefix": "$",
+    "suffix": " / YEAR",
+    "sub": "per subscription"
+   },
+   "speaker": "bit",
+   "start": 17.597,
+   "end": 21.855
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "list",
+    "title": "REPEATING CHARGES",
+    "items": [
+     "Music app: $11/mo",
+     "Old gym app: $8/mo",
+     "Cloud storage x2: $6/mo",
+     "Free trial (not free): $15/mo"
+    ]
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.3
+    },
+    {
+     "type": "ding",
+     "at": 0.6
+    }
+   ],
+   "speaker": "bit",
+   "start": 21.855,
+   "end": 23.437
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "shocked",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "boom"
+    }
+   ],
+   "speaker": "hero",
+   "start": 23.437,
+   "end": 25.426
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "facepalm",
+     "expr": "shocked",
+     "scale": 3.4,
+     "lift": -950,
+     "enter": "none"
+    }
+   ],
+   "sfx": [],
+   "camera": {
+    "zoom": 1.3,
+    "x": 0.5,
+    "y": 0.55,
+    "push": 0.04
+   },
+   "transition": "cut",
+   "fx": [],
+   "speaker": "hero",
+   "start": 25.426,
+   "end": 27.415
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 3,
+    "text": "Cancel in each app or store settings."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 27.415,
+   "end": 31.838
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "slots",
+    "title": "THE TRICK",
+    "items": [
+     {
+      "icon": "search",
+      "label": "FIND"
+     },
+     {
+      "icon": "money",
+      "label": "PER YEAR"
+     },
+     {
+      "icon": "cross",
+      "label": "CANCEL"
+     }
+    ]
+   },
+   "speaker": "bit",
+   "start": 31.838,
+   "end": 34.743
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "hero",
+   "start": 34.743,
+   "end": 37.459
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "shocked",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "ZYLO PREMIUM?",
+    "sub": "just kidding. zylo is free."
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 37.459,
+   "end": 41.327
+  }
+ ],
+ "endStart": 41.327,
+ "endText": "1 AI TRICK A DAY",
+ "endSub": "Follow so you don't miss tomorrow's",
+ "look": "tips"
+}
