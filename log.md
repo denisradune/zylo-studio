@@ -106,3 +106,4 @@
 | 102 | 2026-11-29 | What If a Volcano Painted the Sky? 🌋 Part 8 #shorts | what-if: disaster (real history) (part8) | sources.md | https://youtube.com/shorts/IPfViTvTQWY |
 | 103 | 2026-11-29 | What If You Never Sent Your Drafts? 📱 Part 6 #shorts | what-if: comedy (everyday cringe) (part6) | sources.md | https://youtube.com/shorts/T7Sj4-Q00Dg |
 | 104 | 2026-11-29 | What If Your AI Flew Above the Clouds? ☄️ Part 7 #shorts | what-if: disaster (real history) (part7) | sources.md | https://youtube.com/shorts/5v0avboaX8M |
+| 105 | 2026-11-27 | You're Paying for Subscriptions You Forgot #shorts | tips: AI (money) (part1) | original fiction | https://youtube.com/shorts/9jsMHr9JNdk |
