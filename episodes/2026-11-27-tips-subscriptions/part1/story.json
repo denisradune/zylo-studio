@@ -200,10 +200,9 @@
     ],
     "screen": {
      "kind": "stat",
-     "label": "$9.99 A MONTH =",
+     "label": "$9.99 A MONTH = A YEAR",
      "value": 120,
      "prefix": "$",
-     "suffix": " / YEAR",
      "sub": "per subscription"
     }
    }
