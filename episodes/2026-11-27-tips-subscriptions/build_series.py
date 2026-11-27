@@ -29,7 +29,7 @@ lines = [
  L("bit", "But first: hide card numbers and account *numbers*.", **W({"kind": "compare", "bad": "Card 4921 8830 ...", "good": "Card ****  (numbers hidden)"}, "think"), sfx=DING),
  L("bit", "Step two. Ask AI to find every *repeating* charge.", **W({"kind": "chat", "from": "hero", "text": P}, "neutral"), sfx=TICK),
  L("hero", "Why ask for the price per *year*?", CLOSE, [face("neutral", "think")]),
- L("bit", "Nine ninety-nine sounds small. A hundred twenty a year *doesn't*.", **W({"kind": "stat", "label": "$9.99 A MONTH = A YEAR", "value": 120, "prefix": "$", "sub": "per subscription"}, "smug", "neutral")),
+ L("bit", "Nine ninety-nine sounds small. A hundred twenty a year *doesn't*.", **W({"kind": "stat", "label": "PER YEAR", "value": 120, "prefix": "$", "sub": "just $9.99 a month"}, "smug", "neutral")),
  L("bit", "Now it shows the *list*.", **W({"kind": "list", "title": "REPEATING CHARGES", "items": ["Music app: $11/mo", "Old gym app: $8/mo", "Cloud storage x2: $6/mo", "Free trial (not free): $15/mo"]}, "happy"), sfx=[{"type": "ding"}, {"type": "ding", "at": .3}, {"type": "ding", "at": .6}]),
  L("hero", "Two cloud storages? And a gym app? I don't *go* to the gym!", CLOSE, [face("shocked", "facepalm")], sfx=[{"type": "boom"}]),
  L("bit", "Step three. You cancel. Not the AI. *You*.", **W({"kind": "step", "n": 3, "text": "Cancel in each app or store settings."}, "neutral"), sfx=POP),
