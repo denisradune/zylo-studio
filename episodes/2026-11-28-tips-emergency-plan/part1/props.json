@@ -1,0 +1,1303 @@
+{
+ "voiceover": "audio/voiceover.mp3",
+ "voiceoverSeconds": 37.96,
+ "tailSeconds": 0.8,
+ "words": [
+  {
+   "text": "Bit,",
+   "startMs": 100,
+   "endMs": 280,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "what",
+   "startMs": 280,
+   "endMs": 520,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "if",
+   "startMs": 520,
+   "endMs": 580,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 560,
+   "endMs": 650,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "power",
+   "startMs": 650,
+   "endMs": 960,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "goes",
+   "startMs": 960,
+   "endMs": 1140,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "out",
+   "startMs": 1140,
+   "endMs": 1360,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 1360,
+   "endMs": 1470,
+   "line": 0,
+   "emph": false
+  },
+  {
+   "text": "three",
+   "startMs": 1470,
+   "endMs": 1690,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "days?",
+   "startMs": 1690,
+   "endMs": 2169,
+   "line": 0,
+   "emph": true
+  },
+  {
+   "text": "Most",
+   "startMs": 2451,
+   "endMs": 2821,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "people",
+   "startMs": 2821,
+   "endMs": 3181,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 3181,
+   "endMs": 3361,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "no",
+   "startMs": 3361,
+   "endMs": 3611,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "plan.",
+   "startMs": 3611,
+   "endMs": 4051,
+   "line": 1,
+   "emph": true
+  },
+  {
+   "text": "Let's",
+   "startMs": 4373,
+   "endMs": 4723,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "fix",
+   "startMs": 4723,
+   "endMs": 4983,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "that",
+   "startMs": 4983,
+   "endMs": 5173,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 5173,
+   "endMs": 5353,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "ten",
+   "startMs": 5353,
+   "endMs": 5583,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "minutes.",
+   "startMs": 5583,
+   "endMs": 6080,
+   "line": 1,
+   "emph": false
+  },
+  {
+   "text": "Step",
+   "startMs": 6361,
+   "endMs": 6721,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "one.",
+   "startMs": 6721,
+   "endMs": 7193,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "Tell",
+   "startMs": 7495,
+   "endMs": 7745,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 7745,
+   "endMs": 8235,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "who",
+   "startMs": 8235,
+   "endMs": 8365,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "lives",
+   "startMs": 8365,
+   "endMs": 8585,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "in",
+   "startMs": 8585,
+   "endMs": 8685,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 8685,
+   "endMs": 8855,
+   "line": 2,
+   "emph": false
+  },
+  {
+   "text": "home.",
+   "startMs": 8855,
+   "endMs": 9223,
+   "line": 2,
+   "emph": true
+  },
+  {
+   "text": "Why",
+   "startMs": 9504,
+   "endMs": 9734,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "does",
+   "startMs": 9734,
+   "endMs": 9834,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 9834,
+   "endMs": 9934,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "need",
+   "startMs": 9934,
+   "endMs": 10114,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "to",
+   "startMs": 10114,
+   "endMs": 10244,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "know",
+   "startMs": 10244,
+   "endMs": 10324,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "about",
+   "startMs": 10324,
+   "endMs": 10484,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "my",
+   "startMs": 10484,
+   "endMs": 10714,
+   "line": 3,
+   "emph": false
+  },
+  {
+   "text": "cat?",
+   "startMs": 10714,
+   "endMs": 11125,
+   "line": 3,
+   "emph": true
+  },
+  {
+   "text": "Because",
+   "startMs": 11471,
+   "endMs": 11771,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 11771,
+   "endMs": 11861,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "cat",
+   "startMs": 11861,
+   "endMs": 12081,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "needs",
+   "startMs": 12081,
+   "endMs": 12401,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "water",
+   "startMs": 12401,
+   "endMs": 12761,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "and",
+   "startMs": 12761,
+   "endMs": 12931,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "food",
+   "startMs": 12931,
+   "endMs": 13171,
+   "line": 4,
+   "emph": false
+  },
+  {
+   "text": "too.",
+   "startMs": 13171,
+   "endMs": 13583,
+   "line": 4,
+   "emph": true
+  },
+  {
+   "text": "Now",
+   "startMs": 13864,
+   "endMs": 14194,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 14194,
+   "endMs": 14324,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "get",
+   "startMs": 14324,
+   "endMs": 14474,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 14474,
+   "endMs": 14604,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "real",
+   "startMs": 14604,
+   "endMs": 14874,
+   "line": 5,
+   "emph": false
+  },
+  {
+   "text": "checklist.",
+   "startMs": 14874,
+   "endMs": 15528,
+   "line": 5,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 15812,
+   "endMs": 16172,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "two.",
+   "startMs": 16172,
+   "endMs": 16559,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "Ask:",
+   "startMs": 16860,
+   "endMs": 17250,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "what",
+   "startMs": 17250,
+   "endMs": 17440,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "do",
+   "startMs": 17440,
+   "endMs": 17520,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 17520,
+   "endMs": 17610,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "already",
+   "startMs": 17610,
+   "endMs": 17930,
+   "line": 6,
+   "emph": true
+  },
+  {
+   "text": "have?",
+   "startMs": 17930,
+   "endMs": 18396,
+   "line": 6,
+   "emph": false
+  },
+  {
+   "text": "So",
+   "startMs": 18659,
+   "endMs": 18899,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 18899,
+   "endMs": 19009,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "only",
+   "startMs": 19009,
+   "endMs": 19369,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "buy",
+   "startMs": 19369,
+   "endMs": 19639,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "what's",
+   "startMs": 19639,
+   "endMs": 19859,
+   "line": 7,
+   "emph": false
+  },
+  {
+   "text": "missing.",
+   "startMs": 19859,
+   "endMs": 20344,
+   "line": 7,
+   "emph": true
+  },
+  {
+   "text": "Step",
+   "startMs": 20668,
+   "endMs": 20978,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "three.",
+   "startMs": 20978,
+   "endMs": 21457,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "A",
+   "startMs": 21801,
+   "endMs": 21961,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "meeting",
+   "startMs": 21961,
+   "endMs": 22311,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "point.",
+   "startMs": 22311,
+   "endMs": 22847,
+   "line": 8,
+   "emph": true
+  },
+  {
+   "text": "If",
+   "startMs": 23148,
+   "endMs": 23328,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "phones",
+   "startMs": 23328,
+   "endMs": 23628,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 23628,
+   "endMs": 23738,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "down,",
+   "startMs": 23738,
+   "endMs": 24138,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "where",
+   "startMs": 24138,
+   "endMs": 24258,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "do",
+   "startMs": 24258,
+   "endMs": 24318,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "you",
+   "startMs": 24278,
+   "endMs": 24498,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "meet?",
+   "startMs": 24498,
+   "endMs": 24897,
+   "line": 8,
+   "emph": false
+  },
+  {
+   "text": "Can",
+   "startMs": 25179,
+   "endMs": 25279,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "I",
+   "startMs": 25279,
+   "endMs": 25439,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "trust",
+   "startMs": 25439,
+   "endMs": 25659,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 25659,
+   "endMs": 25779,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "AI's",
+   "startMs": 25779,
+   "endMs": 26129,
+   "line": 9,
+   "emph": false
+  },
+  {
+   "text": "plan?",
+   "startMs": 26129,
+   "endMs": 26501,
+   "line": 9,
+   "emph": true
+  },
+  {
+   "text": "Use",
+   "startMs": 26804,
+   "endMs": 27084,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "it",
+   "startMs": 27084,
+   "endMs": 27224,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "as",
+   "startMs": 27224,
+   "endMs": 27344,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 27344,
+   "endMs": 27474,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "start.",
+   "startMs": 27474,
+   "endMs": 28020,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Then",
+   "startMs": 28343,
+   "endMs": 28583,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "check",
+   "startMs": 28583,
+   "endMs": 28893,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "your",
+   "startMs": 28893,
+   "endMs": 29003,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "local",
+   "startMs": 29003,
+   "endMs": 29303,
+   "line": 10,
+   "emph": true
+  },
+  {
+   "text": "official",
+   "startMs": 29303,
+   "endMs": 29723,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "guidance.",
+   "startMs": 29723,
+   "endMs": 30369,
+   "line": 10,
+   "emph": false
+  },
+  {
+   "text": "Ten",
+   "startMs": 30653,
+   "endMs": 30853,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "minutes.",
+   "startMs": 30853,
+   "endMs": 31293,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 31616,
+   "endMs": 31766,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "now",
+   "startMs": 31766,
+   "endMs": 31956,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "we",
+   "startMs": 31956,
+   "endMs": 32046,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "have",
+   "startMs": 32046,
+   "endMs": 32106,
+   "line": 11,
+   "emph": true
+  },
+  {
+   "text": "a",
+   "startMs": 32096,
+   "endMs": 32236,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "plan.",
+   "startMs": 32236,
+   "endMs": 32619,
+   "line": 11,
+   "emph": false
+  },
+  {
+   "text": "And",
+   "startMs": 32985,
+   "endMs": 33175,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "the",
+   "startMs": 33175,
+   "endMs": 33265,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "cat",
+   "startMs": 33265,
+   "endMs": 33585,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "approves.",
+   "startMs": 33585,
+   "endMs": 34223,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "The",
+   "startMs": 34524,
+   "endMs": 34644,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "snacks",
+   "startMs": 34644,
+   "endMs": 35094,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "are",
+   "startMs": 35094,
+   "endMs": 35244,
+   "line": 12,
+   "emph": false
+  },
+  {
+   "text": "hers.",
+   "startMs": 35244,
+   "endMs": 35761,
+   "line": 12,
+   "emph": true
+  },
+  {
+   "text": "Follow",
+   "startMs": 36064,
+   "endMs": 36464,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "for",
+   "startMs": 36464,
+   "endMs": 36624,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "one",
+   "startMs": 36624,
+   "endMs": 36854,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "AI",
+   "startMs": 36854,
+   "endMs": 37254,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "trick",
+   "startMs": 37254,
+   "endMs": 37474,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "a",
+   "startMs": 37474,
+   "endMs": 37544,
+   "line": 13,
+   "emph": false
+  },
+  {
+   "text": "day.",
+   "startMs": 37544,
+   "endMs": 37899,
+   "line": 13,
+   "emph": false
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "hero",
+   "start": 0.1,
+   "end": 2.209
+  },
+  {
+   "speaker": "bit",
+   "start": 2.429,
+   "end": 6.12
+  },
+  {
+   "speaker": "bit",
+   "start": 6.34,
+   "end": 9.284
+  },
+  {
+   "speaker": "hero",
+   "start": 9.504,
+   "end": 11.251
+  },
+  {
+   "speaker": "bit",
+   "start": 11.471,
+   "end": 13.623
+  },
+  {
+   "speaker": "bit",
+   "start": 13.843,
+   "end": 15.571
+  },
+  {
+   "speaker": "bit",
+   "start": 15.791,
+   "end": 18.439
+  },
+  {
+   "speaker": "bit",
+   "start": 18.659,
+   "end": 20.405
+  },
+  {
+   "speaker": "bit",
+   "start": 20.625,
+   "end": 24.937
+  },
+  {
+   "speaker": "hero",
+   "start": 25.157,
+   "end": 26.563
+  },
+  {
+   "speaker": "bit",
+   "start": 26.783,
+   "end": 30.412
+  },
+  {
+   "speaker": "hero",
+   "start": 30.632,
+   "end": 32.744
+  },
+  {
+   "speaker": "bit",
+   "start": 32.964,
+   "end": 35.823
+  },
+  {
+   "speaker": "bit",
+   "start": 36.043,
+   "end": 37.96
+  }
+ ],
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "music": "audio/music.mp3",
+ "musicVolume": 0.15,
+ "shots": [
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "scared",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser"
+    }
+   ],
+   "speaker": "hero",
+   "start": 0.0,
+   "end": 2.369
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "scared",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "NO POWER. 3 DAYS.",
+    "sub": "do you have a plan?"
+   },
+   "sfx": [
+    {
+     "type": "alarm"
+    }
+   ],
+   "speaker": "bit",
+   "start": 2.369,
+   "end": 6.28
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "chat",
+    "from": "hero",
+    "text": "Make a 3-day power outage plan for my home: 2 adults, 1 cat, small apartment. Checklist, what to buy, where to meet."
+   },
+   "sfx": [
+    {
+     "type": "tick"
+    }
+   ],
+   "speaker": "bit",
+   "start": 6.28,
+   "end": 9.444
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "shrug",
+     "expr": "neutral",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 9.444,
+   "end": 11.411
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "neutral",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "compare",
+    "bad": "Make an emergency plan",
+    "good": "Plan for 2 adults, 1 cat, small apartment"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 11.411,
+   "end": 13.783
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "list",
+    "title": "3-DAY KIT",
+    "items": [
+     "Water for everyone (+ cat)",
+     "Food you don't need to cook",
+     "Flashlight + batteries",
+     "Power bank, charged"
+    ]
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    },
+    {
+     "type": "ding",
+     "at": 0.3
+    },
+    {
+     "type": "ding",
+     "at": 0.6
+    }
+   ],
+   "speaker": "bit",
+   "start": 13.783,
+   "end": 15.731
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 2,
+    "text": "Here's what's in my kitchen. What's missing?"
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 15.731,
+   "end": 18.599
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "happy",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "cards",
+    "n": 6,
+    "mark": "?",
+    "pick": 2
+   },
+   "sfx": [
+    {
+     "type": "whoosh"
+    }
+   ],
+   "speaker": "bit",
+   "start": 18.599,
+   "end": 20.565
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "neutral",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "step",
+    "n": 3,
+    "text": "No signal? Meet at the library."
+   },
+   "sfx": [
+    {
+     "type": "pop"
+    }
+   ],
+   "speaker": "bit",
+   "start": 20.565,
+   "end": 25.097
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "think",
+     "expr": "scared",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "speaker": "hero",
+   "start": 25.097,
+   "end": 26.723
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "think",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "slots",
+    "title": "THE TRICK",
+    "items": [
+     {
+      "icon": "chat",
+      "label": "WHO LIVES HERE"
+     },
+     {
+      "icon": "check",
+      "label": "WHAT'S MISSING"
+     },
+     {
+      "icon": "search",
+      "label": "CHECK OFFICIAL"
+     }
+    ]
+   },
+   "speaker": "bit",
+   "start": 26.723,
+   "end": 30.572
+  },
+  {
+   "set": {
+    "type": "desk",
+    "view": "close"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.5,
+     "pose": "cheer",
+     "expr": "happy",
+     "scale": 3.4,
+     "lift": -950
+    }
+   ],
+   "sfx": [
+    {
+     "type": "powerup"
+    }
+   ],
+   "speaker": "hero",
+   "start": 30.572,
+   "end": 32.904
+  },
+  {
+   "set": {
+    "type": "desk"
+   },
+   "cast": [
+    {
+     "id": "hero",
+     "x": 0.12,
+     "pose": "sit",
+     "expr": "grin",
+     "scale": 1.45
+    },
+    {
+     "id": "bit",
+     "x": 0.5,
+     "expr": "smug",
+     "scale": 1.65,
+     "lift": -312
+    }
+   ],
+   "screen": {
+    "kind": "title",
+    "text": "CAT APPROVED",
+    "sub": "snacks reserved"
+   },
+   "sfx": [
+    {
+     "type": "ding"
+    }
+   ],
+   "speaker": "bit",
+   "start": 32.904,
+   "end": 35.983
+  }
+ ],
+ "endStart": 35.983,
+ "endText": "1 AI TRICK A DAY",
+ "endSub": "Follow so you don't miss tomorrow's",
+ "look": "tips"
+}
