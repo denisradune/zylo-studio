@@ -328,15 +328,15 @@
        "items": [
         {
          "icon": "chat",
-         "label": "WHO LIVES HERE"
+         "label": "WHO"
         },
         {
          "icon": "check",
-         "label": "WHAT'S MISSING"
+         "label": "MISSING"
         },
         {
          "icon": "search",
-         "label": "CHECK OFFICIAL"
+         "label": "OFFICIAL"
         }
        ]
       }

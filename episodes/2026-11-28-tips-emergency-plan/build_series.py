@@ -33,7 +33,7 @@ lines = [
  L("bit", "So you only buy what's *missing*.", **W({"kind": "cards", "n": 6, "mark": "?", "pick": 2}, "happy"), sfx=[{"type": "whoosh"}]),
  L("bit", "Step three. A *meeting point*. If phones are down, where do you meet?", **W({"kind": "step", "n": 3, "text": "No signal? Meet at the library."}, "neutral"), sfx=POP),
  L("hero", "Can I trust the AI's *plan*?", CLOSE, [face("scared", "think")]),
- L("bit", "Use it as a start. Then check your *local* official guidance.", **W({"kind": "slots", "title": "THE TRICK", "items": [{"icon": "chat", "label": "WHO LIVES HERE"}, {"icon": "check", "label": "WHAT'S MISSING"}, {"icon": "search", "label": "CHECK OFFICIAL"}]}, "think")),
+ L("bit", "Use it as a start. Then check your *local* official guidance.", **W({"kind": "slots", "title": "THE TRICK", "items": [{"icon": "chat", "label": "WHO"}, {"icon": "check", "label": "MISSING"}, {"icon": "search", "label": "OFFICIAL"}]}, "think")),
  L("hero", "Ten minutes. And now we *have* a plan.", CLOSE, [face("happy", "cheer")], sfx=[{"type": "powerup"}]),
  L("bit", "And the cat approves. The snacks are *hers*.", **W({"kind": "title", "text": "CAT APPROVED", "sub": "snacks reserved"}, "smug", "grin"), sfx=[{"type": "ding"}]),
  {"speaker": "bit", "say": "Follow for one AI trick a day.", "end": True},
