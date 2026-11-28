@@ -108,3 +108,4 @@
 | 104 | 2026-11-29 | What If Your AI Flew Above the Clouds? ☄️ Part 7 #shorts | what-if: disaster (real history) (part7) | sources.md | https://youtube.com/shorts/5v0avboaX8M |
 | 105 | 2026-11-27 | You're Paying for Subscriptions You Forgot #shorts | tips: AI (money) (part1) | original fiction | https://youtube.com/shorts/9jsMHr9JNdk |
 | 106 | 2026-11-30 | What If the Loudest Sound Ever Happened Today? (Full Story) | what-if: disaster (real history) (full) | sources.md | https://youtu.be/-zEmX0VacuE |
+| 107 | 2026-11-28 | What If the Power Went Out for 3 Days? Ask AI #shorts | tips: AI (disaster prep) (part1) | original fiction | https://youtube.com/shorts/Y88GVE5_VUA |
