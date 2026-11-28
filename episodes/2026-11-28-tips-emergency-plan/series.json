@@ -1,0 +1,413 @@
+{
+ "title": "Power Out for 3 Days? Make an AI Plan",
+ "rubric": "tips: AI (disaster prep)",
+ "mood": "tech",
+ "seed": 7700,
+ "standalone": true,
+ "look": "tips",
+ "names": {
+  "hero": "JAY",
+  "bit": "BIT"
+ },
+ "finale": {
+  "text": "1 AI TRICK A DAY",
+  "sub": "Follow so you don't miss tomorrow's"
+ },
+ "parts": [
+  {
+   "title": "Emergency Plan",
+   "lines": [
+    {
+     "speaker": "hero",
+     "say": "Bit, what if the power goes out for *three days*?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "scared",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "riser"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Most people have *no plan*. Let's fix that in ten minutes.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "scared",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "title",
+       "text": "NO POWER. 3 DAYS.",
+       "sub": "do you have a plan?"
+      },
+      "sfx": [
+       {
+        "type": "alarm"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step one. Tell AI who lives in your *home*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "chat",
+       "from": "hero",
+       "text": "Make a 3-day power outage plan for my home: 2 adults, 1 cat, small apartment. Checklist, what to buy, where to meet."
+      },
+      "sfx": [
+       {
+        "type": "tick"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Why does it need to know about my *cat*?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "shrug",
+        "expr": "neutral",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Because the cat needs water and food *too*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "neutral",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "compare",
+       "bad": "Make an emergency plan",
+       "good": "Plan for 2 adults, 1 cat, small apartment"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Now you get a real *checklist*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "list",
+       "title": "3-DAY KIT",
+       "items": [
+        "Water for everyone (+ cat)",
+        "Food you don't need to cook",
+        "Flashlight + batteries",
+        "Power bank, charged"
+       ]
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       },
+       {
+        "type": "ding",
+        "at": 0.3
+       },
+       {
+        "type": "ding",
+        "at": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step two. Ask: what do I *already* have?",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 2,
+       "text": "Here's what's in my kitchen. What's missing?"
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "So you only buy what's *missing*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "happy",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "cards",
+       "n": 6,
+       "mark": "?",
+       "pick": 2
+      },
+      "sfx": [
+       {
+        "type": "whoosh"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Step three. A *meeting point*. If phones are down, where do you meet?",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "neutral",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "step",
+       "n": 3,
+       "text": "No signal? Meet at the library."
+      },
+      "sfx": [
+       {
+        "type": "pop"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Can I trust the AI's *plan*?",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "think",
+        "expr": "scared",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Use it as a start. Then check your *local* official guidance.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "think",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "slots",
+       "title": "THE TRICK",
+       "items": [
+        {
+         "icon": "chat",
+         "label": "WHO LIVES HERE"
+        },
+        {
+         "icon": "check",
+         "label": "WHAT'S MISSING"
+        },
+        {
+         "icon": "search",
+         "label": "CHECK OFFICIAL"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "speaker": "hero",
+     "say": "Ten minutes. And now we *have* a plan.",
+     "shot": {
+      "set": {
+       "type": "desk",
+       "view": "close"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.5,
+        "pose": "cheer",
+        "expr": "happy",
+        "scale": 3.4,
+        "lift": -950
+       }
+      ],
+      "sfx": [
+       {
+        "type": "powerup"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "And the cat approves. The snacks are *hers*.",
+     "shot": {
+      "set": {
+       "type": "desk"
+      },
+      "cast": [
+       {
+        "id": "hero",
+        "x": 0.12,
+        "pose": "sit",
+        "expr": "grin",
+        "scale": 1.45
+       },
+       {
+        "id": "bit",
+        "x": 0.5,
+        "expr": "smug",
+        "scale": 1.65,
+        "lift": -312
+       }
+      ],
+      "screen": {
+       "kind": "title",
+       "text": "CAT APPROVED",
+       "sub": "snacks reserved"
+      },
+      "sfx": [
+       {
+        "type": "ding"
+       }
+      ]
+     }
+    },
+    {
+     "speaker": "bit",
+     "say": "Follow for one AI trick a day.",
+     "end": true
+    }
+   ]
+  }
+ ]
+}
